@@ -28,7 +28,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 - :id: 9hLuri8gRGWUksIiIQg8y
   :_meta:
     :content_type_id: tags
@@ -149,7 +149,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -191,7 +191,7 @@
 
     In stepped Datica.
 
-    As a [HITRUST CSF Certified](https://datica.com/platform/compliance/) platform, any issues with trusting an external partner were immediately calmed. "Everyone at MLH put their weapons away and instead started to talk about how to solve problems," David said on stage to the audience.
+    As a [HITRUST CSF Certified](https://datica-2019.netlify.app/platform/compliance/) platform, any issues with trusting an external partner were immediately calmed. "Everyone at MLH put their weapons away and instead started to talk about how to solve problems," David said on stage to the audience.
 
     Datica helped David become a partner to the internal IT and internal security teams. "When I heard that Datica would take direct calls from my security group, I knew I found a partner who could help me be successful," he added.
 
@@ -199,9 +199,9 @@
 
     ![AWS Datica 1](//images.contentful.com/189dvqdsjh46/5WvSbb3tUkkuwEaAQU6y6c/277750e586335f9f46bb63381fd7154f/AWS_Datica_1.jpg?w=1600)
 
-    The session then turned to [Adam Leko, Datica's CTO & CISO](https://datica.com/leadership/). Adam dived into the technical specifics of how the platform worked.
+    The session then turned to [Adam Leko, Datica's CTO & CISO](https://datica-2019.netlify.app/leadership/). Adam dived into the technical specifics of how the platform worked.
 
-    After speaking to the technology we orchestrate in order to achieve HITRUST credibility, Adam spoke to the AWS primitives we enable. Of the 57 AWS Services, 27 are under their Business Associate Agreement. Almost all of the 27 are enabled via the Datica Platform. Adam spoke to the different services, like EC2, VPCs, and so on, but especially how those services are configured within an [enhanced shared responsibility model](https://datica.com/discover/aws-hipaa/).
+    After speaking to the technology we orchestrate in order to achieve HITRUST credibility, Adam spoke to the AWS primitives we enable. Of the 57 AWS Services, 27 are under their Business Associate Agreement. Almost all of the 27 are enabled via the Datica Platform. Adam spoke to the different services, like EC2, VPCs, and so on, but especially how those services are configured within an [enhanced shared responsibility model](https://datica-2019.netlify.app/discover/aws-hipaa/).
 
     <figure>
     <script src="https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_08ebxufc4q seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -246,7 +246,7 @@
     2018.
   :blog_lead: It's the second day of [AWS re:Invent](https://reinvent.awsevents.com/)
     and sessions are in full swing. I was able to attend several healthcare track
-    sessions yesterday ([including Datica's](https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/
+    sessions yesterday ([including Datica's](https://datica-2019.netlify.app/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/
     "Datica's AWS presentation")) and the future looks bright. Healthcare is poised
     to fully embrace the cloud in 2018. The sentiment in the market has changed and
     it truly feels like we're on the edge of a major shift in the approach healthcare
@@ -300,7 +300,7 @@
   :blog_lead: HIPAA regulations create a barrier for makers of digital health products
     to adopt the cloud. Whether you are a digital health startup, a health system,
     payer, or life sciences organization, it takes an enormous amount of work to [get
-    your digital health product off the ground](https://datica.com/dhsf/) while, at
+    your digital health product off the ground](https://datica-2019.netlify.app/dhsf/) while, at
     the same time, achieving and maintaining continuous HIPAA compliance.
   :post: |-
     <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -311,13 +311,13 @@
 
     ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
 
-    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
 
     ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
 
-    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
 
-    This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+    This latest CSF Certification is even more comprehensive [than the last](https://datica-2019.netlify.app/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica-2019.netlify.app/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
 
     <h4 class="text--spaced text-center group">Compliance Facts</h4>
     <div class="row small-up-1 medium-up-3 align-center">
@@ -394,7 +394,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -421,10 +421,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -446,7 +446,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -454,7 +454,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

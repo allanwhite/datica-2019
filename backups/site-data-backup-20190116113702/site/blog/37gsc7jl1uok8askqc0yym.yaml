@@ -60,13 +60,13 @@
 
   ## First, understand compliance
 
-  The first webinar held on September 26th, titled [_"What Really Is Compliance?"_](https://datica.com/webinars/what-really-is-compliance/), walked through the key concepts to understanding compliance in totality. Many of the ideas were pulled from Chapter 2 of our new book, [which is available as a free PDF](https://datica.com/innovation/complete-cloud-compliance-chapter-2/).
+  The first webinar held on September 26th, titled [_"What Really Is Compliance?"_](https://datica-2019.netlify.app/webinars/what-really-is-compliance/), walked through the key concepts to understanding compliance in totality. Many of the ideas were pulled from Chapter 2 of our new book, [which is available as a free PDF](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/).
 
   The webinar really is a crash course of everything you need to know to be on your way to becoming a compliance expert. But if we had to summarize the most prominent theme, it is the general confusion between Privacy, Security, and Compliance.
 
   These three vocabulary terms are very, very different. A consistent mistake or misunderstanding we see is the assumption they are similar or, even worse, the same thing.
 
-  To highlight the differences, let's turn to an Academy entry written by Travis breaking down the [Maturity Model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/).
+  To highlight the differences, let's turn to an Academy entry written by Travis breaking down the [Maturity Model](https://datica-2019.netlify.app/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/).
 
   Regulated companies have rules to follow, like HIPAA Rule § 164.312. They use frameworks like HITRUST CSF to catalog controls mapped to the rules. Each control is then assessed on a scale of 1-5.
 
@@ -94,9 +94,9 @@
 
   ## Second, understand we are in a post-cloud world
 
-  In the second webinar titled [_"How to build your own 3C program"_](https://datica.com/webinars/how-to-build-complete-cloud-compliance-program/), we delve into discussion abstraction, and what that means for compliance.
+  In the second webinar titled [_"How to build your own 3C program"_](https://datica-2019.netlify.app/webinars/how-to-build-complete-cloud-compliance-program/), we delve into discussion abstraction, and what that means for compliance.
 
-  Essentially, most developers on top of public clouds like AWS, Azure, and Google Cloud, are selecting to use managed services provided by the cloud companies themselves. Setting up Postgres ourselves onto a VM isn't fun, so it's better to simply click a button and spin up a managed database like [RDS](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/), [Cosmos DB](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/), or [GCP Cloud SQL](https://datica.com/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/).
+  Essentially, most developers on top of public clouds like AWS, Azure, and Google Cloud, are selecting to use managed services provided by the cloud companies themselves. Setting up Postgres ourselves onto a VM isn't fun, so it's better to simply click a button and spin up a managed database like [RDS](https://datica-2019.netlify.app/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/), [Cosmos DB](https://datica-2019.netlify.app/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/), or [GCP Cloud SQL](https://datica-2019.netlify.app/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/).
 
   In this post-cloud world, though, compliance is tricky. How developers map controls to managed service configuration is hard to understand.
 
@@ -175,7 +175,7 @@
     of cloud computing and healthcare compliance — we've talked with thousands of
     developers and engineers — we've built a portfolio of products that addresses
     these concerns head on. However, even in a world where you're using a product
-    like [Datica's CKS](https://datica.com/compliant-kubernetes-service/), you'll
+    like [Datica's CKS](https://datica-2019.netlify.app/compliant-kubernetes-service/), you'll
     likely have services and systems that live outside of that management layer. Understanding
     how to bring these services up to par in terms of compliance is anything but clear.\n\nIn
     our pursuit of making healthcare compliance more accessible to all, we're releasing
@@ -205,13 +205,13 @@
     [Google Cloud SQL](https://cloud.google.com/sql/) are popular among developers
     for their ease of use, scale and reliability. The demand we’ve received to support
     these services has been tremendous. As a result, the initial release of [Datica
-    CCMS](https://datica.com/cloud-compliance-management-system/) will come with support
+    CCMS](https://datica-2019.netlify.app/cloud-compliance-management-system/) will come with support
     for these three services. The CCMS, coupled with these guides, will provide an
     end to end compliance management structure for your cloud environment.\n\n## Anatomy
     of the guides\n\nThese guides are intended to be step-by-step, opinionated tutorials
     that explain the relevance of a specific configuration within the context of HITRUST.
     For those unfamiliar with HITRUST (and its relationship to HIPAA), please [read
-    through this HITRUST guide](https://datica.com/academy/what-is-hitrust/).\n\nIn
+    through this HITRUST guide](https://datica-2019.netlify.app/academy/what-is-hitrust/).\n\nIn
     these database guides we’ll walk through configuring each database to be HITRUST
     CSF ready and then show how the CCMS will continuously check these configurations
     via REST APIs (which you could programmatically implement yourself). To understand
@@ -233,12 +233,12 @@
     that would give them a programmatic way to ensure that configuration is in place
     (either at a point in time, or on a continuous basis).\n\n## Introducing the first
     three configuration guides\n\n1. [AWS RDS Guide - How to configure RDS to comply
-    with HIPAA and HITRUST](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/)\n2.
-    [Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA and HITRUST](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)\n3.
+    with HIPAA and HITRUST](https://datica-2019.netlify.app/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/)\n2.
+    [Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA and HITRUST](https://datica-2019.netlify.app/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)\n3.
     [Google Cloud SQL Guide - How to configure GCP Cloud SQL to comply with HIPAA
-    and HITRUST](https://datica.com/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/)\n`\n\n##
+    and HITRUST](https://datica-2019.netlify.app/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/)\n`\n\n##
     What's on your wish list?\n\nWe treasure feedback from developers like you and
-    want to know which cloud services matter to you. [Fill out a survey here](https://datica.com/cloud-compliance-management-system/survey/)
+    want to know which cloud services matter to you. [Fill out a survey here](https://datica-2019.netlify.app/cloud-compliance-management-system/survey/)
     to let us know which services you use as part of your product that need to be
     configured for HITRUST compliance. \n\n\n"
   :featured_image:
@@ -275,7 +275,7 @@
     The truth is, it’s an expensive process — not just the first time you do it but
     on an ongoing basis. To maintain a HITRUST Certification takes a lot of people
     hours and [real dollars for 3rd party assessors](https://hitrustalliance.net/csf-assessors/)
-    and to HITRUST itself. That said, there is a [clear ROI](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)
+    and to HITRUST itself. That said, there is a [clear ROI](https://datica-2019.netlify.app/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)
     with leveraging HITRUST as your anchoring compliance framework.
 
 '
@@ -289,14 +289,14 @@
     in the context of Datica.\n\nAt Datica, we built our initial compliance program,
     from policies through implementation (link to academy post on maturity model),
     for healthcare and specifically to meet HITRUST CSF controls. This was five years
-    ago. We’ve since leveraged the HITRUST CSF for [SOC2](https://datica.com/academy/soc-2-type-ii-compliance-for-cloud-computing/)
-    and most recently [GDPR assessments](https://datica.com/guide/gdpr-compliance/).
+    ago. We’ve since leveraged the HITRUST CSF for [SOC2](https://datica-2019.netlify.app/academy/soc-2-type-ii-compliance-for-cloud-computing/)
+    and most recently [GDPR assessments](https://datica-2019.netlify.app/guide/gdpr-compliance/).
     As the HITRUST CSF has matured, our compliance posture has matured along with
     it. And the entire process of working with HITRUST has shaped all of our internal
     activities, from product to marketing and sales.\n\nTo fully appreciate the internal
     ROI we get from HITRUST, the example of our new product design and development
     serves to highlight how HITRUST permeates all areas of Datica. We decided in 2017
-    to develop a [new product based on Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    to develop a [new product based on Kubernetes](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/).
     We did this because the market was increasingly interested in Kubernetes and the
     offerings from cloud providers like AWS were not covered under a BAA (currently
     none of the major Kubernetes services available are HITRUST Certified except for
@@ -310,12 +310,12 @@
     to differentiate our products from our competitors in the market.\n\nOther examples
     are the recent free guides we published on how to secure common managed cloud
     databases to comply with HITRUST. The specific HITRUST controls are listed with
-    each step. Here is the [AWS RDS guide](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/).\n\nHITRUST
+    each step. Here is the [AWS RDS guide](https://datica-2019.netlify.app/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/).\n\nHITRUST
     trickles down to all people at Datica. It takes away the subjective “the security
     officer says this,” and instead provides a published set of controls. This is
-    hard to quantify with a dollar value but [it is a significant ROI](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    hard to quantify with a dollar value but [it is a significant ROI](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/).
     What is interesting is that these examples, and this theme, were repeated time
-    and time again at the [HITRUST conference](https://datica.com/blog/hitrust-2018-a-fantastic-event/).
+    and time again at the [HITRUST conference](https://datica-2019.netlify.app/blog/hitrust-2018-a-fantastic-event/).
     \n\nLooking forward, we are aligning our internal compliance structure and compliance
     operations even more around HITRUST. We are currently in the process of re-writing
     our policies and procedures (look for an announcement with new open source tools
@@ -364,7 +364,7 @@
 
     The book tries to answer the question "What Really Is Compliance?" and we think we do a decent job for those who aren't a professional compliance officer. The concepts are familiar to those with deep compliance experience, but we believe are the most efficient explainer for those who truly aren't sure how to answer the question themselves. We thought, if we can help everyone else learn our compliance lessons over the past five years, we can make *our* dent in this industry.
 
-    On Wednesday, September 26th, I'll be giving [a webinar where I dive deeper](https://datica.com/webinars/what-really-is-compliance/) into the topic. I will be summarizing many key concepts throughout the book. For those who have 45 minutes open over lunchtime, I encourage you to attend.
+    On Wednesday, September 26th, I'll be giving [a webinar where I dive deeper](https://datica-2019.netlify.app/webinars/what-really-is-compliance/) into the topic. I will be summarizing many key concepts throughout the book. For those who have 45 minutes open over lunchtime, I encourage you to attend.
 
     A few big ideas we will explore tomorrow:
 
@@ -416,13 +416,13 @@
 
     <img src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?fm=jpg&w=150&q=20" class="float-right lozad" data-src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?w=300" width="150" alt="Complete Cloud Compliance Book" />
 
-    In 2013, when Datica was founded as [Catalyze](https://datica.com/catalyze), the cloud was a simpler place. AWS was the only public cloud that signed a meaningful [Business Associate Agreement (BAA)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), but they only had a handful of services (or "primitives") within scope. Even so, to sign the BAA, which was under NDA, required customers use dedicated instances which meant digital health companies had to spend a minimum $1,400 per month just to get started — and that doesn’t even account for the cost to solve [the remaining 9/10ths of compliance](https://datica.com/compliant-kubernetes-service/aws/). Docker wasn't yet version 1.0, and [Kubernetes](https://datica.com/blog/kubernetes-vs-paas/) wasn't even a thing yet. The term "microservices" meant nothing. Modern container-based cloud architectures that were fully HIPAA compliant and could be HITRUST CSF Certified were impossible on the public cloud until [Catalyze's first platform-as-a-service product](https://datica.com/press-release/catalyze-closes-series-a-funding-to-expand-development-of-its-healthcare-platform/) came along.
+    In 2013, when Datica was founded as [Catalyze](https://datica-2019.netlify.app/catalyze), the cloud was a simpler place. AWS was the only public cloud that signed a meaningful [Business Associate Agreement (BAA)](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/), but they only had a handful of services (or "primitives") within scope. Even so, to sign the BAA, which was under NDA, required customers use dedicated instances which meant digital health companies had to spend a minimum $1,400 per month just to get started — and that doesn’t even account for the cost to solve [the remaining 9/10ths of compliance](https://datica-2019.netlify.app/compliant-kubernetes-service/aws/). Docker wasn't yet version 1.0, and [Kubernetes](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/) wasn't even a thing yet. The term "microservices" meant nothing. Modern container-based cloud architectures that were fully HIPAA compliant and could be HITRUST CSF Certified were impossible on the public cloud until [Catalyze's first platform-as-a-service product](https://datica-2019.netlify.app/press-release/catalyze-closes-series-a-funding-to-expand-development-of-its-healthcare-platform/) came along.
 
     Fast forward to 2018, and the cloud is a very different place. __We are now living in a post-cloud world.__ That post-cloud world is built on managed services. AWS is now up to hundreds of these services and dozens within scope of their BAA. Azure and GCP sign rock-solid BAAs consisting of just as many world-class services and all three are competing to be a viable destination for digital health workloads. Many independent managed services, like MongoDB's Atlas, sign BAAs now, too. The typical cloud architecture is a constellation of managed services using a microservices-based scheme. Just the other day, I was speaking to a digital health developer who mentioned his company uses the basics like Amazon Elastic Compute Cloud (Amazon EC2), Amazon Relational Database Service (Amazon RDS), Amazon Simple Simple Storage Service (Amazon S3), AWS Lambda, and Amazon API Gateway, but is using BigQuery on GCP for machine learning and investigating Azure Kubernetes Service (AKS) and Azure Cosmos as an eventual Kubernetes destination, while also incorporating MongoDB Atlas, Auth0, and a handful of independent logging and monitoring services. Whew. This is not manic decision making. This is the new normal.
 
     > Compliance has not kept up. We know this first hand.
 
-    The issues are foundational, from our experience. Compliance officers are often attorneys and not technologists so they have a hard time grasping how fast abstraction on the cloud is moving. Likewise, engineers are not legal scholars, so they have a tough time wrapping their heads around a proper compliance program that is the difference between their app being adopted by hospitals or dying on the vine. I still personally have about one conversation a day with a developer where I have to coach them that [HIPAA is a government regulation](https://datica.com/discover/hipaa-compliance/) while [HITRUST](https://datica.com/discover/hitrust/) is a certification framework.
+    The issues are foundational, from our experience. Compliance officers are often attorneys and not technologists so they have a hard time grasping how fast abstraction on the cloud is moving. Likewise, engineers are not legal scholars, so they have a tough time wrapping their heads around a proper compliance program that is the difference between their app being adopted by hospitals or dying on the vine. I still personally have about one conversation a day with a developer where I have to coach them that [HIPAA is a government regulation](https://datica-2019.netlify.app/discover/hipaa-compliance/) while [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) is a certification framework.
 
     In 2013, the cloud was built for an operator archetype, the type of employee who could secure Virtual Machines (VMs) and contribute to a compliance program. After five years, the cloud is now designed for developers who can easily interchange services with a few clicks. What we are seeing is this new archetype is not ready for security and compliance in a managed services world. All we have to do is look around to find news stories of the situation. [Just last month, an improperly configured AWS S3 bucket lead to 31,000 GoDaddy servers to be exposed](https://www.engadget.com/2018/08/09/amazon-aws-error-exposes-31-000-godaddy-servers/).
 
@@ -433,7 +433,7 @@
     The book starts out with a basic introduction then flows into the following chapter setup:
 
     1. __The Business Case for Compliance__ — an examination on why compliance actually matters to regulated companies like digital health.
-    2. __[What _Really_ is Compliance?](https://datica.com/innovation/complete-cloud-compliance-chapter-2/)__ — We tried very hard to be simple and concise while also educating complex topics to those who are fresh to the respective domains. Consequently, this chapter breaks down critical compliance concepts with a developer reader in mind, meaning compliance officers will find the content familiar. Feedback from developers has been fantastic, however.
+    2. __[What _Really_ is Compliance?](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/)__ — We tried very hard to be simple and concise while also educating complex topics to those who are fresh to the respective domains. Consequently, this chapter breaks down critical compliance concepts with a developer reader in mind, meaning compliance officers will find the content familiar. Feedback from developers has been fantastic, however.
     3. __What _Really_ is the Cloud?__ — The cloud is not a computer in somebody else's data center. It's software-enabled infrastructure services built for software developers. This chapter was written for this post-cloud world, but it does lay some basic foundational concepts to help educate business folks. Feedback from engineers to compliance officers to business users has been very positive.
     4. __Why Data Interoperability Matters__ — Readers will find a consistent theme throughout the book: data is splintering, not consolidating, which makes compliance even harder. This chapter uses healthcare to explain how interoperability matters to compliance.
     5. __Complete Cloud Compliance__ — After the context is set, we give a detailed overview on how regulated companies can employ a compliance program that genuinely gives them dynamic, continuous compliance on an ever-changing cloud. We call the program Complete Cloud Compliance, as the book title implies, and 3C for short throughout.
@@ -472,11 +472,11 @@
 
     ## How to get a copy
 
-    Travis and Datica CSO Christopher Gerg will be giving away free copies at the [HITRUST 2018](https://datica.com/events/hitrust-2018/) this week. Come find our book signing table in the expo hall. If we run out, we are happy to collect your name and address to mail a copy. Similarly, free copies will be given away at the [Microsoft Ignite](https://datica.com/events/microsoft-ignite-2018/) and [AWS re:Invent](https://datica.com/events/aws-reinvent-2018/) conferences. Come find us for a free copy. We'll blog [more about those events](https://datica.com/blog/where's-datica-our-fall-2018-conference-lineup/) as they get closer.
+    Travis and Datica CSO Christopher Gerg will be giving away free copies at the [HITRUST 2018](https://datica-2019.netlify.app/events/hitrust-2018/) this week. Come find our book signing table in the expo hall. If we run out, we are happy to collect your name and address to mail a copy. Similarly, free copies will be given away at the [Microsoft Ignite](https://datica-2019.netlify.app/events/microsoft-ignite-2018/) and [AWS re:Invent](https://datica-2019.netlify.app/events/aws-reinvent-2018/) conferences. Come find us for a free copy. We'll blog [more about those events](https://datica-2019.netlify.app/blog/where's-datica-our-fall-2018-conference-lineup/) as they get closer.
 
     General purchase will eventually be available later this year via Amazon.com fulfillment.
 
-    Until then, you can [download a free PDF copy of chapter two](https://datica.com/innovation/complete-cloud-compliance-chapter-2/) in order to get a feel for the book and you’ll be notified when it is formally available.
+    Until then, you can [download a free PDF copy of chapter two](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/) in order to get a feel for the book and you’ll be notified when it is formally available.
   :featured_image:
     :id: 7wFYDDX0HeqeiIkowEi0ac
   :share_image:
@@ -525,12 +525,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -548,11 +548,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -572,13 +572,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -599,7 +599,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

@@ -36,7 +36,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 - :id: 7lK2BzqJKoygAwAkQG2omW
   :_meta:
     :content_type_id: tags
@@ -83,10 +83,10 @@
   getting grander every year. Here are a few observations from Datica's point of view.
 :post: "## The MBAs got a hold of the cloud\n\nIn last year’s review I made a comment
   that has since been a story I tell when discussing the state of the cloud. It went
-  something like this: \n\n*In 2014, 2015, and [2016](https://datica.com/blog/aws-reinvent-recap-2/),
+  something like this: \n\n*In 2014, 2015, and [2016](https://datica-2019.netlify.app/blog/aws-reinvent-recap-2/),
   the cloud was still portrayed as a toy for developers. Most vendors on the expo
   floor focused on developer empowerment, and most tools were about building things.
-  The sky was the limit.*\n\n*Then in [2017](https://datica.com/blog/re-invent-day-2-looking-toward-the-future/),
+  The sky was the limit.*\n\n*Then in [2017](https://datica-2019.netlify.app/blog/re-invent-day-2-looking-toward-the-future/),
   it's like the MBAs got a hold of the cloud. It was stark how many new vendors flooded
   the expo, peddling tools to help control costs and security concerns.*\n\nIf we
   thought 2017 was about shifting away from being a toy, 2018 cemented that the future
@@ -115,7 +115,7 @@
   managing healthcare-specific compliance on AWS, Azure, and GCP.\n\nWe uniquely solve
   this problem because we are focused on the business problem of compliance, and *not*
   the technical or functional a single developer faces. The best way to explain is
-  through the concept of the [maturity model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/).\n\n###
+  through the concept of the [maturity model](https://datica-2019.netlify.app/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/).\n\n###
   Visualizing the business problems of compliance\n\n<div class=\"row container-gray-12
   collapse pad group align-middle align-justify\">\n  <div class=\"columns small-12
   medium-6\">\n    <figure>\n      <img class=\"\" alt=\"maturity model diagram w.
@@ -131,7 +131,7 @@
   Maturity Model</strong> that some frameworks use to understand the maturity of controls.</p>\n\n
   \ </div>\n</div>\n\nOver the last five years, Datica has been the expert at understanding
   the exact policies and procedures required to turn HIPAA-eligible services on the
-  public cloud into architectures that can pass a [HITRUST CSF assessment](https://datica.com/blog/5-steps-to-hitrust-csf-certification/).
+  public cloud into architectures that can pass a [HITRUST CSF assessment](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/).
   The focus on policies and procedures (levels 1 and 2) then allows our customers
   to implement (level 3) the appropriate security controls with context. When complete,
   customers can then be assured that measuring and managing (levels 4 and 5) lead
@@ -247,7 +247,7 @@
     we did the dirty work of pouring through the master list of thousands of AWS re:Invent
     sessions to pick our top 25. '
   :blog_lead: "Today is the day the session reservation system opened up for attendees
-    of AWS re:Invent 2018. If this year is anything like [re:Invent last year](https://datica.com/blog/re-invent-day-2-looking-toward-the-future/),
+    of AWS re:Invent 2018. If this year is anything like [re:Invent last year](https://datica-2019.netlify.app/blog/re-invent-day-2-looking-toward-the-future/),
     the sessions will fill really fast, so don’t delay in choosing your sessions.
     \n\nThose of you who know Datica already know that one of our main company goals
     is to make life a bit easier for developers of digital health products. In line
@@ -259,9 +259,9 @@
     Anthony Pleshek, Product Manager, who will be sharpening their skills right along
     with you at these sessions. And, while you’re at re:Invent, stop by the Datica
     booth #1607 for a demo of any of our products, including the just-announced [Cloud
-    Compliance Management System (CCMS)](https://datica.com/cloud-compliance-management-system/)
+    Compliance Management System (CCMS)](https://datica-2019.netlify.app/cloud-compliance-management-system/)
     and where we’ll be giving away Yeti tumblers and copies of our new book, [Complete
-    Cloud Compliance](https://datica.com/innovation/complete-cloud-compliance-chapter-2/).\n\nWithout
+    Cloud Compliance](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/).\n\nWithout
     further ado, here’s our recommended list of AWS re:Invent sessions for healthcare
     developers. Get ‘em while they’re hot!\n\n## 25 sessions not to miss at AWS re:Invent
     \n\nHere are the sessions covering some of the hottest topics in healthcare development.
@@ -345,7 +345,7 @@
     of cloud computing and healthcare compliance — we've talked with thousands of
     developers and engineers — we've built a portfolio of products that addresses
     these concerns head on. However, even in a world where you're using a product
-    like [Datica's CKS](https://datica.com/compliant-kubernetes-service/), you'll
+    like [Datica's CKS](https://datica-2019.netlify.app/compliant-kubernetes-service/), you'll
     likely have services and systems that live outside of that management layer. Understanding
     how to bring these services up to par in terms of compliance is anything but clear.\n\nIn
     our pursuit of making healthcare compliance more accessible to all, we're releasing
@@ -375,13 +375,13 @@
     [Google Cloud SQL](https://cloud.google.com/sql/) are popular among developers
     for their ease of use, scale and reliability. The demand we’ve received to support
     these services has been tremendous. As a result, the initial release of [Datica
-    CCMS](https://datica.com/cloud-compliance-management-system/) will come with support
+    CCMS](https://datica-2019.netlify.app/cloud-compliance-management-system/) will come with support
     for these three services. The CCMS, coupled with these guides, will provide an
     end to end compliance management structure for your cloud environment.\n\n## Anatomy
     of the guides\n\nThese guides are intended to be step-by-step, opinionated tutorials
     that explain the relevance of a specific configuration within the context of HITRUST.
     For those unfamiliar with HITRUST (and its relationship to HIPAA), please [read
-    through this HITRUST guide](https://datica.com/academy/what-is-hitrust/).\n\nIn
+    through this HITRUST guide](https://datica-2019.netlify.app/academy/what-is-hitrust/).\n\nIn
     these database guides we’ll walk through configuring each database to be HITRUST
     CSF ready and then show how the CCMS will continuously check these configurations
     via REST APIs (which you could programmatically implement yourself). To understand
@@ -403,12 +403,12 @@
     that would give them a programmatic way to ensure that configuration is in place
     (either at a point in time, or on a continuous basis).\n\n## Introducing the first
     three configuration guides\n\n1. [AWS RDS Guide - How to configure RDS to comply
-    with HIPAA and HITRUST](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/)\n2.
-    [Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA and HITRUST](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)\n3.
+    with HIPAA and HITRUST](https://datica-2019.netlify.app/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/)\n2.
+    [Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA and HITRUST](https://datica-2019.netlify.app/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)\n3.
     [Google Cloud SQL Guide - How to configure GCP Cloud SQL to comply with HIPAA
-    and HITRUST](https://datica.com/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/)\n`\n\n##
+    and HITRUST](https://datica-2019.netlify.app/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/)\n`\n\n##
     What's on your wish list?\n\nWe treasure feedback from developers like you and
-    want to know which cloud services matter to you. [Fill out a survey here](https://datica.com/cloud-compliance-management-system/survey/)
+    want to know which cloud services matter to you. [Fill out a survey here](https://datica-2019.netlify.app/cloud-compliance-management-system/survey/)
     to let us know which services you use as part of your product that need to be
     configured for HITRUST compliance. \n\n\n"
   :featured_image:
@@ -452,7 +452,7 @@
 
     The book tries to answer the question "What Really Is Compliance?" and we think we do a decent job for those who aren't a professional compliance officer. The concepts are familiar to those with deep compliance experience, but we believe are the most efficient explainer for those who truly aren't sure how to answer the question themselves. We thought, if we can help everyone else learn our compliance lessons over the past five years, we can make *our* dent in this industry.
 
-    On Wednesday, September 26th, I'll be giving [a webinar where I dive deeper](https://datica.com/webinars/what-really-is-compliance/) into the topic. I will be summarizing many key concepts throughout the book. For those who have 45 minutes open over lunchtime, I encourage you to attend.
+    On Wednesday, September 26th, I'll be giving [a webinar where I dive deeper](https://datica-2019.netlify.app/webinars/what-really-is-compliance/) into the topic. I will be summarizing many key concepts throughout the book. For those who have 45 minutes open over lunchtime, I encourage you to attend.
 
     A few big ideas we will explore tomorrow:
 
@@ -616,7 +616,7 @@
     of the Greengrass toolkit for innovative device development and use. \n\nIt will
     be interesting to see how Microsoft Azure, Google, IBM SoftLayer, and others do
     to counter next year.\n\n[3]: https://aws.amazon.com/ec2/instance-types/\n[4]:
-    https://amazonlightsail.com/\n[5]: https://datica.com/blog/aws-reinvent-recap-1/\n[6]:
+    https://amazonlightsail.com/\n[5]: https://datica-2019.netlify.app/blog/aws-reinvent-recap-1/\n[6]:
     https://aws.amazon.com/rekognition/\n[7]: https://aws.amazon.com/polly/\n[8]:
     https://aws.amazon.com/lex/\n[9]: https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/\n[10]:
     http://www.darkreading.com/iot/medical-device-security-gets-intensive-care/d/d-id/1323989\n[11]:
@@ -736,7 +736,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -763,10 +763,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -788,7 +788,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -796,7 +796,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

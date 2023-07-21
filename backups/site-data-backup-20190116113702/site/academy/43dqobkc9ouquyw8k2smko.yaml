@@ -54,7 +54,7 @@
   programmatic access to their BAA (at least none that we could find). To double check
   that you do in fact have a BAA in place with Microsoft, it’s recommended that you
   reach out to your Azure rep (or Azure support if you do not have a rep). \n\nMore
-  general tips on BAAs [here](https://datica.com/academy/business-associate-agreements/).
+  general tips on BAAs [here](https://datica-2019.netlify.app/academy/business-associate-agreements/).
   \n\n| HIPAA Rule     | API Reference     |\n| ---------- | ---------- |\n| HIPAA
   &sect; 164.308       | N/A: Azure does not provide API access to the BAA       |\n\n##
   Step 2: Creating the database\n\nInside of the Azure portal, find the search bar
@@ -166,8 +166,8 @@
   proof — a digital papertrail — is an incredible amount of work. Having a partner
   like Datica can mean the difference between an audit taking 4 months, or 4 weeks.\n\nFor
   more information on Datica’s products and services. Check out these helpful links:\n\n-
-  [Cloud Compliance Management System](https://datica.com/ccms)\n- [Compliant Kubernetes
-  Service](https://datica.com/cks)\n"
+  [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n- [Compliant Kubernetes
+  Service](https://datica-2019.netlify.app/cks)\n"
 :related_entries:
 - :id: 1s1UlhAhkAwwewk20ugYsW
   :_meta:
@@ -193,7 +193,7 @@
 
     ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
 
-    First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+    First and foremost, you’ll need a [BAA](https://datica-2019.netlify.app/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
 
     More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
 
@@ -393,8 +393,8 @@
 
     For more information on Datica’s products and services. Check out these helpful links:
 
-    - [Cloud Compliance Management System](https://datica.com/ccms)
-    - [Compliant Kubernetes Service](https://datica.com/cks)
+    - [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)
+    - [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)
   :featured_image:
     :id: QuKh6opZkWK8isiySSuYA
   :related_guide:
@@ -432,7 +432,7 @@
     From Google: \n\n> \"Execute a Google Cloud BAA. You can request a BAA directly
     from your account manager.\"\n\nOnly once you’ve signed the BAA and subsequently
     configured your SQL database to be compliant should you start accepting PHI.\n\nMore
-    on BAAs can be found in the [Datica Academy](https://datica.com/academy/).\n\n|
+    on BAAs can be found in the [Datica Academy](https://datica-2019.netlify.app/academy/).\n\n|
     Rule     | Header     |\n| ---------- | ---------- |\n| HIPAA &sect; 164.308       |
     N/A: GCP does not provide an API to the BAA       |\n\n## Step 2: Working with
     VPC networks\n\nBefore we jump into creating our SQL instance, first we’re going
@@ -583,8 +583,8 @@
     and providing proof &mdash; a digital papertrail &mdash; is an incredible amount
     of work. Having a partner like Datica can mean the difference between an audit
     taking 4 months, or 4 weeks.\n\nFor more information on Datica’s products and
-    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
-    [Compliant Kubernetes Service](https://datica.com/cks)"
+    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n-
+    [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)"
   :related_entries:
   - :id: 43dQoBKc9OuQuyw8k2SmKO
   - :id: 1s1UlhAhkAwwewk20ugYsW
@@ -629,7 +629,7 @@
     health insurance system. Specifically, the HIPAA Privacy Rule created the first
     national standard to protect personal health information and medical records.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -647,9 +647,9 @@
     risks that could result in major compliance costs, organizations are able to focus
     on growing their profits instead of fearing these potential audit fines.\n\n##
     What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
-    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
-    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
-    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica-2019.netlify.app/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica-2019.netlify.app/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
     health information (PHI) is any information about health status, provision of
     health care, or payment for health care that can be linked to a specific individual
     and is transmitted or maintained in any form or medium by a covered entity or
@@ -664,10 +664,10 @@
     — especially if the disease or condition is rare enough.\n\n## Understand Business
     Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
     markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
-    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
-    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
-    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
-    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    Agreements](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica-2019.netlify.app/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica-2019.netlify.app/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
     HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
     entities that have to follow the HIPAA security and privacy rules. The main categories
     are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
@@ -680,9 +680,9 @@
     associates are required to sign what’s called a business associate agreement (BAA).\n\n##
     Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
     markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
-    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
-    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
-    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    Datica](https://datica-2019.netlify.app/compliance/)\n* [Proving HIPAA Compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica-2019.netlify.app/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
     can, and many companies do, put “HIPAA Compliant” on their websites and marketing
     material. Complying with HIPAA is essential to selling software that processes,
     stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
@@ -744,7 +744,7 @@
   :cta_desc: We want to make sure the Cloud Compliance Management System has you covered.
     Tell us what other cloud configurations you want to see.
   :cta_label: Take the Survey
-  :cta_url: https://datica.com/cloud-compliance-management-system/survey/
+  :cta_url: https://datica-2019.netlify.app/cloud-compliance-management-system/survey/
   :cta_image:
     :id: 5TDGfDp13aEgs6gO8g2YC2
   :cta_image_small:

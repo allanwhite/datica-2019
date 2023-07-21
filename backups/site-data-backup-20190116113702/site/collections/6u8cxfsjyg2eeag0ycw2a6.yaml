@@ -27,7 +27,7 @@
     down the line a subcontractor gets from a covered entity, the more confusion there
     is.
   :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
-    by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+    by [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and entities that have
     to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
     covered entities (CEs), and business associates. The further down the line the
     subcontractor gets from the covered entity, the more confusion there is about
@@ -41,7 +41,7 @@
     associates handle, process, transmit, or in some way interact with electronic
     protected health information (ePHI) from those covered entities. With this PHI
     access, all business associates are required to sign what’s called a [business
-    associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+    associate agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     The BAA is a legal contract that describes how the business associate adheres
     to HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also
     typically defines the services that the business associate is providing, the type
@@ -72,7 +72,7 @@
     under HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because
     they encrypted the data in transit and in storage. This is certainly crucial,
     but there is so much more to HIPAA than encrypting data. You can read about everything
-    we do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+    we do to be HIPAA-compliant in our [policies](https://datica-2019.netlify.app/open-source/policies/).
     At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
     physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
     As a result, that vendor would need to have a BAA signed with their hosting vendor
@@ -120,7 +120,7 @@
   :summary: Guess what? HIPAA doesn't say how long you have to keep medical records.
     This is a common misconception of HIPAA data retention policy.
   :blog_lead: 'It may come as a surprise, but you don''t have to retain medical records
-    according to [HIPAA rules](https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security/).
+    according to [HIPAA rules](https://datica-2019.netlify.app/blog/three-hipaa-omnibus-rule-essentials-for-it-security/).
     This is a very common misconception with HIPAA. Medical records means electronic
     protected health information (ePHI) in this case. HIPAA does not have any rules
     that require covered entities or business associates to retain ePHI. I assume
@@ -139,7 +139,7 @@
     this does happen and some doctors feel so strongly, in a bad way, about EHRs that
     they are are retiring early to avoid having to change the way they've practiced
     for 30, 40, or even 50 years.\n\nThere are issues that arise when a [business
-    associate](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    associate](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/),
     such as an EHR company, goes out of business and the covered entity needs to get
     the records and find a way to store them. We've seen this experience too, especially
     in the case of smaller, specialty specific EHRs and practice management systems.
@@ -160,7 +160,7 @@
     audits, and other documentation related to your organization.\n\n## Datica policy
     and documentation retention\n\nAt Datica we use [Git](https://git-scm.com/) for
     version control on our policies, and the current versions are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-    and maintained in a Master branch. [More on why we do this in a separate post](https://datica.com/blog/our-company-policies-now-available-free-on-github/).\n\nWe
+    and maintained in a Master branch. [More on why we do this in a separate post](https://datica-2019.netlify.app/blog/our-company-policies-now-available-free-on-github/).\n\nWe
     backup our current policies using Box. For risk assessments, change and configuration
     management, vulnerability scanning, and audits we also use Box as a repository.
     You can see our current policies here - [policy.datica.com](https://policy.datica.com).\n\n"
@@ -204,7 +204,7 @@
     these tools may seem out of reach. The compliance requirements and security restrictions
     of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
     to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
-    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    why [Datica is shifting toward Kubernetes](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/).
     Our customers are asking for it, it’s the future of managing workloads born in
     the cloud, and Datica is already the most robust solution for compliance management
     on the planet. \n\nIf you're new to container orchestration and more familiar
@@ -216,7 +216,7 @@
     a PaaS is intended to create a layer of abstraction on top of cloud service providers
     (or in some cases data centers and bare metal) so the end user can focus on deploying,
     managing, and scaling their applications and data. Without going into the [history
-    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    of the PaaS](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/) concept,
     it's easy to think about it as a way of automating many of the repetitive, lower-level
     tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
     known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
@@ -377,8 +377,8 @@
     tremendous pressures of industry competition. In an age where thriving is equivalent
     to surviving, an attractive approach for the healthcare industry is outsourcing.
     While manifesting a vast array of diverse and complex services, hospitals are
-    a distinctly lush domain for outsourcing many functions, for example, [EHR Integrations](https://datica.com/discover/ehr-integrations/)
-    and [cloud hosting](https://datica.com/discover/healthcare-cloud/).
+    a distinctly lush domain for outsourcing many functions, for example, [EHR Integrations](https://datica-2019.netlify.app/discover/ehr-integrations/)
+    and [cloud hosting](https://datica-2019.netlify.app/discover/healthcare-cloud/).
   :post: |-
     ## Building Internally
 
@@ -394,7 +394,7 @@
     2. The economies transcend corporate boundaries
     3. The savings are sufficient to generate profit even after paying off all stakeholders
 
-    The modern need to outsource is rooted in the generational desire to be proactive. Hospitals are incessantly on the brink of slighting margins, [increasing patient expectations](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and minimal federal support. However, hospitals now understand the costs of reactive, short-term, tactical solutions to immediate issues. The key to survival lies in leveraging organizational attributes while enacting continuous incremental improvements in effectiveness and efficiency – more often than not by using third-party vendors.
+    The modern need to outsource is rooted in the generational desire to be proactive. Hospitals are incessantly on the brink of slighting margins, [increasing patient expectations](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and minimal federal support. However, hospitals now understand the costs of reactive, short-term, tactical solutions to immediate issues. The key to survival lies in leveraging organizational attributes while enacting continuous incremental improvements in effectiveness and efficiency – more often than not by using third-party vendors.
 
     ## Outsourcing Benchmark Measures
 
@@ -406,7 +406,7 @@
     * **Competitive Advantages**: Is there a competitive edge with outsourcing? Are prospective and existing clients increasing service engagements because of outsourced services?
     * **Allocation of Resources**: Is the service provider reliably delivering the required quality and scope through dedicated resources: labor, technology, knowledge, and assets? Is the current allocation of resources appropriate for the agreed upon objective? Is the resource division mutually satisfactory?
 
-    In sum, the advantages of outsourcing are that hospitals can assume access to asset improvement funds, widespread risk sharing of [HIPAA Compliance](https://datica.com/discover/hipaa-compliance/), increased cost avoidance and savings, considerable resource access, enhanced employee retention, and raised patient satisfaction. Long-term strategic, transformative partnerships with vendors may introduce market opportunities beyond either party's core competence. A few long-term, strategic service vendors may be a more fruitful arrangement in comparison to a multitude of narrow-focused, short-term, one-off relationships.
+    In sum, the advantages of outsourcing are that hospitals can assume access to asset improvement funds, widespread risk sharing of [HIPAA Compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/), increased cost avoidance and savings, considerable resource access, enhanced employee retention, and raised patient satisfaction. Long-term strategic, transformative partnerships with vendors may introduce market opportunities beyond either party's core competence. A few long-term, strategic service vendors may be a more fruitful arrangement in comparison to a multitude of narrow-focused, short-term, one-off relationships.
 
     Questions? Reach out to us [directly][1], [tweet us][2], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
 

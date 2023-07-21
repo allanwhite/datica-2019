@@ -97,23 +97,23 @@
   details. The technology necessary to meet the compliance and interoperability requirements
   of healthcare in the cloud is not an easy thing to understand but we hope we’ve
   succeeded in making it at least a little bit easier with the recent re-envisioning
-  of [datica.com](https://datica.com/). '
+  of [datica.com](https://datica-2019.netlify.app/). '
 :post: "If you’ve visited the Datica website over the past few years, you’ve seen
   it evolve through this process, from company branding and product name changes to
   updates to the Academy, Blog, and other resources. Today, I’m pleased to share the
   latest and greatest version. \n\nHere are a few of the highlights of what’s new
   at Datica.com:\n\n## Compliant Kubernetes Service\n\n<img class=\"float-right thumbnail
   lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/5WYWIEoNNKEMi08AwCIYM8/72eb1ec13bfe2c79f2c329781505565a/cks-thumb.jpg?w=300\"
-  width=\"150\" alt=\"CKS\" />\n\n[Compliant Kubernetes Service](https://datica.com/compliant-kubernetes-service/)
+  width=\"150\" alt=\"CKS\" />\n\n[Compliant Kubernetes Service](https://datica-2019.netlify.app/compliant-kubernetes-service/)
   (CKS) product page. We recently relaunched our compliant cloud product, moving it
   from the legacy PaaS platform to the much more scalable, open, and flexible Kubernetes
-  service. We’ve written about the differences between a [PaaS and Kubernetes](https://datica.com/blog/kubernetes-vs-paas/)
+  service. We’ve written about the differences between a [PaaS and Kubernetes](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/)
   in case you’re wondering why we made the move to Kubernetes. The new CKS page will
   hopefully answer all your questions about the key features and benefits of the Datica
   CKS. When you’re ready for more details, you can easily schedule a demo right from
   that page.\n\n## Compliant Managed Integration\n\n<img class=\"float-right thumbnail
   lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/13fTTGMl9YWcCCoOgicaII/8c6de55e6cfde58ad27824938ee57b74/integration-thumb.jpg?w=300\"
-  width=\"150\" alt=\"Integration\" />\n\n[Compliant Managed Integration](https://datica.com/compliant-managed-integration/)
+  width=\"150\" alt=\"Integration\" />\n\n[Compliant Managed Integration](https://datica-2019.netlify.app/compliant-managed-integration/)
   (CMI) product page. With millions of monthly messages passed through Datica’s platform
   from more than 200 sites, we have the track record to understand the intricacies
   of integrating with an EMR system. This new CMI product page details the full suite
@@ -121,27 +121,27 @@
   with a clinical site. You can schedule a call with a Datica expert right from that
   page to get your integration project started.\n\n## Datica Webinars\n\n<img class=\"float-right
   thumbnail lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/4fOHWZhIggmsICuggKm8m0/cad2048e8f83456f67881149b2cf3d82/webinars-thumb.jpg?w=300\"
-  width=\"150\" alt=\"Webinars\" />\n\n[Webinars](https://datica.com/webinars/) are
+  width=\"150\" alt=\"Webinars\" />\n\n[Webinars](https://datica-2019.netlify.app/webinars/) are
   now recorded and available for you to watch anytime. If you’re trying to understand
   how Kubernetes fits into the big picture of compliance, you might be interested
   in watching two recent webinars by our CTO & CSO, Christopher Gerg. Start with [Kubernetes
-  and Healthcare Compliance](https://datica.com/webinars/kubernetes-and-healthcare-compliance/)
+  and Healthcare Compliance](https://datica-2019.netlify.app/webinars/kubernetes-and-healthcare-compliance/)
   for a general overview of how Datica makes Kubernetes clusters compliant to HIPAA,
-  HITRUST, GxP, GDPR, and SOC 2 requirements, then watch [Kubernetes and HITRUST compliance](https://datica.com/webinars/kubernetes-and-hitrust-compliance/)
+  HITRUST, GxP, GDPR, and SOC 2 requirements, then watch [Kubernetes and HITRUST compliance](https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/)
   to get more specifics about deploying a Datica CKS cluster how we make HITRUST CSF
   certification possible on Kubernetes. You’ll also find other webinars of interest
   from multiple Datica compliance and integration experts on the new webinar page.\n\n##
-  Discover Compliance Topics\n\nThe [Discover Pages](https://datica.com/discover/)
+  Discover Compliance Topics\n\nThe [Discover Pages](https://datica-2019.netlify.app/discover/)
   aren’t as new as some of the other pages but are worth pointing out in case you’ve
   missed them. Here, you’ll find resource hubs devoted to specific topics, such as
-  [HIPAA Compliance](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
-  [HIPAA Compliance on AWS](https://datica.com/discover/aws-hipaa/), and more. These
+  [HIPAA Compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/), [GDPR](https://datica-2019.netlify.app/discover/gdpr/),
+  [HIPAA Compliance on AWS](https://datica-2019.netlify.app/discover/aws-hipaa/), and more. These
   hubs serve as central informational repositories, compiled by topic,  for the educational
-  content from the [Datica Academy](https://datica.com/academy/), [Innovation Hub](https://datica.com/innovation/),
-  or [Blog](https://datica.com/blog/). \n\nWe hope the new and improved website answers
+  content from the [Datica Academy](https://datica-2019.netlify.app/academy/), [Innovation Hub](https://datica-2019.netlify.app/innovation/),
+  or [Blog](https://datica-2019.netlify.app/blog/). \n\nWe hope the new and improved website answers
   your questions about industry best practices in general, and specifically about
   Datica products and services. As always, we’re here to help you succeed and are
-  happy to answer any questions you still have so [reach out to us](https://datica.com/contact/)
+  happy to answer any questions you still have so [reach out to us](https://datica-2019.netlify.app/contact/)
   anytime."
 :featured_image:
   :title: bridge - everaldo-coelho-486011 pano, small
@@ -170,7 +170,7 @@
   :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
     GDPR, and GxP compliant on AWS and Azure.
   :cta_label: Schedule a demo
-  :cta_url: https://datica.com/demo/
+  :cta_url: https://datica-2019.netlify.app/demo/
   :cta_image:
     :id: 4l2nKsTXwkc2kauya8W6SW
   :cta_color: dark-alt
@@ -204,7 +204,7 @@
     these tools may seem out of reach. The compliance requirements and security restrictions
     of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
     to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
-    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    why [Datica is shifting toward Kubernetes](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/).
     Our customers are asking for it, it’s the future of managing workloads born in
     the cloud, and Datica is already the most robust solution for compliance management
     on the planet. \n\nIf you're new to container orchestration and more familiar
@@ -216,7 +216,7 @@
     a PaaS is intended to create a layer of abstraction on top of cloud service providers
     (or in some cases data centers and bare metal) so the end user can focus on deploying,
     managing, and scaling their applications and data. Without going into the [history
-    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    of the PaaS](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/) concept,
     it's easy to think about it as a way of automating many of the repetitive, lower-level
     tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
     known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
@@ -319,9 +319,9 @@
   :blog_lead: As any of the 200+ people who have already forked Datica’s open source
     compliance policies can attest, we’ve always been a big believer in the value
     and spirit of open source. Last year our open source commitment evolved to include
-    [Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+    [Open Source Connectors](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
     to help solve the problem of healthcare data integration. Most recently, the open
-    source project [Kubernetes&reg;](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/)
+    source project [Kubernetes&reg;](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/)
     became the fundamental technical management layer for Datica. To take this commitment
     even further, we’re thrilled to announce we’ve become one of the newest silver
     members of the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF),
@@ -332,13 +332,13 @@
     project and community have grown at a tremendous pace. In fact, the [CNCF announced
     Datica as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
     last week, bringing the membership level to 236 companies. What really makes [Kubernetes
-    a viable option](https://datica.com/blog/kubernetes-vs-paas/) is not the core
+    a viable option](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/) is not the core
     project itself, but the community of tools and add-ons that surround it.\n\nWe’re
     excited for what the future holds in this open-source-fueled era of rapid development
     and are particular excited to step into this future in partnership with the CNCF
     to collaborate with other Kubernetes developers who are trying to build secure
     and compliant products. \n\nTake a look at the [press release announcing our CNCF
-    membership](https://datica.com/press-release/datica-joins-the-cloud-native-computing-foundation/)
+    membership](https://datica-2019.netlify.app/press-release/datica-joins-the-cloud-native-computing-foundation/)
     for more details.\n\n\n"
   :featured_image:
     :id: 4rUKbhbssoiy84e4MaSMYs
@@ -378,12 +378,12 @@
     you are promising to give me is in fact aligned with my expectations.\n\n"
   :post: "\nWe believe trust is earned with transparency. Since the founding of the
     company in 2013, transparency has been a central cultural tenant. It’s why we
-    [open sourced our internal company policies](https://datica.com/open-source/policies/),
+    [open sourced our internal company policies](https://datica-2019.netlify.app/open-source/policies/),
     which have been adopted by hundreds of organizations to accelerate their path
     to compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
     as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and
-    why we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
-    [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+    why we draft as much content as we do around complicated topics like [HITRUST](https://datica-2019.netlify.app/discover/hitrust/),
+    [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/), [GDPR](https://datica-2019.netlify.app/discover/gdpr/),
     and so on. Transparency is how we, as a technology community, can better understand
     the complexity of security and compliance.\n\nThe trust that Datica's customers
     instill in us goes far beyond a simple exchange of goods. We are not only securing
@@ -434,7 +434,7 @@
     At Datica, we’ve assembled the best team of security, cloud, and compliance experts
     to execute on designing and delivering the most secure and compliant Platform
     for the cloud. We have no secrets to keep.\n\nWith that said, I’m proud to announce
-    [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+    [Datica’s public product strategy & roadmap](https://datica-2019.netlify.app/compliant-kubernetes-service/roadmap/).
     This document will serve as the window into Platform product development. To get
     the most out of this effort, we need to hear from you. Please send us your feedback,
     feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
@@ -471,7 +471,7 @@
   :blog_lead: 'Datica''s compliance roots start in healthcare with HIPAA, a regulatory
     framework found in one of the most conservative industries in the world. For much
     of our early years, we were healthcare-only, consistently providing the best [HIPAA
-    compliance](https://datica.com/discover/hipaa-compliance/) management option on
+    compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/) management option on
     top of the public cloud.
 
 '
@@ -479,7 +479,7 @@
 
     ## Best practices are best practices
 
-    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica.com/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
+    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica-2019.netlify.app/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
 
     The nearly year-long exercise was a catalyst for our compliance team to innovate on how we could be bigger than just GDPR. We took a look at compliance holistically, and globally, to come up with a strategy that will allow us to better serve customers across industries and geographies.
 
@@ -487,13 +487,13 @@
 
     ## The Datica global compliance roadmap
 
-    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica.com/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
+    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica-2019.netlify.app/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
 
     HITRUST has done a great job of aiming for big goals. With version 9.1 of the CSF, we believe there are few better options for the most stringent and comprehensive compliance auditing framework on the cloud. The HITRUST CSF is our DNA framework.
 
     By using HITRUST, we will crosswalk the CSF to other geographies and compliance regimes, thus accelerating our ability to support compliance attestations in those areas. Certainly unique considerations will exist in respective geographies before we can officially support compliant deployments of the Datica Platform in a country, but the CSF will get us almost all the way there in all cases.
 
-    As has been the drumbeat since [Datica's founding in 2013](https://datica.com/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
+    As has been the drumbeat since [Datica's founding in 2013](https://datica-2019.netlify.app/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
 
     <img class="lozad group" data-src="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=600" data-srcset="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=800 1000w, //images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png 1200w" alt="global compliance stance table" />
 
@@ -506,7 +506,7 @@
 
     This table will be updated a lot throughout 2018 as we test our compliance posture against new regimes.
 
-    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica.com/cloud-compliance/global/) page of our website.
+    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica-2019.netlify.app/cloud-compliance/global/) page of our website.
 
     In short, we plan to take HITRUST global to both geographies and regimes that we haven't previously supported. We want to be the best compliance management option for cloud native applications across the world.
   :featured_image:
@@ -557,12 +557,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -580,11 +580,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -604,13 +604,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -631,7 +631,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

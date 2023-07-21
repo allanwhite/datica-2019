@@ -236,7 +236,7 @@
   :summary: 'This holiday season, we''re proud to support one of our favorite open
     source projects, Let''s Encrypt, in their mission to make the internet more secure. '
   :blog_lead: |-
-    We highly value open-source technology at Datica. We're not only contributors to the open source community, but [open source users](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/) and [producers](https://datica.com/open-source/) as well.
+    We highly value open-source technology at Datica. We're not only contributors to the open source community, but [open source users](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/) and [producers](https://datica-2019.netlify.app/open-source/) as well.
 
     One such open source project that we're absolutely thrilled to be using is [Let's Encrypt](https://letsencrypt.org/). *Let's Encrypt* is a completely free and open source certificate authority. Developers can use *Let's Encrypt* to obtain a free SSL/TLS certificate for their websites and applications. This allows them to enable a secure connection for their users via HTTPS.
   :post: |
@@ -275,7 +275,7 @@
   :blog_lead: |-
     ## Why is encryption important?
 
-    HIPAA compliance has requirements for the transfer and storage of [Protected Health Information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/). Standard SSH file transfer can securely transfer data onto the [Datica Platform](https://datica.com/platform/). However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.
+    HIPAA compliance has requirements for the transfer and storage of [Protected Health Information (PHI)](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/). Standard SSH file transfer can securely transfer data onto the [Datica Platform](https://datica-2019.netlify.app/platform/). However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.
 
     While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).
   :post: "## What is GnuPG and OpenPGP?\n\nThe [GNU Privacy Guard (GnuPG)](https://gnupg.org/)
@@ -383,7 +383,7 @@
     any issues brought up from an attack.\n\n## Unauthorized Access or Disclosure\n\n-
     [Indiana Medicaid warns patients of health data breach](http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach)\n-
     [Phishing attack at UC Davis leads to health data breach](http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients)\n\nOther
-    than a vector for malware, [phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)
+    than a vector for malware, [phishing](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)
     can also be used as a method for attackers to simply gain access to systems by
     getting credentials to a system. Or, a well-meaning dev may accidentally breach
     patient data by placing it on a public facing web page. \n\nWhile your mileage
@@ -409,10 +409,10 @@
     We only used [approved tools](https://policy.datica.com/#20.-approved-tools-policy)
     with appropriate access controls and encryption to store and transfer PHI. We
     also have [no servers in our offices](https://policy.datica.com/#10.-facility-access-policy)
-    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica.com/discover/hipaa-compliance/)
+    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/)
     the hard way, either getting beat up by your first 250-question audit or worse:
     by finding yourself on the OCR's Wall of Shame. Consult our policies or let us
-    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica.com/platform/).
+    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica-2019.netlify.app/platform/).
     \n\n\n"
   :featured_image:
     :id: 7EkRpt7VsIoAkms4sE8gQs
@@ -470,7 +470,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -497,10 +497,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -522,7 +522,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -530,7 +530,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

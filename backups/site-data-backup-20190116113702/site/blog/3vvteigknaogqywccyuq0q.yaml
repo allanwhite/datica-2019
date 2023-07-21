@@ -54,7 +54,7 @@
 
     He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
 
-    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
   :profile_twitter: markolschesky
   :profile_linkedin: markolschesky
   :location:
@@ -63,7 +63,7 @@
 :summary: You want your Mirth Connect servers to be resilient to arbitrary reboots,
   but did you know you can start/restart your Mirth engine as a Linux service?
 :blog_lead: 'You want total uptime with your Mirth Connect servers. They should be
-  resilient to the problems that usually beleaguer the [healthcare cloud](https://datica.com/discover/healthcare-cloud/).
+  resilient to the problems that usually beleaguer the [healthcare cloud](https://datica-2019.netlify.app/discover/healthcare-cloud/).
   This includes arbitrary reboots. Arbitrary reboots are the currency of the cloud
   and you should be prepared for them.
 
@@ -71,7 +71,7 @@
 :post: |+
   Did you know you can start/restart Mirth Connect as a Linux service? I wouldn't be surprised if you didn't. I'm a big fan of RTFM, but you aren't really told in [the manual](http://info.mirth.com/rs/mirthnextgen/images/MConn_v3_0_1_UserGuide.pdf) or find it easily in a google search.
 
-  [Mirth](https://datica.com/blog/mirth-connect-and-vulnerability-scanning/) talks a lot about starting and stopping the service using the GUI, but you really want your servers to try to stand themselves up in the event of an unforeseen outage. This is pretty easy to setup.
+  [Mirth](https://datica-2019.netlify.app/blog/mirth-connect-and-vulnerability-scanning/) talks a lot about starting and stopping the service using the GUI, but you really want your servers to try to stand themselves up in the event of an unforeseen outage. This is pretty easy to setup.
 
   First, if you were unaware, you can use mcservice (in Mirth 3.* anyways) like any regular Linux service with:
 
@@ -81,7 +81,7 @@
 
   `sudo update-rc.d mcservice defaults`
 
-  This will restart mirth on boot, which on a VM running SSDs usually occurs within seconds. If you have a setup like [Datica](https://datica.com/compliant-cloud/) where you have load-balanced, redundant servers ready to receive and process messages to incur a zero downtime outage. Otherwise, this should have you up and running again quickly and painlessly.
+  This will restart mirth on boot, which on a VM running SSDs usually occurs within seconds. If you have a setup like [Datica](https://datica-2019.netlify.app/compliant-cloud/) where you have load-balanced, redundant servers ready to receive and process messages to incur a zero downtime outage. Otherwise, this should have you up and running again quickly and painlessly.
 
 :cta_ref:
   :id: 6KOQ7XhaJqCI00oYacessy
@@ -94,7 +94,7 @@
   :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
     GDPR, and GxP compliant on AWS and Azure.
   :cta_label: Schedule a demo
-  :cta_url: https://datica.com/demo/
+  :cta_url: https://datica-2019.netlify.app/demo/
   :cta_image:
     :id: 4l2nKsTXwkc2kauya8W6SW
   :cta_color: dark-alt
@@ -164,10 +164,10 @@
     :id: 3VJKuWDfPak8w26k0g0Kw0
   :summary: Datica's acadamy article on Hipaa and multi-tenancy is meant to clarify
     Datica’s security position with tips on best healthcare cloud security practices.
-  :blog_lead: 'Take a look at the recent Datica Academy entry, [HIPAA and Multi Tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)!
+  :blog_lead: 'Take a look at the recent Datica Academy entry, [HIPAA and Multi Tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)!
     As Datica continues to scale, we are regularly approached about our multi-tenant
-    [cloud hosting solution](https://datica.com/compliant-cloud/) and the possible
-    security challenges that could arise. In that spirit, [this post](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    [cloud hosting solution](https://datica-2019.netlify.app/compliant-cloud/) and the possible
+    security challenges that could arise. In that spirit, [this post](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
     is meant to clarify Datica’s security position and provide others with a few tips
     on best security practices.
 
@@ -176,7 +176,7 @@
     Multi-tenancy is in referral to the means of operation of software where various
     independent occurrences of one or more applications operate in a shared environment.
     The occurrences (tenants) are cordoned off logically, yet still physically integrated;
-    logical isolation must be complete to satisfy [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).\n\n##
+    logical isolation must be complete to satisfy [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/).\n\n##
     How does a multi tenant cloud help me?\n\nThe real benefit of a multi-tenant model
     is that the provider can maintain the shared infrastructure for all customers.
     This leads to lower costs through varying economies of scale because new customers
@@ -191,9 +191,9 @@
     Our Academy continues to be a leading source for compliance insight\n\nWe believe
     understanding the relationship between multi tenancy, security, privacy, and HIPAA
     compliance is important. We are excited to offer a deeper technical explanation
-    in [our Academy entry on HIPAA and multi tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    in [our Academy entry on HIPAA and multi tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
     among our growing list of other essential topics in our [Discover Healthcare Cloud
-    resource center](https://datica.com/discover/healthcare-cloud/).\n\n"
+    resource center](https://datica-2019.netlify.app/discover/healthcare-cloud/).\n\n"
   :cta_ref:
     :id: 64Hk6hz0aW2iik2IS8UqCK
   :related_entries:
@@ -244,7 +244,7 @@
     safer, and more satisfying care at a lower cost… The value pressure is real and
     causing important changes in the way we think about our work and organize ourselves.”
     — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
-    Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+    Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n\nCIOs
     and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
     while keeping costs low. To follow are some of the key pressures driving accelerated
     migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
@@ -303,7 +303,7 @@
     exchange to happen. Everybody’s interested in a cheaper way to get from A to B.
     But not everybody’s interested in what is required to create a cheaper way to
     get from A to B.” — Grahame Grieve, Director, Healthcare Intersections, from the
-    [Datica Healthcare Innovators Podcast](https://datica.com/innovation/grahame-grieve-pt3/)
+    [Datica Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt3/)
     \n\nHealthcare consumerism is an underlying trend that ultimately makes cloud
     adoption essential to provider success. Healthcare organizations need to make
     very quick decisions about integrations and new technology. Their innovation centers
@@ -328,7 +328,7 @@
     include everything from patient health applications to AI, they need a HIPAA compliant
     cloud hosting platform to build or test those applications upon. Datica leads
     the industry with the first, most complete HIPAA compliant cloud infrastructure.
-    [Datica Compliant Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified
+    [Datica Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud/) is HITRUST CSF Certified
     on AWS, Microsoft Azure, IBM SoftLayer, and Rackspace, achieving the highest industry
     privacy and security standards across infrastructure providers.\n\n## Cloud Computing
     Benefits Healthcare\nThe challenges healthcare enterprises face persist and the
@@ -384,12 +384,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -407,11 +407,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -431,13 +431,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -458,7 +458,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

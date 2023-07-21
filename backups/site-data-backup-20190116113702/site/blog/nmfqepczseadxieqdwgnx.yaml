@@ -87,7 +87,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -104,9 +104,9 @@
 
   The reasons for the issue of noise is multifaceted. On the one hand, the cloud service providers (CSPs) — AWS, Microsoft, and Google — are redefining the cloud every month with new managed services. AWS crossed one thousand managed services in 2018. And the cloud providers are pushing the market to adopt these managed services, driving the conversation. In many respects, the power of the cloud lies in the ability to offload the running (setup and maintenance) of software by enterprises to dedicated CSPs. CSPs run software for customers as managed services.
 
-  On the other hand, there’s a gold rush to develop offerings on top of CSPs. Everybody from Capital One to Deloitte to countless startups were at [AWS re:Invent](https://datica.com/blog/aws-re-invent-re-actions-controlling-risk-is-important-but-confusing/) in December with products and services on top of your cloud accounts. You can buy everything from a team to set up and manage your entire cloud account to a single pane of glass into the cost of your cloud workloads to a widget to automate simple, repetitive tasks on the cloud. It’s overwhelming.
+  On the other hand, there’s a gold rush to develop offerings on top of CSPs. Everybody from Capital One to Deloitte to countless startups were at [AWS re:Invent](https://datica-2019.netlify.app/blog/aws-re-invent-re-actions-controlling-risk-is-important-but-confusing/) in December with products and services on top of your cloud accounts. You can buy everything from a team to set up and manage your entire cloud account to a single pane of glass into the cost of your cloud workloads to a widget to automate simple, repetitive tasks on the cloud. It’s overwhelming.
 
-  The [job-to-be-done (JTBD)](https://hbr.org/ideacast/2016/12/the-jobs-to-be-done-theory-of-innovation) for cloud buyers is dependent on the maturity of the organization in developing and executing a cloud strategy. Ultimately, the JTBD of the organization to which the individual cloud buyer works is to get onto the cloud. In getting an organization onto the cloud, they realize the benefits of offloading the management of infrastructure, convert the bulk of IT spend from capital expenditures (Capex) to operating expenditures (Opex), and, ideally, improve or at least maintain consistent [security and privacy posture](https://datica.com/cloud-compliance/). The last point is increasingly important as organizations need to avoid exposing themselves to the increased risk associated with data breach or loss by moving to the cloud.
+  The [job-to-be-done (JTBD)](https://hbr.org/ideacast/2016/12/the-jobs-to-be-done-theory-of-innovation) for cloud buyers is dependent on the maturity of the organization in developing and executing a cloud strategy. Ultimately, the JTBD of the organization to which the individual cloud buyer works is to get onto the cloud. In getting an organization onto the cloud, they realize the benefits of offloading the management of infrastructure, convert the bulk of IT spend from capital expenditures (Capex) to operating expenditures (Opex), and, ideally, improve or at least maintain consistent [security and privacy posture](https://datica-2019.netlify.app/cloud-compliance/). The last point is increasingly important as organizations need to avoid exposing themselves to the increased risk associated with data breach or loss by moving to the cloud.
 
   The CSP is the platform. It’s a platform with literally thousands upon thousands of configuration and architecture choices in the form of mixing and matching various managed services. Couple that with the myriad of third-party products and services in and around the CSPs and the options grow even more.
 
@@ -174,25 +174,25 @@
     never been more accessible or easier to get started with. From infrastructure
     providers like AWS and Azure offering their own versions of managed Kubernetes,
     to organizations like Cloud Foundry offering Kubernetes services, the world is
-    shifting toward containers. [_continue reading_](https://datica.com/blog/kubernetes-vs-paas/)
+    shifting toward containers. [_continue reading_](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/)
     \n2. __2018 Healthcare Trends Part 2: Cash-Pay Practices Will Grow.__ Where is
     healthcare going in 2018? In the first article in this series, I outlined six
     trends for 2018 I predict we’ll see as the government, individuals, and private
     sector demand change this year. The first of those trends is an increase in cash-pay
     practices. Whether you call it cash pay, subscription medicine, direct primary
     care, or concierge medicine, the underlying commonality is cutting out the payors.
-    [_continue reading_](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/)\n3.
+    [_continue reading_](https://datica-2019.netlify.app/blog/2018-trends-cash-pay-practices-will-grow/)\n3.
     __6 Healthcare Trends to Watch in 2018.__  It’s 2018, and the world looks much
     different than it did a year ago. Go back even further and the differences are
     even more stark. No place is that more evident than in healthcare. As the largest
     industry in the world, healthcare has weathered the most significant political
     waves of the last fifteen years. As the costs of healthcare increased unchecked,
-    politicians took notice. [_continue reading_](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)\n4.
+    politicians took notice. [_continue reading_](https://datica-2019.netlify.app/blog/6-healthcare-trends-to-watch-in-2018/)\n4.
     __What Exactly is a Digital Health Application?.__ Digital health is something
     of a buzzword in the industry right now, but evidence is emerging that digital
     health apps have the potential to both improve patient outcomes and save money
     across the healthcare system. What exactly is a Digital Health application though?
-    [_continue reading_](https://datica.com/blog/what-exactly-is-a-digital-health-application/)\n5.
+    [_continue reading_](https://datica-2019.netlify.app/blog/what-exactly-is-a-digital-health-application/)\n5.
     __2018 Healthcare Trends Part 3: 6 Predictions for the Post-EHR World.__  Sadly,
     the biggest winners in our post-health reform world (post-HITECH and ACA) are
     neither patients nor providers; the big winners are electronic health record (EHR)
@@ -202,20 +202,20 @@
     billions of dollars spent to improve healthcare. Regardless, we are here in 2018,
     and EHRs play a central role in the daily lives of providers and, by extension,
     patients. This third part of our 2018 Healthcare Trends series offers predictions
-    of what we can expect to see in a post-EHR world. [_continue reading_](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/)\n6.
+    of what we can expect to see in a post-EHR world. [_continue reading_](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/)\n6.
     __2018 Healthcare Trends Part 5: The Real Cloud Comes to Healthcare.__ Information
     technology groups at healthcare organizations spend a colossal chunk of their
     time supporting and “optimizing” EHRs. And, with many of the largest EHR vendors,
     health system IT does it in-house using their own data centers. In addition to
     EHRs, hospital IT also has hundreds of smaller, often less essential technologies,
     that require care and feeding. Couple that with the needs to integrate applications
-    and you quickly see why healthcare IT has such a huge backlog. [_continue reading_](https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n7.
+    and you quickly see why healthcare IT has such a huge backlog. [_continue reading_](https://datica-2019.netlify.app/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n7.
     __2018 Healthcare Trends Part 6: Beyond Digital Health Hype.__ Where is healthcare
     going in 2018? In the first article of Datica’s 2018 Healthcare Trends series,
     I outlined six trends for 2018. I predict volatility as the government, individuals,
     and private sector demand change this year. In this sixth piece of the series,
     I explore the fifth trend — moving beyond the digital health hype.  [_continue
-    reading_](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n8.
+    reading_](https://datica-2019.netlify.app/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n8.
     __Spring 2018 Report Review: A look at the Impact of Healthcare Innovation.__
     Anyone familiar with the healthcare industry knows that a transformation is happening;
     it is not some distant event. Digital health is changing how healthcare is delivered
@@ -223,18 +223,18 @@
     spring innovation report examines how the media is describing the digital health
     transformation through four articles from major industry publications. The report
     also examines insights from Accenture and the World Economic Forum surveys and
-    takes a look back at HIMSS 2018. [_continue reading_](https://datica.com/blog/spring18-report-review-impact-healthcare-innovation/)\n9.
+    takes a look back at HIMSS 2018. [_continue reading_](https://datica-2019.netlify.app/blog/spring18-report-review-impact-healthcare-innovation/)\n9.
     __How Digital Health Succeeds and Fails — Datica at SXSW.__  At South by Southwest
     (SXSW) this month, Datica and Microsoft co-hosted a day-long digital health boot
     camp. The intent of this boot camp was to provide insights to the entrepreneurs
     and the digital health enthusiasts at SXSW in order to make it easier for new
-    innovations and ideas to get off the ground. [_continue reading_](https://datica.com/blog/how-digital-health-succeeds-and-fails-datica-at-sxsw/)\n10.
+    innovations and ideas to get off the ground. [_continue reading_](https://datica-2019.netlify.app/blog/how-digital-health-succeeds-and-fails-datica-at-sxsw/)\n10.
     __HITRUST on AWS is possible! Find out how at HIMSS18.__  AWS asked us to share
     our knowledge of HITRUST with their customers, or those organizations interested
     in being AWS customers, in a special 20-minute session held at HIMSS 2018.  HITRUST
     is becoming one of the most important pivot points for any enterprise healthcare
     cloud strategy. We’ve seen this first hand ourselves, time and time again. [_continue
-    reading_](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)\n"
+    reading_](https://datica-2019.netlify.app/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)\n"
   :featured_image:
     :id: 2fA3oOru2cg4sKkMSgu8uu
   :share_image:
@@ -262,8 +262,8 @@
     :id: 1gpUmvd6yuOKUIUIY620i0
   :summary: Government, individuals, and private sector will continue a push for change
     in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.
-  :blog_lead: It’s 2018, and the world looks much different [than it did a year ago](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/).
-    Go [back even further](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+  :blog_lead: It’s 2018, and the world looks much different [than it did a year ago](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/).
+    Go [back even further](https://datica-2019.netlify.app/blog/5-predictions-for-digital-health-in-2016/)
     and the differences are even more stark. No place is that more evident than in
     healthcare. As the largest industry in the world, healthcare has  weathered the
     most significant political waves of the last fifteen years. As the costs of healthcare
@@ -276,7 +276,7 @@
     several elections and a top priority for President Obama during one of his two
     terms (as it was for President Clinton, though his primary initiatives in healthcare
     didn’t pass), it’s no surprise that the current administration also would like
-    to impart change. [President Trump is now working to alter](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
+    to impart change. [President Trump is now working to alter](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
     some of what the Obama administration put into place. This move creates more uncertainty
     and requires change. I think everyone agrees on a defined set of goals for the
     industry, known as the triple aim (better outcomes, lower costs, improved experience),
@@ -315,19 +315,19 @@
     extra for better services, today, the majority of these care models bank on the
     pocketbooks of the middle to upper class. However, [emerging data sets](https://www.heritage.org/health-care-reform/report/direct-primary-care-innovative-alternative-conventional-health-insurance)
     show the success of this model is also possible for underserved populations, as
-    well. Learn more about what I think will happen with [cash-pay practices in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/).\n
+    well. Learn more about what I think will happen with [cash-pay practices in 2018](https://datica-2019.netlify.app/blog/2018-trends-cash-pay-practices-will-grow/).\n
     \ \n## Post-EHR healthcare \n\nThe gravy train of meaningful use (MU) is over.
     The effect of MU was a significant, artificial, driver of adoption for a few EHRs.
     Today, digital health records are the standard. As we move through 2018, keep
     an eye on EHRs and how they justify their ROI once massive capital expenditures
     are written down. Likewise, you’ll want to consider how clinicians adjust to this
-    brave new world. Read more about my [2018 predictions for the post-EHR world](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\n##
+    brave new world. Read more about my [2018 predictions for the post-EHR world](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/).\n\n##
     Clinicians as developers\n\nThe EHR wave of health IT left out clinicians. EHR
     and IT vendors drove those early technology decisions. Now, with software eating
     the world, clinicians are acting like software developers and corporate innovators
     in helping to design and, in some cases, build new technology and technology-enabled
     services for their colleagues and their patients. [Read more of my thoughts on
-    clinicians as developers.](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)\n\n##
+    clinicians as developers.](https://datica-2019.netlify.app/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)\n\n##
     The real cloud\n\n[HIMSS 2018](http://www.himssconference.org/), the largest health
     technology conference on the planet, will for the first time see the behemoth
     booths of EHR vendors challenged by the equally massive booths of public cloud
@@ -335,7 +335,7 @@
     coalmine moment for healthcare, not just for the adoption of the real cloud over
     simple virtualization, but also in the fragmentation of infrastructure and services
     managed by third parties for healthcare delivery organizations. [Learn more about
-    the real cloud in healthcare.](https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n\n##
+    the real cloud in healthcare.](https://datica-2019.netlify.app/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n\n##
     Beyond digital health hype\n\nDigital health has been hyped for a long time as
     a savior for healthcare. Unfortunately, healthcare is not that simple and no savior
     exists to untangle us from our current mess of a system. Technology, for technology’s
@@ -345,7 +345,7 @@
     or the [Castlight Health initial public offering hype](https://www.usatoday.com/story/money/markets/2014/03/14/castlight-health-ipo/6411725/)
     and valuation assumptions compared to the market reality of today. Similar to
     EHRs, digital health now must prove it’s worth if it’s going to have sticking
-    power. [Find out more about getting beyond the digital hype.](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n\n##
+    power. [Find out more about getting beyond the digital hype.](https://datica-2019.netlify.app/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n\n##
     Blockchain to the rescue \n\nSpeaking of hype, [blockchain has made its way into
     healthcare](https://www.forbes.com/sites/bernardmarr/2017/11/29/this-is-why-blockchains-will-transform-healthcare/#2560e48f1ebe).
     Smart contracts, immutability, and a clear audit trail — hallmarks of blockchain
@@ -510,7 +510,7 @@
 
     At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
   :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
-    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    Trends post](https://datica-2019.netlify.app/blog/6-healthcare-trends-to-watch-in-2018/), is
     not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
     and the public cloud providers Amazon, Microsoft, and Google. The public cloud
     is not Epic hosting in Verona, with a data center that is managed and operated
@@ -582,8 +582,8 @@
     to a cloud provider. This perceptive challenge can and will be overcome, but it
     requires changes to the way healthcare organizations manage risk for their data
     and how they align that risk with liability from cloud providers acting as stewards
-    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
-    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    of their data. Transparency, both legally in the form of [BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica-2019.netlify.app/discover/gdpr/) and technically
     in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
     third parties, both cloud providers for infrastructure and cloud specialists for
     migration, security, and compliance, healthcare IT and healthcare compliance will
@@ -591,14 +591,14 @@
     to say, but it’s clear they will have to change to embrace this brave new world.
     This will not happen overnight.\n\nA lot of the above are impacts that will be
     felt long-term and not necessarily in 2018. But, as healthcare organizations begin
-    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    their [journey to the cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/),
     some starting that journey at HIMSS this year, they need to consider all of this.
     Cloud strategies should be all-encompassing but also should be revisited on some
     regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
     Invite you to also take a look at the first three trends we’ve already explored
-    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
-    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
-    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    in this series: How [cash-pay practices will grow in 2018](https://datica-2019.netlify.app/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica-2019.netlify.app/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
     And don’t forget to subscribe to the blog to the right to have the rest of the
     trends we’ll explore delivered right to your inbox. \n\n\n"
   :featured_image:
@@ -649,12 +649,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -672,11 +672,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -696,13 +696,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -723,7 +723,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

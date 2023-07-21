@@ -53,7 +53,7 @@
     Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
   :profile_twitter: mohan2020
   :profile_linkedin: mohanbalachandran
-  :profile_url: https://datica.com/mohan
+  :profile_url: https://datica-2019.netlify.app/mohan
   :location:
     :lat: 37.7749295
     :lon: -122.41941550000001
@@ -70,12 +70,12 @@
   patients, therefore classifying credit card data as ePHI (electronic protected health
   information). \n"
 :post: "## Credit Card Processors and Business Associate Agreements (BAAs)\n\nMany
-  wonder if they need a [business associate agreement](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+  wonder if they need a [business associate agreement](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/)
   with payment providers and services to comply with HIPAA. Although processing payments
   through a credit-card processor generates PHI, [Health and Human Services (HHS)](http://www.hhs.gov/)
   has stated that this process is specifically excluded from certain HIPAA mandates,
   as well as BAA requirements - the key word here being ‘certain’. \n\nJust like many
-  of the convoluted directives of [HIPAA](https://datica.com/discover/hipaa-compliance/),
+  of the convoluted directives of [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/),
   the compliance solution is not black or white. So although simple credit card processing
   may not mandate an enacted BAA, if the card processor being utilized also offers
   services like gift cards, reporting, analysis, account balance, accounts receivable,
@@ -105,7 +105,7 @@
     business in the EU and understand how to handle PHI of EU citizens. With Datica,
     you’ll be ready when GDPR takes effect on May 25, 2018.
   :cta_label: Get the GDPR Guide
-  :cta_url: https://datica.com/guide/gdpr-compliance
+  :cta_url: https://datica-2019.netlify.app/guide/gdpr-compliance
   :cta_image:
     :id: 3PtpwcCyLYOGM0oiOKGo0O
   :cta_color: blue-alt
@@ -134,16 +134,16 @@
     responsibility, and thus liability, with respect to the handling of PHI data.
 
 '
-  :post: "We've written about [BAAs before](https://datica.com/academy/business-associate-agreements/).
+  :post: "We've written about [BAAs before](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     Start there for a general understanding. The rest of this article, as well as
     a [Part 2 that talks about the top 5 things to look for in a business associate
-    agreement](https://datica.com/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
+    agreement](https://datica-2019.netlify.app/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
     will dive into why selecting a BAA is important, and give guidance when doing
     so.\n\n## It's not just a checkbox\n\n>   A chain is only as strong as its weakest
     link.\n>   —  A wise engineer\n\nDatica has talked to many companies about their
     HIPAA compliant hosting requirements and how our Platform-as-a-Service (PaaS)
     can address their requirements. Our mission is to help them get most of the way
-    down the road of [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    down the road of [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/).
     Often we discuss the topic of other vendors in the space, both similar HIPAA-compliant
     platforms or traditional companies like AWS, Firehost, Bluebox, etc. While the
     conversion usually focuses on technology and features, we emphasize the differences
@@ -170,7 +170,7 @@
     has been increased chaining of responsibilities—a good thing in today's technology
     landscape. As the internet, cloud computing, and APIs have broken down silos,
     more applications rely on different layers of technology and services, [considered
-    subcontractors](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/).
+    subcontractors](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/).
     These _subcontractors_ (e.g. Datica, AWS) sign BAAs with _business associates_
     (you), who in turn sign a BAA with _covered entities_ (health system, health plan).\n\nIt
     is critical for you to remember that ultimately you, as the business associate
@@ -217,7 +217,7 @@
     down the line a subcontractor gets from a covered entity, the more confusion there
     is.
   :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
-    by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+    by [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and entities that have
     to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
     covered entities (CEs), and business associates. The further down the line the
     subcontractor gets from the covered entity, the more confusion there is about
@@ -231,7 +231,7 @@
     associates handle, process, transmit, or in some way interact with electronic
     protected health information (ePHI) from those covered entities. With this PHI
     access, all business associates are required to sign what’s called a [business
-    associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+    associate agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     The BAA is a legal contract that describes how the business associate adheres
     to HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also
     typically defines the services that the business associate is providing, the type
@@ -262,7 +262,7 @@
     under HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because
     they encrypted the data in transit and in storage. This is certainly crucial,
     but there is so much more to HIPAA than encrypting data. You can read about everything
-    we do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+    we do to be HIPAA-compliant in our [policies](https://datica-2019.netlify.app/open-source/policies/).
     At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
     physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
     As a result, that vendor would need to have a BAA signed with their hosting vendor
@@ -311,10 +311,10 @@
   :blog_lead: |-
     > You must pay the price if you wish to secure the blessing. — Andrew Jackson
 
-    At Datica we've been through [three external audits](https://datica.com/compliance/hitrust/) conducted by a large, national auditing firm. In all three cases, I've personally led the efforts from our side, coordinating our internal resources as needed. I wouldn't call it a fun process, but it has helped add rigor to our internal security and compliance programs. It validated the hard work we've done to build a fully [HIPAA compliant platform](https://datica.com/compliant-cloud/), and associated organization, that exceeds the HIPAA rules. We've also learned what does and does not meet HIPAA standards from an external or auditor perspective.
+    At Datica we've been through [three external audits](https://datica-2019.netlify.app/compliance/hitrust/) conducted by a large, national auditing firm. In all three cases, I've personally led the efforts from our side, coordinating our internal resources as needed. I wouldn't call it a fun process, but it has helped add rigor to our internal security and compliance programs. It validated the hard work we've done to build a fully [HIPAA compliant platform](https://datica-2019.netlify.app/compliant-cloud/), and associated organization, that exceeds the HIPAA rules. We've also learned what does and does not meet HIPAA standards from an external or auditor perspective.
   :post: "Cost seems to be one of a few gating factors for companies considering a
     HIPAA audit. It's certainly a topic we are asked about constantly. I touched on
-    the cost of audits in my last post on [proving HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/).
+    the cost of audits in my last post on [proving HIPAA compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/).
     If you look at the cost of a HIPAA audit, it breaks into two broad categories.\n\n1.
     Direct costs\n2. Indirect costs.\n\nLet's walk through how costs are calculated
     in both.\n\n## Direct Costs of a HIPAA Audit\n\nThe easier bucket to calculate.
@@ -329,14 +329,14 @@
     organizations spend time addressing the gaps before beginning a full HIPAA audit.
     **The direct cost is about $15,000-$20,000.**\n* **Full HIPAA Audit**. A full
     HIPAA audit, when applied to technology vendors, assesses an organization against
-    all the [requirements in HIPAA Security Rule](https://datica.com/discover/hipaa-compliance/).
+    all the [requirements in HIPAA Security Rule](https://datica-2019.netlify.app/discover/hipaa-compliance/).
     It's a long list. It includes both technical settings and configurations as well
     as administrative requirements like training and business associate agreements.
     It will involve an auditor visit and will require documentation to support claims
     about security and compliance; this can include showing specific technology settings
     like password rules and guest access. **The direct cost is about $20,000-$25,000.**\n*
     **Validated HITRUST Assessment**. HITRUST is a more [complete, certifiable version
-    of HIPAA](https://datica.com/discover/hitrust/). It was created by large healthcare
+    of HIPAA](https://datica-2019.netlify.app/discover/hitrust/). It was created by large healthcare
     enterprises to mirror PCI compliance. It is similar to a full HIPAA audit but
     goes into much more granular detail about the maturity of controls and compliance
     programs. There's now a standard web app that you use to enter information. Those
@@ -370,7 +370,7 @@
     deals.\n\nIt's also important to understand that the cost of an audit is not simply
     a cost at one point in time. Audits are typically followed by annual reviews,
     sort of like miniature audits. These too cost money, eat time, and can be a distraction.
-    We're working on calculating the overall cost of being [HIPAA compliant](https://datica.com/discover/hipaa-compliance/)
+    We're working on calculating the overall cost of being [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/)
     so stay tuned for more soon. Also, if you have audit insights you can share, [we'd
     love to hear them](mailto:hello@datica.com).\n\n"
   :cta_ref:
@@ -401,7 +401,7 @@
   :summary: Guess what? HIPAA doesn't say how long you have to keep medical records.
     This is a common misconception of HIPAA data retention policy.
   :blog_lead: 'It may come as a surprise, but you don''t have to retain medical records
-    according to [HIPAA rules](https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security/).
+    according to [HIPAA rules](https://datica-2019.netlify.app/blog/three-hipaa-omnibus-rule-essentials-for-it-security/).
     This is a very common misconception with HIPAA. Medical records means electronic
     protected health information (ePHI) in this case. HIPAA does not have any rules
     that require covered entities or business associates to retain ePHI. I assume
@@ -420,7 +420,7 @@
     this does happen and some doctors feel so strongly, in a bad way, about EHRs that
     they are are retiring early to avoid having to change the way they've practiced
     for 30, 40, or even 50 years.\n\nThere are issues that arise when a [business
-    associate](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    associate](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/),
     such as an EHR company, goes out of business and the covered entity needs to get
     the records and find a way to store them. We've seen this experience too, especially
     in the case of smaller, specialty specific EHRs and practice management systems.
@@ -441,7 +441,7 @@
     audits, and other documentation related to your organization.\n\n## Datica policy
     and documentation retention\n\nAt Datica we use [Git](https://git-scm.com/) for
     version control on our policies, and the current versions are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-    and maintained in a Master branch. [More on why we do this in a separate post](https://datica.com/blog/our-company-policies-now-available-free-on-github/).\n\nWe
+    and maintained in a Master branch. [More on why we do this in a separate post](https://datica-2019.netlify.app/blog/our-company-policies-now-available-free-on-github/).\n\nWe
     backup our current policies using Box. For risk assessments, change and configuration
     management, vulnerability scanning, and audits we also use Box as a repository.
     You can see our current policies here - [policy.datica.com](https://policy.datica.com).\n\n"
@@ -493,7 +493,7 @@
     health insurance system. Specifically, the HIPAA Privacy Rule created the first
     national standard to protect personal health information and medical records.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -511,9 +511,9 @@
     risks that could result in major compliance costs, organizations are able to focus
     on growing their profits instead of fearing these potential audit fines.\n\n##
     What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
-    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
-    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
-    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica-2019.netlify.app/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica-2019.netlify.app/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
     health information (PHI) is any information about health status, provision of
     health care, or payment for health care that can be linked to a specific individual
     and is transmitted or maintained in any form or medium by a covered entity or
@@ -528,10 +528,10 @@
     — especially if the disease or condition is rare enough.\n\n## Understand Business
     Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
     markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
-    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
-    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
-    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
-    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    Agreements](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica-2019.netlify.app/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica-2019.netlify.app/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
     HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
     entities that have to follow the HIPAA security and privacy rules. The main categories
     are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
@@ -544,9 +544,9 @@
     associates are required to sign what’s called a business associate agreement (BAA).\n\n##
     Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
     markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
-    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
-    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
-    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    Datica](https://datica-2019.netlify.app/compliance/)\n* [Proving HIPAA Compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica-2019.netlify.app/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
     can, and many companies do, put “HIPAA Compliant” on their websites and marketing
     material. Complying with HIPAA is essential to selling software that processes,
     stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,

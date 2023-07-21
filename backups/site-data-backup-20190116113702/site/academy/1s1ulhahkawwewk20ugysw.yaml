@@ -45,7 +45,7 @@
 
   ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
 
-  First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+  First and foremost, you’ll need a [BAA](https://datica-2019.netlify.app/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
 
   More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
 
@@ -245,8 +245,8 @@
 
   For more information on Datica’s products and services. Check out these helpful links:
 
-  - [Cloud Compliance Management System](https://datica.com/ccms)
-  - [Compliant Kubernetes Service](https://datica.com/cks)
+  - [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)
+  - [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)
 :featured_image:
   :title: Making RDS compliant
   :description: academy, articles
@@ -332,7 +332,7 @@
     not provide programmatic access to their BAA (at least none that we could find).
     To double check that you do in fact have a BAA in place with Microsoft, it’s recommended
     that you reach out to your Azure rep (or Azure support if you do not have a rep).
-    \n\nMore general tips on BAAs [here](https://datica.com/academy/business-associate-agreements/).
+    \n\nMore general tips on BAAs [here](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     \n\n| HIPAA Rule     | API Reference     |\n| ---------- | ---------- |\n| HIPAA
     &sect; 164.308       | N/A: Azure does not provide API access to the BAA       |\n\n##
     Step 2: Creating the database\n\nInside of the Azure portal, find the search bar
@@ -445,8 +445,8 @@
     and providing proof — a digital papertrail — is an incredible amount of work.
     Having a partner like Datica can mean the difference between an audit taking 4
     months, or 4 weeks.\n\nFor more information on Datica’s products and services.
-    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
-    [Compliant Kubernetes Service](https://datica.com/cks)\n"
+    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n-
+    [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)\n"
   :related_entries:
   - :id: 1s1UlhAhkAwwewk20ugYsW
   - :id: 4STmWUVa5WwkaWyi2UYG8U
@@ -480,7 +480,7 @@
     From Google: \n\n> \"Execute a Google Cloud BAA. You can request a BAA directly
     from your account manager.\"\n\nOnly once you’ve signed the BAA and subsequently
     configured your SQL database to be compliant should you start accepting PHI.\n\nMore
-    on BAAs can be found in the [Datica Academy](https://datica.com/academy/).\n\n|
+    on BAAs can be found in the [Datica Academy](https://datica-2019.netlify.app/academy/).\n\n|
     Rule     | Header     |\n| ---------- | ---------- |\n| HIPAA &sect; 164.308       |
     N/A: GCP does not provide an API to the BAA       |\n\n## Step 2: Working with
     VPC networks\n\nBefore we jump into creating our SQL instance, first we’re going
@@ -631,8 +631,8 @@
     and providing proof &mdash; a digital papertrail &mdash; is an incredible amount
     of work. Having a partner like Datica can mean the difference between an audit
     taking 4 months, or 4 weeks.\n\nFor more information on Datica’s products and
-    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
-    [Compliant Kubernetes Service](https://datica.com/cks)"
+    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n-
+    [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)"
   :related_entries:
   - :id: 43dQoBKc9OuQuyw8k2SmKO
   - :id: 1s1UlhAhkAwwewk20ugYsW
@@ -682,7 +682,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -709,10 +709,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -734,7 +734,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -742,7 +742,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
@@ -839,7 +839,7 @@
   :cta_desc: We want to make sure the Cloud Compliance Management System has you covered.
     Tell us what other cloud configurations you want to see.
   :cta_label: Take the Survey
-  :cta_url: https://datica.com/cloud-compliance-management-system/survey/
+  :cta_url: https://datica-2019.netlify.app/cloud-compliance-management-system/survey/
   :cta_image:
     :id: 5TDGfDp13aEgs6gO8g2YC2
   :cta_image_small:

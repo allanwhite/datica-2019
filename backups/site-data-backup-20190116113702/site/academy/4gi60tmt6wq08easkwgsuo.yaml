@@ -334,7 +334,7 @@
     even larger extent, HITRUST. Fundamentally, addressing HIPAA and GDPR is about
     having security as a core tenet of operations; the major difference is ensuring
     that evidence and documentation is created to prove compliance with each framework.\n\nGet
-    a general overview of [how GDPR compares to HIPAA](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/)
+    a general overview of [how GDPR compares to HIPAA](https://datica-2019.netlify.app/blog/how-does-gdpr-compare-to-hipaa/)
     including why GDPR is getting such outsized attention, the definition of GDPR,
     how to report breaches, the guidelines for health data access, and the required
     Data Protection Impact Assessments (DPIAs) on the Datica blog.\n\n## Does the
@@ -350,7 +350,7 @@
     \n\nUnderstand the obligations Processors (and cloud service providers) have within
     GDPR, risk allocation between business partners, the GDPR definition of data protection
     by design and default, and the role of HITRUST in GDPR compliance by reading the
-    academy article, [GDPR for Cloud Service Providers.](https://datica.com/academy/gdpr-for-cloud-service-providers/)\n\n##
+    academy article, [GDPR for Cloud Service Providers.](https://datica-2019.netlify.app/academy/gdpr-for-cloud-service-providers/)\n\n##
     What is a GDPR data breach?\n\nWe get asked all the time for the meaning of a
     data breach. It often comes up when people look at a breach vs. a security incident.
     It gets even muddier when the term “security incident involving ePHI” is brought
@@ -359,7 +359,7 @@
     Ambiguity and opacity is a not a good strategy when it comes to compliance and
     foundational definitions.\n\nLearn about what counts as a security incident under
     GDPR, and how GDPR data breach compares to HIPAA data breach in the Datica Academy
-    article, [What is a Data Breach under GDPR and HIPAA](https://datica.com/academy/what-is-data-breach-gdpr-and-hipaa/)\n\n###
+    article, [What is a Data Breach under GDPR and HIPAA](https://datica-2019.netlify.app/academy/what-is-data-breach-gdpr-and-hipaa/)\n\n###
     Are there really only 72 hours for breach notification?\n\nOne of the most challenging
     aspects of any security and compliance program is data breach notification. “Beach
     notification” is actually multiple tasks — surveillance, investigation, and ultimately
@@ -371,7 +371,7 @@
     that organizations are used to doing ahead of notifying authorities and individuals
     about a breach.\n\nGDPR breach reporting is more prescriptive and more aggressive
     than the requirements under HIPAA, or likely any other compliance framework. Learn
-    the ins and outs of [GDPR data breach requirements](https://datica.com/academy/gdpr-data-breach-requirements/)
+    the ins and outs of [GDPR data breach requirements](https://datica-2019.netlify.app/academy/gdpr-data-breach-requirements/)
     in the Datica Academy.\n\n### What’s the checklist for a breach notification process?\n\nThe
     breach notification requirements outlined in GDPR Article 33 are aggressive —“The
     controller shall without undue delay and, where feasible, not later than 72 hours
@@ -389,7 +389,7 @@
     authorities\n3. Develop the new process that can be completed in 72 hours\n* Create
     templates/ efficiencies\n* Test your new process (and document it)\n4. Notify
     customers and partners of your new breach reporting process\n\nThe academy post,
-    [GDPR Data Breach Notification Checklist](https://datica.com/academy/gdpr-data-breach-notification-checklist/)
+    [GDPR Data Breach Notification Checklist](https://datica-2019.netlify.app/academy/gdpr-data-breach-notification-checklist/)
     walks through the details of each step listed above you should take to bring your
     breach reporting policies and procedures in compliance with GDPR.\n\n## How much
     are the GDPR Fines and Penalties?\n\nArticle 58 of the GDPR grants supervisory
@@ -403,7 +403,7 @@
     (revenue). \n\nFor a detailed understanding of the reasons for each of the different
     fine levels, advice on how to minimize your risk of GDPR fines, and a description
     of Article 84 member States’ penalties, read the Datica academy entry, [GDPR Fines
-    and Penalties.](https://datica.com/academy/gdpr-fines-and-penalties/)\n\n## What
+    and Penalties.](https://datica-2019.netlify.app/academy/gdpr-fines-and-penalties/)\n\n## What
     if you transfer data outside of the EU? \n\nWhile you are gearing up for the GDPR,
     one critical facet cannot be overlooked for healthcare enterprises and digital
     health companies who aspire to work internationally. If your U.S. company plans
@@ -415,7 +415,7 @@
     This self-certification or assessment confirms that your company meets the Privacy
     Shield Framework requirements that help protect the personal data of Europeans.
     \n\nThe Datica blog has more information on Privacy Shield so you can [know the
-    ropes before pulling data back across the pond.](https://datica.com/blog/privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond/)\n\n##
+    ropes before pulling data back across the pond.](https://datica-2019.netlify.app/blog/privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond/)\n\n##
     Is Datica GDPR Compliant?\n\nDatica's compliance program is comprehensive. The
     process of expanding and proving compliance across multiple frameworks, both for
     us and our customers, is not new to us at Datica. You can follow our changes through
@@ -432,7 +432,7 @@
     follows the rules, we increase the chances of digital health success and decrease
     the chances of getting our hands and wallets slapped in court.\n\nWith Datica,
     you'll be ready when GDPR takes effect in May, 2018. [Talk to one of our compliance
-    experts](https://datica.com/contact/) today to find out how you can be compliant
+    experts](https://datica-2019.netlify.app/contact/) today to find out how you can be compliant
     with GDPR or drop us a line at [hello@datica.com](mailto:hello@datica.com).\n"
   :related_blog:
   - :id: E1VA55CiNq2Ioa4wm2y4Q
@@ -455,7 +455,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:

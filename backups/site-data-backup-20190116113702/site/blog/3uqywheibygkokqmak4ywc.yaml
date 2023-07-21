@@ -71,13 +71,13 @@
 
   <img src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?fm=jpg&w=150&q=20" class="float-right lozad" data-src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?w=300" width="150" alt="Complete Cloud Compliance Book" />
 
-  In 2013, when Datica was founded as [Catalyze](https://datica.com/catalyze), the cloud was a simpler place. AWS was the only public cloud that signed a meaningful [Business Associate Agreement (BAA)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), but they only had a handful of services (or "primitives") within scope. Even so, to sign the BAA, which was under NDA, required customers use dedicated instances which meant digital health companies had to spend a minimum $1,400 per month just to get started — and that doesn’t even account for the cost to solve [the remaining 9/10ths of compliance](https://datica.com/compliant-kubernetes-service/aws/). Docker wasn't yet version 1.0, and [Kubernetes](https://datica.com/blog/kubernetes-vs-paas/) wasn't even a thing yet. The term "microservices" meant nothing. Modern container-based cloud architectures that were fully HIPAA compliant and could be HITRUST CSF Certified were impossible on the public cloud until [Catalyze's first platform-as-a-service product](https://datica.com/press-release/catalyze-closes-series-a-funding-to-expand-development-of-its-healthcare-platform/) came along.
+  In 2013, when Datica was founded as [Catalyze](https://datica-2019.netlify.app/catalyze), the cloud was a simpler place. AWS was the only public cloud that signed a meaningful [Business Associate Agreement (BAA)](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/), but they only had a handful of services (or "primitives") within scope. Even so, to sign the BAA, which was under NDA, required customers use dedicated instances which meant digital health companies had to spend a minimum $1,400 per month just to get started — and that doesn’t even account for the cost to solve [the remaining 9/10ths of compliance](https://datica-2019.netlify.app/compliant-kubernetes-service/aws/). Docker wasn't yet version 1.0, and [Kubernetes](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/) wasn't even a thing yet. The term "microservices" meant nothing. Modern container-based cloud architectures that were fully HIPAA compliant and could be HITRUST CSF Certified were impossible on the public cloud until [Catalyze's first platform-as-a-service product](https://datica-2019.netlify.app/press-release/catalyze-closes-series-a-funding-to-expand-development-of-its-healthcare-platform/) came along.
 
   Fast forward to 2018, and the cloud is a very different place. __We are now living in a post-cloud world.__ That post-cloud world is built on managed services. AWS is now up to hundreds of these services and dozens within scope of their BAA. Azure and GCP sign rock-solid BAAs consisting of just as many world-class services and all three are competing to be a viable destination for digital health workloads. Many independent managed services, like MongoDB's Atlas, sign BAAs now, too. The typical cloud architecture is a constellation of managed services using a microservices-based scheme. Just the other day, I was speaking to a digital health developer who mentioned his company uses the basics like Amazon Elastic Compute Cloud (Amazon EC2), Amazon Relational Database Service (Amazon RDS), Amazon Simple Simple Storage Service (Amazon S3), AWS Lambda, and Amazon API Gateway, but is using BigQuery on GCP for machine learning and investigating Azure Kubernetes Service (AKS) and Azure Cosmos as an eventual Kubernetes destination, while also incorporating MongoDB Atlas, Auth0, and a handful of independent logging and monitoring services. Whew. This is not manic decision making. This is the new normal.
 
   > Compliance has not kept up. We know this first hand.
 
-  The issues are foundational, from our experience. Compliance officers are often attorneys and not technologists so they have a hard time grasping how fast abstraction on the cloud is moving. Likewise, engineers are not legal scholars, so they have a tough time wrapping their heads around a proper compliance program that is the difference between their app being adopted by hospitals or dying on the vine. I still personally have about one conversation a day with a developer where I have to coach them that [HIPAA is a government regulation](https://datica.com/discover/hipaa-compliance/) while [HITRUST](https://datica.com/discover/hitrust/) is a certification framework.
+  The issues are foundational, from our experience. Compliance officers are often attorneys and not technologists so they have a hard time grasping how fast abstraction on the cloud is moving. Likewise, engineers are not legal scholars, so they have a tough time wrapping their heads around a proper compliance program that is the difference between their app being adopted by hospitals or dying on the vine. I still personally have about one conversation a day with a developer where I have to coach them that [HIPAA is a government regulation](https://datica-2019.netlify.app/discover/hipaa-compliance/) while [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) is a certification framework.
 
   In 2013, the cloud was built for an operator archetype, the type of employee who could secure Virtual Machines (VMs) and contribute to a compliance program. After five years, the cloud is now designed for developers who can easily interchange services with a few clicks. What we are seeing is this new archetype is not ready for security and compliance in a managed services world. All we have to do is look around to find news stories of the situation. [Just last month, an improperly configured AWS S3 bucket lead to 31,000 GoDaddy servers to be exposed](https://www.engadget.com/2018/08/09/amazon-aws-error-exposes-31-000-godaddy-servers/).
 
@@ -88,7 +88,7 @@
   The book starts out with a basic introduction then flows into the following chapter setup:
 
   1. __The Business Case for Compliance__ — an examination on why compliance actually matters to regulated companies like digital health.
-  2. __[What _Really_ is Compliance?](https://datica.com/innovation/complete-cloud-compliance-chapter-2/)__ — We tried very hard to be simple and concise while also educating complex topics to those who are fresh to the respective domains. Consequently, this chapter breaks down critical compliance concepts with a developer reader in mind, meaning compliance officers will find the content familiar. Feedback from developers has been fantastic, however.
+  2. __[What _Really_ is Compliance?](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/)__ — We tried very hard to be simple and concise while also educating complex topics to those who are fresh to the respective domains. Consequently, this chapter breaks down critical compliance concepts with a developer reader in mind, meaning compliance officers will find the content familiar. Feedback from developers has been fantastic, however.
   3. __What _Really_ is the Cloud?__ — The cloud is not a computer in somebody else's data center. It's software-enabled infrastructure services built for software developers. This chapter was written for this post-cloud world, but it does lay some basic foundational concepts to help educate business folks. Feedback from engineers to compliance officers to business users has been very positive.
   4. __Why Data Interoperability Matters__ — Readers will find a consistent theme throughout the book: data is splintering, not consolidating, which makes compliance even harder. This chapter uses healthcare to explain how interoperability matters to compliance.
   5. __Complete Cloud Compliance__ — After the context is set, we give a detailed overview on how regulated companies can employ a compliance program that genuinely gives them dynamic, continuous compliance on an ever-changing cloud. We call the program Complete Cloud Compliance, as the book title implies, and 3C for short throughout.
@@ -127,11 +127,11 @@
 
   ## How to get a copy
 
-  Travis and Datica CSO Christopher Gerg will be giving away free copies at the [HITRUST 2018](https://datica.com/events/hitrust-2018/) this week. Come find our book signing table in the expo hall. If we run out, we are happy to collect your name and address to mail a copy. Similarly, free copies will be given away at the [Microsoft Ignite](https://datica.com/events/microsoft-ignite-2018/) and [AWS re:Invent](https://datica.com/events/aws-reinvent-2018/) conferences. Come find us for a free copy. We'll blog [more about those events](https://datica.com/blog/where's-datica-our-fall-2018-conference-lineup/) as they get closer.
+  Travis and Datica CSO Christopher Gerg will be giving away free copies at the [HITRUST 2018](https://datica-2019.netlify.app/events/hitrust-2018/) this week. Come find our book signing table in the expo hall. If we run out, we are happy to collect your name and address to mail a copy. Similarly, free copies will be given away at the [Microsoft Ignite](https://datica-2019.netlify.app/events/microsoft-ignite-2018/) and [AWS re:Invent](https://datica-2019.netlify.app/events/aws-reinvent-2018/) conferences. Come find us for a free copy. We'll blog [more about those events](https://datica-2019.netlify.app/blog/where's-datica-our-fall-2018-conference-lineup/) as they get closer.
 
   General purchase will eventually be available later this year via Amazon.com fulfillment.
 
-  Until then, you can [download a free PDF copy of chapter two](https://datica.com/innovation/complete-cloud-compliance-chapter-2/) in order to get a feel for the book and you’ll be notified when it is formally available.
+  Until then, you can [download a free PDF copy of chapter two](https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/) in order to get a feel for the book and you’ll be notified when it is formally available.
 :featured_image:
   :title: blog-book-announcement-featured
   :description: 'Blog: We wrote a book featured image'
@@ -158,7 +158,7 @@
   :cta_title: Get Chapter 2 of Complete Cloud Compliance
   :cta_desc: 'Sneak peak of Complete Cloud Compliance: Chapter 2 Download'
   :cta_label: Get chapter 2 free
-  :cta_url: https://datica.com/innovation/complete-cloud-compliance-chapter-2/
+  :cta_url: https://datica-2019.netlify.app/innovation/complete-cloud-compliance-chapter-2/
   :cta_image:
     :id: DKvAsmBWqkEOkYqmuGEGY
   :cta_image_small:
@@ -187,7 +187,7 @@
   :blog_lead: 'Datica''s compliance roots start in healthcare with HIPAA, a regulatory
     framework found in one of the most conservative industries in the world. For much
     of our early years, we were healthcare-only, consistently providing the best [HIPAA
-    compliance](https://datica.com/discover/hipaa-compliance/) management option on
+    compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/) management option on
     top of the public cloud.
 
 '
@@ -195,7 +195,7 @@
 
     ## Best practices are best practices
 
-    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica.com/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
+    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica-2019.netlify.app/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
 
     The nearly year-long exercise was a catalyst for our compliance team to innovate on how we could be bigger than just GDPR. We took a look at compliance holistically, and globally, to come up with a strategy that will allow us to better serve customers across industries and geographies.
 
@@ -203,13 +203,13 @@
 
     ## The Datica global compliance roadmap
 
-    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica.com/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
+    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica-2019.netlify.app/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
 
     HITRUST has done a great job of aiming for big goals. With version 9.1 of the CSF, we believe there are few better options for the most stringent and comprehensive compliance auditing framework on the cloud. The HITRUST CSF is our DNA framework.
 
     By using HITRUST, we will crosswalk the CSF to other geographies and compliance regimes, thus accelerating our ability to support compliance attestations in those areas. Certainly unique considerations will exist in respective geographies before we can officially support compliant deployments of the Datica Platform in a country, but the CSF will get us almost all the way there in all cases.
 
-    As has been the drumbeat since [Datica's founding in 2013](https://datica.com/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
+    As has been the drumbeat since [Datica's founding in 2013](https://datica-2019.netlify.app/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
 
     <img class="lozad group" data-src="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=600" data-srcset="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=800 1000w, //images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png 1200w" alt="global compliance stance table" />
 
@@ -222,7 +222,7 @@
 
     This table will be updated a lot throughout 2018 as we test our compliance posture against new regimes.
 
-    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica.com/cloud-compliance/global/) page of our website.
+    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica-2019.netlify.app/cloud-compliance/global/) page of our website.
 
     In short, we plan to take HITRUST global to both geographies and regimes that we haven't previously supported. We want to be the best compliance management option for cloud native applications across the world.
   :featured_image:
@@ -259,8 +259,8 @@
   :summary: The Summer 2018 Datica Quarterly Report has timely insights as healthcare
     grapples with GDPR, new privacy laws in CA, and forays into healthcare by the
     tech titans of Microsoft and Amazon.
-  :blog_lead: This latest [Datica Industry Report](https://datica.com/innovation/report-q2-2018-privacy-big-technology/)
-    was an exciting package to put together. As we have done in [previous reports](https://datica.com/innovation/),
+  :blog_lead: This latest [Datica Industry Report](https://datica-2019.netlify.app/innovation/report-q2-2018-privacy-big-technology/)
+    was an exciting package to put together. As we have done in [previous reports](https://datica-2019.netlify.app/innovation/),
     we have curated some of the more insightful articles and commentary from publications
     around the web. Certainly, there’s a lot of privacy news out there. We think it’s
     timely as the Healthcare industry grapples with GDPR, new privacy legislation
@@ -287,8 +287,8 @@
     will be asking, what do we do now that we can change our eye color on the fly?\n\n>
     Compliance behaves like a lagging indicator. It’s just a part of regulation and
     regulation has tried to keep up with the pace of technology.\n\nWe hope you enjoy
-    this edition of the [Datica Quarterly Report](https://datica.com/innovation/report-q2-2018-privacy-big-technology/).
-    If you have questions or comments, as always, [contact us](https://datica.com/contact/)."
+    this edition of the [Datica Quarterly Report](https://datica-2019.netlify.app/innovation/report-q2-2018-privacy-big-technology/).
+    If you have questions or comments, as always, [contact us](https://datica-2019.netlify.app/contact/)."
   :featured_image:
     :id: 5i86f3BdReW2iIqaQoy0oa
   :share_image:
@@ -322,16 +322,16 @@
   :summary: Complying with HIPAA and proving it are two very different things. Datica
     is HIPAA compliant AND can prove it with our HITRUST CSF certification.
   :blog_lead: |-
-    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica-2019.netlify.app/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
 
-    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
-  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
-    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    Complying with [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/).
     HITRUST, for those that don’t know, is an industry-driven attempt to create a
     prescriptive, standardized, repeatable compliance framework that all organizations
     in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
     HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
-    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    Coalfire](https://datica-2019.netlify.app/compliance/) — a 3rd party auditor — in 2015 and
     are now in the midst of our 2017 renewal audit. After going through this a few
     times now, we can summarize the HITRUST CSF Certification process with these five
     giant steps. It’s an involved process and there are no shortcuts. A company considering
@@ -351,7 +351,7 @@
     has several hundred requirements that apply to us whereas a company that is not
     cloud based may have a completely different set of controls and requirements that
     apply to them. We have all the details about the domains, controls, and requirements
-    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica-2019.netlify.app/academy/).
     Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
     sizeable amount of documentation is involved during the completion, including
     policies, risk assessments, as well as technical documentation and configurations.
@@ -408,7 +408,7 @@
   :blog_lead: HIPAA regulations create a barrier for makers of digital health products
     to adopt the cloud. Whether you are a digital health startup, a health system,
     payer, or life sciences organization, it takes an enormous amount of work to [get
-    your digital health product off the ground](https://datica.com/dhsf/) while, at
+    your digital health product off the ground](https://datica-2019.netlify.app/dhsf/) while, at
     the same time, achieving and maintaining continuous HIPAA compliance.
   :post: |-
     <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -419,13 +419,13 @@
 
     ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
 
-    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
 
     ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
 
-    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
 
-    This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+    This latest CSF Certification is even more comprehensive [than the last](https://datica-2019.netlify.app/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica-2019.netlify.app/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
 
     <h4 class="text--spaced text-center group">Compliance Facts</h4>
     <div class="row small-up-1 medium-up-3 align-center">
@@ -490,7 +490,7 @@
 
     Consistently, the biggest barrier to a successful cloud compliance program is simply the complexity of understanding everything. This is really hard! But not because it's hard to understand, only hard to absorb all the information.
 
-    In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica.com/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica.com/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
+    In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica-2019.netlify.app/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica-2019.netlify.app/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
 
     ## The assessment is pretty straightforward:
 
@@ -556,7 +556,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -583,10 +583,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -608,7 +608,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -616,7 +616,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

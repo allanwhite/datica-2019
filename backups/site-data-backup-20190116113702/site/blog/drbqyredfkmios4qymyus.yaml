@@ -74,7 +74,7 @@
 
   A Backend as a Service couples a basic datastore with expressive user provisioning and authentication tools. Think of it like a NoSQL database someone else manages for you off in the cloud, except that access is via a REST API. A similar yet non-compliant service is Parse.com.
 
-  User provisioning and authentication are important in healthcare since applications need to limit who can access what PHI. The most common example is a doctor should only have access to his or her patients, not every patient in the application. [Datica Compliant Cloud](https://datica.com/compliant-cloud) allows you to configure "groups" of users and then determine what data they should be able to access through Access Control Lists (ACLs).
+  User provisioning and authentication are important in healthcare since applications need to limit who can access what PHI. The most common example is a doctor should only have access to his or her patients, not every patient in the application. [Datica Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud) allows you to configure "groups" of users and then determine what data they should be able to access through Access Control Lists (ACLs).
 
   The best use case for a BaaS is when data will only reside on either the device/browser and the BaaS itself, with nothing in between. A BaaS does not have any backend processing abilities, so it's not a good fit for data crunching or processing events like handling a batch of daily claims. If those aren't requirements, BaaS does most of the heavy lifting for you. Since retrieved Protected Health Information (PHI) only ever sits on the device or browser, you have no other HIPAA infrastructure concerns other than configuring the build in security tools to meet your needs.
 
@@ -82,7 +82,7 @@
 
   A Platform as a Service is something where you would deploy an entire application architecture. The full stack, from application code to database structure to backend workers, is deployed to your little slice of the cloud. That slice, at the infrastructure layer (networking and OS levels), is managed by the PaaS provider.
 
-  It's not too dissimilar from a "Host", but what makes a PaaS different are all the extra system additions a PaaS vendor provides. In Datica's case, we provide encryption of your data in transit and at rest, dedicated logging, monitoring, backup and disaster recovery, intrusion detection, vulnerability scanning, and more. All these additions are inherently part of [Datica Compliant Cloud](https://datica.com/compliant-cloud) — they are baked in. You must have them as additions to your environment. This important concept is what separates a "Platform" like Datica from a "Host" like Amazon Web Services.
+  It's not too dissimilar from a "Host", but what makes a PaaS different are all the extra system additions a PaaS vendor provides. In Datica's case, we provide encryption of your data in transit and at rest, dedicated logging, monitoring, backup and disaster recovery, intrusion detection, vulnerability scanning, and more. All these additions are inherently part of [Datica Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud) — they are baked in. You must have them as additions to your environment. This important concept is what separates a "Platform" like Datica from a "Host" like Amazon Web Services.
 
   Compliant Cloud is just like Heroku, only we are HIPAA compliant. You would use Compliant Cloud if you are already using someone like Heroku, or if you are using a traditional host who doesn't have the compliant add-ons, like Amazon Web Services.
 
@@ -108,7 +108,7 @@
   :cta_title: Subscribe to our newsletter
   :cta_desc: Subscribe to the Datica newsletter today.
   :cta_label: Subscribe to the Datica newsletter
-  :cta_url: https://datica.com/go/subscribe
+  :cta_url: https://datica-2019.netlify.app/go/subscribe
   :cta_svg_icon:
     :id: pkHiujpOgKQe0kE4i6cIY
   :cta_icon: "/public/icons/material/ic_email_48px.svg"
@@ -135,7 +135,7 @@
   :blog_lead: |
     [Wikipedia](http://en.wikipedia.org/wiki/Backend_as_a_service) summarizes it best (as always):
 
-    > Although similar to other [cloud computing](https://datica.com/discover/healthcare-cloud/) developer tools, such as software as a service(SaaS), infrastructure as a service (IaaS), and platform as a service (PaaS), BaaS is distinct from these other services in that it specifically addresses the cloud computing needs of web and mobile app developers by providing a unified means of connecting their apps to cloud services.
+    > Although similar to other [cloud computing](https://datica-2019.netlify.app/discover/healthcare-cloud/) developer tools, such as software as a service(SaaS), infrastructure as a service (IaaS), and platform as a service (PaaS), BaaS is distinct from these other services in that it specifically addresses the cloud computing needs of web and mobile app developers by providing a unified means of connecting their apps to cloud services.
   :post: |+
     The concept of a backend as a service (BaaS) is simple. All application developers (web or mobile) require a core set of features that need to be incorporated into every app. Examples of these features include user management, push notifications, integration with Facebook, Google+ etc., and cloud based data/file/image/video storage. These backend features take about 50% of overall app development time and cost.
 
@@ -152,9 +152,9 @@
 
     ## Healthcare specific BaaS
 
-    As we built healthcare [EHR Integrations](https://datica.com/discover/ehr-integrations/) and talked to other healthcare app developers and enterprises, we uncovered a core list of features that each one of us was building over and over again. Namely,
+    As we built healthcare [EHR Integrations](https://datica-2019.netlify.app/discover/ehr-integrations/) and talked to other healthcare app developers and enterprises, we uncovered a core list of features that each one of us was building over and over again. Namely,
 
-    - **Security**: this includes identification of PHI (personally identifiable health information), encryption of PHI at rest and in transit with associated audit logs. There are some additional nuances when it comes to [cloud computing](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/) and we will go into this in more detail in the subsequent [blog post on cloud security](https://datica.com/blog/onramp-to-the-healthcare-cloud/).
+    - **Security**: this includes identification of PHI (personally identifiable health information), encryption of PHI at rest and in transit with associated audit logs. There are some additional nuances when it comes to [cloud computing](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/) and we will go into this in more detail in the subsequent [blog post on cloud security](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/).
     - **User Authentication & Management**: this is core to any app on any environment. The nuance in the healthcare context is to handle this efficiently given the security constraints.
     - **Logging and auditing**: Given HIPAA's requirements to ensure appropriate access, logging and audit trails are essential for ongoing and historical compliance reporting and alerting.
     - **Validation**: data created on the app needs to be standardized and follow terminology guidelines specified in HIPAA, HITECH, and MU2 regulations such as ICD-9, ICD-10, SNOMED, RxNORM, LOINC, and so on. This is again something we'll spend some time on in a subsequent blog post.
@@ -167,7 +167,7 @@
 
     EHRs have a significant role to play in this future of healthcare. Traditionally, they have been walled off but with the evolution and implementation of accountable care organizations (ACOs) and patient centered medical homes (PCMHs), they are increasingly becoming more open. For example, Parters HealthCare providers can [now view patient data collected from mobile devices on their electronic medical record platform](http://www.healthcareitnews.com/news/partners-sends-mobile-data-emr). The traditionally complex EDI transaction set have more modern access through the likes of [Eligible API](https://www.eligibleapi.com/) and [Passport Health](http://www.passporthealth.com/index.aspx).
 
-    The challenge with [legacy EHR solutions](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/) is that they use services oriented architectures, making [EHR integration](https://datica.com/discover/ehr-integrations/) with next generation apps a certain challenge for the developer trying to unlock data behind firewalls and integrating such siloed environments. Developers within and outside enterprise IT realize that rebuilding the backend and the core set of services required can cost them months of work and hundreds of thousands of dollars in costs. But everyone also realizes this needs to be done as patient engagement is the key to change. Patient engagement is elusive and the best way to engage consumers has been proven to be mobile.
+    The challenge with [legacy EHR solutions](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/) is that they use services oriented architectures, making [EHR integration](https://datica-2019.netlify.app/discover/ehr-integrations/) with next generation apps a certain challenge for the developer trying to unlock data behind firewalls and integrating such siloed environments. Developers within and outside enterprise IT realize that rebuilding the backend and the core set of services required can cost them months of work and hundreds of thousands of dollars in costs. But everyone also realizes this needs to be done as patient engagement is the key to change. Patient engagement is elusive and the best way to engage consumers has been proven to be mobile.
 
     Datica Managed Integration glues together these different fragmented environments. It is a unified process between the client and the cloud with unified and secure APIs and software libraries. This allows developers and enterprises to "let a thousand flowers bloom" rather than enforce just one app and technology.
 
@@ -177,7 +177,7 @@
 
     We accomplish this through a growing set of managed integrations and a set of SDKs (iOS, Android and Javascript) to get access to: - a health grade data store - an extensible and interoperable patient model - integrated semantic validation - health grade secure messaging - health grade user management and authentication - health grade auditing and logging - health and wellness data sources - healthcare specific test data and - health grade data archiving
 
-    Our mission is to become the defacto standard [healthcare cloud platform](https://datica.com/compliant-cloud/) to build, test and deploy healthcare apps.
+    Our mission is to become the defacto standard [healthcare cloud platform](https://datica-2019.netlify.app/compliant-cloud/) to build, test and deploy healthcare apps.
 
   :cta_ref:
     :id: 5eA1ToAIEw4Qy20mkUmmcm

@@ -70,7 +70,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -88,13 +88,13 @@
 
   I have personal experiences with family that have wanted to share their own data and been blown off by physicians. An example is my dad. We got him an iPhone-connected glucometer a couple years ago and, in his excitement, he emailed his endocrinologist his data ahead of an appointment. The endocrinologist flat out told him that he couldn't really use the data. My dad now sends me his weekly reports of blood sugars, which is helpful because I can encourage him but it would be great if his physician supported and encouraged his enthusiasm for self-care.
 
-  The second piece of that report found that those individuals, the ones who want to share data, also want to have trust in the way that the data is being shared, and the [security and privacy of their data](https://datica.com/blog/onramp-to-the-healthcare-cloud/). I think that most people today are leery of security and privacy because there have been so many high profile and public breaches and violations. There's a lot of concern about who's selling data to whom and what type of data is actually protected on individuals. This is much, much broader than healthcare.
+  The second piece of that report found that those individuals, the ones who want to share data, also want to have trust in the way that the data is being shared, and the [security and privacy of their data](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/). I think that most people today are leery of security and privacy because there have been so many high profile and public breaches and violations. There's a lot of concern about who's selling data to whom and what type of data is actually protected on individuals. This is much, much broader than healthcare.
 
   The fact that a large chunk of people would like to share information that they're tracking about themselves, they'd like to share that information with their providers is something that, as a health system, I think we need to find a way to integrate that one way or the other.
 
-  The data in the infographic also shows trends that innovators and vendors should enable and capitalize upon. First, creating ways for consumers to easily collect and combine information about their activity and daily routine is incredibly valuable. There are countless sensors and apps so this is a crowded space to jump into. Second, creating tools that leverage that data to provide intelligent feedback to individuals is needed. This is an area that more companies are trying to get into, but is still pretty open. Third, enabling the easy sharing of personal data while maintaining the privacy and security of that data is essential to consumer trust and health system buy-in. This is harder, and there is still much to be figured out. Where is data going? Is it using traditional interfaces or [new EHR APIs](https://datica.com/blog/fhir-fuels-transformation-at-hospitals/)? How is it secured and can it pass the compliance officer? And fourth, though this is implied in 1 through 3 above, would be standardizing the data formats to make it easier for data to be exchanged. So many opportunities....
+  The data in the infographic also shows trends that innovators and vendors should enable and capitalize upon. First, creating ways for consumers to easily collect and combine information about their activity and daily routine is incredibly valuable. There are countless sensors and apps so this is a crowded space to jump into. Second, creating tools that leverage that data to provide intelligent feedback to individuals is needed. This is an area that more companies are trying to get into, but is still pretty open. Third, enabling the easy sharing of personal data while maintaining the privacy and security of that data is essential to consumer trust and health system buy-in. This is harder, and there is still much to be figured out. Where is data going? Is it using traditional interfaces or [new EHR APIs](https://datica-2019.netlify.app/blog/fhir-fuels-transformation-at-hospitals/)? How is it secured and can it pass the compliance officer? And fourth, though this is implied in 1 through 3 above, would be standardizing the data formats to make it easier for data to be exchanged. So many opportunities....
 
-  At Datica we're here to help you solve some of these challenges. Check out our [healthcare-specific Platform](https://datica.com/compliant-cloud/) to learn more and get started.
+  At Datica we're here to help you solve some of these challenges. Check out our [healthcare-specific Platform](https://datica-2019.netlify.app/compliant-cloud/) to learn more and get started.
 
 :cta_ref:
   :id: 64Hk6hz0aW2iik2IS8UqCK
@@ -107,7 +107,7 @@
   :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
     useful, and leading-edge insights from our industry and world. '
   :cta_label: Download your copy
-  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_url: https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/
   :cta_image:
     :id: 5bJ5SbDF9umaQsUGmIKyCa
   :cta_color: gray-light
@@ -135,7 +135,7 @@
     you can stay ahead of the curve on all things FHIR related. \n"
   :post: "Pronounced as ‘Fire’ (hopefully bringing clarity to the pun in the title),
     it was initially developed by [Graham Grieve](http://www.healthintersections.com.au/),
-    who insisted upon FHIR being open sourced.\n\nIn our [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)
+    who insisted upon FHIR being open sourced.\n\nIn our [Introduction to FHIR](https://datica-2019.netlify.app/academy/introduction-to-fhir/)
     Academy article, Datica Co-founder Mohan Balachandran, guides us through why FHIR
     was necessary due to the current state of healthcare integration and interoperability
     and why FHIR brings a better, more modern approach with concepts such as [Restful
@@ -143,17 +143,17 @@
     documentation to integration systems. In this introduction, you will learn what
     makes FHIR the superior in flexibility, the advantages FHIR has over the existing
     HL7 standards, and where FHIR is headed from here.\n\nIn the second entry to our
-    FHIR series, [The FHIR Resource Object: The Core Building Block](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/),
+    FHIR series, [The FHIR Resource Object: The Core Building Block](https://datica-2019.netlify.app/academy/the-fhir-resource-object-the-core-building-block/),
     Mohan guides us through an understanding of the Resource object outlining its
     origins and intent, but also providing resources to further expand our HL7 comprehension.
     By listing various resource categories and their structures, including clinical,
     administrative, and infrastructure, Mohan is able to show how these models allow
     for the creation of nearly any clinical condition. \n\nStill want to know more
-    about FHIR? We sure hope so as Mohan’s third entry, [Recommended FHIR API Implementation](https://datica.com/academy/recommended-fhir-api-implementation-principles/)
-    shows the general design principles that we have followed at [Datica](https://datica.com/managed-integration/)
+    about FHIR? We sure hope so as Mohan’s third entry, [Recommended FHIR API Implementation](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/)
+    shows the general design principles that we have followed at [Datica](https://datica-2019.netlify.app/managed-integration/)
     and what the key underlying principles are when building RESTful APIs.\n\nAs always,
     Datica is here to be your trusted resource and partner in all aspects of HL7.
-    Stay tuned for more [Academy entries](https://datica.com/academy/) as we stay
+    Stay tuned for more [Academy entries](https://datica-2019.netlify.app/academy/) as we stay
     up to date on the latest in digital health.\n"
   :cta_ref:
     :id: 5eA1ToAIEw4Qy20mkUmmcm
@@ -200,7 +200,7 @@
 
     We firmly agree with the report that there are paradigm shifts coming to healthcare, and a lot of those shifts are going to be technology and data-driven; but, in order for those shifts to take hold, in order for those shifts to scale, both on the consumer side as well as on the enterprise side, there needs to be a high level of security. There also needs to be transparency into the policies and procedures that manage that security. This is essential to provide the assurances needed for both individuals as well as enterprises that will be using these technologies.
 
-    This [security and transparency is in the core](https://datica.com/compliance/) of how we build our technology at Datica. It's in our DNA. It's the compliance and security layer that we want to help vendors, enterprises, and developers address so that they can focus on creating meaningful health IoT applications or the actionable insights or algorithms based on health IoT data. Whether you're building a mobile app using our [compliant cloud](https://datica.com/compliant-cloud/) or deploying a custom application on our [compliant platform](https://datica.com/compliant-cloud/), we want to help you build and sell the future of healthcare.
+    This [security and transparency is in the core](https://datica-2019.netlify.app/compliance/) of how we build our technology at Datica. It's in our DNA. It's the compliance and security layer that we want to help vendors, enterprises, and developers address so that they can focus on creating meaningful health IoT applications or the actionable insights or algorithms based on health IoT data. Whether you're building a mobile app using our [compliant cloud](https://datica-2019.netlify.app/compliant-cloud/) or deploying a custom application on our [compliant platform](https://datica-2019.netlify.app/compliant-cloud/), we want to help you build and sell the future of healthcare.
 
   :cta_ref:
     :id: 1F0ezUdOIgOM8aSa6YGeIu
@@ -229,18 +229,18 @@
     Risk Assessment is and why it is crucial handling PHI.
 
 '
-  :blog_lead: 'In this second entry of our [Assessment Series](https://datica.com/blog/hipaa-compliance-assessment/)
+  :blog_lead: 'In this second entry of our [Assessment Series](https://datica-2019.netlify.app/blog/hipaa-compliance-assessment/)
     we explore what a HIPAA Risk Assessment is and why it is crucial in ensuring the
-    safe-handling of [protected health information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/)
+    safe-handling of [protected health information (PHI)](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/)
     with the growing dependency on information technology in the Healthcare Industry
     and the implementation of electronic medical records (EMR).
 
 '
   :post: "Back in February of 2009 the [HITECH (Health Information Technology for
-    Economic and Clinical Health)](https://datica.com/blog/data-security-patient-engagement/)
+    Economic and Clinical Health)](https://datica-2019.netlify.app/blog/data-security-patient-engagement/)
     Act was passed as an element of the American Recovery and Reinvestment Act to
     fortify the privacy and safety of PHI by including provisions to the HIPAA Standards.
-    Among the stipulations in HITECH was the [HIPAA Security Rule](https://datica.com/discover/hipaa-compliance/)
+    Among the stipulations in HITECH was the [HIPAA Security Rule](https://datica-2019.netlify.app/discover/hipaa-compliance/)
     which has requirements organized into three classifications, and within each classification
     are 18 standards and 36 implementation specifications that are categorized as
     “Required” or “Addressable”. The **Required** specifications are crucial and necessities
@@ -325,8 +325,8 @@
     oral, paper, and electronic while simultaneously considering integrity, confidentiality,
     and availability. There are many HIPAA Security Assessment tools and services
     that have been released but no one is more highly regarded in this space than
-    Datica as a [HIPAA compliance authority](https://datica.com/discover/hipaa-compliance/).
-    \n\nDid you miss our first post in the HIPAA Assessment Series? Check it out [here](https://datica.com/blog/hipaa-compliance-assessment/)!"
+    Datica as a [HIPAA compliance authority](https://datica-2019.netlify.app/discover/hipaa-compliance/).
+    \n\nDid you miss our first post in the HIPAA Assessment Series? Check it out [here](https://datica-2019.netlify.app/blog/hipaa-compliance-assessment/)!"
   :cta_ref:
     :id: 6fm8uDgwG4eaQ2mQUUuSMQ
   :related_entries:

@@ -18,7 +18,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 - :id: V4hQxnsPw44aq8c62mYIe
   :_meta:
     :content_type_id: tags
@@ -103,21 +103,21 @@
   PM on September 12th.\n\n**Spoiler Alert:** Look for the Datica table in the expo
   hall where Good will be signing and giving away free copies of his new book to be
   launched at the event and make sure to ask him about the latest updates to the [Datica
-  open source policies](https://datica.com/open-source/policies/). \n\n## Microsoft
+  open source policies](https://datica-2019.netlify.app/open-source/policies/). \n\n## Microsoft
   Ignite, September 24-28\n\nNext up in September, you’ll find Datica at the annual
   sold-out [Microsoft Ignite](https://www.microsoft.com/en-us/ignite) conference in
   Orlando, Florida. Ignite is the place to learn insights and skills from technology
   leaders and practitioners shaping the future of cloud, data, business intelligence,
   teamwork, and productivity. Mark Olschesky, Chief Data Officer, will be highlighting
-  [Datica’s integration tooling](https://datica.com/compliant-managed-integration/)
+  [Datica’s integration tooling](https://datica-2019.netlify.app/compliant-managed-integration/)
   that bridges Microsoft Teams with EHRs and works within the bot framework of Teams.\n\n##
   AWS re:Invent 2018, November 26-30\n\nDatica will be finishing off 2018 as a bronze
   sponsor of [AWS re:Invent 2018](https://reinvent.awsevents.com/), held in Las Vegas,
   Nevada. Find us at booth #1607 to see demonstrations of our [Compliant Kubernetes
-  Service (CKS)](https://datica.com/compliant-kubernetes-service/), [Compliant Managed
-  Integrations (CMI)](https://datica.com/compliant-managed-integration/), and our
+  Service (CKS)](https://datica-2019.netlify.app/compliant-kubernetes-service/), [Compliant Managed
+  Integrations (CMI)](https://datica-2019.netlify.app/compliant-managed-integration/), and our
   newest SaaS product, the Datica Cloud Compliance Management System (CCMS).\n\nGoing
-  to any of these events? [Contact us](https://datica.com/contact/) to let us know
+  to any of these events? [Contact us](https://datica-2019.netlify.app/contact/) to let us know
   and let's make plans to connect!\n"
 :featured_image:
   :title: blog-fall-2018-events-featured
@@ -145,7 +145,7 @@
   :cta_title: Contact Us Today
   :cta_desc: 'Get in touch today to set your enterprise on the road to compliant hosting.  '
   :cta_label: Contact us
-  :cta_url: https://datica.com/contact/
+  :cta_url: https://datica-2019.netlify.app/contact/
   :cta_image:
     :id: 2TCuBiWHHGCUiCccym8uye
   :cta_icon: "/public/icons/material/ic_email_48px.svg"
@@ -175,9 +175,9 @@
 
 '
   :post: |
-    Achieving [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) generally has two halves. The first half includes all technical guidelines, both physical and digital. Encryption, logging, monitoring, backup—these are just a few examples. Since the beginning, Datica has worked every day to take on these technical burdens for our customers.
+    Achieving [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/) generally has two halves. The first half includes all technical guidelines, both physical and digital. Encryption, logging, monitoring, backup—these are just a few examples. Since the beginning, Datica has worked every day to take on these technical burdens for our customers.
 
-    The second half of HIPAA is focused on administrative and organizational activities, and these are where _your_ company policies come into play. Non-technical guidelines include signing [Business Associate Agreements (BAAs)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), risk management procedures, and policies for training, among many other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
+    The second half of HIPAA is focused on administrative and organizational activities, and these are where _your_ company policies come into play. Non-technical guidelines include signing [Business Associate Agreements (BAAs)](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/), risk management procedures, and policies for training, among many other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
 
     When we were creating our policies, we found several templates for healthcare providers, but nothing for modern health technology companies. We spent a vast amount of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
 
@@ -238,13 +238,13 @@
     support that we're excited about AWS Fargate. However, that excitement isn't without
     reservation. As is the case with most new technology, compliance and security
     pose great barriers to adoption. We're deeply aware of these barriers at Datica.
-    [The Datica Platform](https://datica.com/platform/) was designed to address the
+    [The Datica Platform](https://datica-2019.netlify.app/platform/) was designed to address the
     complexities of compliance and security specific to the healthcare industry. The
     fact is, understanding compliance is difficult enough. That difficulty is exasperated
     exponentially when it comes time to not only implement that understanding through
     policy, but prove compliance beyond a reasonable doubt to auditors.\n\nOur primary
-    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
-    Because we [sign a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/).
+    Because we [sign a BAA](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/)
     with both AWS and our customers, we cannot guarantee full-stack compliance against
     a service that is not scoped within the BAA that we sign with AWS. This means
     our customers in the healthcare industry cannot take advantage of such a service.\n\nLuckily,
@@ -309,7 +309,7 @@
 
     In stepped Datica.
 
-    As a [HITRUST CSF Certified](https://datica.com/platform/compliance/) platform, any issues with trusting an external partner were immediately calmed. "Everyone at MLH put their weapons away and instead started to talk about how to solve problems," David said on stage to the audience.
+    As a [HITRUST CSF Certified](https://datica-2019.netlify.app/platform/compliance/) platform, any issues with trusting an external partner were immediately calmed. "Everyone at MLH put their weapons away and instead started to talk about how to solve problems," David said on stage to the audience.
 
     Datica helped David become a partner to the internal IT and internal security teams. "When I heard that Datica would take direct calls from my security group, I knew I found a partner who could help me be successful," he added.
 
@@ -317,9 +317,9 @@
 
     ![AWS Datica 1](//images.contentful.com/189dvqdsjh46/5WvSbb3tUkkuwEaAQU6y6c/277750e586335f9f46bb63381fd7154f/AWS_Datica_1.jpg?w=1600)
 
-    The session then turned to [Adam Leko, Datica's CTO & CISO](https://datica.com/leadership/). Adam dived into the technical specifics of how the platform worked.
+    The session then turned to [Adam Leko, Datica's CTO & CISO](https://datica-2019.netlify.app/leadership/). Adam dived into the technical specifics of how the platform worked.
 
-    After speaking to the technology we orchestrate in order to achieve HITRUST credibility, Adam spoke to the AWS primitives we enable. Of the 57 AWS Services, 27 are under their Business Associate Agreement. Almost all of the 27 are enabled via the Datica Platform. Adam spoke to the different services, like EC2, VPCs, and so on, but especially how those services are configured within an [enhanced shared responsibility model](https://datica.com/discover/aws-hipaa/).
+    After speaking to the technology we orchestrate in order to achieve HITRUST credibility, Adam spoke to the AWS primitives we enable. Of the 57 AWS Services, 27 are under their Business Associate Agreement. Almost all of the 27 are enabled via the Datica Platform. Adam spoke to the different services, like EC2, VPCs, and so on, but especially how those services are configured within an [enhanced shared responsibility model](https://datica-2019.netlify.app/discover/aws-hipaa/).
 
     <figure>
     <script src="https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_08ebxufc4q seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>

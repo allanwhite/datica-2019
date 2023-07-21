@@ -60,7 +60,7 @@
 :summary: This Q&A with Datica's Chief Data Officer, Mark Olschesky, explores what
   it means that Datica just passed 200 forks of our open-source policies.
 :blog_lead: |-
-  A week ago, Chief Data Officer [Mark Olschesky](https://datica.com/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
+  A week ago, Chief Data Officer [Mark Olschesky](https://datica-2019.netlify.app/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
 
   > When you come to a fork in the road, take it!
 :post: "As with many technical terms, the word “fork” obviously had more than one
@@ -103,7 +103,7 @@
   have done. Most commonly, you can see companies with different Business Associate
   Agreements (BAAs). You’ll also see some major material differences through the forks.
   \n\n#### Q: Can you give me a good example of a fork?\n\n**Mark:** One is Bind.
-  As an insurer/broker (and therefore likely a [Covered Entity](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+  As an insurer/broker (and therefore likely a [Covered Entity](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/),
   their policies will differ from Datica’s as a cloud infrastructure/tooling provider.
   Bind’s willingness to share what they’ve done could help other insurers or brokers
   with their path to build and demonstrate compliance. That can save everyone time
@@ -170,9 +170,9 @@
 
 '
   :post: |
-    Achieving [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) generally has two halves. The first half includes all technical guidelines, both physical and digital. Encryption, logging, monitoring, backup—these are just a few examples. Since the beginning, Datica has worked every day to take on these technical burdens for our customers.
+    Achieving [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/) generally has two halves. The first half includes all technical guidelines, both physical and digital. Encryption, logging, monitoring, backup—these are just a few examples. Since the beginning, Datica has worked every day to take on these technical burdens for our customers.
 
-    The second half of HIPAA is focused on administrative and organizational activities, and these are where _your_ company policies come into play. Non-technical guidelines include signing [Business Associate Agreements (BAAs)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), risk management procedures, and policies for training, among many other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
+    The second half of HIPAA is focused on administrative and organizational activities, and these are where _your_ company policies come into play. Non-technical guidelines include signing [Business Associate Agreements (BAAs)](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/), risk management procedures, and policies for training, among many other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
 
     When we were creating our policies, we found several templates for healthcare providers, but nothing for modern health technology companies. We spent a vast amount of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
 
@@ -207,7 +207,7 @@
   :summary: 'Almost 3 years ago, I wrote about why there was no listed Datica pricing
     on our site. Today, I wrote about why we actually DO now have upfront pricing. '
   :blog_lead: 'Almost three years ago, I wrote a blog post about why [there was no
-    up front pricing](https://datica.com/blog/why-there-is-no-up-front-pricing/) for
+    up front pricing](https://datica-2019.netlify.app/blog/why-there-is-no-up-front-pricing/) for
     the Datica Platform or our integration services. It was as earnest as I could
     get about how I felt about our sales model at the time: there was no shortage
     of people who came to our website not understanding why handling some aspects
@@ -218,10 +218,10 @@
     note: As we roll out updates and changes to our new Kubernetes-based compliance
     platform our pricing is fluxuating and we're temporarily back to providing custom
     quotes based on specific configurations. Learn more about our [public product
-    roadmap](https://datica.com/blog/what-were-building-daticas-public-product-roadmap/)
+    roadmap](https://datica-2019.netlify.app/blog/what-were-building-daticas-public-product-roadmap/)
     and the exciting things happening at Datica* \n\nWe've done a lot of work since
     then, and we've now changed our opinion on the topic. We now offer up front Datica
-    pricing right on the website: [https://datica.com/pricing/](https://datica.com/pricing/).
+    pricing right on the website: [https://datica-2019.netlify.app/pricing/](https://datica-2019.netlify.app/pricing/).
     I'd like to go through my old article and discussed what changed and why we now
     offer upfront pricing.\n\n1) \"First, our pricing is non-standard, which can lead
     to buyer confusion.\" & 2) \"Second, we discovered prospects were making apples-to-oranges
@@ -231,8 +231,8 @@
     At the time, it was hard to communicate exactly what the total cost of ownership
     for build vs. buy would be, since we didn’t fully understand our costs as we were
     building infra at scale and going through our initial sets of audits. We've since
-    written massive amounts of documentation on the subject: our [HIPAA](https://datica.com/discover/hipaa-compliance/)
-    and [HITRUST](https://datica.com/discover/hitrust/) guides provide in depth details
+    written massive amounts of documentation on the subject: our [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/)
+    and [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) guides provide in depth details
     on effort and costs while our [open-sourced policies](https://github.com/catalyzeio/policies)
     provide a detailed roadmap of what it takes to prove HITRUST certification if
     you were going to DIY.  If you work in a \"We build everything 100% here\" shop,
@@ -253,11 +253,11 @@
     out talking to people. We just don't need to bake it into all pieces of the sales
     process if you aren't interested anymore. In fact, we used a lot of feedback and
     discussions from customers and prospects to build the [Digital Health Success
-    Framework](https://datica.com/dhsf/).\n \nWhile we made it easier to see our pricing
+    Framework](https://datica-2019.netlify.app/dhsf/).\n \nWhile we made it easier to see our pricing
     and features, we still want to talk. It might be our midwestern roots, but we
     want to learn more about what you're working on and the challenges you're going
     through on your projects. We want to help, even if it means we send you along
-    to someone else. Don't hesitate to [reach out](https://datica.com/contact/)!\n\n"
+    to someone else. Don't hesitate to [reach out](https://datica-2019.netlify.app/contact/)!\n\n"
   :featured_image:
     :id: 1VH4BjrS7uY42AGqMcYOI
   :share_image:
@@ -289,18 +289,18 @@
   :blog_lead: The short answer to that question is, not surprisingly, **it takes A
     LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
     focused on security and HIPAA compliance. It's a differentiator and we aren't
-    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    reaching when we say *[It's in our DNA](https://datica-2019.netlify.app/platform/compliance/)*,
     referring to HIPAA compliance. Because of that focus, we have a lot of [resources
-    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    for compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/). That translates
     to a lot of time and money on security and organizational policies and procedures
     specifically to comply with HIPAA.
-  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/)
     along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
-    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    Systems](https://datica-2019.netlify.app/platform/compliance/), a large national 3rd party
     auditor. The results of that audit and assessment can be boiled down to this badge
-    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    that our customers can post to their own websites.\n\n<a href=\"https://datica-2019.netlify.app/platform/compliance?utm_source=customerbadge\"><img
     class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
-    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    src=\"https://datica-2019.netlify.app/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
     width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
     truth is it took a lot of time and effort to get here, and we learned way more
     about HIPAA and security than we ever expected. We did not outsource any of our
@@ -363,11 +363,11 @@
     extent of the rules. It gives us additional insight into our customers' needs
     and keeps us intimately close to the problem we are solving. It is also extremely
     valuable to our customers when they work with compliance offices and point to
-    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    our audit reports and [guides](https://datica-2019.netlify.app/academy/).\n\nWhen you decide
     to go down the path of hosting your application in a HIPAA compliant cloud, we
     encourage you to spend time digging deeper than sales and into how the offerings
     and organizations available to you differ in approaches to HIPAA, and which are
-    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements).
     If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
     and we'll be happy to tell you everything we've learned and why we're so proactive
     about compliance and transparency.\n"
@@ -405,9 +405,9 @@
   :blog_lead: As any of the 200+ people who have already forked Datica’s open source
     compliance policies can attest, we’ve always been a big believer in the value
     and spirit of open source. Last year our open source commitment evolved to include
-    [Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+    [Open Source Connectors](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
     to help solve the problem of healthcare data integration. Most recently, the open
-    source project [Kubernetes&reg;](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/)
+    source project [Kubernetes&reg;](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/)
     became the fundamental technical management layer for Datica. To take this commitment
     even further, we’re thrilled to announce we’ve become one of the newest silver
     members of the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF),
@@ -418,13 +418,13 @@
     project and community have grown at a tremendous pace. In fact, the [CNCF announced
     Datica as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
     last week, bringing the membership level to 236 companies. What really makes [Kubernetes
-    a viable option](https://datica.com/blog/kubernetes-vs-paas/) is not the core
+    a viable option](https://datica-2019.netlify.app/blog/kubernetes-vs-paas/) is not the core
     project itself, but the community of tools and add-ons that surround it.\n\nWe’re
     excited for what the future holds in this open-source-fueled era of rapid development
     and are particular excited to step into this future in partnership with the CNCF
     to collaborate with other Kubernetes developers who are trying to build secure
     and compliant products. \n\nTake a look at the [press release announcing our CNCF
-    membership](https://datica.com/press-release/datica-joins-the-cloud-native-computing-foundation/)
+    membership](https://datica-2019.netlify.app/press-release/datica-joins-the-cloud-native-computing-foundation/)
     for more details.\n\n\n"
   :featured_image:
     :id: 4rUKbhbssoiy84e4MaSMYs
@@ -469,7 +469,7 @@
     these tools may seem out of reach. The compliance requirements and security restrictions
     of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
     to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
-    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    why [Datica is shifting toward Kubernetes](https://datica-2019.netlify.app/press-release/datica-launches-kubernetes-enabled-platform/).
     Our customers are asking for it, it’s the future of managing workloads born in
     the cloud, and Datica is already the most robust solution for compliance management
     on the planet. \n\nIf you're new to container orchestration and more familiar
@@ -481,7 +481,7 @@
     a PaaS is intended to create a layer of abstraction on top of cloud service providers
     (or in some cases data centers and bare metal) so the end user can focus on deploying,
     managing, and scaling their applications and data. Without going into the [history
-    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    of the PaaS](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/) concept,
     it's easy to think about it as a way of automating many of the repetitive, lower-level
     tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
     known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
@@ -601,7 +601,7 @@
     health insurance system. Specifically, the HIPAA Privacy Rule created the first
     national standard to protect personal health information and medical records.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -619,9 +619,9 @@
     risks that could result in major compliance costs, organizations are able to focus
     on growing their profits instead of fearing these potential audit fines.\n\n##
     What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
-    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
-    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
-    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica-2019.netlify.app/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica-2019.netlify.app/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
     health information (PHI) is any information about health status, provision of
     health care, or payment for health care that can be linked to a specific individual
     and is transmitted or maintained in any form or medium by a covered entity or
@@ -636,10 +636,10 @@
     — especially if the disease or condition is rare enough.\n\n## Understand Business
     Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
     markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
-    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
-    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
-    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
-    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    Agreements](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica-2019.netlify.app/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica-2019.netlify.app/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
     HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
     entities that have to follow the HIPAA security and privacy rules. The main categories
     are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
@@ -652,9 +652,9 @@
     associates are required to sign what’s called a business associate agreement (BAA).\n\n##
     Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
     markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
-    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
-    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
-    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    Datica](https://datica-2019.netlify.app/compliance/)\n* [Proving HIPAA Compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica-2019.netlify.app/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
     can, and many companies do, put “HIPAA Compliant” on their websites and marketing
     material. Complying with HIPAA is essential to selling software that processes,
     stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,

@@ -191,14 +191,14 @@
     Datica blog is any indication, cloud and compliance were top of mind for many
     of you. '
   :post: "\n## The Hot List — What you read last year\n\n**[3 Common Misconceptions
-    about Business Associate Agreements](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/):**
+    about Business Associate Agreements](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/):**
     \nThe HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA
     and entities that have to follow the HIPAA security and privacy rules. The main
     categories are clearinghouses, covered entities (CEs), and business associates.
     The further down the line the subcontractor gets from the covered entity, the
     more confusion there is about who really is a business associate and who needs
-    to sign a business associate agreement.\n*[Continue Reading](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)*\n\n**[2017
-    Healthcare Trends Part 1: The Rise of Patient as Consumer](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/):**
+    to sign a business associate agreement.\n*[Continue Reading](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/)*\n\n**[2017
+    Healthcare Trends Part 1: The Rise of Patient as Consumer](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/):**
     \nThere’s often a buzz of recap news stories at the end of each year followed
     by a flurry of predictions posts for the coming new year. We’ve done this before
     in a few different ways at Datica. The prediction posts are usually specific and
@@ -207,8 +207,8 @@
     follow the broad directional shifts driving healthcare in 2017 and beyond. These
     overarching trends are creating turmoil and uncertainty, new problems across all
     sectors of the industry, and opportunities for new solutions to help address uncertainty
-    and new problems.  \n*[Continue Reading](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/)*\n\n**[2017
-    Healthcare Trends Part 3: The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/):**
+    and new problems.  \n*[Continue Reading](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/)*\n\n**[2017
+    Healthcare Trends Part 3: The Rise and Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/):**
     \nThis 3rd part of the 2017 healthcare trends series looks at problems with EHRs,
     raising the question of whether their peak value has already passed. Meaningful
     Use (MU) is dead but it succeeded wildly in increasingly the adoption of EHRs.
@@ -217,8 +217,8 @@
     at the expense of patient care as evidenced by the time and attention given to
     record keeping and not spending time with patients. To be clear, there are benefits
     to EHRs in terms of standardizing documenting, analytics, and billing.  \n*[Continue
-    Reading](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)*\n\n**[Cloudflare,
-    Data Breaches, and the HIPAA Conduit Exemption](https://datica.com/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/):**
+    Reading](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)*\n\n**[Cloudflare,
+    Data Breaches, and the HIPAA Conduit Exemption](https://datica-2019.netlify.app/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/):**
     \nBy now you’ve likely heard of the CloudFlare parser bug that caused CloudFlare’s
     CDN network to leak sensitive data across unrelated requests. Depending on who
     you ask this is either an unfortunate bug, a serious problem, or a historic event.
@@ -226,13 +226,13 @@
     relate to maintaining HIPAA compliance. Are you allowed to use them in a web application?
     If so, what are the restrictions? What are the issues you have to be wary of?
     As it turns out there’s a specific part of HIPAA legislation that relates strongly
-    to these questions. \n*[Continue Reading](https://datica.com/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/)*\n\n**[FHIR
-    is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/):**
+    to these questions. \n*[Continue Reading](https://datica-2019.netlify.app/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/)*\n\n**[FHIR
+    is no Longer Just a Concept](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/):**
     \nI recently traveled to Duke University to both attend and present at the 2nd
     HL7 FHIR Applications Roundtable. This topped my must-attend 2017 events list
     after I attended the first event last fall in Boston. Here’s what I learned, saw,
-    and enjoyed at the applications roundtable. \n*[Continue Reading](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)*\n\n**[SaaS,
-    PaaS, IaaS—What’s the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/):**
+    and enjoyed at the applications roundtable. \n*[Continue Reading](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)*\n\n**[SaaS,
+    PaaS, IaaS—What’s the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/):**
     \nIn a recent research report, Datica uncovered interesting trends in digital
     health, including healthcare cloud trends. One of the interesting trends we discovered
     was that, within healthcare, the definition of cloud is no longer only scoped
@@ -241,8 +241,8 @@
     complexities.  \n\nIn 2017, 75% of hospital CIOs plan to use IaaS services within
     the next year — up from just 15.3% in 2014. In light of this trend, we thought
     it a good time to once again define the three service delivery models prevalent
-    in healthcare companies today. \n*[Continue Reading](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)*\n\n**[The
-    Accelerating Migration to the Healthcare Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/):**
+    in healthcare companies today. \n*[Continue Reading](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)*\n\n**[The
+    Accelerating Migration to the Healthcare Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/):**
     \nI saw an article recently titled, “Hospital datacenters: Extinct in 5 years?”
     that made my jaw drop just a bit. The race to the cloud is unquestionably taking
     place in just about every other industry. More than half of the CIOs polled at
@@ -254,8 +254,8 @@
     systems today. In fact, healthcare cloud spending is expected to rise nearly threefold,
     from $3.73 billion in 2015 to $9.48 billion by 2020. \n\nIn this article, we explore
     the state of cloud computing in healthcare today, the benefits of cloud computing
-    in the healthcare industry, and HIPAA cloud compliant hosting. \n*[Continue Reading](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)*\n\n**[Announcing
-    One-click Installations of Mirth Connect and Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/):**
+    in the healthcare industry, and HIPAA cloud compliant hosting. \n*[Continue Reading](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)*\n\n**[Announcing
+    One-click Installations of Mirth Connect and Open Source Connectors](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/):**
     \nToday we are launching one-click installations of Mirth Connect combined with
     Open-Source Connectors. It is the next evolution of how we help solve the problem
     of healthcare data integration. The switch to a more open solution is a testament
@@ -266,8 +266,8 @@
     compliant, and secure. The launch is based on consistent feedback that customers
     need more flexibility, more control over their integration environments, better
     pricing at scale, and future-proofing for things like FHIR and the Epic App Orchard
-    and Cerner Code. \n*[Continue Reading](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)*\n\n**[5
-    Steps to HITRUST Certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/):**
+    and Cerner Code. \n*[Continue Reading](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)*\n\n**[5
+    Steps to HITRUST Certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/):**
     \n“If I’m being honest, I’d tell that the process we went through to achieve HITRUST
     CSF Certification was incredibly painful. It was time consuming and resource intensive
     beyond our wildest expectations. Personally, as the Datica Privacy Officer and
@@ -279,8 +279,8 @@
     the only way to prove HIPAA compliance is to go through 3rd party audits as we
     have at Datica. Our customers leverage those audits to prove the infrastructure
     they use is HIPAA compliant. Basically, we do all this work to make proving compliance
-    easier for our customers. \n*[Continue Reading](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)*\n\n**[Opportunities
-    for Digital Health Vendors in the Pharmaceutical Industry](https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma/):**
+    easier for our customers. \n*[Continue Reading](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/)*\n\n**[Opportunities
+    for Digital Health Vendors in the Pharmaceutical Industry](https://datica-2019.netlify.app/blog/opportunities-for-digital-health-vendors-in-pharma/):**
     \nNaomi Fried, PhD is a highly experienced thought leader in healthcare innovation
     and digital health, with many years of innovation experience. Most recently, as
     Biogen’s first VP of Innovation, Medical Information, and External Partnerships,
@@ -290,7 +290,7 @@
     In our July, 2017 podcast \n\nDr. Travis Good interviewed Dr. Fried, resulting
     in a lively chat about the differences between the way pharma and hospital systems
     innovate, as well as the advantages digital health vendors can tap when working
-    with pharma. Here were a few key takeaways from the podcast. \n*[Continue Reading](https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma/)*\n"
+    with pharma. Here were a few key takeaways from the podcast. \n*[Continue Reading](https://datica-2019.netlify.app/blog/opportunities-for-digital-health-vendors-in-pharma/)*\n"
   :featured_image:
     :id: 1djWQ10ry2O0KcqumsuyMk
   :share_image:

@@ -18,7 +18,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 - :id: 7lK2BzqJKoygAwAkQG2omW
   :_meta:
     :content_type_id: tags
@@ -82,13 +82,13 @@
   muscles. In addition to a strong cloud showing, the event itself is evidence that
   innovation is now a part of the healthcare bloodstream.
 :blog_lead: "For the last several quarters, we have brought you unique perspectives
-  on disparate [topics affecting innovation in healthcare](https://datica.com/innovation/).
+  on disparate [topics affecting innovation in healthcare](https://datica-2019.netlify.app/innovation/).
   In Datica’s Spring 2018 Innovation report, we highlight and reinforce what we know
   to be true and what many of you are experiencing: the digital health transformation
   is happening now and is grounded in innovation. Its sources might surprise you.
   \ \n\nIn addition to surveying news, stories, and industry reports, the quarterly
   report provides our takeaways on the recent HiMSS conference which we’ve extracted
-  below. Make sure to get the [Spring Innovation Report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+  below. Make sure to get the [Spring Innovation Report](https://datica-2019.netlify.app/innovation/report-q1-2018-digital-health-transformation/)
   for a complete look at the state of Innovation in Healthcare. "
 :post: "<img alt=\"himss-2018-logo\" src=\"//images.ctfassets.net/189dvqdsjh46/BejYKjLiuWuE0iEK6WQIM/521488e52b97804bab49f7dd0a1994e2/himss-2018-logo.png?w=240\"
   width=\"120\" class=\"float-left-on-medium\" />\n\nHIMSS 2018 saw the presence of
@@ -107,7 +107,7 @@
   conference. AWS had a mix of solution architecture Q&A, presentations from its broad
   partner ecosystem, and demonstrations of healthcare-specific cloud solutions available
   on AWS. Its 2018 presence showed AWS cares about being active in health IT and [AWS
-  has a strong story to tell](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
+  has a strong story to tell](https://datica-2019.netlify.app/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
   with both new digital health companies and enterprise health IT. \n\n### Google
   went all out at HIMSS\n\nBut then we have Google. It also spent big — much bigger
   than Microsoft or AWS. Google had a major booth, but also several keynotes and high
@@ -141,7 +141,7 @@
   over the next two years, will show demonstrative impact, and then after that a larger
   watershed, will happen similarly to what we saw with telehealth and population health.
   \n\n### Net-new innovation is more popular on the cloud than migrating old systems
-  \n\nLastly, we saw the [healthcare cloud](https://datica.com/discover/healthcare-cloud/)
+  \n\nLastly, we saw the [healthcare cloud](https://datica-2019.netlify.app/discover/healthcare-cloud/)
   as a mixed bag at HIMSS18. Conversation after conversation indicated a resistance
   to migrating old systems to the cloud. Ultimately, CIOs aren’t interested in the
   downside — higher hidden costs than the cloud vendor space indicates, high probability
@@ -155,7 +155,7 @@
   of hospital CIOs. In fact, all 18 voiced the priority of cloud-first innovations
   when evaluating new tools or solutions. \nThis dichotomy became one of the more
   interesting observations from HIMSS18. You might also want to take a look at the
-  thorough recap and analysis of that [CHIME focus group here](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
+  thorough recap and analysis of that [CHIME focus group here](https://datica-2019.netlify.app/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
   More internal innovation is happening than many realize \n\nOne interesting thread
   throughout the entire conference hinged on the consistency of internal innovation
   being a focus. More conversations led to CIOs or innovation directors looking to
@@ -197,7 +197,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -226,7 +226,7 @@
 
     At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
   :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
-    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    Trends post](https://datica-2019.netlify.app/blog/6-healthcare-trends-to-watch-in-2018/), is
     not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
     and the public cloud providers Amazon, Microsoft, and Google. The public cloud
     is not Epic hosting in Verona, with a data center that is managed and operated
@@ -298,8 +298,8 @@
     to a cloud provider. This perceptive challenge can and will be overcome, but it
     requires changes to the way healthcare organizations manage risk for their data
     and how they align that risk with liability from cloud providers acting as stewards
-    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
-    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    of their data. Transparency, both legally in the form of [BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica-2019.netlify.app/discover/gdpr/) and technically
     in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
     third parties, both cloud providers for infrastructure and cloud specialists for
     migration, security, and compliance, healthcare IT and healthcare compliance will
@@ -307,14 +307,14 @@
     to say, but it’s clear they will have to change to embrace this brave new world.
     This will not happen overnight.\n\nA lot of the above are impacts that will be
     felt long-term and not necessarily in 2018. But, as healthcare organizations begin
-    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    their [journey to the cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/),
     some starting that journey at HIMSS this year, they need to consider all of this.
     Cloud strategies should be all-encompassing but also should be revisited on some
     regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
     Invite you to also take a look at the first three trends we’ve already explored
-    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
-    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
-    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    in this series: How [cash-pay practices will grow in 2018](https://datica-2019.netlify.app/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica-2019.netlify.app/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
     And don’t forget to subscribe to the blog to the right to have the rest of the
     trends we’ll explore delivered right to your inbox. \n\n\n"
   :featured_image:
@@ -348,7 +348,7 @@
   :summary: Where is healthcare going in 2018? In this sixth piece of the Datica Healthcare
     Trends series, we explore the fifth trend — moving beyond the digital health hype.
   :blog_lead: "Where is healthcare going in 2018? In the first article of Datica’s
-    2018 Healthcare Trends series, I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/).
+    2018 Healthcare Trends series, I outlined [six trends for 2018](https://datica-2019.netlify.app/blog/6-healthcare-trends-to-watch-in-2018/).
     I predict volatility as the government, individuals, and private sector demand
     change this year. In this sixth piece of the series, I explore the fifth trend
     — moving beyond the digital health hype.\n\nOver the last ten years, digital health
@@ -371,13 +371,13 @@
     a select few, have failed. \n\nHere are a few of the obstacles digital health
     companies must overcome.\n\n## Scrutiny of technology spend is way up and proof
     is the antidote\n\nIn 2018, healthcare technology has finally [moved past the
-    EHR era](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/). EHRs
+    EHR era](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/). EHRs
     are now ubiquitous in healthcare organizations. As we all learned at HIMSS18,
     the good old days of Meaningful Use are over. However, one lingering consequence
     of Meaningful Use was an increase of the percentage of technology spend in most
     health systems budgets. That increased spend is now being scrutinized, and digital
     health must demonstrate solid proof of efficacy to overcome that scrutiny and
-    succeed.\n\nIn the [Digital Health Success Framework (DHSF)](https://datica.com/dhsf/)
+    succeed.\n\nIn the [Digital Health Success Framework (DHSF)](https://datica-2019.netlify.app/dhsf/)
     Datica outlined the major challenges that digital health developers must traverse.
     Now, more than ever, digital health products need associated proof to overcome
     buyer and customer skepticism. The proof can broadly fall into the following buckets
@@ -546,7 +546,7 @@
     a commitment and likely something you’ll want to do at the start (breakfast) or
     end of the day. Getting out of the Venetian helps me to maintain my sanity and
     remember there is a real world out there where every conversation you hear isn't
-    about Epic or [FHIR](https://datica.com/guide/fhir/) or population health. The
+    about Epic or [FHIR](https://datica-2019.netlify.app/guide/fhir/) or population health. The
     one caveat to this is if you’re dead set on mingling and trying to network in
     the hopes that you hit it off with the anonymous person you meet at the Venetian
     \n\n## Avoid the main entrances\n\nAs I wrote above, the Venetian is large, and
@@ -650,7 +650,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -677,10 +677,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -702,7 +702,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -710,7 +710,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

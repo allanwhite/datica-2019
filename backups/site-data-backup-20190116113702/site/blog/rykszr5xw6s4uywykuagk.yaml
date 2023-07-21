@@ -94,7 +94,7 @@
   Datica’s Director of Compliance Lori Meals. “The whole question is: How do we prove
   John is really John in any instance?”\n \nThis nuance is important to Datica customers
   who live and breathe in an environment awash with protected health information.
-  More and more the healthcare industry is affected by [security breaches](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)
+  More and more the healthcare industry is affected by [security breaches](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)
   that have deep financial impacts to providers, as well as financial and emotional
   ramifications to patients. Meals explains that “Healthcare data fetches a high price
   on the black market, so that makes it a lucrative target for bad actors.”\n \nThis
@@ -102,15 +102,15 @@
   change their controls. When an email has been compromised within an organization,
   a hacker potentially has easy access to all other aspects of the victim’s accounts.\n
   \n## How Datica compliance efforts will adapt and respond\n \nThe engineering team
-  is busy prepping a new feature to the [Datica Platform](https://datica.com/platform/)
+  is busy prepping a new feature to the [Datica Platform](https://datica-2019.netlify.app/platform/)
   so that an organization can change its multi-factor authentication options to disallow
   email as an authentication method. \n \nNo organization is immune to the problem
-  of [hacking or phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/);
+  of [hacking or phishing](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/);
   risks proliferate everywhere. However, as a trusted partner for the protected health
   information of our customers, Datica takes a “no stone left unturned” approach to
   helping customers prevent the all too common publicity crisis and organizational
   chaos that occurs when hackers break through organizational walls. That’s why Datica
-  developed its [HIPAA compliant](https://datica.com/discover/hipaa-compliance/) platform
+  developed its [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/) platform
   initially and was one of the first healthcare IT organizations to become HITRUST
   CSF Certified. Security and compliance is in our DNA. \n\nIs security and compliance
   a top concern and priority for your organization? Contact Datica at hello@datica.com
@@ -144,7 +144,7 @@
     and cloud experts at Datica to measure and manage the total cost of ownership
     to achieve compliance in the cloud. \n"
   :cta_label: Get the Guide
-  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/
+  :cta_url: https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/
   :cta_image:
     :id: 2NJsEVFGicIMoissY4IUUW
   :cta_svg_icon:
@@ -173,7 +173,7 @@
   :blog_lead: HIPAA regulations create a barrier for makers of digital health products
     to adopt the cloud. Whether you are a digital health startup, a health system,
     payer, or life sciences organization, it takes an enormous amount of work to [get
-    your digital health product off the ground](https://datica.com/dhsf/) while, at
+    your digital health product off the ground](https://datica-2019.netlify.app/dhsf/) while, at
     the same time, achieving and maintaining continuous HIPAA compliance.
   :post: |-
     <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -184,13 +184,13 @@
 
     ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
 
-    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
 
     ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
 
-    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
 
-    This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+    This latest CSF Certification is even more comprehensive [than the last](https://datica-2019.netlify.app/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica-2019.netlify.app/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
 
     <h4 class="text--spaced text-center group">Compliance Facts</h4>
     <div class="row small-up-1 medium-up-3 align-center">
@@ -277,7 +277,7 @@
     any issues brought up from an attack.\n\n## Unauthorized Access or Disclosure\n\n-
     [Indiana Medicaid warns patients of health data breach](http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach)\n-
     [Phishing attack at UC Davis leads to health data breach](http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients)\n\nOther
-    than a vector for malware, [phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)
+    than a vector for malware, [phishing](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)
     can also be used as a method for attackers to simply gain access to systems by
     getting credentials to a system. Or, a well-meaning dev may accidentally breach
     patient data by placing it on a public facing web page. \n\nWhile your mileage
@@ -303,10 +303,10 @@
     We only used [approved tools](https://policy.datica.com/#20.-approved-tools-policy)
     with appropriate access controls and encryption to store and transfer PHI. We
     also have [no servers in our offices](https://policy.datica.com/#10.-facility-access-policy)
-    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica.com/discover/hipaa-compliance/)
+    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/)
     the hard way, either getting beat up by your first 250-question audit or worse:
     by finding yourself on the OCR's Wall of Shame. Consult our policies or let us
-    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica.com/platform/).
+    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica-2019.netlify.app/platform/).
     \n\n\n"
   :featured_image:
     :id: 7EkRpt7VsIoAkms4sE8gQs
@@ -413,10 +413,10 @@
     goal,” says Meals. “Anything less than a zero level goal would require remediation
     steps.” \n\nThese compliance concepts run parallel with the concepts found in
     HITRUST. Datica joins an elite group of healthcare vendors in the United States
-    to achieve [HITRUST CSF Certification](https://datica.com/platform/compliance/)
+    to achieve [HITRUST CSF Certification](https://datica-2019.netlify.app/platform/compliance/)
     status and believes that this gold-standard for security of healthcare data is
     the best way to protect its customers. \n\n## Datica’s Customer Protections\n\nSecurity
-    and compliance are deeply woven into [Datica’s company culture](https://datica.com/).
+    and compliance are deeply woven into [Datica’s company culture](https://datica-2019.netlify.app/).
     If you’ve ever had to let one of your employees go who had access to your environment
     on the Datica platform, you have encountered Datica’s billing-based method of
     double verification. The Datica engineering team works hand in hand with the billing
@@ -473,7 +473,7 @@
     health insurance system. Specifically, the HIPAA Privacy Rule created the first
     national standard to protect personal health information and medical records.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -491,9 +491,9 @@
     risks that could result in major compliance costs, organizations are able to focus
     on growing their profits instead of fearing these potential audit fines.\n\n##
     What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
-    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
-    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
-    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica-2019.netlify.app/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica-2019.netlify.app/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
     health information (PHI) is any information about health status, provision of
     health care, or payment for health care that can be linked to a specific individual
     and is transmitted or maintained in any form or medium by a covered entity or
@@ -508,10 +508,10 @@
     — especially if the disease or condition is rare enough.\n\n## Understand Business
     Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
     markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
-    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
-    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
-    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
-    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    Agreements](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica-2019.netlify.app/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica-2019.netlify.app/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
     HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
     entities that have to follow the HIPAA security and privacy rules. The main categories
     are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
@@ -524,9 +524,9 @@
     associates are required to sign what’s called a business associate agreement (BAA).\n\n##
     Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
     markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
-    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
-    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
-    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    Datica](https://datica-2019.netlify.app/compliance/)\n* [Proving HIPAA Compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica-2019.netlify.app/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
     can, and many companies do, put “HIPAA Compliant” on their websites and marketing
     material. Complying with HIPAA is essential to selling software that processes,
     stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,

@@ -18,7 +18,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 :author:
   :id: 5kC0Y798vm6ag8sCq0O2CQ
   :_meta:
@@ -64,13 +64,13 @@
   Belifiore’s keynote presentation](https://developer.microsoft.com/en-us/events/build/keynotes).
   Datica’s platform connects Microsoft 365 Business Tools with electronic health records
   (EHRs), which solves workflow problems in clinical settings. \n\n![MSBuild Keynote](//images.ctfassets.net/189dvqdsjh46/5Q9il9elGMiwq4wiy4yG2u/78aa4bd0497c7276ab3d0ce2c215f629/MSBuild_Keynote.jpg)\n\nBecause
-  Datica’s platform is compliant with HIPAA, HITRUST, [GDPR](https://datica.com/guide/gdpr-compliance/),
+  Datica’s platform is compliant with HIPAA, HITRUST, [GDPR](https://datica-2019.netlify.app/guide/gdpr-compliance/),
   and GxP, developers didn’t can achieve continuous compliance on Azure. During the
   conference, Kristina Behr, general manager, office of healthcare, Microsoft Corp,
   presented a set of bots and adaptive cards Datica built on Microsoft Teams that
   integrate with EHRs like Allscripts.\n\n> We are pleased to see Datica build technologies
   that help solve healthcare’s technology problems.  - Kristina Behr, Microsoft\n\nAfter
-  Microsoft Build 2018, [Datica’s platform is now available to be licensed on Azure](https://datica.com/press-release/datica's-hitrust-csf-certified-gdpr-and-hipaa-compliant-platform-featured/),
+  Microsoft Build 2018, [Datica’s platform is now available to be licensed on Azure](https://datica-2019.netlify.app/press-release/datica's-hitrust-csf-certified-gdpr-and-hipaa-compliant-platform-featured/),
   either on a customer’s own Azure account or, to add additional security and compliance,
   through Datica’s Cloud on Azure. \n\n## The Inaugural HLTH 2018 Conference\n\nMay
   6-9 2018 was the HLTH: The Future of Healthcare Conference, which focused on disruptive
@@ -87,7 +87,7 @@
   is a significant cost savings using the platform when compared to hiring security
   and compliance professionals or when building their own solutions. \n\nIn terms
   of how big, legacy companies are innovating, Dr. Good suggested that [some are now
-  turning to the cloud](https://datica.com/innovation/healthcare-cloud-take-off-waiting-for-fog-clear/).
+  turning to the cloud](https://datica-2019.netlify.app/innovation/healthcare-cloud-take-off-waiting-for-fog-clear/).
   He expects more hybrid cloud use at legacy companies than a complete “lift and shift.”
   \n\nFollowing the conference, [Good authored a recap on HISTalk](https://histalk2.com/2018/05/11/readers-write-hlth-2018-recap-a-transformation-in-talking-about-healthcare-transportation/).
   \n\n> Two general themes prevailed throughout the conference. One centered on transforming
@@ -127,7 +127,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -156,7 +156,7 @@
 
     At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
   :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
-    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    Trends post](https://datica-2019.netlify.app/blog/6-healthcare-trends-to-watch-in-2018/), is
     not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
     and the public cloud providers Amazon, Microsoft, and Google. The public cloud
     is not Epic hosting in Verona, with a data center that is managed and operated
@@ -228,8 +228,8 @@
     to a cloud provider. This perceptive challenge can and will be overcome, but it
     requires changes to the way healthcare organizations manage risk for their data
     and how they align that risk with liability from cloud providers acting as stewards
-    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
-    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    of their data. Transparency, both legally in the form of [BAAs](https://datica-2019.netlify.app/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica-2019.netlify.app/discover/gdpr/) and technically
     in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
     third parties, both cloud providers for infrastructure and cloud specialists for
     migration, security, and compliance, healthcare IT and healthcare compliance will
@@ -237,14 +237,14 @@
     to say, but it’s clear they will have to change to embrace this brave new world.
     This will not happen overnight.\n\nA lot of the above are impacts that will be
     felt long-term and not necessarily in 2018. But, as healthcare organizations begin
-    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    their [journey to the cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/),
     some starting that journey at HIMSS this year, they need to consider all of this.
     Cloud strategies should be all-encompassing but also should be revisited on some
     regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
     Invite you to also take a look at the first three trends we’ve already explored
-    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
-    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
-    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    in this series: How [cash-pay practices will grow in 2018](https://datica-2019.netlify.app/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica-2019.netlify.app/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica-2019.netlify.app/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
     And don’t forget to subscribe to the blog to the right to have the rest of the
     trends we’ll explore delivered right to your inbox. \n\n\n"
   :featured_image:
@@ -286,9 +286,9 @@
   :post: |+
     ## Datica presentations at SXSW
 
-    [I kick off the day with a comprehensive overview](https://schedule.sxsw.com/2018/events/PP80977) of the [Digital Health Success Framework](https://datica.com/dhsf/). As compared to previous talks I've given on the DHSF, this one is a little more expansive on the problems facing digital health ideas, products, and startups. We will dive into topics like payment models, clinical evidence, and other challenges unique to healthcare that I've not previously gone into as deeply.
+    [I kick off the day with a comprehensive overview](https://schedule.sxsw.com/2018/events/PP80977) of the [Digital Health Success Framework](https://datica-2019.netlify.app/dhsf/). As compared to previous talks I've given on the DHSF, this one is a little more expansive on the problems facing digital health ideas, products, and startups. We will dive into topics like payment models, clinical evidence, and other challenges unique to healthcare that I've not previously gone into as deeply.
 
-    Following me is an [in-depth overview of EHRs, interface engines, and data interoperability challenges](https://schedule.sxsw.com/2018/events/PP80976) from [Mark Olschesky](https://datica.com/about/mark/). Those of you who know Mark know there are few in the industry who understand the nuanced challenges of data exchange in clinical settings. The topic will be new to most of the SXSW crowd, which is why we isolated it to its own session. It's a topic that trips up most makers of digital health products, and is worthy of deep exploration.
+    Following me is an [in-depth overview of EHRs, interface engines, and data interoperability challenges](https://schedule.sxsw.com/2018/events/PP80976) from [Mark Olschesky](https://datica-2019.netlify.app/about/mark/). Those of you who know Mark know there are few in the industry who understand the nuanced challenges of data exchange in clinical settings. The topic will be new to most of the SXSW crowd, which is why we isolated it to its own session. It's a topic that trips up most makers of digital health products, and is worthy of deep exploration.
 
     After Mark and I go, Microsoft will present on three topics.
 
@@ -302,7 +302,7 @@
 
     ## We're in this together
 
-    Digital health is really hard. Last October, we [led a panel at Health 2.0](https://datica.com/blog/health-2-0-lunch-and-learn-recap-what-digital-health-success-look-like/) talking about the realities of digital health, flanked by veterans from Cedars-Sinai, Providence Health, and Omada. The session was so powerful, SXSW asked us if we were interested in sharing similar content at this year's festival. We are thrilled with the opportunity.
+    Digital health is really hard. Last October, we [led a panel at Health 2.0](https://datica-2019.netlify.app/blog/health-2-0-lunch-and-learn-recap-what-digital-health-success-look-like/) talking about the realities of digital health, flanked by veterans from Cedars-Sinai, Providence Health, and Omada. The session was so powerful, SXSW asked us if we were interested in sharing similar content at this year's festival. We are thrilled with the opportunity.
 
     Our goal is your success. It is an ethos shared by our colleagues in the health IT trenches at Microsoft. The spirit of this boot camp is to bring practical, actionable advice to the bleeding-edge of digital health thinking.
 
@@ -347,7 +347,7 @@
     the beginning of the compliance journey with AWS and there’s so much more to consider
     to build a compliant application in the cloud. "
   :post: "## The TCO of Compliance in the Cloud: A Build vs. Buy Comparison \n\nOur
-    goal in building the [Datica Platform](https://datica.com/platform/) was to reduce
+    goal in building the [Datica Platform](https://datica-2019.netlify.app/platform/) was to reduce
     the barriers to compliance in the cloud for makers of digital health products.
     As part of that ongoing commitment to simplify healthcare's onramp to the cloud,
     we provide as much value as possible in the form of healthcare expertise we share
@@ -356,7 +356,7 @@
     health applications that improve patient outcomes. \n\nThere’s much to know about
     both compliance and cloud management and that knowledge requires a significant
     investment in time, education, personnel, and money. The intent of our newest
-    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/),
+    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/),
     is to help makers of digital health products make informed decisions about whether
     to “build” cloud compliance themselves, or “buy” it in the form of the Datica
     Platform. \n\n***Spoiler Alert:** It’s 10x more cost-effective to contract with
@@ -369,13 +369,13 @@
     in some detail and how you as a customer benefit from building your application
     on the Datica Platform. These estimates are based on our extensive experience
     working with multiple third-party auditors and multiple cloud infrastructure providers
-    (like [Amazon Web Services](https://datica.com/discover/aws-hipaa/), Microsoft
+    (like [Amazon Web Services](https://datica-2019.netlify.app/discover/aws-hipaa/), Microsoft
     Azure, or IBM Softlayer).\n\n## Datica's Shared Responsibility Model\n\nIt’s important
     to understand this key point: AWS’s shared responsibility model grants excellent
     security for the security OF the cloud but customers (you) are still responsible
     for security IN the cloud. Orchestrating DevSecOps is just as challenging as orchestrating
     DevOps. The following diagram explains that a bit more, but get the full story
-    by downloading the [complete guide](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    by downloading the [complete guide](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/).
     \n\n<script src=\"https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp\" async></script><script
     src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding\"
     style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
@@ -435,7 +435,7 @@
     safer, and more satisfying care at a lower cost… The value pressure is real and
     causing important changes in the way we think about our work and organize ourselves.”
     — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
-    Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+    Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n\nCIOs
     and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
     while keeping costs low. To follow are some of the key pressures driving accelerated
     migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
@@ -494,7 +494,7 @@
     exchange to happen. Everybody’s interested in a cheaper way to get from A to B.
     But not everybody’s interested in what is required to create a cheaper way to
     get from A to B.” — Grahame Grieve, Director, Healthcare Intersections, from the
-    [Datica Healthcare Innovators Podcast](https://datica.com/innovation/grahame-grieve-pt3/)
+    [Datica Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt3/)
     \n\nHealthcare consumerism is an underlying trend that ultimately makes cloud
     adoption essential to provider success. Healthcare organizations need to make
     very quick decisions about integrations and new technology. Their innovation centers
@@ -519,7 +519,7 @@
     include everything from patient health applications to AI, they need a HIPAA compliant
     cloud hosting platform to build or test those applications upon. Datica leads
     the industry with the first, most complete HIPAA compliant cloud infrastructure.
-    [Datica Compliant Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified
+    [Datica Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud/) is HITRUST CSF Certified
     on AWS, Microsoft Azure, IBM SoftLayer, and Rackspace, achieving the highest industry
     privacy and security standards across infrastructure providers.\n\n## Cloud Computing
     Benefits Healthcare\nThe challenges healthcare enterprises face persist and the
@@ -575,12 +575,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -598,11 +598,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -622,13 +622,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -649,7 +649,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

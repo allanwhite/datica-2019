@@ -45,7 +45,7 @@
   :bio_short: We're the Datica Editorial Team.
   :profile_twitter: daticahealth
   :profile_linkedin: daticahealth
-  :profile_url: https://datica.com/leadership
+  :profile_url: https://datica-2019.netlify.app/leadership
   :location:
     :lat: 43.07284
     :lon: -89.38811299999998
@@ -64,7 +64,7 @@
   while maintaining the documentation quality required within the EHR. \n\nWith healthcare's
   new centralized focus on interoperability, the hope for a standardized exchange
   of PHI across healthcare systems is greater than ever. Recent federal endeavors,
-  such as [Meaningful Use](https://datica.com/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
+  such as [Meaningful Use](https://datica-2019.netlify.app/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
   have attempted to push vendors, organizations and providers towards a meaningful
   data sharing standard, but adding new tools onto a providers toolbelt is still quite
   the endeavor. As proposed in MU3, for EHRs to fully embrace interoperability open
@@ -75,17 +75,17 @@
   can be rectified by open APIs. \n- **Scalability**: Open APIs allow for applications
   to share data with other healthcare systems creating the ability to rapidly and
   intensely scale. This means reducing custom APIs by EHR vendor and by hospital system.\n-
-  **Foresight**: [Fast Healthcare Interoperability Resources (FHIR)](https://datica.com/academy/introduction-to-fhir)
+  **Foresight**: [Fast Healthcare Interoperability Resources (FHIR)](https://datica-2019.netlify.app/academy/introduction-to-fhir)
   is on the rise and an open API strategy enables the ability to support FHIR, [SMART](http://smarthealthit.org/),
   and other rapidly evolving platforms. \n\nAlthough open APIs can aid in a lot of
   the interoperability obstacles with current EHR systems, there are still problems
   that need to be addressed, such as patient engagement, workflows (notably around
-  consents) and [integration](https://datica.com/managed-integration/) requirements.
+  consents) and [integration](https://datica-2019.netlify.app/managed-integration/) requirements.
   Notably, we need to figure out how to replace the existing health system and data
   requirements for real-time data and security through VPNs. With so much focus currently
   on the problems, even more vigor needs to be geared towards the solutions.\n\n\nIf
   you found this post useful, you might also like to read [Recommended FHIR API Implementation
-  Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/).\n\n"
+  Principles](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/).\n\n"
 :cta_ref:
   :id: wWsIbfCLjasGCy6cKeO86
   :_meta:
@@ -96,7 +96,7 @@
   :cta_title: Subscribe to our newsletter
   :cta_desc: Subscribe to the Datica newsletter today.
   :cta_label: Subscribe to the Datica newsletter
-  :cta_url: https://datica.com/go/subscribe
+  :cta_url: https://datica-2019.netlify.app/go/subscribe
   :cta_svg_icon:
     :id: pkHiujpOgKQe0kE4i6cIY
   :cta_icon: "/public/icons/material/ic_email_48px.svg"

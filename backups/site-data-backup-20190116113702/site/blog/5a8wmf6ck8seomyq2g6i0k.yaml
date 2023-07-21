@@ -63,11 +63,11 @@
 :blog_lead: We remain humbled by the wide variety of healthcare customers that reach
   out to us every day. Many of you have come to Datica through recommendations from
   some of our earliest customers, like [Zipnosis](https://www.zipnosis.com/) and [HealthLoop](https://www.healthloop.com/).
-  Others of you have heard our company thought leaders, like [Travis Good](https://datica.com/about/travis/),
-  [Mark Olschesky](https://datica.com/about/mark/) and [Kris Gösser](https://datica.com/about/kris-gosser/)
-  share knowledge about compliance, security, and [digital health success](https://datica.com/dhsf/)
+  Others of you have heard our company thought leaders, like [Travis Good](https://datica-2019.netlify.app/about/travis/),
+  [Mark Olschesky](https://datica-2019.netlify.app/about/mark/) and [Kris Gösser](https://datica-2019.netlify.app/about/kris-gosser/)
+  share knowledge about compliance, security, and [digital health success](https://datica-2019.netlify.app/dhsf/)
   at conferences nationwide. A few have perused our website to learn more about HITRUST,
-  Kubernetes and [GDPR](https://datica.com/discover/gdpr/). While others have learned
+  Kubernetes and [GDPR](https://datica-2019.netlify.app/discover/gdpr/). While others have learned
   about Datica through the Wisconsin healthcare corridor grapevine.
 :post: "\nAt Datica, we especially enjoy partnering with other Wisconsin healthcare
   technology companies. By supporting other Midwest firms with shared knowledge we’ve
@@ -127,7 +127,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -160,7 +160,7 @@
     the beginning of the compliance journey with AWS and there’s so much more to consider
     to build a compliant application in the cloud. "
   :post: "## The TCO of Compliance in the Cloud: A Build vs. Buy Comparison \n\nOur
-    goal in building the [Datica Platform](https://datica.com/platform/) was to reduce
+    goal in building the [Datica Platform](https://datica-2019.netlify.app/platform/) was to reduce
     the barriers to compliance in the cloud for makers of digital health products.
     As part of that ongoing commitment to simplify healthcare's onramp to the cloud,
     we provide as much value as possible in the form of healthcare expertise we share
@@ -169,7 +169,7 @@
     health applications that improve patient outcomes. \n\nThere’s much to know about
     both compliance and cloud management and that knowledge requires a significant
     investment in time, education, personnel, and money. The intent of our newest
-    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/),
+    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/),
     is to help makers of digital health products make informed decisions about whether
     to “build” cloud compliance themselves, or “buy” it in the form of the Datica
     Platform. \n\n***Spoiler Alert:** It’s 10x more cost-effective to contract with
@@ -182,13 +182,13 @@
     in some detail and how you as a customer benefit from building your application
     on the Datica Platform. These estimates are based on our extensive experience
     working with multiple third-party auditors and multiple cloud infrastructure providers
-    (like [Amazon Web Services](https://datica.com/discover/aws-hipaa/), Microsoft
+    (like [Amazon Web Services](https://datica-2019.netlify.app/discover/aws-hipaa/), Microsoft
     Azure, or IBM Softlayer).\n\n## Datica's Shared Responsibility Model\n\nIt’s important
     to understand this key point: AWS’s shared responsibility model grants excellent
     security for the security OF the cloud but customers (you) are still responsible
     for security IN the cloud. Orchestrating DevSecOps is just as challenging as orchestrating
     DevOps. The following diagram explains that a bit more, but get the full story
-    by downloading the [complete guide](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    by downloading the [complete guide](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/).
     \n\n<script src=\"https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp\" async></script><script
     src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding\"
     style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
@@ -227,7 +227,7 @@
   :blog_lead: HIPAA regulations create a barrier for makers of digital health products
     to adopt the cloud. Whether you are a digital health startup, a health system,
     payer, or life sciences organization, it takes an enormous amount of work to [get
-    your digital health product off the ground](https://datica.com/dhsf/) while, at
+    your digital health product off the ground](https://datica-2019.netlify.app/dhsf/) while, at
     the same time, achieving and maintaining continuous HIPAA compliance.
   :post: |-
     <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -238,13 +238,13 @@
 
     ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
 
-    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
 
     ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
 
-    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
 
-    This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+    This latest CSF Certification is even more comprehensive [than the last](https://datica-2019.netlify.app/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica-2019.netlify.app/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
 
     <h4 class="text--spaced text-center group">Compliance Facts</h4>
     <div class="row small-up-1 medium-up-3 align-center">
@@ -297,7 +297,7 @@
   :summary: Datica customers and innovators Cota, Clockwise.MD, and Arcadia Healthcare
     are making waves in healthcare and we're excited to share their stories.
   :blog_lead: |
-    We love sharing the amazing and diverse stories of Datica customers through both [spotlights and case studies](https://datica.com/proof/). Their origin stories, visions on how to change healthcare, and traction are all so compelling, and surprisingly diverse. It reminds us of the vastness of healthcare; the industry is full of things to be fixed, and there is no shortage of innovators ready to step up.
+    We love sharing the amazing and diverse stories of Datica customers through both [spotlights and case studies](https://datica-2019.netlify.app/proof/). Their origin stories, visions on how to change healthcare, and traction are all so compelling, and surprisingly diverse. It reminds us of the vastness of healthcare; the industry is full of things to be fixed, and there is no shortage of innovators ready to step up.
 
     These three innovators — Cota, Clockwise.MD, and Arcadia Healthcare — the subjects of our most recent customer spotlights, are making waves in healthcare and we're excited to share their stories.
   :post: |
@@ -305,7 +305,7 @@
 
     Three years ago, [Cota](https://www.cotahealthcare.com/), a New York-based digital health company had three employees. Now, the company is using the minds of nearly 100 employees to solve one of the most difficult problems in healthcare — finding a way to provide a universal data model for healthcare to help physicians improve the standards of care. Ultimately, the company seeks to make changes not just to fundamentally change how clinicians use data and make decisions in healthcare, but to accelerate the pace of research in academic networks, and provide real-world evidence to pharmaceutical companies developing cancer-fighting treatments. As the company works to solve this challenge, it is producing a significant amount of research in the field and has been published in 15 peer-reviewed journals and delivered presentations at multiple industry conferences.
 
-    > [Read the rest](https://datica.com/customer/cota/#spotlight) of the Cota Spotlight to learn how Cota turned patient data into useable insights at scale, and their plans to expand beyond oncology.
+    > [Read the rest](https://datica-2019.netlify.app/customer/cota/#spotlight) of the Cota Spotlight to learn how Cota turned patient data into useable insights at scale, and their plans to expand beyond oncology.
 
     ## Clockwise.MD: Improving patient satisfaction with timing technology
 
@@ -313,7 +313,7 @@
 
     Now relocated across the street from Georgia Tech, Clockwise.MD taps technology talent from the university to expand and improve its online scheduling and wait time transparency solutions for healthcare organizations. Recognized in 2016 as a Best Place to Work in Atlanta and a Healthcare Hero by the Atlanta Business Chronicle, the co-founders at Clockwise.MD have nailed down a healthcare solution that hit at the right time and in the right place.
 
-    > [Continue reading](https://datica.com/customer/clockwisemd/#spotlight) to learn what Michael Burke and his co-founders learned about patient experience, and about being in the right place at the right time.
+    > [Continue reading](https://datica-2019.netlify.app/customer/clockwisemd/#spotlight) to learn what Michael Burke and his co-founders learned about patient experience, and about being in the right place at the right time.
 
     ## Arcadia Healthcare Solutions: Bringing value-based performance management to the healthcare organizations changing the industry
 
@@ -321,11 +321,11 @@
 
     Arcadia was founded in 2002 as a consulting firm primarily focused on insurers. Their specialty was systems integration throughout their first five years of existence.
 
-    Eventually in 2008 they started working on more tooling for a mix of health systems, independent provider groups and health plans, which lead to version 1.0 of the Arcadia Analytics platform. They built a deep expertise in [Electronic Health Record (EHR) and claims data integration](https://datica.com/discover/ehr-integrations/) and supporting technology. That led to a conscious pivot in 2012 to a technology-first, SaaS-based analytics company.
+    Eventually in 2008 they started working on more tooling for a mix of health systems, independent provider groups and health plans, which lead to version 1.0 of the Arcadia Analytics platform. They built a deep expertise in [Electronic Health Record (EHR) and claims data integration](https://datica-2019.netlify.app/discover/ehr-integrations/) and supporting technology. That led to a conscious pivot in 2012 to a technology-first, SaaS-based analytics company.
 
     And they haven’t looked back since. Arcadia augmented their analytics technology strengths with two acquisitions in 2011 and 2015 to build EHR infrastructure and managed care capabilities. Arcadia now connects 18 of the top 20 EHR platforms, have hundreds of live connections updated nightly, and work with premier health systems, health plans, and accountable care organizations across the country.
 
-    > [Read on](https://datica.com/customer/arcadia-healthcare-solutions/#spotlight) to learn how Arcadia developed the right mix of experience and progressiveness.
+    > [Read on](https://datica-2019.netlify.app/customer/arcadia-healthcare-solutions/#spotlight) to learn how Arcadia developed the right mix of experience and progressiveness.
   :featured_image:
     :id: 6S2DUxk8pOowCQ0mcqOiwq
   :share_image:

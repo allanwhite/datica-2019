@@ -68,7 +68,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -76,7 +76,7 @@
   but it's happening now as healthcare embraces SaaS-based digital health solutions.
 :blog_lead: Something interesting has been happening in healthcare over the last several
   years. While we’ve been focused on meaningful use, EHRs, and Obamacare, healthcare
-  has quietly started to [embrace the cloud](https://datica.com/discover/healthcare-cloud/).
+  has quietly started to [embrace the cloud](https://datica-2019.netlify.app/discover/healthcare-cloud/).
   Most of us imagined the cloud onramp in healthcare to be many years away. But it
   hasn’t been. In many ways, it’s happened the same way it happened in other industries
   — through data connections between on-premise legacy systems and new cloud-based
@@ -89,7 +89,7 @@
   of the cloud enables a paradigm shift in the types of solutions that are succeeding.
   Digital health technologies, the major drivers of the future of health IT, are being
   selected *based on the best* of breed model, not *one size fits all* model of the
-  [monolithic EHRs](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+  [monolithic EHRs](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
   that have proliferated and dominated health IT resources for the last fifteen years.
   This swing back to best of breed is important because it opens the door for new,
   highly-targeted and highly-valuable solutions to flourish. Healthcare is letting
@@ -99,12 +99,12 @@
   to the onramp, most notably data integration and, most frequently, a non-technical
   problem; but, even integration is becoming a solved problem (FHIR, new APIs, new
   knowledge transfer, and open source tools to educate and jumpstart integrations,
-  etc). [EHR integration](https://datica.com/discover/ehr-integrations/) is certainly
+  etc). [EHR integration](https://datica-2019.netlify.app/discover/ehr-integrations/) is certainly
   easier to solve than setting up and managing a host of digital health applications
   on premise.\n \n## Beware of the Data Security Risks\n \nBut, this type of onramp
   to the cloud does create a new set of risks for healthcare organizations. **The
   data onramp, in many ways, is more risky than lift and shift.** The data being shipped
-  to the cloud is health data and the stewards of that health data are [covered entities](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+  to the cloud is health data and the stewards of that health data are [covered entities](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/)
   (mostly health systems and insurance companies). This data isn’t contact information
   for sales prospects going into Salesforce. Privacy and security are always important
   but, in healthcare, there is a significant financial risk if you get them wrong.\n
@@ -114,7 +114,7 @@
   loosely audited at worst. So a healthcare organization may work with ten different
   digital health solutions and all ten of those solutions may be on the same cloud
   provider, say AWS for this example, but every one of those digital health solutions
-  addresses [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) and
+  addresses [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/) and
   data security in different ways. This makes it nearly impossible for healthcare
   organizations to maintain a consistent data governance posture and, maybe more importantly,
   to understand the their current risk of breach or security incident.\n \n## Cloud
@@ -127,10 +127,10 @@
   across multiple data centers, running many different applications and technology
   stacks. All of those hosts and networks are audited and assessed on an ongoing basis.
   Trust us when we say that **doing cybersecurity in the cloud, consistently and continually,
-  is non-trivial.** And it’s our [core expertise](https://datica.com/compliance/)!\n
+  is non-trivial.** And it’s our [core expertise](https://datica-2019.netlify.app/compliance/)!\n
   \nThese data risks are mitigated to some extent in the lift and shift model as the
   cloud is managed and configured in a standard way for technologies [migrating to
-  the cloud](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
+  the cloud](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
   But, that’s not the model we have in healthcare for the foreseeable future; lift
   and shift will happen, but our best guess is that is five to ten  years away for
   even progressive organizations. Ultimately, covered entities will bear the cost
@@ -165,7 +165,7 @@
   :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
     useful, and leading-edge insights from our industry and world. '
   :cta_label: Download your copy
-  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_url: https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/
   :cta_image:
     :id: 5bJ5SbDF9umaQsUGmIKyCa
   :cta_color: gray-light
@@ -189,7 +189,7 @@
     evolution of the EHR. We already explored the rise of the patient as consumer
     looked at how Trump''s unpacking of Obamacare in parts one and two. '
   :blog_lead: |-
-    This 3rd part of the [2017 healthcare trends](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) series looks at problems with EHRs, raising the question of whether their peak value has already passed.
+    This 3rd part of the [2017 healthcare trends](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) series looks at problems with EHRs, raising the question of whether their peak value has already passed.
 
     Meaningful Use (MU) is dead but it succeeded wildly in [increasingly the adoption of EHRs](http://www.nuance.com/for-healthcare/ehr-meaningful-use-physician-study/index.htm). In fact, MU was so successful that physicians have become the most overtrained and overpriced data entry workers in our economy. [All of this data entry](http://www.beckershospitalreview.com/healthcare-information-technology/4-000-clicks-per-shift-ed-physicians-emr-burden.html) has been at the expense of patient care as evidenced by the time and attention given to record keeping and not spending time with patients. To be clear, there are benefits to EHRs in terms of standardizing documenting, analytics, and billing.
   :post: |2-
@@ -198,30 +198,30 @@
 
     > "Your margins are my opportunity." Jeff Bezos
 
-    The problem with EHRs is that the government and health systems spent billions of dollars on software and organizational change that doesn't address any of the challenges discussed in the [first][1], [second][2], and [fourth articles](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this series. EHRs weren't built for the future of healthcare. Thankfully, change in healthcare is slow so the past and current state of healthcare will be around for a while.
+    The problem with EHRs is that the government and health systems spent billions of dollars on software and organizational change that doesn't address any of the challenges discussed in the [first][1], [second][2], and [fourth articles](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this series. EHRs weren't built for the future of healthcare. Thankfully, change in healthcare is slow so the past and current state of healthcare will be around for a while.
 
     Additionally, as other sectors like life sciences move to own the patient as the end user, they erode the value of the EHR as the main hub of clinical data. I guess [Walgreens is the example of the opposite][6] case as it is rolling out Epic but my guess is Walgreens rolled out Epic for the reasons I cited above, namely ease of integration with existing providers and provider data.
 
     ## Gaining access to EHR data
 
-    Just because EHRs weren't built for a future based on quality and value doesn't mean EHR vendors aren't rapidly trying to adapt EHRs to remain relevant for the future. One major example is easing access to EHR data through [EHR integrations](https://datica.com/discover/ehr-integrations/). There are major EHR vendors that made, and still make, significant revenue by charging hefty fees for interfaces and data access. The industry is demanding, and the EHR vendors are finally conceding to grant, access to EHR data. That access is seen as essential to enable future-facing tools for things like patient engagement, population health, and clinical collaboration. For at least four to five years now, major EHR vendors like Epic and Cerner have been talking about providing modern web interfaces for EHR data. There's now a standard called [FHIR][7] that has been getting tons of attention as an API for EHRs. In 2017, we will see more and more EHRs providing access to snippets of data on an individual patient basis. It's hard not to see that as a very small and intentionally slow step towards opening up access to clinical data so the industry can really start to understand the power of that data.
+    Just because EHRs weren't built for a future based on quality and value doesn't mean EHR vendors aren't rapidly trying to adapt EHRs to remain relevant for the future. One major example is easing access to EHR data through [EHR integrations](https://datica-2019.netlify.app/discover/ehr-integrations/). There are major EHR vendors that made, and still make, significant revenue by charging hefty fees for interfaces and data access. The industry is demanding, and the EHR vendors are finally conceding to grant, access to EHR data. That access is seen as essential to enable future-facing tools for things like patient engagement, population health, and clinical collaboration. For at least four to five years now, major EHR vendors like Epic and Cerner have been talking about providing modern web interfaces for EHR data. There's now a standard called [FHIR][7] that has been getting tons of attention as an API for EHRs. In 2017, we will see more and more EHRs providing access to snippets of data on an individual patient basis. It's hard not to see that as a very small and intentionally slow step towards opening up access to clinical data so the industry can really start to understand the power of that data.
 
     The other alternative for EHR data access is for providers to query a network of EHRs for data about a patient they are seeing. These networks of different EHRs have [in this way.][8] Epic already enables this type of sharing, in an Epic to Epic only way, for participating customers. Having a provider click, request, and view data from a different provider isn't really harnessing the power of data and is not going to significantly improve outcomes or lower costs. It will help with some inefficiencies in acquiring records from other providers but this is barely even the low hanging front of clinical data access.
 
     ## Are the glory days of EHRs over?
 
-    This lack of alignment between EHRs, their business models, and the direction of healthcare as it [onramps to the cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/) shows EHRs as the hubs of care and clinical data, at best, are at their peak value and, at worst, have already peaked. This has massive implications as EHRs are the major software vendors for care delivery and behemoth companies that represent a significant part, in terms of dollars, of the total health IT market. Similarly to non-healthcare enterprises, EHRs over time will be eroded like Oracle, Siebel, and SAP were by Salesforce, Workday, and Slack. This is a ten to fifteen year process that is only now just beginning but will eventually usher in the new guard of enterprise health IT as it moves into the [healthcare cloud](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
+    This lack of alignment between EHRs, their business models, and the direction of healthcare as it [onramps to the cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/) shows EHRs as the hubs of care and clinical data, at best, are at their peak value and, at worst, have already peaked. This has massive implications as EHRs are the major software vendors for care delivery and behemoth companies that represent a significant part, in terms of dollars, of the total health IT market. Similarly to non-healthcare enterprises, EHRs over time will be eroded like Oracle, Siebel, and SAP were by Salesforce, Workday, and Slack. This is a ten to fifteen year process that is only now just beginning but will eventually usher in the new guard of enterprise health IT as it moves into the [healthcare cloud](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
 
-    This will have a major impact on enterprise IT departments since many of those organizations have large proportions of people and budgets dedicated to managing EHRs. Additionally, most of the new guard of health IT will be [cloud based](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud/) and not on-premise, as most EHRs are today. The cloud, specifically the [public cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/), is here now in healthcare. It'll be years before major healthcare enterprises fully adopt and move the majority of compute workloads to the cloud but the migration is starting, it's a big migration, and it starts with SaaS solutions that will chip away at the EHRs dominance. The broader shift to the cloud will drive additional significant changes to how enterprise IT operates in healthcare.
+    This will have a major impact on enterprise IT departments since many of those organizations have large proportions of people and budgets dedicated to managing EHRs. Additionally, most of the new guard of health IT will be [cloud based](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud/) and not on-premise, as most EHRs are today. The cloud, specifically the [public cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/), is here now in healthcare. It'll be years before major healthcare enterprises fully adopt and move the majority of compute workloads to the cloud but the migration is starting, it's a big migration, and it starts with SaaS solutions that will chip away at the EHRs dominance. The broader shift to the cloud will drive additional significant changes to how enterprise IT operates in healthcare.
 
-    Next week, for the [fourth and final article](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this 2017 trends series,  I'll share "_Healthcare costs and challenges are about a lot more than healthcare,"_ a look at the quest to reduce costs and improve outcomes in healthcare. Don't miss [part 1](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and [part 2](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/) also. Be sure to follow this series by subscribing to our blog updates below.
+    Next week, for the [fourth and final article](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this 2017 trends series,  I'll share "_Healthcare costs and challenges are about a lot more than healthcare,"_ a look at the quest to reduce costs and improve outcomes in healthcare. Don't miss [part 1](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and [part 2](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/) also. Be sure to follow this series by subscribing to our blog updates below.
 
-    [1]: https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/
-    [2]: https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/
+    [1]: https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/
+    [2]: https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/
     [3]: http://www.nuance.com/for-healthcare/ehr-meaningful-use-physician-study/index.htm
     [4]: http://www.beckershospitalreview.com/healthcare-information-technology/4-000-clicks-per-shift-ed-physicians-emr-burden.html
     [6]: http://www.healthcareitnews.com/news/walgreens-goes-epic-ehr
-    [7]: https://datica.com/guide/fhir/
+    [7]: https://datica-2019.netlify.app/guide/fhir/
     [8]: http://www.healthitoutcomes.com/doc/collaboration-aims-to-boost-data-exchange-improve-interoperability-0001
   :featured_image:
     :id: 1DUZyHtcFComeIa4UCq02Q
@@ -389,7 +389,7 @@
   :summary: This infographic, extracted from the inaugural Spring '17 _Heart of Medicine_
     Quarterly Report, describes healthcare's shifting definition of the cloud.
   :blog_lead: 'Datica''s inaugural quarterly report, [The Heart of Medicine: Transformation
-    through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/),
+    through Technology](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/),
     tells the most compelling stories of innovation and change in healthcare. '
   :post: |+
     <a href="https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf" title="cloud adoption in healthcare infographic" rel="external">
@@ -398,7 +398,7 @@
 
     As part of this first report, we took a deep dive into cloud adoption in healthcare, comparing the results from the [HIMSS Cloud Studies from 2014](http://www.himss.org/library/healthcare-privacy-security/cloud-security/security-survey) and [2017](http://www.himssanalytics.org/research/essentials-brief-2017-cloud-study) and found a few surprising results, most notably, an uptick in adoption of certain areas of cloud computing and services.
 
-    [This infographic](https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf), extracted from the Spring 2017 Quarterly Report, summarizes what we found out about the shifting definition of the cloud in healthcare. Take a look, and then get your copy of the [complete report](https://datica.com/innovation/heart-of-medicine-report-spring-2017/) for other great articles on innovation and change in healthcare.
+    [This infographic](https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf), extracted from the Spring 2017 Quarterly Report, summarizes what we found out about the shifting definition of the cloud in healthcare. Take a look, and then get your copy of the [complete report](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/) for other great articles on innovation and change in healthcare.
 
 
   :featured_image:
@@ -445,12 +445,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -468,11 +468,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -492,13 +492,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -519,7 +519,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

@@ -66,7 +66,7 @@
     :lon: -122.3320708
 :summary: 'For the first time in twenty years, hospitals, vendors, and even payers
   and life sciences providers agree on something: FHIR is the way forward.'
-:blog_lead: The hype about [FHIR (Fast Healthcare Interoperability Resources)](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)
+:blog_lead: The hype about [FHIR (Fast Healthcare Interoperability Resources)](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)
   has spread like, well, wildfire. The healthcare industry is often targeted by new,
   sexy technologies that sound great on the surface but often have few practical implementations.
   FHIR is NOT one of those technologies. In fact, FHIR has many practical use cases
@@ -74,7 +74,7 @@
   vendors, and even payers and life sciences providers agree this is the path forward
   for modern integration. This prevalent support is speeding FHIR’s adoption and feedback
   loop on improvement. Datica’s newest guide, [What Health Systems can Gain from FHIR
-  Adoption](https://datica.com/guide/fhir-for-health-systems/), takes a candid look
+  Adoption](https://datica-2019.netlify.app/guide/fhir-for-health-systems/), takes a candid look
   at the factors fueling open-data transformation at hospitals and health systems.
   Here are a few highlights from the guide.
 :post: "\n## EHR’s aren’t cutting it. \n\nHospitals, in particular, are looking for
@@ -84,7 +84,7 @@
   across disciplines within an organization. Those EHR implementations laid the information
   technology groundwork that would become the fabric of a healthcare transformation
   movement. As Datica’s co-founder Travis Good wrote in a recent blog post on the
-  [Rise and the Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/\n),
+  [Rise and the Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/\n),
   the EHR and data consolidation are just the foundation for organizational transformation.
   \n\nToday, hospital CIOs and CMIOs are feeling pressured to improve interoperability
   with other organizations, eliminate data blocking, and embrace value-based care.
@@ -96,7 +96,7 @@
   on interoperability for the reason that being able to access the aggregated data
   is the only way to move from documentation tools to innovative care delivery models.
   An open data standard, such as FHIR, and a single implementation of the standard
-  [in a centralized data hub](https://datica.com/managed-integration/) is the most
+  [in a centralized data hub](https://datica-2019.netlify.app/managed-integration/) is the most
   efficient way to move the needle on data accessibility. \n\n\n## Patients expect
   transparency.\n\nPatients aren’t as captive of an audience as they once were. They
   expect connectivity and transparency in their healthcare experience because of their
@@ -110,9 +110,9 @@
   have come to expect and want from everything – even healthcare.\n\n\n## Government
   mandates aren’t the reason for the revolution.\n\nCertainly, APIs are going to be
   required under legislation to increase third-party access to data.  We’ve seen references
-  to API in [Meaningful Use](https://datica.com/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
-  [MIPS/MACRA](https://datica.com/academy/macra-and-mips-explanation/), and [21st
-  Century Cures legislation](https://datica.com/blog/21st-century-cures-act-passes-in-the-house-of-representatives/).
+  to API in [Meaningful Use](https://datica-2019.netlify.app/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
+  [MIPS/MACRA](https://datica-2019.netlify.app/academy/macra-and-mips-explanation/), and [21st
+  Century Cures legislation](https://datica-2019.netlify.app/blog/21st-century-cures-act-passes-in-the-house-of-representatives/).
   The United States government typically targets strategies that are working well
   in leading organizations and then incentivizes or penalizes the rest of the healthcare
   providers to play catch up. Good examples to illustrate this point are e-prescribing
@@ -120,7 +120,7 @@
   for technology revolutions in healthcare. \n\nSo why are the frontrunners focused
   on API adoption? What are they hoping to gain in terms of health system operations
   and culture?\n \nWe invite you to download Datica’s newest guide, [What Health Systems
-  can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/),
+  can Gain from FHIR Adoption](https://datica-2019.netlify.app/guide/fhir-for-health-systems/),
   to get the answers to these big questions. The guide unveils what FHIR enables in
   health systems, not from a technology perspective, but from an operational improvement
   perspective.\n\n"
@@ -143,7 +143,7 @@
   :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
     useful, and leading-edge insights from our industry and world. '
   :cta_label: Download your copy
-  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_url: https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/
   :cta_image:
     :id: 5bJ5SbDF9umaQsUGmIKyCa
   :cta_color: gray-light
@@ -188,13 +188,13 @@
     as well, leaving it inactionable. The solution? Integration."
   :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
     float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
-    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
-    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
-    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
-    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
-    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
-    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
-    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    how to sell to healthcare enterprises](https://datica-2019.netlify.app/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica-2019.netlify.app/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica-2019.netlify.app/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica-2019.netlify.app/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica-2019.netlify.app/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
     integration is the partnership between providers, payers, vendors, and other players
     that brings the data or function from one application or program to that of another.
     Because of the sheer quantity and diversity of data, healthcare providers face
@@ -219,23 +219,23 @@
     the current healthcare delivery model and extensive research efforts. Data integration
     allows the unification of healthcare data that exists in various forms (structured
     or unstructured) on different data storage systems such as relational database
-    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica-2019.netlify.app/academy/hl7-101-a-primer/).
     \n\nTrue interoperability and successful Integrations will have a cornucopia of
     benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
     and increased patient care endeavors. Long term, true integration allows for the
     furthering of public health research opportunities and population surveillance
     to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
     discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
-    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
-    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
-    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
-    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
-    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
-    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
-    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
-    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
-    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
-    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica-2019.netlify.app/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica-2019.netlify.app/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica-2019.netlify.app/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica-2019.netlify.app/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica-2019.netlify.app/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica-2019.netlify.app/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica-2019.netlify.app/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica-2019.netlify.app/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica-2019.netlify.app/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
     Seven (HL7) is a not-for-profit organization that created a set of standards to
     ensure information unity and validity when sharing data across health information
     exchanges or between healthcare systems, such as, in messaging applications.\n
@@ -252,13 +252,13 @@
     from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
     and elements (known as resources) and a RESTful API for data exchange.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
-    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
-    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
-    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
-    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
-    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
-    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica-2019.netlify.app/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica-2019.netlify.app/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica-2019.netlify.app/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
     Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
     making it open to everyone in the industry to participate. It also takes many
     of the learnings from earlier versions of HL7 and incorporates some of those models

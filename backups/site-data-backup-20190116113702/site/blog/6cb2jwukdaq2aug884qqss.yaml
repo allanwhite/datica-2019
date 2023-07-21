@@ -77,10 +77,10 @@
   believe are principal to our customers’ success. The overarching theme is one of
   self-service, giving customers the ability to do more on your own.\n \nIt is with
   this renewed focus in mind that I'm incredibly excited to announce the launch of
-  [The Platform 3.0—Compliant Cloud](https://datica.com/platform/) reimagined from
+  [The Platform 3.0—Compliant Cloud](https://datica-2019.netlify.app/platform/) reimagined from
   the ground up.\n \nIf you've been following Datica for the past year or so you would
   have seen our product go through a number of different changes, even if you were
-  just following along on the website. [We have evolved](https://datica.com/catalyze/)
+  just following along on the website. [We have evolved](https://datica-2019.netlify.app/catalyze/)
   through multiple product name changes — PaaS, Stratum, and Compliant Cloud. Confusing
   as it may have been, we had very clear strategic goals in mind with each of those
   name evolutions that were valuable learning experiences. This evolution has brought
@@ -88,16 +88,16 @@
   Hence \"The Platform\". We're making it easier this time.\n \n## Empowering new
   customers with self-service\n\nA large part of our core mission at Datica is to
   break down the barriers to compliance so that developing healthcare software is
-  the same as developing consumer software. In short, we strive to make [compliance](https://datica.com/platform/compliance/)
+  the same as developing consumer software. In short, we strive to make [compliance](https://datica-2019.netlify.app/platform/compliance/)
   a non-issue. This is by no means a small feat and it's not something we can tackle
   completely on our own. We need to empower you, our customers, in ways that allow
   you to help yourselves. We'll build the tools, our customers conquer the mountains.\n
   \nHow does this manifest?\n \n### Self-service onboarding\n\nFirst up is the ability
-  to onboard through a [self-service portal](https://datica.com/pricing/). This means
+  to onboard through a [self-service portal](https://datica-2019.netlify.app/pricing/). This means
   that as a new customer you can now sign up for a Datica account, enter your billing
   details, spec out an application environment, and deploy that application in a matter
   of minutes.\n \n### 14-day free trials\n\nIn addition to self-service onboarding,
-  Datica now provides unfettered [14-day free trials](https://datica.com/pricing/)
+  Datica now provides unfettered [14-day free trials](https://datica-2019.netlify.app/pricing/)
   for new customers. This is unlike anything that has been done before in this industry.
   No product in the market has been able to provide a fully-compliant HIPAA & HITRUST
   CSF certified platform trial with no upfront cost.\n \n### Self-service code scaling\n\nBeyond
@@ -149,7 +149,7 @@
   :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
     GDPR, and GxP compliant on AWS and Azure.
   :cta_label: Schedule a demo
-  :cta_url: https://datica.com/demo/
+  :cta_url: https://datica-2019.netlify.app/demo/
   :cta_image:
     :id: 4l2nKsTXwkc2kauya8W6SW
   :cta_color: dark-alt
@@ -173,7 +173,7 @@
   :summary: 'Almost 3 years ago, I wrote about why there was no listed Datica pricing
     on our site. Today, I wrote about why we actually DO now have upfront pricing. '
   :blog_lead: 'Almost three years ago, I wrote a blog post about why [there was no
-    up front pricing](https://datica.com/blog/why-there-is-no-up-front-pricing/) for
+    up front pricing](https://datica-2019.netlify.app/blog/why-there-is-no-up-front-pricing/) for
     the Datica Platform or our integration services. It was as earnest as I could
     get about how I felt about our sales model at the time: there was no shortage
     of people who came to our website not understanding why handling some aspects
@@ -184,10 +184,10 @@
     note: As we roll out updates and changes to our new Kubernetes-based compliance
     platform our pricing is fluxuating and we're temporarily back to providing custom
     quotes based on specific configurations. Learn more about our [public product
-    roadmap](https://datica.com/blog/what-were-building-daticas-public-product-roadmap/)
+    roadmap](https://datica-2019.netlify.app/blog/what-were-building-daticas-public-product-roadmap/)
     and the exciting things happening at Datica* \n\nWe've done a lot of work since
     then, and we've now changed our opinion on the topic. We now offer up front Datica
-    pricing right on the website: [https://datica.com/pricing/](https://datica.com/pricing/).
+    pricing right on the website: [https://datica-2019.netlify.app/pricing/](https://datica-2019.netlify.app/pricing/).
     I'd like to go through my old article and discussed what changed and why we now
     offer upfront pricing.\n\n1) \"First, our pricing is non-standard, which can lead
     to buyer confusion.\" & 2) \"Second, we discovered prospects were making apples-to-oranges
@@ -197,8 +197,8 @@
     At the time, it was hard to communicate exactly what the total cost of ownership
     for build vs. buy would be, since we didn’t fully understand our costs as we were
     building infra at scale and going through our initial sets of audits. We've since
-    written massive amounts of documentation on the subject: our [HIPAA](https://datica.com/discover/hipaa-compliance/)
-    and [HITRUST](https://datica.com/discover/hitrust/) guides provide in depth details
+    written massive amounts of documentation on the subject: our [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/)
+    and [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) guides provide in depth details
     on effort and costs while our [open-sourced policies](https://github.com/catalyzeio/policies)
     provide a detailed roadmap of what it takes to prove HITRUST certification if
     you were going to DIY.  If you work in a \"We build everything 100% here\" shop,
@@ -219,11 +219,11 @@
     out talking to people. We just don't need to bake it into all pieces of the sales
     process if you aren't interested anymore. In fact, we used a lot of feedback and
     discussions from customers and prospects to build the [Digital Health Success
-    Framework](https://datica.com/dhsf/).\n \nWhile we made it easier to see our pricing
+    Framework](https://datica-2019.netlify.app/dhsf/).\n \nWhile we made it easier to see our pricing
     and features, we still want to talk. It might be our midwestern roots, but we
     want to learn more about what you're working on and the challenges you're going
     through on your projects. We want to help, even if it means we send you along
-    to someone else. Don't hesitate to [reach out](https://datica.com/contact/)!\n\n"
+    to someone else. Don't hesitate to [reach out](https://datica-2019.netlify.app/contact/)!\n\n"
   :featured_image:
     :id: 1VH4BjrS7uY42AGqMcYOI
   :share_image:
@@ -255,18 +255,18 @@
   :blog_lead: The short answer to that question is, not surprisingly, **it takes A
     LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
     focused on security and HIPAA compliance. It's a differentiator and we aren't
-    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    reaching when we say *[It's in our DNA](https://datica-2019.netlify.app/platform/compliance/)*,
     referring to HIPAA compliance. Because of that focus, we have a lot of [resources
-    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    for compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/). That translates
     to a lot of time and money on security and organizational policies and procedures
     specifically to comply with HIPAA.
-  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/)
     along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
-    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    Systems](https://datica-2019.netlify.app/platform/compliance/), a large national 3rd party
     auditor. The results of that audit and assessment can be boiled down to this badge
-    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    that our customers can post to their own websites.\n\n<a href=\"https://datica-2019.netlify.app/platform/compliance?utm_source=customerbadge\"><img
     class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
-    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    src=\"https://datica-2019.netlify.app/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
     width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
     truth is it took a lot of time and effort to get here, and we learned way more
     about HIPAA and security than we ever expected. We did not outsource any of our
@@ -329,11 +329,11 @@
     extent of the rules. It gives us additional insight into our customers' needs
     and keeps us intimately close to the problem we are solving. It is also extremely
     valuable to our customers when they work with compliance offices and point to
-    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    our audit reports and [guides](https://datica-2019.netlify.app/academy/).\n\nWhen you decide
     to go down the path of hosting your application in a HIPAA compliant cloud, we
     encourage you to spend time digging deeper than sales and into how the offerings
     and organizations available to you differ in approaches to HIPAA, and which are
-    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements).
     If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
     and we'll be happy to tell you everything we've learned and why we're so proactive
     about compliance and transparency.\n"
@@ -371,16 +371,16 @@
   :summary: Complying with HIPAA and proving it are two very different things. Datica
     is HIPAA compliant AND can prove it with our HITRUST CSF certification.
   :blog_lead: |-
-    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica-2019.netlify.app/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
 
-    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
-  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
-    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    Complying with [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/).
     HITRUST, for those that don’t know, is an industry-driven attempt to create a
     prescriptive, standardized, repeatable compliance framework that all organizations
     in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
     HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
-    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    Coalfire](https://datica-2019.netlify.app/compliance/) — a 3rd party auditor — in 2015 and
     are now in the midst of our 2017 renewal audit. After going through this a few
     times now, we can summarize the HITRUST CSF Certification process with these five
     giant steps. It’s an involved process and there are no shortcuts. A company considering
@@ -400,7 +400,7 @@
     has several hundred requirements that apply to us whereas a company that is not
     cloud based may have a completely different set of controls and requirements that
     apply to them. We have all the details about the domains, controls, and requirements
-    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica-2019.netlify.app/academy/).
     Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
     sizeable amount of documentation is involved during the completion, including
     policies, risk assessments, as well as technical documentation and configurations.
@@ -470,12 +470,12 @@
     vendors to store, maintain, back up, and share Protected Health Information (PHI).
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
-    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
-    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
-    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
-    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
-    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
-    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Cloud](https://datica-2019.netlify.app/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica-2019.netlify.app/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica-2019.netlify.app/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica-2019.netlify.app/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
     Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
     data-driven and demands to share that data are also increasing. Those trends translate
     to considerable amounts of data that must be processed and stored in a secure
@@ -493,11 +493,11 @@
     data storage, you must be in complete compliance, including HIPAA cloud hosting.
     \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
     HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
-    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
-    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
-    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
-    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
-    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    for Compliance](https://datica-2019.netlify.app/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica-2019.netlify.app/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica-2019.netlify.app/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica-2019.netlify.app/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
     What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
     is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
     Application developers especially must recognize that HIPAA compliant hosting
@@ -517,13 +517,13 @@
     are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
     drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
     Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
-    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
-    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
-    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
-    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
-    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
-    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
-    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Datica's Open Source Policies](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica-2019.netlify.app/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica-2019.netlify.app/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica-2019.netlify.app/compliance/)\n* [HIPAA
+    and Encryption](https://datica-2019.netlify.app/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica-2019.netlify.app/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
     Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
     Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
     to improving the health insurance system. HIPAA has specifications that ensure
@@ -544,7 +544,7 @@
     How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
     provider, it is vital for an organization to perform due diligence to ensure the
     ePHI they are entrusting this provider with will be secured in accordance with
-    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica-2019.netlify.app/platform/)
     ask these key questions:\n* Have they had an external assessment done by a third
     party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
     can they make in safeguarding your data?\n* What do they cover as part of the

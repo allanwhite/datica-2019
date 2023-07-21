@@ -81,7 +81,7 @@
 
     He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
 
-    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
   :profile_twitter: markolschesky
   :profile_linkedin: markolschesky
   :location:
@@ -95,7 +95,7 @@
   in Boston. Here's what I learned, saw, and enjoyed at the applications roundtable.
 :post: "## A Recap of the HL7 FHIR Applications Roundtable\n\n### Datica's presentation\nI
   presented a demonstration of Datica, highlighting how vendors and innovation groups
-  can use [Compliant Cloud](https://datica.com/compliant-cloud/) to build applications
+  can use [Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud/) to build applications
   that aggregate hospital registration and scheduling feeds along with vitals and
   results from multiple organizations. They can then build the longitudinal patient
   records in an easy to query method. Of course, the underlying data storage format
@@ -122,13 +122,13 @@
   hospitals soon is exciting. A hat tip to Epic and Cerner for making this happen.\n
   \n### Need for API management\nA few vendors provided presentations on how access
   controls could be layered on top of FHIR for more pragmatic management of FHIR resources.
-  It seems like [EMR vendors are remaining hands-off](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+  It seems like [EMR vendors are remaining hands-off](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
   in this space, leading other vendors to rush in to fill the gap in API management
   (including Datica!).\n \n### People from all sides of the healthcare technology
   spectrum\nThe ability to talk to employees from startups, publicly-traded companies,
   hospitals and payers, life sciences and pharma all in the same place is amazing
   at the Apps Roundtable. Once again, [people are investing time and resources in
-  FHIR](https://datica.com/guide/fhir-for-health-systems/). A data standard is only
+  FHIR](https://datica-2019.netlify.app/guide/fhir-for-health-systems/). A data standard is only
   as good as its utility and more and more companies are pledging to utilize it. As
   someone who wants to see interoperability improved through pragmatic standards-based
   integration, this provides hope that we'll get there.\n\n### Duke is lovely\nAfter
@@ -141,7 +141,7 @@
   These HL7 events gives us a first-hand look at what others are working on and how
   we can help make that happen with Datica Compliant Cloud.\n\n*Get the guide to open
   data models and learn how to fuel transformation in your health system or hospital.
-  Download [What Health Systems Can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/)
+  Download [What Health Systems Can Gain from FHIR Adoption](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)
   today.*"
 :featured_image:
   :title: blog - FHIR not a concept anymore (Marko)
@@ -162,7 +162,7 @@
   :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
     useful, and leading-edge insights from our industry and world. '
   :cta_label: Download your copy
-  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_url: https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/
   :cta_image:
     :id: 5bJ5SbDF9umaQsUGmIKyCa
   :cta_color: gray-light
@@ -293,7 +293,7 @@
     / AI**. If I was to only pick one theme this year, this would be it. From Watson
     to Health Catalyst to the population health offerings of pretty much every EHR
     vendor, some form of analytics was woven into everything this year. Like patient
-    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    engagement, a recurring HIMSS theme, [data analytics](https://datica-2019.netlify.app/blog/3-benefits-of-accessible-big-data-analytics/)
     is seen as a major part of the future of care. Analytics does hold amazing potential
     but, like patient engagement, health systems need to develop strategies for how
     and where to use analytics if they are going to be successful. Analytics for analytics
@@ -301,14 +301,14 @@
     analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
     health data goes digital, and more and more digital health data is generated by
     sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
-    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    into more places means more financial risk of a [data breach](https://datica-2019.netlify.app/academy/hipaa-and-data-breaches/).
     Cybersecurity is an essential part of digital health, just like cloud is an essential
     part of digital health. This should be a recurring theme of HIMSS as the next
     10 years are going to be defined by healthcare moving data between new technologies
     and between new partnerships.\n- **Patient-centered care**. This is the one I
     wasn’t sure if I should include because I feel like some variation of this has
     been a recurring theme. I guess being a constant theme still makes it a theme.
-    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    The idea of [patient centricity](https://datica-2019.netlify.app/blog/the-cmio-role-in-the-era-of-value-based-care/),
     maybe because it has been a constant theme, is starting to mature. Services need
     to be centered on patients, and many of those services will be technology driven.
     The reason for services need to be patient-centered is 1) that’s what patients
@@ -333,8 +333,8 @@
     I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
     back, looking at HIMSS as a whole, it felt like we had simply transported all
     the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
-    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
-    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    really feel too [much different from HIMSS 2015](https://datica-2019.netlify.app/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica-2019.netlify.app/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
     happened. The Athena party happened. Lots of bankers parties with better food
     and drink options. Uber didn’t work well. Restaurants were full all the time.
     Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
@@ -355,7 +355,7 @@
     shocking part, especially compared to several years ago, is that health systems
     are looking outside their EHR vendors for the future of health IT.\n\n*Want to
     learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
-    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    ebook](https://datica-2019.netlify.app/innovation/2015/) for inspirations from our innovators
     podcast series.*\n\n\n"
   :featured_image:
     :id: 6l7x9mycV2K66sSeIUYaIW
@@ -406,13 +406,13 @@
     as well, leaving it inactionable. The solution? Integration."
   :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
     float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
-    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
-    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
-    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
-    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
-    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
-    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
-    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    how to sell to healthcare enterprises](https://datica-2019.netlify.app/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica-2019.netlify.app/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica-2019.netlify.app/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica-2019.netlify.app/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica-2019.netlify.app/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
     integration is the partnership between providers, payers, vendors, and other players
     that brings the data or function from one application or program to that of another.
     Because of the sheer quantity and diversity of data, healthcare providers face
@@ -437,23 +437,23 @@
     the current healthcare delivery model and extensive research efforts. Data integration
     allows the unification of healthcare data that exists in various forms (structured
     or unstructured) on different data storage systems such as relational database
-    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica-2019.netlify.app/academy/hl7-101-a-primer/).
     \n\nTrue interoperability and successful Integrations will have a cornucopia of
     benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
     and increased patient care endeavors. Long term, true integration allows for the
     furthering of public health research opportunities and population surveillance
     to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
     discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
-    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
-    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
-    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
-    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
-    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
-    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
-    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
-    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
-    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
-    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica-2019.netlify.app/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica-2019.netlify.app/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica-2019.netlify.app/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica-2019.netlify.app/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica-2019.netlify.app/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica-2019.netlify.app/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica-2019.netlify.app/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica-2019.netlify.app/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica-2019.netlify.app/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
     Seven (HL7) is a not-for-profit organization that created a set of standards to
     ensure information unity and validity when sharing data across health information
     exchanges or between healthcare systems, such as, in messaging applications.\n
@@ -470,13 +470,13 @@
     from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
     and elements (known as resources) and a RESTful API for data exchange.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
-    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
-    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
-    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
-    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
-    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
-    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica-2019.netlify.app/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica-2019.netlify.app/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica-2019.netlify.app/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
     Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
     making it open to everyone in the industry to participate. It also takes many
     of the learnings from earlier versions of HL7 and incorporates some of those models

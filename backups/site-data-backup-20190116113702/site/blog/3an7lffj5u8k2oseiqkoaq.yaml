@@ -71,12 +71,12 @@
   you are promising to give me is in fact aligned with my expectations.\n\n"
 :post: "\nWe believe trust is earned with transparency. Since the founding of the
   company in 2013, transparency has been a central cultural tenant. It’s why we [open
-  sourced our internal company policies](https://datica.com/open-source/policies/),
+  sourced our internal company policies](https://datica-2019.netlify.app/open-source/policies/),
   which have been adopted by hundreds of organizations to accelerate their path to
   compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
   as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and why
-  we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
-  [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+  we draft as much content as we do around complicated topics like [HITRUST](https://datica-2019.netlify.app/discover/hitrust/),
+  [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/), [GDPR](https://datica-2019.netlify.app/discover/gdpr/),
   and so on. Transparency is how we, as a technology community, can better understand
   the complexity of security and compliance.\n\nThe trust that Datica's customers
   instill in us goes far beyond a simple exchange of goods. We are not only securing
@@ -125,7 +125,7 @@
   the intellectual property or ideas. At Datica, we’ve assembled the best team of
   security, cloud, and compliance experts to execute on designing and delivering the
   most secure and compliant Platform for the cloud. We have no secrets to keep.\n\nWith
-  that said, I’m proud to announce [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+  that said, I’m proud to announce [Datica’s public product strategy & roadmap](https://datica-2019.netlify.app/compliant-kubernetes-service/roadmap/).
   This document will serve as the window into Platform product development. To get
   the most out of this effort, we need to hear from you. Please send us your feedback,
   feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
@@ -157,7 +157,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -186,11 +186,11 @@
     out to us every day. Many of you have come to Datica through recommendations from
     some of our earliest customers, like [Zipnosis](https://www.zipnosis.com/) and
     [HealthLoop](https://www.healthloop.com/). Others of you have heard our company
-    thought leaders, like [Travis Good](https://datica.com/about/travis/), [Mark Olschesky](https://datica.com/about/mark/)
-    and [Kris Gösser](https://datica.com/about/kris-gosser/) share knowledge about
-    compliance, security, and [digital health success](https://datica.com/dhsf/) at
+    thought leaders, like [Travis Good](https://datica-2019.netlify.app/about/travis/), [Mark Olschesky](https://datica-2019.netlify.app/about/mark/)
+    and [Kris Gösser](https://datica-2019.netlify.app/about/kris-gosser/) share knowledge about
+    compliance, security, and [digital health success](https://datica-2019.netlify.app/dhsf/) at
     conferences nationwide. A few have perused our website to learn more about HITRUST,
-    Kubernetes and [GDPR](https://datica.com/discover/gdpr/). While others have learned
+    Kubernetes and [GDPR](https://datica-2019.netlify.app/discover/gdpr/). While others have learned
     about Datica through the Wisconsin healthcare corridor grapevine.
   :post: "\nAt Datica, we especially enjoy partnering with other Wisconsin healthcare
     technology companies. By supporting other Midwest firms with shared knowledge
@@ -378,7 +378,7 @@
   :summary: This Q&A with Datica's Chief Data Officer, Mark Olschesky, explores what
     it means that Datica just passed 200 forks of our open-source policies.
   :blog_lead: |-
-    A week ago, Chief Data Officer [Mark Olschesky](https://datica.com/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
+    A week ago, Chief Data Officer [Mark Olschesky](https://datica-2019.netlify.app/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
 
     > When you come to a fork in the road, take it!
   :post: "As with many technical terms, the word “fork” obviously had more than one
@@ -422,7 +422,7 @@
     done. Most commonly, you can see companies with different Business Associate Agreements
     (BAAs). You’ll also see some major material differences through the forks. \n\n####
     Q: Can you give me a good example of a fork?\n\n**Mark:** One is Bind. As an insurer/broker
-    (and therefore likely a [Covered Entity](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    (and therefore likely a [Covered Entity](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/),
     their policies will differ from Datica’s as a cloud infrastructure/tooling provider.
     Bind’s willingness to share what they’ve done could help other insurers or brokers
     with their path to build and demonstrate compliance. That can save everyone time

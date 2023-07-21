@@ -63,7 +63,7 @@
 :summary: Datica customers and innovators Cota, Clockwise.MD, and Arcadia Healthcare
   are making waves in healthcare and we're excited to share their stories.
 :blog_lead: |
-  We love sharing the amazing and diverse stories of Datica customers through both [spotlights and case studies](https://datica.com/proof/). Their origin stories, visions on how to change healthcare, and traction are all so compelling, and surprisingly diverse. It reminds us of the vastness of healthcare; the industry is full of things to be fixed, and there is no shortage of innovators ready to step up.
+  We love sharing the amazing and diverse stories of Datica customers through both [spotlights and case studies](https://datica-2019.netlify.app/proof/). Their origin stories, visions on how to change healthcare, and traction are all so compelling, and surprisingly diverse. It reminds us of the vastness of healthcare; the industry is full of things to be fixed, and there is no shortage of innovators ready to step up.
 
   These three innovators — Cota, Clockwise.MD, and Arcadia Healthcare — the subjects of our most recent customer spotlights, are making waves in healthcare and we're excited to share their stories.
 :post: |
@@ -71,7 +71,7 @@
 
   Three years ago, [Cota](https://www.cotahealthcare.com/), a New York-based digital health company had three employees. Now, the company is using the minds of nearly 100 employees to solve one of the most difficult problems in healthcare — finding a way to provide a universal data model for healthcare to help physicians improve the standards of care. Ultimately, the company seeks to make changes not just to fundamentally change how clinicians use data and make decisions in healthcare, but to accelerate the pace of research in academic networks, and provide real-world evidence to pharmaceutical companies developing cancer-fighting treatments. As the company works to solve this challenge, it is producing a significant amount of research in the field and has been published in 15 peer-reviewed journals and delivered presentations at multiple industry conferences.
 
-  > [Read the rest](https://datica.com/customer/cota/#spotlight) of the Cota Spotlight to learn how Cota turned patient data into useable insights at scale, and their plans to expand beyond oncology.
+  > [Read the rest](https://datica-2019.netlify.app/customer/cota/#spotlight) of the Cota Spotlight to learn how Cota turned patient data into useable insights at scale, and their plans to expand beyond oncology.
 
   ## Clockwise.MD: Improving patient satisfaction with timing technology
 
@@ -79,7 +79,7 @@
 
   Now relocated across the street from Georgia Tech, Clockwise.MD taps technology talent from the university to expand and improve its online scheduling and wait time transparency solutions for healthcare organizations. Recognized in 2016 as a Best Place to Work in Atlanta and a Healthcare Hero by the Atlanta Business Chronicle, the co-founders at Clockwise.MD have nailed down a healthcare solution that hit at the right time and in the right place.
 
-  > [Continue reading](https://datica.com/customer/clockwisemd/#spotlight) to learn what Michael Burke and his co-founders learned about patient experience, and about being in the right place at the right time.
+  > [Continue reading](https://datica-2019.netlify.app/customer/clockwisemd/#spotlight) to learn what Michael Burke and his co-founders learned about patient experience, and about being in the right place at the right time.
 
   ## Arcadia Healthcare Solutions: Bringing value-based performance management to the healthcare organizations changing the industry
 
@@ -87,11 +87,11 @@
 
   Arcadia was founded in 2002 as a consulting firm primarily focused on insurers. Their specialty was systems integration throughout their first five years of existence.
 
-  Eventually in 2008 they started working on more tooling for a mix of health systems, independent provider groups and health plans, which lead to version 1.0 of the Arcadia Analytics platform. They built a deep expertise in [Electronic Health Record (EHR) and claims data integration](https://datica.com/discover/ehr-integrations/) and supporting technology. That led to a conscious pivot in 2012 to a technology-first, SaaS-based analytics company.
+  Eventually in 2008 they started working on more tooling for a mix of health systems, independent provider groups and health plans, which lead to version 1.0 of the Arcadia Analytics platform. They built a deep expertise in [Electronic Health Record (EHR) and claims data integration](https://datica-2019.netlify.app/discover/ehr-integrations/) and supporting technology. That led to a conscious pivot in 2012 to a technology-first, SaaS-based analytics company.
 
   And they haven’t looked back since. Arcadia augmented their analytics technology strengths with two acquisitions in 2011 and 2015 to build EHR infrastructure and managed care capabilities. Arcadia now connects 18 of the top 20 EHR platforms, have hundreds of live connections updated nightly, and work with premier health systems, health plans, and accountable care organizations across the country.
 
-  > [Read on](https://datica.com/customer/arcadia-healthcare-solutions/#spotlight) to learn how Arcadia developed the right mix of experience and progressiveness.
+  > [Read on](https://datica-2019.netlify.app/customer/arcadia-healthcare-solutions/#spotlight) to learn how Arcadia developed the right mix of experience and progressiveness.
 :featured_image:
   :title: Spotlight
   :description: Spotlight on Datica Customers blog
@@ -118,7 +118,7 @@
   :cta_title: Contact Us Today
   :cta_desc: 'Get in touch today to set your enterprise on the road to compliant hosting.  '
   :cta_label: Contact us
-  :cta_url: https://datica.com/contact/
+  :cta_url: https://datica-2019.netlify.app/contact/
   :cta_image:
     :id: 2TCuBiWHHGCUiCccym8uye
   :cta_icon: "/public/icons/material/ic_email_48px.svg"
@@ -207,8 +207,8 @@
     **Have questions? Tell us what you need to know and our team of experts will be your sherpa. We believe in an improved healthcare and will do whatever it takes to make that a reality. Reach out to us [directly][5], [tweet us][6] or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.**
 
     [1]: http://content.catalyze.io/hs-fs/hubfs/MemLogo_Metabahn_logo.png?t=1485819661317&width=100&height=100&name=MemLogo_Metabahn_logo.png "MemLogo_Metabahn_logo.png"
-    [2]: https://datica.com/customers/metabahn
-    [3]: https://datica.com/customers/healthloop
+    [2]: https://datica-2019.netlify.app/customers/metabahn
+    [3]: https://datica-2019.netlify.app/customers/healthloop
     [4]: http://content.catalyze.io/hs-fs/hubfs/healthloop.jpg?t=1485819661317&width=111&name=healthloop.jpg "healthloop.jpg"
     [5]: mailto:hello@datica.com
     [6]: https://twitter.com/daticahealth
@@ -231,10 +231,10 @@
   :blog_lead: |-
     Doctors need HIPAA-secure communication if they are to share [critical patient information][1] and collaborate with medical colleagues. That's what rural primary care doctor [Tracey Haas, MD][2] discovered as she practiced in an area that didn't even have a cardiologist or orthopedic surgeon. HIPAA regulations tied her hands whenever she looked at a patient EKG or X-ray and needed a real-time expert opinion from another doctor, like her husband, orthopedic surgeon [Dr. Tim Gueramy][3]. Prior to the start of [DocbookMD®][4], a secure way to communicate physician-to-physician didn't exist, so doctors, including Haas and Gueramy struggled to provide immediate and efficient care to patients.
 
-    [1]: https://datica.com/academy/what-is-protected-health-information-or-phi/
+    [1]: https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi/
     [2]: https://www.linkedin.com/in/tracey-haas-do-mph-23ba5054
     [3]: https://www.linkedin.com/in/tim-gueramy-a702311a
-    [4]: https://datica.com/customer/docbookmd/
+    [4]: https://datica-2019.netlify.app/customer/docbookmd/
   :post: |-
     **When the first [iPhone®][5] came out in 2007, [_sans_][6][ camera][6], apps or app store, Haas and Gueramy began talking to other doctors to build the first use cases for DocbookMD, which went from directory app upon its launch in 2009 to communication app and finally to today's iteration -- a critical collaboration platform.**
 
@@ -253,8 +253,8 @@
 
     [5]: http://www.apple.com/iphone/
     [6]: http://www.sansmirror.com/
-    [7]: https://datica.com/managed-integration/
-    [8]: https://datica.com/customer/docbookmd/
+    [7]: https://datica-2019.netlify.app/managed-integration/
+    [8]: https://datica-2019.netlify.app/customer/docbookmd/
     [9]: mailto:hello@datica.com
     [10]: https://twitter.com/daticahealth
   :cta_ref:
@@ -278,8 +278,8 @@
   :blog_lead: |-
     Healthcare data requires the utmost level of security and integrity. [Protected Health Information (PHI)][1] isn't just random data; it's a real person's medical history so dedication to compliance and security is critical. Unfortunately the commitment to security and privacy has lead to the data being difficult to fully utilize. With that industry hurdle, Datica automates much of the compliance burden put on technical teams. We are proud to announce that with a single [Business Associate Agreement (BAA)][2], healthcare customers of [Microsoft Azure][3] and [Salesforce Health Cloud][4] can now cover the infrastructure obligations of HIPAA, freeing them to focus on their core competencies.
 
-    [1]: https://datica.com/academy/what-is-protected-health-information-or-phi
-    [2]: https://datica.com/academy/hipaa-subcontractors-and-baas
+    [1]: https://datica-2019.netlify.app/academy/what-is-protected-health-information-or-phi
+    [2]: https://datica-2019.netlify.app/academy/hipaa-subcontractors-and-baas
     [3]: https://azure.microsoft.com/en-us/
     [4]: http://www.salesforce.com/industries/healthcare/health-cloud/
   :post: |-
@@ -293,8 +293,8 @@
 
     Have questions? Tell us what you need to know and our team of experts will be your sherpa. We believe in an improved healthcare and will do whatever it takes to make that a reality. Reach out to us [directly][7], [tweet us][8] or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
 
-    [5]: https://datica.com/academy/hl7-101-a-primer
-    [6]: https://datica.com/academy/introduction-to-fhir
+    [5]: https://datica-2019.netlify.app/academy/hl7-101-a-primer
+    [6]: https://datica-2019.netlify.app/academy/introduction-to-fhir
     [7]: mailto:hello@datica.com
     [8]: https://twitter.com/daticahealth
   :cta_ref:

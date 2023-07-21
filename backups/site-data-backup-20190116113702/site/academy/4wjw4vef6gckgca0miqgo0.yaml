@@ -49,7 +49,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -174,7 +174,7 @@
   and can sit back and relax. Compliance needs to be ongoing and proactive, and the
   maturity model is a framework that can be leveraged to do that over time and to
   meet the myriad of new technologies, partnerships, data, and compliance tools.\n\nAt
-  Datica, we leverage the [HITRUST maturity model](https://datica.com/compliance/).
+  Datica, we leverage the [HITRUST maturity model](https://datica-2019.netlify.app/compliance/).
   We used it to ensure consistency from policies, or privacy, through implementation,
   or security, to management, or compliance. We even classify the technology tools
   we use into the levels of the maturity model they help to address. An example of
@@ -206,7 +206,7 @@
     the interpretation of inconsistent views on data security standards. HITRUST,
     in partner with other industry leaders, created the Common Security Framework
     (CSF) to be the premier model for the future of healthcare compliance validation.
-    [We know this to be fact.](https://datica.com/blog/industry-shaking-news-at-the-hitrust-3rd-party-assurance-conference/)
+    [We know this to be fact.](https://datica-2019.netlify.app/blog/industry-shaking-news-at-the-hitrust-3rd-party-assurance-conference/)
     \n\nWhen you're finished, you'll know more about HITRUST and their Common Security
     Framework than most of the industry. Included in the guide:\n\n- What is HITRUST?\n-
     Why does HITRUST matter?\n- Structure of the HITRUST CSF\n- The HITRUST CSF Assessment\n-
@@ -373,7 +373,7 @@
     not provide programmatic access to their BAA (at least none that we could find).
     To double check that you do in fact have a BAA in place with Microsoft, it’s recommended
     that you reach out to your Azure rep (or Azure support if you do not have a rep).
-    \n\nMore general tips on BAAs [here](https://datica.com/academy/business-associate-agreements/).
+    \n\nMore general tips on BAAs [here](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     \n\n| HIPAA Rule     | API Reference     |\n| ---------- | ---------- |\n| HIPAA
     &sect; 164.308       | N/A: Azure does not provide API access to the BAA       |\n\n##
     Step 2: Creating the database\n\nInside of the Azure portal, find the search bar
@@ -486,8 +486,8 @@
     and providing proof — a digital papertrail — is an incredible amount of work.
     Having a partner like Datica can mean the difference between an audit taking 4
     months, or 4 weeks.\n\nFor more information on Datica’s products and services.
-    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
-    [Compliant Kubernetes Service](https://datica.com/cks)\n"
+    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n-
+    [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)\n"
   :related_entries:
   - :id: 1s1UlhAhkAwwewk20ugYsW
   - :id: 4STmWUVa5WwkaWyi2UYG8U
@@ -519,7 +519,7 @@
 
     ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
 
-    First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+    First and foremost, you’ll need a [BAA](https://datica-2019.netlify.app/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
 
     More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
 
@@ -719,8 +719,8 @@
 
     For more information on Datica’s products and services. Check out these helpful links:
 
-    - [Cloud Compliance Management System](https://datica.com/ccms)
-    - [Compliant Kubernetes Service](https://datica.com/cks)
+    - [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)
+    - [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)
   :featured_image:
     :id: QuKh6opZkWK8isiySSuYA
   :related_guide:
@@ -758,7 +758,7 @@
     From Google: \n\n> \"Execute a Google Cloud BAA. You can request a BAA directly
     from your account manager.\"\n\nOnly once you’ve signed the BAA and subsequently
     configured your SQL database to be compliant should you start accepting PHI.\n\nMore
-    on BAAs can be found in the [Datica Academy](https://datica.com/academy/).\n\n|
+    on BAAs can be found in the [Datica Academy](https://datica-2019.netlify.app/academy/).\n\n|
     Rule     | Header     |\n| ---------- | ---------- |\n| HIPAA &sect; 164.308       |
     N/A: GCP does not provide an API to the BAA       |\n\n## Step 2: Working with
     VPC networks\n\nBefore we jump into creating our SQL instance, first we’re going
@@ -909,8 +909,8 @@
     and providing proof &mdash; a digital papertrail &mdash; is an incredible amount
     of work. Having a partner like Datica can mean the difference between an audit
     taking 4 months, or 4 weeks.\n\nFor more information on Datica’s products and
-    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
-    [Compliant Kubernetes Service](https://datica.com/cks)"
+    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica-2019.netlify.app/ccms)\n-
+    [Compliant Kubernetes Service](https://datica-2019.netlify.app/cks)"
   :related_entries:
   - :id: 43dQoBKc9OuQuyw8k2SmKO
   - :id: 1s1UlhAhkAwwewk20ugYsW
@@ -949,12 +949,12 @@
     an organization who, in partnership with technology and information security leaders,
     created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
     drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
-    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
-    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica-2019.netlify.app/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica-2019.netlify.app/academy/what-is-hitrust/)\n* [What is the HITRUST
     Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
-    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
-    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
-    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    of HITRUST's Business Associate Council](https://datica-2019.netlify.app/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica-2019.netlify.app/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica-2019.netlify.app/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
     HITRUST CSF is a certifiable framework that encompasses and harmonizes several
     other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
     COBIT, NIST RMF, and varying state requirements. This framework serves as a system
@@ -978,7 +978,7 @@
     nineteen different control domains and defines one hundred thirty five specific
     controls within those domains that can be implemented at three different levels.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica-2019.netlify.app/compliance/)\n*
     [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
     [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
     [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*

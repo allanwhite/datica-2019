@@ -49,7 +49,7 @@
 
     He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
 
-    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
   :profile_twitter: markolschesky
   :profile_linkedin: markolschesky
   :location:
@@ -104,7 +104,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -180,7 +180,7 @@
     the beginning of the compliance journey with AWS and there’s so much more to consider
     to build a compliant application in the cloud. "
   :post: "## The TCO of Compliance in the Cloud: A Build vs. Buy Comparison \n\nOur
-    goal in building the [Datica Platform](https://datica.com/platform/) was to reduce
+    goal in building the [Datica Platform](https://datica-2019.netlify.app/platform/) was to reduce
     the barriers to compliance in the cloud for makers of digital health products.
     As part of that ongoing commitment to simplify healthcare's onramp to the cloud,
     we provide as much value as possible in the form of healthcare expertise we share
@@ -189,7 +189,7 @@
     health applications that improve patient outcomes. \n\nThere’s much to know about
     both compliance and cloud management and that knowledge requires a significant
     investment in time, education, personnel, and money. The intent of our newest
-    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/),
+    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/),
     is to help makers of digital health products make informed decisions about whether
     to “build” cloud compliance themselves, or “buy” it in the form of the Datica
     Platform. \n\n***Spoiler Alert:** It’s 10x more cost-effective to contract with
@@ -202,13 +202,13 @@
     in some detail and how you as a customer benefit from building your application
     on the Datica Platform. These estimates are based on our extensive experience
     working with multiple third-party auditors and multiple cloud infrastructure providers
-    (like [Amazon Web Services](https://datica.com/discover/aws-hipaa/), Microsoft
+    (like [Amazon Web Services](https://datica-2019.netlify.app/discover/aws-hipaa/), Microsoft
     Azure, or IBM Softlayer).\n\n## Datica's Shared Responsibility Model\n\nIt’s important
     to understand this key point: AWS’s shared responsibility model grants excellent
     security for the security OF the cloud but customers (you) are still responsible
     for security IN the cloud. Orchestrating DevSecOps is just as challenging as orchestrating
     DevOps. The following diagram explains that a bit more, but get the full story
-    by downloading the [complete guide](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    by downloading the [complete guide](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-cloud-compliance/).
     \n\n<script src=\"https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp\" async></script><script
     src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding\"
     style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
@@ -242,7 +242,7 @@
     :id: 5dsPZqJr4Qu2uww6KgYO0G
   :summary: There's much a digital health company needs to know about EHR integrations.
     Here are 4 essential questions digital health teams should ask their customers.
-  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica-2019.netlify.app/platform/success/).
     We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
     We''ve done this work with big organizations and vendors to small FQHCs and niche
     EHR vendors. As a result of all this integration experience, we now have a pretty
@@ -275,7 +275,7 @@
     \n\n## Four essential questions digital health teams should ask their customers\n\n###
     1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
     alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
-    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    common data integration formats we use to exchange health data are [HL7v2](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
     and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
     are standards, this doesn't mean all EHRs support exchanging data through these
     formats. In fact, some EHRs have no integration capabilities at all. Make sure
@@ -340,13 +340,13 @@
     purchasing your digital health product can validate your clinical content (Epic
     did this) or we are happy to refer you to informatics consultants who are qualified
     to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
-    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    you may want to re-evaluate the [cost to integrate](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-integrations/)
     your digital health product. If you need to hire a niche EHR consultant to build
     an interface on the EHR itself and it costs $5k, can you pass that along to your
     customer or extract that value within your product? If not, you may debate the
     merits of deploying your product in a standalone fashion or adjusting the terms
     of your deal for your customer. If you're new to this, we can help. All [Datica
-    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    Platform](https://datica-2019.netlify.app/platform/) customers can engage with Datica for pre-sales
     support to define implementation strategies and to determine feasibility and ease
     of integration at a given site. \n"
   :featured_image:

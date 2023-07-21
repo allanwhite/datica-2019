@@ -68,7 +68,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -125,7 +125,7 @@
   :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
     useful, and leading-edge insights from our industry and world. '
   :cta_label: Download your copy
-  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_url: https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/
   :cta_image:
     :id: 5bJ5SbDF9umaQsUGmIKyCa
   :cta_color: gray-light
@@ -172,7 +172,7 @@
     safer, and more satisfying care at a lower cost… The value pressure is real and
     causing important changes in the way we think about our work and organize ourselves.”
     — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
-    Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+    Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n\nCIOs
     and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
     while keeping costs low. To follow are some of the key pressures driving accelerated
     migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
@@ -231,7 +231,7 @@
     exchange to happen. Everybody’s interested in a cheaper way to get from A to B.
     But not everybody’s interested in what is required to create a cheaper way to
     get from A to B.” — Grahame Grieve, Director, Healthcare Intersections, from the
-    [Datica Healthcare Innovators Podcast](https://datica.com/innovation/grahame-grieve-pt3/)
+    [Datica Healthcare Innovators Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt3/)
     \n\nHealthcare consumerism is an underlying trend that ultimately makes cloud
     adoption essential to provider success. Healthcare organizations need to make
     very quick decisions about integrations and new technology. Their innovation centers
@@ -256,7 +256,7 @@
     include everything from patient health applications to AI, they need a HIPAA compliant
     cloud hosting platform to build or test those applications upon. Datica leads
     the industry with the first, most complete HIPAA compliant cloud infrastructure.
-    [Datica Compliant Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified
+    [Datica Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud/) is HITRUST CSF Certified
     on AWS, Microsoft Azure, IBM SoftLayer, and Rackspace, achieving the highest industry
     privacy and security standards across infrastructure providers.\n\n## Cloud Computing
     Benefits Healthcare\nThe challenges healthcare enterprises face persist and the
@@ -295,7 +295,7 @@
   :summary: This infographic, extracted from the inaugural Spring '17 _Heart of Medicine_
     Quarterly Report, describes healthcare's shifting definition of the cloud.
   :blog_lead: 'Datica''s inaugural quarterly report, [The Heart of Medicine: Transformation
-    through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/),
+    through Technology](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/),
     tells the most compelling stories of innovation and change in healthcare. '
   :post: |+
     <a href="https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf" title="cloud adoption in healthcare infographic" rel="external">
@@ -304,7 +304,7 @@
 
     As part of this first report, we took a deep dive into cloud adoption in healthcare, comparing the results from the [HIMSS Cloud Studies from 2014](http://www.himss.org/library/healthcare-privacy-security/cloud-security/security-survey) and [2017](http://www.himssanalytics.org/research/essentials-brief-2017-cloud-study) and found a few surprising results, most notably, an uptick in adoption of certain areas of cloud computing and services.
 
-    [This infographic](https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf), extracted from the Spring 2017 Quarterly Report, summarizes what we found out about the shifting definition of the cloud in healthcare. Take a look, and then get your copy of the [complete report](https://datica.com/innovation/heart-of-medicine-report-spring-2017/) for other great articles on innovation and change in healthcare.
+    [This infographic](https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf), extracted from the Spring 2017 Quarterly Report, summarizes what we found out about the shifting definition of the cloud in healthcare. Take a look, and then get your copy of the [complete report](https://datica-2019.netlify.app/innovation/heart-of-medicine-report-spring-2017/) for other great articles on innovation and change in healthcare.
 
 
   :featured_image:
@@ -342,7 +342,7 @@
     in Boston. Here's what I learned, saw, and enjoyed at the applications roundtable.
   :post: "## A Recap of the HL7 FHIR Applications Roundtable\n\n### Datica's presentation\nI
     presented a demonstration of Datica, highlighting how vendors and innovation groups
-    can use [Compliant Cloud](https://datica.com/compliant-cloud/) to build applications
+    can use [Compliant Cloud](https://datica-2019.netlify.app/compliant-cloud/) to build applications
     that aggregate hospital registration and scheduling feeds along with vitals and
     results from multiple organizations. They can then build the longitudinal patient
     records in an easy to query method. Of course, the underlying data storage format
@@ -369,13 +369,13 @@
     hospitals soon is exciting. A hat tip to Epic and Cerner for making this happen.\n
     \n### Need for API management\nA few vendors provided presentations on how access
     controls could be layered on top of FHIR for more pragmatic management of FHIR
-    resources. It seems like [EMR vendors are remaining hands-off](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+    resources. It seems like [EMR vendors are remaining hands-off](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
     in this space, leading other vendors to rush in to fill the gap in API management
     (including Datica!).\n \n### People from all sides of the healthcare technology
     spectrum\nThe ability to talk to employees from startups, publicly-traded companies,
     hospitals and payers, life sciences and pharma all in the same place is amazing
     at the Apps Roundtable. Once again, [people are investing time and resources in
-    FHIR](https://datica.com/guide/fhir-for-health-systems/). A data standard is only
+    FHIR](https://datica-2019.netlify.app/guide/fhir-for-health-systems/). A data standard is only
     as good as its utility and more and more companies are pledging to utilize it.
     As someone who wants to see interoperability improved through pragmatic standards-based
     integration, this provides hope that we'll get there.\n\n### Duke is lovely\nAfter
@@ -388,7 +388,7 @@
     vendors. These HL7 events gives us a first-hand look at what others are working
     on and how we can help make that happen with Datica Compliant Cloud.\n\n*Get the
     guide to open data models and learn how to fuel transformation in your health
-    system or hospital. Download [What Health Systems Can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/)
+    system or hospital. Download [What Health Systems Can Gain from FHIR Adoption](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)
     today.*"
   :featured_image:
     :id: 2dsCn5UQ5e4Yu0oyq0m6Um

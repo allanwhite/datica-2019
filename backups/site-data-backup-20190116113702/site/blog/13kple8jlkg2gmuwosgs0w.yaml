@@ -57,7 +57,7 @@
 
   ### Deciding on a product
 
-  Ionic gives web developers an easy transition into mobile development. Datica's [HIPAA Compliant platform](https://datica.com/compliant-cloud/) gives developers an easy transition into HIPAA compliance. Therefore it made sense for us to build a starter template that gives developers a basic application structure while utilizing key BaaS and Ionic features. A few of those include:
+  Ionic gives web developers an easy transition into mobile development. Datica's [HIPAA Compliant platform](https://datica-2019.netlify.app/compliant-cloud/) gives developers an easy transition into HIPAA compliance. Therefore it made sense for us to build a starter template that gives developers a basic application structure while utilizing key BaaS and Ionic features. A few of those include:
 
   * Login
   * Logout
@@ -85,7 +85,7 @@
   :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
     GDPR, and GxP compliant on AWS and Azure.
   :cta_label: Schedule a demo
-  :cta_url: https://datica.com/demo/
+  :cta_url: https://datica-2019.netlify.app/demo/
   :cta_image:
     :id: 4l2nKsTXwkc2kauya8W6SW
   :cta_color: dark-alt

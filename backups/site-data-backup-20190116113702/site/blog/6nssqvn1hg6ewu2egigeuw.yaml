@@ -103,22 +103,22 @@
   2. **Understanding How a Customer's Business Works**
   Rochelle Kokomoor, Implementation Director, said, "At Epic, my job was predominantly to ensure that Epic's software met their customer's needs, so I had the benefit of seeing EHR workflows from the end user's perspective. So at Datica, we not only have firsthand experience about what our customers love and hate, but specific workflow knowledge on healthcare systems to which they are connecting. I often hear our customers say, 'I'm really glad I have the interface but your insight into the clinical workflow and helping us design our product – that is amazing! That's what we really needed.' Our deep knowledge of their business and prospective users is the single biggest thing that we contribute to our customers."
   3. **Really Understanding EHRs**
-  "EHRs are so complicated with hundreds of them out there. They'll never meet the entire industry's needs. Now that I've left Epic, I've [integrated with so many different EHRs](https://datica.com/discover/ehr-integrations/) and in every case, the one thing that I'm most proud of is that Datica is making it easier," commented Rick Wattras, Lead Integration Engineer.
+  "EHRs are so complicated with hundreds of them out there. They'll never meet the entire industry's needs. Now that I've left Epic, I've [integrated with so many different EHRs](https://datica-2019.netlify.app/discover/ehr-integrations/) and in every case, the one thing that I'm most proud of is that Datica is making it easier," commented Rick Wattras, Lead Integration Engineer.
   4. **What True Customer Success Looks Like**
-  "Epic's delivery and support were topnotch with a culture that would not allow customers to fail. That culture of customer success is now part of our DNA and something all of us have brought with us to Datica. The end goal is not selling something, but making our customers successful. Coming up with models and EHR implementation strategies to do that at Datica is really exciting," said [Mark Olschesky](https://datica.com/about/mark/), Chief Data Officer.
+  "Epic's delivery and support were topnotch with a culture that would not allow customers to fail. That culture of customer success is now part of our DNA and something all of us have brought with us to Datica. The end goal is not selling something, but making our customers successful. Coming up with models and EHR implementation strategies to do that at Datica is really exciting," said [Mark Olschesky](https://datica-2019.netlify.app/about/mark/), Chief Data Officer.
   5. **Knowing Why Integration is So Hard and Yet Important**
   Tyler Camp, Project Manager, added, "Healthcare issues are incredibly complex and unlikely to all be solved by the large EHR vendors. Innovation and integration with third party solutions is critical to solving the challenges faced in healthcare."
   6. **Expertise in Healthcare Data**
   "Learning how healthcare worked, especially the access and payment side of things, was one of the crucial things I brought to Datica. That data experience and the technical skills that go along with it is an important foundation to helping customers succeed," said Sean Sullivan, Healthcare Integration Engineer.
   7. **Understanding The Pain Datica is Curing**
-  "Datica is blazing a trail on both sides of the business – [integration](https://datica.com/managed-integration/) and [HIPAA compliant cloud](https://datica.com/compliant-cloud/). Datica uses managed hosting and integrations to solve interoperability problems that others have yet to solve. Datica is at the tip of the spear and trying to do something that hasn't been done before," concluded Brian Lindstrom, COO.
+  "Datica is blazing a trail on both sides of the business – [integration](https://datica-2019.netlify.app/managed-integration/) and [HIPAA compliant cloud](https://datica-2019.netlify.app/compliant-cloud/). Datica uses managed hosting and integrations to solve interoperability problems that others have yet to solve. Datica is at the tip of the spear and trying to do something that hasn't been done before," concluded Brian Lindstrom, COO.
 
   These employees have taken the underlying Epic culture to "always do good, while always keeping promises," and have extended that sense of personal honor to how Datica treats its own customers. "The industry insight that emanates from this group of former Epic employees engenders the type of trusted expertise our customers value," said Datica CEO and Chief Privacy Officer [Travis Good, MD][4]. "We feel fortunate to add Brian Lindstrom's financial and operational leadership expertise into the mix."
 
-  [1]: https://datica.com/compliant-cloud/
-  [2]: https://datica.com/managed-integration/
-  [3]: https://datica.com/blog/integrating-with-epic-or-any-ehr/
-  [4]: https://datica.com/about/travis/
+  [1]: https://datica-2019.netlify.app/compliant-cloud/
+  [2]: https://datica-2019.netlify.app/managed-integration/
+  [3]: https://datica-2019.netlify.app/blog/integrating-with-epic-or-any-ehr/
+  [4]: https://datica-2019.netlify.app/about/travis/
 :cta_ref:
   :id: 5eA1ToAIEw4Qy20mkUmmcm
   :_meta:
@@ -134,7 +134,7 @@
 
 '
   :cta_label: Get the Guide
-  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-integrations/
+  :cta_url: https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-integrations/
   :cta_image:
     :id: 55cqBx5A4ESeeQS8SA0GGY
   :cta_svg_icon:
@@ -224,9 +224,9 @@
   :post: |
     Since we launched our EHR Integrations product we learned plenty of lessons about running an integration project on-time and on-budget. Even with years of guiding hospitals through Epic installs and being a former digital health startup founder myself, there were nuances to connecting the intersection of those two worlds that took some time to learn. Out goal is to make those nuances less foreign and more approachable so that _anyone_ can set up an integration without being afraid of the consequences.
 
-    We recently added a new entry to our [Academy](https://datica.com/academy/) library where we discuss the process of integrating with Epic or any other EHR. It's more of a process and less of a technical exercise than you may think. [Read our overview on how to integrate with Epic.](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)
+    We recently added a new entry to our [Academy](https://datica-2019.netlify.app/academy/) library where we discuss the process of integrating with Epic or any other EHR. It's more of a process and less of a technical exercise than you may think. [Read our overview on how to integrate with Epic.](https://datica-2019.netlify.app/academy/how-to-integrate-with-epic-or-any-ehr/)
 
-    Included in the new entry is a link to our 30-day project plan for HL7 installs. Full disclosure: working within the constraints of a healthcare organization might have an impact on your go-live date. Despite this, we've managed to run through this plan even faster in the past. Part of the reason we can move so quickly is that we've automated most of the deployment and have the talent in house to execute on it. I'm proud of the EHR Integrations team we've built so far and I'm looking forward to expanding our team and our platform in 2015. You can learn more about our [Managed Integrations here](https://datica.com/managed-integration/).
+    Included in the new entry is a link to our 30-day project plan for HL7 installs. Full disclosure: working within the constraints of a healthcare organization might have an impact on your go-live date. Despite this, we've managed to run through this plan even faster in the past. Part of the reason we can move so quickly is that we've automated most of the deployment and have the talent in house to execute on it. I'm proud of the EHR Integrations team we've built so far and I'm looking forward to expanding our team and our platform in 2015. You can learn more about our [Managed Integrations here](https://datica-2019.netlify.app/managed-integration/).
   :cta_ref:
     :id: 5eA1ToAIEw4Qy20mkUmmcm
   :related_entries:
@@ -335,13 +335,13 @@
     as well, leaving it inactionable. The solution? Integration."
   :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
     float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
-    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
-    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
-    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
-    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
-    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
-    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
-    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    how to sell to healthcare enterprises](https://datica-2019.netlify.app/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica-2019.netlify.app/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica-2019.netlify.app/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica-2019.netlify.app/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica-2019.netlify.app/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
     integration is the partnership between providers, payers, vendors, and other players
     that brings the data or function from one application or program to that of another.
     Because of the sheer quantity and diversity of data, healthcare providers face
@@ -366,23 +366,23 @@
     the current healthcare delivery model and extensive research efforts. Data integration
     allows the unification of healthcare data that exists in various forms (structured
     or unstructured) on different data storage systems such as relational database
-    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica-2019.netlify.app/academy/hl7-101-a-primer/).
     \n\nTrue interoperability and successful Integrations will have a cornucopia of
     benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
     and increased patient care endeavors. Long term, true integration allows for the
     furthering of public health research opportunities and population surveillance
     to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
     discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
-    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
-    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
-    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
-    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
-    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
-    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
-    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
-    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
-    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
-    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica-2019.netlify.app/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica-2019.netlify.app/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica-2019.netlify.app/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica-2019.netlify.app/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica-2019.netlify.app/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica-2019.netlify.app/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica-2019.netlify.app/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica-2019.netlify.app/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica-2019.netlify.app/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
     Seven (HL7) is a not-for-profit organization that created a set of standards to
     ensure information unity and validity when sharing data across health information
     exchanges or between healthcare systems, such as, in messaging applications.\n
@@ -399,13 +399,13 @@
     from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
     and elements (known as resources) and a RESTful API for data exchange.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
-    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
-    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
-    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
-    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
-    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
-    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica-2019.netlify.app/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica-2019.netlify.app/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica-2019.netlify.app/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
     Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
     making it open to everyone in the industry to participate. It also takes many
     of the learnings from earlier versions of HL7 and incorporates some of those models

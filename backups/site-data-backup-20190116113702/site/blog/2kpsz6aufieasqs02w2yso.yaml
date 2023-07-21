@@ -68,7 +68,7 @@
     and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
   :profile_twitter: travisjgood
   :profile_linkedin: travisjgood
-  :profile_url: https://datica.com/travis
+  :profile_url: https://datica-2019.netlify.app/travis
   :location:
     :lat: 36.4072485
     :lon: -105.57306649999998
@@ -122,7 +122,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -154,7 +154,7 @@
     and large integrated networks from across the country. It’s safe to say it was
     a broad swath of the provider market. The purpose of the conversation was not
     to try to sell Datica. Our goal was to have a discussion to gauge readiness, strategies,
-    and maturity of the [cloud in healthcare](https://datica.com/discover/healthcare-cloud/),
+    and maturity of the [cloud in healthcare](https://datica-2019.netlify.app/discover/healthcare-cloud/),
     specifically the public cloud (AWS, Azure, and Google).
   :post: |-
     Despite the diversity of organizations represented, the feedback and discussion with the focus group CIOs demonstrated consistency of high-level thinking about the cloud for healthcare delivery organizations. We’re sharing our findings from the session because we fundamentally believe transparency in healthcare technology and healthcare on the cloud benefits the entire industry, including Datica. Below are the topics we covered and the salient points we took away.
@@ -177,11 +177,11 @@
 
     ## How are you validating 3rd party security on the cloud?
 
-    This was an interesting one. I’ve always speculated that there is no way for healthcare organizations to effectively assess the security of their vendors when it comes to the cloud. Healthcare security and compliance groups don’t have the resources and cannot dedicate the time to verify everything from vendor policies and procedures to technical configurations. In the world of cloud, this challenge is compounded by the number and dynamic nature of available cloud services. Because of this, I’ve thought [HITRUST](https://datica.com/discover/hitrust/) would succeed as a proxy for bespoke security reviews. To some extent it has and most CIOs at our focus group were considering or already going down the path of HITRUST. But, the universal sentiment we got was that health systems felt they had to be able to do their own security reviews of 3rd parties. They viewed the risk as only partially tied to financial risk of data breach. The major concern we heard was reputation damage to the org and potential scale of a breach on the cloud.
+    This was an interesting one. I’ve always speculated that there is no way for healthcare organizations to effectively assess the security of their vendors when it comes to the cloud. Healthcare security and compliance groups don’t have the resources and cannot dedicate the time to verify everything from vendor policies and procedures to technical configurations. In the world of cloud, this challenge is compounded by the number and dynamic nature of available cloud services. Because of this, I’ve thought [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) would succeed as a proxy for bespoke security reviews. To some extent it has and most CIOs at our focus group were considering or already going down the path of HITRUST. But, the universal sentiment we got was that health systems felt they had to be able to do their own security reviews of 3rd parties. They viewed the risk as only partially tied to financial risk of data breach. The major concern we heard was reputation damage to the org and potential scale of a breach on the cloud.
 
     ## Is Shadow IT a concern at your organization?
 
-    Based on feedback we’d gotten during many of our [Healthcare Innovators](https://datica.com/innovation/) podcasts, we published a report last year on [Shadow IT in Healthcare](https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives/). We know Shadow IT is an important topic for healthcare provider organizations but we wanted to have an open-ended dialog to assess it’s visibility at the CIO level. Almost every CIO in the room expressed concern about Shadow IT at their organization. It seemed like a problem many CIOs had thought about. Some of the major culprits cited werre medical residents. There wasn’t consensus, but one area that emerged is the need for a bimodal IT offering — one for traditional, or core IT, and one for Shadow IT.  One interesting sidebar of this discussion concerned what to do about Shadow IT. The consensus seemed to be that stopping it isn’t an option given increasing knowledge of the Shadow IT community and the lower cost and complexity of cloud development.  It was suggested that a credentialing process be created to establish education requirements, acceptable tools and usage, reporting, etc.  This idea would require a lot of development to be viable, but it has interesting implications.
+    Based on feedback we’d gotten during many of our [Healthcare Innovators](https://datica-2019.netlify.app/innovation/) podcasts, we published a report last year on [Shadow IT in Healthcare](https://datica-2019.netlify.app/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives/). We know Shadow IT is an important topic for healthcare provider organizations but we wanted to have an open-ended dialog to assess it’s visibility at the CIO level. Almost every CIO in the room expressed concern about Shadow IT at their organization. It seemed like a problem many CIOs had thought about. Some of the major culprits cited werre medical residents. There wasn’t consensus, but one area that emerged is the need for a bimodal IT offering — one for traditional, or core IT, and one for Shadow IT.  One interesting sidebar of this discussion concerned what to do about Shadow IT. The consensus seemed to be that stopping it isn’t an option given increasing knowledge of the Shadow IT community and the lower cost and complexity of cloud development.  It was suggested that a credentialing process be created to establish education requirements, acceptable tools and usage, reporting, etc.  This idea would require a lot of development to be viable, but it has interesting implications.
 
     We gained a lot of value from the discussion and we hope the CIOs who participated felt it was a good use of their time.
   :featured_image:
@@ -218,13 +218,13 @@
     their muscles. In addition to a strong cloud showing, the event itself is evidence
     that innovation is now a part of the healthcare bloodstream.
   :blog_lead: "For the last several quarters, we have brought you unique perspectives
-    on disparate [topics affecting innovation in healthcare](https://datica.com/innovation/).
+    on disparate [topics affecting innovation in healthcare](https://datica-2019.netlify.app/innovation/).
     In Datica’s Spring 2018 Innovation report, we highlight and reinforce what we
     know to be true and what many of you are experiencing: the digital health transformation
     is happening now and is grounded in innovation. Its sources might surprise you.
     \ \n\nIn addition to surveying news, stories, and industry reports, the quarterly
     report provides our takeaways on the recent HiMSS conference which we’ve extracted
-    below. Make sure to get the [Spring Innovation Report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+    below. Make sure to get the [Spring Innovation Report](https://datica-2019.netlify.app/innovation/report-q1-2018-digital-health-transformation/)
     for a complete look at the state of Innovation in Healthcare. "
   :post: "<img alt=\"himss-2018-logo\" src=\"//images.ctfassets.net/189dvqdsjh46/BejYKjLiuWuE0iEK6WQIM/521488e52b97804bab49f7dd0a1994e2/himss-2018-logo.png?w=240\"
     width=\"120\" class=\"float-left-on-medium\" />\n\nHIMSS 2018 saw the presence
@@ -243,7 +243,7 @@
     re:Invent conference. AWS had a mix of solution architecture Q&A, presentations
     from its broad partner ecosystem, and demonstrations of healthcare-specific cloud
     solutions available on AWS. Its 2018 presence showed AWS cares about being active
-    in health IT and [AWS has a strong story to tell](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
+    in health IT and [AWS has a strong story to tell](https://datica-2019.netlify.app/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
     with both new digital health companies and enterprise health IT. \n\n### Google
     went all out at HIMSS\n\nBut then we have Google. It also spent big — much bigger
     than Microsoft or AWS. Google had a major booth, but also several keynotes and
@@ -278,7 +278,7 @@
     next two years, will show demonstrative impact, and then after that a larger watershed,
     will happen similarly to what we saw with telehealth and population health. \n\n###
     Net-new innovation is more popular on the cloud than migrating old systems \n\nLastly,
-    we saw the [healthcare cloud](https://datica.com/discover/healthcare-cloud/) as
+    we saw the [healthcare cloud](https://datica-2019.netlify.app/discover/healthcare-cloud/) as
     a mixed bag at HIMSS18. Conversation after conversation indicated a resistance
     to migrating old systems to the cloud. Ultimately, CIOs aren’t interested in the
     downside — higher hidden costs than the cloud vendor space indicates, high probability
@@ -292,7 +292,7 @@
     of hospital CIOs. In fact, all 18 voiced the priority of cloud-first innovations
     when evaluating new tools or solutions. \nThis dichotomy became one of the more
     interesting observations from HIMSS18. You might also want to take a look at the
-    thorough recap and analysis of that [CHIME focus group here](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
+    thorough recap and analysis of that [CHIME focus group here](https://datica-2019.netlify.app/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
     More internal innovation is happening than many realize \n\nOne interesting thread
     throughout the entire conference hinged on the consistency of internal innovation
     being a focus. More conversations led to CIOs or innovation directors looking

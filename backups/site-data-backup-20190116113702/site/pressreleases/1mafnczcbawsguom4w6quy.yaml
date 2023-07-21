@@ -88,11 +88,11 @@
     integrity, etc. '
 :summary: The next evolution of the company's licensed Platform grants compliance
   coverage for HITRUST, GxP, GDPR, SOC 2 and HIPAA.
-:post: "[Datica](https://datica.com \"Datica\"), the leading cloud platform for digital
+:post: "[Datica](https://datica-2019.netlify.app \"Datica\"), the leading cloud platform for digital
   health since 2013, today announced its next-generation platform to manage HIPAA
   compliance on top of AWS and Microsoft Azure. The evolved version of the Datica
   Platform extends security and compliance expertise in three critical ways to better
-  serve healthcare organizations:\n\n1. The [Platform](https://datica.com/platform
+  serve healthcare organizations:\n\n1. The [Platform](https://datica-2019.netlify.app/platform
   \"Platform\") now uses Kubernetes as its underlying container orchestration, granting
   customers greater technical flexibility. \n2. The move will also allow customers
   to install the Platform on their own AWS or Azure cloud accounts. \n3. Compliance
@@ -109,7 +109,7 @@
   cloud accounts. Previously customers deployed their workloads onto Datica's hosted
   cloud. Now, the new Kubernetes-enabled Platform allows customers to gain the same
   security and compliance assurances, but in their own cloud accounts. There, they
-  can retain maximum flexibility and control.\n\n[Compliance](https://datica.com/platform/compliance
+  can retain maximum flexibility and control.\n\n[Compliance](https://datica-2019.netlify.app/platform/compliance
   \"Compliance\") postures have also been strengthened. The new platform version extends
   support beyond HIPAA and HITRUST. To date, Datica has obtained three HITRUST CSF
   Certifications while its hosted customers have passed more than 1,000 audits and

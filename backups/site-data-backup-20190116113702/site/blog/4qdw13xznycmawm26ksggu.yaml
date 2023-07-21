@@ -28,7 +28,7 @@
   :tag_full: Events
   :slug: events
   :description: Datica events, conferences, speaking opportunities, etc.
-  :url: https://datica.com/events
+  :url: https://datica-2019.netlify.app/events
 :categories_blog: healthcare
 :author:
   :id: 5kC0Y798vm6ag8sCq0O2CQ
@@ -144,7 +144,7 @@
   in an ethical way to derive insights to both fuel innovation and drive discovery.
   In this session, you learn best practices from Deloitte and Celgene about strategy,
   operating models, and execution frameworks when implementing a real-world, evidence
-  data platform.\n\n_**Why Attend:** [The evidence stage of your digital health journey](https://datica.com/dhsf/#evidence-validating-the-idea)
+  data platform.\n\n_**Why Attend:** [The evidence stage of your digital health journey](https://datica-2019.netlify.app/dhsf/#evidence-validating-the-idea)
   is one of the most difficult, yet crucial, stages to get through. Validating that
   your application is actually doing what you say it will or improving patient outcomes
   is what will help you grow and scale your business. Attend this session to learn
@@ -230,7 +230,7 @@
   and leveraging tenant profiles to effectively distribute and partition tenant data.
   We intend to connect many of the conceptual dots of an SaaS implementation, highlighting
   the tradeoffs and considerations that can shape your approach to SaaS architecture.\n\n_**Why
-  Attend:** The [build vs. buy decision](https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product/)
+  Attend:** The [build vs. buy decision](https://datica-2019.netlify.app/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product/)
   is one many makers of digital health products go through when deciding how to deploy
   their application into the cloud in a compliant fashion. Of course, we recommend
   buying Datica, a multi-tenant cloud platform ready-made for healthcare, but you
@@ -245,8 +245,8 @@
   discuss how AWS is integrating open source code into its container services and
   its contributions to open source projects.\n\n_**Why Attend:** At Datica, we believe
   that the future of healthcare is open and, in fact, just announced a move toward
-  [open sourcing our code](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
-  for healthcare integrations. Since [the Datica Platform](https://datica.com/platform/)
+  [open sourcing our code](https://datica-2019.netlify.app/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+  for healthcare integrations. Since [the Datica Platform](https://datica-2019.netlify.app/platform/)
   is multi-tenant and container-based this session might help you understand how Datica
   enables fast, compliant deployment to the cloud for makers of digital health products._\n\n####
   [DEV320 - A Primer on Developing Software in the Cloud](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14987)\n\nDevelopers
@@ -257,7 +257,7 @@
   their productivity. Through demonstrations, we showcase how developers can quickly
   edit, debug, and deploy applications to the cloud while collaborating with their
   team.\n\n_**Why Attend:** If you’re still at the [napkin scribble stage of your
-  digital health journey](https://datica.com/dhsf/), you might want to attend this
+  digital health journey](https://datica-2019.netlify.app/dhsf/), you might want to attend this
   session to find out what it will take to develop your software in the cloud._\n\n####
   [ENT320 - How a Global Healthcare Company Built a Migration Factory to Quickly Move
   Thousands of Applications to AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14485)\n\nSetting
@@ -268,7 +268,7 @@
   Health about how they used a migration factory to successfully move thousands of
   applications to the AWS Cloud.  In addition, learn best practices for creating an
   effective migration platform and process in your organization.\n\n_**Why Attend:**
-  The thought of [migrating to the cloud](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)
+  The thought of [migrating to the cloud](https://datica-2019.netlify.app/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)
   is one of the things that keeps healthcare CIOs up at night. This session will give
   you some insights from another brave healthcare team who has made the move._\n\n####
   [MSC301 - Cloud Security for Regulated Industries](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14522)\n\nIn
@@ -327,7 +327,7 @@
     HITRUST on Kubernetes is possible ... with Datica.
     Watch the webinar recording.
   :cta_label: Join us
-  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_url: https://datica-2019.netlify.app/webinars/kubernetes-and-hitrust-compliance/
   :cta_image:
     :id: 6vqOsDKfNCOCOkeqOIYASc
   :related_event:
@@ -534,7 +534,7 @@
     of the Greengrass toolkit for innovative device development and use. \n\nIt will
     be interesting to see how Microsoft Azure, Google, IBM SoftLayer, and others do
     to counter next year.\n\n[3]: https://aws.amazon.com/ec2/instance-types/\n[4]:
-    https://amazonlightsail.com/\n[5]: https://datica.com/blog/aws-reinvent-recap-1/\n[6]:
+    https://amazonlightsail.com/\n[5]: https://datica-2019.netlify.app/blog/aws-reinvent-recap-1/\n[6]:
     https://aws.amazon.com/rekognition/\n[7]: https://aws.amazon.com/polly/\n[8]:
     https://aws.amazon.com/lex/\n[9]: https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/\n[10]:
     http://www.darkreading.com/iot/medical-device-security-gets-intensive-care/d/d-id/1323989\n[11]:
@@ -798,7 +798,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -825,10 +825,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -850,7 +850,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -858,7 +858,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

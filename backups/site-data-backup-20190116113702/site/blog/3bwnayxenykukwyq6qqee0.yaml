@@ -55,7 +55,7 @@
 :summary: HIPAA outlines the types of entities that are covered but the further down
   the line a subcontractor gets from a covered entity, the more confusion there is.
 :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
-  by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+  by [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and entities that have
   to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
   covered entities (CEs), and business associates. The further down the line the subcontractor
   gets from the covered entity, the more confusion there is about who really is a
@@ -67,7 +67,7 @@
   associate as a subcontractor (such as a PaaS provider like Datica), business associates
   handle, process, transmit, or in some way interact with electronic protected health
   information (ePHI) from those covered entities. With this PHI access, all business
-  associates are required to sign what’s called a [business associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+  associates are required to sign what’s called a [business associate agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/).
   The BAA is a legal contract that describes how the business associate adheres to
   HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also typically
   defines the services that the business associate is providing, the type of data
@@ -98,7 +98,7 @@
   HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because they
   encrypted the data in transit and in storage. This is certainly crucial, but there
   is so much more to HIPAA than encrypting data. You can read about everything we
-  do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+  do to be HIPAA-compliant in our [policies](https://datica-2019.netlify.app/open-source/policies/).
   At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
   physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
   As a result, that vendor would need to have a BAA signed with their hosting vendor
@@ -276,16 +276,16 @@
     responsibility, and thus liability, with respect to the handling of PHI data.
 
 '
-  :post: "We've written about [BAAs before](https://datica.com/academy/business-associate-agreements/).
+  :post: "We've written about [BAAs before](https://datica-2019.netlify.app/academy/business-associate-agreements/).
     Start there for a general understanding. The rest of this article, as well as
     a [Part 2 that talks about the top 5 things to look for in a business associate
-    agreement](https://datica.com/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
+    agreement](https://datica-2019.netlify.app/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
     will dive into why selecting a BAA is important, and give guidance when doing
     so.\n\n## It's not just a checkbox\n\n>   A chain is only as strong as its weakest
     link.\n>   —  A wise engineer\n\nDatica has talked to many companies about their
     HIPAA compliant hosting requirements and how our Platform-as-a-Service (PaaS)
     can address their requirements. Our mission is to help them get most of the way
-    down the road of [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    down the road of [HIPAA compliance](https://datica-2019.netlify.app/discover/hipaa-compliance/).
     Often we discuss the topic of other vendors in the space, both similar HIPAA-compliant
     platforms or traditional companies like AWS, Firehost, Bluebox, etc. While the
     conversion usually focuses on technology and features, we emphasize the differences
@@ -312,7 +312,7 @@
     has been increased chaining of responsibilities—a good thing in today's technology
     landscape. As the internet, cloud computing, and APIs have broken down silos,
     more applications rely on different layers of technology and services, [considered
-    subcontractors](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/).
+    subcontractors](https://datica-2019.netlify.app/blog/3-common-misconceptions-about-business-associate-agreements/).
     These _subcontractors_ (e.g. Datica, AWS) sign BAAs with _business associates_
     (you), who in turn sign a BAA with _covered entities_ (health system, health plan).\n\nIt
     is critical for you to remember that ultimately you, as the business associate
@@ -372,14 +372,14 @@
     and privacy guidelines for health data under GDPR.
   :post: "\nThe process of expanding and proving compliance across multiple frameworks,
     both for us and our customers, is not new to us at Datica. You can follow our
-    changes through the updates to our [open source policies and procedures](https://datica.com/open-source/policies/);
+    changes through the updates to our [open source policies and procedures](https://datica-2019.netlify.app/open-source/policies/);
     our policies define the operational and technical controls we use. We started
-    with HIPAA and quickly expanded to leverage [HITRUST](https://datica.com/blog/hitrust-csf-certification-round-3/)
+    with HIPAA and quickly expanded to leverage [HITRUST](https://datica-2019.netlify.app/blog/hitrust-csf-certification-round-3/)
     as the core risk framework for our internal compliance program. We then added
     SOC2, Privacy Shield, and, most recently, GxP. We will complete our full GDPR
     audit in 2018 ahead of GDPR going into effect. Our goal has always been to build
     and maintain one compliance program to prove compliance with multiple frameworks.
-    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
+    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica-2019.netlify.app/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
     \                                                                                       \n##
     GDPR applies to all personal data storage\n\n[GDPR is getting outsized attention](https://www.eugdpr.org/)
     because it applies to all personal data storage and processing, limiting or putting
@@ -515,7 +515,7 @@
 
     Consistently, the biggest barrier to a successful cloud compliance program is simply the complexity of understanding everything. This is really hard! But not because it's hard to understand, only hard to absorb all the information.
 
-    In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica.com/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica.com/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
+    In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica-2019.netlify.app/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica-2019.netlify.app/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
 
     ## The assessment is pretty straightforward:
 
@@ -581,7 +581,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -608,10 +608,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -633,7 +633,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -641,7 +641,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers

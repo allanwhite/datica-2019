@@ -87,7 +87,7 @@
 
     He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
 
-    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
   :profile_twitter: markolschesky
   :profile_linkedin: markolschesky
   :location:
@@ -214,7 +214,7 @@
     capabilities with Mark Olschesky, Datica's Chief Data Officer. Join us 12pm CST,
     December 15th.
   :cta_label: Sign up for the webinar today
-  :cta_url: https://datica.com/webinars/one-click-install-mirth-connect-and-open-source-mirth-transformations/
+  :cta_url: https://datica-2019.netlify.app/webinars/one-click-install-mirth-connect-and-open-source-mirth-transformations/
   :cta_image:
     :id: 3jGpClpcZWOuGagMw68QWO
   :related_event:
@@ -246,7 +246,7 @@
     to see in the near future, as clinicians gain access to this data.
   :post: "\nHere are a just few of the many ideas you’ll hear in Datica’s Healthcare
     Innovators Series Podcast, [“Emerging Healthcare Data Challenges from Patient
-    Centric Technologies.”](https://datica.com/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)\n\n-
+    Centric Technologies.”](https://datica-2019.netlify.app/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)\n\n-
     **On openness to patient generated data:** “A big thing is more incentives from
     the payors, so over the last two years, we've seen the introduction of the Medicare
     chronic care management codes which create the payment opportunity for use of
@@ -267,7 +267,7 @@
     the things that people don't think about is how many different categories of patient-generated
     health data there actually are. If you break it down, you are talking about 7
     or 8 categories of things that comprise what we now called PGHD.”\n\nSubscribe
-    to the podcast series or [listen or our website](https://datica.com/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)
+    to the podcast series or [listen or our website](https://datica-2019.netlify.app/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)
     to hear the whole informative interview with Dr. Neinstein. "
   :featured_image:
     :id: 4mbUIstdtuyiw0GWuI82c0
@@ -299,7 +299,7 @@
     :id: 5dsPZqJr4Qu2uww6KgYO0G
   :summary: There's much a digital health company needs to know about EHR integrations.
     Here are 4 essential questions digital health teams should ask their customers.
-  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica-2019.netlify.app/platform/success/).
     We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
     We''ve done this work with big organizations and vendors to small FQHCs and niche
     EHR vendors. As a result of all this integration experience, we now have a pretty
@@ -332,7 +332,7 @@
     \n\n## Four essential questions digital health teams should ask their customers\n\n###
     1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
     alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
-    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    common data integration formats we use to exchange health data are [HL7v2](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
     and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
     are standards, this doesn't mean all EHRs support exchanging data through these
     formats. In fact, some EHRs have no integration capabilities at all. Make sure
@@ -397,13 +397,13 @@
     purchasing your digital health product can validate your clinical content (Epic
     did this) or we are happy to refer you to informatics consultants who are qualified
     to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
-    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    you may want to re-evaluate the [cost to integrate](https://datica-2019.netlify.app/guide/total-cost-of-ownership-of-integrations/)
     your digital health product. If you need to hire a niche EHR consultant to build
     an interface on the EHR itself and it costs $5k, can you pass that along to your
     customer or extract that value within your product? If not, you may debate the
     merits of deploying your product in a standalone fashion or adjusting the terms
     of your deal for your customer. If you're new to this, we can help. All [Datica
-    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    Platform](https://datica-2019.netlify.app/platform/) customers can engage with Datica for pre-sales
     support to define implementation strategies and to determine feasibility and ease
     of integration at a given site. \n"
   :featured_image:
@@ -437,7 +437,7 @@
   :summary: 'Almost 3 years ago, I wrote about why there was no listed Datica pricing
     on our site. Today, I wrote about why we actually DO now have upfront pricing. '
   :blog_lead: 'Almost three years ago, I wrote a blog post about why [there was no
-    up front pricing](https://datica.com/blog/why-there-is-no-up-front-pricing/) for
+    up front pricing](https://datica-2019.netlify.app/blog/why-there-is-no-up-front-pricing/) for
     the Datica Platform or our integration services. It was as earnest as I could
     get about how I felt about our sales model at the time: there was no shortage
     of people who came to our website not understanding why handling some aspects
@@ -448,10 +448,10 @@
     note: As we roll out updates and changes to our new Kubernetes-based compliance
     platform our pricing is fluxuating and we're temporarily back to providing custom
     quotes based on specific configurations. Learn more about our [public product
-    roadmap](https://datica.com/blog/what-were-building-daticas-public-product-roadmap/)
+    roadmap](https://datica-2019.netlify.app/blog/what-were-building-daticas-public-product-roadmap/)
     and the exciting things happening at Datica* \n\nWe've done a lot of work since
     then, and we've now changed our opinion on the topic. We now offer up front Datica
-    pricing right on the website: [https://datica.com/pricing/](https://datica.com/pricing/).
+    pricing right on the website: [https://datica-2019.netlify.app/pricing/](https://datica-2019.netlify.app/pricing/).
     I'd like to go through my old article and discussed what changed and why we now
     offer upfront pricing.\n\n1) \"First, our pricing is non-standard, which can lead
     to buyer confusion.\" & 2) \"Second, we discovered prospects were making apples-to-oranges
@@ -461,8 +461,8 @@
     At the time, it was hard to communicate exactly what the total cost of ownership
     for build vs. buy would be, since we didn’t fully understand our costs as we were
     building infra at scale and going through our initial sets of audits. We've since
-    written massive amounts of documentation on the subject: our [HIPAA](https://datica.com/discover/hipaa-compliance/)
-    and [HITRUST](https://datica.com/discover/hitrust/) guides provide in depth details
+    written massive amounts of documentation on the subject: our [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/)
+    and [HITRUST](https://datica-2019.netlify.app/discover/hitrust/) guides provide in depth details
     on effort and costs while our [open-sourced policies](https://github.com/catalyzeio/policies)
     provide a detailed roadmap of what it takes to prove HITRUST certification if
     you were going to DIY.  If you work in a \"We build everything 100% here\" shop,
@@ -483,11 +483,11 @@
     out talking to people. We just don't need to bake it into all pieces of the sales
     process if you aren't interested anymore. In fact, we used a lot of feedback and
     discussions from customers and prospects to build the [Digital Health Success
-    Framework](https://datica.com/dhsf/).\n \nWhile we made it easier to see our pricing
+    Framework](https://datica-2019.netlify.app/dhsf/).\n \nWhile we made it easier to see our pricing
     and features, we still want to talk. It might be our midwestern roots, but we
     want to learn more about what you're working on and the challenges you're going
     through on your projects. We want to help, even if it means we send you along
-    to someone else. Don't hesitate to [reach out](https://datica.com/contact/)!\n\n"
+    to someone else. Don't hesitate to [reach out](https://datica-2019.netlify.app/contact/)!\n\n"
   :featured_image:
     :id: 1VH4BjrS7uY42AGqMcYOI
   :share_image:
@@ -539,10 +539,10 @@
     that we all believe are principal to our customers’ success. The overarching theme
     is one of self-service, giving customers the ability to do more on your own.\n
     \nIt is with this renewed focus in mind that I'm incredibly excited to announce
-    the launch of [The Platform 3.0—Compliant Cloud](https://datica.com/platform/)
+    the launch of [The Platform 3.0—Compliant Cloud](https://datica-2019.netlify.app/platform/)
     reimagined from the ground up.\n \nIf you've been following Datica for the past
     year or so you would have seen our product go through a number of different changes,
-    even if you were just following along on the website. [We have evolved](https://datica.com/catalyze/)
+    even if you were just following along on the website. [We have evolved](https://datica-2019.netlify.app/catalyze/)
     through multiple product name changes — PaaS, Stratum, and Compliant Cloud. Confusing
     as it may have been, we had very clear strategic goals in mind with each of those
     name evolutions that were valuable learning experiences. This evolution has brought
@@ -550,16 +550,16 @@
     Hence \"The Platform\". We're making it easier this time.\n \n## Empowering new
     customers with self-service\n\nA large part of our core mission at Datica is to
     break down the barriers to compliance so that developing healthcare software is
-    the same as developing consumer software. In short, we strive to make [compliance](https://datica.com/platform/compliance/)
+    the same as developing consumer software. In short, we strive to make [compliance](https://datica-2019.netlify.app/platform/compliance/)
     a non-issue. This is by no means a small feat and it's not something we can tackle
     completely on our own. We need to empower you, our customers, in ways that allow
     you to help yourselves. We'll build the tools, our customers conquer the mountains.\n
     \nHow does this manifest?\n \n### Self-service onboarding\n\nFirst up is the ability
-    to onboard through a [self-service portal](https://datica.com/pricing/). This
+    to onboard through a [self-service portal](https://datica-2019.netlify.app/pricing/). This
     means that as a new customer you can now sign up for a Datica account, enter your
     billing details, spec out an application environment, and deploy that application
     in a matter of minutes.\n \n### 14-day free trials\n\nIn addition to self-service
-    onboarding, Datica now provides unfettered [14-day free trials](https://datica.com/pricing/)
+    onboarding, Datica now provides unfettered [14-day free trials](https://datica-2019.netlify.app/pricing/)
     for new customers. This is unlike anything that has been done before in this industry.
     No product in the market has been able to provide a fully-compliant HIPAA & HITRUST
     CSF certified platform trial with no upfront cost.\n \n### Self-service code scaling\n\nBeyond
@@ -638,13 +638,13 @@
     as well, leaving it inactionable. The solution? Integration."
   :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
     float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
-    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
-    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
-    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
-    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
-    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
-    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
-    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    how to sell to healthcare enterprises](https://datica-2019.netlify.app/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica-2019.netlify.app/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica-2019.netlify.app/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica-2019.netlify.app/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica-2019.netlify.app/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica-2019.netlify.app/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica-2019.netlify.app/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
     integration is the partnership between providers, payers, vendors, and other players
     that brings the data or function from one application or program to that of another.
     Because of the sheer quantity and diversity of data, healthcare providers face
@@ -669,23 +669,23 @@
     the current healthcare delivery model and extensive research efforts. Data integration
     allows the unification of healthcare data that exists in various forms (structured
     or unstructured) on different data storage systems such as relational database
-    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica-2019.netlify.app/academy/hl7-101-a-primer/).
     \n\nTrue interoperability and successful Integrations will have a cornucopia of
     benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
     and increased patient care endeavors. Long term, true integration allows for the
     furthering of public health research opportunities and population surveillance
     to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
     discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
-    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
-    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
-    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
-    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
-    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
-    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
-    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
-    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
-    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
-    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica-2019.netlify.app/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica-2019.netlify.app/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica-2019.netlify.app/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica-2019.netlify.app/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica-2019.netlify.app/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica-2019.netlify.app/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica-2019.netlify.app/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica-2019.netlify.app/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica-2019.netlify.app/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica-2019.netlify.app/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
     Seven (HL7) is a not-for-profit organization that created a set of standards to
     ensure information unity and validity when sharing data across health information
     exchanges or between healthcare systems, such as, in messaging applications.\n
@@ -702,13 +702,13 @@
     from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
     and elements (known as resources) and a RESTful API for data exchange.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
-    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
-    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
-    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
-    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
-    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
-    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica-2019.netlify.app/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica-2019.netlify.app/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica-2019.netlify.app/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica-2019.netlify.app/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica-2019.netlify.app/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica-2019.netlify.app/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica-2019.netlify.app/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
     Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
     making it open to everyone in the industry to participate. It also takes many
     of the learnings from earlier versions of HL7 and incorporates some of those models

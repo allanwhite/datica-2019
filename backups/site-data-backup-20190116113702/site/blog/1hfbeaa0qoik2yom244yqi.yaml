@@ -59,7 +59,7 @@
   security framework and understanding both the advantages and disadvantages of this
   point goes a long way in understanding how to wield HITRUST successfully.
 :post: "The HITRUST Alliance purposefully took the best parts of past frameworks to
-  mold its \"Common Security Framework\" or CSF. The [HITRUST CSF](https://datica.com/blog/hitrust-csf-certification-round-3/)
+  mold its \"Common Security Framework\" or CSF. The [HITRUST CSF](https://datica-2019.netlify.app/blog/hitrust-csf-certification-round-3/)
   is then a list of more than seven hundred controls with the best parts of PCI, NIST,
   and more in mind. Let's walk through the composite list.\n\n## The HITRUST list\n\nIn
   HITRUST's official introduction, it lists out the sources of influence:\n\n* American
@@ -80,7 +80,7 @@
   Security Standard v3.2\n* Federal privacy requirements (e.g., HHS)\n* State security
   requirements (e.g., Nevada, Massachusetts, and Texas)\n* Experiences and best practices
   of HITRUST participants\n\n## The positives and negatives of HITRUST CSF certification\n\nThere
-  are positives and negatives to thinking about [HITRUST](https://datica.com/discover/hitrust/)
+  are positives and negatives to thinking about [HITRUST](https://datica-2019.netlify.app/discover/hitrust/)
   as a superset framework.\n\nFirst, the main negative: If you become HITRUST CSF
   Certified, you are **not** certified or compliant with the above list. If you want
   to be SOC2 certified or PCI compliant, you must still conduct those assessments
@@ -95,7 +95,7 @@
   to prove security and compliance. Again, within the framing that it's not necessarily
   a hard requirement to show PCI compliance, et al, your organization can effectively
   demonstrate credibility within those 14 frameworks in a one-time shot. We've written
-  a case study about [our own HITRUST certification costs](https://datica.com/platform/compliance/),
+  a case study about [our own HITRUST certification costs](https://datica-2019.netlify.app/platform/compliance/),
   which average somewhere around $20,000-$60,000 depending on scope.\n\nIf you are
   working on a project which requires compliance and are looking into HITRUST, consider
   us a resource. We'd be happy to chat more about the benefits of HITRUST on the cloud.
@@ -129,7 +129,7 @@
     describes the structure of the HITRUST framework, details the associated costs
     of certification, and more.
   :cta_label: Get the HITRUST guide
-  :cta_url: https://datica.com/guide/hitrust/
+  :cta_url: https://datica-2019.netlify.app/guide/hitrust/
   :cta_svg_icon:
     :id: 61Uint7Cg0qwyqMAOCQQSg
   :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
@@ -181,7 +181,7 @@
     question is: How do we prove John is really John in any instance?”\n \nThis nuance
     is important to Datica customers who live and breathe in an environment awash
     with protected health information. More and more the healthcare industry is affected
-    by [security breaches](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)
+    by [security breaches](https://datica-2019.netlify.app/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)
     that have deep financial impacts to providers, as well as financial and emotional
     ramifications to patients. Meals explains that “Healthcare data fetches a high
     price on the black market, so that makes it a lucrative target for bad actors.”\n
@@ -189,15 +189,15 @@
     that will change their controls. When an email has been compromised within an
     organization, a hacker potentially has easy access to all other aspects of the
     victim’s accounts.\n \n## How Datica compliance efforts will adapt and respond\n
-    \nThe engineering team is busy prepping a new feature to the [Datica Platform](https://datica.com/platform/)
+    \nThe engineering team is busy prepping a new feature to the [Datica Platform](https://datica-2019.netlify.app/platform/)
     so that an organization can change its multi-factor authentication options to
     disallow email as an authentication method. \n \nNo organization is immune to
-    the problem of [hacking or phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/);
+    the problem of [hacking or phishing](https://datica-2019.netlify.app/blog/spear-phishing-hackers-aiming-for-healthcare/);
     risks proliferate everywhere. However, as a trusted partner for the protected
     health information of our customers, Datica takes a “no stone left unturned” approach
     to helping customers prevent the all too common publicity crisis and organizational
     chaos that occurs when hackers break through organizational walls. That’s why
-    Datica developed its [HIPAA compliant](https://datica.com/discover/hipaa-compliance/)
+    Datica developed its [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/)
     platform initially and was one of the first healthcare IT organizations to become
     HITRUST CSF Certified. Security and compliance is in our DNA. \n\nIs security
     and compliance a top concern and priority for your organization? Contact Datica
@@ -236,7 +236,7 @@
   :blog_lead: HIPAA regulations create a barrier for makers of digital health products
     to adopt the cloud. Whether you are a digital health startup, a health system,
     payer, or life sciences organization, it takes an enormous amount of work to [get
-    your digital health product off the ground](https://datica.com/dhsf/) while, at
+    your digital health product off the ground](https://datica-2019.netlify.app/dhsf/) while, at
     the same time, achieving and maintaining continuous HIPAA compliance.
   :post: |-
     <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -247,13 +247,13 @@
 
     ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
 
-    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+    With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
 
     ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
 
-    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+    Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica-2019.netlify.app/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
 
-    This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+    This latest CSF Certification is even more comprehensive [than the last](https://datica-2019.netlify.app/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica-2019.netlify.app/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
 
     <h4 class="text--spaced text-center group">Compliance Facts</h4>
     <div class="row small-up-1 medium-up-3 align-center">
@@ -308,16 +308,16 @@
   :summary: Complying with HIPAA and proving it are two very different things. Datica
     is HIPAA compliant AND can prove it with our HITRUST CSF certification.
   :blog_lead: |-
-    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica-2019.netlify.app/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
 
-    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
-  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
-    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    Complying with [HIPAA](https://datica-2019.netlify.app/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica-2019.netlify.app/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica-2019.netlify.app/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica-2019.netlify.app/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica-2019.netlify.app/discover/hitrust/).
     HITRUST, for those that don’t know, is an industry-driven attempt to create a
     prescriptive, standardized, repeatable compliance framework that all organizations
     in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
     HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
-    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    Coalfire](https://datica-2019.netlify.app/compliance/) — a 3rd party auditor — in 2015 and
     are now in the midst of our 2017 renewal audit. After going through this a few
     times now, we can summarize the HITRUST CSF Certification process with these five
     giant steps. It’s an involved process and there are no shortcuts. A company considering
@@ -337,7 +337,7 @@
     has several hundred requirements that apply to us whereas a company that is not
     cloud based may have a completely different set of controls and requirements that
     apply to them. We have all the details about the domains, controls, and requirements
-    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica-2019.netlify.app/academy/).
     Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
     sizeable amount of documentation is involved during the completion, including
     policies, risk assessments, as well as technical documentation and configurations.
@@ -404,12 +404,12 @@
     an organization who, in partnership with technology and information security leaders,
     created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
     drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
-    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
-    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica-2019.netlify.app/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica-2019.netlify.app/academy/what-is-hitrust/)\n* [What is the HITRUST
     Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
-    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
-    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
-    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    of HITRUST's Business Associate Council](https://datica-2019.netlify.app/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica-2019.netlify.app/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica-2019.netlify.app/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
     HITRUST CSF is a certifiable framework that encompasses and harmonizes several
     other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
     COBIT, NIST RMF, and varying state requirements. This framework serves as a system
@@ -433,7 +433,7 @@
     nineteen different control domains and defines one hundred thirty five specific
     controls within those domains that can be implemented at three different levels.\n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica-2019.netlify.app/compliance/)\n*
     [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
     [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
     [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*

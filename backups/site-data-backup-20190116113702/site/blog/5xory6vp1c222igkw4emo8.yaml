@@ -51,7 +51,7 @@
     Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
   :profile_twitter: mohan2020
   :profile_linkedin: mohanbalachandran
-  :profile_url: https://datica.com/mohan
+  :profile_url: https://datica-2019.netlify.app/mohan
   :location:
     :lat: 37.7749295
     :lon: -122.41941550000001
@@ -177,7 +177,7 @@
   toolkit for innovative device development and use. \n\nIt will be interesting to
   see how Microsoft Azure, Google, IBM SoftLayer, and others do to counter next year.\n\n[3]:
   https://aws.amazon.com/ec2/instance-types/\n[4]: https://amazonlightsail.com/\n[5]:
-  https://datica.com/blog/aws-reinvent-recap-1/\n[6]: https://aws.amazon.com/rekognition/\n[7]:
+  https://datica-2019.netlify.app/blog/aws-reinvent-recap-1/\n[6]: https://aws.amazon.com/rekognition/\n[7]:
   https://aws.amazon.com/polly/\n[8]: https://aws.amazon.com/lex/\n[9]: https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/\n[10]:
   http://www.darkreading.com/iot/medical-device-security-gets-intensive-care/d/d-id/1323989\n[11]:
   https://www.vmware.com/cloud-services/vmware-cloud-aws.html\n[12]: https://aws.amazon.com/step-functions/\n[13]:
@@ -203,7 +203,7 @@
   :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
     GDPR, and GxP compliant on AWS and Azure.
   :cta_label: Schedule a demo
-  :cta_url: https://datica.com/demo/
+  :cta_url: https://datica-2019.netlify.app/demo/
   :cta_image:
     :id: 4l2nKsTXwkc2kauya8W6SW
   :cta_color: dark-alt
@@ -312,7 +312,7 @@
     with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
     a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
     of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
-    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    of our platform](https://datica-2019.netlify.app/pricing/). At the enterprise-level, the Datica
     Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
     or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
     for the healthcare developer market. It’s less expensive, less time-intensive,
@@ -339,10 +339,10 @@
     runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
     complicated. AWS is HIPAA compliant exactly to the extent they are required to
     be at the infrastructure level and as spelled out in their [Business Associate
-    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    Agreement (BAA)](https://datica-2019.netlify.app/academy/business-associate-agreements/). \n\n<div
     class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
-    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
-    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica-2019.netlify.app/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica-2019.netlify.app/academy/hipaa-101-a-primer/)\n*
     [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
     [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
     [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
@@ -364,7 +364,7 @@
     you get a compliant platform for deploying and managing critical healthcare applications
     in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
     health product handles Protected Health Information (PHI). There are several [different
-    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    categories of PHI](https://datica-2019.netlify.app/dhsf/#compliance-does-hipaa-matter), like
     someone’s name, home address, or phone number. When a digital health product stores,
     processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
     multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
@@ -372,7 +372,7 @@
     manages the physical and technical safeguards of HIPAA at the infrastructure-level,
     leaving you to the administrative HIPAA safeguards, which are almost always custom
     to your organization, and a few remaining technical safeguards within your [application
-    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    code](https://datica-2019.netlify.app/guide/application-hipaa-compliance/) itself. Thus, Datica
     provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
     that a company and its digital health product meets all those controls is how
     it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
