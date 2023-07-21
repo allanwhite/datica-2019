@@ -1,0 +1,638 @@
+---
+:id: 37gsc7Jl1uOK8aSkQC0YYm
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-10-15T21:52:53+00:00'
+  :created_at: '2018-10-15T21:52:53+00:00'
+  :id: 37gsc7Jl1uOK8aSkQC0YYm
+:title: A recap of our recent talks about building a complete cloud compliance program
+:slug: recap-recent-complete-cloud-compliance-talks
+:pub_date: !ruby/object:DateTime 2018-10-15 00:00:00.000000000 Z
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: "\nOver the course of two webinars, we broke down the foundational concepts
+  of Datica's evolved thinking of healthcare compliance on the public cloud. "
+:blog_lead: |2-
+
+  Over the course of two webinars, we broke down the foundational concepts of Datica's evolved thinking of healthcare compliance on the public cloud. A handful of Daticans also presented at regional events sharing the same concepts. Combined, this is a summation of how healthcare developers should be thinking about compliance in the future.
+:post: |2+
+
+  ## First, understand compliance
+
+  The first webinar held on September 26th, titled [_"What Really Is Compliance?"_](https://datica.com/webinars/what-really-is-compliance/), walked through the key concepts to understanding compliance in totality. Many of the ideas were pulled from Chapter 2 of our new book, [which is available as a free PDF](https://datica.com/innovation/complete-cloud-compliance-chapter-2/).
+
+  The webinar really is a crash course of everything you need to know to be on your way to becoming a compliance expert. But if we had to summarize the most prominent theme, it is the general confusion between Privacy, Security, and Compliance.
+
+  These three vocabulary terms are very, very different. A consistent mistake or misunderstanding we see is the assumption they are similar or, even worse, the same thing.
+
+  To highlight the differences, let's turn to an Academy entry written by Travis breaking down the [Maturity Model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/).
+
+  Regulated companies have rules to follow, like HIPAA Rule § 164.312. They use frameworks like HITRUST CSF to catalog controls mapped to the rules. Each control is then assessed on a scale of 1-5.
+
+  1. Policies — You need to write down how you will control for the rule before you can do anything.
+  2. Procedures — Defines the way the policy will be carried out.
+  3. Implementation — Actually doing the procedure.
+  4. Measurement — Understand how the implementation is performing.
+  5. Management — Improve steps 1-4.
+
+  _Policies_ and _Procedures_ are the definitions of **Privacy**.
+
+  _Implementation_ is the definition of **Security**.
+
+  _Measurement_ and _Management_ are the definitions of **Compliance**.
+
+  ![Policies procedures mapped to privacy etc](//images.ctfassets.net/189dvqdsjh46/4pAXouSJpCI46MOmWkcOkc/12d2d2536902a938af02d97533b020bc/Policies_procedures_mapped_to_privacy_etc.png)
+
+  Basically, companies define what they will do, then they do it, then they verify that they are doing it appropriately. Compliance is verification.
+
+  Too often, we talk to companies who are doing good by doing security best practices, but they are unaware that those are just implementations that are __security for the sake of security__.
+
+  Regulated companies must have a program in place for Privacy, Security, and Compliance.
+
+  Check out the webinar for more discussion.
+
+  ## Second, understand we are in a post-cloud world
+
+  In the second webinar titled [_"How to build your own 3C program"_](https://datica.com/webinars/how-to-build-complete-cloud-compliance-program/), we delve into discussion abstraction, and what that means for compliance.
+
+  Essentially, most developers on top of public clouds like AWS, Azure, and Google Cloud, are selecting to use managed services provided by the cloud companies themselves. Setting up Postgres ourselves onto a VM isn't fun, so it's better to simply click a button and spin up a managed database like [RDS](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/), [Cosmos DB](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/), or [GCP Cloud SQL](https://datica.com/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/).
+
+  In this post-cloud world, though, compliance is tricky. How developers map controls to managed service configuration is hard to understand.
+
+  ## Then put it together to form a program
+
+  Solving that problem is the idea Datica is putting forth called _Complete Cloud Compliance_. By "Complete", we mean a program that can fully map a cloud environment to a control framework. This concept, we believe, is the key to healthcare developers getting a handle on their compliance obligations.
+
+  To start, a 3C program should inventory it's "breadth", meaning all the different pieces of technology it uses. In AWS terms, this means RDS is very different from S3 or from EKS.
+
+  After the roster is complete, then the program should enumerate all controls relevant to each respective technology piece. Yes, each one must go through the same mapping procedure.
+
+  Once mapped out, then the program keeps tabs as frequently as possible (e.g. daily) if that respective piece of technology, i.e. a managed database, is meeting all the controls necessary.
+
+  We will be continuously discussing what an ideal 3C program looks like. To learn more, [sign up to be notified when our book is publicly available](https://completecloudcompliance.com), which will be sold at cost and not for profit.
+
+:featured_image:
+  :title: blog-recap-3c-talks-featured
+  :description: A recap of recent 3C talks featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4TvKeqvtMQy82Imq00U8kg/63d94dec8a199a83e6af01454e03e492/conference__auditorium_above_-_mikael-kristenson-242070-unsplash.jpg"
+  :_meta:
+    :updated_at: '2018-10-26T18:10:18+00:00'
+    :created_at: '2018-10-15T21:51:53+00:00'
+    :id: 4TvKeqvtMQy82Imq00U8kg
+:share_image:
+  :title: blog-recap-3c-talks-share
+  :description: Recap recent 3C talks share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/6vC4RI3Jv2OMO6oGugMSCi/fec9c116956fbf4dc7165f420259ffd4/blog-recap-3c-talks-share.jpg"
+  :_meta:
+    :updated_at: '2018-10-15T21:52:27+00:00'
+    :created_at: '2018-10-15T21:52:27+00:00'
+    :id: 6vC4RI3Jv2OMO6oGugMSCi
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 68S9DjjmjCgQwkE0GooK64
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-12-03T21:38:10+00:00'
+    :created_at: '2018-10-04T22:07:46+00:00'
+    :id: 68S9DjjmjCgQwkE0GooK64
+  :title: Configuring Popular Managed Database Services To Comply with HITRUST CSF
+  :slug: configuring-popular-managed-database-services-for-hitrust-csf
+  :pub_date: !ruby/object:DateTime 2018-10-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: Whether you’re a Datica customer or not, you can take these new configuration
+    guides, implement them across your fleet of cloud services, and have an audit-ready
+    environment without paying a dime.
+  :blog_lead: Cloud compliance is complex — not because the configurations themselves
+    are complex, or that the technology tooling doesn't exist to achieve proper configuration;
+    rather it takes time, knowledge, and even creativity to understand what exactly
+    those configurations should be. This is especially true of healthcare compliance
+    where no regime is going to tell you word for word how to configure your cloud
+    environments. Instead, you're going to have to spend time and money understanding
+    each framework, what applies to your organization, and how your organization is
+    going to solve specific controls. You’ll then have to implement, measure and manage
+    that policy in perpetuity, a task made more difficult by the highly dynamic nature
+    of cloud services.
+  :post: "\nAt Datica we've spent the last five years working at the intersection
+    of cloud computing and healthcare compliance — we've talked with thousands of
+    developers and engineers — we've built a portfolio of products that addresses
+    these concerns head on. However, even in a world where you're using a product
+    like [Datica's CKS](https://datica.com/compliant-kubernetes-service/), you'll
+    likely have services and systems that live outside of that management layer. Understanding
+    how to bring these services up to par in terms of compliance is anything but clear.\n\nIn
+    our pursuit of making healthcare compliance more accessible to all, we're releasing
+    configuration guides for popular cloud services like Amazon RDS, Azure Cosmos
+    DB and Google Cloud SQL. These configuration guides are mapped to the [HITRUST
+    CSF 9.1](https://hitrustalliance.net/whats-new-csf-v9-1/), which can easily be
+    crosswalked to multiple compliance regimes like HIPAA, SOC2, GDPR, NIST, etc,
+    meaning these cloud configurations can easily be mapped to multiple compliance
+    regimes. Our goal is to work with the community to eventually cover all cloud
+    services available across these three major cloud providers.\n\n## These configurations
+    provide a number of benefits\n\n1. Datica has been HITRUST certified for over
+    four years and complies with HIPAA, HITRUST, GDPR and GxP. These configurations
+    are part of our core system and adhere to our [open source policies](http://catalyzeio.github.io/policies/).
+    Users can freely implement these configurations, adopt the open source policies
+    and have a verifiable, audit ready environment in a very short amount of time.\n2.
+    They work well with Datica’s existing products. If you’re a Datica customer or
+    are considering becoming one, you can rest easy knowing that these configurations
+    provide the same level of compliance coverage that Datica’s managed products offer.
+    This produces unparalleled compliance continuity, ultimately improving the efficiency
+    of compliance audits.\n3. They’re free. Whether you’re a Datica customer or not,
+    you can take these guides, implement them across your fleet of cloud services,
+    and have an audit-ready environment without paying a dime.\n\n## Why we chose
+    to start with Databases\n\nManaging stateful applications within Kubernetes is
+    a notoriously difficult problem to solve. As a result, many organizations turn
+    to cloud providers to offload this work. Services like [AWS RDS](https://aws.amazon.com/rds/),
+    [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/), and
+    [Google Cloud SQL](https://cloud.google.com/sql/) are popular among developers
+    for their ease of use, scale and reliability. The demand we’ve received to support
+    these services has been tremendous. As a result, the initial release of [Datica
+    CCMS](https://datica.com/cloud-compliance-management-system/) will come with support
+    for these three services. The CCMS, coupled with these guides, will provide an
+    end to end compliance management structure for your cloud environment.\n\n## Anatomy
+    of the guides\n\nThese guides are intended to be step-by-step, opinionated tutorials
+    that explain the relevance of a specific configuration within the context of HITRUST.
+    For those unfamiliar with HITRUST (and its relationship to HIPAA), please [read
+    through this HITRUST guide](https://datica.com/academy/what-is-hitrust/).\n\nIn
+    these database guides we’ll walk through configuring each database to be HITRUST
+    CSF ready and then show how the CCMS will continuously check these configurations
+    via REST APIs (which you could programmatically implement yourself). To understand
+    the structure of how we think about compliance at Datica, which is important to
+    grasp in order to take full advantage of these guides, see the visualization below.\n\n![Ryan
+    blog graphic](//images.ctfassets.net/189dvqdsjh46/3V7Rsgt3kA6U6suGGUWwQw/1dea88970842b1cf8e9354650e30cf78/Ryan_blog_graphic.png)\n_The
+    bridge between “Compliance Controls” and “Configurations” is policy, while the
+    bridge between “Configurations” and “APIs” is measurement._\n\n\nDedicated compliance
+    tools are often too focused on controls, that is, the specific requirements of
+    regimes like HITRUST, HIPAA, GDPR and more. For developers this is an issue, because
+    ultimately they need to understand exactly what a specific control means, and
+    what configurations need to be in place in order to satisfy that requirement.
+    Unfortunately these tools don’t provide such guidance. They assume knowledge of
+    compliance and established policy.\n\nThe CCMS and these guides are different.
+    By starting with the configurations, developers can immediately grasp and understand
+    what needs to be done. Ex: “turn on encryption”. This configuration is very straight
+    forward and not muddled in compliance jargon. Then, using the rest of the guide,
+    developers can map that configuration back to a control, as well as an API call
+    that would give them a programmatic way to ensure that configuration is in place
+    (either at a point in time, or on a continuous basis).\n\n## Introducing the first
+    three configuration guides\n\n1. [AWS RDS Guide - How to configure RDS to comply
+    with HIPAA and HITRUST](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/)\n2.
+    [Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA and HITRUST](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)\n3.
+    [Google Cloud SQL Guide - How to configure GCP Cloud SQL to comply with HIPAA
+    and HITRUST](https://datica.com/academy/google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa/)\n`\n\n##
+    What's on your wish list?\n\nWe treasure feedback from developers like you and
+    want to know which cloud services matter to you. [Fill out a survey here](https://datica.com/cloud-compliance-management-system/survey/)
+    to let us know which services you use as part of your product that need to be
+    configured for HITRUST compliance. \n\n\n"
+  :featured_image:
+    :id: 4xEzyu8E40GMsIE4UAIko0
+  :share_image:
+    :id: 6tw1YqVTdSs8o6aUOYSs4M
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+  :related_entries:
+  - :id: 3WxhTAhXdSYwmOWoAoIEig
+  - :id: 1qpvQVpmaYgMG0gKCwaOEY
+  - :id: 4JnlCCI6bmImGWMeygEUQw
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 14txB2cEqiYYog8waky2Qs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-09T17:51:50+00:00'
+    :created_at: '2018-10-09T17:51:50+00:00'
+    :id: 14txB2cEqiYYog8waky2Qs
+  :title: The Internal ROI of HITRUST
+  :slug: the-internal-roi-of-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'As demonstrated in many ways here at Datica, there is a clear ROI with
+    leveraging HITRUST as your anchoring compliance framework. '
+  :blog_lead: 'At Datica, we’ve written extensively about the [cost of HITRUST](https://content.datica.com/what-is-the-cost-of-hitrust-csf-certification).
+    The truth is, it’s an expensive process — not just the first time you do it but
+    on an ongoing basis. To maintain a HITRUST Certification takes a lot of people
+    hours and [real dollars for 3rd party assessors](https://hitrustalliance.net/csf-assessors/)
+    and to HITRUST itself. That said, there is a [clear ROI](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)
+    with leveraging HITRUST as your anchoring compliance framework.
+
+'
+  :post: "\nIn the past, we have only considered the external ROI of HITRUST which,
+    for Datica at least, meant differentiation in the market, speed to close and implement
+    new deals, and a general trust factor that would typically be reserved for larger
+    organizations. A recurring topic of discussion at the HITRUST conference last
+    month was the different forms of ROI for HITRUST, with internal ROI being discussed
+    at length by many organizations, large and small. I quickly came to realize that
+    the ROI for HITRUST is just as much internal as it is external. \n\nLet me explain
+    in the context of Datica.\n\nAt Datica, we built our initial compliance program,
+    from policies through implementation (link to academy post on maturity model),
+    for healthcare and specifically to meet HITRUST CSF controls. This was five years
+    ago. We’ve since leveraged the HITRUST CSF for [SOC2](https://datica.com/academy/soc-2-type-ii-compliance-for-cloud-computing/)
+    and most recently [GDPR assessments](https://datica.com/guide/gdpr-compliance/).
+    As the HITRUST CSF has matured, our compliance posture has matured along with
+    it. And the entire process of working with HITRUST has shaped all of our internal
+    activities, from product to marketing and sales.\n\nTo fully appreciate the internal
+    ROI we get from HITRUST, the example of our new product design and development
+    serves to highlight how HITRUST permeates all areas of Datica. We decided in 2017
+    to develop a [new product based on Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    We did this because the market was increasingly interested in Kubernetes and the
+    offerings from cloud providers like AWS were not covered under a BAA (currently
+    none of the major Kubernetes services available are HITRUST Certified except for
+    Datica’s). In developing our Kubernetes roadmap, we started with a list of HITRUST
+    controls we had to meet to comply with our policies and certifications. We then
+    used this set of controls to ensure we implemented the proper technology around
+    Kubernetes — networking, backup, IDS, container security, certificates, etc. The
+    product requirements, based on HITRUST, were unambiguous to our product and engineering
+    teams, and it was a light lift for our security and compliance people to sign
+    off.\n\nEven our sales and marketing people leverage the HITRUST maturity model
+    to differentiate our products from our competitors in the market.\n\nOther examples
+    are the recent free guides we published on how to secure common managed cloud
+    databases to comply with HITRUST. The specific HITRUST controls are listed with
+    each step. Here is the [AWS RDS guide](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/).\n\nHITRUST
+    trickles down to all people at Datica. It takes away the subjective “the security
+    officer says this,” and instead provides a published set of controls. This is
+    hard to quantify with a dollar value but [it is a significant ROI](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    What is interesting is that these examples, and this theme, were repeated time
+    and time again at the [HITRUST conference](https://datica.com/blog/hitrust-2018-a-fantastic-event/).
+    \n\nLooking forward, we are aligning our internal compliance structure and compliance
+    operations even more around HITRUST. We are currently in the process of re-writing
+    our policies and procedures (look for an announcement with new open source tools
+    soon) and we are doing it with each compliance action and activity mapped to specific
+    HITRUST controls. We are doing this to give us a constant set of guardrails and
+    to ease the burden, both to us and our assessors, of our annual HITRUST assessments.
+    \n\n"
+  :featured_image:
+    :id: 1QMlRFoxry2K6ga0wIQ2mM
+  :share_image:
+    :id: 4FS6yMSX4IUeaiUiwqQWcw
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: 5ib7dvnVleYaQsekmGSGUS
+  - :id: 4JnlCCI6bmImGWMeygEUQw
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 1qpvQVpmaYgMG0gKCwaOEY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-09-25T18:06:52+00:00'
+    :created_at: '2018-09-25T17:29:39+00:00'
+    :id: 1qpvQVpmaYgMG0gKCwaOEY
+  :title: What Really Is Compliance? The Answer has Evolved
+  :slug: what-really-is-compliance-answer-has-evolved
+  :pub_date: !ruby/object:DateTime 2018-09-25 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'On Wednesday, September 26th, Datica will host a webinar that will dive
+    into the topic of how healthcare compliance has evolved in the cloud era. '
+  :blog_lead: In 2013, when the final HIPAA Omnibus was ruled, compliance on the cloud
+    was an opaque understanding. It took collaboration among cloud services providers
+    such as AWS, Azure, and Google, digital health companies like Datica, and the
+    good folks at HITRUST and Coalfire (among many deserving others) to collectively
+    define what it meant.
+  :post: |2
+
+    The process has been hard. Along the way, we learned a lot while also building little mental models or explanations to help distill the evolving complexity into digestible chunks for those looking to make a dent in this industry. Many of those simplifications we put into our new book, [*Complete Cloud Compliance*](https://completecloudcompliance.com), which launched this month.
+
+    The book tries to answer the question "What Really Is Compliance?" and we think we do a decent job for those who aren't a professional compliance officer. The concepts are familiar to those with deep compliance experience, but we believe are the most efficient explainer for those who truly aren't sure how to answer the question themselves. We thought, if we can help everyone else learn our compliance lessons over the past five years, we can make *our* dent in this industry.
+
+    On Wednesday, September 26th, I'll be giving [a webinar where I dive deeper](https://datica.com/webinars/what-really-is-compliance/) into the topic. I will be summarizing many key concepts throughout the book. For those who have 45 minutes open over lunchtime, I encourage you to attend.
+
+    A few big ideas we will explore tomorrow:
+
+    * Compliance is not the same as security is not the same as privacy
+    * Rules and controls are very different, and it's important to understand that
+    * The faster you can map the difference between organizations, standards, frameworks, and regulations, the faster all these acronyms will make sense to you
+    * The global nature of compliance
+    * Why frameworks matter
+    * How to map a compliance regime onto your cloud architecture
+
+    Please join me on Wednesday. Feedback is always welcome!
+  :featured_image:
+    :id: 6N0ytZKN9uAQmUaQE8YW4s
+  :share_image:
+    :id: 1FocDNaUfamy6gaKG8iouY
+  :cta_ref:
+    :id: 36zZKUG51CaoweqoOGWYae
+  :related_entries:
+  - :id: 3uQywHEIByGkOkqMak4ywc
+  - :id: 5RaLQUV8UEssgiGuWCq8Ya
+  - :id: 4JnlCCI6bmImGWMeygEUQw
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 3uQywHEIByGkOkqMak4ywc
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-09-17T20:14:28+00:00'
+    :created_at: '2018-09-11T23:23:49+00:00'
+    :id: 3uQywHEIByGkOkqMak4ywc
+  :title: We wrote a book! Complete Cloud Compliance explains global compliance on
+    the cloud
+  :slug: we-wrote-a-book-complete-cloud-compliance
+  :pub_date: !ruby/object:DateTime 2018-09-12 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: We wrote a book! Complete Cloud Compliance explains how Datica sees the
+    future of global compliance on Amazon Web Services (AWS), Microsoft Azure, and
+    Google Cloud Platform (GCP).
+  :blog_lead: 'Today is an exciting day! I''m happy to share that our new book, _Complete
+    Cloud Compliance: How regulated industries de-risk the cloud and kickstart innovation_,
+    launched at the 2018 Annual HITRUST Conference.'
+  :post: |-
+    ## Why we wrote a book
+
+    <img src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?fm=jpg&w=150&q=20" class="float-right lozad" data-src="https://images.ctfassets.net/189dvqdsjh46/4d4Dorm3y8w8Kq4SMMcSg4/276048f29cea4f1c07c6aa730f60353f/compliance_book__3d_front_and_back_mockup.png?w=300" width="150" alt="Complete Cloud Compliance Book" />
+
+    In 2013, when Datica was founded as [Catalyze](https://datica.com/catalyze), the cloud was a simpler place. AWS was the only public cloud that signed a meaningful [Business Associate Agreement (BAA)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), but they only had a handful of services (or "primitives") within scope. Even so, to sign the BAA, which was under NDA, required customers use dedicated instances which meant digital health companies had to spend a minimum $1,400 per month just to get started — and that doesn’t even account for the cost to solve [the remaining 9/10ths of compliance](https://datica.com/compliant-kubernetes-service/aws/). Docker wasn't yet version 1.0, and [Kubernetes](https://datica.com/blog/kubernetes-vs-paas/) wasn't even a thing yet. The term "microservices" meant nothing. Modern container-based cloud architectures that were fully HIPAA compliant and could be HITRUST CSF Certified were impossible on the public cloud until [Catalyze's first platform-as-a-service product](https://datica.com/press-release/catalyze-closes-series-a-funding-to-expand-development-of-its-healthcare-platform/) came along.
+
+    Fast forward to 2018, and the cloud is a very different place. __We are now living in a post-cloud world.__ That post-cloud world is built on managed services. AWS is now up to hundreds of these services and dozens within scope of their BAA. Azure and GCP sign rock-solid BAAs consisting of just as many world-class services and all three are competing to be a viable destination for digital health workloads. Many independent managed services, like MongoDB's Atlas, sign BAAs now, too. The typical cloud architecture is a constellation of managed services using a microservices-based scheme. Just the other day, I was speaking to a digital health developer who mentioned his company uses the basics like Amazon Elastic Compute Cloud (Amazon EC2), Amazon Relational Database Service (Amazon RDS), Amazon Simple Simple Storage Service (Amazon S3), AWS Lambda, and Amazon API Gateway, but is using BigQuery on GCP for machine learning and investigating Azure Kubernetes Service (AKS) and Azure Cosmos as an eventual Kubernetes destination, while also incorporating MongoDB Atlas, Auth0, and a handful of independent logging and monitoring services. Whew. This is not manic decision making. This is the new normal.
+
+    > Compliance has not kept up. We know this first hand.
+
+    The issues are foundational, from our experience. Compliance officers are often attorneys and not technologists so they have a hard time grasping how fast abstraction on the cloud is moving. Likewise, engineers are not legal scholars, so they have a tough time wrapping their heads around a proper compliance program that is the difference between their app being adopted by hospitals or dying on the vine. I still personally have about one conversation a day with a developer where I have to coach them that [HIPAA is a government regulation](https://datica.com/discover/hipaa-compliance/) while [HITRUST](https://datica.com/discover/hitrust/) is a certification framework.
+
+    In 2013, the cloud was built for an operator archetype, the type of employee who could secure Virtual Machines (VMs) and contribute to a compliance program. After five years, the cloud is now designed for developers who can easily interchange services with a few clicks. What we are seeing is this new archetype is not ready for security and compliance in a managed services world. All we have to do is look around to find news stories of the situation. [Just last month, an improperly configured AWS S3 bucket lead to 31,000 GoDaddy servers to be exposed](https://www.engadget.com/2018/08/09/amazon-aws-error-exposes-31-000-godaddy-servers/).
+
+    These foundational challenges are why we wrote _Complete Cloud Compliance_. Our goal is always to help the healthcare community, but educating people on such heady topics extended beyond a blog post or online knowledge base. A book proved to be the right medium. Travis Good (Datica CEO) and I started the writing process earlier this year with the first edition printed last month.
+
+    ## Structure of the book
+
+    The book starts out with a basic introduction then flows into the following chapter setup:
+
+    1. __The Business Case for Compliance__ — an examination on why compliance actually matters to regulated companies like digital health.
+    2. __[What _Really_ is Compliance?](https://datica.com/innovation/complete-cloud-compliance-chapter-2/)__ — We tried very hard to be simple and concise while also educating complex topics to those who are fresh to the respective domains. Consequently, this chapter breaks down critical compliance concepts with a developer reader in mind, meaning compliance officers will find the content familiar. Feedback from developers has been fantastic, however.
+    3. __What _Really_ is the Cloud?__ — The cloud is not a computer in somebody else's data center. It's software-enabled infrastructure services built for software developers. This chapter was written for this post-cloud world, but it does lay some basic foundational concepts to help educate business folks. Feedback from engineers to compliance officers to business users has been very positive.
+    4. __Why Data Interoperability Matters__ — Readers will find a consistent theme throughout the book: data is splintering, not consolidating, which makes compliance even harder. This chapter uses healthcare to explain how interoperability matters to compliance.
+    5. __Complete Cloud Compliance__ — After the context is set, we give a detailed overview on how regulated companies can employ a compliance program that genuinely gives them dynamic, continuous compliance on an ever-changing cloud. We call the program Complete Cloud Compliance, as the book title implies, and 3C for short throughout.
+    6. __Best Practices for Complete Cloud Compliance__ — With the 3C program in mind, we then provide a few dozen best practice pieces of advice for managing compliance on the cloud.
+    7. __The Achievable Mandate__ — Readers within regulated companies should not fear the future, but embrace it because it's critical for survival. The good news is controlling compliance on the cloud is possible.
+
+    ## Visually explaining compliance
+
+    The book is purposefully very visual. The reasoning is pretty simple. Ultimately, this is a very boring and very complex topic. We don't pretend that this is the most exciting domain just because we live in it everyday. No, compliance is mind-numbingly boring.
+
+    But it is critical to the future success of regulated companies, and by extension digital health. We fundamentally believe that unless healthcare can get on the cloud, it is at grave risk of falling even further behind, to which compliance is a blocker.
+
+    To combat the boring nature of our lovable domain, we went heavy on visual storytelling. Readers will find sprinkled throughout the book several infographics geared as simplifying extremely complex topics. We think it worked well.
+
+    Take this image for example. In chapter two (which is downloadable at the end of this post), we break down the differences between regulations, standards developing organizations, standards themselves, and frameworks. When we get to the frameworks section, we wanted to make clear that it is wise to work with frameworks that are built for the future, to which HITRUST is a good choice. When demonstrating the point, we charted the lineage of influences dating back almost a century that went into HITRUST's CSF. We thought it told an interesting story.
+
+    <a href="https://assets.ctfassets.net/189dvqdsjh46/1b9HnRbJoceuU6A4gSKe4e/b52faea1edeb4557ab9b8b69a7ec80a3/Compliance_Book_-_HITRUST_lineage__spread_.pdf" target="_blank" title="View sample full-size PDF, 362kb">
+    <img class="lozad" alt="A few sample illustrations from the book" src="//images.ctfassets.net/189dvqdsjh46/1Trd3zmKesMqS8AgqqQwc6/54230328fd1e5dafafa19840a6eef5a6/book_art_-_visual_storytelling__grid_.jpg?fm=jpg&w=800&q=20" data-src="//images.ctfassets.net/189dvqdsjh46/1Trd3zmKesMqS8AgqqQwc6/54230328fd1e5dafafa19840a6eef5a6/book_art_-_visual_storytelling__grid_.jpg?w=1200" >
+    </a>
+
+    ## The 9 Big Ideas
+
+    Woven throughout the book are nine big ideas, many of which are brand-new ways of thinking by Datica that we are thrilled to start to share with the community. They are:
+
+    1.  [When controlled, compliance is actually a competitive edge.](https://medium.com/complete-cloud-compliance/compliance-is-a-competitive-edge-cee13073cf54 "Read more on this topic")
+    2.  [The cloud is no longer other people's computers. It is managed services.](https://medium.com/complete-cloud-compliance/the-cloud-is-software-for-developers-not-hardware-for-operations-9503c0e3e86 "Read more on this topic")
+    3.  [As cloud services get more abstract to improve developer experience (a good thing), more control is being taken away from the user making compliance attestation harder (a bad thing).](https://medium.com/complete-cloud-compliance/shared-responsibility-on-the-cloud-a-solution-for-managed-services-or-opacity-for-cloud-customers-fc01fbe18897 "Read more on this topic")
+    4.  [Compliance is only as strong as the weakest link in the abstraction chain.](https://medium.com/complete-cloud-compliance/abstraction-on-the-cloud-increases-the-risk-of-weak-links-4641e20c0bbc "Read more on this topic")
+    5.  Frameworks are the best way to manage regulations. The best frameworks are built for a dynamic future, not a dated past.
+    6.  Complete cloud compliance is hard because technologists struggle to understand compliance while compliance officers struggle to understand the cloud.
+    7.  [The cloud is global, so compliance is now global.](https://medium.com/complete-cloud-compliance/compliance-is-now-global-because-the-cloud-is-global-d938de1626ea "Read more on this topic")
+    8.  [Cloud compliance comes down to data management. The three verbs of data are store, compute, and transmit.](https://medium.com/complete-cloud-compliance/from-ehrs-to-data-driven-healthcare-c33e0e27ee95 "Read more on this topic")
+    9.  Data sources are splintering instead of unifying, making compliance more complex.
+
+    You will see us publish more about these big ideas throughout 2018.
+
+    ## How to get a copy
+
+    Travis and Datica CSO Christopher Gerg will be giving away free copies at the [HITRUST 2018](https://datica.com/events/hitrust-2018/) this week. Come find our book signing table in the expo hall. If we run out, we are happy to collect your name and address to mail a copy. Similarly, free copies will be given away at the [Microsoft Ignite](https://datica.com/events/microsoft-ignite-2018/) and [AWS re:Invent](https://datica.com/events/aws-reinvent-2018/) conferences. Come find us for a free copy. We'll blog [more about those events](https://datica.com/blog/where's-datica-our-fall-2018-conference-lineup/) as they get closer.
+
+    General purchase will eventually be available later this year via Amazon.com fulfillment.
+
+    Until then, you can [download a free PDF copy of chapter two](https://datica.com/innovation/complete-cloud-compliance-chapter-2/) in order to get a feel for the book and you’ll be notified when it is formally available.
+  :featured_image:
+    :id: 7wFYDDX0HeqeiIkowEi0ac
+  :share_image:
+    :id: DKvAsmBWqkEOkYqmuGEGY
+  :cta_ref:
+    :id: 36zZKUG51CaoweqoOGWYae
+  :related_entries:
+  - :id: 4JnlCCI6bmImGWMeygEUQw
+  - :id: 5mEcrotvz2i0oki8WE4sIq
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

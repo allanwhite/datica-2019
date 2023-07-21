@@ -1,0 +1,145 @@
+---
+:id: 3lTZSm4ETCQOAuCg22g8Wk
+:_meta:
+  :content_type_id: podcastEntry
+  :updated_at: '2017-02-16T17:20:17+00:00'
+  :created_at: '2017-01-27T22:09:48+00:00'
+  :id: 3lTZSm4ETCQOAuCg22g8Wk
+:title: 'Luis Saldana, MD: on the Evolving Role of the Hospital CMIO in 2017'
+:slug: luis-saldana
+:pub_date: !ruby/object:DateTime 2017-01-16 00:00:00.000000000 Z
+:tags:
+- :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-29T20:16:04+00:00'
+    :created_at: '2016-11-29T20:16:04+00:00'
+    :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :tag_full: Leadership
+  :slug: leadership
+  :description: Pioneers, innovators, and leaders of great teams.
+- :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-27T22:19:21+00:00'
+    :created_at: '2017-01-27T22:19:21+00:00'
+    :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :tag_full: CMIO
+  :slug: cmio
+  :description: Chief Medical Information Officer
+- :id: qgckjVVwLQiyQcKsiyS6c
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-11T21:45:15+00:00'
+    :created_at: '2017-01-11T21:45:15+00:00'
+    :id: qgckjVVwLQiyQcKsiyS6c
+  :tag_full: EHR
+  :slug: ehr
+  :description: Electronic Health Records
+- :id: 1bZjdJN72GiIWI4CeEQgmo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-27T22:20:31+00:00'
+    :created_at: '2017-01-27T22:20:31+00:00'
+    :id: 1bZjdJN72GiIWI4CeEQgmo
+  :tag_full: Workflows
+  :slug: workflows
+  :description: Regarding healthcare information workflows with systems like EHRs.
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:guest:
+  :id: 1ABOdrZEHaWS0qiAquqKmE
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-01-27T22:15:59+00:00'
+    :created_at: '2017-01-27T22:15:59+00:00'
+    :id: 1ABOdrZEHaWS0qiAquqKmE
+  :fullname: Luis Saldana, MD
+  :slug: luis-saldana
+  :person_type: Guest
+  :role: CMIO, Texas Health Resources
+  :profile_pic:
+    :id: 1uRGikAC2wEEoeaKIoowmS
+  :bio_short: Dr. Saldana is the Chief Medical Information Officer and Medical Director
+    for Clinical Decision Support at Texas Health Resources, and has been an Emergency
+    Physician for 30 years.
+  :bio: 'In this role, he directs THR’s clinical decision support and clinical content
+    activities. He is a member of the HIMSS CDS Physician Committee, and was a Co-Author
+    of the HIMSS CDS Guide Book, _[Improving Outcomes with Clinical Decision Support:
+    An Implementers Guide](https://www.crcpress.com/Improving-Outcomes-with-Clinical-Decision-Support-An-Implementers-Guide/Osheroff-Teich-Levick-Saldana-Velasco-Sittig-Rogers-Jenders/p/book/9780984457731)_.'
+  :location:
+    :lat: 32.7766642
+    :lon: -96.79698789999998
+:soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303056955&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+:summary: The role of the hospital chief medical information officer (CMIO) is evolving.
+  As we begin 2017, healthcare organizations nationwide will be tapping their CMIOs
+  to provide strategies around MACRA, MIPS, physician satisfaction and more. In this
+  latest podcast, Texas Health Resources CMIO Luis Saldana, MD shares his top priorities
+  for 2017 and how those will affect the overall healthcare delivery for his organization.
+  Dr. Saldana expands on the CMIO role and how it is expanding.
+:key_takeaways: |-
+  1. Learn about the CMIO role and how it differs from the CIO within a healthcare organization.
+  2. Discover ways to gauge physician satisfaction
+  3. Hear how THR has tapped colleagues for workflow knowledge around the EHR
+  4. Explore the steps THR is taking in their post-EHR journey to optimize their investment
+:post: |-
+  **On the CMIO role at Texas Health Resources (THR):** “While [the] EHR platform was our initial impetus for hiring a CMIO, we've seen that with digitalization of healthcare that it goes far beyond that. All the systems that touch that platform, or even touch our clinicians are all things that our Chief Medical Information Officer can have influence over.”
+
+  **On gauging physician satisfaction with the EHR:**  “One of the reasons we were successful is that we went into our electronic health record journey and were thorough about measurement. With that, one of those metrics included physician satisfaction, so annually we survey our physicians, and survey them around satisfaction with informatics.”
+
+  **On optimizing the EHR:** “When we started we didn't fully enable the system for its full impact and functionality. We often have to go back to do that and work closely with our vendor and with other organizations to say: How did you do this? I think we don't have the best answers on all of the optimization, but we have a wealth of connections and a lot of folks that have done good things in different areas.”
+
+  **On how THR approaches MACRA and MIPS:**  “We treat this much like we treated Meaningful Use in terms of looking at it as “this is a quality program.” It needs to have multi area representation. It's not all technology; it's not all clinical. It really involves collaboration, so for that, we put together a steering team and we will probably do the exact same thing for MACRA, as well.”
+  “A big part of this is if you've done Meaningful Use well, you will be well prepared for MACRA. It's [determined by] how you organize as to whether you are successful or not.”
+
+  **On whether the CMIO role is more clinical or technical:**  “I'd say it is bridge between the clinical and the technical. I think one of the things that we see now is that we are in a constant state of change in healthcare, which is obviously disconcerting.”
+
+  **On the CMIO role as a gatekeeper:** “I think there are a million great ideas for technologies but we have to look at it and say, ‘How are our clinicians going to use this technology? Is this something that is going to make them more effective, efficient? Or, is it something that they're going to have to deal with a tremendous amount of change and that's just going to overburden them and we don't need to go there at this point.’”
+
+  “They may not have the change readiness to take that on. It may be a great idea, a great technology; that's important. Having the organizational, clinical barometer is important for a CMIO. Then you can be the voice on both sides to say whether something is good for our organization or not, in terms of technologies.”
+
+  **On the top 2017 priorities for the CMIO role:** “If we are successful at doing the things in terms of creating the platform that engages our patients and our providers, and deliver the best care for them, that's the ultimate goal.”

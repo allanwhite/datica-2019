@@ -1,0 +1,748 @@
+---
+:id: 4STmWUVa5WwkaWyi2UYG8U
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:39+00:00'
+  :created_at: '2018-10-02T02:56:34+00:00'
+  :id: 4STmWUVa5WwkaWyi2UYG8U
+:title: Google Cloud SQL Guide - How to configure GCP Cloud SQL to comply with HIPAA
+  and HITRUST
+:slug: google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa
+:pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:summary: This guide helps developers configure their Google Cloud SQL instance to
+  be HITRUST CSF ready. It covers requirements, controls, and configurations for GCP
+  Cloud SQL.
+:lead: This guide is intended to give developers an easy to understand, step by step
+  run book to configuring their Google Cloud SQL instance to be HITRUST CSF ready.
+  In the following sections we’ll walk through the requirements, controls, and configurations
+  for GCP Cloud SQL.
+:post: "_Disclaimer: while utilizing these guides can provide alignment with HITRUST,
+  it is still your responsibility as an organization to complete an audit and obtain
+  certification._\n\n## Step 1: The Business Associate Agreement (BAA)\n\nGoogle Cloud
+  Platform requires users to contact their account manager to get a BAA signed. From
+  Google: \n\n> \"Execute a Google Cloud BAA. You can request a BAA directly from
+  your account manager.\"\n\nOnly once you’ve signed the BAA and subsequently configured
+  your SQL database to be compliant should you start accepting PHI.\n\nMore on BAAs
+  can be found in the [Datica Academy](https://datica.com/academy/).\n\n| Rule     |
+  Header     |\n| ---------- | ---------- |\n| HIPAA &sect; 164.308       | N/A: GCP
+  does not provide an API to the BAA       |\n\n## Step 2: Working with VPC networks\n\nBefore
+  we jump into creating our SQL instance, first we’re going to create a new VPC and
+  subnet. Creating a network and a subnet is very simple with GCP. Follow these steps.\n\n1.
+  In the left side navigation find \"*VPC network*\" under the \"*Networking*\" heading\n2.
+  Above the table of default networks, click the \"*Create VPC network*\" button\n3.
+  Fill out the name, and description fields and then select \"*Subnet creation mode*\"
+  under the \"*Subnets*\" section\n4. In the box titled \"*New subnet*\" fill out
+  a name\n5. The region should be the same region as the database\n6. For the IP address
+  range, you should use a standard private VPC network address range\n7. For \"*Private
+  google access*\" which indicates: \" *...whether VMs in this subnet can access Google
+  services without assigning external IP addresses* \" select \"*Off*\"\n8. Set flow
+  logs to \"*On*\"\n9. Set \"Dynamic routing mode\" to \"*Regional*\"\n10. Click \"*Create*\"\n\n|
+  Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+  0805.01m1 Organizational.12       | [subnetworks](https://cloud.google.com/compute/docs/reference/rest/v1/subnetworks)
+  , [networks](https://cloud.google.com/compute/docs/reference/rest/v1/networks)       |\n\n##
+  Step 3: Creating the database\n\nNow that we have a network and subnet, we can create
+  our database. To do that, click the menu button in the top left and follow these
+  steps:\n\n1. Select \"*SQL*\"\n2. At the following prompt, select \"*Create instance*\"
+  <img class=\"lozad tofigure\" alt=\"Creating a Cloud SQL instance\" src=\"//images.ctfassets.net/189dvqdsjh46/6tB9ogqgPCGImsOC4wiEcW/edfe8828e0505dc5685e5597b4558d59/cloudsql-1.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/6tB9ogqgPCGImsOC4wiEcW/edfe8828e0505dc5685e5597b4558d59/cloudsql-1.png?fm=png&fl=png8\"
+  />\n3. Make a selection for \"*MySQL*\" or \"*PostgreSQL*\" <img class=\"lozad tofigure\"
+  alt=\"Choosing database type\" src=\"//images.ctfassets.net/189dvqdsjh46/6EVJDRf5D24UkwUK2q0eo8/43e673137e7b4d399e7bc9d2201e337a/cloudsql-2.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/6EVJDRf5D24UkwUK2q0eo8/43e673137e7b4d399e7bc9d2201e337a/cloudsql-2.png?fm=png&fl=png8\"
+  />\n4. Enter the information for \"*Instance ID*\", \"*Default user password*\",
+  \"*Location*\", \"*Region*\" and \"*Zone*\"\n5. Select the \"*Show configuration
+  options*\" link\n6. Under \"*Set Connectivity*\" select \"*Private IP*\" (enable
+  the API if you haven’t already)\n7. Under \"*Private IP*\" select the VPC we just
+  created in the previous step <img class=\"lozad tofigure\" alt=\"Private IP decisions\"
+  src=\"//images.ctfassets.net/189dvqdsjh46/31gvagB55eqEaM0uMUsSUu/9b57729fdf6152b6f5c1f5bdd126c623/cloudsql-3.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/31gvagB55eqEaM0uMUsSUu/9b57729fdf6152b6f5c1f5bdd126c623/cloudsql-3.png?fm=png&fl=png8\"
+  />\n8. If \"*Public IP*\" is checked be sure to uncheck it\n9. In the \"*Enable
+  auto backups and high availability*\" section, select \"*Automate backups*\" \n10.
+  In the same section under \"*Availability*\" select \"*High availability (regional)*\"\n11.
+  Next, under the \"*Set maintenance schedule*\" section be sure to select the window
+  and timing that’s appropriate for your internal policy\n12. Then click \"*Create*\"\n\n##
+  Step 4: High availability\n\nIn the previous step where we created our database,
+  we were able to setup high availability across multiple regions. This aids in both
+  disaster recovery and business continuity for your organization. If a region within
+  GCP goes down, high availability will ensure that your data is still accessible
+  from another region. \n\nFor more information on high availability from the GCP,
+  see this [article](https://cloud.google.com/sql/docs/postgres/high-availability).\n\n|
+  Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+  1616.09l1 Organizational.16       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1618.09l1 Organizational.45       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1619.09l1 Organizational.7       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1620.09l1 Organizational.8       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1668.12d1 Organizational.67       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)\n|\n\n##
+  Step 5: Database access & encryption\n\nWhen we created the database in step 3,
+  we selected \"Private IP\" and unselected \"*Public IP*\". This restricts traffic
+  to the instance only to approved networks. This is important because it forces all
+  traffic to be encrypted and authenticated.\n\nMore information on Private IP can
+  be found [here](https://cloud.google.com/sql/docs/mysql/private-ip).\n\n### Connecting
+  over SSL/TLS\n\nFrom Google:\n\n> \"If you are connecting using private IP, configuring
+  SSL/TLS is optional; private services access traffic stays within Google's network
+  at all times.\"\n\n<img class=\"lozad tofigure\" alt=\"SSL/TLS options\" src=\"//images.ctfassets.net/189dvqdsjh46/5ryAolx2hyoeEyIcCUkAGe/5db42940b5947db917ac706569eee29b/cloudsql-4.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/5ryAolx2hyoeEyIcCUkAGe/5db42940b5947db917ac706569eee29b/cloudsql-4.png?fm=png&fl=png8\"
+  /> \n\nYou can see in the screenshot above that all incoming connections must use
+  SSL and also that we haven’t set up a certificate yet, which is covered in the guide
+  below. For the purposes of this guide, SSL/TLS is not optional. To enforce a secure
+  connection, [follow this guide](https://cloud.google.com/sql/docs/mysql/configure-ssl-instance#enforcing-ssl).\n\n|
+  Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+  0605.10h1 System.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0630.10h2 System.6       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0805.01m1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0805.01m1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0814.01n1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0816.01w1 System.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0835.09n1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n| HITRUST 0859.09m1 Organizational.78       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+  \      |\n\n### Enabling Encryption\n\nFrom Google:\n\n> \"Cloud Storage always
+  encrypts your data on the server side, before it is written to disk, at no additional
+  charge.\"\n\nFor more information on encryption from GCP, please see [this guide](https://cloud.google.com/storage/docs/encryption/).\n\n|
+  Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+  0903.10f1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 1132.01v2 System.3       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 1903.06d1 Organizational.3456711       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n\n## Step 6: Backups\n\nIn step 3 when we created our database, we selected
+  \"*Automate backups*\" in the \"*Enable auto backups and high availability*\" section.
+  These backups are available and should be configured according to your internal
+  compliance policy. Using the GCP APIs you can set and retrieve configuration information
+  about your instance. \n\nExample response:\n\n~~~javascript\n{\n  \"kind\": \"sql#backupRun\",\n
+  \ \"id\": long,\n  \"selfLink\": string,\n  \"instance\": string,\n  \"description\":
+  string,\n  \"windowStartTime\": datetime,\n  \"status\": string,\n  \"type\": string,\n
+  \ \"enqueuedTime\": datetime,\n  \"startTime\": datetime,\n  \"endTime\": datetime,\n
+  \ \"error\": {\n    \"kind\": \"sql#operationError\",\n    \"code\": string,\n    \"message\":
+  string\n  }\n}\n~~~\n\n\n| Related Control(s)     | API Reference     |\n| ----------
+  | ---------- |\n| HITRUST 1616.09l1 Organizational.16       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1618.09l1 Organizational.45       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1619.09l1 Organizational.7       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1620.09l1 Organizational.8       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+  HITRUST 1668.12d1 Organizational.67       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+  [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n\n##
+  Step 7: Patching\n\nIn step 3 when we created our database, we selected our maintenance
+  window by setting a specific day and time for updates. Using the Instances API,
+  we can expect a response like the following:\n\n~~~javascript\n\"maintenanceWindow\":
+  {\n  \"kind\": \"sql#maintenanceWindow\",\n  \"hour\": integer,\n  \"day\": integer,\n
+  \ \"updateTrack\": string\n}\n~~~\n\n\n| Related Control(s)     | API Reference
+  \    |\n| ---------- | ---------- |\n| HITRUST 0701.07a1 Organizational.12       |
+  [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 0707.10b2 System.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 0708.10b2 System.2       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 0709.10m1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 0720.07a1 Organizational.4       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n| HITRUST 0723.07a1 Organizational.8       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+  \      |\n\n## Step 8: Logging & Monitoring\n\nUsing stackdriver in the GCP console,
+  we can see that logging and monitoring are on by default and are tracking events
+  in the \"operations\" tab. However, this still doesn’t get us all the way to HITRUST
+  alignment. For auditing, we’re going to be using [Google Cloud Audit Logging](https://cloud.google.com/logging/docs/audit/).
+  \n\n<img class=\"lozad tofigure\" alt=\"Cloud Audit panel\" src=\"//images.ctfassets.net/189dvqdsjh46/44OOyzWyD6U2CmU46su6Uq/5b6c1957b35443c2a4d3848a09d6b5f7/cloudsql-5.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/44OOyzWyD6U2CmU46su6Uq/5b6c1957b35443c2a4d3848a09d6b5f7/cloudsql-5.png?fm=png&fl=png8\"
+  />\n\nFortunately Cloud Audit Logging is on by default, and can be accessed at [console.cloud.google.com/home/activity](https://console.cloud.google.com/home/activity).
+  If you navigate to that page, you’ll see a log of activity, with options in the
+  right menu to filter based on certain criteria.\n\n\n<img class=\"lozad tofigure\"
+  alt=\"Cloud Audit logging\" src=\"//images.ctfassets.net/189dvqdsjh46/4kEYwdBZVSU8Em6MMW6gmK/473761f76b6f2e3b1b48d9653db8fdba/cloudsql-6.png?fm=png&fl=png8&w=600\"
+  data-src=\"//images.ctfassets.net/189dvqdsjh46/4kEYwdBZVSU8Em6MMW6gmK/473761f76b6f2e3b1b48d9653db8fdba/cloudsql-6.png?fm=png&fl=png8\"
+  />\n\n| Related Control(s)     | API Reference     |\n| ---------- | ----------
+  |\n| HITRUST 1204.09aa1 System.3       | [Stackdriver Monitoring API](https://cloud.google.com/monitoring/api/ref_v3/rest/)
+  \      |\n\n## Wrapping up\n\nUsing this guide, developers can ensure their new
+  GCP Cloud SQL instance is ready to comply with the HITRUST CSF. Maintaining these
+  configurations for all new infrastructure, updating them for new versions of HITRUST
+  and providing proof &mdash; a digital papertrail &mdash; is an incredible amount
+  of work. Having a partner like Datica can mean the difference between an audit taking
+  4 months, or 4 weeks.\n\nFor more information on Datica’s products and services.
+  Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
+  [Compliant Kubernetes Service](https://datica.com/cks)"
+:related_entries:
+- :id: 43dQoBKc9OuQuyw8k2SmKO
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-04T18:06:34+00:00'
+    :created_at: '2018-10-02T02:56:34+00:00'
+    :id: 43dQoBKc9OuQuyw8k2SmKO
+  :title: Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA
+    and HITRUST
+  :slug: azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide is intended to give developers a simple way to configure their
+    Cosmos DB service to be HITRUST CSF ready. In this guide we’ll walk through the
+    requirements, controls, and configurations for Azure Cosmos DB.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step run book to configuring their Azure Cosmos DB instance to be HITRUST CSF
+    ready. In the following sections we’ll walk through the requirements, controls,
+    and configurations for Cosmos DB.
+  :post: "_Disclaimer: while utilizing these guides can provide alignment with HITRUST,
+    it is still your responsibility as an organization to complete an audit and obtain
+    certification._\n\n## Step 1: The Business Associate Agreement (BAA)\n\nFrom Microsoft:\n\n>
+    “To help customers comply with HIPAA and the HITECH Act, Microsoft includes execution
+    of the HIPAA BAA as part of a customer’s volume licensing agreement, which includes
+    any agreement that incorporates the Online Services Terms by reference. The BAA
+    (full text of which is available at [http://aka.ms/BAA](http://aka.ms/BAA)) applies
+    to a customer that is a “covered entity” or a “business associate” and includes
+    \"protected health information\" in Customer Data. Microsoft currently offers
+    the BAA for the services listed in the Scope section below.”\n\nMicrosoft does
+    not provide programmatic access to their BAA (at least none that we could find).
+    To double check that you do in fact have a BAA in place with Microsoft, it’s recommended
+    that you reach out to your Azure rep (or Azure support if you do not have a rep).
+    \n\nMore general tips on BAAs [here](https://datica.com/academy/business-associate-agreements/).
+    \n\n| HIPAA Rule     | API Reference     |\n| ---------- | ---------- |\n| HIPAA
+    &sect; 164.308       | N/A: Azure does not provide API access to the BAA       |\n\n##
+    Step 2: Creating the database\n\nInside of the Azure portal, find the search bar
+    and type “*Cosmos DB*”. Once the results populate, click the “*Azure Cosmos DB*”
+    service in the list.\n\n<img class=\"lozad tofigure\" alt=\"Azure Cosmos DB service
+    list\" src=\"//images.ctfassets.net/189dvqdsjh46/2DBCBDXJYM6CkuQG4WmSCU/47e457b5a970f90bfc4b969559d5a1d4/cosmos-1.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/2DBCBDXJYM6CkuQG4WmSCU/47e457b5a970f90bfc4b969559d5a1d4/cosmos-1.png?fm=png&fl=png8\"
+    />\n\nFor compliant services, it’s recommended that you create a new resource
+    group, or, if you have other compliant services, that you keep them together.
+    The rule of thumb here is that services touching PHI should be separate from services
+    not touching PHI.\n\nOnce you’re inside the “*Create Azure Cosmos DB Account*”
+    page, follow below:\n\n1. Select your subscription and associated resource group\n2.
+    Give the instance a name (“*Account name*”)\n3. Select your API\n4. Select the
+    location in which you want the service to live. It’s recommended that you keep
+    it in the same location with the other services that will be interacting with
+    it\n5. Ensure both “*Geo-Redundancy*” and “*Multi-region Writes*” are enabled\n6.
+    Click “*Next: Network*”\n7. On the network tab, we can see that we have the option
+    to create a network. Click the “*Create a new virtual network*” link. In the right
+    sidebar, give your new network a name. We’ll also want to create a new subnet.
+    Pick a name and IP address in CIDR notation.\n\n<img class=\"lozad tofigure\"
+    alt=\"Networking options\" src=\"//images.ctfassets.net/189dvqdsjh46/2Z546yr0DYSAik6a0qgSAQ/b61c2dec992ad914897aa06f04e6ae69/cosmos-2.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/2Z546yr0DYSAik6a0qgSAQ/b61c2dec992ad914897aa06f04e6ae69/cosmos-2.png?fm=png&fl=png8\"
+    />\n\nFollow the rest of the steps for database setup and finish creation.\n\n<img
+    class=\"lozad tofigure\" alt=\"Final setup steps\" src=\"//images.ctfassets.net/189dvqdsjh46/5gJCxn9ZcAgIEWMasKiiaC/7b00a8d9ea2f6372dc8b55f12b907453/cosmos-3.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/5gJCxn9ZcAgIEWMasKiiaC/7b00a8d9ea2f6372dc8b55f12b907453/cosmos-3.png?fm=png&fl=png8\"
+    />\n\n## Step 3: Networking\n\nIn Step 2 above we created a new VPC as well as
+    a subnet. See the reference below to see how to check this via the Azure REST
+    API and how it relates to HITRUST.\n\n| Related Control(s)     | API Reference
+    \    |\n| ---------- | ---------- |\n| HITRUST 0805.01m1 Organizational.12       |
+    [Subnets](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/subnets)       |\n\n##
+    Step 4: Redundancy\n\nIn Step 2 above we created a database with several configurations.
+    Two of those configurations were enabling both “*Geo-Redundancy*” and “*Multi-region
+    Writes*”. To interact with these configurations, see the API reference below.\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    1616.09l1 Organizational.16       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1618.09l1 Organizational.45       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1619.09l1 Organizational.7       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1620.09l1 Organizational.8       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1668.12d1 Organizational.67       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n\n## Step 5: Access\n\nGating access to your database is imperative
+    to achieving compliance. Cosmos DB supports a concept called “Service Endpoints”.
+    From Azure:\n\n> “Virtual Network (VNet) service endpoints extend your virtual
+    network private address space and the identity of your VNet to the Azure services,
+    over a direct connection. Endpoints allow you to secure your critical Azure service
+    resources to only your virtual networks. Traffic from your VNet to the Azure service
+    always remains on the Microsoft Azure backbone network.”\n\nAzure provides a step
+    by step guide to for securing access to an Azure Cosmos DB account by using Azure
+    Virtual Network service endpoint, so instead of rehashing those steps here, you
+    should follow that guide.\nThose settings, if done correctly, will ensure your
+    database is only being accessed by approved services within your Azure account.\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    0605.10h1 System.12       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0630.10h2 System.6       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0805.01m1 Organizational.12       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n\n## Step 6: Encryption\n\nFrom Azure:\n\n> “As a PaaS service, Cosmos
+    DB is very easy to use. Because all user data stored in Cosmos DB is encrypted
+    at rest and in transport, you don't have to take any action.”\n\nFor more information
+    on how encryption at rest is implemented for Cosmos DB, [see this article](https://docs.microsoft.com/en-us/azure/cosmos-db/database-encryption-at-rest).\n\nEnsuring
+    encryption is on everywhere:\n\nFor encryption and access not already covered
+    in step 5, [see this guide](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
+    from Azure on securing point access to your Cosmos DB instance.\n\n| Related Control(s)
+    \    | API Reference     |\n| ---------- | ---------- |\n| HITRUST 0903.10f1 Organizational.1
+    \      | Cosmos DB has encryption turned on by default; to turn on enctyption
+    everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 1132.01v2 System.3       | Cosmos DB has encryption turned
+    on by default; to turn on enctyption everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 1903.06d1 Organizational.3456711       | Cosmos DB has encryption
+    turned on by default; to turn on enctyption everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n\n## Step 7: Backups\n\nAzure provides automatic backups for Cosmos
+    DB without the need to configure any settings. However, working with those backups,
+    and attesting to their availability can be cumbersome. From Azure:\n\n> “All your
+    backups are stored separately in another storage service, and those backups are
+    globally replicated for resiliency against regional disasters. The automatic backups
+    are intended for scenarios when you accidentally delete your Cosmos DB container
+    and later require data recovery or a disaster recovery solution.”\n\n| Related
+    Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST 1616.09l1
+    Organizational.16       | N/A       |\n| HITRUST 1618.09l1 Organizational.45       |
+    N/A       |\n| HITRUST 1619.09l1 Organizational.7       | N/A       |\n| HITRUST
+    1620.09l1 Organizational.8       | N/A       |\n| HITRUST 1668.12d1 Organizational.67
+    \      | N/A       |\n\n## Step 8: Logging & Monitoring\n\nInside of the Azure
+    Cosmos DB portal, you’ll find a link in the left side navigation that reads “*Activity
+    log*”, this is where you’ll see an audit log of various activity performed on
+    the instance.\n\n<img class=\"lozad tofigure\" alt=\"Monitoring panel\" src=\"//images.ctfassets.net/189dvqdsjh46/1UkPX9b0QMY82AGIAe6OI/c4d0fbd685ba8b359b2cea86515a0dc7/cosmos-4.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/1UkPX9b0QMY82AGIAe6OI/c4d0fbd685ba8b359b2cea86515a0dc7/cosmos-4.png?fm=png&fl=png8\"
+    />\n\nMonitoring on the other hand has its own section, where you can see specific
+    metrics about the instance, configure alerts, and run diagnostics.\n\n<img class=\"lozad
+    tofigure\" alt=\"Cosmos DB diagnostics\" src=\"//images.ctfassets.net/189dvqdsjh46/3Xpjhm1FPi8EkkYuWAeYae/cf140a76f41a5c27dc853c5eb41d1b85/cosmos-5.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/3Xpjhm1FPi8EkkYuWAeYae/cf140a76f41a5c27dc853c5eb41d1b85/cosmos-5.png?fm=png&fl=png8\"
+    />\n\n| Related Control(s)     | API Reference     |\n| ---------- | ----------
+    |\n| HITRUST 1204.09aa1 System.3       | [Monitoring REST API Reference](https://docs.microsoft.com/en-us/rest/api/monitor/)
+    \      |\n\n## Wrapping up\n\nUsing this guide, developers can ensure their new
+    Cosmos DB instance is ready to comply with the HITRUST CSF. Maintaining these
+    configurations for all new infrastructure, updating them for new versions of HITRUST
+    and providing proof — a digital papertrail — is an incredible amount of work.
+    Having a partner like Datica can mean the difference between an audit taking 4
+    months, or 4 weeks.\n\nFor more information on Datica’s products and services.
+    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
+    [Compliant Kubernetes Service](https://datica.com/cks)\n"
+  :related_entries:
+  - :id: 1s1UlhAhkAwwewk20ugYsW
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+- :id: 1s1UlhAhkAwwewk20ugYsW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-12-14T18:50:21+00:00'
+    :created_at: '2018-10-01T17:31:07+00:00'
+    :id: 1s1UlhAhkAwwewk20ugYsW
+  :title: AWS RDS Guide - How to configure RDS to comply with HIPAA and HITRUST
+  :slug: aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide is intended to give developers an easy to understand, step
+    by step runbook for configuring their AWS RDS instance to be HITRUST CSF ready.
+    In the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step runbook for configuring their AWS RDS instance to be HITRUST CSF ready. In
+    the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :post: |-
+    _Disclaimer: while utilizing these guides can provide alignment with HITRUST, it is still your responsibility as an organization to complete an audit and obtain certification._
+
+    ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
+
+    First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+
+    More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
+
+    <img class="lozad tofigure" alt="Setting up a BAA" src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8" />
+
+    To sign the AWS BAA...
+
+    1. Navigate to [https://console.aws.amazon.com/artifact/](https://console.aws.amazon.com/artifact/)
+    2. Select the “AWS Business Associate Addendum” section
+    3. Download the AWS Business Associate Addendum
+    4. Confirm you’ve followed the steps properly by checking the three boxes show on the screen
+    5. Click the button that says “Accept the AWS Business Associate Addendum for this account”
+    6. You now have a BAA in place with AWS
+
+    | Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HIPAA &sect; 164.308       | N/A: AWS does not provide API access to their Artifact service       |
+
+    ## Step 2: Selecting a database version
+
+    Because AWS RDS offers various versions of each database, it’s imperative from a compliance and security perspective that you select a known good patched version, and one that will continue to receive updates and patches in the future (using versions no older than 3 previous versions is typically a safe bet).
+
+    <img class="lozad tofigure content-screenshot" alt="RDS: Selecting a database version" src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8" />
+
+    ## Step 3: Create new subnet group
+
+    From AWS:
+
+    > “Subnets are segments of a VPC's IP address range that you designate to group your resources based on security and operational needs. A DB subnet group is a collection of subnets (typically private) that you create in a VPC and that you then designate for your DB instances. A DB subnet group allows you to specify a particular VPC when creating DB instances using the CLI or API; if you use the console, you can just select the VPC and subnets you want to use.”
+
+    How to create a new subnet group:
+
+    1. Search for or choose “*RDS*” in the AWS console (or if you’re following along in this guide find the “*Subnet group*” link in the left side navigation).
+    2. Select the “*Subnet group*” link if you haven’t already
+    3. Select “*Create DB Subnet Group*”
+    4. Complete the information for name and description
+    5. Select your VPC and all subnets related to this VPC
+    6. Select “*Create*”
+
+    <img class="lozad tofigure" alt="Creating a new subnet group" src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif" />
+
+    | Related Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 4: Enable multi-AZ
+
+    When creating your new RDS instance, ensure you have selected “*Create replica in different zone*” as high availability and replication is critical to businesses handling PHI &mdash; you’ll also see in the table below the relevance to various required HITRUST controls.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling multi-AZ" src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8" />
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 5: Create security group
+
+    Communication should be limited to only the two VPC networks. No other access should be granted. To create a new Security group, [follow this guide from AWS](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html#CreatingSecurityGroups).
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0630.10h2 System.6       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+
+    ## Step 6: Turn off public access
+
+    It should go without saying, but we’ll say it anyway: providing public, unauthorized, access to PHI (either directly or indirectly) is a violation of HIPAA, HITRUST, and several other regimes. Ensuring your RDS instance has public access turned off is critical.
+
+    To turn off public access do the following:
+
+    1. If you’re already in the RDS console and following along as you create a new instance, on Step 3 of creation, select “No” under the “Public accessibility” field <img class="lozad tofigure content-screenshot" alt="Disabling public access" src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8" />
+    2. ...or if you have an instance already, simply click the “*Instances*” link in the left side navigation from the main RDS console
+    3. Select the RDS instance you want
+    4. Once you have the instance selected, click the “*Modify*” button on the top right
+    5. Then scroll to the “*Network & Security*” security section — here you will find the “*Public accessibility*” option
+    6. Select “*No*”
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0630.10h2 System.6       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 7: Enable encryption
+
+    Encryption is perhaps the most important of all controls that need to be in place on your database instance(s).
+
+    To enable encryption on an RDS instance, [follow this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html#Overview.Encryption.Enabling).
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling encryption" src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0903.10f1 Organizational.1       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1132.01v2 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1903.06d1 Organizational.3456711       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 8: Working with backups
+
+    From AWS:
+
+    > “By default, Amazon RDS creates and saves automated backups of your DB instance securely in Amazon S3 for a user-specified retention period.”
+
+    If you’ve already set up an RDS instance without specifying the backup period, AWS states:
+
+    > “You can set the backup retention period when you create a DB instance. If you don't set the backup retention period, the default backup retention period is one day if you create the DB instance using the Amazon RDS API or the AWS CLI, or seven days if you create the DB instance using the AWS Console”
+
+    To set the retention period when creating a new RDS instance, follow these steps:
+
+    1. Navigate to your RDS console
+    2. Select “*Instances*”
+    3. Select “*Create database*”
+    4. Go through the several steps, stop once you’re on the “*Configure advanced settings*” page
+    5. Scroll to the “*Backup*” section and select your desired preferences
+
+    <img class="lozad tofigure content-screenshot" alt="Configuring backup settings" src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 9: Patching schedule
+
+    Managing vulnerabilities is a burden for users. Luckily, AWS provides maintenance as part of the RDS instance. In the “*Maintenance*” section on the “*Configure advanced settings*” step of creating an RDS instance, you’ll see two options:
+
+    1. __Auto minor version upgrade__ &mdash; You should set this to “Enable auto minor version upgrade”
+    2. __Maintenance window__ &mdash; For policy purposes, you’ll want/need to select a specific window. Recommendations on day and time will vary drastically depending on your location, business, and several other factors
+
+    <img class="lozad tofigure content-screenshot" alt="Setting up a schedule" src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0701.07a1 Organizational.12       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0707.10b2 System.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0708.10b2 System.2       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0709.10m1 Organizational.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0720.07a1 Organizational.4       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0723.07a1 Organizational.8       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+
+    ## Step 10: Working with SSL
+
+    “Encrypting everything” is often the most difficult aspect of complying with frameworks like HITRUST CSF. Ensuring that your connections to RDS are encrypted is a fundamental requirement. The best way to enforce encryption for your RDS instance is to force all connections to use SSL.
+
+    The steps required to enforcing SSL on your database will vary depending on your database of choice. For more information and step by step guides, see the following articles from AWS:
+
+    - [MariaDB SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MariaDB.html#MariaDB.Concepts.SSLSupport)
+    - [MySQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport)
+    - [PostgreSQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL)
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0806.01m2 Organizational.12356       | N/A: No related API reference at this time       |
+    | HITRUST 0814.01n1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0816.01w1 System.1       | N/A: No related API reference at this time       |
+    | HITRUST 0835.09n1 Organizational.1       | N/A: No related API reference at this time       |
+    | HITRUST 0859.09m1 Organizational.78       | N/A: No related API reference at this time       |
+
+    ## Step 11: Audit Logging & Monitoring
+
+    ### Monitoring
+
+    Enhanced monitoring can be turned on for RDS at time of creation. On the “*Configure advanced settings*” step, find the “*Monitoring*” section and select “*Enable enhanced monitoring*”.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling enhanced monitoring" src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8" />
+
+    ### Logging
+
+    From AWS:
+
+    > “RDS PostgreSQL generates query and error logs. We write auto-vacuum info and rds_admin actions to the error log”
+
+    AWS has several articles detailing how logging and monitoring work together to give you transparency into your instance. For more information, [see this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitoring.html).
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1204.09aa1 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html), [DescribeDBLogFiles](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBLogFiles.html)       |
+
+    ## Wrapping up
+
+    Using this guide, developers can ensure their new RDS instance is ready to comply with the HITRUST CSF. Maintaining these configurations for all new infrastructure, updating them for new versions of HITRUST and providing proof &mdash; a digital papertrail &mdash; is an incredible amount of work. Having a partner like Datica can mean the difference between an audit taking 4 months, or 4 weeks.
+
+    For more information on Datica’s products and services. Check out these helpful links:
+
+    - [Cloud Compliance Management System](https://datica.com/ccms)
+    - [Compliant Kubernetes Service](https://datica.com/cks)
+  :featured_image:
+    :id: QuKh6opZkWK8isiySSuYA
+  :related_guide:
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :related_entries:
+  - :id: 43dQoBKc9OuQuyw8k2SmKO
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6uKml5g9d60cQI2YswoqEE
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:30:52+00:00'
+    :created_at: '2018-10-02T19:30:36+00:00'
+    :id: 6uKml5g9d60cQI2YswoqEE
+  :cta_title: Take the Cloud Configurations Survey
+  :cta_desc: We want to make sure the Cloud Compliance Management System has you covered.
+    Tell us what other cloud configurations you want to see.
+  :cta_label: Take the Survey
+  :cta_url: https://datica.com/cloud-compliance-management-system/survey/
+  :cta_image:
+    :id: 5TDGfDp13aEgs6gO8g2YC2
+  :cta_image_small:
+    :id: 6KsyCUFBSMsOW6UW2IUW4U
+  :cta_color: gray-light

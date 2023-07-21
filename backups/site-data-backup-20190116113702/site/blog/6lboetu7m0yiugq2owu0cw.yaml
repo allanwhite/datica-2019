@@ -1,0 +1,684 @@
+---
+:id: 6LboeTU7m0YiugQ2owU0cW
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-07-18T23:45:59+00:00'
+  :created_at: '2018-01-19T01:34:44+00:00'
+  :id: 6LboeTU7m0YiugQ2owU0cW
+:title: The Trusted Exchange Framework and the Pursuit of Interoperability
+:slug: the-trusted-exchange-framework
+:pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'The January, 2018 draft of the Trusted Exchange Framework is the first
+  real step toward interoperability since the Cures Act was passed. '
+:blog_lead: 'One of the biggest obstacles to using electronic health data to the fullest
+  potential is the lack of interoperability. At every level of healthcare, the lack
+  of interoperability causes problems: patients cannot easily access their own health
+  data, providers have problems accessing the health information of new patients,
+  researchers cannot access the data necessary to identify trends that would improve
+  population health, and technology companies struggle to compete in a closed marketplace. '
+:post: "The [21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34/text),
+  sometimes referred to as the Cures Act, which was passed in December 2016, identifies
+  the need for interoperability. Interoperability would make the exchange of personal
+  health information (PHI) possible while still maintaining security. Currently, information
+  is siloed within EHR systems, and [data integration with those EHRs](https://datica.com/platform/integration/)
+  is frequently cited issue for healthcare providers. \n\nAlongside the need for various
+  stakeholders to be able to access information, there is the requirement to follow
+  the dictates of the [Health Insurance Portability and Accountability Act (HIPAA)](https://datica.com/academy/hipaa-101-a-primer/).
+  Information needs to be accessible, but must also remain secure. Through the Cures
+  Act, Congress instructed the Office of the National Coordinator (ONC) to create
+  or support the creation of a framework for health information networks (HINs) to
+  exchange health information through a common agreement. \n\n## What is The Trusted
+  Exchange Framework?\n\nThe draft Trusted Exchange Framework is the first step toward
+  interoperability. The ONC has published a [User’s Guide to Understanding the Draft
+  Trusted Exchange Framework](https://www.healthit.gov/sites/default/files/draft-guide.pdf).
+  The document was released on January 5, 2018, and consists of two parts:\n\nPart
+  A - Principles for Trusted Exchange\nPart B - Minimum Required Terms and Conditions
+  for Trusted Exchange\n\nStakeholders are [encouraged to submit comments](https://beta.healthit.gov/topic/interoperability/trusted-exchange-framework-and-common-agreement)
+  through February 20, 2018. Once comments have been submitted and a final version
+  agreed upon, the Trusted Exchange Framework and Common Agreement (TEFCA) will be
+  published in the Federal Register. The ONC expects the final version to be published
+  by late 2018. \n\nThe stakeholders include: \n\n* Health information networks\n*
+  Federal agencies\n* Public health organizations\n* Individuals\n* Payers\n* Providers\n*
+  Technology developers\n\nOne of the most important goals of the Trusted Exchange
+  Framework is to create what the ONC describes as “a single on-ramp” to interoperability.
+  Currently, healthcare organizations use different point-to-point interfaces to exchange
+  PHI with each other. This system requires the creation and maintenance of all those
+  individual interfaces, which is expensive and inefficient. \n\nCreating one framework
+  for various stakeholders to exchange information will simplify the process, make
+  accessing their own PHI easier for patients, and create a more competitive market
+  for technology companies. \n\n## Two Parts of the Trusted Exchange Framework\n\n###
+  Trusted Exchange Framework Part A\n\nThe first part of the Framework is Principles
+  for Trusted Exchange. The ONC has defined six principles: \n1. Standardization\n2.
+  Transparency\n3. Cooperation and Non-Discrimination\n4. Security and Patient Safety\n5.
+  Access\n6. Data-Driven Accountability \n\nThese general principles are described
+  as “guardrails,” and the goal of Part A is to build trust among the various HINs.
+  \n\n### Trusted Exchange Framework Part B\n\nThe second part of the framework is
+  Minimum Required Terms and Conditions for Trusted Exchange. This section creates
+  common practices for the exchange of health information, including a common authentication
+  process, rules for exchange, and organizational and operational practices. \n\nSpeaking
+  to [Fierce Healthcare](https://www.fiercehealthcare.com/regulatory/onc-genevieve-morris-trusted-exchange-framework-common-agreement-interoperability),
+  Genevieve Morris, the principal deputy national coordinator for health information
+  technology at the ONC said, \n\n> This is just the floor of what those required
+  terms and conditions are. We all just have to agree to the same terms in order for
+  that exchange to happen.” \n\n## Building on the 3 Goals of Interoperability\n\nThe
+  Trusted Exchange Framework builds on the work that the industry has already done
+  to advance interoperability. [A press release](https://www.hhs.gov/about/news/2018/01/05/draft-trusted-exchange-framework-and-common-agreement-released-hhs.html)
+  from the Department of Health and Human Services regarding the draft stresses that
+  there are three important goals of interoperability: \n\n1. Patient access - patients
+  should be able to easily access their own health information.\n2. Population-level
+  data exchange - both providers and payers need access to population-level health
+  data in order to analyze trends, outcomes, and costs.\n3. Open and accessible APIs
+  - giving the health IT community access to health information will improve the entrepreneurial
+  climate, leading to innovation and improved usability. \n\nThe ONC will outsource
+  the actual implementation of the framework. The ONC will hold an “open and competitive
+  selection of a single Recognized Exchange Framework Entity (RCE) from the industry,”
+  wrote Morris in a [blog post on HealthIT Buzz](https://www.healthit.gov/buzz-blog/interoperability/trusted-exchange-framework-common-agreement-common-sense-approach-achieving-health-information-interoperability/).
+  \ \n\nThe RCE will work with the ONC to develop the final version of the TEFCA that
+  is published in the Federal Register. \n"
+:featured_image:
+  :title: blog-trusted-exchange-framework-featured
+  :description: Trusted Exchange Framework featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/9olotaRMhGeCcA8uWQk0O/b21b8b135d2b848b7a664afecaea727c/blog-trusted-exchange-framework-featured.jpg"
+  :_meta:
+    :updated_at: '2018-01-19T01:30:57+00:00'
+    :created_at: '2018-01-19T01:30:57+00:00'
+    :id: 9olotaRMhGeCcA8uWQk0O
+:share_image:
+  :title: blog-trusted-exchange-framework-share
+  :description: Trusted Exchange Framework share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/48KfMUhT8IqIIYoOCcqG2q/2d815c9cdd9bbc7d4635d753ae0d5827/blog-trusted-exchange-framework-share.jpg"
+  :_meta:
+    :updated_at: '2018-01-19T01:31:38+00:00'
+    :created_at: '2018-01-19T01:31:38+00:00'
+    :id: 48KfMUhT8IqIIYoOCcqG2q
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 5nkgweRTpKkSuMKMCa4mog
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-10T00:26:41+00:00'
+    :created_at: '2016-11-23T22:18:33+00:00'
+    :id: 5nkgweRTpKkSuMKMCa4mog
+  :title: 21st Century Cures Act Passes in the House of Representatives
+  :slug: 21st-century-cures-act-passes-in-the-house-of-representatives
+  :pub_date: !ruby/object:DateTime 2015-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: With the intent to lighten restrictions on the use and exposure of PHI
+    for research, the 21st Century Cures Act was passed in 2015. Learn more about
+    it here.
+  :blog_lead: 'Earlier this month, an act with the intent to lighten restrictions
+    on the use and exposure of protected health information for research motivations
+    was passed through the United States House of Representatives called the 21st
+    Century Cures Act.
+
+'
+  :post: |+
+    Presently, the HIPAA Privacy Rule allows the use and exposure of protected health information for research purposes without the necessity of authorization from the patient but does mandate any waiver of the authorization stipulation be approved by an institutional review or privacy board.
+
+    This amendment to the Health Information Technology for Economic and Clinical Health (HITECH) obligates the Secretary of the Department of Health and Human Services to revise/elucidate the HIPAA Privacy Rule to:
+
+    - Permit the utility and exposure of protected health information by a covered entity for the purposes of research to be considered the entity’s “health care operations”
+    - Allow research activities that are in relation to quality, safety, or effectiveness of a product or activity that is managed by the Food and Drug Administration to be regarded public health activities so that the activities can be imparted to a person subject under the FDA’s jurisdiction of the purposes of gathering or announcing adverse events, tracking FDA regulated products, enabling product recalls, or mending/undergoing post-marketing surveillance.
+    - Enable removed access to protected health information as long as the covered entity and researcher preserve appropriate security and privacy safeguards and the protected health information is not plagiarized or otherwise held by the researcher.
+    - Identify that an authorization for the utility and exposure of protected health information for forecasted research purposes. is believed to sufficiently describe the purpose of the utility or exposure of protected health information if the authorization 1) adequately describes the purposes as that if would be appropriate for the patient to expect their protected health information could be used or exposed for stated future research, and 2) clarifies that the permissions will either expire on a specified date or event, or will remain valid unless revoked by the individual.
+
+    This new legislation will also call for the Office of the National Coordinator for Health Information Technology to publicize clarification for the HIPAA Privacy and Security Rules in regards to information blocking, including any business or technical practices that prevent or materially discourage the transmission of electronic health information and do now serve the purpose to guard safety, keep privacy and security of patients’ health information or promote competition and consumer welfare.
+
+    This Act is on its way to the Senate, which is presumed to take the legislation on this fall. Many groups are also in support of the new proposed laws, including the Association of American Medical Colleges and the Pharmaceutical Research and Manufactures of America.
+
+    Are you a HIPAA expert? Want to be one? Find out all you need to know from our [HIPAA resources page](https://datica.com/discover/hipaa-compliance/) written by the team of HIPAA compliance experts here at Datica.
+
+  :cta_ref:
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 79e4rnBGHC2YgmKqu8QuwA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-12T19:29:59+00:00'
+    :created_at: '2017-09-05T20:48:13+00:00'
+    :id: 79e4rnBGHC2YgmKqu8QuwA
+  :title: If It's Possible, We Can Integrate It
+  :slug: if-its-possible-we-can-integrate-it
+  :pub_date: !ruby/object:DateTime 2017-09-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: There's much a digital health company needs to know about EHR integrations.
+    Here are 4 essential questions digital health teams should ask their customers.
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+    We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
+    We''ve done this work with big organizations and vendors to small FQHCs and niche
+    EHR vendors. As a result of all this integration experience, we now have a pretty
+    good grasp on the intricacies of how integration works. We can reasonably estimate
+    how long it takes us to do a project and how that varies with different types
+    of vendors. '
+  :post: "> What you must learn is that these rules are no different than rules of
+    a computer system. Some of them can be bent, others can be broken.\" -- Morpheus,
+    The Matrix\n\nHowever, despite our progress, there are still hundreds of systems
+    that we have not integrated with. In the ambulatory setting alone, there are more
+    than 650 technologies certified for Meaningful Use Stage 2. While working with
+    the top 30 already gives us a leg up and covers a majority of the industry, it's
+    not uncommon for us to hear about a new piece of HIT technology that our customers
+    and prospects are looking to integrate with. \n\nDespite your perceptions of us
+    as an integration services team, we don't have any secret super powers to solve
+    problems with interoperability. Our solution, as simple as it may sound, is just
+    being the best at our specialized skill set as we can be. This means:\n\n- Writing
+    interfaces and transforming data to programmer-friendly formats using Mirth, an
+    open-source interface engine. \n- Setting up VPNs when needed on open-source Strongswan
+    appliances.\n- Having a team of experts in health data and project management
+    on hand to analyze project needs. \n- Everything hosted on the HITRUST-certified
+    Datica Platform, staffed by a team of ops, security, and compliance experts. \n\nWhile
+    we may know about obscure technologies that power integrations at a given EHR
+    vendor, our process is likely similar to anyone else's when kicking off a project.
+    As such, it's worth noting that **some projects may be impossible to complete**
+    due to external constraints. Turns out that data blocking in healthcare is really
+    a thing. So, if Datica is not helping you in your pre-sales process with customers,
+    it's up to you to ask all the necessary questions to ensure that you will be able
+    to successfully integrate your application with the EHR and site in question.
+    \n\n## Four essential questions digital health teams should ask their customers\n\n###
+    1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
+    alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
+    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
+    are standards, this doesn't mean all EHRs support exchanging data through these
+    formats. In fact, some EHRs have no integration capabilities at all. Make sure
+    the EHR supports the data standards that you need. Particularly, make sure the
+    EHR supports the data standards in the method you need them. For example, if you
+    need CCDs *pushed* to you at the end of a visit vs. *pulling* them proactively,
+    you will want to ensure the EHR has the capability to manage that process. There
+    is a very real possibility here that the EHR may have no suitable integration
+    technology, which may limit your data integration possibilities to flat-file style
+    extracts or may require manual data entry to power your application.\n\nIt's worth
+    noting that there are some integrations [that seem simple but are really complex](https://xkcd.com/1425/).
+    For example, while it would seem obvious that any EHR could expose provider availability
+    to schedule appointments, this is actually rare functionality. It's *easy* to
+    know what appointments are scheduled/canceled but it's *hard* to know when you
+    can schedule an appointment. Just because there are no appointments from 12:00-2:00
+    doesn't mean the provider isn't doing hospital rounds or research. As such, what
+    may have been an easy API query on Allscripts, Epic, and Athena turns into a nightmare
+    of stored procedure R&D and database access requirements with smaller EHRs. This
+    is why it's good to have experts on hand to help you understand the rules of the
+    road and to match integration expectations to reality. \n\n\n### 2) Do you have
+    the internal or external resources to perform the integration work?\n\nSmaller
+    organizations may have an EHR with HL7, CDA, or API integration capabilities,
+    however, they might not have the personnel to configure their instance to do that
+    integration. It's not uncommon to find a nurse or clinic administrator who is
+    also the EHR administrator. While they may be able to manage their provider's
+    schedules or handle some claims, setting up an interface or API may be foreign
+    to them. This can be a blocker for a project. \n\nDatica cannot directly assist
+    with a backend EHR build. This is usually for one of these reasons:\n\n- The EHR
+    vendor would require us to sign an agreement that had some kind of non-compete
+    clause to it. \n- The EHR vendor will not grant us access to their systems. \n-
+    We simply lack the expertise in 650 EHRs. \n\nAs such, if the organization needs
+    assistance with an internal EHR build, it's out of the scope of our standard integration
+    services. While we may be able to refer the organization to other consultants
+    or vendors who can assist with this EHR build, additional scope and cost considerations
+    would be included.\n\n### 3) Can you commit to getting work done within reasonable
+    timelines?\n\nThe top KPI for a fast, successful installation is an agreed upon
+    project plan with assigned task owners and due dates. At larger orgs, the only
+    task owners are typically the EHR integrators (Datica) and organizational IT.
+    However, in some integrations, there may be dependencies on vendors to perform
+    some pieces of setup. This is particularly true if the org is not licensed for
+    a given interface yet or if the EHR vendor hosts the organization's EHR instance.
+    \n\nNot to sell you a horror story but, sometimes, these timelines can be brutal.
+    While many projects go live within a month of kickoff, we've also seen projects
+    span a year due to EHR vendors dragging their feet on either contracting or infrastructure
+    deployments. Other than badgering effectively, unless your customer's organization
+    can push their EHR vendor to move faster, it's hard to make the process any faster
+    than it is. If your integrated product must be live by a certain point to reach
+    contractual obligations to your customer, make sure your customer has the means
+    to get that system live by that point. \n\n### 4) Who will validate clinical content
+    and logic facilitated through integrations?\n\nYour application may want to segment
+    patients based on certain clinical attributes sent in the payload of the HL7 or
+    CDA message. For example, you may want your application to send an alert when
+    a patient with diabetes is admitted to the hospital. The question, of course,
+    is how do you define patients with diabetes? Will they be manually defined by
+    clinicians or will you be trying to define them by diagnoses from the admission,
+    in their problem list, or by other clinical attributes like High A1C or being
+    prescribed insulin?\n\nWhile we can apply some logic to segment patients in our
+    interface engine, we do not have clinical informaticists on hand to dictate or
+    validate logic that we would create at your behest. The integration engine may
+    not be the best place to have that application logic and you may consider those
+    mappings and analysis to be IP of your company. You may decide that an organization
+    purchasing your digital health product can validate your clinical content (Epic
+    did this) or we are happy to refer you to informatics consultants who are qualified
+    to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
+    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    your digital health product. If you need to hire a niche EHR consultant to build
+    an interface on the EHR itself and it costs $5k, can you pass that along to your
+    customer or extract that value within your product? If not, you may debate the
+    merits of deploying your product in a standalone fashion or adjusting the terms
+    of your deal for your customer. If you're new to this, we can help. All [Datica
+    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    support to define implementation strategies and to determine feasibility and ease
+    of integration at a given site. \n"
+  :featured_image:
+    :id: 3A5PaEiOYgA6cOO8gA8Ay4
+  :share_image:
+    :id: 4CZYOKYKlyyE6eOieO2o6w
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 2wDfIlF1QY2e6u88acqkMY
+  - :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-11-30T23:44:40+00:00'
+    :created_at: '2016-12-20T19:29:41+00:00'
+    :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  :title: Grahame Grieve - the future of healthcare interoperability (part 1)
+  :slug: grahame-grieve-pt1
+  :pub_date: !ruby/object:DateTime 2016-04-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guest:
+    :id: 5ucOd6EBGgs08WcMOIYyqm
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262521749&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: '*The Healthcare Innovators Podcast* is proud to connect you with Grahame
+    Grieve, Product Director of FHIR for HL7. Grahame hails from Melbourne, Australia
+    and has come to be industry known as the "Father of FHIR." Before creating the
+    Fast Healthcare Interoperability Resources, he spent years working with the HL7
+    standards that assist in transferring clinical and administrative data between
+    software applications. Today, we''ll learn a bit more about the background of
+    FHIR and why healthcare subdomains are attracted to the FHIR standard. This is
+    first in a three-part interview series around the FHIR standard and one that will
+    leave you laughing as Grieve shares his favorite answer to what FHIR stands for. '
+  :key_takeaways: |-
+    1. Discover what potential healthcare requirement would force everyone to re-engineer their interfaces
+    2. Learn the architectural advantage of FHIR versus other data exchange standards
+    3. Understand Grahame's thoughts around open-source and its importance
+    4. Discover the unrealized dream for FHIR and why Grahame wants to eventually come back to it
+  :post: |-
+    **On which subdomain is expressing the most Interest:** "The one that is getting the most focus and attraction right now is EHRs. We have projects in multiple countries, particularly in the USA, to provide open EHR access to data. That's primarily the highest profile work that we have going, but everybody's working relatively hard."
+
+    **On the origin of naming FHIR:** "I'm very happy to say it wasn't my idea. Once it became clear that we had a working standard, I just called resources for help because I'm a boring kind of techie geek. I just called it what it was. Then the marketing committee at HL7 looked at it and said, 'if you want this to be a big deal, you've got to give it a funny name, so people can play with the name.' They banged it around and came up with the FHIR name."
+
+    **On a favorite FHIR acronym twist:** "I've heard them all, but there are always new ones, as well as puns on the FHIR as part of the name. There's also a whole series of jokes around what the latest F-H-I-R actually stands for. My personal favorite is: 'Fixing HL7's International Reputation'."
+
+    **On FHIR current pilots: ** "At the moment, we have prototypes and pilot projects in many countries in the world, in many domains. Some are high profile projects; some are under the radar projects. My focus is now on scaling up the community, because that's where our focus needs to be, because we are getting more and more implementations. In the next five years, FHIR will transition from being the next greatest thing to what everybody does, and becoming boring, in fact."
+
+    **On the advantage of FHIR:** "One of the architectural advantages of FHIR versus other healthcare data exchange processes is that we leverage the Web."
+
+    **On high-profile hacks: ** "Given the number of high profile identity hacks we've had this year, and those are only the reported ones, I think that we should stop assuming that there is any security around people's fundamental identification and the same should apply to their health. Instead of regarding that as necessary to secure, I think society will be forced to move to a world where everybody's information is open, and the social consequences aren't there."
+
+    **On open-sourcing FHIR:**
+
+    * "Health information should be free — free to move." " ...giving your information away increases its value."
+    * "If you hold onto it and try to extract money out of its use, you're actually decreasing the value."
+    * "I've become a strident believer in the value of open source for at least the area that we work in. There are a few other specifications providers who are moving away from any form of openness, getting more and more restrictive, insisting that we must pay them or they'll aggressively prosecute. I look at that and say, "I don't know why you would spend so much time decreasing your value."
+
+    **On how much interoperability you need:** "I have a formula: How much interoperability do you need?  The answer is *n* times two, where 'n' is the amount you have."
+
+    ----
+
+    After the interview, [read more about the FHIR standard](https://fhir.catalyze.io/) here, and don't miss parts two and three of our interview series with Grahame.
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 5So8rOpgA0KeCkaWQM2wqI
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-05-13T04:12:29+00:00'
+    :created_at: '2016-08-13T21:32:54+00:00'
+    :id: 5So8rOpgA0KeCkaWQM2wqI
+  :title: Grahame Grieve - the future of healthcare interoperability (part 2)
+  :slug: grahame-grieve-pt2
+  :pub_date: !ruby/object:DateTime 2016-04-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guest:
+    :id: 5ucOd6EBGgs08WcMOIYyqm
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/264637625&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: 'In part 2 of our healthcare innovators series, Datica co-founder & president
+    Mohan Balachandran continues his conversations with Grahame Grieve ("The Father
+    of FHIR"). '
+  :key_takeaways: |-
+    1. Learn how governance impacts standards and collaboration in healthcare
+    2. Understand the complexity of integrations and the role of APIs
+    3. Develop greater awareness for crowdsourcing related to FHIR and healthcare technology advancements
+    4. Discover the realities of who should own healthcare data
+  :post: |-
+    *Question 1 (Mohan):* Can you talk about the rationale behind the creation of FHIR?
+
+    > “I believe that it was necessary to create a new set of standards that actually solved the problems people have. Fundamentally, that's why we did it.”
+
+    *Question 2 (Mohan):* What problems was FHIR designed to solve, or that HL7 couldn't solve before?
+
+    > “HL7's context was not around exchanging data, or if it was, it was very limited circumstances; it was hard to leverage and wasn't flexible. I wanted to set that flexibility free so people could write apps to do interesting things with data that other people held.”
+
+    *Question 3 (Mohan):* FHIR seems to be very patient centric and all the associated resources around it. Is that how you are thinking about it — that the patient should be at the center of all the data models and data exchanges?
+
+    > “With FHIR, what's been clear from the very beginning is that it is capability-based. So, FHIR is not necessarily patient centric, in fact there are other kinds of views to take of the record, a practitioner centric view, as well. The key changes that it is capability focused.”
+
+    *Question 3 (Mohan):* So it can be practitioner centric; it is almost resource centric as you see fit, based on the workflow that you want to enable. Is that the correct way to look at it then?
+
+    > “We look at healthcare as a Web of information. And although there are some central navigational points around patient/provider — the patient's relationships with other people, the physical locations where care is provided, the teams that provide care — all of those are key navigational points, but none of them are unique and special.”
+
+    *Question 4 (Mohan):* Is it correct that you could essentially string together these resources in various ways, or flow it in different ways to make up a workflow?
+
+    > “As we grappled with the consequences of people taking different perspectives, we started to understand the wider context of how to string together workflows; now we are grappling with how to relate an exchange workflow with a real world workflow and obligations and how to actually administer the process through FHIR.”
+
+    *Question 5 (Mohan):* When people talk about interoperability, should people talk about it in the context of workflows or should they talk about it in the context of data?
+
+    > “I think there's a duality….from some perspectives it’s not necessarily thinking about it as anything more than data. From other perspectives, thinking about it as data and ignoring the ramifications of workflow just leads you down dead ends and creates problems for you. I think you have to think about what people are trying to achieve and make sure that they've thought about all the ramifications. That's where experience comes to the fore, so that you know where people are likely to go to make short term decisions that will create really bad technical debt later.”
+
+    *Question 6 (Mark):* Was there anything that you had learned working with IHE queries that you wanted to change or avoid when you were designing FHIR?
+
+    > “The work that IHE does is really a key important work and I wanted to make that easier. Some people have said, well, FHIR does all that. But people still need to make their specific agreements and figure out their actors and obligations and their due certification. I wanted to make that a thing with process.”
+
+    *Question 7 (Mark):* Do you see that FHIR would work with the IHE to build some of those testing harnesses, or validations, or do you see that it’s something HL7 would begin doing, or governmental agencies?
+
+    > “Within the FHIR project we have a good validator that does detailed depth validation of the content. We are beefing that up and working with the IHE testing to incorporate that code inside the IHE testing tools. So they will use our code for validation as the seamless part of their overall testing workflow. I'm really pleased that we are going in that direction.”
+
+    > “As for testing, I think HL7 has a role in testing where some things are specified completely by HL7. IHE gets to do testing when IHE is doing the certification, the specification and agreements. Then governments and other agencies should do their own testing for their own decisions. There's clearly going to be a lot of work through the U.S. government in the next three to four years, providing U.S. centric solutions to U.S. government problems and the government will be doing the certification. Or, at least running the certification process.”
+
+    *Question 8 (Mohan):* Given the way enterprises look at interoperability...if they make an investment then that investment should be future proof. How has this lack of current backwards compatibility been received?
+
+    > “One of the great things about FHIR is that it is not fixed in stone, so we can make changes to the specifications in response to user experience. One of the hard things about FHIR is that we can make changes to the specifications in response to user experience. That's a double edged sword. All of the institutions that I've worked with have on the one hand felt good that if they raise issues, those issues can be addressed. All have also felt the risk associated with that.”
+
+    > “Initially there are some organizations that stand back saying that they won't engage until it is stable. But increasingly, organizations are saying they can't afford to wait. Either they want to influence the specification or they have to solve problems now. They understand the fact that It’s still not settled in stone is both good and bad; they have to figure out how to manage the risk and leverage the advantage of that.”
+
+    > “So far that has proved less of a problem than we expected. What we expected was for more people to stand back and say they wouldn’t get involved until it's stable. But, that hasn't happened.”
+
+    *Question 9 (Mohan):* Is the patient model the one that is evolving the most, based upon the kind of feedback you get from customers? Or, based upon usage? Or, is it the medications model?
+
+    > “Our team has focused heavily on the conformance resources, the validation related resources. Tending the implementors, there's the patient provider, encounter, institution set that everybody has to engage with. Then there’s the patient summary stuff. Problem lists, medication lists, observations, vital signs. Those are things that come first for everybody.”
+
+    > “There’s enough breadth of understanding in the community about why we've made the choices that we've made. There's a few elements to add and a few trimmings to make around codes, but it's pretty stable now. We are getting towards probably the next version after the one coming, so later next year, I guess we’ll be having active discussions about calling them being done — fixed and actually backwards compatible from now on.”
+
+    *Question 10 (Mohan):* So that is towards the end of this year is when you think about the first long-term support LDS version of FHIR beginning to come out?
+
+    > “Probably October next year, as a guess.”
+
+    *Question 11 (Mohan):* It seems to be very health system oriented. I know that in the spec of FHIR that you also had models around claims and payments. Are you seeing more interest from the payors participating in this, or is it still being driven by the health systems primarily?
+
+    > “I would characterize the payors interest in FHIR as extremely strong. In fact, critical. They aren’t so fussed about running the payment through FHIR, although there's a project running for that and that has strong engagement. What they are really interested in is MACRA. Because it seems likely, given the standards environment that when it comes to guidelines and gathering data for guideline evaluation and evaluating guidelines, it's going to be using FHIR.”
+
+    *Question 12 (Mohan):* Do you mind talking a little bit more about how they intend to leverage FHIR to do the evaluations that MACRA requires?
+
+    > “There are three parts:* One is to provide an API by which you can ask a data repository to make assessments a healthcare measure, and give you some answer about the measure. Then there’s the actual specification of what the measure is. It’s basically a clinical decision criteria. So it is the same technical infrastructure as clinical decision support. Then there’s the specification of the kind of data that the measures can assume and rely on being available, both in terms of what data is present and as how it is represented.”
+
+    *Question 13 (Mark):* So it would be the health system that would have the API or to expose it, saying, "You can ask about patients who have HbA1c or Metformin, or whatever the metric is, and the payors would be doing the queries strictly of the health system in that regard? Or, would the health system in this kind of vision still be pushing that data to the payors, using FHIR to run their own analytics?
+
+    > “It could be that the payors ask the healthcare system to run the evaluation. But I think it's more likely to be a mixed world.”
+
+    *Question 14 (Mohan):* Because of all the breaches about national security implications of healthcare data are you seeing more conversations focused around security and feed level security around FHIR?
+
+    > “The point about national security is interesting. I’ve had discussions about the ramifications of the OPM breach. Clearly the OPM breach is breaching data of national security interest. Whereas, your healthcare data is probably less directly linked, but your healthcare data is just like OPM data—not changeable. It is anchored in your reality.”
+
+    > “As precision medicine gets more pervasive and everybody gets sequenced, and as the sequence hooks up so that your DNA sequence becomes part of your care, then everybody has as part of your record — really deep information about you. Then presumably, it becomes an even bigger magnet for various kinds of malpractice and malfeasance.”
+
+    > “We pay attention to the contextualization of the security frameworks to healthcare, but we are not providing the security. However, we're starting to notice that we need a good security bulletin framework, which we've never needed before. We need to pay attention to more of the security concerns. So, I expect this will be a growing concern for us. I do think that it is a social problem and society will have to adjust to the risks of big data. I expect that it will be messy.”
+
+    *Question 15 (Mohan):* As we try to implement FHIR, should we plan for the security layer to reside outside of FHIR?
+
+    > “The spot on FHIR is the explanation of how to bridge the security problem and the security frameworks to the information that is available through FHIR. I think it's going to be an important part of exercising FHIR. We delegate the hard work of security to the internet security standards. Our main concern is how to map the security information consequences into the information new exchange, or not. We did a fairly deep security audit of it last year and found some security falls in the model. So we beefed up the model, but I routinely do Oauthentic integrations with other providers using OAuth2, who haven't taken those preventive measures that HL7 has or that spot on FHIR has actually.”
+
+    > “I think perhaps we might need a little bit more depth in the security analysis. You could imagine a single company with single server with lots and lots of clients, well it's even a challenge for them. Say you have clients that need to be updated through the Apple App Store. You've got a problem, but it's even a bigger problem if you've got many servers and many apps; they are all interoperating with each other. Introducing a security change, driven change to the API, that is urgent, is a real nightmare in that circumstance.”
+
+    *Question 16 (Mark):* Do you think FHIR will have an affect on the type of personnel that hospitals, software vendors are going to want to have on staff to be working on integrations? It seems like we are going to have a new skillset versus the implementations that we did with HL7 v2, so how do you see that transforming within organizations within the next few years?
+
+    > “When I talk to implementors in the FHIR community about this is there's this thing that goes around about RESTful APIs — the 5-5-5 rule — 5 seconds to find the API, 5 minutes to understand what it was doing and 5 hours to have something working. But to that I add, 5 years to begin to understand healthcare. That is the key driver that the people you have that understand healthcare can easily learn to understand FHIR and RESTful APIs. So, that won't drive change because it's the people you have that understand healthcare and understand what can be done in interop that are the key great limiting step in any integration that you do.”
+
+    > “The big new skill is around what we've just been talking about –– security. I’m starting to see more security specialists coming into the interop space, because with version 2 it was all like, ‘we just secure the channel and forget about security, pretty much.  With FHIR, it is much more complicated than that. You can't secure the channels, you have to secure the API itself.”
+
+    *Question 17 (Mohan):* And from that regard, you can share OAuth keys all the time, but there's always more detail that is required, client-side, authorization, authentication, which portions of the data are you allowed to share, should share, authority to access. It becomes much more complicated.
+
+    > “There are commercial providers of cloud services, Apigee, Akana, and others, working with our community to provide bullet-proof surface APIs. So, you put up an API, but the only service the API talks to is the cloud responder. That simply provides surface security on your Web presence. You might put up something on Linux, on Apache and there's a new security briefing for some obscure part of that, are you even running it? How do you acknowledge that? You don't have to worry about that because the only service that your server talks to is the cloud service and that's not your business to worry about it. You've never heard of anything like that in the version 2 world.”
+
+    *Question 18 (Mohan):* Is there anything that you wish you had thought of when you started designing FHIR?
+
+    > “There are some things that we set out to do that we haven't done and that have fallen by the wayside a bit and then implementers are starting to notice some of the underlying definition or quality work that we had in mind to do. But, people don’t really ask for that. But the overall design, the agile standards development process, the RESTful API, the pragmatic focus on what implementers need to do in the free licensing, I think those things have held up really well and are driving the overall adoption process. Perhaps in a few years time, we'll start accumulating more regrets around technical decisions, but we can keep changing those at the moment, so we don't particularly regret them yet.”
+
+    *Question 19 (Mark):* One of the things I think we have on the agenda to talk about in the future is the economics of integration. Notably, preliminary thoughts or feelings that you are getting from vendors or hospital organizations about how FHIR would be priced. Will it be like many REST API vendors now by volume, or by licensing, like interfaces are today, or how that might work?
+
+    > “At the patient portal level the government's made it quite clear that there will be no charge to the patients, but someone has got to pay for it somehow, somewhere. The vendors may treat it as core infrastructure so that it's in the overall cost; it's a competition-based thing. Certainly developing a real FHIR solution is not cheap.”
+
+    > “Whoever it is that's going to host the server needs to have the security agents in place. That's going to cost you some money, however you do the deployment. All those things cost real, solid, large amounts of money. It's got to come from somewhere. I don't know where the different kinds of services will come because in principle you would just say that we'll just charge for them directly, but this is healthcare where we prefer indirect, obscure ways of charging for things.”
+
+    *Question 20 (Mohan):* perhaps it will be this indirect kind of model is what ultimately evolves from making the data available, and if it is valuable, you are able to make money off of it.
+
+    > “Certainly in terms of the EHR plug-ins it seems likely that the major vendors will have their own app stores and that will be a revenue opportunity to cover the costs of the overall program. That’s certainly one very small part of the overall ecosystem.”
+
+    > “That’s always a challenge with interop because very often the people paying the cost for it are disconnected from the benefits. So it doesn't happen very well.”
+
+    *Question 21 (Mohan):* Which also ties back to the MACRA conversation. So if we have the entire model shift to value-based care, then something like FHIR, something like interoperability, something like pricing becomes a very different proposition. And that is exactly the conversation that I think we’d like to have next time.
+
+    > “Could be really interesting, because right now is the MACRA preparations start rolling up and suddenly this whole business of economics is not a theoretical concern any more.”
+
+    (Mohan) I appreciate you taking the time. I'm glad that you are in the states; at the same time I'm sure you can't wait to get back home in a couple of weeks. Thanks a lot. Have a good day.
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

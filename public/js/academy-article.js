@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var t,t=gajus.Contents({articles:$("#content").find("h2").get()});t.eventEmitter(),$(".article-toc").append('<h4 class="headline-6 spaced-out">Table of Contents</h4>'),$(".article-toc").append(t.list())});

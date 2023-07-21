@@ -1,0 +1,444 @@
+---
+:id: SRifZN2eyGQUQ42k4eUUs
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-17T00:39:11+00:00'
+  :created_at: '2016-11-23T21:57:54+00:00'
+  :id: SRifZN2eyGQUQ42k4eUUs
+:title: HIPAA Legislation is in The House
+:slug: hipaa-legislation-is-in-the-house
+:pub_date: !ruby/object:DateTime 2015-06-02 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: On May 21, 2015, a bill to revise and clarify the HIPAA Privacy Rule’s contingencies
+  on the application and release of PHI was pushed to The House of Represenatatives.
+:blog_lead: 'As of May 21, 2015, the House Committee on Energy and Commerce has officially
+  pushed forward the bill calling for the Secretary of Health and Human Services to
+  “revise and clarify” the HIPAA Privacy Rule’s contingencies on the application and
+  release of [PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)
+  (protected health information) for research purposes. Next, the legislation is on
+  its way to meet the full House of Representatives. We wanted to use our expertise
+  in the situation to briefly explain what this means for digital health companies.
+
+'
+:post: "Under present [HIPAA Privacy Rule](https://datica.com/academy/the-hipaa-privacy-rule/)
+  standards, PHI can be used and shared by covered entities for healthcare payment,
+  treatment, and operations without the need for patient consent. But if this legislation
+  is to be passed, patient authorization will not be needed for the disclosure of
+  PHI for research intents as well if business associates or covered entities are
+  involved. This modern provision aims to accelerate the rate of research, which could
+  lead to breakthroughs in modern medicine, devices, and treatments by removing previous
+  hindrances. But there are those in opposition to these HIPAA proposals voicing their
+  concern for the relaxed direction and feel this could pose concerning patient data.
+  \n\nYou may be wondering why these privacy advocates are fighting so passionately
+  since furthering research is generally a desired notion. But looking further into
+  the bill sheds light on these actions. Upon review, one can find the promotion for
+  advancements in precision medicine (personalized medicine) which will incontrovertibly
+  require highly personalized, hypersensitive, and identifiable data, which many patients
+  will likely want sovereignty over.  An alternative being considered is to make revisions
+  to the bill outlining guidelines that call for de-identification requirements so
+  individuals will not be able to contacted or identified.\n\nAnother provision made
+  in this legislation requests for the penalizing of vendors who fail to meet requirements
+  for secure and interoperable information exchange, something our business partners
+  at Catalyze will never have to concern themselves with. Our number one concern is
+  [compliance](https://datica.com/compliance/) so that theirs doesn’t have to be.
+  \n\n### So what next?\n\nThe bill is headed for the House of Representatives and
+  if the House passes, the legislation will head directly to the Senate. You can expect
+  that all implications towards these privacy provisions will be heavily scrutinized
+  before passing into effect. Stay tuned as we stay up-to-date on next actions concerning
+  this legislation and all things HIPAA related!\n"
+:cta_ref:
+  :id: O1KP7bmXwOqCu0C4AMwkO
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-14T22:20:25+00:00'
+    :created_at: '2017-05-21T20:33:38+00:00'
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :cta_title: Get the HIPAA Guide
+  :cta_desc: This comprehensive guide will walk you through important HIPAA compliance
+    definitions and concepts. You will emerge armed with a basic understanding to
+    HIPAA’s purpose and rules, your obligations, and ways to address compliance.
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/hipaa/
+  :cta_svg_icon:
+    :id: 6KJhSKH6MMmkMuguysWMgu
+  :cta_icon: "/public/icons/brand/icon-large-resource-compliance-blue.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 5nkgweRTpKkSuMKMCa4mog
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-10T00:26:41+00:00'
+    :created_at: '2016-11-23T22:18:33+00:00'
+    :id: 5nkgweRTpKkSuMKMCa4mog
+  :title: 21st Century Cures Act Passes in the House of Representatives
+  :slug: 21st-century-cures-act-passes-in-the-house-of-representatives
+  :pub_date: !ruby/object:DateTime 2015-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: With the intent to lighten restrictions on the use and exposure of PHI
+    for research, the 21st Century Cures Act was passed in 2015. Learn more about
+    it here.
+  :blog_lead: 'Earlier this month, an act with the intent to lighten restrictions
+    on the use and exposure of protected health information for research motivations
+    was passed through the United States House of Representatives called the 21st
+    Century Cures Act.
+
+'
+  :post: |+
+    Presently, the HIPAA Privacy Rule allows the use and exposure of protected health information for research purposes without the necessity of authorization from the patient but does mandate any waiver of the authorization stipulation be approved by an institutional review or privacy board.
+
+    This amendment to the Health Information Technology for Economic and Clinical Health (HITECH) obligates the Secretary of the Department of Health and Human Services to revise/elucidate the HIPAA Privacy Rule to:
+
+    - Permit the utility and exposure of protected health information by a covered entity for the purposes of research to be considered the entity’s “health care operations”
+    - Allow research activities that are in relation to quality, safety, or effectiveness of a product or activity that is managed by the Food and Drug Administration to be regarded public health activities so that the activities can be imparted to a person subject under the FDA’s jurisdiction of the purposes of gathering or announcing adverse events, tracking FDA regulated products, enabling product recalls, or mending/undergoing post-marketing surveillance.
+    - Enable removed access to protected health information as long as the covered entity and researcher preserve appropriate security and privacy safeguards and the protected health information is not plagiarized or otherwise held by the researcher.
+    - Identify that an authorization for the utility and exposure of protected health information for forecasted research purposes. is believed to sufficiently describe the purpose of the utility or exposure of protected health information if the authorization 1) adequately describes the purposes as that if would be appropriate for the patient to expect their protected health information could be used or exposed for stated future research, and 2) clarifies that the permissions will either expire on a specified date or event, or will remain valid unless revoked by the individual.
+
+    This new legislation will also call for the Office of the National Coordinator for Health Information Technology to publicize clarification for the HIPAA Privacy and Security Rules in regards to information blocking, including any business or technical practices that prevent or materially discourage the transmission of electronic health information and do now serve the purpose to guard safety, keep privacy and security of patients’ health information or promote competition and consumer welfare.
+
+    This Act is on its way to the Senate, which is presumed to take the legislation on this fall. Many groups are also in support of the new proposed laws, including the Association of American Medical Colleges and the Pharmaceutical Research and Manufactures of America.
+
+    Are you a HIPAA expert? Want to be one? Find out all you need to know from our [HIPAA resources page](https://datica.com/discover/hipaa-compliance/) written by the team of HIPAA compliance experts here at Datica.
+
+  :cta_ref:
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3V5eQcTkdiww6EekkKKiy8
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-02-03T01:31:42+00:00'
+    :created_at: '2017-02-03T00:26:22+00:00'
+    :id: 3V5eQcTkdiww6EekkKKiy8
+  :title: 4 PHI Marketing Special Cases
+  :slug: 4-phi-marketing-special-cases
+  :pub_date: !ruby/object:DateTime 2016-05-03 00:00:00.000000000 Z
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Under the Omnibus Rule, learn about four special cases for making use
+    of PHI in marketing efforts.
+  :blog_lead: In modern daily practice, healthcare professionals can utilize patient
+    protected health information (PHI) to "market" various alternative remedies or
+    products, without formal authorization from the patient / beneficiary. To start
+    off clearly, marketing is the communication of a product or service that encourages
+    the purchase or use of said product or service. Under the HIPAA Omnibus Rules
+    legislation passed in 2013, marketing interaction in healthcare is severely limited.
+    Within the Omnibus Rules is stated that prior to a compensated covered entity
+    recommending third party products or services, that entity must first receive
+    the proper authorization to use patient PHI. For example, an entity must officially
+    notify and authorize patients to obtain or distribute supplements from a third
+    party that also pays the entity a commission. Furthermore, if the entity apportions
+    any products and receives payments/discounts for bulk purchases, the entity must
+    have a statement of disclosure that patients can review that states the entity
+    may sell them products or services in return for recompense of sorts from a third
+    party. Doesn't that sound like a very uncomfortable conversation? Thankfully,
+    it doesn't have to be.
+  :post: |-
+    The best method to proceed with the desired marketing is to add an explanatory statement about the participation in these business arrangements within the necessary HIPAA Patient Acknowledgement form. Entities must ensure the phrasing is concise, simple, while stating the patient advisement in agreement with the current HIPAA legislation. Often highly encouraged is to include a Third Party Remuneration paragraph just in case of participation in third party compensation promotions or programs. This rhetoric can be suitably customized but must clearly advise patients of participation in all programs that provide repayments.
+
+    Much the same, Business Associates who receive similar payment models must also receive patient authorization, even in cases where the covered entity receives no gains. All addressable under the Omnibus Rule are four special cases to making use of PHI in marketing efforts:
+
+    ### 1. Direct Marketing
+
+    Firsthand, personal marketing communications are actually not liable to the authorization requirement, such as a pamphlet presentation to a consumer.
+
+    ### 2. Refill Reminders
+
+    Excluded from patient consent are reminders for refill services. There is a catch though; Omnibus Rules states compensation for a refill reminder service must be sensibly related to the covered entity's cost. Specifically, these costs are limited to supplies, labor, and postage. Additionally, there are other services similarly classified: generic equivalents communication, directed medication adherence, self-administered biologics or drugs, and delivery systems, such as an insulin pump.
+
+    ### 3. Payments-In-Kind
+
+    Payments in absence of actual money or payments that execute a disease management program are admissible.
+
+    ### 4. Reasonable Propaganda
+
+    Everyone loves presents, but be mindful as to what is legally admissible and inadmissible. Miniscule valued propaganda gifts are not bound to the authorization requirement.
+
+    **There you have it. Those are the four special cases to marketing with PHI. Hopefully this was insightful, and provides a sense of necessary awareness. HIPAA and all of its accompanying mandates are intense and complex. At Datica, we are trying to simplify as many of these convoluted healthcare topics as possible so you don't have to. Don't do it solo! You are not alone in feeling overwhelmed by the incessant twists and turns of this industry. Many healthcare professionals feel the same way. That is our motivation. **
+
+    **Questions? Reach out to us [directly][3], [tweet us][4], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.**
+
+    [1]: https://datica.com/academy/what-is-protected-health-information-or-phi
+    [2]: https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security
+    [3]: mailto:hello@datica.com
+    [4]: https://twitter.com/daticahealth
+- :id: 3nbjv23ydqyiOEwkKkyYCa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-02-06T22:39:21+00:00'
+    :created_at: '2016-11-23T21:37:51+00:00'
+    :id: 3nbjv23ydqyiOEwkKkyYCa
+  :title: If a vendor won't sign a BAA, they aren't "HIPAA-compliant"
+  :slug: vendors-and-hipaa
+  :pub_date: !ruby/object:DateTime 2015-01-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: HIPAA compliance isn't a sticker that you put on servers that wards off
+    hackers and HHS. It's a dedication to doing the right thing for users and their
+    PHI every day.
+  :blog_lead: 'We have [Business Associate Agreements (BAAs)](/academy/business-associate-agreements)
+    with all vendors that are partners to deliver our services which we pass through
+    to our customers through our BAAs. It certainly simplifies things for our customers.
+
+'
+  :post: |-
+    I was talking with a customer the other day about integrating with a service they used for real-time data processing. I first looked to see if this vendor would sign a BAA. I received this from their support staff:
+
+    - The vendor in question doesn't necessarily need to be HIPAA-compliant because they aren't storing data.
+    - But, even if they did, they encrypted the data in transit and in storage.
+    - Ergo, they are HIPAA-compliant.
+
+    Parts of this are true, and it's good the vendor is encrypting data passing through their systems. However, a lot is left out.
+
+    - There is so much more to HIPAA than encrypting data. You can read about everything we do to be HIPAA-compliant in our [policies](/open-source/policies). At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA's physical security requirements](https://hipaa.datica.com/#physical-safeguards-see-a-hrefhttpwww-hhs-govocrprivacyhipaaadministrativesecurityrulephyssafeguards-pdf164-310a). As a result, that vendor would need to have a BAA signed with their hosting vendor to ensure legitimacy.
+    - Even though the vendor claimed they were not storing PHI, having data pass through their systems would still require protection under HIPAA. Also, I would never take a vendor's word on this. You definitely want that promise in writing, in a BAA.
+    - If you are going to work with a vendor who [transmits or stores PHI](/academy/what-is-protected-health-information-or-phi), they've got to sign a BAA with you. Doesn't matter if they encrypt their data. Doesn't matter if they have printed policies that map to HIPAA rules. Doesn't matter if they are a big company that works with enterprises. Doesn't matter if they buy you dinner. Doesn't matter if they'll write a GUI in Visual Basic to scan for Angelina Jolie and Matthew Broderick. You will be on the hook in the event of an audit or breach and you will lack any avenue to seek legal recourse. That's the worst case scenario. HIPAA's rules and policies are exactly for that event.
+
+    I'm always wary of companies that claim to be HIPAA-compliant that don't have clear BAAs or policies. HIPAA compliance isn't a sticker that you put on servers that wards off hackers and HHS. It's a dedication to doing the right thing for users and their PHI every day. There's no HIPAA police or mandated marketing policies, so there's nothing to stop companies from claiming HIPAA compliance by providing you zero or minimal reasonable safeguards of PHI. The bad news is that the moment you'd find out that you weren't covered under HIPAA, barring it didn't prevent a sale, would be at the worst possible moment of a breach or an audit. We can help you avoid this, and in addition to a BAA, you'll get superb service and ops support too.
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 5dA6C7tJtu2kI0IUIcgYE4
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-05T19:08:59+00:00'
+    :created_at: '2016-11-23T22:18:26+00:00'
+    :id: 5dA6C7tJtu2kI0IUIcgYE4
+  :title: 3 HIPAA Omnibus Rule Essentials for IT/Security
+  :slug: three-hipaa-omnibus-rule-essentials-for-it-security
+  :pub_date: !ruby/object:DateTime 2015-10-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: In 2013, the Office of Civil Rights began enforcing a new set of regulations
+    intending to improve patients’ access to their medical records and increase security
+    to protected health information.
+  :blog_lead: "In 2013, the Office of Civil Rights began enforcing a new set of regulations
+    intending to improve patients’ access to their medical records and increase security
+    to protected health information. Called the HIPAA Omnibus Rules, these litigations
+    have forced healthcare organizations and their [business associates](/blog/daticas-success-as-a-hipaa-compliant-business-associate)
+    to scrutinize how they store and transmit patient data. Changes included vary
+    from new rules for [deceased patients](/blog/how-long-to-keep-medical-records-under-hipaa)
+    to how providers market third party services, but here are three need-to-knows
+    for the healthcare IT professional. \n"
+  :post: |
+    ### Business Associates must provide proof of compliance to Covered Entities
+    According to the HIPAA Omnibus Rule, covered entities must ensure that their [business associates](/blog/the-importance-of-business-associate-agreements-baas) are instituting proper compliance efforts. This is formerly referred to as “satisfactory assurance” and covered entities must receive this to assure that [protected health information](/academy/what-is-protected-health-information-or-phi) managed by business associates is meeting the security and privacy protection requirements of the Omnibus Rules, as well as HIPAA and HITECH. So not only must business associates be compliant, but they must provide documentation other sources of information to prove compliance, which has always been the most difficult part of HIPAA.
+
+    ### No penalty caps
+
+    Under the HIPAA Omnibus Rule, certain clarity has been brought to penalties for violations. Although the actual Omnibus Rule seems to be silent on the subject, HITECH seemed to put a cap on the total fines that could be assessed, but the Omnibus Rule does provide new language to revise HITECH’s penalty cap. It is stated in the addendum that there can be civil penalties up to $1.5 million for all identical HIPAA violations in a year. Both covered entities and business associates, can receive further penalties if willful neglect is at play. There can also be additional forfeits if these violations are not identical for up to another $1.5 million per non-identical violation.
+
+    ### Data breaches are assumed with PHI disclosure
+
+    Prior to the HIPAA Omnibus Rules, when covered entities and business associates had sensible supposition that any unseemly disclosed PHI had not been accessed, then that was it, no further investigation or reporting had to be done. Now, under the Omnibus Rule, the disclosure of PHI is automatically assumed to be a [data breach](/academy/hipaa-and-data-breaches). “Innocent until proven guilty” no longer applies. The covered entity or business associate will now need to show that there is a very slim chance that the PHI has been undermined. Now organizations must prove their innocence rather than it being assumed. These instances will always be included in proper HIPAA compliance documentation as retaining investigation proof is a mandated process.
+
+    Check out these other articles to brush up on what you need to know about HIPAA:
+
+    1. [Fifty States of HIPAA](/blog/fifty-states-of-hipaa)
+    2. [What is the cost of a HIPAA audit?](/blog/what-is-the-cost-of-a-hipaa-audit)
+    3. [Beware of HIPAA Ready Vendors!](/blog/beware-of-hipaa-ready-vendors)
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

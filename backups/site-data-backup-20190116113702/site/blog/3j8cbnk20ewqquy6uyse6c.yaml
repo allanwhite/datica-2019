@@ -1,0 +1,347 @@
+---
+:id: 3j8CbNk20EWQQUY6uYSe6C
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-10-05T18:53:14+00:00'
+  :created_at: '2016-08-15T20:36:37+00:00'
+  :id: 3j8CbNk20EWQQUY6uYSe6C
+:title: Why Do Healthcare Information Systems Account For $40+ Billion?
+:slug: why-do-healthcare-it-systems-account-for-40-billion
+:pub_date: !ruby/object:DateTime 2016-08-04 00:00:00.000000000 Z
+:tags:
+- :id: hb3JCbHoOcImGmEMasYEC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:39:05+00:00'
+    :created_at: '2016-09-29T19:39:05+00:00'
+    :id: hb3JCbHoOcImGmEMasYEC
+  :tag_full: Medicare
+  :slug: medicare
+  :url: https://www.medicare.gov
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Compared to others, healthcare information systems (HCIS) are industry specific.
+  The distinctiveness to their development is attributed to six elements.
+:blog_lead: In 2015, the Healthcare Information Systems (HCIS) market accounted for
+  $40.39 billion and is forecasted to reach $70+ billion by 2022. Rising government
+  initiatives, increasing healthcare costs and aging population are some of the factors
+  driving the market growth. Compared to information systems in other industries,
+  HCISs are specific to healthcare. The distinctiveness characterizing the development
+  of HCISs in healthcare is attributed to six elements.
+:post: "### Mismatched Information\n\nAt all stages related to care, information systems
+  showcase errors since healthcare quality is vigilantly implemented and diligently
+  pursued to minimize the impact associated with information mismatch.\n\n### Nature
+  of Personal Information\n\nHealth information systems mostly manage information
+  of personal nature. Most of the data transfer between different healthcare entities
+  involves real and possible risk of information landing in the wrong hands. This
+  perception of compromised privacy makes information exchange in health become extremely
+  convoluted.\n\n### Regulators and Competition Influence\n\nAll patient data in healthcare
+  is subject to regulatory policies. Providers of information and communications technology
+  (ICT) based solutions experience additional complexities when organizations exploit
+  the advantages of their offering. This makes it more complex to realize ICT-driven
+  innovations within healthcare.\n\n### Professionalism and Hierarchy\n\nPowerful
+  stakeholders such as the hierarchical nature and professionals driving the health
+  care organizations often resist technology, creating barriers to fully exploit the
+  potentials associated with health information systems.\n\n### Multidisciplinary\n\nAlthough
+  ICT faces multiple barriers in healthcare, there is an overall unity in the usage
+  of HCISs. This is because of most of the healthcare services are interdisciplinary
+  in nature. This heterogeneity of disciplines in healthcare makes using ICT very
+  complex – forcing an approach that makes the information system different from the
+  simple classification system usually followed in other industries.\n\n### Implementation,
+  Learning and Adaptation\n\nWithin the delivery of healthcare, there is an ongoing
+  tension between the need for order on one hand and the need for sensitivity on the
+  other. Because of this tension, the importance of effective learning and adaptation
+  surrounding the implementation of HCISs increases. The acuteness of the situation
+  can be estimated from the fact that solutions working well in one specific context
+  in healthcare does not necessarily work in others.\n\nInformation systems in healthcare
+  are processes that involve all key stakeholders in an organization's goals, including
+  the project, business unit and the company's overall management. This mandates transparent
+  decision-making in the governance process of the enterprise architecture ensuring
+  that organizational changes move in the desired direction, while also implementing
+  objectives and goals. Such ownership processes may include enforced or clearly spelled
+  rules or may be broadly defined IT principles. Apart from allowing an organization
+  to achieve IT objectives, Information systems help in creating and enforcing accountability.
+  Given the complexity and specificity of the healthcare information systems market,
+  we can only expect funding and interest to increase in the coming years.\n\nQuestions?
+  Reach out to us [directly][1], [tweet us][2], or provide us your contact information
+  to the right. We'll solve your problem so you can focus on your solution.\n\n[1]:
+  mailto:hello@datica.com\n[2]: https://twitter.com/daticahealth\n\nThe most basic
+  part of any HealthKit data point is a unit, which are essentially units of measure
+  for the health data collected via HealthKit. You can collect numbers from your users
+  to no end but they will have little meaning without a unit. In HealthKit, the class
+  representing units is called `HKUnit`. Units are fairly straightforward and many
+  units are already builtin to HealthKit and have helper methods to quickly create
+  the unit you need. Or if there is no helper method to create your unit, the easiest
+  way is to create the unit with what is called a unit string\n\n\tHKUnit *gram =
+  [HKUnit gramUnit];\n\tHKUnit *mgPerdL = [HKUnit unitFromString:@\"mg/dL\"];\n\nYour
+  units should be chosen appropriately for the type of data being collected. For example,
+  you wouldn't choose grams when measuring temperature and its unlikely you would
+  choose Kelvin when measuring temperature either. The two most appropriate choices
+  for temperature would be either Fahrenheit or Celsius. This choice is up to personal
+  preference as HealthKit does not prefer one or the other. There are a number of
+  APIs within HealthKit that aid in converting units between US standard units and
+  the metric system but those are beyond the scope of this blog post.\n"
+:featured_image:
+  :title: freeway intersection
+  :description: stock, cities
+  :url: "//images.ctfassets.net/189dvqdsjh46/5EfEMVImD68O2keyEyekI2/ab85ca60c76a0cc711e8f83bb1cf5119/city_night.jpg"
+  :_meta:
+    :updated_at: '2016-08-18T22:59:36+00:00'
+    :created_at: '2016-08-18T22:59:36+00:00'
+    :id: 5EfEMVImD68O2keyEyekI2
+:cta_ref:
+  :id: 5gMrV2FtksY8Y02c0qiAOW
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-10-19T23:45:33+00:00'
+    :created_at: '2017-09-28T19:08:02+00:00'
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :cta_title: Public, Private, and Hybrid Cloud Computing within Healthcare
+  :cta_desc: Get your copy of the Autumn 2017 Quarterly Report for a breakdown of
+    the latest public vs. private or hybrid cloud debate within healthcare.
+  :cta_label: Get it Now
+  :cta_url: https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/
+  :cta_image:
+    :id: 3OtctYqALCei8CmiwMsMEW
+  :cta_color: gray-light
+:related_entries:
+- :id: 3LD5X2LY3KYK4yamK2WWCC
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-02-08T01:38:36+00:00'
+    :created_at: '2016-08-13T01:52:16+00:00'
+    :id: 3LD5X2LY3KYK4yamK2WWCC
+  :title: Grahame Grieve - the future of healthcare interoperability (part 3)
+  :slug: grahame-grieve-pt3
+  :pub_date: !ruby/object:DateTime 2016-06-20 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guest:
+    :id: 5ucOd6EBGgs08WcMOIYyqm
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274588784&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: 'In this episode, Grahame Grieve, Product Director of FHIR for HL7 continues
+    his last interview in a three-part series with Datica. Mark Olschesky, Datica''s
+    Chief Data Officer questions Grieve about "The Economics of FHIR and Interoperability"
+    for this last interview. The economics of FHIR is a passionate subject for Grieve
+    for which he recognizes that no pat answers exist. In this interview, Grieve contextualizes
+    the questions and provides possible answers that only time will prove out. '
+  :key_takeaways: |-
+    1. Learn how governance impacts standards and collaboration in healthcare
+    2. Understand the complexity of integrations and the role of APIs
+    3. Develop greater awareness for crowdsourcing related to FHIR and healthcare technology advancements
+    4. Discover the realities of who should own healthcare data
+  :post: |-
+    **On the road building of healthcare infrastructure:** "It's very similar economics is to road building. It's the creation of infrastructure that enables exchange to happen. Everybody's interested in a cheaper way to get from A to B. But not everybody's interested in what is required to create a cheaper way to get from A to B."
+
+    **On how APIs impact the end user:** "[Clinicians] are trapped in systems that they don't feel bring value to them or their patients."
+
+    "People have **widely variable workflows.** There is no single description of the workflow that worked for everybody."
+
+    "With APIs it's pretty hard to explain to most end users why APIs makes a difference. But if you **focus on the outcome,** which is better integration, better system wide flows of data and more mobility to customize their experience, then that story becomes compelling for a user."
+
+    **On how FHIR and crowdsourcing address mappings:** "FHIR actually includes specific primary artifacts for dealing with crosswalks and mappings, and we're investing as a community, in building the tools around them. But for the first time, part of the main specification of what we do is the ability to publish, share, review those crosswalks and mappings and to make the executable part of the overall frameworks."
+
+    "We would like to set up a community that manages shared, public crosswalks between common coding systems. We have the infrastructure and the community is starting to think about doing that."
+
+    "I'm a very strong believer in crowdsourcing when it comes to something like crosswalks and mappings. And the ability to use the crowd to refine the fine detail."
+
+    **On the growth of free EHR solutions:** "There's certainly going to be a growth of free EHR solutions. Of course, free is a misnomer, somebody's going to pay someone for the implementation, perhaps with consulting fees."
+
+    **On data ownership:** "There are people who argue that the patient should really own the data, but it's not really the patient's data. It's not easy to tell [patient vs provider data] apart and that will continue to be a challenge for us. From a market perspective, the patient can only own the data if the patient pays to own the data. I do not see anyone considering that fact realistically."
+
+    **On security and privacy of patient data:** "[A black market for healthcare] exists because having healthcare data increases your ability to get access to financial accounts."
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

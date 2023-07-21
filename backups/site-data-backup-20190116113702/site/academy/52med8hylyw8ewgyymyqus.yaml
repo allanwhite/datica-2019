@@ -1,0 +1,606 @@
+---
+:id: 52med8hyLYW8ewGyymYqUS
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-12-14T21:44:04+00:00'
+  :created_at: '2017-01-16T17:41:31+00:00'
+  :id: 52med8hyLYW8ewGyymYqUS
+:title: HL7 101 - A primer
+:slug: hl7-101-a-primer
+:pub_date: !ruby/object:DateTime 2018-03-27 00:00:00.000000000 Z
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:summary: HL7 is a healthcare industry standard for messaging between applications,
+  for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.
+:lead: 'Health Level Seven (HL7) is a standard utilized by the healthcare industry
+  to enable messaging between applications, EHR to PMS (practice management system)
+  for example. It is managed and maintained by [Health Level Seven International (HL7)](http://hl7.org)
+  which is a not-for-profit, ANSI-accredited standards developing organization. '
+:post: |
+  The HL7 standard is often jokingly referred to as the “non-standard standard.” This is not very fair but it does reflect the fact that almost every hospital, clinic, imaging center, lab, and care facility is “special” in terms of how it implements HL7 (really?, why?). The reason is primarily because there is no such thing as a standard business or clinical process for interacting with patients, clinical data, or related personnel.
+
+  The HL7 messaging protocol was designed to facilitate high volumes of pre-defined data to be shared across many applications reliably. The protocol selected to make this happen was a traditional file transfer or a TCP/IP **socket** in both a real-time and batched fashion. HL7 v2 message structure is complex, flat, and delimited. HL7 has obviously evolved over time. The current version of HL7 is v3, however, older versions exist and make up the bulk of the standard used today primarily because of the large number customizations that have been done to each HL7 message.
+
+  #### The key differences between an HL7 v2 and HL7 v3 message are as follows:
+
+  1. v2.x was primarily meant for clinical communications - medical orders, patient registration etc. whereas v3.x has additional features for use by informaticists and for government reporting requirements.
+  2. v2.x was a custom format (barebones text - all coded and separated by a pipe with headers and multiple segments etc.) v2.x looks like this:
+
+  ![academy-hl7protocol](//images.contentful.com/189dvqdsjh46/612KI64BeokOUW82m0w0oc/f4b03fd55891221f038ed0e8ad1c1521/academy-hl7protocol.png)
+
+  whereas an HL7 v3.0 message is an XML format (I'm not sure if that's an improvement) - very verbose and detailed - like this:
+
+  ![academy-hl7syntax](//images.contentful.com/189dvqdsjh46/Ea7Dy1f3CCGWM4uWEwsWK/7ac35d657e029cf8c71aa8dfaa33bef1/academy-hl7syntax.png)
+
+  3. All v2.x formats are backward compatible. v3.x is a wholly separate format and not backwards compatible.
+
+  Any technology solution in healthcare has to support both v2.x and v3.x formats. Open source parsing solutions exist to help with processing HL7 (see section below on Parsing HL7 messages). However, in this author's humble opinion, the 3.x standards are unlikely to be implemented given the investments already made in the 2.x versions. The [FHIR](http://hl7.org/implement/standards/FHIR-Develop/) standards, which are still under active development, are more likely to be implemented rather than the v3.0 standards. See this Figure for some data supporting this hypothesis. (source: Corepoint)
+
+  ![academy-figure1](//images.contentful.com/189dvqdsjh46/2CnbugFEHqQ0SWymeeEWGK/33f4cac50b16d3845ddaf11f32d0a36c/academy-figure1.png)
+
+  ### Customization
+
+  Every conversation that you've ever overheard about HL7 usually includes customizations to be accounted for and associated implementation costs. When I was starting in this space, I heard the same things but wasn't really sure what it meant.
+
+  So here's a summary of what I've learned. I will caveat this by saying that I am not an HL7 expert - there are folks out there who have much more extensive experience than I do; [Keith Boone](http://motorcycleguy.blogspot.com/) for one, whose blog is worth subscribing to if you have any interest in healthcare standards for one. Given that I'm not an expert, if you see any errors in this document, please let me know (and also let us know if you're looking for an interesting change in [careers](mailto:jobs@catalyze.io)).
+
+  More about custom formats... HL7 messages are indeed customized but this does not imply, as an example, that every ADT (admission, discharge, transfer) message is different between different hospitals; ADT is ubiquitous so it's an HL7 message type you should know. Customization came about when certain message types, like ADT, could not support sending all the data elements that needed to be sent. For example, a message might be able to handle only 50 data elements but an EKG reading might need to send over 200. The extra data elements were then sent over using the notorious Z segment - a miscellaneous segment into which pretty much any key value pair could be jammed in. This custom blob of data in the Z segment would then need to be parsed and mapped etc. for automated processing and use, creating impressive levels of customization in data exchange.
+
+  Before you get too excited, the true customization comes in the form of the content of the HL7 message. The HL7 organization has defined code sets to be used to translate the terse codes sent over within the HL7 message. See [here](https://www.impactportal.info/emrCodeSet.asp?SID=4) for a listing of some v2.3 code sets or [here](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) for a more comprehensive listing from the "horse's mouth." The purpose of the code sets, as you can imagine, is to codify the content to reduce the size of the message. ANT, as an example, stands for Anterior in the context of body sites and so on. And, by the way, these code sets for HL7 have also evolved / been added to / modified with each version of HL7. However, these code sets, which are released and maintained as part of the standard, aren't often adhered to. EHRs (usually) and hospitals have defined their own code sets. So the content sent over within the HL7 message needs to be "looked up" against that specific code set before it can be made useful. An Epic code set is unique (although common across Epic deployments) and different from an AllScripts code set. This is the uniqueness that must be addressed by any solution in this space and the reason why HL7 implementations can sometimes be expensive - they need to take into account not only the Z segments and map them to the appropriate data models but the code sets have to be taken into account as well.
+
+  So, in practice, HL7 can be perhaps best described as a messaging protocol and format standard in most implementations rather than as a comprehensive messaging standard.
+
+  ### HL7 Message Types (most common)
+
+  There are more than 80 message types, a whole host of segments and codes for pretty much anything you can think of. See [this](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) document for a pretty comprehensive listing. But the following are the most common HL7 message types:
+
+  |Message Name|Description|
+  |------------|-----------|
+  |ACK|General acknowledgement message. This is the ack sent when a message is received by the destination system. ACKs are automated responses. However, you could use ACKs as a way to modulate the speed at which messages come through as the sending system will not send the next message until the ACK is received|
+  |ADT|Admission, Discharge and Transfer message. Created whenever a patient goes through any of those states. There are a whole list of these possible states. See below for a sampling of a few more|
+  |ORM|Pharmacy/treatment order message|
+  |ORU|Observation message (unsolicited). Unsolicited because the destination systems are not asking for it, it is fired off and the source systems will take it in and process it if needed or discard it if not.|
+  |BAR|Add or change the billing account.|
+  |SIU|Schedule information (unsolicited) usually patient specific. This is used to create, modify and delete patient appointments and other schedules.|
+  |MDM|Medical document management. This often acts as a workhorse. It is meant to handle documents like notes, reports etc. But often is used to capture a whole host of other data for which there is no easy mapping. In which case, the incoming data gets converted into a PDF and pushed into the EHR via this MDM message|
+  |DFT|Detailed financial transactions. This data is used to capture the details of procedures etc. so that claims can be generated.|
+  |MFN|Master files notification - changes to core data elements are sent through this.|
+  |QRY|Query - as the name implies is used to query source systems for data on things like patient demographics etc.|
+  |RAS|Pharmacy/treatment administration message|
+  |RDE|Pharmacy/treatment encoded order message|
+  |RGV|Pharmacy/treatment give message|
+
+  ​It should also be noted that each of these message types have different types (sub-types) as well. For example, there are 51 (yep, that's right) different types of ADT messages that are used for various trigger events. Some of the most commonly used ADT messages include:
+
+  - ADT-A01 – patient admit
+
+  - ADT-A02 – patient transfer
+
+  - ADT-A03 – patient discharge
+
+  - ADT-A04 – patient registration
+
+  - ADT-A05 – patient pre-admission
+
+  - ADT-A08 – patient information update
+
+  - ADT-A11 – cancel patient admit
+
+  - ADT-A12 – cancel patient transfer
+
+  - ADT-A13 – cancel patient discharge
+
+  The important thing to remember is that the content of the message doesn't change all that much between all these sub-types. The message is still about the specific patient (PID segment - see segment section below).
+
+  ### HL7 Segments
+
+  A segment is a group of fields that then contain different types of data. Each segment exists independently and can be utilized in multiple messages, in different sequences. Segments may be required for a particular message or in other cases, they may be optional.
+
+  A unique three-character code called the "Segment ID" identifies each segment. Segment ID codes beginning with the letter Z are reserved for the "custom" Z-segments (key value pairs) that are not part of the HL7 standard.
+
+  You can remove one or more segments from a message if desired. But because HL7 rules state that unexpected or unused segments should be ignored, most systems will ignore the unexpected segments without issue (therefore, manually removing these segments is unnecessary). Segments should be removed only if one of the receiving systems will not have problems when unexpected segments are received.
+
+  These are the most common segment types that will be used across multiple message types.
+
+  |Segment Name|Description|
+  |------------|-----------|
+  |DG1|Diagnosis|
+  |EVN|Event type|
+  |GT1|Guarantor|
+  |IN1|>Insurance|
+  |MSH|Message header|
+  |NTE|Notes and comments|
+  |OBRI|Observation Request|
+  |OBXI|Observation Result|
+  |ORCI|Common Order|
+  |PID|Patient Identification|
+  |FT1|For DFT messages - Financial transactions|
+
+  At a high level, that's HL7. Look for further articles delving into more details on HL7 message structures and the common message types.
+
+  If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+:featured_image:
+  :title: HL7 101
+  :description: academy, article
+  :url: "//images.ctfassets.net/189dvqdsjh46/4ggNbm9G64M8es2wW2qWGO/9706b25bd681fa8181251d61e8861edd/HL7_101.jpg"
+  :_meta:
+    :updated_at: '2018-12-14T21:44:01+00:00'
+    :created_at: '2018-12-14T21:44:01+00:00'
+    :id: 4ggNbm9G64M8es2wW2qWGO
+:related_entries:
+- :id: 743EW7O6qW84osGkC4Qsum
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 743EW7O6qW84osGkC4Qsum
+  :title: HL7 201 - The Admission, Discharge, Transfer (ADT) Message
+  :slug: hl7-201-the-admission-discharge-transfer-adt-message
+  :pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: HL7 ADT message types are the most common HL7 messages. We explain ADT
+    message structure, segments, and event types, including HL7 ADT message examples.
+  :lead: 'The ADT message is one of the most common messages in HL7. It covers a lot
+    of use cases such as admissions, cancellation of admits, merging of patient data,
+    etc. This is the reason why there is such a long list of possible events and message
+    types that could be sent. '
+  :post: "The full list for the HL7 v2.3.1 is shown below.\n\n|Segment ID | Description|\n|-----------|------------|\n|A01
+    \ | Admit/visit notification|\n|A02  | Transfer a patient|\n|A03  | Discharge/end
+    visit|\n|A04  | Register a patient|\n|A05  | Pre-admit a patient|\n|A06  | Change
+    an outpatient to an inpatient|\n|A07  | Change an inpatient to an outpatient|\n|A08
+    \ | Update patient information|\n|A09  | Patient departing - tracking|\n|A10  |
+    Patient arriving - tracking|\n|A11  | Cancel admit/visit notification|\n|A12  |
+    Cancel transfer|\n|A13  | Cancel discharge/end visit|\n|A14  | Pending admit|\n|A15
+    \ | Pending transfer|\n|A16  | Pending discharge|\n|A17  | Swap patients|\n|A18
+    \ | Merge patient information|\n|A19  | QRY/ADR - Patient query|\n|A20  | Bed
+    status update|\n|A21  | Patient goes on a \"leave of absence\"|\n|A22  | Patient
+    returns from a \"leave of absence\"|\n|A23  | Delete a patient record|\n|A24  |
+    Link patient information|\n|A25  | Cancel pending discharge|\n|A26  | Cancel pending
+    transfer|\n|A27  | Cancel pending admit|\n|A28  | Add person information|\n|A29
+    \ | Delete person information|\n|A30  | Merge person information|\n|A31  | Update
+    person information|\n|A32  | Cancel patient arriving - tracking|\n|A33  | Cancel
+    patient departing - tracking|\n|A34  | Merge patient information - patient I|\n|A35
+    \ | Merge patient information - account only|\n|A36  | Merge patient information
+    - patient ID and account number|\n|A37  | Unlink patient information|\n|A38  |
+    Cancel pre-admit|\n|A39  | Merge person - patient ID|\n|A40  | Merge patient -
+    patient identifier list|\n|A41  | Merge account - patient account num|\n|A42  |
+    Merge visit - visit number|\n|A43  | Move patient information - patient identifier
+    list|\n|A44  | Move account information - patient account number|\n|A45  | Move
+    visit information - visit number|\n|A46  | Change patient ID|\n|A47  | Change
+    patient identifier list|\n|A48  | Change alternate patient ID|\n|A49  | Change
+    patient account number|\n|A50  | Change visit number|\n|A51  | Change alternate
+    visit ID|\n\nIn case you're wondering why we always use the v2.3 or v2.3.1 for
+    examples - it's just that the 2.3 and 2.3.1 standards are the most widely implemented
+    standard accounting for well over 80% of deployments. So if you know these two
+    well, you're in pretty good shape. Additionally, except for v3.0, all subsequent
+    HL7 versions are backwards compatible. What you can expect from later versions
+    is more message types, more segments and more codes - and some being retired,
+    of course.\n\nI've always felt that the best way to learn is by doing. So, we'll
+    start with a message that we want to send and see how we can encode and construct
+    that message in HL7.\n\n### The message to be sent\nAs another side note, the
+    examples we'll use throughout will be inpatient oriented as outpatient HL7 messages
+    are identical in nature and simpler to boot. Let's take the simple case of an
+    admission into a hospital. In the case of an admit - you would need to know the
+    name of the patient and some demographics like date or birth, gender, any next
+    of kin and their info in case there are any significant problems, an identifier
+    like an MRN, where they were admitted into (room, bed), who was the attending
+    physician who signed off on the admit, and the reason for the admit. So the message
+    you would want to perhaps send from an ADT system to say a Lab system could be
+    (in plain English) - \"Patient (John A Appleseed) was admitted on Jan 1, 2013
+    at 12:23 a.m. by Dr Sidney J. Good (#004777) for surgery. He has been assigned
+    to room 2012, bed 01 on nursing unit 2000.\"\n\nOne thing, we can know immediately
+    looking at the table above that this would be an ADT-A01 message.\n\n### The mandated
+    structure of the ADT-A01 message\n\nAs we discussed in [the earlier HL7 102: Anatomy
+    of an HL7 message post](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/),
+    HL7 recommends / mandates that messages follow a specific structure. For the ADT-A01
+    message type, the structure is as shown in the image below. \n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/iIS9zbOYmsAI6qcuW6sW4/f8b1eb7c079f09cb417590d46889ba23/academy-sample-hl7-message-sequence.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-sample-hl7-message-sequence\" />\n\n(*source
+    - HL7 v2.3 implementation guide*). Looking at the structure, we can guess that
+    the segments we will need are:\n\n- MSH: the message header (required everywhere)\n-
+    EVN: indicating the event that happened (in this case the admission of the patient)\n-
+    PID: the patient identification segment. Note that demographics can be included
+    within the PID segment itself\n- NK1: next of kin (which is always good to know
+    in a hospital context in case something goes wrong)\n- PV1: information about
+    the patient \"visit\" - this is where you would include the physician info and
+    the current location of the patient.\n- Since an image is worth a thousand words,
+    I'll try and illustrate the process using images rather than a lot of words. I'm
+    not going to give you the mapping tables etc. as I'm pretty sure the HL7 licensing
+    agreements might prohibit sharing outside our org.\n\nIt's easily downloadable
+    from the [HL7](http://www.hl7.org) website. One quick tip before we begin - in
+    most HL7 messages the pipe character `|` is called the BAR and it is the field
+    separator and in the case of this message, we're going to use the `^` as a space.
+    So if you see a bunch of pipes together like this `||||||||||` - all that means
+    is that the fields at that point in the sequence were optional or not available.
+    Also remember that segments are separated by a carriage return - which cannot
+    be displayed as any and all viewers will interpret that for display.\n\n#### The
+    MSH segment\nIf you wanted to mail someone an important letter, you need to specify
+    the from and to addresses and you may sign up for delivery confirmation. That
+    corresponds almost exactly to the first and common segment across all HL7 messages
+    - the MSH (message header) segment. The figure below shows the needed fields that
+    need to be populated in an MSH segment and the values filled in for those fields.
+    We've also assumed here that the system sending the update is an Epic ADT system
+    and it's being sent to a Lab system.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/7giNk2Hp4IgmkGEaaoyU0/3439f88cb3a6e62dc208c0ef819deb2c/academy-msh-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-msh-segment\" />\n\nNow, if we lookup
+    the mapping tables, we can easily fill in the MSH segment with information (after
+    coding it appropriately) to get the following HL7 encoded MSH message segment.\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\n```\n\n####
+    The EVN segment\nSimilarly in the case of the EVN segment, the figure below shows
+    the data needed and the data we have.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/1WjUfO7KaAs66mKkQukuEI/08268698bea9d209874281ce0adfeb60/academy-evn-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-evn-message-segment\" />\n\nFollowing
+    the same process of looking up the mapping tables and encoding, gives us this
+    HL7 encoded EVN message segment\n\n```\nEVN|A01|201301011223||\n```\n\n#### The
+    PID segment\nThe PID segment contains more info such as the full name of the patient
+    etc. Which requires the use of a space and newlines. This is where the other control
+    characters come into play, namely the \"^\" symbol. What we need to send, and
+    the data we have, are as follows:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/13G8LaFtVoAiEgSwAo6EAs/f7c91e444124159a1560395f63f157bc/academy-pid-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-pid-message-segment\" />\n\nAnd following
+    the process above and encoding the data (in this case for example, \"male\" becomes
+    \"M\"), we get the following encoded segment.\n\n```\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1^DATICA
+    STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\n```\n\n####
+    The NK1 segment\nWhat we need to send and what we have is this:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/2B6z9MvyrKeusy0SmEm4u6/7db8f7be80172f3a3f5b078928e411fa/academy-nk1-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-nk1-message-segment\" />\n\nAnd we get
+    this:\n\n```\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT OF KIN\n```\n\n####
+    The PV1 segment\n\nThis:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/5heHePcuYEKe8GmEIccGCg/0d73ad3149934718af15f6807579a95a/academy-pv1-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-pv1-message-segment\" />\n\nAnd we get
+    this:\n\n```\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\n###
+    Putting it all together\nNow that we've generated the individual segments, we
+    need to put them together. In the earlier section on message structure, you'd
+    have seen the required sequence to be followed. So - we do that and voila! - the
+    full HL7 ADT-A01 message (without the carriage returns)\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\nEVN|A01|201301011223||\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1
+    DATICA STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT
+    OF KIN\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\nPainful,
+    isn't it? Well, the good thing is that there are open source parsers that can
+    do this for you. We'll delve into those and I'll give you as comprehensive a listing
+    of those as I can find with some pro / cons as well. We're also building out hosted
+    versions of HL7 parsers with what we see as key enhancements over what is currently
+    available. Stay tuned for announcements about those.\n\nIf you’re looking to integrate
+    EHR data with your application without becoming an HL7 expert, Datica can help.
+    Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).\n\nLooking
+    for further help on integrating an ADT Registration feed with an EHR? Check out
+    this article on [ADT Integration Help.](http://content.datica.com/adt-registration-integration-help)"
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5RqQEl5hpSq2KuyQoYMsIy
+  - :id: iUK3rg26hqUEIsiuAIQou
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: AvBgV9bjDEiuCC4o4EsuW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: AvBgV9bjDEiuCC4o4EsuW
+  :title: HL7 102 - Anatomy of an HL7 message
+  :slug: hl7-102-anatomy-of-an-hl7-message
+  :pub_date: !ruby/object:DateTime 2018-03-14 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: This deep dive explains HL7 message types, message structure, message
+    segments, codes, fields and the complete anatomy of an HL7 message.
+  :post: |
+    In the [previous entry](/academy/hl7-101-a-primer/), we gave you a quick introduction to HL7 and its design - message types, segments and code sets. What I've come to also appreciate as I delved deeper into HL7 is that for all its perceived faults, it has more than served its purpose of standardization of communication of clinical and administrative data amongst disparate applications.
+
+    One can argue about problems arising because of the lack of standardization of code sets and cross-enterprise communication, but one also has to appreciate that this standard is a couple of decades old when inter-enterprise communication was not something at the top of anyone's mind. Heck, EHR implementations were rare too. Expecting HL7, which was designed and developed by consensus to address something far more tactical, to also  address the challenges of comprehensive interoperability, is asking a lot of HL7.
+
+    With that said, in this post, we'll delve deeper into HL7 so that you can better understand how an HL7 message is constructed.
+
+    ### The overall structure of an HL7 message
+
+    Think of an HL7 message as an envelope. It contains various segments (pieces of data) which are (usually) patient oriented and triggered based on specific events (admits, lab results, procedures, discharge etc.) and communicate relevant information about that triggered event.
+
+    There are a lot of message types - 76 in v2.3 and 85 in v2.3.1 and even more now. The key ones to remember were also listed in my [previous entry](/academy/hl7-101-a-primer/). An HL7 message is constructed with:
+
+    - **One or more segments**: Segments are re-usable sub-parts of a message which contain the pertinent information related to that message type. So for example, an Admit message would contain information on the patient and her demographics, the reason for admission, the attending physician who signed off on the admit etc. And as you can imagine, patient demographics is reused in a lot of places and is a segment. There are a lot of segments (101 in v2.3 and 111 in v2.3.1) to cover almost any use case you can think of - from financial transactions (DFT) to Bed Status Updates (NPU).
+
+    - **Fields & Code sets**: Each segment consists of one or more fields of data. Since the message needs to be as short as possible, the fields are encoded using standardized codes (provided by HL7 or other bodies) or user defined (ideally only if HL7 doesn't recommend any or you need to communicate more than permitted). Message Header becomes MSH, patient demographics becomes PD1 and Male becomes M. There are lot of additional codes to cover all the various kinds of information that need to be communicated - 1691 codes in v2.3 not including any user defined codes.
+
+    - and **Control characters**: These are the ASCII characters used to separate data elements (|), indicate spaces or new lines (^) and the beginning of the next segment (the CR or carriage return). These are a subset of the control characters but some of the more important ones.
+
+    In order to ensure that the receiving system knows how to parse the incoming message, some rules are laid down in that define
+
+    - **For each message**, the required or optional segments and the number of times a segment could be repeated within. An example from the HL7 v2.3 standard is shown below. (image: samplehl7.png) (*source - HL7 v2.3 implementation guide*)
+
+    - **For each segment**, the sequence (SEQ) in which fields are expected, their length (LEN), the data types (DT), if the fields are required or optional (R/O), if they are repeatable or not and how many times can they be repeated (RP/#) and the table in which the code sets are defined. This is a "mapping table." An example of which is shown below. (image: hl7chart.png) (*source - HL7 v2.3 implementation guide*).
+
+    Both of these rules are used for validation of any inbound message but the code sets are not. You can now see how the HL7 standard could be bastardized:
+
+    - Code set doesn't cover all my needs: So you add one more to the list that HL7 provides. Now your HL7 standard is not quite a standard and cannot be shared with another entity unless they implement your code set as well
+
+    - Field repetitions allowed is insufficient: I want to send an EKG reading but the standard only allows for 50 repetitions of key value pairs. So I dump the rest into the Z segment and shoot it over that way. Now your HL7 message can be processed by any engine **but** the content inside the Z segment now has to be parsed and managed separately.
+
+    A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+    - No brackets around it - **Required**
+    - [] - **Optional**
+    - { } - **Repeating**
+    - [{ }] - **Optional Repeating**
+
+    The ORM message structure is as follows.
+    ```
+    ORM     General Order Message
+    MSH     Message Header
+     [{NTE}]    Notes and Comments (for Header)
+    [
+       PID     Patient Identification
+       [PD1]    Additional Patient Identification
+          [{NTE}]  Notes and Comments (for Patient ID)
+       [PV1    Patient Visit
+        [PV2|]   Patient Visit Additional Information
+        [{IN1   Insurance
+          [IN2]   Insurance Additional Info
+       [IN3]   Insurance Additional Info
+        }]
+        [GT1]   Guarantor
+        [{AL1}]   Allergy
+      ]
+    ]
+     {
+       ORC    Common Order
+      [
+       Order Detail Segment OBR, etc.
+           [{NTE}]  Notes and Comments (for Detail)
+           [{DG1}]  Diagnosis
+           [
+            {
+             OBX   Observation/Result
+                  [{NTE}] Notes and Comments (for Results)
+             }
+           ]
+      ]
+      {[CTI]}   Clinical Trial Identification
+     [BLG]    Billing segment
+     }
+    ```
+
+
+    Hope that gave you a deeper insight into HL7. In the next post, we'll take an actual HL7 message - the ADT - and break it down to help you understand how it's constructed exactly.
+
+    If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light

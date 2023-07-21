@@ -1,0 +1,21 @@
+---
+:id: 68ueoJ9nJmQySiWUqcck0q
+:_meta:
+  :content_type_id: forms
+  :updated_at: '2018-09-28T17:35:45+00:00'
+  :created_at: '2018-09-28T17:35:45+00:00'
+  :id: 68ueoJ9nJmQySiWUqcck0q
+:title: CCMS Managed Services Survey
+:slug: ccms-managed-services-survey
+:desc: 'Embedded HubSpot form for capturing interest on managed services to monitor
+
+'
+:custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+  src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+  type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+  \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"ddfa2fa0-e024-45f2-9cfc-6ef7b0e082f9\",\n
+  \ css: \"\",\n  target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n
+  \   window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n                      'event'
+  : 'GAEvent',     \n                      'eventCategory' : 'Product Survey',\n                      'eventAction'
+  : 'Form Submission',\n                      'eventLabel' : 'CCMS Services Survey',\n
+  \                     'eventValue' : '5'\n                      });\n                    }\n});\n</script>"

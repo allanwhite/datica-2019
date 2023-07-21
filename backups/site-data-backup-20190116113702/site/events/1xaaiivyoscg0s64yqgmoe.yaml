@@ -1,0 +1,289 @@
+---
+:id: 1xaAiiVYosCg0S64YQgmoE
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-01-05T20:28:41+00:00'
+  :created_at: '2017-10-20T21:42:04+00:00'
+  :id: 1xaAiiVYosCg0S64YQgmoE
+:title: 'Presentation: "Standardizing Compliant Ops Led to Breakthrough Apps"'
+:slug: aws-reinvent-2017
+:date_start: !ruby/object:DateTime 2017-11-27 09:00:00.000000000 -07:00
+:date_end: !ruby/object:DateTime 2017-12-01 18:00:00.000000000 -07:00
+:event_tags:
+- Conferences
+- Presentations
+:is_featured: true
+:event_logo:
+  :title: aws-reinvent-logo-2x-centered
+  :description: logos, partners, conferences
+  :url: "//images.ctfassets.net/189dvqdsjh46/4ysc9facYgkYymYY8OgYEg/97a8e5c0cfd4f67c4dfb1122212ee228/aws-reinvent-logo-2x-centered.png"
+  :_meta:
+    :updated_at: '2017-10-20T21:41:47+00:00'
+    :created_at: '2017-10-20T21:41:47+00:00'
+    :id: 4ysc9facYgkYymYY8OgYEg
+:event_photos:
+- :title: deas, leako at re-invent conf 2017, featured image
+  :description: blog, aws, re:invent, conference
+  :url: "//images.ctfassets.net/189dvqdsjh46/2EYJHCCM0ISOSoyYcEcMYO/17dd8efdc4ba58bfd30e60ba0cf0b036/deas__leako_at_re-invent_conf_2017__featured_image.jpg"
+  :_meta:
+    :updated_at: '2017-11-28T00:41:18+00:00'
+    :created_at: '2017-11-27T23:54:22+00:00'
+    :id: 2EYJHCCM0ISOSoyYcEcMYO
+- :title: aws reinvent 2017 - all the services wide
+  :description: wide, pano, aws
+  :url: "//images.ctfassets.net/189dvqdsjh46/1girbRNRDi0Kg6WmQWskUU/4275a1c8a34d6b8d6cc244cb4252b216/aws_reinvent_2017_-_services_wide.jpg"
+  :_meta:
+    :updated_at: '2017-11-29T21:28:38+00:00'
+    :created_at: '2017-11-29T21:28:38+00:00'
+    :id: 1girbRNRDi0Kg6WmQWskUU
+:summary: Datica CTO Adam Leko and Methodist Le Bonheur Healthcare's David Deas present,
+  "How Methodist Le Bonheur Healthcare's Focus on Standardizing Compliant Ops Led
+  to Breakthrough Apps".
+:event_desc: |
+  At the AWS re:Invent conference, Datica CTO Adam Leko and Methodist Le Bonheur Healthcare's David Deas presented, _How Methodist Le Bonheur Healthcare's Focus on Standardizing Compliant Ops Led to Breakthrough Apps_.
+
+  Read the [blog post and AWS re:Invent recap](https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/).
+:event_related_people:
+- :id: tS99AxZ3pYSE2aUmSEoGm
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-01-02T22:20:18+00:00'
+    :created_at: '2017-01-25T22:23:00+00:00'
+    :id: tS99AxZ3pYSE2aUmSEoGm
+  :fullname: Adam Leko
+  :slug: adam
+  :person_type: Datica Alumni
+  :sort_weight: 4
+  :role: Chief Technology Officer
+  :profile_pic:
+    :id: 4Uh98QRMyASIuo4QoCgIe0
+  :email: adam@datica.com
+  :bio_short: 'Adam Leko leads the technical vision of Datica as its CTO & CISO. His
+    background is in high-performance computing, distributed systems, and security. '
+  :bio: Adam has a MS in Computer Engineering from the University of Florida, has
+    scholarly publications in the areas of high-performance embedded networking and
+    performance analysis, and is co-author of a patent for processing streams of data
+    in a distributed environment (US 8959075 B2).
+  :profile_linkedin: adamleko
+  :location:
+    :lat: 39.099144
+    :lon: -94.57920000000001
+- :id: 27xLQUYWzy6K62Y00woAky
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-05T02:34:35+00:00'
+    :created_at: '2017-10-20T20:32:16+00:00'
+    :id: 27xLQUYWzy6K62Y00woAky
+  :fullname: David Deas
+  :slug: david-deas
+  :person_type: Customer
+  :role: Corporate Director, Innovation and Knowledge Analytics
+  :profile_pic:
+    :id: 1c9thrIRPGgQ4iokWqmkOI
+  :profile_twitter: david-deas
+  :profile_linkedin: david-deas-4475531
+  :location:
+    :lat: 35.1495343
+    :lon: -90.0489801
+:tags:
+  :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T21:38:17+00:00'
+    :created_at: '2017-10-20T21:38:17+00:00'
+    :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :tag_full: Events
+  :slug: events
+  :description: Datica events, conferences, speaking opportunities, etc.
+  :url: https://datica.com/events
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:event_location:
+  :lat: 36.121174
+  :lon: -115.1696526

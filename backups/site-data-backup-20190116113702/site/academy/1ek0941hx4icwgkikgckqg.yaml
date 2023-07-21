@@ -1,0 +1,679 @@
+---
+:id: 1eK0941hX4icwGkikGCKQg
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:39+00:00'
+  :created_at: '2017-01-16T17:41:33+00:00'
+  :id: 1eK0941hX4icwGkikGCKQg
+:title: HIPAA and Data Breaches
+:slug: hipaa-and-data-breaches
+:pub_date: !ruby/object:DateTime 2018-04-11 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: 'Understanding the HIPAA breach policy and having a breach notification
+  checklist can prepare you in case of unauthorized disclosure of ePHI. '
+:post: |
+  One of the most important aspects of HIPAA has nothing to do with technical security like encryption, backup, logging, or any of other requirements for securing data. What's important is what happens in the case of an unauthorized disclosure of ePHI, or a breach of ePHI. A breach is defined as unauthorized exposure of ePHI or disclosure that's not authorized or allowed under the HIPAA Privacy Rule. The breach rules were amended in 2013 as part of the HITECH Act.
+
+  HITECH Act Sec. 13402(b) Notification of Covered Entity by Business Associate states - A business associate of a covered entity that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured protected health information shall, following the discovery of a breach of such information, notify the covered entity of such breach. Such notice shall include the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been, accessed, acquired, or disclosed during such breach.
+
+  The majority of breaches are actually not software breaches. They're not hacking into a system that causes the unauthorized disclosures. Breaches affecting over 500 records are [published](http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/breachtool.html) by CMS. You can see there's a searchable database of breaches that have occurred, how many records were affected and the type of breach. The vast majority of breaches are hardware breaches. The majority, if not almost all of the breaches, seem to happen because of [employee carelessness](http://rockhealth.com/wp-content/uploads/2013/03/34f9a961f56ac6d3013d8b1bd266ef3b96fee194.png). It seems like it's almost always a contractor's laptop, often at the VA, that's been unencrypted and has been storing tons of patient records. The laptop is stolen from a car or a house or a coffee shop or an airport or whatever.
+
+  "Hacking/IT Incident" only accounts for 68 breaches, a relatively small number. There is great potential to have a breach with a malicious hacker breaking into a private network or any sort of cloud storage, especially public cloud. This potential has fueled much of the slow pace of moving ePHI to the cloud.
+
+  There are ways to mitigate that risk – and that is why we created Datica – but the important thing when it comes to a breach is actually having a process in place that details the steps to take in case of a breach. How do you assess what information was exposed in an unauthorized way and then how do you go about notifying relevant parties of that breach? The necessary notifications include anybody from the actual patient whose medical record was exposed, to the media, covered entities, and business associates. The notification policy should lay out plans for forensics to discover the extent of the breach and the cause of the breach. There is typically a chain of command that is outlined in a breach notification strategy that lays out, in detail, who is responsible for different aspects of notification and mitigation. The rules also put the burden on the business associate "of demonstrating that all notifications were made as required" by HIPAA.
+
+  The policies should be consistent with what is in the requirements of a business associate agreement in as it relates to the timing to report a breach. HIPAA requires notification of a breach "without unreasonable delay" but allows, at a maximum, 60 days to report a known breach. Most covered entities we've worked with want that timeline to be much shorter, and the range we usually hear is somewhere between 24 hours and 5 days. This can be a sticking point in business associate discussions. Some hosting providers have polices in place for breach reporting that are 30 days, 45 days, or even 60 days out; this is not typically inline with what a hospital, payer, or another large healthcare enterprise would expect from a business associate agreement and a breach policy for a business associate that they are working with. Despite the 60 day window, HIPAA rules also go on to require "evidence demonstrating the necessity of any delay." If it takes 60 days, there have to be reasons given for that delay.
+
+  Breach policy and breach notification are things that are extremely important. There are templates for breach notification, but the policy alone does not mitigate risk. There needs to be an understanding within the organization, business associate, or covered entity of what a breach is and what the breach policy is. There also need to be auditing and logging and other systems (IDS) in place to detect and investigate a breach. Detecting the breach is often the challenge which is why having a comprehensive audit log is necessary and, more importantly, being able to generate alerts off the log is critical. Look for something from us to help you address this problem shortly.
+
+  At Datica we have [both](https://catalyze.io/hipaa#hitech-act-and-omnibus-rule:-it-security-provisions) a breach policy and a breach checklist that we can follow in the case of a breach. We've mock tested this policy and checklist to assure it makes sense and all relevant workforce members understand their roles. If you want to learn more about our policies for handling breaches, please just [ask](mailto:hello@catalyze.io).
+:related_guide:
+  :id: 1L20oQXl3G2cKSm4gg2wuc
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:41+00:00'
+    :created_at: '2017-06-20T21:34:40+00:00'
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :title: HIPAA Compliance at the Application Level Guide
+  :slug: application-hipaa-compliance
+  :summary: HIPAA compliance at the application level is different than the infrastructure
+    level. This comprehensive guide explains HIPAA considerations for digital health
+    applications.
+  :subhead: A guide written by HIPAA compliance technical experts
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: When a digital health product stores, processes, or transmits PHI, HIPAA
+    asserts rules for how it should handle a multitude of security, privacy, and policy
+    procedures, called “controls”. Demonstrating that your company and your digital
+    health product meet all those controls is how you can call yourself compliant.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: "HIPAA controls can be conceptually organized into three levels: infrastructure,
+    application, and company. This guide dives into all the under-the-hood considerations
+    you must manage at the application level to ensure your application meets the
+    security requirements required for healthcare data. \n\nFollowing this guidance
+    will enable you to get through an audit process and help you more successfully
+    engage with healthcare customers.\n\nThe HIPAA Compliance at the Application Level
+    guide includes information and checklists for:\n\n* Your responsibility for HIPAA
+    \n* Understanding your application's usage including access, credentials & provisioning,
+    ACLs, and usage audits\n* Alignment with customer processes and needs, including
+    business continuity, training & support, data onboarding and backload, collecting
+    user and outcomes data, and upgrading the app\n* Proving compliance"
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ad91c94e-b298-4416-88fe-1548367689f2
+  :bg_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: SMDqjNdTaKCGU60Ow6eYu
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: SMDqjNdTaKCGU60Ow6eYu
+  :title: HIPAA Data Retention Requirements
+  :slug: hipaa-data-retention-requirements
+  :pub_date: !ruby/object:DateTime 2018-07-23 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: HIPAA requires that business associates and covered entities retain multiple
+    types of data for at least six years. Learn what data you need to retain.
+  :post: |
+    HIPAA requires that business associates and covered entities retain the following for at least six years from creation date or last effective date, whichever happens to be later.
+
+    - A written or electronic record of a designation of an organization as a CE (e.g., health plan, affiliated covered entity, etc.) or BA.
+    - Information security and privacy policies and procedures implemented to comply with HIPAA.
+    - All documented settings, activities and assessments required by HIPAA.
+    - All data use agreements and other forms supporting HIPAA compliance.
+    - All signed authorizations and, where applicable, written acknowledgments of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgments.
+    - The Notice of Privacy Practices for entities that must provide them.
+    - Designated record sets that are subject to access by individuals.
+    - Documentation of the titles of the persons or offices responsible for HIPAA compliance, including not only those with over-all responsibility for compliance, but also those responsible for receiving and processing requests for amendments by individuals, and those responsible for receiving and processing requests for an accounting by individuals.
+    - Accounting of disclosures of protected health information (PHI).
+
+    In addition to understanding what HIPAA requires for retention, covered entities and business associates must also know their other legal requirements for retention, from state, federal, international and contractual requirements. For example, Connecticut state law requires that medical records, some of which go beyond HIPAA’s definition of PHI, be maintained for 7 years.
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: 3JRgbNv5QcuO2ouAcUOaiI
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 5IWeaTEI9yCAQYK8qeqa2I
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 5IWeaTEI9yCAQYK8qeqa2I
+  :title: Why HIPAA is not PCI
+  :slug: why-hipaa-is-not-pci
+  :pub_date: !ruby/object:DateTime 2018-04-16 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: 'This post discusses HIPAA and different types of hosted infrastructure
+    options, answering the question of why HIPAA is not PCI. '
+  :post: |-
+    This post is part an answer to a question on Quora about HIPAA and different types of hosted infrastructure options. You can read more on Quora [here](http://www.quora.com/Health-Insurance-Portability-and-Accountability-Act-HIPAA/Becoming-HIPAA-Compliant-Should-you-use-a-Backend-As-A-Service-or-a-HIPAA-Server-Why).
+
+    To start, and for full disclosure, I'm the co-founder of Datica. At Datica we offer APIs for developers looking to add HIPAA compliant hosted infrastructure to web and mobile apps. We take a different approach from either of the two examples cited, and we believe we have good reasons from a risk mitigation and application functionality standpoint. Mapping Datica to the various aspects of HIPAA, we currently address technical and physical requirements, and will be very shortly adding a tool to address the administrative and policy safeguards; for this last part (admin and policy), we needed a tool internally to proactively address the admin and policy rules of HIPAA and, after building it, we've been asked by multiple customers if we could offer it as a service, so we are - HIPAAboard.com.
+
+    Back to the question. The answers so far are very thorough and the bulk of what I would say has been covered. The specific comparisons between HIPAA IaaS and PaaS options are nicely laid out, though the distinction between IaaS, PaaS, and BaaS have eroded and aren't clean cut. It's probably worthwhile to give examples in each bucket:
+
+    - IaaS - AWS, Rackspace, Azure, SoftLayer, Firehost, OnlineTech, etc. You can think of these as a blank slate or terminal in the cloud. These were the pioneering services. Very powerful and have led to incredible disruption.
+
+    - PaaS - Heroku, Cloud Foundry, OpenShift, DotCloud, etc. These services take care of application deployment and scaling so you don't have to worry about linux or unix, at least remotely (you still have to get a local environment running as you build and test). You still have to write your own APIs and web services, but you don't have to worry about configuring a server and database.
+
+    - BaaS - Parse, Kinvey, StackMob, etc. These began as mobile backends, but have evolved to offer web developers the same SDKs (JS); web and mobile are converging so this makes sense. With BaaS you can focus on the front-end - UI and UX - and distribution, without having to worry about touching a server or database. With the explosion of mobile apps, and bespoke apps, over the last several years these services have seen tremendous growth.
+
+    - EVERYTHINGELSEaaS - Twilio/Plivo, UrbanAirship, Keen.IO, MongoLab, etc.
+
+    The reason I say these buckets are converging is we're seeing AWS offer services like messaging via it's SNS service and Parse offer analytics, like Keen.IO and Flurry, and Push, like UrbanAirship. Heroku also offers a myriad of services via Add-ons.
+
+    As a developer, the service layer you choose in large part depends on the application you are building and the specific needs you have from a business and use case perspective. The more complex the app, especially as it relates to backend logic and data modeling, the more likely you'll need to use a secure IaaS like Firehost. If you're new or the app is new, you may not know how complex the app needs to be or what your backend needs are, so using an abstracted service layer, like what Datica offers via APIs and SDKs, is a much faster and cheaper way to get up and running, and ideally validate some of your hypotheses. I can say that at Datica we haven't had many cases where we can't support the business or use cases; most apps and developers that have approached us and are using Datica can use API-based services, like the ones we offer to get up and running on day one, without the need to roll their own infrastructure on Firehost, OnlineTech, AWS, or Rackspace. We also offer this at a considerable savings over Firehost, AWS, or Rackspace.
+
+    There's also a question of flexibility when developing. The more infrastructure services you rely on, the faster you'll get started and the less ongoing maintenance you'll have, but you'll also have less flexibility, and you'll likely pay a bit more for the convenience. That is one of the major gripes that developers have with BaaS like Parse; they often complain that you can only build simple apps using BaaS. Flexibility may not be a big deal and, when it comes to building a vertical-specific infrastructure, which is what we're talking about here, hopefully the infrastructure (PaaS or BaaS) provider knows healthcare and is close enough to its customers to build out the services and features required to meet the majority of developer use cases. At Datica we think HIPAA is just one part of health app development, and expand upon that with additional tools like data models, mappings, and sources. The more health-specific features you can offer means you're just left with corner cases, and no one service, even a vertical specific offering, is going to be able to meet all the corner cases.
+
+    We do, or I should say our attorneys, our HIPAA auditors (we just completed our independent 3rd party HIPAA audit this summer/fall), and at least two health system compliance offices we've worked with, disagree with the assessment that you can add a storage layer via API to an existing app (on Heroku or Google App Engine) and address the security rules within HIPAA. It's not as simple as the approach Stripe takes to making apps PCI compliant because the data isn't as simple, and PCI and payment processing is a different problem from HIPAA compliance.
+
+    Stripe is a really good example to illustrate this. For an app to be PCI compliant using Stripe it has to use HTTPS, which isn't really a major hurdle, and use one of the front-end JS libraries or widgets from Stripe (currently Stripe.js or Checkout). The reason for this is that, by using one of those front-end libraries, all payment data passes directly to Stripe and the app that's using Stripe is out of scope for PCI. So Stripe technically doesn't make apps PCI compliant, it enables apps to process payments while not touching PCI-relevant data, and in the process enables apps to remain out of the scope for PCI compliance.
+
+    At the end of the day, all you need from Stripe is to store payment information and process payments, either on demand or at scheduled times. This is a simple use case, really, and is the reason why it is easy to handoff payments and PCI compliance to Stripe; it's also the genius of Stripe. It's really a very powerful solution. We've used it and love it! You can read more on Stripe and PCI [here](https://support.stripe.com/questions/do-i-need-to-be-pci-compliant-what-do-i-have-to-do).
+
+    The thing about payment processing is that it is necessary but not a core part of any app. And the subset of PCI-relevant data is much, much smaller than PHI data. Because of that, applying the Stripe model to HIPAA is much, much harder. Any identifiable information, as defined by [HHS](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance), linked to a health related service or payment, is considered PHI, and in scope for HIPAA. It's far more likely an app would store and use a phone number or email or an IP address (in a log maybe), as an example of identifiable data, than an app would need to store a credit card number. And it's far harder to build front-end libraries, like Stripe.js and Checkout, for the myriad of data and models health app developers will want to create and store that would be considered PHI.
+
+    It's really hard, and we see it as a burden to developers, to prevent custom apps from acting as a passthrough and touching PHI. Separating logic from data is a hard thing to do, and we think has very limited use cases. And if apps touch (transmit, process, store) PHI then those apps are considered in scope of HIPAA and have to be secured to meet HIPAA requirements. And, as of 9/23/2013, so do all subcontractors used to build or run those apps.
+
+    Another fundamental difference with HIPAA is that the data you are storing is part of the core value of the app; if you build a health app, health data IS is your app. It's not payment processing. It's the data collected via a glucose monitor or a WiFi scale or an intake form or a virtual visit app (asynchronous telemed). The app has to use that data to power the app (provide logic) and provide a customized user experience. In the overwhelming majority of cases the app needs access to that data, and you can't simply hand off the storage layer and make an app compliant or out of scope of HIPAA.
+
+    It's why, after spending a lot of time researching the challenges of HIPAA security, we built Datica the way we did, with version 1 being essentially a HIPAA compliant BaaS offering, and not as an add-on for existing apps. Our platform (users, auth, storage, etc) is API-based, so could be used as storage layer, but we don't think that's a real path to HIPAA compliance. Datica Compliant Cloud includes additional features and flexibility, something we're really excited about and hope will address more and more of the market need. Ultimately we want to give developers a simple way to add modern web services to health apps and, in the process, we want to mitigate risk for them and help them overcome some of the compliance roadblocks we encountered in building and selling apps in healthcare.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 4yuVlN4hWw0wgM6SOaae0G
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 2aVxbQ5VAoqmKkQksiQSCA
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 45hh3YTAoweueQYcmaCKsW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 1cDUJOfihS6CamYeuSG2KW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:23:57+00:00'
+    :created_at: '2018-01-10T21:40:08+00:00'
+    :id: 1cDUJOfihS6CamYeuSG2KW
+  :title: GDPR Data Breach Notification Checklist
+  :slug: gdpr-data-breach-notification-checklist
+  :pub_date: !ruby/object:DateTime 2018-01-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: This GDPR data breach notification checklist outlines the steps that should
+    be orchestrated by your data protection officer to ensure GDPR compliance.
+  :lead: The breach notification requirements outlined in GDPR Article 33 are aggressive
+    —“The controller shall without undue delay and, where feasible, not later than
+    72 hours after having become aware of it, notify the personal data breach to the
+    supervisory authority.” We discussed how this is different from [breach reporting
+    requirements in HIPAA](https://datica.com/academy/gdpr-data-breach-requirements/)
+    in another Academy article. This post walks through the steps you should take
+    to evaluate your breach reporting policies and procedures to bring them inline
+    with GDPR.
+  :post: "\nAt Datica, we’ve built and tested our breach notification process to meet
+    the most stringent notification requirements of covered entities. At times, we’ve
+    had to adjust our compliance program. The following steps are the ones we went
+    through when we updated our breach reporting. All of these actions should be orchestrated
+    by your data protection officer, the person at your organization who is ultimately
+    responsible for your compliance with GDPR.\n\n## Define and get consensus on what
+    you mean by “breach”\n\nIt’s imperative to agree to the meaning of the term ahead
+    of time, and educate your entire workforce and partners about it. Successfully
+    meeting the 72-hour timeline for beach notification under GDPR requires that all
+    members of your workforce are trained and activated when it comes to identifying
+    a potential breach. Under GDPR, [the term “data breach” is more expansive](https://datica.com/academy/what-is-data-breach-gdpr-and-hipaa/)
+    under GDPR  than under HIPAA, so it’s important to understand if you are complying
+    with the GDPR definition before you go through the process of updating your breach
+    notification processes.\n\n## Document your current process\n\nStart with your
+    policies. Specifically, in regards to breach notification, these should outline
+    1) the steps and 2) the responsible parties when it comes to breach notification.
+    You can look at our [Datica breach policies here](https://policy.datica.com/#12-breach-policy).\nThere
+    are several key things you need to identify and document:\n\n### Identify Major
+    buckets of work \n\nYou don’t have to get into the details yet, but you should
+    understand your broad areas of work. Examples are things like identification,
+    investigation, containment, and notification (both internal and external).\n\n###
+    Rank the criticality of each bucket of work\n\nPerfect is the enemy of the good,
+    even when it comes to compliance. To condense a set of processes down to meet
+    the 72 GDPR data breach requirement successfully, there’s an incredibly high likelihood
+    you will have to sequence things in new ways. Understanding the criticality is
+    essential to do this. The criticality is based predominantly on the risk to your
+    organization of not doing that process.\n\n### Rank each bucket of work by the
+    amount of time it takes to complete\n\nFor each of the identified buckets of work,
+    rank them by the amount of time they take to complete, from shortest to longest.
+    Assume unlimited resources for these assessments.\n\n### Identify Key personnel\n\nIdentify
+    required roles for your current process. As a part of this, pay attention to bottlenecks
+    and where additional resources might be able to shorten the overall time required.\n\nIf
+    this step of documenting your current process is hard to start or complete, you
+    may want to quickly look for external assistance from an advisory firm that specializes
+    in healthcare compliance. One of the features of GDPR is security by design and
+    by default. Timely breach notification is a symptom that falls out of this underlying
+    ethos, so it’s likely you need a broader revamp of your security and compliance
+    programs.\n\n## Identify critical steps that must be completed before notifying
+    authorities\n\nThis part is challenging because it has a degree of subjectivity.
+    Now that you’ve documented your current breach process, you have to identify things
+    that can be delayed until after authorities are notified. The GDPR 72 hour timeline
+    isn’t for informing individuals; it’s for notifying authorities. The only way
+    you’re going to be able to meet the 72 hours is by trimming part of the process.
+    Since informing authorities isn't publicly disclosing a breach, some activities,
+    like investigation and media strategy, can be done after authorities are notified
+    of a breach. The intent of the 72-hour timeline in GDPR is likely to notify authorities
+    so they can be prepared proactively and potentially assist with, notifications
+    to affected individuals.\n\n## Develop the new process that can be completed in
+    72 hours\n\nNow that you’ve documented the current process and made the hard decision
+    about what can be delayed until after you notify authorities of a breach, you
+    need to document your new process. You don’t need to list the 72-hour timeline
+    for notifying authorities. You can outline this in your data protection agreements
+    or contracts with customers.\n\nIn light of the GDPR requirements, our view is
+    that it is prudent to have one breach notification policy and process that differentiates
+    notifying authorities and notifying individuals. You can educate your workforce
+    and ensure you can meet the stringent 72 hours for authorities while then doing
+    additional steps before you inform individuals.\n\nBelow is a very high-level
+    example breach notification process.\n\n1. Discovery\n2. Initial investigation\n3.
+    Notify appropriate authorities\n4. Full investigation\n5. Risk assessment\n6.
+    Risk mitigation\n7. Individual and public notification\n\n## Create templates/efficiencies\n\nConsistency
+    is crucial to any compliance program. Taking the guesswork and busywork out of
+    the breach reporting process by creating templates will help you move quickly,
+    ideally meeting the GDPR 72 hour breach reporting requirement, and ensure repeatability.
+    Templates can be used for the actual documents shared with authorities or with
+    individuals. Depending on the workflow tool you’re using, you can create template
+    processes in Jira or Trello or any number of project management systems. \n\n##
+    Test your new process (and document it)\n\nTesting your breach reporting process,
+    and documenting the results of that testing, is a requirement. There are different
+    forms of testing. Initial testing should be tabletop testing. This is a form of
+    testing where you, and all of the responsible parties, walk through the different
+    processes, inputs, and outputs that are a part of breach reporting. You don’t
+    do all the steps, but you walk through them as a group to ensure everything is
+    clear.\n\nNext, you should do a full test. It doesn’t have to be a secret within
+    the organization. You simply simulate the discovery a breach and follow the necessary
+    steps. You can make it more complicated by keeping it a secret but, at this stage,
+    there is limited value in that. Go through the process and document everything.
+    When you’re done, do a retrospective. Use the feedback to inform edits the breach
+    notification process.\n\n## Notify customers and partners of your new breach reporting
+    process\n\nOnce you’ve created, tested, and documented the testing of your new
+    GDPR-ready breach reporting process, you should inform your customers and partners.
+    You want them to know that 1) GDOR is different and 2) you have ensured you comply
+    with GDPR.\n\n*Learn more about GDPR—Understand the [requirements of data breach
+    reporting](https://datica.com/academy/gdpr-data-breach-requirements/)*\n"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6iyNBVdpAIgewyYekqISUG
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:27:29+00:00'
+    :created_at: '2018-01-19T00:18:00+00:00'
+    :id: 6iyNBVdpAIgewyYekqISUG
+  :title: GDPR Fines and Penalties
+  :slug: gdpr-fines-and-penalties
+  :pub_date: !ruby/object:DateTime 2018-01-18 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :summary: 'GDPR compliance is an imperative starting May, 2018 for companies who
+    work with data on EU citizens. Understand the fines and penalties in Article 83. '
+  :lead: If you work with data on EU citizens, complying with GDPR is an imperative
+    starting in May of 2018. Article 58 of GDPR grants supervisory authority the ability
+    to not only to investigate controllers and processors but also to impose fines.
+    The administrative penalties are defined in GDPR Article 83. The fines are in
+    addition to other actions, such as audits and corrective actions, outlined in
+    Article 58.
+  :post: "\n## Article 83 GDPR Fines and Penalties\n\nThe specific GDPR penalty language,
+    and the bulk of the discussion and interest in the Regulation, is in Article 83.
+    There are two specific fines listed in Article 83 - 1) 10,000,000 EUR, or 2% of
+    total worldwide turnover (revenue) and 2) 20,000,000 EUR, or 4% of total worldwide
+    turnover (revenue). The reasons for each of the different fine levels are outlined
+    below.\n\n### Low-Level GDPR Fines of 10,000,000 EUR\n\nFines of 10,000,000 EUR
+    or 2% of revenue can be levied on controllers and processors based on the following
+    terms. \n\n> Infringements of the following provisions shall, by paragraph 2,
+    be subject to administrative fines up to 10,000,000 EUR, or in the case of an
+    undertaking, up to 2% of the total worldwide annual turnover of the preceding
+    financial year, whichever is higher: \n    a)    the obligations of the controller
+    and the processor under Articles 8, 11, 25 to 39 and 42 and 43;\n    b)    the
+    obligations of the certification body pursuant to Articles 42 and 43;\n    c)
+    \   the obligations of the monitoring body pursuant to Article 41(4).”\n\nTo sum
+    up the reasons for the lower-level fines, it is that you didn’t follow the principle
+    of [security by design](https://datica.com/academy/gdpr-for-cloud-service-providers/)
+    and in some way, your security posture resulted in a breach of EU citizen data.\n\n###
+    High-Level GDPR Fines of 20,000,000 EUR\nFines of 20,000,000 EUR or 4% of revenue
+    can be levied on controllers and processors based on the following terms.\n\n>
+    Infringements of the following provisions shall, in accordance with paragraph
+    2, be subject to administrative fines up to 20,000,000 EUR, or in the case of
+    an undertaking, up to 4% of the total worldwide annual turnover of the preceding
+    financial year, whichever is higher:\n    a)    the basic principles for processing,
+    including conditions for consent, pursuant to Articles 5, 6, 7 and 9;\n    b)
+    \   the data subjects' rights pursuant to Articles 12 to 22;\n    c)    the transfers
+    of personal data to a recipient in a third country or an international organisation
+    pursuant to Articles 44 to 49;\n    d)    any obligations pursuant to Member State
+    law adopted under Chapter IX;\n    e)    non-compliance with an order or a temporary
+    or definitive limitation on processing or the suspension of data flows by the
+    supervisory authority pursuant to Article 58(2) or failure to provide access in
+    violation of Article 58(1).”\n\nTo sum up the reasons for the higher-level fines,
+    it is that you didn’t follow the principle of [security by default](https://datica.com/academy/gdpr-for-cloud-service-providers/).
+    This means the policies and procedures you put in place for your compliance program,
+    roughly the principle of data privacy, resulted in a breach of EU citizen data.\n\nThe
+    regulation is clear that the intent of fines, regardless of the amount of the
+    fine or the body imposing the penalty (Member State vs. EU GDPR Supervisor), imposed
+    on controllers and processors is to be “effective, proportionate, and dissuasive”;
+    this specific language is also used in Article 84, referenced below. \n\nArticle
+    83 lays out factors that will be considered in assessing the size of the fine.
+    The factors, and things you can do to minimize your risk of a more substantial
+    fine, are outlined below.\n\n## How to minimize your risk of GDPR fines and penalties\n\n###
+    Work with authorities proactively \n\nAt the very least, you should ensure you
+    meet the [72-hour data breach notification requirement](https://datica.com/academy/gdpr-data-breach-notification-checklist/)
+    for reporting data breaches to authorities. \nMore broadly, you should cooperate
+    and be as transparent as possible with authorities. Security by obscurity does
+    not work with GDPR.\n\n### Follow recommendations by authorities \n\nOr have clear
+    justification and mitigation for why you didn’t follow it. If a GDPR authority
+    recommends a specific plan for your organization or even generally to data controllers
+    and processors, you should evaluate implementing it. If you decide not to, clearly
+    document the reasons why not.\n\n### Build in security by design and default \n\nYou
+    need to have privacy (no authorized access) and security (technical security measures)
+    in your DNA. Security should be a core part of how you design, develop, deliver,
+    and support your products. There should be proof of this posture documented. This
+    goes without saying, but you should also have your actions support your intentions
+    of complying with GDPR.\n\n### Limit your data exposure\n\nOne of the significant
+    factors in determining the amount of the fine is the extent of the precipitating
+    data breach. The scope of the breach applies to both the number of records and
+    the depth of the data. To minimize your risk exposure, there are things you can
+    do to separate data and exposure, so there isn’t one key to the castle.\n\n##
+    Article 84 Member States’ Penalties\n\nAdditionally, in Article 84 Member States
+    are granted the power to implement their penalties for infringements of GDPR.
+    These penalties, which can vary country to country, need to be communicated to
+    the Commission by May 25, 2018. As such, this is an evolving area and the true
+    extent of penalties for violating GDPR is not yet known.\n\nPenalties for violating
+    GDPR and exposing EU citizen data in an unauthorized way are significant. The
+    details are still trickling out and will continue to evolve even after GDPR goes
+    into effect in May 2018, but the message is clear — if you do business in the
+    EU and house data on EU citizens you are exposed to high financial risk.\n\n*Learn
+    more about GDPR — Become familiar with the [GDPR Data Breach Requirements](https://datica.com/academy/gdpr-data-breach-requirements/)*\n"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6Ft7DZOasgag8AgW0qsCQo
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:26:57+00:00'
+    :created_at: '2018-01-09T19:23:47+00:00'
+    :id: 6Ft7DZOasgag8AgW0qsCQo
+  :title: What is a Data Breach under GDPR and HIPAA?
+  :slug: what-is-data-breach-gdpr-and-hipaa
+  :pub_date: !ruby/object:DateTime 2018-01-09 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: What is the definition of a security incident and data breach under HIPAA
+    and GDPR and how do they compare? This article breaks down the key terminology.
+  :lead: We get asked all the time for the meaning of a data breach. It often comes
+    up when people look at a breach vs. a security incident. It gets even muddier
+    when the term “security incident involving ePHI” is brought into the mix. While
+    seemingly nitpicky, understanding the differences between these terms is essential
+    to reduce your risk and to inform your partners and customers. Ambiguity and opacity
+    is a not a good strategy when it comes to compliance and foundational definitions.
+  :post: "\n## What is a security incident?\n\nStarting with a security incident,
+    which is less ambiguous, [NIST defines the term in 800-61](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+    as:\n\n> A computer security incident is a violation or imminent threat of violation
+    of computer security policies, acceptable use policies, or standard security practices.”\n\nHIPAA
+    has a very similar definition in section 164.304:\n \n> \"A security incident
+    as the attempted or successful unauthorized access, use, disclosure, modification,
+    or destruction of information or interference with system operations in an information
+    system.”\n\nGDPR doesn’t explicitly define “security incident” so a safe path
+    is to use the NIST definition if you want to comply with GDPR. GDPR does expand
+    the definition of a “personal data breach,” as you’ll see below, so the distinction
+    between security incident and data breach is less evident under GDPR than under
+    HIPAA.\n\n## What is a HIPAA Data Breach?\n\nThe significant difference between
+    a security incident and a data breach, or personal data breach, is the impact
+    on individual data.\n\nHHS and HIPAA define a breach simply as:\n\n> A breach
+    is, generally, an impermissible use or disclosure under the Privacy Rule that
+    compromises the security or privacy of the protected health information.”\n \nAt
+    Datica, we’ve used the [HIPAA definition for a data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    But GDPR expands on that definition to include not just “impermissible use and
+    disclosure” but “destruction, loss, and alteration” of personal data. As we extend
+    our compliance program to meet the requirements of GDPR, we are adjusting our
+    definition of breach to the more stringent GDPR definition.\n \n## What is a GDPR
+    Data Breach?\n\nGDPR, in the definitions section of the regulation (Article 4),
+    defines a “personal data breach” in the following way:\n \n> Personal data breach
+    means a breach of security leading to the accidental or unlawful destruction,
+    loss, alteration, unauthorized disclosure of, or access to, personal data transmitted,
+    stored or otherwise processed.”\n\n## What's the difference?\n\nThe other difference
+    in data breach between [HIPAA and GDPR](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/)
+    is the actual type of data. HIPAA is only concerned with “protected health information”
+    where GDPR is concerned with “personal data,” a much broader scope. One security
+    strategy employed in the US to mitigate the risk of a data breach is to separate,
+    logically in storage, personally identifiable data and health data. This separation
+    reduces the likelihood of protected health information being breached. Under GDPR,
+    this strategy, while good to employ from a security and exposure perspective,
+    does not mitigate the risk of personal data breach.\n\nThe differences in terminology
+    between these definitions can be subtle. But the impact is significant if you
+    don’t explicitly articulate these terms to your workforce because they are an
+    essential component of an effective monitoring program and to meeting the [GDPR
+    data breach notification requirements](https://datica.com/academy/gdpr-data-breach-requirements)
+    outlined in GDPR Article 33 and 34.\n\n*Learn more about GDPR — Understand the
+    requirements of [GDPR Data Breach](https://datica.com/academy/gdpr-data-breach-requirements)
+    Notifications*"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

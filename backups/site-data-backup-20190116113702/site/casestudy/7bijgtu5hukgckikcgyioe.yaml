@@ -1,0 +1,94 @@
+---
+:id: 7BijGTu5hukgCkIKCGyIOe
+:_meta:
+  :content_type_id: caseStudy
+  :updated_at: '2018-08-28T17:51:14+00:00'
+  :created_at: '2017-01-14T21:24:49+00:00'
+  :id: 7BijGTu5hukgCkIKCGyIOe
+:case_study_title: 'Build Versus Buy: A Case Study in Accelerated EHR Integrations'
+:slug: healthfinch
+:customer:
+  :id: 408oEAgbkIuIAKcI2EgACa
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-01-28T00:47:08+00:00'
+    :created_at: '2017-01-14T21:20:51+00:00'
+    :id: 408oEAgbkIuIAKcI2EgACa
+  :company_name: healthfinch
+  :slug: healthfinch
+  :customer_logos:
+  - :id: 34OH6Z2U5quqMU84O4WmIo
+  - :id: 78uRo3PXhKg2oU8yAgkWck
+  :fullname: Chris Tyne
+  :role: Vice President of Product
+  :profile_pic:
+    :id: 25n5Q9TBT20qsQGoGOg2Ki
+  :customer_quote:
+    :id: 7npKLtLjigi0q4kyQ8q8s
+  :profile_twitter: healthfinch
+  :profile_linkedin: healthfinch
+  :related_products:
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  :customer_story_short: Companies that recognize and address clinician’s workflow
+    challenges will quickly rise to the top. Madison-based digital health vendor healthfinch
+    studies these problems closely.
+  :customer_story: |-
+    If a physician or nurse must open an application outside of the electronic health record to access the company’s information technology, things will end there. As a result, healthfinch has made the EHR user experience one of its company focuses. Placing its technology within the EHR remains critical to the adoption and success of all the healthfinch products.
+
+    The company’s Practice Automation Platform, Charlie, handles routine and repeatable clinical work for healthcare workers and physicians. Doctors say that these mundane tasks are one of the chief reasons for burnout, so embedding this technology into the EHR has become even more important.
+
+    With a goal of dramatically impacting healthcare delivery, healthfinch first customized a non-standard interface to connect their technology with health systems. As the company scaled and moved toward a more defined structure to move data from point A to point B, instead of custom coding, healthfinch sought integration expertise from Catalyze. This case study lays out three important considerations healthfinch evaluated and are applicable to other IT teams when weighing “build versus buy” options for EHR integrations.
+  :case_study:
+    :id: 7BijGTu5hukgCkIKCGyIOe
+  :customer_spotlight:
+    :id: Je5T824woK8M6quseSUCq
+:related_form:
+  :id: 6zgKRQ291e88A2I8W0WqwQ
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:04+00:00'
+    :created_at: '2018-04-03T22:27:48+00:00'
+    :id: 6zgKRQ291e88A2I8W0WqwQ
+  :title: healthfinch Case Study
+  :slug: healthfinch-case-study
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"fe8e0092-7dd3-42fa-a2ab-0fe947ca4eb3\",\n
+    \ target: \"#hsFormContainer\",\n  onFormSubmit: function($form) {\n  window.dataLayer
+    = window.dataLayer || [];\n  window.dataLayer.push({\n                    'event'
+    : 'GAEvent',     \n                    'eventCategory' : 'Case Study',\n                    'eventAction'
+    : 'Form Submission',\n                    'eventLabel' : 'healthfinch',\n                    'eventValue'
+    : '2'\n                    });\n                  },\n  css: \"\"\n});\n</script>"
+:form_id: fe8e0092-7dd3-42fa-a2ab-0fe947ca4eb3
+:customer_quote:
+  :id: 5xAiQKbnnqocC8AgssuGCY
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-02-03T03:33:28+00:00'
+    :created_at: '2017-01-14T21:23:46+00:00'
+    :id: 5xAiQKbnnqocC8AgssuGCY
+  :quote_title: healthfinch on time-to-market
+  :quote_type: customer
+  :quote_body: Even if we had spent the money to build in-house, integrating would
+    have taken us three to six months compared to just a week using Datica.
+  :customer:
+    :id: 408oEAgbkIuIAKcI2EgACa
+  :source: Karen Hitchcock, healthfinch’s Chief Experience Officer
+:related_product:
+  :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+:body: |-
+  #### In this case study, you will learn:
+
+  * How to solve data exchange dilemmas when data requirements fall outside the scope of traditional standards
+  * How to bridge the gap between industry-wide promise of interoperability and current data exchange needs
+  * The various factors that weigh into a “build versus buy” decision that have bottom line impact

@@ -1,0 +1,132 @@
+---
+:id: 3WJaRvTgIgoWiuoKmEioAE
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T23:21:31+00:00'
+  :created_at: '2016-11-23T22:19:27+00:00'
+  :id: 3WJaRvTgIgoWiuoKmEioAE
+:title: Industry Shaking News at the HITRUST 3rd Party Assurance Conference
+:slug: industry-shaking-news-at-the-hitrust-3rd-party-assurance-conference
+:pub_date: !ruby/object:DateTime 2015-11-18 00:00:00.000000000 Z
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Questions From the HITRUST Third Party Assurance Summit
+:blog_lead: 'Last week we [posted](https://datica.com/blog/hitrust-will-be-a-core-requirement-to-do-business-with-healthcare-enterprises)
+  about the big news from the HITRUST Third Party Assurance Summit, namely that several
+  huge organizations including United Healthcare, Humana, and Anthem, are requiring
+  all business associates and partners to become HITRUST CSF Certified. Existing vendors
+  will have contracts negotiated to come in line with this new requirement. In addition
+  to the group of large payers requiring HITRUST CSF Certification, ten pediatric
+  hospitals are also sending letters to all business associates and partners that
+  they strongly encourage them to become HITRUST CSF Certified.
+
+'
+:post: |+
+  This was very big news, and the reaction at the conference was fitting the announcement. Almost every session saw audience members waiting in line to ask questions of speakers. And the general sentiment was could be described as “shocked”. It made for a lively and fruitful conference. I think a lot of people were candid in their reactions and the speakers were truthful and accurate in responses. There were several themes that popped up in audience questions that we’ve covered below.
+
+  ### Why is the industry forcing its business associates and partners to be HITRUST CSF Certified?
+
+  The organizations requiring HITRUST CSF Certification from vendors were clear that the goal of this new policy was to standardize on a certifiable security framework. Today, as we know all too well at Catalyze, the security and compliance process when selling and implementing technology at a covered entity is overly cumbersome. Vendors are asked to essentially reinvent the wheel with each new customer. And covered entities (health systems, payers, clearinghouses) are essentially reinventing the wheel with each new vendor. Standardizing on HITRUST, a security framework that the industry helped define, should streamline that process.
+
+  ### How do you determine the scope for your HITRUST assessment?
+
+  This was a big topic that didn’t have a great answer. One of the unique things about HITRUST is that you can essentially “certify” any portion of your technology. If you run 5 applications or have 3 facilities, you can certify each one independently. The general takeaway at the conference was to use good judgement and include any technologies and / or departments that touch ePHI. This isn’t a great answer but it’s one that you’ll need to answer with your assessor when you start you HITRUST journey.
+
+  ### Will the entities requiring HITRUST CSF Certification accept SOC2?
+
+  In the immediate term, yes. Going forward, the entities at the conference expect new SOC2 certifications to be done through HITRUST CSF. One part of the value of HITRUST is that it maps to many other standards frameworks, including PCI, NIST, and SOC. The HITRUST CSF [can now be used][2] to become SOC2 Certified.
+
+  ### How long does a HITRUST assessment take?
+
+  The average time listed at the conference was 6-9 months for a medium to large organization. I think this is a bit on the short side from our experience at Catalyze. I think smaller entities can expect 6-8 months and larger entities closer to 10-12 months. There will be a lot of variability based on lead time and work done in MyCSF before the assessment actually begins.
+
+  ### How much does a HITRUST assessment cost?
+
+  This is another question that came down to “it depends”. The answer is largely dependent on the scope of the assessment. I think the simplest answer is the range of quotes we recently got for a new HITRUST assessment - $45-60k. These did not include the $10k to HITRUST or any advisory hours.
+
+  We hope this summary of the HITRUST Third Party Assurance Summit was helpful. As always, we’re [available][3] if you have additional questions for us, either from the conference or from our experience becoming HITRUST CSF Certified. Stay tuned for more HITRUST-related content leading up to the next official HITRUST event in April.
+
+  [2]: https://hitrustalliance.net/soc2/
+  [3]: mailto:hello@catalyze.io
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

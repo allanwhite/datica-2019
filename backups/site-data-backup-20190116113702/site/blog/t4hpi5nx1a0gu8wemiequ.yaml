@@ -1,0 +1,553 @@
+---
+:id: t4HPI5nx1A0GU8WEMiEQU
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T00:31:44+00:00'
+  :created_at: '2016-11-23T22:18:32+00:00'
+  :id: t4HPI5nx1A0GU8WEMiEQU
+:title: Introducing HIPAAGRAM - open source, compliant mobile messaging
+:slug: introducing-hipaagram-open-source-compliant-mobile-messaging
+:pub_date: !ruby/object:DateTime 2015-08-07 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: To address compliance challenges in mobile messaging, we’re very excited
+  to announce HIPAAGRAM, a free, open source, HIPAA compliant mobile messaging app.
+:blog_lead: "> Mobile is eating the world. - Benedict Evans\n"
+:post: "We often write about [healthcare trends][1], healthcare technology, healthcare
+  data, and healthcare innovation. Some trends are more hype than maturity. This is
+  in large part because healthcare, despite recent transformational accelerations
+  driven by government intervention, moves slowly and requires time to change course.
+  Some trends, however, are being fully realized today by necessity. One realization
+  of trends in healthcare is the requirement for secure mobile messaging. Mobile messaging
+  is being driven to adoption in healthcare by what seems like a perfect storm of
+  trends.\n\n## 1. Clinicians are mobile.\n\nHave you ever spent a day with a clinician
+  (nurse, doctor, MA, etc)? My only advice is to wear good shoes. I’m still shocked
+  by the pace in which clinicians—even the ones with legs much smaller than mine—walk.
+  They are constantly on the go, moving from room to room, building to building, floor
+  to floor, and even site to site. They bounce between patients, administrators, other
+  clinicians, conferences, and families. Clinicians need access to data and resources
+  [on the go][2].\n\n## 2. Care is team-based.\n\nClinical medicine has become increasingly
+  specialized and  largely shift-based. Caring for patients now, more than ever, is
+  a team sport.  Whether it’s to curbside a specialist about a finding or test result
+  or to more effectively handoff patients at the end of a shift, clinicians need to
+  work more together to care for patients. Atul Guwande put it better than I can in
+  his fantastic [New Yorker piece][3] about physicians as pit crew people. Clinicians
+  need better ways to collaborate on patient care.\n\n## 3. Clinicians and patients
+  overwhelmingly use smartphones.\n\nThe [Pew Research][4] has a treasures trove of
+  data on mobile adoption and [Epocrates][5] specifically has great data on clinician
+  use of mobile devices. It’s not just young physicians and patients that have and
+  use smartphones. If my wife’s 84 yr old Greek Yia Yia can text pictures of a rash
+  to my wife for a consult, then patients are ready to use phones to interact with
+  providers.\n\n## 4. The business model is shifting from volume to value.\n\nIncreasingly,
+  through new payment models like bundled payments, accountable / captivated care,
+  and even trends towards subscription-based medicine, healthcare providers and organizations
+  are being compensated based on the overall value of care they deliver to patients,
+  not simply the volume of care. Delivering value in care requires more than 10 minute
+  appointment slots. It requires more touch points between providers, patients, and
+  even administrators.\n\n## 5. Engaging patients in care.\n\nTied to several of the
+  trends above, patient engagement is [major priority][6] for most health systems.
+  Healthcare can learn from [trends in other industries][7] that clearly show increased
+  engagement of consumers through the use of mobile tools - both messaging and apps.\n\nDespite
+  those trends, and the compelling case for mobile messaging in healthcare, there
+  are challenges that remain for adoption. Some challenges are harder to overcome
+  - like answering questions around where mobile messaging fits into clinical workflow
+  between providers and patients. These workflow challenges need to be overcome within
+  an organization.\n\n## Why we created—and open-sourced—HIPAAGRAM\n\nOther challenges
+  exist in the form of concerns about security and compliance when it comes to mobile
+  messaging. To address those challenges, we’re very excited to announce [HIPAAGRAM][8],
+  a free, open source, HIPAA compliant mobile messaging solution.\n\nHIPAAGRAM, initially
+  available on iOS, is a mobile app with all data stored on Datica. Datica is HIPAA
+  compliant and [HITRUST CSF Certified][10], so you can rest assured the data is in
+  good hands.\n\nOne of the exciting things about HIPAAGRAM is that it’s open source
+  and can be customized however you’d like. If you do customize the app, we’d love
+  it if would consider open sourcing your changes and we’ll publicize them so others
+  can benefit. Better yet, if you want to build a version for Android or Web we’d
+  be happy to do a post about it.\n\nEverything you need to know about getting HIPAAGRAM
+  setup is on the [site][11]. If you have questions that aren’t answered on the site,
+  please don’t hesitate to [reach out][12].\n\n[1]:\thttps://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/\n[2]:\thttps://datica.com/\n[3]:\thttp://www.newyorker.com/news/news-desk/cowboys-and-pit-crews\n[4]:\thttp://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet/\n[5]:\thttp://www.epocrates.com/oldsite/2014MobileTrendsReport/MT14_WP_03.pdf\n[6]:\thttp://files.himss.org/FileDownloads/Final%2026th%20Annual%20HIMSS%20Leadership%20Survey%20Executive%20Summary%20Web%20Site.pdf\n[7]:\thttp://info.localytics.com/blog/23-fresh-stats-and-charts-to-convince-your-boss-to-invest-more-in-mobile-in-2015\n[8]:\thttps://hipaagr.am\n[9]:\thttps://datica.com/compliant-cloud/\n[10]:\thttps://datica.com/compliance/hitrust/\n[11]:\thttps://hipaagr.am\n[12]:\tmailto:hello@datica.com\n"
+:cta_ref:
+  :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-15T21:39:13+00:00'
+    :created_at: '2017-05-27T01:25:44+00:00'
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :cta_title: Get the TCO Guide to Healthcare Integrations
+  :cta_desc: 'This comprehensive guide to computing Total Cost of Ownership (TCO)
+    of healthcare integrations is for anyone involved in EHR integrations who needs
+    to thoroughly understand all the project costs.  Use this guide to help with build
+    vs. buy decisions.
+
+'
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-integrations/
+  :cta_image:
+    :id: 55cqBx5A4ESeeQS8SA0GGY
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: KMSvUpTdQsGCqkeeuw6GQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-05-31T19:21:13+00:00'
+    :created_at: '2016-11-23T06:51:37+00:00'
+    :id: KMSvUpTdQsGCqkeeuw6GQ
+  :title: Down the road to HITRUST
+  :slug: down-the-road-to-hitrust
+  :pub_date: !ruby/object:DateTime 2014-04-08 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'One of the major problems with "HIPAA Compliance" is that the rules that
+    make up HIPAA are more like recommendations than specific rules. Because of this,
+    an emerging standard is starting to gain acceptance: HITRUST.'
+  :blog_lead: 'Catalyze is focused on compliance, specifically compliant hosting and
+    backend services. Hopefully that''s obvious or we''re doing very badly with marketing
+    and messaging. We typically don''t add "HIPAA" in front of "compliance" because
+    we think of compliance more broadly and there is a stigma in the healthcare industry
+    attached to "HIPAA Compliance". But, our technology and organizational structure
+    was built with information security at its core, and aspects of HIPAA have driven
+    our policies - especially as it relates to training and educating our team members
+    about the privacy and security of ePHI.
+
+'
+  :post: |+
+    One of the major problems with "HIPAA Compliance" is that the rules that make up HIPAA are more like recommendations than specific rules. Most of them are very high level, and do not necessarily map to specific requirements. That leaves much up to interpretation. Because of this, an emerging standard, backed by some very big names in healthcare (United, CVS, McKesson, and more), is starting to gain acceptance. This new standard is called HITRUST. HITRUST was created to harmonize "the requirements of existing standards and regulations, including federal (HIPAA, HITECH), third party (PCI, COBIT) and government (NIST, FTC)". It raises the audit bar considerably but, at the same time, establishes a formal certification for healthcare technology security.
+
+    HITRUST has created what it calls the [Common Security Framework (CSF)](http://www.hitrustalliance.net/commonsecurityframework/), which is a dynamic set of requirements. We think of it as a more prescriptive version of the HIPAA rules, but it's really much more than that. I say dynamic because it is updated periodically, and certifications are mapped to specific versions of the CSF. Formal HITRUST CSF Certification, with the validation of an approved auditor, lasts for 2 years. Smaller vendors can also self assess themselves against the CSF.
+
+    We're excited to share that we've officially kicked off our HITRUST audit. Audits are hard to get excited about, but this is one we've been looking forward to for a while. The HITRUST audit is much more involved than our HIPAA assessment. It starts with us independently completing the CSF online, which is a good amount of work, then going over all of it with our independent auditors, then doing our on site audit and penetration testing, then submitting everything to HITRUST for certification. Organizations can self assess themselves against the CSF but, since we're compliance partners for our customers, we are going do the full audit to get to full certification.
+
+    This takes time, but it's something we are committed to and something we feel is important for us and our customers. In talking to customers and prospects, they see value in our approach both to technology and to compliance more broadly. Technology is only one part of us providing compliant hosting and services to our customers. We feel that HITRUST CSF Certification will be an additional benefit to our customers and to our customers' customers.
+
+    There are several additional things falling out of this process, all of which will help us as an organization. We'll be writing more about this, but we've changed the way that we do version control, as well as share publicly, our organizational and information security policies with customers and partners. We've also created a better risk assessment process and breach notification strategy. More on these in later posts. If you have any questions about HITRUST, please email [compliance@catalyze.io](mailto:compliance@catalyze.io).
+
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 3Krmfk5k08oq004qQIiYkg
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-09T23:01:08+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 3Krmfk5k08oq004qQIiYkg
+  :title: The Purpose of HITRUST's Business Associate Council
+  :slug: the-purpose-of-hitrusts-business-associate-council
+  :pub_date: !ruby/object:DateTime 2016-10-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HITRUST is an industry-driven organization with a mission to create a
+    standardized and certifiable security and compliance framework for healthcare.
+  :blog_lead: |-
+    ## HITRUST: A Primer
+
+    HITRUST is an industry-driven organization with a mission to create a standardized and certifiable security and compliance framework for the healthcare industry. It was founded by and is still governed by representatives from covered entities included Unitedhealthcare, Anthem, and Highmark. The framework created by HITRUST, called the Common Security Framework (CSF), is an evolving framework now on version 8.0.
+
+    The mission of HITRUST is to standardize the compliance framework and certification process for healthcare but also to streamline the the process of third party assurance, which basically means making it less resource intensive for both covered entities (payor, providers, clearinghouses) and business associates (BAs) as covered entities assess the risk of data security and compliance in working with third parties (BAs).
+  :post: "## Victim of its own success\n\nFast forward to today—HITRUST is well accepted
+    in the healthcare industry and is increasingly required by covered entities (CEs)
+    for all partners and business associates. These trends are driving demand for
+    HITRUST amongst business associates and, in turn, HITRUST is now seeking more
+    input and feedback from the business associate community. CEs are looking to engage
+    with more BAs and to leverage the HITRUST CSF as the tool to for reducing liability.
+    Ultimately the need to engage with business associates is a natural result of
+    the success of HITRUST in the industry and amongst CEs.\n\nBecause of this need
+    to engage with business associates, HITRUST decided to form a Business Associate
+    council in early 2016 to, in HITRUST's words: \n\n> ….to ensure healthcare industry
+    business associates and other key vendors are able to influence and directly engage
+    with HITRUST, healthcare organizations relating to the HITRUST 3rd Party Assurance
+    program, and other programs impacting business associates.\n\nHITRUST called for
+    volunteers to participate in providing a voice for BAs is shaping HITRUST:\n\n>
+    Through interaction with the BA Council, HITRUST will work to ensure that the
+    Third Party Assurance and other programs are considering and accommodating business
+    associate and vendor perspectives and objectives.\n\nHITRUST [selected][1] a group
+    of 17 founding members representing a diverse swath of the BA landscape from [Epic][2]
+    to [Dropbox][3] to [Salesforce][4] to Datica; we're honored to be chosen and to
+    lend a voice for BAs in helping to influence HITRUST initiatives and programs.\n\n##
+    Why does it matter?\n\nHITRUST was founded by a group of very large CEs, all of
+    which are payors. Covered entities are [fundamentally different][5] from business
+    associates. Covered entities leverage business associates for services; put another
+    way, covered entities are customers for business associates. There are significant
+    differences around liability as CEs are liable for breaches, both for themselves
+    as well as from their BAs. As such, CEs need a compliance framework they can use
+    internally and this was the initial impetus for HITRUST. CEs also need a way to
+    manage the risk of working with 3rd party BAs while BAs need a way to provide
+    evidence to CEs that the risk in working with BAs is mitigated. The HITRUST CSF
+    is emerging as the tool of choice for these use cases.\n\nIt is a 2-sides transaction
+    when it comes to CEs, BAs, and third party assurance. This is a change from the
+    original HITRUST use case. BAs need a compliance framework to assure not only
+    their own, internal auditors and compliance groups but also the compliance groups
+    at their CE customers. And there are a lot more BAs than CEs. HITRUST estimates
+    that the 5 major payors mandating HITRUST for BAs impacts close to 7,500 BAs!
+    That's an astounding number.\n\nIn order to meet this overwhelming demand and
+    the unique needs of this new cohort, HITRUST created the Business Associate Council.
+    The council is already working on several initiatives. One initiative, which started
+    before the Business Associate Council but is in line with BA needs, is the concept
+    of compliance inheritance within the CSF. We're confident more enhancements will
+    be created based on the work of the Business Associate Council and that these
+    enhancements will add value to BAs that decide to leverage the CSF as their compliance
+    framework.\n\n[1]: https://hitrustalliance.net/first-business-associate-council-healthcare-industry-help-drive-efficiencies-effectiveness-third-party-assurance/\n[2]:
+    http://www.epic.com/\n[3]: https://www.dropbox.com/\n[4]: https://www.salesforce.com/\n[5]:
+    https://datica.com/academy/hipaa-101-a-primer/"
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: 6PchE1CLkssU62Mecwwisy
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

@@ -1,0 +1,97 @@
+---
+:id: 3nbjv23ydqyiOEwkKkyYCa
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T22:39:21+00:00'
+  :created_at: '2016-11-23T21:37:51+00:00'
+  :id: 3nbjv23ydqyiOEwkKkyYCa
+:title: If a vendor won't sign a BAA, they aren't "HIPAA-compliant"
+:slug: vendors-and-hipaa
+:pub_date: !ruby/object:DateTime 2015-01-07 00:00:00.000000000 Z
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: HIPAA compliance isn't a sticker that you put on servers that wards off
+  hackers and HHS. It's a dedication to doing the right thing for users and their
+  PHI every day.
+:blog_lead: 'We have [Business Associate Agreements (BAAs)](/academy/business-associate-agreements)
+  with all vendors that are partners to deliver our services which we pass through
+  to our customers through our BAAs. It certainly simplifies things for our customers.
+
+'
+:post: |-
+  I was talking with a customer the other day about integrating with a service they used for real-time data processing. I first looked to see if this vendor would sign a BAA. I received this from their support staff:
+
+  - The vendor in question doesn't necessarily need to be HIPAA-compliant because they aren't storing data.
+  - But, even if they did, they encrypted the data in transit and in storage.
+  - Ergo, they are HIPAA-compliant.
+
+  Parts of this are true, and it's good the vendor is encrypting data passing through their systems. However, a lot is left out.
+
+  - There is so much more to HIPAA than encrypting data. You can read about everything we do to be HIPAA-compliant in our [policies](/open-source/policies). At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA's physical security requirements](https://hipaa.datica.com/#physical-safeguards-see-a-hrefhttpwww-hhs-govocrprivacyhipaaadministrativesecurityrulephyssafeguards-pdf164-310a). As a result, that vendor would need to have a BAA signed with their hosting vendor to ensure legitimacy.
+  - Even though the vendor claimed they were not storing PHI, having data pass through their systems would still require protection under HIPAA. Also, I would never take a vendor's word on this. You definitely want that promise in writing, in a BAA.
+  - If you are going to work with a vendor who [transmits or stores PHI](/academy/what-is-protected-health-information-or-phi), they've got to sign a BAA with you. Doesn't matter if they encrypt their data. Doesn't matter if they have printed policies that map to HIPAA rules. Doesn't matter if they are a big company that works with enterprises. Doesn't matter if they buy you dinner. Doesn't matter if they'll write a GUI in Visual Basic to scan for Angelina Jolie and Matthew Broderick. You will be on the hook in the event of an audit or breach and you will lack any avenue to seek legal recourse. That's the worst case scenario. HIPAA's rules and policies are exactly for that event.
+
+  I'm always wary of companies that claim to be HIPAA-compliant that don't have clear BAAs or policies. HIPAA compliance isn't a sticker that you put on servers that wards off hackers and HHS. It's a dedication to doing the right thing for users and their PHI every day. There's no HIPAA police or mandated marketing policies, so there's nothing to stop companies from claiming HIPAA compliance by providing you zero or minimal reasonable safeguards of PHI. The bad news is that the moment you'd find out that you weren't covered under HIPAA, barring it didn't prevent a sale, would be at the worst possible moment of a breach or an audit. We can help you avoid this, and in addition to a BAA, you'll get superb service and ops support too.
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

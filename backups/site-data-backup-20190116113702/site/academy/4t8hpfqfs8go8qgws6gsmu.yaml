@@ -1,0 +1,851 @@
+---
+:id: 4T8HPfQfS8gO8qGwS6GSmu
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-03T14:09:28+00:00'
+  :created_at: '2017-01-16T17:41:31+00:00'
+  :id: 4T8HPfQfS8gO8qGwS6GSmu
+:title: HL7 204 - The HL7 Scheduling messages, SIU and SRM
+:slug: hl7-204-the-hl7-scheduling-messages-siu-and-srm
+:pub_date: !ruby/object:DateTime 2016-05-04 00:00:00.000000000 Z
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:summary: 'The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages
+  with date and time, resources, services, location, and more appoint info. '
+:post: "The SIU (Schedule Information Unsolicited) and SRM (Schedule Request Message)
+  messages contain information related to appointment scheduling. SRM messages are
+  used for requesting changes to a health system's schedule, such as a request for
+  a new appointment booking, appointment rescheduling, modification, cancellation,
+  etc. SIU messages are used to notify auxiliary applications of a change made to
+  the health system's schedule, such as a notification for the booking of a new appointment,
+  appointment rescheduling, modification, cancellation, etc. Scheduling messages contain
+  information about the appointment date and time, resources, services, location,
+  and any other pertinent information regarding the appointment. The purpose or action
+  prescribed by any scheduling message will depend entirely on the trigger event (See
+  the List of Trigger Events below). \n\nFollowing the standard HL7 message structure,
+  an SIU or SRM message is made up of segments and groups of segments, each of which
+  may be required, optional, repeatable, or some combination thereof. A quick note
+  on reading HL7 message examples which seem to contain a bunch of [],{} etc. The
+  general rule is as follows:\n\n- No brackets around it - Required\n- [] - **Optional**\n-
+  { } - **Repeating**\n- [{ }] - **Optional Repeating**\n\nBelow are the message structures
+  of both the SIU and the SRM:\n\n##SIU Message Structure\n```\nSIU     Schedule Information
+  Unsolicited\n\nMSH     Message Header\nSCH     Schedule Activity Information\n [{NTE}]
+  \    Notes and Comments (for Schedule Activity)\nPID     Patient Identification\n
+  [PD1]     Patient Additional Demographics\n [ROL]     Role (for Patient)\n [PV1]
+  \    Patient Visit Information\n [PV2]     Patient Visit Info Continued\n [{OBX}]
+  \    Notes and Comments (for Patient)\n [{DG1}]     Diagnosis (for Patient)\n{\n\tRGS
+  \    Resource Group Segment\n\t{\n\t\tAIS     Appointment Info. - Service\n\t\t
+  [{NTE}]     Notes and Comments (for Service)\n\t}\n\t[{\n\t\tAIG     Appointment
+  Info. - General Resource\n\t\t [{NTE}]     Notes and Comments (for Resource)\n\t}]\n\t[{\n\t\tAIP
+  \    Appointment Info. - Personnel\n\t\t [{NTE}]     Notes and Comments (for Personnel)\n\t}]\n}\n```\n\n##The
+  SRM Message Structure\n```\nSRM     Schedule Request Message\n\nMSH     Message
+  Header\nARQ     Appointment Request Information\n [{NTE}]     Notes and Comments
+  (for Schedule Activity)\nPID     Patient Identification\n [PD1]     Patient Additional
+  Demographics\n [ROL]     Role (for Patient)\n [PV1]     Patient Visit Information\n
+  [PV2]     Patient Visit Info Continued\n [{OBX}]     Notes and Comments (for Patient)\n
+  [{DG1}]     Diagnosis (for Patient)\n{\n\tRGS     Resource Group Segment\n\t{\n\t\tAIS
+  \    Appointment Info. - Service\n\t\t [{NTE}]     Notes and Comments (for Service)\n\t}\n\t[{\n\t\tAIG
+  \    Appointment Info. - General Resource\n\t\t [{NTE}]     Notes and Comments (for
+  Resource)\n\t}]\n\t[{\n\t\tAIP     Appointment Info. - Personnel\n\t\t [{NTE}]     Notes
+  and Comments (for Personnel)\n\t}]\n}\n```\n\nThere are a few things to note about
+  the message structures. As you may have already noticed, the structure of the two
+  message types are virtually identical. We'll discuss that more later. For now, we
+  will explore the shared features of both the SIU and SRM:\n\n- The Resource Group
+  segment (RGS) is always required, and may contain more than one resource group.
+  This segment acts as a header for the collection of resource segments that follow
+  it.\n\n- Within a Resource Group, the Appointment Service Information (AIS) is the
+  only required resource segment. This suggests that any new/requested appointment
+  must have a scheduled service attached to it.\n\n- Note the presence of multiple
+  (optional, repeatable) Diagnosis (DG1) segments. If repeated, the first will be
+  the primary diagnosis.\n\n- Note the presence of the OBX (Observation) segment as
+  an optional, repeatable segment. The use here is different from its use in the ORU
+  (Observational Report - Unsolicited) message. When used, it contains notes and comments
+  pertaining to the patient in much the same way an NTE segment would, rather than
+  information about observations and results. For instance, the OBX segments may contain
+  a Transcribed Report (TX) with patient information that may be relevant to the appointment.
+  \n\nAs mentioned before, the only apparent difference between the structure of an
+  SIU message and an SRM message is the second segment. The SIU message contains an
+  **SCH** segment whereas the SRM message contains an **ARQ** segment. Even these
+  two segments share most of the same fields. However, there are some key differences,
+  notably:\n\n- **Date/Time Range**\n\tIn the SIU message, the SCH segment contains
+  one field with all of the appointment timing/quantity information in one place (SCH.11).
+  In the SRM message, the ARQ segment has four separate fields for appointment timing
+  quantity. They consist of one required field for the requested start date/time range
+  (ARQ.11) and the optional fields for appointment priority (ARQ.12), repeating interval
+  (ARQ.13), and the interval duration (ARQ.14).\n\n- **Audit Trail Contacts**\n\tThe
+  SIU message can contain the name, phone number, address, and location information
+  for the person who \"placed\" the appointment (SCH.12 - SCH.15), the person who
+  \"filled\" the appointment (SCH.16 - SCH.19), and the person who \"entered\" the
+  appointment (SCH.20 - SCH.22). As an SRM message is sent only when an appointment
+  has not yet been filled, the ARQ segment only contains fields for the placer (ARQ.15
+  - ARQ.18) and enterer (ARQ.19 - ARQ.21) of the appointment.\n\t\n- **Filler Status
+  Code**\n\tThe status of the appointment is only present in SIU messages (SCH.25).
+  This is, again, due to the fact that a scheduling request must be filled before
+  it can have any status other than \"requested\".\n\nApart from the few differences
+  between the SCH segment and the ARQ segment, there is no structural difference between
+  an SIU message and an SRM message. However, the main difference between any two
+  message types comes not from the structure of the message, but from the action prescribed
+  by the different trigger events.\n\n### List of Trigger Events\n\nTrigger events
+  for SRM:\n\n| Segment ID | Description |\n|------------|-------------|\n| S01 |
+  Request New Appointment Booking |\n| S02 | Request Appointment Rescheduling |\n|
+  S03 | Request Appointment Modification |\n| S04 | Request Appointment Cancellation
+  |\n\nTrigger Events for SIU:\n\n|Segment ID | Description |\n|-----------|-------------|\n|
+  S12 | Notification of New Appointment Booking |\n| S13 | Notification of Appointment
+  Rescheduling |\n| S14 | Notification of Appointment Modification |\n| S15 | Notification
+  of Appointment Cancellation |\n| S26 | Notification that Patient did not show up
+  for Scheduled Appointment |\n\n### Message Construction\n\nThe message I want to
+  send is: A female, Caucasian patient, Jane Fredericks, MRN:30745109, SSN:321-87-6543
+  born on May 1, 1973 and account number of 11396810 wants to schedule a new appointment
+  to have an X-Ray taken of her ankle. The appointment request is being placed by
+  Dr. James Matthews. The exact service to be performed is X-RAY ANKLE 3+ VW with
+  the associated CPT code of 73610. This is based upon a diagnosis of Broken Ankle.
+  Additional information that will need to be sent will include the appointment date
+  and time, duration, sending and receiving systems, the version of HL7 being used
+  etc. The request is approved and the hospital sends a notification for the new appointment
+  booking.\n\nBased on this information, the segments would be created as follows:\n\n####
+  MSH - Message Header\nAssuming an all Epic environment i.e. sending and receiving
+  systems are all Epic and request is created at 2016/05/02 at 16:20:33. Version of
+  HL7 being used is v2.3. Since this message is a notification for a new appointment
+  booking, the message type is SIU and the trigger event is S12. This would result
+  in a segment that looks like this.\n\n```\nMSH|^~\\&|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||\n```\n\n####
+  SCH\nThis contains all of the scheduling information - the placer and filler application's
+  appointment identifiers, duration, start time, the person who requested the appointment,
+  and the appointment status. To keep things simple, we'll only include the identifiers
+  and required information.\n\n```\nSCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED\n```\n\n####
+  PID - Patient Identification\nSince this message is a patient specific request,
+  it needs all the associated patient info to prevent any confusion. This would include
+  the patient's identifier, full name, DOB, sex, race, address, phone number(s), account
+  number, SSN and place of birth.\n\n```\nPID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421
+  N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^\n```\n\n####
+  PV1 - Patient Visit\nThis usually contains information on the admission information,
+  attending, referring and consulting, admitting physician IDs and names and so on.
+  I'll just keep it simple and just have the attending physician's info in the sample
+  giving us\n\n```\nPV1|||^^^CARE HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\n```\n\n####
+  DG1 - Diagnosis\nSome basic context needs to be provided so that the billing systems
+  can do their work so diagnosis information is also provided. So in ICD10 (I10),
+  ankle fracture is coded as S82.\n\n```\nDG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||\n```\n\n####
+  RGS - Resource Group\nThis is brief header for the group of resource segments that
+  follow it. Included is the number of the resource group, the action prescribed (here
+  it's \"add\", or 'A'), and the group ID. This group ID may be used for modifying
+  or rescheduling the resource group at a later date.\n\n```\nRGS|1|A|094\n```\n\n####
+  AIS - Appointment Info. - Service\nThis contains information related to the scheduled
+  service. In this case, it will be an X-Ray for the patient's ankle. Along with the
+  CPT code for the scheduled service, the segment also contains the time the service
+  is expected to start (may be different from the appointment start time) and the
+  length of time the service will be needed.\n\n```\nAIS|1||73610^X-RAY ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||\n```\n\n####
+  AIP - Appointment Info. - Personnel\nThis optional repeating segment identifies
+  personnel needed for the appointment that are not explicitly mentioned anywhere
+  else in the message. For the scheduled appointment, a radiologist (Allan Good) will
+  be needed to perform the X-Ray. Just like the AIS segment, this segment contains
+  the time the radiologist will be needed and for how long, which gives us\n\n```\nAIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||\n```\n\n###
+  Putting it all together\nTo assemble the SIU message, we string together the message
+  segments following the message structure outlined above:\n\n```\nMSH|^~\\&|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||\nSCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED\nPID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421
+  N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^\nPV1|||^^^CARE
+  HEALTH SYSTEMS^^^^^||||1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\nDG1||I10|S82^ANKLE
+  FRACTURE^I10|ANKLE FRACTURE||\nRGS|1|A|094\nAIS|1||73610^X-RAY ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||\nAIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||\n```\n\nIf
+  you're looking to integrate EHR data with your application without becoming an HL7
+  expert, Datica can help. Learn more about Datica Managed Integration Services for
+  HL7 [here](https://catalyze.io/hl7/).\n\nLooking for further help on integrating
+  an SIU or SRM feed with an EHR? Check out this post: [SIU Integration Help](http://content.catalyze.io/siu-scheduling-integration-help)\n"
+:related_guide:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:related_entries:
+- :id: 743EW7O6qW84osGkC4Qsum
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 743EW7O6qW84osGkC4Qsum
+  :title: HL7 201 - The Admission, Discharge, Transfer (ADT) Message
+  :slug: hl7-201-the-admission-discharge-transfer-adt-message
+  :pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: HL7 ADT message types are the most common HL7 messages. We explain ADT
+    message structure, segments, and event types, including HL7 ADT message examples.
+  :lead: 'The ADT message is one of the most common messages in HL7. It covers a lot
+    of use cases such as admissions, cancellation of admits, merging of patient data,
+    etc. This is the reason why there is such a long list of possible events and message
+    types that could be sent. '
+  :post: "The full list for the HL7 v2.3.1 is shown below.\n\n|Segment ID | Description|\n|-----------|------------|\n|A01
+    \ | Admit/visit notification|\n|A02  | Transfer a patient|\n|A03  | Discharge/end
+    visit|\n|A04  | Register a patient|\n|A05  | Pre-admit a patient|\n|A06  | Change
+    an outpatient to an inpatient|\n|A07  | Change an inpatient to an outpatient|\n|A08
+    \ | Update patient information|\n|A09  | Patient departing - tracking|\n|A10  |
+    Patient arriving - tracking|\n|A11  | Cancel admit/visit notification|\n|A12  |
+    Cancel transfer|\n|A13  | Cancel discharge/end visit|\n|A14  | Pending admit|\n|A15
+    \ | Pending transfer|\n|A16  | Pending discharge|\n|A17  | Swap patients|\n|A18
+    \ | Merge patient information|\n|A19  | QRY/ADR - Patient query|\n|A20  | Bed
+    status update|\n|A21  | Patient goes on a \"leave of absence\"|\n|A22  | Patient
+    returns from a \"leave of absence\"|\n|A23  | Delete a patient record|\n|A24  |
+    Link patient information|\n|A25  | Cancel pending discharge|\n|A26  | Cancel pending
+    transfer|\n|A27  | Cancel pending admit|\n|A28  | Add person information|\n|A29
+    \ | Delete person information|\n|A30  | Merge person information|\n|A31  | Update
+    person information|\n|A32  | Cancel patient arriving - tracking|\n|A33  | Cancel
+    patient departing - tracking|\n|A34  | Merge patient information - patient I|\n|A35
+    \ | Merge patient information - account only|\n|A36  | Merge patient information
+    - patient ID and account number|\n|A37  | Unlink patient information|\n|A38  |
+    Cancel pre-admit|\n|A39  | Merge person - patient ID|\n|A40  | Merge patient -
+    patient identifier list|\n|A41  | Merge account - patient account num|\n|A42  |
+    Merge visit - visit number|\n|A43  | Move patient information - patient identifier
+    list|\n|A44  | Move account information - patient account number|\n|A45  | Move
+    visit information - visit number|\n|A46  | Change patient ID|\n|A47  | Change
+    patient identifier list|\n|A48  | Change alternate patient ID|\n|A49  | Change
+    patient account number|\n|A50  | Change visit number|\n|A51  | Change alternate
+    visit ID|\n\nIn case you're wondering why we always use the v2.3 or v2.3.1 for
+    examples - it's just that the 2.3 and 2.3.1 standards are the most widely implemented
+    standard accounting for well over 80% of deployments. So if you know these two
+    well, you're in pretty good shape. Additionally, except for v3.0, all subsequent
+    HL7 versions are backwards compatible. What you can expect from later versions
+    is more message types, more segments and more codes - and some being retired,
+    of course.\n\nI've always felt that the best way to learn is by doing. So, we'll
+    start with a message that we want to send and see how we can encode and construct
+    that message in HL7.\n\n### The message to be sent\nAs another side note, the
+    examples we'll use throughout will be inpatient oriented as outpatient HL7 messages
+    are identical in nature and simpler to boot. Let's take the simple case of an
+    admission into a hospital. In the case of an admit - you would need to know the
+    name of the patient and some demographics like date or birth, gender, any next
+    of kin and their info in case there are any significant problems, an identifier
+    like an MRN, where they were admitted into (room, bed), who was the attending
+    physician who signed off on the admit, and the reason for the admit. So the message
+    you would want to perhaps send from an ADT system to say a Lab system could be
+    (in plain English) - \"Patient (John A Appleseed) was admitted on Jan 1, 2013
+    at 12:23 a.m. by Dr Sidney J. Good (#004777) for surgery. He has been assigned
+    to room 2012, bed 01 on nursing unit 2000.\"\n\nOne thing, we can know immediately
+    looking at the table above that this would be an ADT-A01 message.\n\n### The mandated
+    structure of the ADT-A01 message\n\nAs we discussed in [the earlier HL7 102: Anatomy
+    of an HL7 message post](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/),
+    HL7 recommends / mandates that messages follow a specific structure. For the ADT-A01
+    message type, the structure is as shown in the image below. \n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/iIS9zbOYmsAI6qcuW6sW4/f8b1eb7c079f09cb417590d46889ba23/academy-sample-hl7-message-sequence.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-sample-hl7-message-sequence\" />\n\n(*source
+    - HL7 v2.3 implementation guide*). Looking at the structure, we can guess that
+    the segments we will need are:\n\n- MSH: the message header (required everywhere)\n-
+    EVN: indicating the event that happened (in this case the admission of the patient)\n-
+    PID: the patient identification segment. Note that demographics can be included
+    within the PID segment itself\n- NK1: next of kin (which is always good to know
+    in a hospital context in case something goes wrong)\n- PV1: information about
+    the patient \"visit\" - this is where you would include the physician info and
+    the current location of the patient.\n- Since an image is worth a thousand words,
+    I'll try and illustrate the process using images rather than a lot of words. I'm
+    not going to give you the mapping tables etc. as I'm pretty sure the HL7 licensing
+    agreements might prohibit sharing outside our org.\n\nIt's easily downloadable
+    from the [HL7](http://www.hl7.org) website. One quick tip before we begin - in
+    most HL7 messages the pipe character `|` is called the BAR and it is the field
+    separator and in the case of this message, we're going to use the `^` as a space.
+    So if you see a bunch of pipes together like this `||||||||||` - all that means
+    is that the fields at that point in the sequence were optional or not available.
+    Also remember that segments are separated by a carriage return - which cannot
+    be displayed as any and all viewers will interpret that for display.\n\n#### The
+    MSH segment\nIf you wanted to mail someone an important letter, you need to specify
+    the from and to addresses and you may sign up for delivery confirmation. That
+    corresponds almost exactly to the first and common segment across all HL7 messages
+    - the MSH (message header) segment. The figure below shows the needed fields that
+    need to be populated in an MSH segment and the values filled in for those fields.
+    We've also assumed here that the system sending the update is an Epic ADT system
+    and it's being sent to a Lab system.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/7giNk2Hp4IgmkGEaaoyU0/3439f88cb3a6e62dc208c0ef819deb2c/academy-msh-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-msh-segment\" />\n\nNow, if we lookup
+    the mapping tables, we can easily fill in the MSH segment with information (after
+    coding it appropriately) to get the following HL7 encoded MSH message segment.\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\n```\n\n####
+    The EVN segment\nSimilarly in the case of the EVN segment, the figure below shows
+    the data needed and the data we have.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/1WjUfO7KaAs66mKkQukuEI/08268698bea9d209874281ce0adfeb60/academy-evn-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-evn-message-segment\" />\n\nFollowing
+    the same process of looking up the mapping tables and encoding, gives us this
+    HL7 encoded EVN message segment\n\n```\nEVN|A01|201301011223||\n```\n\n#### The
+    PID segment\nThe PID segment contains more info such as the full name of the patient
+    etc. Which requires the use of a space and newlines. This is where the other control
+    characters come into play, namely the \"^\" symbol. What we need to send, and
+    the data we have, are as follows:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/13G8LaFtVoAiEgSwAo6EAs/f7c91e444124159a1560395f63f157bc/academy-pid-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-pid-message-segment\" />\n\nAnd following
+    the process above and encoding the data (in this case for example, \"male\" becomes
+    \"M\"), we get the following encoded segment.\n\n```\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1^DATICA
+    STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\n```\n\n####
+    The NK1 segment\nWhat we need to send and what we have is this:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/2B6z9MvyrKeusy0SmEm4u6/7db8f7be80172f3a3f5b078928e411fa/academy-nk1-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-nk1-message-segment\" />\n\nAnd we get
+    this:\n\n```\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT OF KIN\n```\n\n####
+    The PV1 segment\n\nThis:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/5heHePcuYEKe8GmEIccGCg/0d73ad3149934718af15f6807579a95a/academy-pv1-message-segment.png?w=760\"
+    class=\"lozad img-crisp\" alt=\"academy-pv1-message-segment\" />\n\nAnd we get
+    this:\n\n```\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\n###
+    Putting it all together\nNow that we've generated the individual segments, we
+    need to put them together. In the earlier section on message structure, you'd
+    have seen the required sequence to be followed. So - we do that and voila! - the
+    full HL7 ADT-A01 message (without the carriage returns)\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\nEVN|A01|201301011223||\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1
+    DATICA STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT
+    OF KIN\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\nPainful,
+    isn't it? Well, the good thing is that there are open source parsers that can
+    do this for you. We'll delve into those and I'll give you as comprehensive a listing
+    of those as I can find with some pro / cons as well. We're also building out hosted
+    versions of HL7 parsers with what we see as key enhancements over what is currently
+    available. Stay tuned for announcements about those.\n\nIf you’re looking to integrate
+    EHR data with your application without becoming an HL7 expert, Datica can help.
+    Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).\n\nLooking
+    for further help on integrating an ADT Registration feed with an EHR? Check out
+    this article on [ADT Integration Help.](http://content.datica.com/adt-registration-integration-help)"
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5RqQEl5hpSq2KuyQoYMsIy
+  - :id: iUK3rg26hqUEIsiuAIQou
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6NFTXJHWo0w860EGKA2EQC
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:39+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 6NFTXJHWo0w860EGKA2EQC
+  :title: HL7 202 - The HL7 ACK (Acknowledgement message)
+  :slug: hl7-202-the-hl7-ack-acknowledgement-message
+  :pub_date: !ruby/object:DateTime 2018-03-15 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing
+    HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.
+  :lead: The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing
+    HL7 communication proceeds smoothly. The concept of an [ACK](http://en.wikipedia.org/wiki/Acknowledgement_(data_networks))
+    is commonly used in many data networks protocols, including TCP, so you are likely
+    familiar with it. Although conceptually simple (receiving system acknowledges
+    receipt for specific message sent from sending system), there are a couple of
+    nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic
+    worthwhile.
+  :post: "## The structure of an ACK message\n\nLet's take a quick look at how an
+    ACK message is created.\n\nLet's say an inbound HL7 ADT (Admit, Discharge, Transfer)
+    message came in with the following MSH (message header).\n\n~~~\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\n~~~\n\nIf
+    the message was accepted and acknowledged, then the response ACK message (following
+    original mode) will look like this:\n\n~~~\nMSH|^~\\&|LABADT|DH|EPICADT|DH|201301011228||ACK^A01^ACK
+    |HL7ACK00001|P|2.3\nMSA|AA|HL7MSG00001\n~~~\n\nNote the following:\n\n1. The source
+    and destination systems have been switched;\n2. MSA segment contains the \"AA\"
+    value which indicates acceptance; and\n3. MSA segment also contains the ID of
+    the original message.\n\nSeems pretty straightforward but as you will see, the
+    rules utilized to come up with this simple message can be pretty complicated.\n\n##
+    The need for the ACK message\n\nThe need for acknowledgements is best understood
+    when we know that:\n\n1. HL7 is designed around the concept of trigger events
+    - i.e. someone got admitted, a lab test has to be ordered, lab test results have
+    been received, patient has to be rescheduled etc.\n2. Healthcare IT systems are
+    very \"specialized\" - there are systems (often from different vendors) that focus
+    just on ADT (admission, discharges and transfers), practice management (patient
+    scheduling and billing), labs (lab orders, results capture and communication)
+    etc.\n\nSo, if an event happens in one system (patient is admitted), then that
+    event has to be sent to another system (e.g. labs) to communicate information
+    such as internal patient identifiers (otherwise how will the lab know if the incoming
+    order is for a valid patient or not, what identifier to use etc.). Note that these
+    messages are usually unsolicited - i.e. ADT message is sent to all interested
+    systems as soon as it happens without being asked for it. Additionally, as you
+    can imagine, the volumes of messages being received by these systems could get
+    large, hence there is a possibility the message could get dropped. The ACK serves
+    as a confirmation that:\n\n1. the message (specified by an identifier) was received;\n2.
+    the message is valid based on HL7 processing rules (more on this in a minute);
+    and optionally\n3. the message data has been taken into a transient store like
+    a processing queue or permanent store like a database (more on this in a minute
+    as well).\n\n## Types of ACK messages and associated processing rules\n\nAs you
+    can see, the ACK message is **not** like the delivery acknowledgement you get
+    when you send an email or text message - it's not a \"I got it\" message. One
+    can specify whether original or enhanced processing rules are to be applied to
+    the message. Based on this specification, the inbound message is processed differently
+    and a different kind of ACK message is sent back. The ACK message and the associated
+    processing rules are defined based on the MSH (message header) segment content
+    (more details on the MSH segment was discussed in an [earlier post](/academy/hl7-201-the-admission-discharge-transfer-adt-message/)).\n\n###
+    Original mode\n\nOriginal mode processing is indicated if both the 15th and 16th
+    fields of the MSH segment of the inbound message is null or empty.\n\nAny inbound
+    message with an MSH segment indicating original mode processing will be validated
+    for correct syntax and goes through a two step process:\n\n### STEP 1 - Protocol
+    validation\n\nThis is used to to assure that:\n\n1. the value in message type
+    field (MSH - field #9) is one that is acceptable to the receiver i.e. an ADT^A20
+    message may be rejected by a billing system;\n2. the value in version ID field
+    (MSH-12) is acceptable to the receiver i.e. if the systems expects HL7 v2.3.1
+    and the field says v2.6, then, in the immortal words from a famous film \"what
+    we've got here is (a) failure to communicate\";\n3. the value in processing ID
+    (MSH-11) is appropriate for the application process handling the message.\n\nIf
+    any of these checks fail, the protocol software will reject the message with an
+    ACK message containing \"AR\" in the acknowledgment code field (MSA-1). If it
+    doesn't fail, it passes the message to the application.\n\n### STEP 2 - Application
+    validation\n\nThe application validation checks are:\n\n1. if the application
+    processes the message successfully, it will generate the functional response message
+    with a value of AA in acknowledgment code (MSA-1);\n2. or the application will
+    send an error response, with a value of AE in acknowledgment code (MSA-1);\n3.
+    if the application fails to process (reject) the message because of system uptime
+    or other reasons and not for format or validation errors. The response message
+    contains a value of AR in acknowledgment code (MSA-1). The message can sometimes
+    be re-sent later but that is up to the sending system and the implementation to
+    figure out.\n\n## Enhanced mode\n\nEnhanced mode processing is indicated if at
+    least one of the 15th and 16th fields of the MSH segment of the inbound message
+    is not null. Enhanced mode requires that the receiving application take on additional
+    responsibility namely that:\n\n1. the inbound message is received and stored;\n2.
+    message passes syntax validation;\n3. the message type (ADT-A19 can be processed),
+    version is correct (HL7 v2.3.1 and not v2.6 for example) and processing ID is
+    correct - if not a commit reject (CR) message will be sent.\n\nBased on these
+    rules, the receiving system will send\n\n1. a commit accept (CA) if all OK;\n2.
+    a commit reject (CR) as above; or\n3. a commit error (CE) for any other error.\n\n###
+    Custom ACK\n\nWhat is health IT without some customization? Not surprisingly,
+    it is possible to send a Non-HL7/Static String ACK. This is a custom acknowledgement
+    and is simply a text string (rather than an HL7-formatted ACK). These types of
+    ACKs are used when an inbound system is incapable of receiving HL7 formatted messages
+    or creating them.\n\n## Rate limiting with ACK messages\n\nThe HL7 standard defines
+    that the sending systems cannot send another message to a system until it has
+    received an ACK in response. Actually, that is not quite correct (thanks for a
+    reader for pointing this out to us). It is not part of the HL7 specification.
+    It is usually the way the HL7 systems are implemented in *practice* to ensure
+    messages are handled appropriatelt.  This was done, one presumes, to ensure that
+    if messages are rejected due to errors in content, message formats, system downtime
+    etc., they can be corrected either at the source or queued until the destination
+    system comes back up. But as you can immediately see, if the next message won't
+    be sent until an ACK is received, it is possible to slow down the rate of inbound
+    messages by delaying the sending of the ACK message. Since processing of HL7 messages
+    using open source tools have challenges when inbound message rates become high,
+    this is one of the levers that is available to implementers to ensure messages
+    are received and processed appropriately.\n\nOur resident expert on HL7, [Mark
+    Olschesky](/about/mark/) explains this more as follows. Previous to v2.7, the
+    only ACKs that were \"official\" were your classic Original Mode and Enhanced
+    Mode ACKs. There was no way that an upstream system to really know within the
+    standard what you were going to do with the message. As such, the only valid assumption
+    was that \n\n- the message was processed without error upon receiving the ACK
+    or \n- was not processed correctly with a NACK or no ACK. \n\nThis also makes
+    sense logistically as well, i.e. it would be dangerous to send/process an update
+    to a patient record if you weren't able to process the initial event which would
+    seed that patient into your system (or receive an update to a note you didn't
+    have, etc.). Most of HL7's design is linear, and doesn't have much of a concept
+    of eventual consistency. Note that there were always exceptions around this (notably
+    systems which had no capability to respond with an ACK).\n\nIn 2.7, a new field
+    was added to the 15th segment of the MSH segment of the ACK which allows the receiving
+    system to indicate to the sending what it was going to do with the message after
+    it received it. While folks had been doing this tacitly for years beforehand,
+    the intent in design was to accommodate for interface engines which receive a
+    message and then fan it out to a multitude of systems, providing some closure
+    to the sending system as the receiving system cranked along and did its work.
+    This was usually a tacit admonishment in design that the interface engine (and
+    team working on it) was now responsible for troubleshooting vs. the ADT or EHR
+    system which generated the original message type.\n\nNow you know as much as I
+    do about ACKs. Go forth and prosper.\n\nIf you’re looking to integrate EHR data
+    with your application without becoming an HL7 expert, Datica can help. Learn more
+    about Datica Managed Integration Services for HL7 [here](/platform/integration/)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: iUK3rg26hqUEIsiuAIQou
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: iUK3rg26hqUEIsiuAIQou
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: iUK3rg26hqUEIsiuAIQou
+  :title: HL7 203 - The HL7 ORM (Order Entry) message
+  :slug: hl7-203-the-hl7-orm-order-entry-message
+  :pub_date: !ruby/object:DateTime 2018-09-03 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: 'The Order Entry (ORM) message is a common HL7 message type. ORM messages
+    contain information about an order, most commonly radiology or lab orders. '
+  :lead: The Order Entry (ORM) message is one of the most commonly used HL7 message
+    type. ORM messages contain information about an order. This includes placing new
+    orders, canceling existing orders, discontinuation, holding, etc. Orders pertain
+    to either materials (e.g., 1 liter of 0.9% saline) or services (e.g., a blood
+    panel, etc.). Usually this is patient specific. The trigger event for this message
+    is any change to an order i.e. order is created, modified, cancelled, put on hold
+    and so on.
+  :post: "Before we jump into ORM messages, a quick review might be in order. As we've
+    discussed [before](/discover/ehr-integrations/), HL7 has many message types which
+    can be very daunting. It's not only that there are messages but also that there
+    are types of HL7 messages which are geared towards handling specific events. Admission,
+    Discharge, Transfer (ADT) messages are sent when patient's are admitted, discharged
+    or otherwise moved around the hospital. Scheduling (SIU) messages schedule and
+    update appointments in clinics. Order Entry (ORM) messages are sent when orders
+    are placed or edited and Order Result (ORU) messages are sent back with results
+    that correspond to the original ORM message. These are the most common HL7 message
+    types; most other workflows, like updating flowsheets or filing visit notes, use
+    some combination of segments from these message types to accomplish their goals.
+    Since we already covered the ADT message in detail [here](/academy/hl7-201-the-admission-discharge-transfer-adt-message/),
+    we thought we could move onto the Order Entry (ORM) message.\n\nAs mentioned earlier,
+    an order is a request for material or services, usually for a specific patient.
+    These could be anything ranging from medication orders, measuring of vitals, lab
+    tests, specific food / dietary orders, radiology films. These could also be generic
+    orders (not clinical or pertaining to patient) for materials required to keep
+    the hospital running i.e. linens from housekeeping, supplies from central supply
+    etc. If something needs to happen in a hospital or clinic, from printing a requisition
+    to e-prescribing, orders distribute pertinent data from system to system.\n\nORM
+    messages are most commonly used to send Radiology Orders and Lab Orders[1]. Following
+    the standard HL7 message structure, an ORM message is made up of segments and
+    groups of segments, each of which may be required, optional, repeatable, or some
+    combination thereof. A quick note on reading HL7 message examples which seem to
+    contain a bunch of [],{} etc. The general rule is as follows:\n- No brackets around
+    it - **Required**\n- `[]` - **Optional**\n- `{ }` - **Repeating**\n- `[{ }]` -
+    **Optional Repeating**\n\nThe ORM message structure is as follows.\n\n~~~javascript\nORM
+    \    General Order Message\nMSH     Message Header\n [{NTE}]    Notes and Comments
+    (for Header)\n[\n   PID     Patient Identification\n   [PD1]    Additional Patient
+    Identification\n      [{NTE}]  Notes and Comments (for Patient ID)\n   [PV1    Patient
+    Visit\n    [PV2|]   Patient Visit Additional Information\n    [{IN1   Insurance\n
+    \     [IN2]   Insurance Additional Info\n   [IN3]   Insurance Additional Info\n
+    \   }]\n    [GT1]   Guarantor\n    [{AL1}]   Allergy\n  ]\n]\n {\n   ORC    Common
+    Order\n  [\n   Order Detail Segment OBR, etc.\n       [{NTE}]  Notes and Comments
+    (for Detail)\n       [{DG1}]  Diagnosis\n       [\n        {\n         OBX   Observation/Result\n
+    \             [{NTE}] Notes and Comments (for Results)\n         }\n       ]\n
+    \ ]\n  {[CTI]}   Clinical Trial Identification\n [BLG]    Billing segment\n }\n~~~\n{:
+    .prettyprint .lang-js}\n\nA couple of interesting things to note before we work
+    through an example.\n\n- As mentioned earlier, the ORM message can be used to
+    send patient specific orders or just operational orders (like ordering sheets
+    etc.) which is why, the PID segment above is an optional segment. The segment
+    is only required in the case of new orders and only if the new order is related
+    to a particular patient. Only then will / should  the PID segment be included
+    in the message.\n- Note the presence of multiple (optional, repeatable) Diagnosis
+    (DG1) segments. If repeated, the first will be the primary diagnosis.\n- Note
+    the presence of the OBX (Observation) segment as an optional, repeatable segment.
+    The use here is different from its use in the ORU (Observational Report - Unsolicited)
+    message. When used, it carries clinical information that might be needed by the
+    receiving system to interpret the observation that will be made, rather than information
+    about observations and results. So if the consuming system is an Imaging system,
+    then the ID would be set to TCM and and additional context around the order would
+    be sent (for example, CPT code of order with the associated description- 73610^X-RAY
+    ANKLE 3+ VW). Similarly, other ID types allowed include GDT (narrative), Addendum
+    (ADT), Study Notes (TCM), Transcribed Reports (TX).\n\nWith that out of the way,
+    let's take a simple message and see how it gets translated into an HL7 ORM message.\n\nThe
+    message I want to send is: A male, African American patient, John Appleseed, MRN:20891312,
+    SSN:123-45-7890 born on December 1, 1966 and account number of 11480003 needs
+    to have X-Ray of his ankle done. The order is being place by Dr. James Matthews.
+    The exact procedure to be performed is X-RAY ANKLE 3+ VW with the associated CPT
+    code  of 73610. This is based upon a diagnosis of Broken Ankle. Additional information
+    that will need to be sent will include facility, sending and receiving systems,
+    the version of HL7 being used etc.\n\nBased on this information, the segments
+    would be created as follows:\n\n#### MSH - Message Header\nAssuming an all Epic
+    environment i.e. sending and receiving systems are all Epic and order is created
+    at 2014/04/18 at 17:33:14. Version of HL7 being used is v2.3. This would result
+    in a segment that looks like this.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PID - Patient Identification\nSince this message
+    is a patient specific order, it needs all the associated patient info to prevent
+    any confusion and ensure no billing comebacks. This would include the patients
+    identifier, full name, DOB, sex, race, address, phone number(s), account number,
+    SSN and place of birth. Some of these are optional as described in the format
+    specification.\n\n~~~shell\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\n~~~\n{: .prettyprint .lang-shell}\n\nI'll skip
+    the NTE segment and go the next key one.\n\n#### PD1 - Patient Additional demographics\nThis
+    essentially contains the name and ID of primary facility where care is being provided
+    and the name and ID of the provider placing the order resulting in\n\n~~~shell\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PV1 - Patient Visit\nThis usually contains information
+    on the admission information, attending, referring and consulting, admitting physician
+    IDs and names and so on. I'll just keep it simple and just have the attending
+    physician's info in the sample giving us\n\n~~~shell\nPV1|||^^^CARE HEALTH SYSTEMS^^^^^|||
+    |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### ORC - Common Order\nFinally, we get to the order
+    details. As mentioned before, since this is a patient specific order, it must
+    be a new order.  So, we need to specify that it is a new order (NW), the order
+    number of the originating (placer) system (987654 from EPIC), the order number
+    of the system filling this (for reference - 76543 from EPIC). Additional details
+    that need to be filled in include dates and times of transaction, who created
+    the order, who the ordering provider was, the location IDs (facility, department)
+    and callback information in case something needs to be clarified.\n\n~~~shell\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### Observation Request\nSince the order is being
+    sent to an imaging facility, additional details need to be specified such as the
+    CPT codes and so on. I won't detail this as much here. The key fields required
+    here are the order details (73610^X-RAY ANKLE 3+ VW), ordering provider info (1173^MATTHEWS^JAMES^A^^^)
+    and who the interpreter of the results is going to be (6064^MANSFIELD^JEREMY^^^^).\n~~~\n{:
+    .prettyprint .lang-shell}OBR|1|363463^EPC|1858^EPC|73610^X-RAY ANKLE 3+ VW^^^X-RAY
+    ANKLE \n||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### DG1:  - Diagnosis\nSome basic context needs
+    to be provide so that the billing systems can do their work so diagnosis information
+    is also provided. So in ICD10 (I10), ankle fracture is coded as S82.\n\n~~~shell\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nNow, we string
+    all these together and we get the full HL7 ORM message.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\nPV1|||^^^CARE
+    HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\nOBR|1|363463^EPC|1858^EPC|73610^X-RAY
+    ANKLE 3+ VW^^^X-RAY ANKLE ||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nIt's not pretty,
+    but it's the way healthcare orders are passed from system to system today, even
+    if it's an all EPIC facility. Thankfully there are services like Datica to help
+    you work with HL7 messages.\n\nIf you're looking to integrate EHR data with your
+    application without becoming an HL7 expert, Datica can help. Learn more about
+    Datica Managed Integration Services for HL7 [here](/discover/ehr-integrations/).\n\nLooking
+    for further help on integrating an ORM (Orders, Procedures) feed with an EHR?
+    Check out [ORM Integration Help](/guide/how-to-integrate-with-hospitals/)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

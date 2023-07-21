@@ -1,0 +1,191 @@
+---
+:id: dRbqyREdFKMioS4QYmYUs
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-10-05T18:49:25+00:00'
+  :created_at: '2016-11-23T21:57:56+00:00'
+  :id: dRbqyREdFKMioS4QYmYUs
+:title: Backend as a Service or Platform as a Service — Which is right for you?
+:slug: backend-as-a-service-or-platform-as-a-service-which-is-right-for-you
+:pub_date: !ruby/object:DateTime 2015-02-06 00:00:00.000000000 Z
+:tags:
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+- :id: 3NDyJqRTJYMwiU0SSwqagm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:12:23+00:00'
+    :created_at: '2016-11-22T20:12:23+00:00'
+    :id: 3NDyJqRTJYMwiU0SSwqagm
+  :tag_full: BaaS
+  :slug: baas
+  :description: 'Backend as a Service. '
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software
+  as a Service (SaaS) – what does it all mean? '
+:blog_lead: 'Navigating the As-A-Service waters can be a choppy adventure. Different
+  service flavors exist up and down the entire technology spectrum, starting as low
+  as Infrastructure as a Service (IaaS) — access to physical hardware — all the way
+  up to Software as a Service (SaaS) — what most people utilize daily, like Salesforce
+  and Gmail. We''ve written before about [different forms of cloud delivery](https://catalyze.io/blog/what-is-cloud-computing-and-why-it-matters-for-compliance).
+
+'
+:post: |+
+  Two options that sit near the middle of the spectrum are Backend as a Service (BaaS) and Platform as a Service (PaaS). While close cousins, they are ultimately two very different services. At Datica, we often find customers aren't entirely sure which is the best fit for them. Today we want to briefly explain the difference.
+
+  ### The Backend As A Service (BaaS)
+
+  A Backend as a Service couples a basic datastore with expressive user provisioning and authentication tools. Think of it like a NoSQL database someone else manages for you off in the cloud, except that access is via a REST API. A similar yet non-compliant service is Parse.com.
+
+  User provisioning and authentication are important in healthcare since applications need to limit who can access what PHI. The most common example is a doctor should only have access to his or her patients, not every patient in the application. [Datica Compliant Cloud](https://datica.com/compliant-cloud) allows you to configure "groups" of users and then determine what data they should be able to access through Access Control Lists (ACLs).
+
+  The best use case for a BaaS is when data will only reside on either the device/browser and the BaaS itself, with nothing in between. A BaaS does not have any backend processing abilities, so it's not a good fit for data crunching or processing events like handling a batch of daily claims. If those aren't requirements, BaaS does most of the heavy lifting for you. Since retrieved Protected Health Information (PHI) only ever sits on the device or browser, you have no other HIPAA infrastructure concerns other than configuring the build in security tools to meet your needs.
+
+  ### The Platform As A Service (PaaS)
+
+  A Platform as a Service is something where you would deploy an entire application architecture. The full stack, from application code to database structure to backend workers, is deployed to your little slice of the cloud. That slice, at the infrastructure layer (networking and OS levels), is managed by the PaaS provider.
+
+  It's not too dissimilar from a "Host", but what makes a PaaS different are all the extra system additions a PaaS vendor provides. In Datica's case, we provide encryption of your data in transit and at rest, dedicated logging, monitoring, backup and disaster recovery, intrusion detection, vulnerability scanning, and more. All these additions are inherently part of [Datica Compliant Cloud](https://datica.com/compliant-cloud) — they are baked in. You must have them as additions to your environment. This important concept is what separates a "Platform" like Datica from a "Host" like Amazon Web Services.
+
+  Compliant Cloud is just like Heroku, only we are HIPAA compliant. You would use Compliant Cloud if you are already using someone like Heroku, or if you are using a traditional host who doesn't have the compliant add-ons, like Amazon Web Services.
+
+  The reason you would select a PaaS is because you will be processing PHI in some capacity. It could be simply validating the data before storing, or maybe you are analyzing results, or perhaps you are combining data points to provide additional services. If you are handling PHI in any way _other_ than simply storing it, Datica Compliant Cloud is what you need.
+
+  ### Your Use Case Is The Decider
+
+  Choosing between the two is relatively simple once you understand the difference. It basically comes down to your software application use case.
+
+  If you only ever plan to store and retrieve PHI and then display it in something like an iPhone app, then the Backend as a Service is for you.
+
+  Otherwise if you plan on interacting with PHI in any other way beyond simply storing it, you will want to opt for a PaaS like Datica Compliant Cloud.
+
+  If you have any additional questions, feel free to ping us on our Olark site chat, where we rotate team members to help with questions just like this, or send us an email at [hello@datica.com](mailto:hello@datica.com).
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark
+:related_entries:
+- :id: 6DxEJv8zdYOMA48G4sIaei
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T17:12:37+00:00'
+    :created_at: '2016-11-23T06:43:18+00:00'
+    :id: 6DxEJv8zdYOMA48G4sIaei
+  :title: What is Backend as a Service and what does it mean in a healthcare context
+  :slug: what-is-backend-as-a-service-and-what-does-it-mean-in-a-healthcare-context
+  :pub_date: !ruby/object:DateTime 2013-06-25 00:00:00.000000000 Z
+  :tags:
+  - :id: 3NDyJqRTJYMwiU0SSwqagm
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: We're working on taking much of the discovery and drudgery out of building
+    a healthcare-specific backend process (BaaS) with Datica Compliant Cloud.
+  :blog_lead: |
+    [Wikipedia](http://en.wikipedia.org/wiki/Backend_as_a_service) summarizes it best (as always):
+
+    > Although similar to other [cloud computing](https://datica.com/discover/healthcare-cloud/) developer tools, such as software as a service(SaaS), infrastructure as a service (IaaS), and platform as a service (PaaS), BaaS is distinct from these other services in that it specifically addresses the cloud computing needs of web and mobile app developers by providing a unified means of connecting their apps to cloud services.
+  :post: |+
+    The concept of a backend as a service (BaaS) is simple. All application developers (web or mobile) require a core set of features that need to be incorporated into every app. Examples of these features include user management, push notifications, integration with Facebook, Google+ etc., and cloud based data/file/image/video storage. These backend features take about 50% of overall app development time and cost.
+
+    The goal of every BaaS provider is to simplify:
+
+    - **Implementation**: through an SDK (software development kit) which provides a way to reduce the code required to implement all the features required to a few lines;
+    - **Access**: through a defined set of interfaces (APIs) that allow data to be easily accessed, manipulated and stored.
+
+    With a BaaS, every app developer need not code a similar or identical set of features to manage their own backend to handle user management, data storage and the like. Enabling this is a major task for BaaS platforms. It means being everything to everybody.
+
+    This has forced BaaS providers to have a **broad focus** and thus focus on the least common denominators - storage, user management, notifications, and social connectivity, leaving the specifics to the developer.
+
+    This is where the need for a **healthcare specific** backend-as-a-service surfaces.
+
+    ## Healthcare specific BaaS
+
+    As we built healthcare [EHR Integrations](https://datica.com/discover/ehr-integrations/) and talked to other healthcare app developers and enterprises, we uncovered a core list of features that each one of us was building over and over again. Namely,
+
+    - **Security**: this includes identification of PHI (personally identifiable health information), encryption of PHI at rest and in transit with associated audit logs. There are some additional nuances when it comes to [cloud computing](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/) and we will go into this in more detail in the subsequent [blog post on cloud security](https://datica.com/blog/onramp-to-the-healthcare-cloud/).
+    - **User Authentication & Management**: this is core to any app on any environment. The nuance in the healthcare context is to handle this efficiently given the security constraints.
+    - **Logging and auditing**: Given HIPAA's requirements to ensure appropriate access, logging and audit trails are essential for ongoing and historical compliance reporting and alerting.
+    - **Validation**: data created on the app needs to be standardized and follow terminology guidelines specified in HIPAA, HITECH, and MU2 regulations such as ICD-9, ICD-10, SNOMED, RxNORM, LOINC, and so on. This is again something we'll spend some time on in a subsequent blog post.
+    - **Transaction support**: incoming data from EMRs, PHRs, and financial transactions follow standards as well (or will need to shortly). These include transaction sets such as EDI (X12) transaction sets (NCPDP, 5010), CCDA, HL7 3.0, and must include some legacy transaction set support for CCD, BlueButton (and BB+) and earlier HL7 versions. Additionally, transactional data in healthcare is being extended to include self-reported, ongoing wellness information (more on this in later posts about extending our view of patients). This is again worthy of a more detailed description which we will delve into in a subsequent post.
+    - **Comprehensive Patient Model**: while enforcing a standard data model is not possible nor would it be well received, allowing access to a broad list of recommended data elements (what data elements are needed to fully capture a diabetic patient's clinical and health data?) would be welcomed. This is where we spent and are spending a lot of time to define data elements needed to capture a holistic picture of a patient. This is divided into eight categories - clinical, financial, vitals, activities, diet/nutrition, genetics, medications, and social. We will spend more time in this in a subsequent post as well.
+
+    Our mission at Datica is not just to securely support these data types and transactions but also simplify their use.
+
+    ## What about EHR data?
+
+    EHRs have a significant role to play in this future of healthcare. Traditionally, they have been walled off but with the evolution and implementation of accountable care organizations (ACOs) and patient centered medical homes (PCMHs), they are increasingly becoming more open. For example, Parters HealthCare providers can [now view patient data collected from mobile devices on their electronic medical record platform](http://www.healthcareitnews.com/news/partners-sends-mobile-data-emr). The traditionally complex EDI transaction set have more modern access through the likes of [Eligible API](https://www.eligibleapi.com/) and [Passport Health](http://www.passporthealth.com/index.aspx).
+
+    The challenge with [legacy EHR solutions](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/) is that they use services oriented architectures, making [EHR integration](https://datica.com/discover/ehr-integrations/) with next generation apps a certain challenge for the developer trying to unlock data behind firewalls and integrating such siloed environments. Developers within and outside enterprise IT realize that rebuilding the backend and the core set of services required can cost them months of work and hundreds of thousands of dollars in costs. But everyone also realizes this needs to be done as patient engagement is the key to change. Patient engagement is elusive and the best way to engage consumers has been proven to be mobile.
+
+    Datica Managed Integration glues together these different fragmented environments. It is a unified process between the client and the cloud with unified and secure APIs and software libraries. This allows developers and enterprises to "let a thousand flowers bloom" rather than enforce just one app and technology.
+
+    ## The Datica mission
+
+    Our goal is to take much of the discovery and drudgery out of building a healthcare specific platform.
+
+    We accomplish this through a growing set of managed integrations and a set of SDKs (iOS, Android and Javascript) to get access to: - a health grade data store - an extensible and interoperable patient model - integrated semantic validation - health grade secure messaging - health grade user management and authentication - health grade auditing and logging - health and wellness data sources - healthcare specific test data and - health grade data archiving
+
+    Our mission is to become the defacto standard [healthcare cloud platform](https://datica.com/compliant-cloud/) to build, test and deploy healthcare apps.
+
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 62z6JFrw08UkKsegycMyAQ
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi

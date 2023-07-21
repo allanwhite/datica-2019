@@ -1,0 +1,112 @@
+---
+:id: 710wg5hy36gY6WyQ0SQYUW
+:_meta:
+  :content_type_id: events
+  :updated_at: '2019-01-09T00:21:55+00:00'
+  :created_at: '2018-08-29T20:38:43+00:00'
+  :id: 710wg5hy36gY6WyQ0SQYUW
+:title: HIMSS 2019
+:slug: himss-2019
+:date_start: !ruby/object:DateTime 2019-02-11 00:00:00.000000000 -08:00
+:date_end: !ruby/object:DateTime 2019-02-15 12:00:00.000000000 -08:00
+:event_tags:
+- Conferences
+- Presentations
+:is_featured: true
+:event_logo:
+  :title: himss19-logo-2tone
+  :description: svg
+  :url: "//images.ctfassets.net/189dvqdsjh46/3x2jBFXGaQ2iSy6yaAeoQS/cc984517bda0ad7a884ec549aeb6f89b/himss19-logo-2tone.svg"
+  :_meta:
+    :updated_at: '2018-08-29T20:38:39+00:00'
+    :created_at: '2018-08-29T20:38:39+00:00'
+    :id: 3x2jBFXGaQ2iSy6yaAeoQS
+:summary: Join Datica at HIMSS19 in Booth 621 for exciting product demonstrations
+  and great gifts.
+:event_desc: "Datica is excited to be exhibiting at HIMSS 2019 in Orlando. Visit us
+  at booth #621 to see demonstrations of Compliant Kubernetes Service (CKS), Compliant
+  Managed Integrations (CMI), and our newest SaaS product, the Cloud Compliance Management
+  System (CCMS). We'll be giving away MiiR cups and copies of our new book, *Complete
+  Cloud Compliance*. \n\nYou can also see Datica in the Microsoft Booth, where we
+  are a showcased partner, and the AWS booth, where we'll be giving a presentation
+  on preparing for a 2019 HITRUST assessment. Sign up here to let us know you're coming
+  and to schedule a HIMSS19 meeting with a Datica compliance or EHR integration expert.
+  \  "
+:event_related_people:
+- :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+  :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+:event_location:
+  :lat: 28.5383355
+  :lon: -81.37923649999999
+:cta_ref:
+  :id: LlyDFJEdS884Ac0SusOGi
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2019-01-08T23:55:16+00:00'
+    :created_at: '2019-01-08T22:40:33+00:00'
+    :id: LlyDFJEdS884Ac0SusOGi
+  :title: Want to meet at HIMSS19?
+  :slug: contact-us-himss19
+  :desc: Want to find a time for a demo or discussion at HIMSS?
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n\tportalId: \"1695915\",\n  target: '#hsFormContainer',\n\tformId:
+    \"de3d5c83-e763-405d-bb40-3062d045d426\",\n        onFormSubmit: function($form)
+    {\n\twindow.dataLayer = window.dataLayer || [];\n\twindow.dataLayer.push({\n                    'event'
+    : 'GAEvent',\t\t\t\n                    'eventCategory' : 'Sales Engagement',\n\t\t
+    \   \t\t        'eventAction' : 'Form Submission',\n\t\t    \t\t        'eventLabel'
+    : 'Contact Us - HIMSS19',\n\t\t    \t\t        'eventValue' : '10'\n\t\t});\n\t},\n\tcss:
+    \"\"\n});\n</script>"

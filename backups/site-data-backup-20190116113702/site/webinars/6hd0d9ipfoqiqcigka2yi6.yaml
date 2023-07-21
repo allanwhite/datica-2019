@@ -1,0 +1,155 @@
+---
+:id: 6Hd0d9IPfOqIQCIGKa2YI6
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2018-11-14T22:29:32+00:00'
+  :created_at: '2018-10-29T19:56:29+00:00'
+  :id: 6Hd0d9IPfOqIQCIGKa2YI6
+:title: 'Demystified: How to Configure Databases to Comply with HITRUST'
+:slug: how-configure-databases-comply-with-hitrust
+:event_date: !ruby/object:DateTime 2018-11-14 13:00:00.000000000 -06:00
+:summary: 'To make healthcare compliance more accessible to all, we’ve produced freely-available
+  configuration guides for popular cloud services like Amazon RDS, Azure Cosmos DB,
+  and Google Cloud SQL. This webinar will explain what''s in them and how to use them.
+
+'
+:subhead: A review of our open configuration guides for popular cloud services
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+- :id: is3dnFjlYcWUgE8SKQuAu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-09-04T21:23:49+00:00'
+    :created_at: '2018-09-04T21:23:49+00:00'
+    :id: is3dnFjlYcWUgE8SKQuAu
+  :tag_full: Microsoft
+  :slug: microsoft
+  :description: Microsoft Azure
+:lead: Cloud compliance is complex — not because the configurations themselves are
+  complex, or that the technology tooling doesn’t exist to achieve proper configuration;
+  rather it takes time, knowledge, and even creativity to understand what exactly
+  those configurations should be.
+:desc: |2-
+
+  In our pursuit to make healthcare compliance more accessible to all, we’ve produced freely-available configuration guides for popular cloud services like Amazon RDS, Azure Cosmos DB, and Google Cloud SQL.
+
+  In this 30-minute webinar you'll learn:
+
+  * What's in the configuration guides and how to use them
+  * How these cloud configurations can easily be mapped to multiple compliance regimes, including HIPAA, GDPR, NIST, and more
+  * How the Datica CCMS will continuously monitor the compliance state of those configurations
+:authors:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: 29k31B64TaqgUcIYWG2smS
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-11-14T22:14:50+00:00'
+    :created_at: '2018-11-14T22:14:50+00:00'
+    :id: 29k31B64TaqgUcIYWG2smS
+  :title: 'Webinar - Demystified: How to Configure Databases'
+  :slug: webinar-demystified-how-to-configure-databases
+  :desc: Form for 11/14/2018 webinar archive
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"cca3ecab-42ab-433d-9878-7e6bc783a5ca\",\n
+    \ css: \"\",\n  target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n
+    \   window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n
+    \                     'event' : 'GAEvent',     \n                      'eventCategory'
+    : 'Webinar',\n                      'eventAction' : 'Form Submission',\n                      'eventLabel'
+    : 'Demystified: How to Configure Databases',\n                      'eventValue'
+    : '2'\n                      });\n                    }\n});\n</script>\n"
+:video_embed:
+  :id: 1gvSXxQblg2kOSquYQug6M
+  :_meta:
+    :content_type_id: videos
+    :updated_at: '2018-11-14T22:54:31+00:00'
+    :created_at: '2018-11-14T22:25:09+00:00'
+    :id: 1gvSXxQblg2kOSquYQug6M
+  :title: 'Demystified - Cloud Database Configurations '
+  :slug: demystified-cloud-database-configurations
+  :custom_form: <script src="https://fast.wistia.com/embed/medias/kexqniw912.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_kexqniw912 videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+  :wistia_id: kexqniw912
+  :bg_image:
+    :id: iRl09V9HosOWWsqGCo0uO
+:image_thumb:
+  :title: webinar-demystified -promo-bg
+  :description: 'Demystified: How to configure databases promo bg'
+  :url: "//images.ctfassets.net/189dvqdsjh46/2m9no9bvuUuGOoiEasYAik/50c6b7cd7af9aae281d7fc6bd87ee2e2/webinar-demystified_-promo-bg.jpg"
+  :_meta:
+    :updated_at: '2018-10-29T21:43:45+00:00'
+    :created_at: '2018-10-29T21:43:45+00:00'
+    :id: 2m9no9bvuUuGOoiEasYAik
+:share_image:
+  :title: webinar-Demystified- promo-lg
+  :description: 'Demystified: How to Configure Databases social'
+  :url: "//images.ctfassets.net/189dvqdsjh46/2aGsAKLDDa0qugaaQacAwm/7f357e59473c0cf9579c507a93892217/webinar-Demystified-_promo-lg.jpg"
+  :_meta:
+    :updated_at: '2018-10-31T18:17:52+00:00'
+    :created_at: '2018-10-29T19:55:53+00:00'
+    :id: 2aGsAKLDDa0qugaaQacAwm

@@ -1,0 +1,339 @@
+---
+:id: 2ip2SByIccaaYusUcQSyoS
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T00:39:39+00:00'
+  :created_at: '2016-11-23T06:51:36+00:00'
+  :id: 2ip2SByIccaaYusUcQSyoS
+:title: Let's encourage secure sharing of health data
+:slug: lets-encourage-secure-sharing-of-health-data
+:pub_date: !ruby/object:DateTime 2014-05-16 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: An overwhelming majority of patients are already sharing data or would be
+  willing to share data with providers and motivated patients are a very good thing.
+:blog_lead: There's a recent report and [infographic](http://www.mobiquityinc.com/get-mobile-get-healthy-appification-health-fitness-infographic)
+  that surveyed over a thousand consumers and asked them questions related to tracking
+  their own health, searching for health information online, and about sharing health
+  data about themselves with healthcare providers. The report found that an overwhelming
+  majority are already sharing data or would be willing to share data with providers.
+  That's fantastic! Motivated patients are a very good thing.
+:post: |2+
+
+  This is a trend that the health system should encourage and help foster. Interesting, to me at least, is that the report found that 70% of the people that shared data with providers thought providers were interested in the patient reported data. That finding surprises me because it doesn't fit into the way that the vast majority of providers deliver, document, and get reimbursed for care today. With very limited time per patient visit, going through tons of new data is not always feasible or encouraged. Self tracking is exactly in line with the goals of healthcare in terms of patient engagement and ownership of patient health. If individuals are actively measuring and quantifying themselves and they want to share that information, it should be encouraged to create a return on that individual investment and effort.
+
+  I have personal experiences with family that have wanted to share their own data and been blown off by physicians. An example is my dad. We got him an iPhone-connected glucometer a couple years ago and, in his excitement, he emailed his endocrinologist his data ahead of an appointment. The endocrinologist flat out told him that he couldn't really use the data. My dad now sends me his weekly reports of blood sugars, which is helpful because I can encourage him but it would be great if his physician supported and encouraged his enthusiasm for self-care.
+
+  The second piece of that report found that those individuals, the ones who want to share data, also want to have trust in the way that the data is being shared, and the [security and privacy of their data](https://datica.com/blog/onramp-to-the-healthcare-cloud/). I think that most people today are leery of security and privacy because there have been so many high profile and public breaches and violations. There's a lot of concern about who's selling data to whom and what type of data is actually protected on individuals. This is much, much broader than healthcare.
+
+  The fact that a large chunk of people would like to share information that they're tracking about themselves, they'd like to share that information with their providers is something that, as a health system, I think we need to find a way to integrate that one way or the other.
+
+  The data in the infographic also shows trends that innovators and vendors should enable and capitalize upon. First, creating ways for consumers to easily collect and combine information about their activity and daily routine is incredibly valuable. There are countless sensors and apps so this is a crowded space to jump into. Second, creating tools that leverage that data to provide intelligent feedback to individuals is needed. This is an area that more companies are trying to get into, but is still pretty open. Third, enabling the easy sharing of personal data while maintaining the privacy and security of that data is essential to consumer trust and health system buy-in. This is harder, and there is still much to be figured out. Where is data going? Is it using traditional interfaces or [new EHR APIs](https://datica.com/blog/fhir-fuels-transformation-at-hospitals/)? How is it secured and can it pass the compliance officer? And fourth, though this is implied in 1 through 3 above, would be standardizing the data formats to make it easier for data to be exchanged. So many opportunities....
+
+  At Datica we're here to help you solve some of these challenges. Check out our [healthcare-specific Platform](https://datica.com/compliant-cloud/) to learn more and get started.
+
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light
+:related_entries:
+- :id: 2VruFXKE1iwCYqwKWWGikq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-17T00:08:49+00:00'
+    :created_at: '2016-11-23T21:57:54+00:00'
+    :id: 2VruFXKE1iwCYqwKWWGikq
+  :title: FHIR is on FIRE as We Release Our Latest Academy Entries
+  :slug: fhir-is-on-fire-as-we-release-our-latest-academy-entries
+  :pub_date: !ruby/object:DateTime 2015-05-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'FHIR is a necessary development due to the current state of healthcare
+    integration and interoperability and brings a better, more modern approach to
+    ehr integrations. '
+  :blog_lead: "As you may have heard, FHIR (Fast Healthcare Interoperability Resources)
+    is the new and emerging standard being developed under the [Health Language 7](https://hl7.org/)
+    (HL7) organization and Datica has just released THREE new Academy articles so
+    you can stay ahead of the curve on all things FHIR related. \n"
+  :post: "Pronounced as ‘Fire’ (hopefully bringing clarity to the pun in the title),
+    it was initially developed by [Graham Grieve](http://www.healthintersections.com.au/),
+    who insisted upon FHIR being open sourced.\n\nIn our [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)
+    Academy article, Datica Co-founder Mohan Balachandran, guides us through why FHIR
+    was necessary due to the current state of healthcare integration and interoperability
+    and why FHIR brings a better, more modern approach with concepts such as [Restful
+    APIs](http://en.wikipedia.org/wiki/Representational_state_transfer) and accompanying
+    documentation to integration systems. In this introduction, you will learn what
+    makes FHIR the superior in flexibility, the advantages FHIR has over the existing
+    HL7 standards, and where FHIR is headed from here.\n\nIn the second entry to our
+    FHIR series, [The FHIR Resource Object: The Core Building Block](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/),
+    Mohan guides us through an understanding of the Resource object outlining its
+    origins and intent, but also providing resources to further expand our HL7 comprehension.
+    By listing various resource categories and their structures, including clinical,
+    administrative, and infrastructure, Mohan is able to show how these models allow
+    for the creation of nearly any clinical condition. \n\nStill want to know more
+    about FHIR? We sure hope so as Mohan’s third entry, [Recommended FHIR API Implementation](https://datica.com/academy/recommended-fhir-api-implementation-principles/)
+    shows the general design principles that we have followed at [Datica](https://datica.com/managed-integration/)
+    and what the key underlying principles are when building RESTful APIs.\n\nAs always,
+    Datica is here to be your trusted resource and partner in all aspects of HL7.
+    Stay tuned for more [Academy entries](https://datica.com/academy/) as we stay
+    up to date on the latest in digital health.\n"
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 5NH1yU9I1UaG6CEE62UM2o
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-20T23:55:11+00:00'
+    :created_at: '2016-11-23T06:51:36+00:00'
+    :id: 5NH1yU9I1UaG6CEE62UM2o
+  :title: The Health Internet of Things (IoT)
+  :slug: the-health-internet-of-things-iot
+  :pub_date: !ruby/object:DateTime 2014-05-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The health internet of things (health IoT) is essentially what most people
+    in the industry today describe as connected health. '
+  :blog_lead: 'There''s a new research [report](http://research.gigaom.com/report/the-internet-of-things-and-the-future-of-health-care/)
+    by GigaOM about what they call the "health internet of things" (health IoT), which
+    is essentially what most people in the industry today describe as "connected health".
+    It''s inclusive of devices, sensors, apps and other tools that can track an individual''s
+    activity and the other data on that individual. The report delves into the potential
+    and power of that data, specifically the power of that data as it relates to health
+    and wellness and the healthcare industry more broadly. The report''s worth reading
+    if you haven''t see it.
+
+'
+  :post: |+
+    The author [Jody Ranck](https://twitter.com/jranck) is well respected in the industry and he did a very nice job with the report, laying out in pretty good detail the case for the health IoT and connected health. It includes a lot of good case studies in it. To me, there are several key things which Jody calls out in the report that are worth highlighting.
+
+    The first insight is obvious, namely that sensors and individual tracking present huge opportunities in terms of the volume and the value of data on individuals. Connected sensors and devices will dramatically expand data points and dimensions on individuals, providing more value than what has traditionally been captured and used in healthcare.
+
+    The second insight is that data alone doesn't do that much; but, creating intelligent algorithms can. Using health IoT data + algorithms to drive behavior change and shape programs to improve access to health and wellness services is exceptionally valuable.
+
+    The third insight is that connected health has largely not been associated with the power and the future of personalized medicine. To date, genomics has held the monopoly on that "personalized medicine", and with good reason. The argument in the report for personalized medicine is that, through connected health devices and the data they generate, we will have insights into environmental, behavioral, and social data for an individual. Those contexts for an individuals are extremely powerful for a lot of reasons, but one of the major areas that could benefit is healthcare and wellness.
+
+    The last point that Jody makes in the report is that there is extreme power and value in combining health IoT data from multiple devices with data from clinical systems. This existing data is present in troves in the industry today. It's just locked up behind walls and in silos. But those silos are being pried open through Meaningful Use and patient access initiatives.
+
+    Tied closely to mashing up of health IoT data with existing clinical data are issues of trust, security, and privacy. Patient device companies, via things like pedometers and home scales, have not traditionally had to worry about compliance. Healthcare is a risk averse industry that is highly regulated, and errs on the side of caution, especially if data from patient devices is merging with clinical data and/or being used to inform care.
+
+    We firmly agree with the report that there are paradigm shifts coming to healthcare, and a lot of those shifts are going to be technology and data-driven; but, in order for those shifts to take hold, in order for those shifts to scale, both on the consumer side as well as on the enterprise side, there needs to be a high level of security. There also needs to be transparency into the policies and procedures that manage that security. This is essential to provide the assurances needed for both individuals as well as enterprises that will be using these technologies.
+
+    This [security and transparency is in the core](https://datica.com/compliance/) of how we build our technology at Datica. It's in our DNA. It's the compliance and security layer that we want to help vendors, enterprises, and developers address so that they can focus on creating meaningful health IoT applications or the actionable insights or algorithms based on health IoT data. Whether you're building a mobile app using our [compliant cloud](https://datica.com/compliant-cloud/) or deploying a custom application on our [compliant platform](https://datica.com/compliant-cloud/), we want to help you build and sell the future of healthcare.
+
+  :cta_ref:
+    :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :related_entries:
+  - :id: Vrmu0Devw2EqI4CmK8eWc
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 5FDGW2RyLeyCeuaogA4iEs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:03:02+00:00'
+    :created_at: '2016-11-23T22:18:35+00:00'
+    :id: 5FDGW2RyLeyCeuaogA4iEs
+  :title: 'Assessment Series: HIPAA Security Assessment'
+  :slug: hipaa-security-assessment
+  :pub_date: !ruby/object:DateTime 2015-06-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'In this second entry of our Assessment Series we explore what a HIPAA
+    Risk Assessment is and why it is crucial handling PHI.
+
+'
+  :blog_lead: 'In this second entry of our [Assessment Series](https://datica.com/blog/hipaa-compliance-assessment/)
+    we explore what a HIPAA Risk Assessment is and why it is crucial in ensuring the
+    safe-handling of [protected health information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/)
+    with the growing dependency on information technology in the Healthcare Industry
+    and the implementation of electronic medical records (EMR).
+
+'
+  :post: "Back in February of 2009 the [HITECH (Health Information Technology for
+    Economic and Clinical Health)](https://datica.com/blog/data-security-patient-engagement/)
+    Act was passed as an element of the American Recovery and Reinvestment Act to
+    fortify the privacy and safety of PHI by including provisions to the HIPAA Standards.
+    Among the stipulations in HITECH was the [HIPAA Security Rule](https://datica.com/discover/hipaa-compliance/)
+    which has requirements organized into three classifications, and within each classification
+    are 18 standards and 36 implementation specifications that are categorized as
+    “Required” or “Addressable”. The **Required** specifications are crucial and necessities
+    to be implemented; whereas, **Addressable** specifications are meant for scalable
+    consideration based on individual and entity needs and best practices. \n\n##
+    The Three Classifications \n\n## 1. Administrative Safeguards\nThese constitute
+    more than half of the HIPAA Security Assessment requirements. As with all three
+    standards, compliance will mandate an evaluation of the security controls in place
+    already, a precise and in-depth analysis, and a succession of documented solutions
+    derived from a multitude of factors unique to each covered body.\n\nThese safeguards
+    are broken down as follows:\n\n### Standard: Security Management Process\nThe
+    intent is to create the administrative processes and operations that a covered
+    body will utilize to enact the security program in its environment.\n\n#### Implementation
+    Specifications\n1. Risk Analysis (Required)\n2. Risk Management (Required)\n3.
+    Sanction Policy (Required)\n4. Information System Activity Review (Required)\n\n###
+    Standard: Assigned Security Responsibility\nThe goal is to recognize who will
+    hold responsibility for ensuring that the covered body abides by the HIPAA Security
+    Rule. There are no implementation standards for this standard.\n\n### Standard:
+    Workforce Security\nThe objective is to identify each workforce member that necessitates
+    access to ePHI and their need, time of need, and how they are going to control
+    access to the information. \n\n#### Implementation Specifications\n1. Authorization
+    and/or Supervision (Addressable)\n2. Workforce Clearance Procedure (Addressable)\n3.
+    Termination Procedures (Addressable)\n\n### Standard: Information Access Management\nMeant
+    to restrict access to solely persons with a need for specified ePHI.\n\n#### Implementation
+    Specifications\n1. Isolating Health Care Clearinghouse Functions (Required)\n2.
+    Access Authorization (Addressable)\n3. Access Establishment and Modification (Addressable)\n\n###
+    Standard: Security Awareness and Training\nTraining for all new and current members
+    of the entity’s staff is mandated by the Security Rule.\n\n#### Implementation
+    Specifications\n1. Security Reminders (Addressable)\n2. Protection from Malicious
+    Software (Addressable)\n3. Log-in Monitoring (Addressable)\n4. Password Monitoring
+    (Addressable)\n\n### Standard: Security Incident Procedures\nImplemented to call
+    attention to security occurrences within the covered body’s environment. \n\n####
+    Implementation Specifications\n1. Response and Reporting\n\n### Standard: Contingency
+    Plan\nNecessitates to plan and establish strategies for retrieving access to ePHI
+    if an entity where to experience a crisis or occurrence that disrupts urgent business
+    operations.\n\n#### Implementation Specifications\n1. Data Backup Plan (Required)\n2.
+    Disaster Recovery Plan (Required)\n3. Emergency Mode Operation Plan (Required)\n4.
+    Testing and Revision Procedures (Addressable)\n5. Applications and Data Criticality
+    Analysis (Addressable)\n\n### Standard: Evaluation\nRequires entities to create
+    a process to review and maintain standard security measures to comply with The
+    Security Rule. There are no implementation specifications for this standard.\n\n###
+    Standard: Business Associate Contracts and Other Arrangements\nStates that covered
+    bodies are required to sign a contract or other agreement that meet the definition
+    of a “business associate.” This standard has no implementation specifications.\n\n##
+    2. Physical Safeguards\nThese safeguards are meant to evaluate and implement all
+    physical access to ePHI.\n\nThese are broken down as follows within a HIPAA Security
+    Assessment:\n\n### Standard: Facility Access Controls\nEnacted to limit the access
+    to the electronic information systems where ePHI is housed.\n\n#### Implementation
+    Specifications\n1. Contingency Operations (Addressable)\n2. Facility Security
+    Plan (Addressable)\n3. Access Control and Validation Procedures (Addressable)\n4.
+    Maintenance Records (Addressable)\n\n### Standard: Workstation Use\nRequires that
+    entities clarify the proper uses to be done by electronic computing devices. There
+    are no implementation specifications for this standard. \n\n### Standard: Workstation
+    Security\nAddresses the operations and procedures for how workstations should
+    be utilized and secured from unauthorized persons. There are no implementation
+    specifications for this standard. \n\n### Standard: Device and Media Controls\nThis
+    covers the correct handling of electronic media including removal, receipt, backup,
+    storage, reuse, disposal, and responsibility. \n\n#### Implementation Specifications\n1.
+    Disposal (Required)\n2. Media Re-Use (Required)\n3. Accountability (Addressable)\n4.
+    Data Backup and Storage (Addressable)\n\n## 3. Technical Safeguards\nA covered
+    body is mandated to determine the security protocol and specified technologies
+    that are appropriate for implementing in its organization while complying with
+    these safeguards which are broken down according to the HIPAA Security Assessment
+    as follows:\n\n### Standard: Access Control\nRequired to provide/restrict persons
+    with the access necessary for the information systems, applications, programs,
+    or files associated with ePHI.\n\n#### Implementation Specifications\n1. Unique
+    User Identification (Required)\n2. Emergency Access Procedure (Required)\n3. Automatic
+    Logoff (Addressable)\n4. Encryption and Decryption (Addressable)\n\n### Standard:
+    Audit Controls\nThis standard is meant to be useful for the records and examinations
+    of information system activity, particularly in a security violation.This standard
+    has no implementation specifications.\n\n### Standard: Integrity\nThis standard
+    requires that policies and processes are implemented to protect ePHI from being
+    altered or destroyed.\n\n#### Implementation Specifications\n1. Mechanism to Authenticate
+    Electronic Protected Health Information(Addressable)\n\n### Standard: Person or
+    Entity Authentication\nThis standard confirms that a person is who they are claiming
+    to be before being granted the access to ePHI. This standard has no implementation
+    specifications.\n\n### Standard: Transmission Security\nThis standard is utilized
+    to guard against those who are not granted permissions to ePHI that is being communicated
+    over electronic means.\n\n#### Implementation Specifications\n1. Integrity Controls
+    (Addressable)\n2. Encryption (Addressable)\n\nIn summary, when doing your own
+    HIPAA Security Assessment, keep in mind that this applies to all media types including
+    oral, paper, and electronic while simultaneously considering integrity, confidentiality,
+    and availability. There are many HIPAA Security Assessment tools and services
+    that have been released but no one is more highly regarded in this space than
+    Datica as a [HIPAA compliance authority](https://datica.com/discover/hipaa-compliance/).
+    \n\nDid you miss our first post in the HIPAA Assessment Series? Check it out [here](https://datica.com/blog/hipaa-compliance-assessment/)!"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 2GT6S0aIrCA46qmAySAYM0

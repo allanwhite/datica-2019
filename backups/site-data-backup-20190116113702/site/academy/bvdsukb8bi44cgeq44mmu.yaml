@@ -1,0 +1,556 @@
+---
+:id: BVDSUKb8bI44Cgeq44MMU
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:42+00:00'
+  :created_at: '2017-01-16T17:41:33+00:00'
+  :id: BVDSUKb8bI44Cgeq44MMU
+:title: HIPAA Auditing and Logging
+:slug: hipaa-auditing-and-logging
+:pub_date: !ruby/object:DateTime 2018-06-28 00:00:00.000000000 Z
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: If you're going through a HIPAA security audit by a hospital or payer compliance
+  office, auditing and logging will show that your application is secure.
+:post: |
+  Auditing and logging are an important part of the HIPAA Security Rule, but there not prescriptive controls defined. According to HIPAA Security Rule - 164.312(b):
+
+  > Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.
+
+  HIPAA goes on to say, in slightly more specific terms, that covered entities and business associates implement:
+
+  > Procedures for monitoring log-in attempts and reporting discrepancies.
+
+  Put simply, what HIPAA boils down to is that all access, both success and failures, to electronic protected health information (ePHI) should be monitored and logged and be accessible in the case of a breach. You should be able to go back to your HIPAA log and investigate what data was accessed, conduct forensics to try to figure out how that data was accessed in an unauthorized way and who may have been the person or entity that accessed it, and determine if/how data was altered. It's the who, what, when, and how of access that needs to be audited and logged.
+
+  Auditing is so important because the integrity and availability of data is crucial in healthcare and in HIPAA. When ePHI data changes, is deleted, or is accessed in some unauthorized way, that represents a breach to HIPAA and is something that needs to be tracked both proactivel – using alerting and monitoring – as well as reactively, or retroactively, to investigate when an unauthorized breach might have taken place.
+
+  The types of logs should include system and network logs. This is basically what goes into syslog on a *nix box and, ideally, the server has detailed logging turned on. Next, any application access and database access should be logged. The metadata (when, what, where, etc) associated with log data is extremely valuable.
+
+  If you log enough data, you can proactively identify when a breach may have occurred with intelligent alerting. Once logging is properly configured, alerts are relatively easy to add. You can go back and investigate and dive deeper into what that the breach might be and ideally not just say "we store 100,000 patient records and our database was breached, so 100,000 patient records were disclosed improperly." With good logging, you should be able to point to the one, individual record that was breached and additionally maybe even the one specific piece of the record was breached (and how it might have or might not have been altered). That's some of the power of good logging.
+
+  The approach that we take at Datica is to log every interaction with our systems - all API traffic - application logs, database logs, and system logs. For companies that use us as Datica Compliant Cloud, we give them one endpoint so that whatever application logs they are generating, we can store those for them; we'll also help them determine what data they should be capturing in application logs. We store the application logs, along with system logs that we generate, in an encrypted, dedicated store for each customer, and we provide customers with views and API access into that data.
+
+  It's a very powerful unified logging service, one that's HIPAA grade and meant for ePHI. The service sits within our environment right next to your application and we combine your log data that we're already collecting on the servers and network traffic. We pull all that in into one place and give you a managed console for logging. Soon we'll be enabling customers to set alerts as well. If you're going through a HIPAA audit or assessment by a compliance office at a hospital or payer, this is a very powerful tool to assure them of the security and integrity of your application.
+:related_guide:
+  :id: 2niXNAQR924CwM0YcOeo0C
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-31T23:55:43+00:00'
+    :created_at: '2017-10-06T19:59:13+00:00'
+    :id: 2niXNAQR924CwM0YcOeo0C
+  :title: Total Cost of Ownership of Compliance in the Cloud
+  :slug: total-cost-of-ownership-of-cloud-compliance
+  :summary: In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica on how to measure and manage the total cost of ownership
+    to achieve compliance in the cloud.
+  :subhead: The new 2018 guide to the total cost of healthcare compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: Measure and manage the total cost of ownership of cloud compliance.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 2B98PdoITGQAYwcWk2muY4
+  :guide_text: "There’s much to know about both compliance and cloud management and
+    that knowledge requires a significant investment in time, education, personnel,
+    and money. This guide will help makers of digital health products make informed
+    decisions about whether to “build” cloud compliance themselves, or “buy” it in
+    the form of the Datica Compliant Kubernetes Service.\n\nThis TCO guide explains
+    the considerations of compliance and cloud management in healthcare and offers
+    a framework to understand the activities, resources, and cost estimates for each
+    of those considerations. These estimates are based on our extensive experience
+    working with multiple third-party auditors and multiple cloud infrastructure providers
+    (like AWS and Azure).\n\nWhat's inside:\n\n- Understanding compliance in the cloud
+    \n- Flying solo on AWS or Azure is primitive\n- The importance of proving compliance
+    with HITRUST \n- The total cost of ownership framework and estimates\n- TCO summary"
+  :related_form:
+    :id: 5CQGDgTQVU8uAeY4cAg28S
+  :form_id: 31f9bd13-23b1-4bbb-8ec0-fdfaf0552494
+  :bg_image:
+    :id: 19G8ntoDREkcgMwA6mKQme
+  :image_thumb:
+    :id: 2yyrhvg12wySaoSgyQ6C6G
+  :share_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:related_entries:
+- :id: 17s5iFERjsQOOQeSci2kES
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 17s5iFERjsQOOQeSci2kES
+  :title: The HIPAA Privacy Rule
+  :slug: the-hipaa-privacy-rule
+  :pub_date: !ruby/object:DateTime 2018-02-06 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Privacy Rule is important to understand because it explains
+    the types of data, covered entities, and uses of data HIPAA is concerned about.
+  :post: |
+    ## Overview
+    The HIPAA [Privacy Rule](https://www.hhs.gov/sites/default/files/privacysummary.pdf) sets many of the terms used for HIPAA, outlines the types of entities that need to comply with HIPAA, defines appropriate uses or disclosures of health information, and also covers penalties for HIPAA violations. The Privacy Rule is important to understand, despite the fact that it doesn't include specific technical requirements or polices, as the Privacy Rule gives an understanding of the types of data, entities, and uses of data that HIPAA is concerned about.
+
+    ## Entities
+    The Privacy Rule defines two main categories of entities:
+
+    1. *Covered Entities (CEs)*. These are the traditional players in healthcare - providers, hospitals, health systems, insurers. For some reason clearinghouses are called out as they transform and process health information for payers and providers; the clearinghouse that I always think of is Emdeon.
+
+    2. *Business Associates (BAs)*. These are individuals and organizations that provide services and/or technology to covered entities. In the process of providing those services and technology, the business associate in some way process, transmit, or store protected health information (PHI). All software vendors in healthcare, if they somehow touch PHI, are business associates.
+
+    A third category of entity or, maybe more accurately, a subcategory of business associates was added in 2013 as part of the HIPAA Omnibus rules in the HITECH Act. The HITECH Act defined a subcontractor as an entity that "creates, receives, maintains, or transmits protected health information on behalf of the business associate." A subcontractor is a business associate of a business associate. It can be a hosting provider, an email delivery service (email address), or even an analytics platform (IP address), if it in some way touches PHI. At Datica, many of our customers are business associates and we are subcontractors for them so we meet the new definition of subcontractor.
+
+    The Omnibus Rule also defined a PHR vendor, offering a PHR through a covered entity as a business associate.
+
+    ## PHI + De-identifying
+    We devoted an entire post to "[What is PHI?](https://catalyze.io/learn/what-is-protected-health-information-or-phi)" because it's an incredibly important topic in HIPAA. It's basically personally identifiable data (name, email, phone, etc) combined with some type of health-related data (medication, diagnosis, provider name).
+
+    PHI can be de-identified by removing certain elements from the data, in a process called the [Safe Harbor](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance) method, or through "[expert determination](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#guidancedetermination)", which seems a bit fuzzy to us as it is ripe for interpretation. The idea with both methods for de-identification is to make it so you can't identify an individual from a data set (duh!).
+
+    ## Use or disclosing of PHI
+    PHI can only be disclosed for reasons defined by the HIPAA Privacy Rule, or with written permission by an individual about their own health information. Other than providing access to the individual to his/her medical record, the Privacy Rule allows for disclosing PHI for three main reasons:
+
+    1. *Treatment.* Probably the most obvious reason for disclosure, exchanging PHI between providers for treatment, management, and consultation happens all the time.
+    2. *Payment.* In order to collect payments from insurers, disclosure of PHI is essential.
+    3. *Operations.* We think of this as the catch-all bucket. It encompasses many administrative functions such as quality reporting and different types of operational analytics. This is also where disclosures for medical education fall in.
+
+    There are some other, more obscure, reasons for disclosures. The most relevant reasons left are for legal reasons ("required by law"), worker compensation, and for restricted research purposes, amongst others.
+
+    In some select cases – in particular, marketing – covered entities may disclose PHI but only with authorization from the individual.
+
+    ## Minimum necessary
+    One of the central tenants of HIPAA, as stated in the Privacy Rule, is minimum necessary use of PHI. The idea is relatively simple, don't disclose any information that is not necessary for the reason for which the information is to be used. For example, if you're trying to find out how much a patient owes for a particular procedure, you probably don't need to disclose that patient's allergies. In healthcare today, minimum necessary is usually observed by either specific HL7 or EDI X12 message types which confine the amount and type of data in a data exchange.
+
+    ## Notice of HIPAA Privacy Policies
+    Covered entities must provide individuals with a notice informing those individuals of their rights, as well as detailing other factors such as the protections the covered entity use to secure PHI. You probably remember getting and signing these every time you go to the doctor.
+
+    ## Penalties
+    The Office of Civil Rights (OCR), within HHS, is responsible for enforcing the HIPAA rules. In addition to civil (financial) penalties, there are criminal penalties for knowingly disclosing PHI or obtain PHI in violation of the HIPAA Privacy Rule.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 7rqrnw1soEOS4QEeAC0c8q
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 7rqrnw1soEOS4QEeAC0c8q
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-08-07T22:41:10+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 7rqrnw1soEOS4QEeAC0c8q
+  :title: HIPAA Risk Assessment and Management
+  :slug: hipaa-risk-assessment-and-management
+  :pub_date: !ruby/object:DateTime 2016-01-12 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: A risk assessment – a HIPAA requirement – is the first thing to do since
+    it frames many decisions you'll make regarding your security posture.
+  :post: |
+    Probably the first thing to consider when going down the path of compliance, or really the first thing to think about regarding security holistically, is to perform a risk assessment. A risk assessment is a requirement of HIPAA and it's really the first thing that should be done. The reason it's so important is because it frames many of the rest of the decisions you make regarding your security posture.
+
+    In the words of HHS - "Conducting a risk analysis is the first step in identifying and implementing safeguards that comply with and carry out the standards and implementation specifications in the Security Rule. Therefore, a risk analysis is foundational..."
+
+    From the HIPAA Security Rule - "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information held by the organization."
+
+    As part of the risk assessment you need to outline your core technology infrastructure. In that process you should do an inventory of all the systems that you manage. Then you need to map out which of those systems process, transmit, or store electronic protected health information (ePHI). For us that's the starting point for risk management strategy and a risk assessment.
+
+    The next step in a thorough risk assessment is to assess the various threats and vulnerabilities to your environment, and ultimately to the integrity of ePHI. These can be anything from physical threats, like breaking into a data center or a fire or natural disaster in your data center, to malicious software, like hacking into a system, to internal malfeasance, like an employee going rogue and breaking into your systems. You need to map out all of the possible threats and vulnerabilities.
+
+    For us, we map vulnerabilities specifically to HIPAA rules related to protection of ePHI. For each perceived vulnerability, we assess the likelihood and impact - with the product of those two factors producing the risk level. The impact is the potential of a risk leading to a PHI breach - or a loss of PHI - because there are issues around integrity of data in HIPAA. We also determine if that risk has been mitigated in some way by our current security posture and controls.
+
+    Once you know the infrastructure, risks, and threats/vulnerabilities, the next step is to mitigate the risks that exist and have not been fully mitigated by current security controls. Not all risks can be 100% mitigated. There are typically gaps in almost all risk assessments because if you do a risk assessment you will get a ton of different variables - not just the obvious ones at the top of your head right now. And, from those risks, there typically are some gaps that need to be mitigated. It's imperative that you come up with a mitigation strategy. Ask yourself what you can do that is reasonable and appropriate to mitigate risks to ePHI. From there, you need to implement those mitigation strategies and documenting thoroughly. Documentation is not fun but has to be done in a compliant industry like healthcare.
+
+    We follow all of the steps above using a spreadsheet with sheets for each step, and we do ours both annually and on an ongoing basis, when there are changes to our core infrastructure. We use NIST standards ([NIST800-30](http://csrc.nist.gov/publications/nistpubs/800-30/sp800-30.pdf) and [800-26](https://csrc.nist.gov/publications/drafts/Draft-sp800-26Rev1.pdf)) as the model for our [risk assessment](https://catalyze.io/hipaa#security-management-process---164.308(a)(1)(i)) at Datica. We're more than happy to share the spreadsheets and the steps and processes that we use to do that. If you want to reach out to us we can help you with that process. But that really is the first step that you need to do because that helps you really understand where your major gaps are. And it also helps you understand which things you need to do to implement or mitigate the risk that you have within, and the threats that you have to your infrastructure and to PHI -  that you're storing a processing or whatever it might be for covered entity.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 17s5iFERjsQOOQeSci2kES
+  - :id: 1PYfVd3tsoq6WeAMGyWwo6
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 2GLw9LpLXiUACiowqcsc4W
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-06T22:40:56+00:00'
+    :created_at: '2016-11-23T21:57:54+00:00'
+    :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  :title: What is the cost of a HIPAA audit?
+  :slug: what-is-the-cost-of-a-hipaa-audit
+  :pub_date: !ruby/object:DateTime 2015-03-19 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: The cost of a HIPAA audit depends on audit type – HIPAA gap assessment,
+    full HIPAA audit, or validated HITRUST assessment – and indirect costs like time.
+  :blog_lead: |-
+    > You must pay the price if you wish to secure the blessing. — Andrew Jackson
+
+    At Datica we've been through [three external audits](https://datica.com/compliance/hitrust/) conducted by a large, national auditing firm. In all three cases, I've personally led the efforts from our side, coordinating our internal resources as needed. I wouldn't call it a fun process, but it has helped add rigor to our internal security and compliance programs. It validated the hard work we've done to build a fully [HIPAA compliant platform](https://datica.com/compliant-cloud/), and associated organization, that exceeds the HIPAA rules. We've also learned what does and does not meet HIPAA standards from an external or auditor perspective.
+  :post: "Cost seems to be one of a few gating factors for companies considering a
+    HIPAA audit. It's certainly a topic we are asked about constantly. I touched on
+    the cost of audits in my last post on [proving HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/).
+    If you look at the cost of a HIPAA audit, it breaks into two broad categories.\n\n1.
+    Direct costs\n2. Indirect costs.\n\nLet's walk through how costs are calculated
+    in both.\n\n## Direct Costs of a HIPAA Audit\n\nThe easier bucket to calculate.
+    It begins with the costs for an auditing firm to conduct the audit and deliver
+    a report. Curiously, the auditor's charge is frequently used by most people use
+    to calculate the overall cost of an audit, which is definitely not accurate. Different
+    types of HIPAA audits exist. The costs are different for each. Datica has completed
+    all of the audits below.\n\n* **HIPAA Gap Assessment**. The best starting point.
+    It is meant to identify gaps and remediation plans for those gaps. It's the cheapest
+    option and least time consuming. It often does not require an onsite visit from
+    an auditor. A gap assessment leads to a full HIPAA audit; after the gap assessment,
+    organizations spend time addressing the gaps before beginning a full HIPAA audit.
+    **The direct cost is about $15,000-$20,000.**\n* **Full HIPAA Audit**. A full
+    HIPAA audit, when applied to technology vendors, assesses an organization against
+    all the [requirements in HIPAA Security Rule](https://datica.com/discover/hipaa-compliance/).
+    It's a long list. It includes both technical settings and configurations as well
+    as administrative requirements like training and business associate agreements.
+    It will involve an auditor visit and will require documentation to support claims
+    about security and compliance; this can include showing specific technology settings
+    like password rules and guest access. **The direct cost is about $20,000-$25,000.**\n*
+    **Validated HITRUST Assessment**. HITRUST is a more [complete, certifiable version
+    of HIPAA](https://datica.com/discover/hitrust/). It was created by large healthcare
+    enterprises to mirror PCI compliance. It is similar to a full HIPAA audit but
+    goes into much more granular detail about the maturity of controls and compliance
+    programs. There's now a standard web app that you use to enter information. Those
+    entries are then validated by HITRUST approved assessor. Then HITRUST, the organization,
+    reviews all the entries, typically asks for more evidence, and you hopefully get
+    HITRUST CSF Certified at the end. The direct costs for this include both fees
+    to HITRUST and to your auditor (approved assessor). **The direct cost is about
+    $30,000-$45,000** (cost can be much higher for larger organizations).\n\n## Indirect
+    Costs of a HIPAA Audit\n\n> It's really clear that the most precious resource
+    we all have is time. - Steve Jobs\n\nIndirect costs are harder to quantify. The
+    biggest factor to consider is time. For each of the types of audit above, the
+    indirect costs increases as you move down the list. For each of our audits, we
+    estimated the total time spent for all employees (we didn't break it out by each
+    employee so it's not perfect).\n\n* **Gap Assessment: 40 hours.**\n* **Full HIPAA
+    Audit: 100 hours.**\n* **Validated HITRUST Assessment: 200 hours.**\n\nEqually
+    hard to estimate was the time spent between each audit to address issues and \"harden\"
+    our compliance and info sec programs. This time was not captured for any of the
+    specific audits and contributes to the overall cost of compliance.\n\n## Total
+    Costs of a HIPAA Audit\n\nWe conservatively estimated the cost of an hour of work
+    to be $100/hour. This is partially loss for the cost of salaries + benefits and
+    partially loss from opportunity cost of not doing other things with this time
+    (writing code, customer support, sales, marketing, etc). Based on those numbers,
+    the total cost of the different audits are:\n\n* **HIPAA Gap Assessment - $17,800-$22,800.**
+    \n* **Full HIPAA Audit - $27,000-$32,000.**\n* **Validated HITRUST Assessment
+    - $44,000-$59,000.** \n\n## It's more than cost\n\nIf you are considering an audit,
+    cost is only one consideration. Audits are time consuming and distracting, factors
+    that are hard to quantify. Weigh the audit's value for your organization. For
+    us, it was a nobrainer because our audits are part of our value proposition to
+    customers. We have many customers that effectively scale sales without having
+    done audits themselves, so it's not essential to closing deals, even very large
+    deals.\n\nIt's also important to understand that the cost of an audit is not simply
+    a cost at one point in time. Audits are typically followed by annual reviews,
+    sort of like miniature audits. These too cost money, eat time, and can be a distraction.
+    We're working on calculating the overall cost of being [HIPAA compliant](https://datica.com/discover/hipaa-compliance/)
+    so stay tuned for more soon. Also, if you have audit insights you can share, [we'd
+    love to hear them](mailto:hello@datica.com).\n\n"
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

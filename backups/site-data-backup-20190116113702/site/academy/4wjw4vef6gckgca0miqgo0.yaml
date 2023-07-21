@@ -1,0 +1,1054 @@
+---
+:id: 4wjw4vEf6gCkgCA0mIQgO0
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2019-01-07T17:33:32+00:00'
+  :created_at: '2018-10-09T22:43:25+00:00'
+  :id: 4wjw4vEf6gCkgCA0mIQgO0
+:title: How to Optimize your Compliance Posture with a Maturity Model
+:slug: how-to-optimize-your-compliance-posture-with-a-maturity-model
+:pub_date: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:summary: In this guide, we will walk you through the reasoning, structure, and ways
+  to leverage a maturity model, such as the HITRUST maturity model, to optimize your
+  compliance posture.
+:lead: Many people view compliance as a checkbox or something you just have to do
+  in order to operate within a certain geographic or vertical market. While privacy,
+  compliance, and security are not the same things, none of them are simple bolt-ons
+  or checkboxes. Another common misconception is that doing security right means you
+  are compliant. This is simply untrue and represents a historic view of compliance
+  as a liability instead of as an asset to be used for competitive advantage.
+:post: "\nCompliance is not binary but when you think about it as a checkbox or afterthought
+  you end up framing it in that way. The nuance of compliance is represented well
+  in the maturity model now commonly used in practice for evaluating compliance programs
+  and requirements. Maturity models take different forms. At Datica, we leverage HITRUST
+  for our compliance program so use the HITRUST-specific flavor of maturity model,
+  which in turn is based on the [NIST Program Review for Information Security Management
+  Assistance (PRISMA)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7358.pdf)
+  methodology. In this guide, we will walk you through the reasoning, structure, and
+  ways to leverage a maturity model to optimize your compliance posture.\n\n## The
+  Purpose of the Maturity Model\n\nThe PRISMA framework was created by NIST to support
+  the vast array of information technology and information security requirements of
+  federal agencies. In this mandate, it has flexibility and extensibility built into
+  the maturity model. This flexible structure is highly aligned with the needs of
+  a compliance maturity model for the cloud as the cloud has a huge array of different
+  technology implementations and use cases. Additionally, as we will see with the
+  actual scoring of maturity models, the thresholds can be set differently based on
+  the risk to specific organizations and information system environments.\n\n## Structure
+  of the Maturity Model\n\nThe PRISMA model, and similarly the HITRUST maturity model,
+  have five distinct maturity levels. For the purposes of this guide, we will focus
+  on the [HITRUST maturity model](https://hitrustalliance.net/documents/csf_rmf_related/RiskAnalysisGuide.pdf)
+  from this point on, which again is a modified version of the PRISMA with the first
+  three maturity levels being the same. HITRUST, in its own words, buckets levels
+  one through three as “design effectiveness” and levels four and five our as “operational
+  effectiveness”.\n\nThe HITRUST maturity levels are outlined below with summary points.\n\n1.
+  __Policy.__ These are the high-level policy and standard documents that outline
+  the goals and define the overarching compliance program within an organization.
+  HITRUST clearly states that these include “shall” and “will” statements, clearly
+  articulating, in writing, the formal goals of an organization. The starting point
+  for policies is often a mix of internal data privacy needs and external compliance
+  regimes to which the organizations must attest and ultimately comply.  These should
+  be made easily accessible to all employees and contractors.\n2. __Procedures.__
+  Procedures define the ways in which policies are to be carried out or implemented
+  as well as the specific teams and individuals that are responsible for them. In
+  the simplest form, procedures outline how an organization follows its own policies.
+  This can be an extremely detailed and difficult step but is essential to tying policies,
+  above, to implementation, below, in a consistent and defensible way.\n3. __Implementation.__
+  This is the actual implementation of the controls (settings, configurations, etc)
+  that are defined by procedures and mandated by policies. Once implemented, and ideally
+  required by procedures, these implementations should have some initial testing performed
+  to ensure baselines have been achieved.\n4. __Measurement.__ Ongoing, not one and
+  done, testing of all three of the above maturity levels is required to successfully
+  achieve this level. These are self-assessments performed internally within an organization.
+  Baseline metrics or KPIs for policies, procedures, and implementations should be
+  defined and tracked over time. Threats are dynamic, more now than ever with the
+  pace of technology and the cloud, so those need to be continually assessed as well.
+  In some respects, this maturity level is an ongoing risk assessment or a set of
+  mini risk assessments.\n5. __Management.__ From our experience, “Managed”, as a
+  maturity level, is the least well understood; it’s also rarely achieved or fully
+  achieved, by organizations going through a HITRUST assessment. Managed is tied to
+  Measured above in that it is assessing how an organization responds to the outcomes,
+  or measures, of control testing. An example is when testing detects anomalies. In
+  those cases, do organizations have processes and procedures that are followed to
+  assess the root cause of the anomalies and then address or make changes as to ensure
+  alignment with policies and procedures. One key activity in this level is setting
+  metric goals and then assessing and responding to those over time.\n\n## Privacy,
+  Security, and Compliance\n\nThere is a tight interplay between privacy, security,
+  and compliance. Oftentimes there is confusion on the boundaries of each. Leveraging
+  the maturity model is an easy way to differentiate, albeit with some gray area remaining,
+  between these increasingly important functions. At Datica, we take this approach
+  and leverage it to break down the maturity model to assess our privacy, compliance,
+  and security independently.\n\nWe view Privacy as largely residing at the Policy
+  level, with some input from Compliance in terms of external frameworks and requirements
+  (like GDPR in Europe). Procedures are coupled tightly with Implementation and both
+  align with the functions of Security. The last two levels, Measurement and Management,
+  fit with the functions of Compliance to continually assess, certify, and document
+  necessary compliance artifacts and corrective action plans.\n\n\n<div class=\"row
+  bg-white collapse pad group align-middle align-justify\">\n  <div class=\"columns
+  small-12 medium-6\">\n    <figure>\n      <img class=\"\" alt=\"maturity model diagram
+  w. continuum\" src=\"//images.ctfassets.net/189dvqdsjh46/4d7HgAMBriyoAOCYm0MGKg/538c5a18f98fa79bfe61a95265d451d4/maturity_model_diagram_w._continuum.png?w=640\"
+  />\n      <figcaption>Fig. 1: Capability Maturity Model. The first stage, Privacy,
+  is the most basic, with last stage achieving more complete compliance.</figcaption>\n
+  \   </figure>\n  </div>\n  <div class=\"columns small-12 medium-5\">\n    <h4>What
+  is a Control?</h4>\n    <p>Example: <code>\"Users shall only be provided with access
+  to\n    internal and external network services that\n    they have been specifically
+  authorized to use.\n    Authentication and authorization mechanisms\n    shall be
+  applied for users and equipment.\"</code></p>\n    <p>Each piece of technology needs
+  to go through a similar process.</p>\n    <p>This is an example <strong>Capability
+  Maturity Model</strong> that some frameworks use to understand the maturity of controls.</p>\n
+  \ </div>\n</div>\n\n## How HITRUST Scores the Model\n\nScoring of the maturity model
+  is complex and beyond the scope of this article. At a high level, each control,
+  of which there can be hundreds, is assessed against the maturity model. The maturity
+  model is not applied to an organization as a whole, but to each specific HITRUST
+  control. For each control, each maturity level is rated as: \n\n* Non-Compliant
+  (0%),\n* Somewhat Compliant (25%),\n* Partially Compliant (50%),\n* Mostly Compliant
+  (75%), or \n* Fully Compliant (100%). \n\nThe percentage is supposed to coincide
+  with a rough numerical equivalent. When completing a HITRUST assessment, there is
+  a rating for each maturity level for each control. If you have 50 relevant HITRUST
+  controls, you have 250 maturity ratings (50 x 5). These ratings are verified by
+  3rd party assessors and ultimately certified by HITRUST. These ratings are then
+  used to calculate an overall rating, which determines if you pass or fail the assessment.\n\n##
+  How to use the Maturity Model\n\nThe maturity model is an excellent framework to
+  build, maintain, and optimize a full stack compliance program; in HITRUST terms,
+  it can be used to both “design” and “operationalize” your compliance program. _Full
+  stack_ in this context means _full stack maturity_, or successfully demonstrating
+  compliance across all levels of the maturity model. In practical terms, even using
+  the maturity model as a guide, there is not a time when you are “fully compliant”
+  and can sit back and relax. Compliance needs to be ongoing and proactive, and the
+  maturity model is a framework that can be leveraged to do that over time and to
+  meet the myriad of new technologies, partnerships, data, and compliance tools.\n\nAt
+  Datica, we leverage the [HITRUST maturity model](https://datica.com/compliance/).
+  We used it to ensure consistency from policies, or privacy, through implementation,
+  or security, to management, or compliance. We even classify the technology tools
+  we use into the levels of the maturity model they help to address. An example of
+  this would is the logging mechanism we use fits into implementation, the events
+  we log into procedures and policies, and the documentation of log review into measurement
+  and management. We have had successful outcomes, and eased our external audit burden,
+  by aligning and mapping our privacy, security, and compliance posture to a maturity
+  model.\n\n\n\n\n"
+:related_guide:
+  :id: 1t0tIH6KWIyWAAk6iS2Se2
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: 1t0tIH6KWIyWAAk6iS2Se2
+  :title: HITRUST explained for everyone
+  :slug: hitrust
+  :summary: Datica walks you through the basics of HITRUST, how much it costs, why
+    it's important, and why it should be on your radar in the future.
+  :subhead: Leading experts answer the question What is HITRUST?
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :desc: This guide is your condensed course on the What, the Why and the How of HITRUST.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  :guide_text: "<img alt=\"logo-hitrust\" src=\"//images.ctfassets.net/189dvqdsjh46/5cHRaaOqAwsA0w8QQ2QMWc/7ae55eb66787ad31514d2c1f9624b312/logo-hitrust.png?w=300\"
+    class=\"float-right\" width=\"150\">\n\nWhat is HITRUST? Leaders of healthcare
+    providers, payers and third party vendors formed the HITRUST alliance to regulate
+    the interpretation of inconsistent views on data security standards. HITRUST,
+    in partner with other industry leaders, created the Common Security Framework
+    (CSF) to be the premier model for the future of healthcare compliance validation.
+    [We know this to be fact.](https://datica.com/blog/industry-shaking-news-at-the-hitrust-3rd-party-assurance-conference/)
+    \n\nWhen you're finished, you'll know more about HITRUST and their Common Security
+    Framework than most of the industry. Included in the guide:\n\n- What is HITRUST?\n-
+    Why does HITRUST matter?\n- Structure of the HITRUST CSF\n- The HITRUST CSF Assessment\n-
+    Cost of a HITRUST CSF Assessment and Certification\n- What do the experts say?\n-
+    Our HITRUST Journey"
+  :related_form:
+    :id: 7nxnAgpCko8WAAwCCIaSiw
+  :form_id: 075dabe1-e955-4285-8c0f-78b6dbfd9241
+  :bg_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:related_entries:
+- :id: 3xrZxi1Z8caYQOG0EagsGo
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:30+00:00'
+    :id: 3xrZxi1Z8caYQOG0EagsGo
+  :title: What is HITRUST?
+  :slug: what-is-hitrust
+  :pub_date: !ruby/object:DateTime 2018-05-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :summary: HITRUST certification by the HITRUST Alliance enables vendors and covered
+    entities to prove HIPAA compliance based on a standardized framework.
+  :lead: |-
+    > The reason a lot of people do not recognize opportunity is because it usually goes around wearing overalls looking like hard work. – Thomas A. Edisons
+
+    The term “HIPAA compliant” gets thrown around a lot—by vendors, consultants, developers, audits, and others. The problem with the free flowing nature of the term is that “HIPAA compliant” is subjective. The only way to [prove](https://catalyze.io/learn/proving-hipaa-compliance) compliance is to complete—and pass—an external audit, preferably one conducted by a reputable audit firm with HIPAA experience.
+  :post: |-
+    Because of the subjective nature of HIPAA and variability in audits (as a former info sec auditor I feel qualified in saying that), [covered entities](https://catalyze.io/learn/the-hipaa-privacy-rule) have a hard time assessing compliance and security for external vendors as well as internal projects (think innovation groups and research). Oftentimes the result is a re-invention of the wheel every time a vendor sells to a new covered entity and every time a covered entity assesses the security of a new vendor. It’s incredibly inefficient and ripe with opportunities to miss things; missing things with security and compliance expose covered entities to significant risk. Enter HITRUST, an industry-driven effort to standardize on a common, certifiable framework to benefit both vendors and covered entities.
+
+    <div class="row">
+        <div class="columns small-12 large-6">
+            <img src="//images.contentful.com/189dvqdsjh46/65WY3n4gMgYyEgEUOYou0e/6363083f85e47d3f004dc948c8403a87/academy-slide1.png" alt="audit requirements">
+        </div>
+        <div class="columns small-12 large-6">
+            <img src="//images.contentful.com/189dvqdsjh46/2Up0JnEQQwEyey2OgweGE2/857837e2201d9e34bf33ae59753d4c15/academy-slide2.png" alt="audit reports">
+        </div>
+    </div>
+
+
+    ### Introduction to HITRUST
+
+    [HITRUST](https://hitrustalliance.net/about-us/), or the Health Information Trust Alliance, is actually not a framework at all, but the organization that created and maintains the Common Security Framework, or [CSF](https://hitrustalliance.net/hitrust-csf/). The CSF, currently in version 7, is a certifiable framework that brings together, or harmonizes, several other compliance frameworks and standards including HIPAA, PCI, ISO, and NIST. By “harmonize” the CSF maps all of those standards together, with the CSF as the central mapping key.
+
+    According to its website, HITRUST, and its corresponding CSF, “was born out of the belief that information security should be a core pillar of, rather than an obstacle to, the broad adoption of health information systems and exchanges.” Security and compliance are a key part of the success of health technology; they cannot be ignored or treated as an afterthought. Without a standardized framework, process, and certifying body, HIPAA is often an obstacle for healthcare technology. HITRUST is an attempt to help vendors better prove their security and to help covered entities streamline security and compliance reviews of vendors. In that attempt, HITRUST is succeeding. More and more health systems are asking for HITRUST and vendors that have it are moving more quickly through the process with covered entities.
+
+    ![academy-slide3](//images.contentful.com/189dvqdsjh46/6TONan7aSsEsqe6OWGMsy6/8383cf386469cb881c6ea4a0d41c6104/academy-slide3.png)
+
+    (Image credit: [HITRUST CSF Assurance Program](https://hitrustalliance.net/content/uploads/2014/04/BA-1-Understand-the-CSF-and-CSF-Assurance-Program.pdf))
+
+
+    ### CSF Domains and Controls
+
+    The CSF is divided into 19 different domains. In contrast to HIPAA, the CSF does not create broad buckets like Administrative and Security controls.
+
+    * Information Protection Program
+    * Endpoint Protection
+    * Portable Media Security
+    * Mobile Device Security
+    * Wireless Protection
+    * Configuration Management
+    * Vulnerability Management
+    * Network Protection
+    * Transmission Protection
+    * Password Management
+    * Access Control
+    * Audit Logging & Monitoring
+    * Education, Training & Awareness
+    * Third Party Security
+    * Incident Management
+    * Business Continuity & Disaster Recovery
+    * Risk Management
+    * Physical & Environmental Security
+    * Data Protection & Privacy
+
+    In addition to the above domains, HITRUST has 135 specific controls.
+
+
+    ### CSF Levels of Implementation
+
+    For each of the 135 controls defined by HITRUST, there are 3 distinct implementation levels. Each implementation level builds on the one below - level 2 includes all of level 1 plus additional requirements, level 3 includes all of level 2 plus additional requirements. So technically level 3 is the most stringent set of requirements. Most organizations have varied levels of implementation for different controls and are not just level 1 or 2 or 3 across the board.
+
+    I think this is the area in which there is the most confusion about HITRUST, or at least the area in which we get asked most about our own HITRUST CSF Certification. The start of every HITRUST assessment, regardless of the type of assessment (see Degrees of Assurance below for more on that), is gathering information about the entity being assessed. This information is used to assess the organization, system, and regulatory requirements for the assessment. Conceptually, the risk or scope of the assessment is being determined.
+
+    This step is also written into HIPAA but is not a part of most assessments. HIPAA allows for controls that are reasonable and appropriate. In the words of HHS `An important step in protecting electronic protected health information (EPHI) is to implement reasonable and appropriate administrative safeguards that establish the foundation for a covered entity’s security program.` Most HIPAA assessments are one size fits all because there is no framework to interpret `reasonable` and `appropriate`; in the end, it’s likely a good thing that those aren’t interpreted.
+
+    In determining the implementation level, HITRUST dynamically sets requirements for each organization and each assessment. Like the CSF more broadly, it’s a standardized process for determining implementation level.
+
+
+    ### CSF Degrees of Assurance
+
+    HITRUST offers 3 different Degrees of Assurance, which are essentially levels of assessment. The Degrees of Assurance align with cost, level of effort, amount of time, and rigor. Each level builds on the one below. For reference, Datica has completed a CSF Certified assessment, which is the highest Degree of Assurance.
+
+    The following options exist for Degrees of Assurance, starting with the least cost, effort, time, and rigor.
+
+    1. **Self Assessment.** This is simply an organization completing CSF on its own. It is valuable, typically as an internal tool for the organization, because it’s done again a standardized framework. There are no external parties that verify any aspects of the assessment. It results in a HITRUST issued CSF Self Assessment Report.
+
+    2. **CSF Validated.** This, and the CSF Certified option below, requires a 3rd party CSF Assessor to verify the information gathered by the organization completing the assessment. The CSF Assessor is [approved](https://hitrustalliance.net/csf-assessors/) by HITRUST. This Degree of Assurance requires an onsite visit by the CSF Assessor. HITRUST reviews the completed and validated assessment and issues a Validated Report as the outcome.
+
+    3. **CSF Certified** Similar to the CSF Validated assessment, the organization undergoing the assessment is granted a HITRUST CSF Certification that is good for two years. The major differences for this Degree of Assurance is that the organization granted HITRUST CSF Certification meets all of the certification requirements of the CSF. This builds on the CSF Validated assessment in that HITRUST reviews and certifies the entries of the organization and the validation of the 3rd party assessor. In the case of Datica, this final step for certification took 3-4 months.
+
+
+    ### PCI for Healthcare
+
+    There are parallels between HITRUST and PCI. For those that are not familiar, PCI is the compliance framework for the financial and payments processing industry. Achieving PCI compliance is very involved, similar to a Certified HITRUST Assessment. Whereas HIPAA was written and is technically enforced by the federal government (HHS specifically), the CSF was written and is maintained by HITRUST, which is [governed](https://hitrustalliance.net/about-us/board-directors/) by a representative body from the healthcare industry.
+
+    In many ways, HITRUST is an attempt by the healthcare industry to create a standardized, PCI-like certification. In terms of enforcement, the healthcare industry, as opposed to HHS, is meant to enforce HITRUST by requiring Certified Assessments of business associates and subcontractors. There are still gaps in adoption within the healthcare industry, but the tide is clearly turning as more and more entities are expecting vendors to be HITRUST CSF Certified.
+
+
+    ### HITRUST vs HIPAA
+
+    As mentioned above, HITRUST builds on HIPAA. It takes HIPAA, a non-standardized and non-prescriptive compliance framework, and creates a standardized compliance framework, assessment, and certification process for the healthcare industry. In the process it “harmonizes” HIPAA with other compliance frameworks such as PCI and NIST. HITRUST also adapts requirements for certification to the risks of an organization based on organizational, system, and regulatory factors.
+
+    As opposed to HIPAA, which has defined penalties for security breaches, the enforcement of HITRUST is dependent on the healthcare industry itself, typically covered entities like hospitals and payers, requiring HITRUST CSF Certification of vendors. HITRUST has gained adoption quickly in healthcare and we are seeing it more and more as an expectation for vendors. While not always required as a step in implementing a new technology, HITRUST certainly streamlines the security and compliance step in the implementation process.
+
+    Having been through both HIPAA audits and a Certified CSF Assessment, it is safe to say that HITRUST CSF Certification is a much more rigorous process, with a higher burden of proof put on the organization trying to achieve certification, than a HIPAA audit. Achieving HITRUST CSF Certification requires significantly more time, effort, and resources than a HIPAA audit. Being HITRUST CSF Certified should be seen as a more significant badge for security and compliance than completing a HIPAA audit.
+
+    If you are considering or have completed a HITRUST assessment, feel free to [reach out](mailto:hipaa@datica.com) with questions or feedback.
+  :related_guide:
+    :id: 1t0tIH6KWIyWAAk6iS2Se2
+  :related_entries:
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 43dQoBKc9OuQuyw8k2SmKO
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-04T18:06:34+00:00'
+    :created_at: '2018-10-02T02:56:34+00:00'
+    :id: 43dQoBKc9OuQuyw8k2SmKO
+  :title: Azure Cosmos DB Guide - How to configure Cosmos DB to comply with HIPAA
+    and HITRUST
+  :slug: azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide is intended to give developers a simple way to configure their
+    Cosmos DB service to be HITRUST CSF ready. In this guide we’ll walk through the
+    requirements, controls, and configurations for Azure Cosmos DB.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step run book to configuring their Azure Cosmos DB instance to be HITRUST CSF
+    ready. In the following sections we’ll walk through the requirements, controls,
+    and configurations for Cosmos DB.
+  :post: "_Disclaimer: while utilizing these guides can provide alignment with HITRUST,
+    it is still your responsibility as an organization to complete an audit and obtain
+    certification._\n\n## Step 1: The Business Associate Agreement (BAA)\n\nFrom Microsoft:\n\n>
+    “To help customers comply with HIPAA and the HITECH Act, Microsoft includes execution
+    of the HIPAA BAA as part of a customer’s volume licensing agreement, which includes
+    any agreement that incorporates the Online Services Terms by reference. The BAA
+    (full text of which is available at [http://aka.ms/BAA](http://aka.ms/BAA)) applies
+    to a customer that is a “covered entity” or a “business associate” and includes
+    \"protected health information\" in Customer Data. Microsoft currently offers
+    the BAA for the services listed in the Scope section below.”\n\nMicrosoft does
+    not provide programmatic access to their BAA (at least none that we could find).
+    To double check that you do in fact have a BAA in place with Microsoft, it’s recommended
+    that you reach out to your Azure rep (or Azure support if you do not have a rep).
+    \n\nMore general tips on BAAs [here](https://datica.com/academy/business-associate-agreements/).
+    \n\n| HIPAA Rule     | API Reference     |\n| ---------- | ---------- |\n| HIPAA
+    &sect; 164.308       | N/A: Azure does not provide API access to the BAA       |\n\n##
+    Step 2: Creating the database\n\nInside of the Azure portal, find the search bar
+    and type “*Cosmos DB*”. Once the results populate, click the “*Azure Cosmos DB*”
+    service in the list.\n\n<img class=\"lozad tofigure\" alt=\"Azure Cosmos DB service
+    list\" src=\"//images.ctfassets.net/189dvqdsjh46/2DBCBDXJYM6CkuQG4WmSCU/47e457b5a970f90bfc4b969559d5a1d4/cosmos-1.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/2DBCBDXJYM6CkuQG4WmSCU/47e457b5a970f90bfc4b969559d5a1d4/cosmos-1.png?fm=png&fl=png8\"
+    />\n\nFor compliant services, it’s recommended that you create a new resource
+    group, or, if you have other compliant services, that you keep them together.
+    The rule of thumb here is that services touching PHI should be separate from services
+    not touching PHI.\n\nOnce you’re inside the “*Create Azure Cosmos DB Account*”
+    page, follow below:\n\n1. Select your subscription and associated resource group\n2.
+    Give the instance a name (“*Account name*”)\n3. Select your API\n4. Select the
+    location in which you want the service to live. It’s recommended that you keep
+    it in the same location with the other services that will be interacting with
+    it\n5. Ensure both “*Geo-Redundancy*” and “*Multi-region Writes*” are enabled\n6.
+    Click “*Next: Network*”\n7. On the network tab, we can see that we have the option
+    to create a network. Click the “*Create a new virtual network*” link. In the right
+    sidebar, give your new network a name. We’ll also want to create a new subnet.
+    Pick a name and IP address in CIDR notation.\n\n<img class=\"lozad tofigure\"
+    alt=\"Networking options\" src=\"//images.ctfassets.net/189dvqdsjh46/2Z546yr0DYSAik6a0qgSAQ/b61c2dec992ad914897aa06f04e6ae69/cosmos-2.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/2Z546yr0DYSAik6a0qgSAQ/b61c2dec992ad914897aa06f04e6ae69/cosmos-2.png?fm=png&fl=png8\"
+    />\n\nFollow the rest of the steps for database setup and finish creation.\n\n<img
+    class=\"lozad tofigure\" alt=\"Final setup steps\" src=\"//images.ctfassets.net/189dvqdsjh46/5gJCxn9ZcAgIEWMasKiiaC/7b00a8d9ea2f6372dc8b55f12b907453/cosmos-3.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/5gJCxn9ZcAgIEWMasKiiaC/7b00a8d9ea2f6372dc8b55f12b907453/cosmos-3.png?fm=png&fl=png8\"
+    />\n\n## Step 3: Networking\n\nIn Step 2 above we created a new VPC as well as
+    a subnet. See the reference below to see how to check this via the Azure REST
+    API and how it relates to HITRUST.\n\n| Related Control(s)     | API Reference
+    \    |\n| ---------- | ---------- |\n| HITRUST 0805.01m1 Organizational.12       |
+    [Subnets](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/subnets)       |\n\n##
+    Step 4: Redundancy\n\nIn Step 2 above we created a database with several configurations.
+    Two of those configurations were enabling both “*Geo-Redundancy*” and “*Multi-region
+    Writes*”. To interact with these configurations, see the API reference below.\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    1616.09l1 Organizational.16       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1618.09l1 Organizational.45       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1619.09l1 Organizational.7       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1620.09l1 Organizational.8       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n| HITRUST 1668.12d1 Organizational.67       | [Get a Database](https://docs.microsoft.com/en-us/rest/api/cosmos-db/get-a-database)
+    \      |\n\n## Step 5: Access\n\nGating access to your database is imperative
+    to achieving compliance. Cosmos DB supports a concept called “Service Endpoints”.
+    From Azure:\n\n> “Virtual Network (VNet) service endpoints extend your virtual
+    network private address space and the identity of your VNet to the Azure services,
+    over a direct connection. Endpoints allow you to secure your critical Azure service
+    resources to only your virtual networks. Traffic from your VNet to the Azure service
+    always remains on the Microsoft Azure backbone network.”\n\nAzure provides a step
+    by step guide to for securing access to an Azure Cosmos DB account by using Azure
+    Virtual Network service endpoint, so instead of rehashing those steps here, you
+    should follow that guide.\nThose settings, if done correctly, will ensure your
+    database is only being accessed by approved services within your Azure account.\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    0605.10h1 System.12       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0630.10h2 System.6       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0805.01m1 Organizational.12       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Security Rules](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/securityrules),
+    [Public IP Addresses](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses),
+    [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n\n## Step 6: Encryption\n\nFrom Azure:\n\n> “As a PaaS service, Cosmos
+    DB is very easy to use. Because all user data stored in Cosmos DB is encrypted
+    at rest and in transport, you don't have to take any action.”\n\nFor more information
+    on how encryption at rest is implemented for Cosmos DB, [see this article](https://docs.microsoft.com/en-us/azure/cosmos-db/database-encryption-at-rest).\n\nEnsuring
+    encryption is on everywhere:\n\nFor encryption and access not already covered
+    in step 5, [see this guide](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
+    from Azure on securing point access to your Cosmos DB instance.\n\n| Related Control(s)
+    \    | API Reference     |\n| ---------- | ---------- |\n| HITRUST 0903.10f1 Organizational.1
+    \      | Cosmos DB has encryption turned on by default; to turn on enctyption
+    everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 1132.01v2 System.3       | Cosmos DB has encryption turned
+    on by default; to turn on enctyption everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n| HITRUST 1903.06d1 Organizational.3456711       | Cosmos DB has encryption
+    turned on by default; to turn on enctyption everywhere else: [Virtual Networks](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/virtualnetworks),
+    [Available Endpoint Services](https://docs.microsoft.com/en-us/rest/api/virtualnetwork/availableendpointservices)
+    \      |\n\n## Step 7: Backups\n\nAzure provides automatic backups for Cosmos
+    DB without the need to configure any settings. However, working with those backups,
+    and attesting to their availability can be cumbersome. From Azure:\n\n> “All your
+    backups are stored separately in another storage service, and those backups are
+    globally replicated for resiliency against regional disasters. The automatic backups
+    are intended for scenarios when you accidentally delete your Cosmos DB container
+    and later require data recovery or a disaster recovery solution.”\n\n| Related
+    Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST 1616.09l1
+    Organizational.16       | N/A       |\n| HITRUST 1618.09l1 Organizational.45       |
+    N/A       |\n| HITRUST 1619.09l1 Organizational.7       | N/A       |\n| HITRUST
+    1620.09l1 Organizational.8       | N/A       |\n| HITRUST 1668.12d1 Organizational.67
+    \      | N/A       |\n\n## Step 8: Logging & Monitoring\n\nInside of the Azure
+    Cosmos DB portal, you’ll find a link in the left side navigation that reads “*Activity
+    log*”, this is where you’ll see an audit log of various activity performed on
+    the instance.\n\n<img class=\"lozad tofigure\" alt=\"Monitoring panel\" src=\"//images.ctfassets.net/189dvqdsjh46/1UkPX9b0QMY82AGIAe6OI/c4d0fbd685ba8b359b2cea86515a0dc7/cosmos-4.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/1UkPX9b0QMY82AGIAe6OI/c4d0fbd685ba8b359b2cea86515a0dc7/cosmos-4.png?fm=png&fl=png8\"
+    />\n\nMonitoring on the other hand has its own section, where you can see specific
+    metrics about the instance, configure alerts, and run diagnostics.\n\n<img class=\"lozad
+    tofigure\" alt=\"Cosmos DB diagnostics\" src=\"//images.ctfassets.net/189dvqdsjh46/3Xpjhm1FPi8EkkYuWAeYae/cf140a76f41a5c27dc853c5eb41d1b85/cosmos-5.png?fm=png&fl=png8&w=800\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/3Xpjhm1FPi8EkkYuWAeYae/cf140a76f41a5c27dc853c5eb41d1b85/cosmos-5.png?fm=png&fl=png8\"
+    />\n\n| Related Control(s)     | API Reference     |\n| ---------- | ----------
+    |\n| HITRUST 1204.09aa1 System.3       | [Monitoring REST API Reference](https://docs.microsoft.com/en-us/rest/api/monitor/)
+    \      |\n\n## Wrapping up\n\nUsing this guide, developers can ensure their new
+    Cosmos DB instance is ready to comply with the HITRUST CSF. Maintaining these
+    configurations for all new infrastructure, updating them for new versions of HITRUST
+    and providing proof — a digital papertrail — is an incredible amount of work.
+    Having a partner like Datica can mean the difference between an audit taking 4
+    months, or 4 weeks.\n\nFor more information on Datica’s products and services.
+    Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
+    [Compliant Kubernetes Service](https://datica.com/cks)\n"
+  :related_entries:
+  - :id: 1s1UlhAhkAwwewk20ugYsW
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+- :id: 1s1UlhAhkAwwewk20ugYsW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-12-14T18:50:21+00:00'
+    :created_at: '2018-10-01T17:31:07+00:00'
+    :id: 1s1UlhAhkAwwewk20ugYsW
+  :title: AWS RDS Guide - How to configure RDS to comply with HIPAA and HITRUST
+  :slug: aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide is intended to give developers an easy to understand, step
+    by step runbook for configuring their AWS RDS instance to be HITRUST CSF ready.
+    In the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step runbook for configuring their AWS RDS instance to be HITRUST CSF ready. In
+    the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :post: |-
+    _Disclaimer: while utilizing these guides can provide alignment with HITRUST, it is still your responsibility as an organization to complete an audit and obtain certification._
+
+    ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
+
+    First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+
+    More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
+
+    <img class="lozad tofigure" alt="Setting up a BAA" src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8" />
+
+    To sign the AWS BAA...
+
+    1. Navigate to [https://console.aws.amazon.com/artifact/](https://console.aws.amazon.com/artifact/)
+    2. Select the “AWS Business Associate Addendum” section
+    3. Download the AWS Business Associate Addendum
+    4. Confirm you’ve followed the steps properly by checking the three boxes show on the screen
+    5. Click the button that says “Accept the AWS Business Associate Addendum for this account”
+    6. You now have a BAA in place with AWS
+
+    | Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HIPAA &sect; 164.308       | N/A: AWS does not provide API access to their Artifact service       |
+
+    ## Step 2: Selecting a database version
+
+    Because AWS RDS offers various versions of each database, it’s imperative from a compliance and security perspective that you select a known good patched version, and one that will continue to receive updates and patches in the future (using versions no older than 3 previous versions is typically a safe bet).
+
+    <img class="lozad tofigure content-screenshot" alt="RDS: Selecting a database version" src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8" />
+
+    ## Step 3: Create new subnet group
+
+    From AWS:
+
+    > “Subnets are segments of a VPC's IP address range that you designate to group your resources based on security and operational needs. A DB subnet group is a collection of subnets (typically private) that you create in a VPC and that you then designate for your DB instances. A DB subnet group allows you to specify a particular VPC when creating DB instances using the CLI or API; if you use the console, you can just select the VPC and subnets you want to use.”
+
+    How to create a new subnet group:
+
+    1. Search for or choose “*RDS*” in the AWS console (or if you’re following along in this guide find the “*Subnet group*” link in the left side navigation).
+    2. Select the “*Subnet group*” link if you haven’t already
+    3. Select “*Create DB Subnet Group*”
+    4. Complete the information for name and description
+    5. Select your VPC and all subnets related to this VPC
+    6. Select “*Create*”
+
+    <img class="lozad tofigure" alt="Creating a new subnet group" src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif" />
+
+    | Related Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 4: Enable multi-AZ
+
+    When creating your new RDS instance, ensure you have selected “*Create replica in different zone*” as high availability and replication is critical to businesses handling PHI &mdash; you’ll also see in the table below the relevance to various required HITRUST controls.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling multi-AZ" src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8" />
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 5: Create security group
+
+    Communication should be limited to only the two VPC networks. No other access should be granted. To create a new Security group, [follow this guide from AWS](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html#CreatingSecurityGroups).
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0630.10h2 System.6       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+
+    ## Step 6: Turn off public access
+
+    It should go without saying, but we’ll say it anyway: providing public, unauthorized, access to PHI (either directly or indirectly) is a violation of HIPAA, HITRUST, and several other regimes. Ensuring your RDS instance has public access turned off is critical.
+
+    To turn off public access do the following:
+
+    1. If you’re already in the RDS console and following along as you create a new instance, on Step 3 of creation, select “No” under the “Public accessibility” field <img class="lozad tofigure content-screenshot" alt="Disabling public access" src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8" />
+    2. ...or if you have an instance already, simply click the “*Instances*” link in the left side navigation from the main RDS console
+    3. Select the RDS instance you want
+    4. Once you have the instance selected, click the “*Modify*” button on the top right
+    5. Then scroll to the “*Network & Security*” security section — here you will find the “*Public accessibility*” option
+    6. Select “*No*”
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0630.10h2 System.6       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 7: Enable encryption
+
+    Encryption is perhaps the most important of all controls that need to be in place on your database instance(s).
+
+    To enable encryption on an RDS instance, [follow this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html#Overview.Encryption.Enabling).
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling encryption" src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0903.10f1 Organizational.1       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1132.01v2 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1903.06d1 Organizational.3456711       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 8: Working with backups
+
+    From AWS:
+
+    > “By default, Amazon RDS creates and saves automated backups of your DB instance securely in Amazon S3 for a user-specified retention period.”
+
+    If you’ve already set up an RDS instance without specifying the backup period, AWS states:
+
+    > “You can set the backup retention period when you create a DB instance. If you don't set the backup retention period, the default backup retention period is one day if you create the DB instance using the Amazon RDS API or the AWS CLI, or seven days if you create the DB instance using the AWS Console”
+
+    To set the retention period when creating a new RDS instance, follow these steps:
+
+    1. Navigate to your RDS console
+    2. Select “*Instances*”
+    3. Select “*Create database*”
+    4. Go through the several steps, stop once you’re on the “*Configure advanced settings*” page
+    5. Scroll to the “*Backup*” section and select your desired preferences
+
+    <img class="lozad tofigure content-screenshot" alt="Configuring backup settings" src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 9: Patching schedule
+
+    Managing vulnerabilities is a burden for users. Luckily, AWS provides maintenance as part of the RDS instance. In the “*Maintenance*” section on the “*Configure advanced settings*” step of creating an RDS instance, you’ll see two options:
+
+    1. __Auto minor version upgrade__ &mdash; You should set this to “Enable auto minor version upgrade”
+    2. __Maintenance window__ &mdash; For policy purposes, you’ll want/need to select a specific window. Recommendations on day and time will vary drastically depending on your location, business, and several other factors
+
+    <img class="lozad tofigure content-screenshot" alt="Setting up a schedule" src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0701.07a1 Organizational.12       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0707.10b2 System.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0708.10b2 System.2       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0709.10m1 Organizational.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0720.07a1 Organizational.4       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0723.07a1 Organizational.8       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+
+    ## Step 10: Working with SSL
+
+    “Encrypting everything” is often the most difficult aspect of complying with frameworks like HITRUST CSF. Ensuring that your connections to RDS are encrypted is a fundamental requirement. The best way to enforce encryption for your RDS instance is to force all connections to use SSL.
+
+    The steps required to enforcing SSL on your database will vary depending on your database of choice. For more information and step by step guides, see the following articles from AWS:
+
+    - [MariaDB SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MariaDB.html#MariaDB.Concepts.SSLSupport)
+    - [MySQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport)
+    - [PostgreSQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL)
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0806.01m2 Organizational.12356       | N/A: No related API reference at this time       |
+    | HITRUST 0814.01n1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0816.01w1 System.1       | N/A: No related API reference at this time       |
+    | HITRUST 0835.09n1 Organizational.1       | N/A: No related API reference at this time       |
+    | HITRUST 0859.09m1 Organizational.78       | N/A: No related API reference at this time       |
+
+    ## Step 11: Audit Logging & Monitoring
+
+    ### Monitoring
+
+    Enhanced monitoring can be turned on for RDS at time of creation. On the “*Configure advanced settings*” step, find the “*Monitoring*” section and select “*Enable enhanced monitoring*”.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling enhanced monitoring" src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8" />
+
+    ### Logging
+
+    From AWS:
+
+    > “RDS PostgreSQL generates query and error logs. We write auto-vacuum info and rds_admin actions to the error log”
+
+    AWS has several articles detailing how logging and monitoring work together to give you transparency into your instance. For more information, [see this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitoring.html).
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1204.09aa1 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html), [DescribeDBLogFiles](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBLogFiles.html)       |
+
+    ## Wrapping up
+
+    Using this guide, developers can ensure their new RDS instance is ready to comply with the HITRUST CSF. Maintaining these configurations for all new infrastructure, updating them for new versions of HITRUST and providing proof &mdash; a digital papertrail &mdash; is an incredible amount of work. Having a partner like Datica can mean the difference between an audit taking 4 months, or 4 weeks.
+
+    For more information on Datica’s products and services. Check out these helpful links:
+
+    - [Cloud Compliance Management System](https://datica.com/ccms)
+    - [Compliant Kubernetes Service](https://datica.com/cks)
+  :featured_image:
+    :id: QuKh6opZkWK8isiySSuYA
+  :related_guide:
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :related_entries:
+  - :id: 43dQoBKc9OuQuyw8k2SmKO
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+- :id: 4STmWUVa5WwkaWyi2UYG8U
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:39+00:00'
+    :created_at: '2018-10-02T02:56:34+00:00'
+    :id: 4STmWUVa5WwkaWyi2UYG8U
+  :title: Google Cloud SQL Guide - How to configure GCP Cloud SQL to comply with HIPAA
+    and HITRUST
+  :slug: google-cloud-sql-guide-how-to-configure-gcp-cloud-sql-to-comply-with-hipaa
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide helps developers configure their Google Cloud SQL instance
+    to be HITRUST CSF ready. It covers requirements, controls, and configurations
+    for GCP Cloud SQL.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step run book to configuring their Google Cloud SQL instance to be HITRUST CSF
+    ready. In the following sections we’ll walk through the requirements, controls,
+    and configurations for GCP Cloud SQL.
+  :post: "_Disclaimer: while utilizing these guides can provide alignment with HITRUST,
+    it is still your responsibility as an organization to complete an audit and obtain
+    certification._\n\n## Step 1: The Business Associate Agreement (BAA)\n\nGoogle
+    Cloud Platform requires users to contact their account manager to get a BAA signed.
+    From Google: \n\n> \"Execute a Google Cloud BAA. You can request a BAA directly
+    from your account manager.\"\n\nOnly once you’ve signed the BAA and subsequently
+    configured your SQL database to be compliant should you start accepting PHI.\n\nMore
+    on BAAs can be found in the [Datica Academy](https://datica.com/academy/).\n\n|
+    Rule     | Header     |\n| ---------- | ---------- |\n| HIPAA &sect; 164.308       |
+    N/A: GCP does not provide an API to the BAA       |\n\n## Step 2: Working with
+    VPC networks\n\nBefore we jump into creating our SQL instance, first we’re going
+    to create a new VPC and subnet. Creating a network and a subnet is very simple
+    with GCP. Follow these steps.\n\n1. In the left side navigation find \"*VPC network*\"
+    under the \"*Networking*\" heading\n2. Above the table of default networks, click
+    the \"*Create VPC network*\" button\n3. Fill out the name, and description fields
+    and then select \"*Subnet creation mode*\" under the \"*Subnets*\" section\n4.
+    In the box titled \"*New subnet*\" fill out a name\n5. The region should be the
+    same region as the database\n6. For the IP address range, you should use a standard
+    private VPC network address range\n7. For \"*Private google access*\" which indicates:
+    \" *...whether VMs in this subnet can access Google services without assigning
+    external IP addresses* \" select \"*Off*\"\n8. Set flow logs to \"*On*\"\n9. Set
+    \"Dynamic routing mode\" to \"*Regional*\"\n10. Click \"*Create*\"\n\n| Related
+    Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST 0805.01m1
+    Organizational.12       | [subnetworks](https://cloud.google.com/compute/docs/reference/rest/v1/subnetworks)
+    , [networks](https://cloud.google.com/compute/docs/reference/rest/v1/networks)
+    \      |\n\n## Step 3: Creating the database\n\nNow that we have a network and
+    subnet, we can create our database. To do that, click the menu button in the top
+    left and follow these steps:\n\n1. Select \"*SQL*\"\n2. At the following prompt,
+    select \"*Create instance*\" <img class=\"lozad tofigure\" alt=\"Creating a Cloud
+    SQL instance\" src=\"//images.ctfassets.net/189dvqdsjh46/6tB9ogqgPCGImsOC4wiEcW/edfe8828e0505dc5685e5597b4558d59/cloudsql-1.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/6tB9ogqgPCGImsOC4wiEcW/edfe8828e0505dc5685e5597b4558d59/cloudsql-1.png?fm=png&fl=png8\"
+    />\n3. Make a selection for \"*MySQL*\" or \"*PostgreSQL*\" <img class=\"lozad
+    tofigure\" alt=\"Choosing database type\" src=\"//images.ctfassets.net/189dvqdsjh46/6EVJDRf5D24UkwUK2q0eo8/43e673137e7b4d399e7bc9d2201e337a/cloudsql-2.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/6EVJDRf5D24UkwUK2q0eo8/43e673137e7b4d399e7bc9d2201e337a/cloudsql-2.png?fm=png&fl=png8\"
+    />\n4. Enter the information for \"*Instance ID*\", \"*Default user password*\",
+    \"*Location*\", \"*Region*\" and \"*Zone*\"\n5. Select the \"*Show configuration
+    options*\" link\n6. Under \"*Set Connectivity*\" select \"*Private IP*\" (enable
+    the API if you haven’t already)\n7. Under \"*Private IP*\" select the VPC we just
+    created in the previous step <img class=\"lozad tofigure\" alt=\"Private IP decisions\"
+    src=\"//images.ctfassets.net/189dvqdsjh46/31gvagB55eqEaM0uMUsSUu/9b57729fdf6152b6f5c1f5bdd126c623/cloudsql-3.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/31gvagB55eqEaM0uMUsSUu/9b57729fdf6152b6f5c1f5bdd126c623/cloudsql-3.png?fm=png&fl=png8\"
+    />\n8. If \"*Public IP*\" is checked be sure to uncheck it\n9. In the \"*Enable
+    auto backups and high availability*\" section, select \"*Automate backups*\" \n10.
+    In the same section under \"*Availability*\" select \"*High availability (regional)*\"\n11.
+    Next, under the \"*Set maintenance schedule*\" section be sure to select the window
+    and timing that’s appropriate for your internal policy\n12. Then click \"*Create*\"\n\n##
+    Step 4: High availability\n\nIn the previous step where we created our database,
+    we were able to setup high availability across multiple regions. This aids in
+    both disaster recovery and business continuity for your organization. If a region
+    within GCP goes down, high availability will ensure that your data is still accessible
+    from another region. \n\nFor more information on high availability from the GCP,
+    see this [article](https://cloud.google.com/sql/docs/postgres/high-availability).\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    1616.09l1 Organizational.16       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1618.09l1 Organizational.45       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1619.09l1 Organizational.7       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1620.09l1 Organizational.8       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1668.12d1 Organizational.67       | [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)\n|\n\n##
+    Step 5: Database access & encryption\n\nWhen we created the database in step 3,
+    we selected \"Private IP\" and unselected \"*Public IP*\". This restricts traffic
+    to the instance only to approved networks. This is important because it forces
+    all traffic to be encrypted and authenticated.\n\nMore information on Private
+    IP can be found [here](https://cloud.google.com/sql/docs/mysql/private-ip).\n\n###
+    Connecting over SSL/TLS\n\nFrom Google:\n\n> \"If you are connecting using private
+    IP, configuring SSL/TLS is optional; private services access traffic stays within
+    Google's network at all times.\"\n\n<img class=\"lozad tofigure\" alt=\"SSL/TLS
+    options\" src=\"//images.ctfassets.net/189dvqdsjh46/5ryAolx2hyoeEyIcCUkAGe/5db42940b5947db917ac706569eee29b/cloudsql-4.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/5ryAolx2hyoeEyIcCUkAGe/5db42940b5947db917ac706569eee29b/cloudsql-4.png?fm=png&fl=png8\"
+    /> \n\nYou can see in the screenshot above that all incoming connections must
+    use SSL and also that we haven’t set up a certificate yet, which is covered in
+    the guide below. For the purposes of this guide, SSL/TLS is not optional. To enforce
+    a secure connection, [follow this guide](https://cloud.google.com/sql/docs/mysql/configure-ssl-instance#enforcing-ssl).\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    0605.10h1 System.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0630.10h2 System.6       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0805.01m1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0805.01m1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0806.01m2 Organizational.12356       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0814.01n1 Organizational.12       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0816.01w1 System.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0835.09n1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n| HITRUST 0859.09m1 Organizational.78       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [Databases: get](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/databases/get)
+    \      |\n\n### Enabling Encryption\n\nFrom Google:\n\n> \"Cloud Storage always
+    encrypts your data on the server side, before it is written to disk, at no additional
+    charge.\"\n\nFor more information on encryption from GCP, please see [this guide](https://cloud.google.com/storage/docs/encryption/).\n\n|
+    Related Control(s)     | API Reference     |\n| ---------- | ---------- |\n| HITRUST
+    0903.10f1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 1132.01v2 System.3       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 1903.06d1 Organizational.3456711       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n\n## Step 6: Backups\n\nIn step 3 when we created our database, we selected
+    \"*Automate backups*\" in the \"*Enable auto backups and high availability*\"
+    section. These backups are available and should be configured according to your
+    internal compliance policy. Using the GCP APIs you can set and retrieve configuration
+    information about your instance. \n\nExample response:\n\n~~~javascript\n{\n  \"kind\":
+    \"sql#backupRun\",\n  \"id\": long,\n  \"selfLink\": string,\n  \"instance\":
+    string,\n  \"description\": string,\n  \"windowStartTime\": datetime,\n  \"status\":
+    string,\n  \"type\": string,\n  \"enqueuedTime\": datetime,\n  \"startTime\":
+    datetime,\n  \"endTime\": datetime,\n  \"error\": {\n    \"kind\": \"sql#operationError\",\n
+    \   \"code\": string,\n    \"message\": string\n  }\n}\n~~~\n\n\n| Related Control(s)
+    \    | API Reference     |\n| ---------- | ---------- |\n| HITRUST 1616.09l1 Organizational.16
+    \      | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1618.09l1 Organizational.45       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1619.09l1 Organizational.7       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1620.09l1 Organizational.8       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n|
+    HITRUST 1668.12d1 Organizational.67       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances),
+    [BackupRuns](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/)       |\n\n##
+    Step 7: Patching\n\nIn step 3 when we created our database, we selected our maintenance
+    window by setting a specific day and time for updates. Using the Instances API,
+    we can expect a response like the following:\n\n~~~javascript\n\"maintenanceWindow\":
+    {\n  \"kind\": \"sql#maintenanceWindow\",\n  \"hour\": integer,\n  \"day\": integer,\n
+    \ \"updateTrack\": string\n}\n~~~\n\n\n| Related Control(s)     | API Reference
+    \    |\n| ---------- | ---------- |\n| HITRUST 0701.07a1 Organizational.12       |
+    [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 0707.10b2 System.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 0708.10b2 System.2       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 0709.10m1 Organizational.1       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 0720.07a1 Organizational.4       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n| HITRUST 0723.07a1 Organizational.8       | [Instances](https://cloud.google.com/sql/docs/postgres/admin-api/v1beta4/instances)
+    \      |\n\n## Step 8: Logging & Monitoring\n\nUsing stackdriver in the GCP console,
+    we can see that logging and monitoring are on by default and are tracking events
+    in the \"operations\" tab. However, this still doesn’t get us all the way to HITRUST
+    alignment. For auditing, we’re going to be using [Google Cloud Audit Logging](https://cloud.google.com/logging/docs/audit/).
+    \n\n<img class=\"lozad tofigure\" alt=\"Cloud Audit panel\" src=\"//images.ctfassets.net/189dvqdsjh46/44OOyzWyD6U2CmU46su6Uq/5b6c1957b35443c2a4d3848a09d6b5f7/cloudsql-5.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/44OOyzWyD6U2CmU46su6Uq/5b6c1957b35443c2a4d3848a09d6b5f7/cloudsql-5.png?fm=png&fl=png8\"
+    />\n\nFortunately Cloud Audit Logging is on by default, and can be accessed at
+    [console.cloud.google.com/home/activity](https://console.cloud.google.com/home/activity).
+    If you navigate to that page, you’ll see a log of activity, with options in the
+    right menu to filter based on certain criteria.\n\n\n<img class=\"lozad tofigure\"
+    alt=\"Cloud Audit logging\" src=\"//images.ctfassets.net/189dvqdsjh46/4kEYwdBZVSU8Em6MMW6gmK/473761f76b6f2e3b1b48d9653db8fdba/cloudsql-6.png?fm=png&fl=png8&w=600\"
+    data-src=\"//images.ctfassets.net/189dvqdsjh46/4kEYwdBZVSU8Em6MMW6gmK/473761f76b6f2e3b1b48d9653db8fdba/cloudsql-6.png?fm=png&fl=png8\"
+    />\n\n| Related Control(s)     | API Reference     |\n| ---------- | ----------
+    |\n| HITRUST 1204.09aa1 System.3       | [Stackdriver Monitoring API](https://cloud.google.com/monitoring/api/ref_v3/rest/)
+    \      |\n\n## Wrapping up\n\nUsing this guide, developers can ensure their new
+    GCP Cloud SQL instance is ready to comply with the HITRUST CSF. Maintaining these
+    configurations for all new infrastructure, updating them for new versions of HITRUST
+    and providing proof &mdash; a digital papertrail &mdash; is an incredible amount
+    of work. Having a partner like Datica can mean the difference between an audit
+    taking 4 months, or 4 weeks.\n\nFor more information on Datica’s products and
+    services. Check out these helpful links:\n\n- [Cloud Compliance Management System](https://datica.com/ccms)\n-
+    [Compliant Kubernetes Service](https://datica.com/cks)"
+  :related_entries:
+  - :id: 43dQoBKc9OuQuyw8k2SmKO
+  - :id: 1s1UlhAhkAwwewk20ugYsW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

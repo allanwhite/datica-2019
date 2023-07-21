@@ -1,0 +1,610 @@
+---
+:id: 5743id6JxYsMEwOykuiCQg
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-10-30T17:51:45+00:00'
+  :created_at: '2017-10-30T17:51:45+00:00'
+  :id: 5743id6JxYsMEwOykuiCQg
+:title: Do you Have $360K to Build Compliance into your Digital Health Product Yourself?
+:slug: do-you-have-360k-to-build-compliance-into-your-digital-health-product
+:pub_date: !ruby/object:DateTime 2017-10-27 00:00:00.000000000 Z
+:tags:
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: "$360,000! The cost for a maker of digital health products to design, implement,
+  deploy and prove HIPAA compliance all on their own. Get the breakdown."
+:blog_lead: "$360,000! That’s how much it will cost a typical maker of digital health
+  products to design, implement, deploy, and prove HIPAA compliance all on their own.
+  That cost doesn’t even include their basic cloud subscription or the cost of developing
+  the technology for their own application. We often hear early-stage developers say
+  they’ve got compliance covered since they’re using AWS. That’s when the steep education
+  process begins to help them understand they’re just at the beginning of the compliance
+  journey with AWS and there’s so much more to consider to build a compliant application
+  in the cloud. "
+:post: "## The TCO of Compliance in the Cloud: A Build vs. Buy Comparison \n\nOur
+  goal in building the [Datica Platform](https://datica.com/platform/) was to reduce
+  the barriers to compliance in the cloud for makers of digital health products. As
+  part of that ongoing commitment to simplify healthcare's onramp to the cloud, we
+  provide as much value as possible in the form of healthcare expertise we share freely
+  with the market. It is our goal to enable our customers to focus their efforts away
+  from compliance and cloud management and toward developing digital health applications
+  that improve patient outcomes. \n\nThere’s much to know about both compliance and
+  cloud management and that knowledge requires a significant investment in time, education,
+  personnel, and money. The intent of our newest guide, [The TCO of Compliance in
+  the Cloud: A Build vs. Buy Comparison](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/),
+  is to help makers of digital health products make informed decisions about whether
+  to “build” cloud compliance themselves, or “buy” it in the form of the Datica Platform.
+  \n\n***Spoiler Alert:** It’s 10x more cost-effective to contract with Datica to
+  deploy your application on a made-for-healthcare platform that includes not only
+  the AWS cloud infrastructure, but also all the DevOps, DevSecOps, expertise, and
+  proof necessary to build and market a healthcare application.* \n\nThis guide explains
+  the considerations of compliance and cloud management in healthcare and offers a
+  framework to understand the activities, resources, and cost estimates for each of
+  those considerations. We show how Datica addresses those requirements in some detail
+  and how you as a customer benefit from building your application on the Datica Platform.
+  These estimates are based on our extensive experience working with multiple third-party
+  auditors and multiple cloud infrastructure providers (like [Amazon Web Services](https://datica.com/discover/aws-hipaa/),
+  Microsoft Azure, or IBM Softlayer).\n\n## Datica's Shared Responsibility Model\n\nIt’s
+  important to understand this key point: AWS’s shared responsibility model grants
+  excellent security for the security OF the cloud but customers (you) are still responsible
+  for security IN the cloud. Orchestrating DevSecOps is just as challenging as orchestrating
+  DevOps. The following diagram explains that a bit more, but get the full story by
+  downloading the [complete guide](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+  \n\n<script src=\"https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp\" async></script><script
+  src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding\"
+  style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+  style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+  wistia_async_08ebxufc4q seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>"
+:featured_image:
+  :title: welding - christopher-burns-360244
+  :description: Photo by Christopher Burns on Unsplash
+  :url: "//images.ctfassets.net/189dvqdsjh46/9Hxj23eSJyaSQaYw04aCM/f7fd325208b4e19cb2bd0fb1acdcfe91/welding_-_christopher-burns-360244.jpg"
+  :_meta:
+    :updated_at: '2017-10-30T17:46:33+00:00'
+    :created_at: '2017-10-30T17:46:33+00:00'
+    :id: 9Hxj23eSJyaSQaYw04aCM
+:share_image:
+  :title: blog-360k-share
+  :description: share, 360k, welding
+  :url: "//images.ctfassets.net/189dvqdsjh46/s90SzAZ4SyCqkKcaSkCAM/c0faed5dfec6d69312f2d4d54cd07688/blog-360k-share.jpg"
+  :_meta:
+    :updated_at: '2017-10-30T17:50:56+00:00'
+    :created_at: '2017-10-30T17:50:56+00:00'
+    :id: s90SzAZ4SyCqkKcaSkCAM
+:cta_ref:
+  :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-19T19:31:53+00:00'
+    :created_at: '2017-10-19T23:51:37+00:00'
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :cta_title: Get the TCO Guide to Compliance in the Cloud
+  :cta_desc: "In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica to measure and manage the total cost of ownership
+    to achieve compliance in the cloud. \n"
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/
+  :cta_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 20lgM36LfqK0SM8MyY2WGs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:15:52+00:00'
+    :created_at: '2017-08-07T21:01:59+00:00'
+    :id: 20lgM36LfqK0SM8MyY2WGs
+  :title: Why There is Up Front Pricing Now
+  :slug: why-there-is-up-front-pricing-now
+  :pub_date: !ruby/object:DateTime 2017-08-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1ohoWljgTW4ksAGY6w2U4Q
+  :categories_blog: company
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: 'Almost 3 years ago, I wrote about why there was no listed Datica pricing
+    on our site. Today, I wrote about why we actually DO now have upfront pricing. '
+  :blog_lead: 'Almost three years ago, I wrote a blog post about why [there was no
+    up front pricing](https://datica.com/blog/why-there-is-no-up-front-pricing/) for
+    the Datica Platform or our integration services. It was as earnest as I could
+    get about how I felt about our sales model at the time: there was no shortage
+    of people who came to our website not understanding why handling some aspects
+    of HIPAA compliance or data integration wasn''t as cheap as a $5 Digital Ocean
+    droplet.'
+  :post: "![Old office](//images.contentful.com/189dvqdsjh46/2eMSsIeNu8YcUuOW6qkEYS/6980a750bcb5cf100747466b6cb69a7e/Datica_old_office.001.png?fm=jpg)\n*That's
+    me in 2015, in the background of a photo in Datica's original office.* \n \n*Editor's
+    note: As we roll out updates and changes to our new Kubernetes-based compliance
+    platform our pricing is fluxuating and we're temporarily back to providing custom
+    quotes based on specific configurations. Learn more about our [public product
+    roadmap](https://datica.com/blog/what-were-building-daticas-public-product-roadmap/)
+    and the exciting things happening at Datica* \n\nWe've done a lot of work since
+    then, and we've now changed our opinion on the topic. We now offer up front Datica
+    pricing right on the website: [https://datica.com/pricing/](https://datica.com/pricing/).
+    I'd like to go through my old article and discussed what changed and why we now
+    offer upfront pricing.\n\n1) \"First, our pricing is non-standard, which can lead
+    to buyer confusion.\" & 2) \"Second, we discovered prospects were making apples-to-oranges
+    comparisons with companies who weren’t direct competitors.\"\n \nRealistically,
+    our largest competitors in the compliant cloud space aren’t other PaaS vendors
+    but rather DIY solutions on one of the major IaaS vendors like Amazon or Azure.
+    At the time, it was hard to communicate exactly what the total cost of ownership
+    for build vs. buy would be, since we didn’t fully understand our costs as we were
+    building infra at scale and going through our initial sets of audits. We've since
+    written massive amounts of documentation on the subject: our [HIPAA](https://datica.com/discover/hipaa-compliance/)
+    and [HITRUST](https://datica.com/discover/hitrust/) guides provide in depth details
+    on effort and costs while our [open-sourced policies](https://github.com/catalyzeio/policies)
+    provide a detailed roadmap of what it takes to prove HITRUST certification if
+    you were going to DIY.  If you work in a \"We build everything 100% here\" shop,
+    you'll find the policies useful for your own build-outs. If you are looking to
+    partner with a vendor, we now can provide you with the data to demonstrate that
+    we provide the best value on the market.\n \n3) Third, we saw that often prospects
+    weren’t entirely sure which one of our products to choose, so they would choose
+    neither.\n \nDatica is the platform on which everything is built. Compliance is
+    the top requirement for all digital health applications and it's where developers
+    looking to build or move to the cloud need to begin. Something like integration
+    is built on top of the platform, in a complementary fashion. We didn't know how
+    to communicate this best in 2015 and we probably didn't help ourselves with mountain
+    climbing analogies later that year with Redpoint and Stratum. We've figured out
+    better ways to communicate that we want to be your one stop shop for all your
+    tough challenges in building digital health products in the cloud — above hosting
+    and interface engines.\n \n4) Fourth, we believe strongly in a core message of
+    the Lean Startup movement: We want to talk to people.\n \nDon't worry! We're still
+    out talking to people. We just don't need to bake it into all pieces of the sales
+    process if you aren't interested anymore. In fact, we used a lot of feedback and
+    discussions from customers and prospects to build the [Digital Health Success
+    Framework](https://datica.com/dhsf/).\n \nWhile we made it easier to see our pricing
+    and features, we still want to talk. It might be our midwestern roots, but we
+    want to learn more about what you're working on and the challenges you're going
+    through on your projects. We want to help, even if it means we send you along
+    to someone else. Don't hesitate to [reach out](https://datica.com/contact/)!\n\n"
+  :featured_image:
+    :id: 1VH4BjrS7uY42AGqMcYOI
+  :share_image:
+    :id: 5wMilTOBjyweUaIcEkEqmu
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 18bX0o2xgYwSOoSUOuGaGC
+  - :id: 6Dml5x08koWoIe6cCYYGEc
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1xWyIu23sMAEAYA4sC2qk2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-09-29T16:55:40+00:00'
+    :created_at: '2017-09-28T22:02:32+00:00'
+    :id: 1xWyIu23sMAEAYA4sC2qk2
+  :title: 'Public vs. Private Cloud Computing Examined: Our Latest Quarterly Industry
+    Report'
+  :slug: public-vs-private-cloud-computing-examined-our-latest-quarterly-industry
+  :pub_date: !ruby/object:DateTime 2017-09-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Our latest industry report takes a look at various opinions and definitions
+    on public vs. private cloud computing within healthcare.
+  :blog_lead: 'Last quarter, we published our first industry report titled [The Heart
+    of Medicine: Transformation Through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/).
+    The report took a look at how sentiments have changed the last few years around
+    the topic of "cloud" within enterprise healthcare. Measuring the changes between
+    a 2014 HIMSS study and their 2017 version showed that certain use cases on the
+    cloud have not just taken off, but are commonplace—a good sign for the progress
+    of digital health.'
+  :post: |-
+    Each quarter we will bring a similar report focused on a key topic related to healthcare technology. The shape of a report can take many forms. One quarter might be an extensive data study while another quarter might be an aggregation of industry views. Regardless of the style of report, the intent remains the same: Inform the digital health market with insights that can help them be successful. _There is no strategy without intelligence._
+
+    Today we are happy to share our latest report titled [Public and Private Cloud Computing within Healthcare](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/). The premise of this report is simple: the debate between Public vs. Private cloud models is ongoing, yet many digital health companies we speak with aren't exactly sure their definitions, nor which model might be a fit for them. The [cloud](https://datica.com/discover/healthcare-cloud/) is expansive and complex. This report is meant to help breakdown the differences between the two, and source industry insights related to what is a good fit for healthcare.
+
+    Feedback is always welcome. Let us know what you think on Twitter at @daticahealth!
+  :featured_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :share_image:
+    :id: 3OtctYqALCei8CmiwMsMEW
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :related_entries:
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 7BC902tFlKQwC6YygGECKY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-08-29T04:47:44+00:00'
+    :created_at: '2017-04-11T17:12:26+00:00'
+    :id: 7BC902tFlKQwC6YygGECKY
+  :title: The Accelerating Migration to the Healthcare Cloud
+  :slug: accelerating-migration-to-the-healthcare-cloud
+  :pub_date: !ruby/object:DateTime 2017-04-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 2fzMqf6H3W28sIImkqygQw
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: In this article, we explore the migration to cloud computing in healthcare,
+    the benefits of cloud computing in healthcare, and HIPAA cloud compliant hosting.
+  :blog_lead: "I saw an article recently titled, [“Hospital datacenters: Extinct in
+    5 years?”](http://www.healthcareitnews.com/news/hospital-datacenters-extinct-5-years)
+    that made my jaw drop just a bit. The race to the cloud is unquestionably taking
+    place in just about every other industry. More than half of the CIOs polled at
+    last year’s Gartner Symposium IT Expo are moving away from a captive data center
+    environment and working toward a cloud-first strategy. \n\nThe healthcare industry
+    is notoriously the laggard in that migration and, up until now, healthcare’s race
+    to the cloud has looked more like a slow walk. So, five years may be a bit ambitious.\n\nEven
+    so, the healthcare cloud migration is gaining steam among hospitals and health
+    systems today. In fact, healthcare cloud spending is expected to rise nearly threefold,
+    from $3.73 billion in 2015 to [$9.48 billion by 2020](http://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/).\n\nIn
+    this article, we explore the state of cloud computing in healthcare today, the
+    benefits of cloud computing in the healthcare industry, and HIPAA cloud compliant
+    hosting. \n"
+  :post: "![Cloud spending in healthcare on the rise](//images.contentful.com/189dvqdsjh46/59j42nAkjKawoAK60kCyEY/da74cb1359d706ad4d1b2b039e3f6f43/blog-cloud-spending-in-healthcare-_2x.png)\n\n##
+    The State of Cloud Computing in Healthcare Today\n\n> “These are the two transformational
+    changes in healthcare — value pressure and the digitization of healthcare. So
+    when you ask me what I’m obsessing about today in my role running a fairly large
+    unit at UCSF, it’s the value pressure. We have to figure out ways to provide better,
+    safer, and more satisfying care at a lower cost… The value pressure is real and
+    causing important changes in the way we think about our work and organize ourselves.”
+    — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
+    Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+    and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
+    while keeping costs low. To follow are some of the key pressures driving accelerated
+    migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
+    migration to the cloud is often a business decision to remain competitive by funding
+    innovation. CIOs today are partnering with business department owners to help
+    them find ways to shift funds into the things that really matter both to them
+    and to the business strategy as a whole. \n\nCloud usage at hospitals and health
+    systems is often centered around managing business applications to achieve those
+    financial efficiencies. It is not as simple looking at the costs of running those
+    applications on-premise, in the cloud, or on hybrid infrastructure. The conversation
+    between healthcare CIOs and their business leaders has to focus on how much value
+    it brings to the business as a whole. \n\n### The Benefits of Cloud Computing
+    to Healthcare as a Business\nThe cloud makes it possible to hold more information
+    and also do it a lower cost. This allows even the [smallest hospitals access to
+    the kind of storage](http://www.cloudcomputing-news.net/news/2016/jul/28/six-key-benefits-cloud-computing-healthcare-industry/)
+    that allows them to provide the most value, without a hefty price tag. Shifting
+    to the cloud and decommissioning old servers means healthcare IT departments can
+    shift that money to fund innovation projects in the organization. \n\n## Value
+    to Patients\nHealthcare today is rapidly shifting from a volume-based, fee-for-service
+    model, to the newer value-based model outlined by the Affordable Care Act (ACA).
+    In the value-based care world, providers are graded based on the value to the
+    patient as opposed to the volume of services. \n\nTo explain the difference further,
+    the fee-for-service model, which has been the standard for a long time, rewarded
+    physicians and hospitals for filling beds and conducting numerous tests and treatments.
+    On the other hand, the newer, value-based care model rewards providers on cost-effectiveness
+    and clinical case outcomes. This change requires rapid innovation that only cloud
+    computing can cost-effectively provide.\n\nIn addition to those changes in payment
+    models, patients’ perceptions of value are quickly changing. To understand this,
+    it’s crucial to think of patients as consumers, [and those consumers are adapting
+    to offloading nearly every aspect of their lives into the cloud](http://www.cloud-council.org/deliverables/CSCC-Impact-of-Cloud-Computing-on-Healthcare.pdf).
+    Our dependency on instant access to everything, from news, answers, and financial
+    records to our social interactions, has changed our expectations in all areas
+    of our lives. \n\nAlong with this digitalization, consumers are taking control
+    of their own data in innovative ways as apps track, store, and analyze personal
+    data on everything from our heart rate to our credit score trends. From a consumer
+    point of view, expectations in data availability are seamless from one part of
+    their lives to the next. They not only expect to be able to access all of their
+    own healthcare data, just as they do with their bank data, but they expect to
+    be able to provide the data they’re generating with wearables and apps back to
+    healthcare providers. \n\n### The Benefits of Healthcare Cloud Computing to Patient
+    Value\nCloud computing enables hospitals and health systems to face the challenge
+    of delivering more patient value. It provides them with a connected environment
+    to exchange data with their patients. It also provides the means to handle the
+    massive amounts of data that are growing exponentially in a cost-efficient manner.
+    On-premise infrastructure costs are high and data scalability is more feasible
+    in the cloud.\n\n## Interoperability\nInteroperability, both internally and externally,
+    is a growing pressure on healthcare CMIOs and CIOs. Not only is there a need to
+    easily exchange data between internal departments, for example, between an EHR
+    and billing system, but there is also an increasing demand from consumers and
+    the industry as a whole to be able to make patient data exchangeable with other
+    organizations. \n\n### The Benefits of Cloud Computing to Interoperability\nCloud
+    computing as an IT platform facilitates information sharing across the healthcare
+    ecosystem, enabling cross-industry services and making internal data exchange
+    faster and more cost-effective.\n\n## Demands for Faster Innovation\n> “It’s very
+    similar economics to road building. It’s the creation of infrastructure that enables
+    exchange to happen. Everybody’s interested in a cheaper way to get from A to B.
+    But not everybody’s interested in what is required to create a cheaper way to
+    get from A to B.” — Grahame Grieve, Director, Healthcare Intersections, from the
+    [Datica Healthcare Innovators Podcast](https://datica.com/innovation/grahame-grieve-pt3/)
+    \n\nHealthcare consumerism is an underlying trend that ultimately makes cloud
+    adoption essential to provider success. Healthcare organizations need to make
+    very quick decisions about integrations and new technology. Their innovation centers
+    require a quick, affordable, and secure platform to rapidly test while maintaining
+    the confidentiality of patient information. That platform needs to be scalable
+    as the size and quantity of data sets grow exponentially. It also needs to be
+    interoperable for internal and external collaboration.\n\nThese [innovation demands](https://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/)
+    are driving an acceleration of cloud computing in healthcare today. \n\n### Benefits
+    of Cloud Computing for Innovation \nAs hospitals transform to modern, digital
+    enterprises and value-based payment models, they need to find innovative ways
+    to quickly test and evaluate integrations and technology options. Cloud platforms
+    allow for the agility and speed to innovate while lowering the barriers to innovation.
+    \n\n## HIPAA Compliant Cloud Hosting\n> “Healthcare is undergoing massive technological
+    transformation. Datica's approach to HIPAA compliance means Microsoft Azure customers
+    can utilize trusted solutions to privacy and data security which meet the highest
+    levels of healthcare standards. We're excited to offer a HITRUST CSF Certified
+    platform such as Datica in the Azure ecosystem.” — Nicole Herskowitz, Senior Director
+    Product Marketing, Microsoft Azure, Microsoft Corp.\n\nHealthcare data management
+    includes strict requirements for security, confidentiality, privacy, traceability
+    of access, reversibility of data, and long-term preservation. As hospitals and
+    health systems race to quickly test and decide on ideas and applications that
+    include everything from patient health applications to AI, they need a HIPAA compliant
+    cloud hosting platform to build or test those applications upon. Datica leads
+    the industry with the first, most complete HIPAA compliant cloud infrastructure.
+    [Datica Compliant Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified
+    on AWS, Microsoft Azure, IBM SoftLayer, and Rackspace, achieving the highest industry
+    privacy and security standards across infrastructure providers.\n\n## Cloud Computing
+    Benefits Healthcare\nThe challenges healthcare enterprises face persist and the
+    benefits of cloud computing to help them face these challenges are too compelling
+    to ignore. Cloud computing allows healthcare enterprises to access improved technology
+    at lower initial capital expenditures than physical environments. As healthcare
+    organizations enter the race to migrate to the cloud, the barriers for innovation
+    and modernization become lower, information sharing becomes possible, and the
+    value-based transformation can actually take place.\n"
+  :featured_image:
+    :id: 6O4SBR24hi6UoWCGqy64cc
+  :share_image:
+    :id: 1em5YLgkP4YYwEaowaWAqQ
+  :cta_ref:
+    :id: wJ0lHvmWOsOcq80IWIKAW
+  :related_entries:
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

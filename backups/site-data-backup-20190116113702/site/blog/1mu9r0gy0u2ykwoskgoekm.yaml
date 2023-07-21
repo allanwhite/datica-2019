@@ -1,0 +1,798 @@
+---
+:id: 1mu9r0gy0U2YKWOSKGOEkm
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T22:53:24+00:00'
+  :created_at: '2018-04-17T16:33:19+00:00'
+  :id: 1mu9r0gy0U2YKWOSKGOEkm
+:title: 'HIMSS 2018 Recap — Invasion of the major tech providers '
+:slug: himss18-recap-invasion-major-tech-providers
+:pub_date: !ruby/object:DateTime 2018-04-16 00:00:00.000000000 Z
+:tags:
+- :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T21:38:17+00:00'
+    :created_at: '2017-10-20T21:38:17+00:00'
+    :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :tag_full: Events
+  :slug: events
+  :description: Datica events, conferences, speaking opportunities, etc.
+  :url: https://datica.com/events
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: HIMSS 2018 saw the presence of three of the largest cloud technology companies
+  in the world, Amazon (AWS), Microsoft (Azure), and Google (Google Cloud) flex their
+  muscles. In addition to a strong cloud showing, the event itself is evidence that
+  innovation is now a part of the healthcare bloodstream.
+:blog_lead: "For the last several quarters, we have brought you unique perspectives
+  on disparate [topics affecting innovation in healthcare](https://datica.com/innovation/).
+  In Datica’s Spring 2018 Innovation report, we highlight and reinforce what we know
+  to be true and what many of you are experiencing: the digital health transformation
+  is happening now and is grounded in innovation. Its sources might surprise you.
+  \ \n\nIn addition to surveying news, stories, and industry reports, the quarterly
+  report provides our takeaways on the recent HiMSS conference which we’ve extracted
+  below. Make sure to get the [Spring Innovation Report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+  for a complete look at the state of Innovation in Healthcare. "
+:post: "<img alt=\"himss-2018-logo\" src=\"//images.ctfassets.net/189dvqdsjh46/BejYKjLiuWuE0iEK6WQIM/521488e52b97804bab49f7dd0a1994e2/himss-2018-logo.png?w=240\"
+  width=\"120\" class=\"float-left-on-medium\" />\n\nHIMSS 2018 saw the presence of
+  three of the largest tech companies in the world flex their muscles. The event itself
+  is evidence that innovation is now a part of the healthcare bloodstream.\n\n## The
+  3 largest tech companies flex their muscles at HIMSS\n\n### Microsoft showcased
+  Azure at HIMSS\n\nDue to their rich health IT history, Microsoft has engaged with
+  HIMSS in the past, but the company’s positioning in 2018 is noteworthy. A through
+  line across its booth facilities, its engagements, and in 1:1 conversations was
+  a focus on modernizing health IT via intelligent solutions. Artificial Intelligence
+  (AI) certainly had a presence, but it was grounded in usable tools like Office 365
+  and Microsoft Teams. Any cloud reference had less to do with Azure itself and more
+  to do with Microsoft solutions on the cloud. \n\n### AWS went big HIMSS\n\nFor the
+  first time in its history, AWS went big with an impressive HIMSS booth. This major
+  physical presence is the only major one in healthcare outside of their own re:Invent
+  conference. AWS had a mix of solution architecture Q&A, presentations from its broad
+  partner ecosystem, and demonstrations of healthcare-specific cloud solutions available
+  on AWS. Its 2018 presence showed AWS cares about being active in health IT and [AWS
+  has a strong story to tell](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
+  with both new digital health companies and enterprise health IT. \n\n### Google
+  went all out at HIMSS\n\nBut then we have Google. It also spent big — much bigger
+  than Microsoft or AWS. Google had a major booth, but also several keynotes and high
+  profile sessions that all must have cost enormous amounts in sponsorships. Of the
+  three, it’s easy to see through total spend and coverage that Google is making the
+  biggest bet that its cloud offerings can help healthcare. The only problem is understanding
+  the actionable theme Google had in mind. Is it looking to help hospitals migrate
+  old systems to Google’s cloud? Is it trying to get AI adopted in enterprises? The
+  most consistent message centered on helping smaller startups succeed, which is then
+  curious why Google would spend so much money getting in front of hospital CIOs.
+  \n\nThe aggregate observation is big tech is looking to spend big dollars to land
+  a big presence with this big event. All are here to stay this time. \n\n## Healthcare
+  innovation was everywhere at HIMSS18\n\n### Certain innovations are now mature \n\nFrom
+  the presence of the booths, the coverage within sessions, and the chatter amongst
+  attendees, two major areas of innovation have finally made it: telehealth and population
+  health. \nThose who follow healthcare know these two areas aren’t new, per se. But
+  that’s not the point. The key observation from HIMSS18 is that, in the aggregate,
+  all companies have “made it.” Their spend was enormous, their booths packed, their
+  messages grand, and their sessions well attended. For upwards of a decade, we’ve
+  talked about the eventuality of both telehealth and population health. Well, HIMSS18
+  proved to us that the companies that figured out the models have finally crested
+  the mountain in that long journey, and are now part of the health IT regulars. \n\n###
+  The startups are mostly focused on AI \n\nMost early-stage companies were predominantly
+  downstairs in the startup hub, but some were upstairs as well. Regardless of the
+  location, a clear and obvious trend prevailed: Artificial Intelligence. AI is coming
+  to healthcare. When it arrives, we aren’t certain. Much like telehealth, its timing
+  will likely be tied to payment structures and when healthcare systems are allowed
+  to receive reimbursement for its use. But the sheer volume of AI-focused business,
+  products, and tools staggered attendees and it felt inevitable that AI will disrupt
+  healthcare in some capacity. Our guess is that many net-new products will be deployed
+  over the next two years, will show demonstrative impact, and then after that a larger
+  watershed, will happen similarly to what we saw with telehealth and population health.
+  \n\n### Net-new innovation is more popular on the cloud than migrating old systems
+  \n\nLastly, we saw the [healthcare cloud](https://datica.com/discover/healthcare-cloud/)
+  as a mixed bag at HIMSS18. Conversation after conversation indicated a resistance
+  to migrating old systems to the cloud. Ultimately, CIOs aren’t interested in the
+  downside — higher hidden costs than the cloud vendor space indicates, high probability
+  of downtime or failure of fragile systems during migration, and general unease with
+  understanding risks and liabilities yet on the cloud. \n\nDatica ran a CHIME focus
+  group with 18 hospital and health system CIOs. Across the board, their sentiment
+  remained the same. Migration of existing systems just isn’t a priority. \nOn the
+  flip side, much innovation is happening with new projects. These innovations can
+  either be in the form of digital health products CIOs are purchasing, or as internal
+  projects led by innovation groups. The cloud is not universally bad in the eyes
+  of hospital CIOs. In fact, all 18 voiced the priority of cloud-first innovations
+  when evaluating new tools or solutions. \nThis dichotomy became one of the more
+  interesting observations from HIMSS18. You might also want to take a look at the
+  thorough recap and analysis of that [CHIME focus group here](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
+  More internal innovation is happening than many realize \n\nOne interesting thread
+  throughout the entire conference hinged on the consistency of internal innovation
+  being a focus. More conversations led to CIOs or innovation directors looking to
+  internal resources for solving a specific problem at their system as opposed to
+  buying a new product. \n\nIt’s not just centered with innovation groups, either.
+  We were shocked to hear stories of how some institutions are completely rethinking
+  innovation from the ground up, giving smaller teams more democracy in those innovations.
+  The head of dermatology might be working on her own sanctioned project to innovate
+  on a problem. The chief nursing officer might have the job of marshalling a skunkworks
+  team to build a new tool for nurses. And so on. It’s happening across the country.
+  \n\nIt’s great to see such innovation products constantly entering the health IT
+  space. The level of sophistication in just the last few years has jumped considerably
+  and will likely continue it’s rapid improvement through the coming years. \n\n\n"
+:featured_image:
+  :title: blog-himss18-recap-featured-coffee-toast
+  :description: backgrounds, coffee
+  :url: "//images.ctfassets.net/189dvqdsjh46/55u4pIR3ccKgmwkeMe0QeC/bd3cf7b96bf662cf271902eb60c76617/blog-himss18-recap-featured-coffee-toast.jpg"
+  :_meta:
+    :updated_at: '2018-04-17T00:00:43+00:00'
+    :created_at: '2018-04-17T00:00:43+00:00'
+    :id: 55u4pIR3ccKgmwkeMe0QeC
+:share_image:
+  :title: blog-himss18-recap-share
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/1YqHB3bahC62aOKSEiQcUq/a319fe6beded007554bbc958a547c832/blog-himss18-recap-share.jpg"
+  :_meta:
+    :updated_at: '2018-04-17T00:01:01+00:00'
+    :created_at: '2018-04-17T00:01:01+00:00'
+    :id: 1YqHB3bahC62aOKSEiQcUq
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 4RxNckwHOwm4KcSo6eS0km
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:43:46+00:00'
+    :created_at: '2018-03-06T19:44:13+00:00'
+    :id: 4RxNckwHOwm4KcSo6eS0km
+  :title: '2018 Healthcare Trends Part 5: The Real Cloud Comes to Healthcare'
+  :slug: 2018-trends-pt-5-real-cloud-comes-to-healthcare
+  :pub_date: !ruby/object:DateTime 2018-03-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The “real cloud” in healthcare is not virtualization. We are talking
+    about the public cloud and the public cloud providers Amazon, Microsoft, and Google. '
+  :blog_lead: |-
+    Information technology groups at healthcare organizations spend a [colossal chunk](https://www.beckershospitalreview.com/healthcare-information-technology/electronic-health-records-the-good-the-bad-and-the-ugly.html) of their time supporting and “optimizing” EHRs. And, with many of the largest EHR vendors, health system IT does it in-house using their own data centers. In addition to EHRs, hospital IT also has hundreds of smaller, often less essential technologies, that require care and feeding. Couple that with the needs to integrate applications and you quickly see why healthcare IT has such a huge backlog.
+
+    At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
+  :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
+    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
+    and the public cloud providers Amazon, Microsoft, and Google. The public cloud
+    is not Epic hosting in Verona, with a data center that is managed and operated
+    by Epic, or Cerner hosting in Kansas City, with a data center that is managed
+    and operated by Cerner; those are private clouds dedicated to a specific application
+    and purpose. The public cloud is different.\n\nThe public cloud is a powerful
+    public utility and a force that will transform healthcare, not just healthcare
+    IT. It is almost infinitely scalable with a growing laundry list of services and
+    features that can be activated and accessed on demand. And, with new security
+    features, it is now finally ready for prime time, meaning only that it is ready
+    for healthcare organizations to develop and implement cloud strategies. The public
+    cloud will enable many things for healthcare organizations.\n\n## The public cloud
+    will:\n\n1. Get healthcare organizations out of the data center and infrastructure
+    business, allowing focus on providing care, better services, and better products
+    (meds and devices)\n2. Massively improve disaster recovery, aiding in meeting
+    compliance requirements\n3. Accelerate innovation, enabling faster response and
+    adaptation to market changes\n4. Improve and ease access to health data both for
+    providers and patients\n5. Enhance visibility into security and compliance\n6.
+    Enable new partnerships and integrations.\n\nDespite the scale and challenges
+    of moving to the cloud, the cloud is coming to healthcare, and it’s coming faster
+    than most people think. Look no further than HIMSS 2018 and the newly enlarged
+    presence of major cloud providers Amazon Web Services (AWS), Google Cloud Platform
+    (GCP), and Microsoft Azure. Healthcare on the cloud is strategic for every cloud
+    provider. The challenge for these three behemoths is being in healthcare at the
+    right time. These cloud providers are at HIMSS in 2018 because now is the right
+    time, not because 2018 will be the year all healthcare organizations will move
+    all their technology to the cloud; but, 2018 and 2019 will be the years most healthcare
+    organizations start to implement a cloud strategy that will take years to execute.
+    Microsoft, Amazon, and Google can’t miss those opportunities.\n\nI was listening
+    to a [Software Engineering Daily](https://softwareengineeringdaily.com/2018/02/13/box-kubernetes-migration-with-sam-ghods/)
+    podcast last week featuring one of the founders of [Box](https://www.box.com/home).
+    The podcast focused on how Box has embraced the public cloud and why they have
+    chosen to leverage Kubernetes. It’s a fascinating listen. One of the takeaways
+    that map to the cloud trend in health IT is around how moving to the cloud is
+    never one and done, even if you only have one large, monolithic application (in
+    the case of the podcast, the one application was Box).\n\n## Hybrid cloud for
+    3-5 more years\n\nDuring the next 3-5 years, we’re going to see a hybrid approach
+    to the cloud for health IT where there is a mix of cloud applications and ground-based,
+    or on-premise applications. This necessitates a new integration strategy to ensure
+    secure and reliable connectivity between cloud and existing ground applications,
+    not just integration between legacy applications and new applications; ground
+    applications are typically legacy applications. This hybrid cloud strategy also
+    necessitates management of multiple forms of technology infrastructure, cloud,
+    and ground or on-premise.\n\n## Legacy applications either killed off or re-architected
+    for public cloud\n\nAs healthcare organizations implement and start to scale their
+    cloud strategies, more ground-based applications will move to the public cloud.
+    Some set of these legacy applications, likely the last to move to the cloud, will
+    be migrated as they are currently architected; that, or they’ll be sunsetted and
+    killed off before they are migrated. Many more of these legacy ground applications
+    will be re-architected as a part of the migration process. The reason to re-architect
+    legacy applications is to:\n\n1) fully take advantage of the cloud (auto-scaling,
+    auto-healing, redundancy, portability, etc.) and\n2) prevent lock-in with a specific
+    cloud provider. \n\nWhile AWS, Azure, and GCP offer great cloud services and resources,
+    healthcare organizations will want optionality and to avoid lock-in with cloud
+    providers APIs and the specific flavor of services (containers, serverless, etc.).
+    This re-architecture process will be a crucial part of the cloud strategy for
+    healthcare organizations.\n\n## Public cloud requires new skillsets\n\nThe public
+    cloud does require a unique skill set and should usher in a new paradigm (containers,
+    security, serverless, DBaaS, etc.) for healthcare technologies. Hiring resources
+    with the necessary skillsets are challenging to say the least. It’s challenging
+    if you’re in Seattle or Boston. It’s nearly impossible if you’re in a rural location
+    like many healthcare organizations. Access to the right skillsets to leverage
+    public cloud will improve over time but health systems should, and likely will,
+    leverage third parties that specialize in cloud computing; these third parties
+    have matured along with the public cloud.\n\n## Security and compliance — a big
+    challenge\n\nOne particularly outsized challenge associated with the cloud is
+    security and compliance. The cloud has distinct advantages over the current, on-premise
+    model but it also has the perceptive challenge of giving up the keys to the castle
+    to a cloud provider. This perceptive challenge can and will be overcome, but it
+    requires changes to the way healthcare organizations manage risk for their data
+    and how they align that risk with liability from cloud providers acting as stewards
+    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
+    third parties, both cloud providers for infrastructure and cloud specialists for
+    migration, security, and compliance, healthcare IT and healthcare compliance will
+    transform themselves. What those groups look like in a post-cloud world is hard
+    to say, but it’s clear they will have to change to embrace this brave new world.
+    This will not happen overnight.\n\nA lot of the above are impacts that will be
+    felt long-term and not necessarily in 2018. But, as healthcare organizations begin
+    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    some starting that journey at HIMSS this year, they need to consider all of this.
+    Cloud strategies should be all-encompassing but also should be revisited on some
+    regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
+    Invite you to also take a look at the first three trends we’ve already explored
+    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    And don’t forget to subscribe to the blog to the right to have the rest of the
+    trends we’ll explore delivered right to your inbox. \n\n\n"
+  :featured_image:
+    :id: 4MNhBVh0ZaKKWM2IsgIgWw
+  :share_image:
+    :id: 3WOYUfm0paQSCyaE4iYaUi
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:49:54+00:00'
+    :created_at: '2018-04-13T20:15:21+00:00'
+    :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :title: '2018 Healthcare Trends Part 6: Beyond Digital Health Hype'
+  :slug: 2018-healthcare-trends-6-beyond-digital-health-hype
+  :pub_date: !ruby/object:DateTime 2018-04-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Where is healthcare going in 2018? In this sixth piece of the Datica Healthcare
+    Trends series, we explore the fifth trend — moving beyond the digital health hype.
+  :blog_lead: "Where is healthcare going in 2018? In the first article of Datica’s
+    2018 Healthcare Trends series, I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/).
+    I predict volatility as the government, individuals, and private sector demand
+    change this year. In this sixth piece of the series, I explore the fifth trend
+    — moving beyond the digital health hype.\n\nOver the last ten years, digital health
+    has been met with much ballyhoo and corresponding investment. Even the “digital
+    health” term has become broad and beyond its original intent. It’s helpful to
+    define the term before diving into its evolution and current state. According
+    to Wikipedia, [the digital health discipline is described](https://en.wikipedia.org/wiki/Digital_health)
+    in the following way — “The discipline involves the use of information and communication
+    technologies to help address the health problems and challenges faced by patients.” "
+  :post: "\nThat’s broad. Very broad. \n\nDigital health is somewhat  synonymous with
+    “healthcare technology,” with one caveat — healthcare technology is inclusive
+    of electronic health records (EHRs) and I personally don’t group EHRs in with
+    the broader digital health term.\n\nLike other verticals and in many consumer
+    products, digital health has followed a similar trend. We saw initial hype around
+    mobility, connectivity and consumerization of healthcare. While those trends are
+    still relevant, healthcare, as yet has not been disrupted or upgraded to the same
+    extent as industries like banking, retail, and even education. Those who have
+    been in healthcare for a while have read a multitude of stories touting new companies
+    and technologies that were destined to disrupt healthcare. All of those, except
+    a select few, have failed. \n\nHere are a few of the obstacles digital health
+    companies must overcome.\n\n## Scrutiny of technology spend is way up and proof
+    is the antidote\n\nIn 2018, healthcare technology has finally [moved past the
+    EHR era](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/). EHRs
+    are now ubiquitous in healthcare organizations. As we all learned at HIMSS18,
+    the good old days of Meaningful Use are over. However, one lingering consequence
+    of Meaningful Use was an increase of the percentage of technology spend in most
+    health systems budgets. That increased spend is now being scrutinized, and digital
+    health must demonstrate solid proof of efficacy to overcome that scrutiny and
+    succeed.\n\nIn the [Digital Health Success Framework (DHSF)](https://datica.com/dhsf/)
+    Datica outlined the major challenges that digital health developers must traverse.
+    Now, more than ever, digital health products need associated proof to overcome
+    buyer and customer skepticism. The proof can broadly fall into the following buckets
+    — lowering costs, improving care (especially in at-risk settings), and improving
+    the care experience.\n\n## VCs invest in scalable technologies, but healthcare
+    is siloed and localized \n\nVenture capital compounds the challenges of digital
+    health. Building and scaling new technology products to meet venture capital demands
+    falls out of alignment with selling and implementing demands of digital health
+    within the enterprise. The localized nature of healthcare exacerbates the problem.
+    Even for some larger systems that still buy technology at local or regional levels,
+    one must wonder if most digital health technologies aren’t meant to be venture
+    scale. That’s not necessarily a bad thing.\n\nSome digital health companies have
+    found success with a focus on localization. Those companies have discovered that
+    while you may not be able to change the way care is delivered for millions of
+    people you can, however, do that in one city. Scale in healthcare doesn’t have
+    to be geographically global. Scaling to thousands of health systems is daunting,
+    since many are finding ways to solve their problems without waiting for a well-funded
+    digital health startup to save the day. \n\nOver the past year, I’ve talked to
+    multiple investors who say they see many digital health companies solving the
+    same problems with similar solutions, and all at similar stages ($1 - $2 million
+    in annual revenue and 2-5 customers in the same geography). Who gets funded and
+    how do they scale with anything resembling efficiency?\n\nEHRs don’t help the
+    problem of scaling. Without a centralized clinical data repository; thousands
+    of EHR silos exist all over the U.S. Selling to one Epic hospital is selling to
+    one Epic hospital. You must go through the same extended implementation for each
+    new hospital, with all the associated built-in pushback.\n\n## Proof and scale
+    are necessary, but are they even possible?\n\nWhere does that leave us? Is there
+    a way to 1) prove the ROI of a digital health product, and 2) scale that success
+    quickly? I’m not sure. The system seems to be set up to prevent that from happening.
+    The biggest companies I know that are strategically focused on getting into digital
+    health, and these are some of the biggest companies in the world, are playing
+    a very long game. Those companies know that success, at least regarding scale,
+    is going to take many, many years. And they have the money and patience to play
+    it out.\n\nThese companies are targeting providers because they are seen as the
+    key to healthcare as the actual place of the transaction — care delivered and
+    care received. Life sciences are sometimes seen as a faster path to success, but
+    there are only so many life sciences companies and the investments those companies
+    are making in digital health, and their strategies for digital health, are similarly
+    long game strategies that involve being closer to care delivery.\n\nDespite the
+    doom and gloom of the last few paragraphs, digital health will have a significant
+    impact on healthcare. The question is timing. Regardless of the when, the how
+    is clear — digital health needs to be able to prove it’s worth to get into the
+    hands of patients and providers.\n\n"
+  :featured_image:
+    :id: 6H0Gdxtr2M2M4o64aUk6oO
+  :share_image:
+    :id: 5S8QJAbsQwmA06aAu6qM4Y
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+- :id: 3VMljZKhTquyQC46sao4mA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:45:37+00:00'
+    :created_at: '2018-02-26T20:29:04+00:00'
+    :id: 3VMljZKhTquyQC46sao4mA
+  :title: HITRUST on AWS is possible! Find out how at HIMSS18
+  :slug: hitrust-on-aws-is-possible-find-out-how-at-himss18
+  :pub_date: !ruby/object:DateTime 2018-02-26 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting
+    on the topic of HITRUST in the AWS booth #1625 at 11:00am.
+
+'
+  :blog_lead: |-
+    HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625.
+
+    AWS asked us to share our knowledge of HITRUST with their customers, or those organizations interested in being AWS customers, in a special 20-minute session held at 11:00 am. We are excited for the opportunity to break down the fundamentals of HITRUST on AWS, and then give advice to attendees on their own journey towards HITRUST certification.
+  :post: "\nHITRUST is becoming one of the most important pivot points for any enterprise
+    healthcare cloud strategy. We've seen this first hand ourselves, time and time
+    again.\n\nInnovative health IT programs typically face three blockers when trying
+    to adopt AWS:\n\n1. **Internal IT closely guards available resources.** They push
+    projects to internally owned and managed hard drives and CPU cores. When moving
+    to the cloud, those initiatives can be viewed as \"Shadow IT\" because of the
+    DevOps and cloud engineering resources needed outside of their control.\n\n2.
+    **Internal Compliance does not approve of the low levels of liability taken on
+    by AWS.** Under AWS's [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/),
+    roughly 1/10th of compliance controls are taken on by them (mostly the physical
+    level and firewall). The other 9/10ths are major gaps that are now the organization's
+    responsibility. Not cool in their book.\n\n3. **Internal Security is often aligned
+    with Internal Compliance.** They view a presence on AWS as a new threat vector.
+    While AWS themselves have some of the best infrastructure security measures in
+    the world, the operating system level is still the responsibility now of the organization
+    to secure. That's a lot of work and a lot of liability! Typically it's a problem
+    requiring hard-to-find resources like cloud engineers—a luxury in health IT.\n\nAll
+    combined, most healthcare enterprises are blocked from adopting AWS. David Deas,
+    Corporate Director of Innovation and Knowledge Analytics at Method Le Bonheur,
+    articulated this exact pain while giving a talk at last year's re:Invent conference:\n\n<iframe
+    width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oju3cVT5YBo?rel=0\"
+    frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n##
+    Enter HITRUST, the on-ramp for AWS\n\nFor the David Deas's of the world, HITRUST
+    has been a godsend.\n\nFor three years in a row, Datica has been Stage 3 CSF Certified
+    on top of AWS. Our Platform absorbs all liabilities for compliance **on** the
+    cloud, which extends AWS's excellent coverage for compliance **of** the cloud.
+    \n\n![Datica Shared Responsibility Model](//images.contentful.com/189dvqdsjh46/3lcfH25St2OysgsKCgc4Kk/f368d2e9d454a691098bdcd725b05271/Shared_Responsibilities.png)\n\nHealthcare
+    enterprises have taken note. They look to Datica to give assurances to those three
+    internal stakeholders, which in turn green light adoption of AWS for innovative
+    projects.\n\n* Internal IT trusts Datica's cloud management, effectively eliminating
+    the \"Shadow IT\" concern while simultaneously alleviating their burden to always
+    \"rob Peter to pay Paul\" with hard drives and CPUs.\n\n* Internal Security and
+    Internal Compliance both view HITRUST as the highest standard of security and
+    compliance in the industry. By partnering with Datica, all their concerns go away.\n\nThe
+    result is that people like David Deas who can get meaningful work done fast, are
+    making a genuine impact on the lives of patients while reducing clinical costs.\n\n##
+    Live presentation for those who can't make it at HIMSS\n\nIf you are not attending
+    HIMSS this year, or if you are unable to make the 11:00 am time slot on Tuesday,
+    March 6th, we are holding a 30-minute webinar later in March to expand on Travis'
+    presentation. Please join us if you can't visit us in person at HIMSS.\n\n[Visit
+    our webinar overview to register for the March 21st presentation at 12:00 pm CST.](https://content.datica.com/hitrust-on-aws-2018-03-21)\n\nWhile
+    you’re at HIMSS make sure to also visit the Datica booth, #5077. See you at HIMSS!\n\n\n"
+  :featured_image:
+    :id: 2Lo2RhplFSUYgYaaI62icw
+  :share_image:
+    :id: 1jCkELzupwW6ugkiqIqqie
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 5dGSCeOP8cICkwSiWYqgWk
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:49+00:00'
+    :created_at: '2018-02-28T19:20:13+00:00'
+    :id: 5dGSCeOP8cICkwSiWYqgWk
+  :title: The Good Guide to Surviving HIMSS 2018
+  :slug: good-guide-surviving-himss
+  :pub_date: !ruby/object:DateTime 2018-02-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'Travis Good, MD, Co-founder, CEO & Chief Privacy Officer of Datica and
+    9-time HIMSS attendee shares his advice to surviving and staying sane at HIMSS18. '
+  :blog_lead: |
+    HIMSS is my most exhausting week of the year. I think this is my 9th HIMSS. Today, with 40,000+ attendees, it’s a logistical nightmare from start to finish. Everything from transportation to coffee is a challenge. Events go late into the night, and I always seem to have an early coffee or breakfast meeting, so sleep isn’t plentiful. I’m not sure if I prefer Las Vegas to Orlando as the location for HIMSS. Both have pros and cons.
+
+    Below is my personal HIMSS survival guide. Hopefully, I can remember these things and keep my sanity next week.
+  :post: "\n## Be patient\n\nWhen you cram 40,000+ people into any location, even
+    a behemoth Las Vegas hotel and conference center like the Venetian, the trains
+    rarely run on time. Getting a car. Getting to a booth. Getting coffee. They all
+    take way longer than you would expect. It can rattle you if you’re used to things
+    running on a schedule. I’ll give HIMSS credit in that sessions usually do stick
+    to their assigned time slots. It’s everything else that gets off the rails. The
+    best advice is to relax and be patient. You’ll get that car or coffee eventually,
+    and there’s precious little you can do to make it any better. Embrace the chaos
+    and enjoy the spectacle of HIT’s annual Lollapalooza.\n\n## Get out of the Venetian\n\nIf
+    you don’t have to be at the Venetian for an event at a set place (including booth
+    time), go somewhere else. I’ve probably been to conferences at the Venetian 5-6
+    times, and it still confuses me how to get around. It’s vast so getting out is
+    a commitment and likely something you’ll want to do at the start (breakfast) or
+    end of the day. Getting out of the Venetian helps me to maintain my sanity and
+    remember there is a real world out there where every conversation you hear isn't
+    about Epic or [FHIR](https://datica.com/guide/fhir/) or population health. The
+    one caveat to this is if you’re dead set on mingling and trying to network in
+    the hopes that you hit it off with the anonymous person you meet at the Venetian
+    \n\n## Avoid the main entrances\n\nAs I wrote above, the Venetian is large, and
+    the bowels are confusing to navigate. If you can find a way to avoid the main
+    ways in or out, you’ll find shorter coffee and drink lines. The worst times for
+    the main arteries into the Venetian are, not surprisingly, around the conference
+    schedules. Attendees tend to follow schedules, especially for exhibit hall opening
+    times and keynotes. If you can, you’re better off going early or late to avoid
+    the rush.\n\n## Buffer your time\n\nI’d estimate less than 25% of my scheduled
+    HIMSS meetings, not sessions, start on time. The exhibit hall is massive, so people
+    always underestimate how long they need between meetings. The good part is, everybody
+    at HIMSS knows that HIMSS is challenging so most people expect a certain portion
+    of meetings to start late, get rescheduled, or to not start at all.\n\n## Bring
+    a battery backup\n\nThe bowels of the Venetian, deep in the exhibit hall and session
+    rooms, have spotty mobile coverage. Couple that with the hordes of people sharing
+    the mobile networks and your phone will eat a lot of battery establishing and
+    re-establishing connections. Wall outlets are popular to combat this. Having a
+    battery backup is super convenient if you want your phone to be on all day.\n\n##
+    Bring good shoes\n\nI usually average 15-20k steps a day at HIMSS. I don’t attend
+    many sessions, so I’m on my feet pretty much all day. Comfortable shoes help make
+    this a lot more pleasant.\n\n## Take notes\n\nI used to take notes religiously
+    when I wrote for [HIStalk](https://histalk2.com) because I’d write up daily summaries
+    of the conference each night. As an aside, the people at HIStalk deserve a ton
+    of credit for reporting on HIMSS; it’s a herculean task and makes me feel bad
+    about my HIMSS whining in this post. I still write notes today, and if you see
+    me next week, I’ll have my notebook with me. I take notes on people I meet and
+    market intelligence related to Datica. There’s a lot to see and take in at HIMSS,
+    too much for me to remember without notes.\n\n## Get some swag\n\nI usually try
+    to get things for my kids and my wife to reduce my guilt from being away. One
+    of my favorites was touchscreen gloves from [Imprivata](https://www.imprivata.com).
+    I also try to get as many stuffed fish as I can from [PilotFish](https://www.pilotfishtechnology.com),
+    though they’ve made it harder each year to get multiple fish. Every year there
+    is new and exciting stuff to be had in the HIMSS exhibit hall. Not objective,
+    but if you want the best swag in 2018, stop by the Datica booth (booth 5077) and
+    check out our [Yeti](https://www.yeti.com) cups.\n\n## Balance your caffeine intake\n\nHIMSS
+    is like [coffee-obsessed Seattle](https://visual.ly/community/infographic/food/coffee-culture-seattle)
+    to me in that I always feel over-caffeinated by late morning or early afternoon.
+    When this happens, especially if I’m not hydrating, I feel pretty crappy. My goal
+    this year is to limit my caffeine intake for 2-3 cups a day, which isn't too far
+    off from my normal caffeine schedule. The Datica booth is going to be stocked
+    with cold brew coffee for our team and those that stop by (booth 5077) so I’m
+    hopeful my willpower overcomes the ease of caffeine access next week.\n\n## Keep
+    smiling\n\nI have a lot of friends in HIT and enjoy running into people at HIMSS.
+    It’s the one event each year where I get a chance to bump into specific people.
+    As exhausting as the week is, it’s only really four days (M-Th) so smile and get
+    through it.\n\n\nI hope to see you at HIMSS! Look for me at the Datica booth,
+    #5077, or on Tuesday, March 6th at 11:00am in the Amazon Booth, #1625, for a talk
+    I'm giving about HITRUST on AWS. \n\n\n\n\n"
+  :featured_image:
+    :id: 54XNgOOdmUwGaAyuU4w8yG
+  :share_image:
+    :id: 2SyI7TRqEgwM2qoSecEQSa
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 3VMljZKhTquyQC46sao4mA
+  - :id: 3kabC1VofumgW6owKmIkqG
+  - :id: laQiWFJ2X6W0wUIiYYS0q
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

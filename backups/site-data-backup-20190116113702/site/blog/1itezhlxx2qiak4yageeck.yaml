@@ -1,0 +1,678 @@
+---
+:id: 1ITEzHLxx2QIaK4YagEecK
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-10-31T19:32:59+00:00'
+  :created_at: '2018-06-21T23:38:52+00:00'
+  :id: 1ITEzHLxx2QIaK4YagEecK
+:title: Kubernetes vs. PaaS
+:slug: kubernetes-vs-paas
+:pub_date: !ruby/object:DateTime 2018-06-21 00:00:00.000000000 Z
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+:categories_blog: healthcare
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:summary: If you're new to container orchestration and more familiar with a fully
+  managed platform-as-a-service (PaaS), Kubernetes can seem complex. Learn the differences
+  and tradeoffs.
+:blog_lead: Kubernetes® is dominating in 2018. If you're not already thinking about
+  Kubernetes or at least containerization, then you're behind. Fortunately, containers
+  and cloud native architectures have never been more accessible or easier to get
+  started with. From infrastructure providers like AWS and Azure offering their own
+  [versions of managed Kubernetes](https://sysdig.com/blog/ecs-fargate-eks-kubernetes-aws-compared/),
+  to organizations like Cloud Foundry offering [Kubernetes services](https://www.cloudfoundry.org/container-runtime/),
+  the world is shifting toward containers.
+:post: "\nIf you're working inside of a regulated industry, like healthcare or finance,
+  these tools may seem out of reach. The compliance requirements and security restrictions
+  of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
+  to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly why
+  [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+  Our customers are asking for it, it’s the future of managing workloads born in the
+  cloud, and Datica is already the most robust solution for compliance management
+  on the planet. \n\nIf you're new to container orchestration and more familiar with
+  a fully managed platform, like Heroku or Datica's legacy product, Kubernetes can
+  seem complex. The goal of this article is to compare Kubernetes with a traditional
+  PaaS, discuss the differences, and examine the tradeoffs.\n\n> Now that the world
+  has sufficiently been eaten by software, applications and tools have become ever
+  larger and more complex.\n\n## What is a PaaS?\n\nA Platform as a Service, or a
+  PaaS is intended to create a layer of abstraction on top of cloud service providers
+  (or in some cases data centers and bare metal) so the end user can focus on deploying,
+  managing, and scaling their applications and data. Without going into the [history
+  of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+  it's easy to think about it as a way of automating many of the repetitive, lower-level
+  tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
+  known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
+  and [Pivotal Cloud Foundry](https://pivotal.io/platform). These systems work when
+  developers make minimal configuration changes to their application's code and then
+  simply \"push\" their code to the cloud. The PaaS will then make an attempt to understand
+  the code, install the required dependencies, containerize the application, and then
+  serve it up. These providers then have a UI layer for managing resources, networking,
+  access, and more.\n\n## The benefits of a PaaS\n\nBeing able to directly push your
+  code to the cloud and have it running is a tremendous benefit over the old days
+  of standing up a server, installing an operating system (and then patching it each
+  time there's a vulnerability), getting nginx configured properly, and much more.
+  With a PaaS, developers can focus on delivering value via their product, not building
+  IT infrastructure.\n\nIn addition to being able to simply push your code and have
+  it running, many of these PaaS providers also couple database managed services as
+  part of their Platform.\n\n## The pitfalls of a PaaS\n\nThe ease of use for a PaaS
+  comes at the cost of flexibility. Want to install custom software on an instance?
+  Nope. Want to ssh into an instance to investigate an issue that isn't appearing
+  in the logs? Nope. Want to do anything beyond a simple Ruby, Python, or Node app?
+  Good luck.\n\nA PaaS serves a very specific purpose — to help small teams with simple
+  applications run those in the cloud without the DevOps overhead of managing a fleet
+  of instances on AWS or Azure.\n\nThe primary reason why so many PaaS providers have
+  failed to make substantial headway in the enterprise space is because the model
+  is so restrictive. For an organization managing hundreds of applications with petabytes
+  of data, it makes more sense to build out a team that can manage all of it instead
+  of making substantial changes to your business in order to fit a square peg into
+  a round hole.\n\n## Enter Kubernetes and containers\n\nNow that the world has sufficiently
+  been eaten by software, applications and tools have become ever larger and more
+  complex. A small organization that just three years ago could have survived on Heroku
+  is now growing at a pace that prohibits them from continuing to use a restrictive
+  PaaS. Maybe they're exploring machine learning or want a data warehouse. Whatever
+  the case, they've outgrown the PaaS model. Now they need to move to something more
+  flexible: Kubernetes.\n\nSince the invention of containers, and specifically with
+  the popularity of Docker, organizations have been figuring out easier ways to orchestrate
+  containers — that is, how to get them running, connected and served up in the cloud.
+  In a way, orchestration is the primary function of a PaaS. Because containers are
+  relatively trivial to build (and in most cases the build process can be automated,
+  ex: [Gitkube](https://gitkube.sh/)) the focus in the container space has been on
+  orchestration.\n\n## The benefits of containers\n\nThe benefits of containers over
+  virtual machines has been discussed to no end on the internet. I won't go into detail
+  here, but simply put — with containers, developers can port their applications from
+  machine to machine whether that's running it locally on a Mac, on a server in AWS
+  or on a droplet on Digital Ocean. A container is a container and it can run anywhere.
+  Compare this to the complexity of managing an entire fleet  VM, each with its own
+  OS. With containers there’s only one operating system to manage, even with hundreds
+  of containers.\n\n## Why Kubernetes\n\nKubernetes and containers have many of the
+  same benefits. They can both run anywhere and they both function the same whether
+  they're running on AWS, Azure, GCP, or in the locked closet down the hall. Kubernetes
+  is open source, financially backed by hundreds of organizations, and is managed
+  by the [Cloud Native Computing Foundation](https://www.cncf.io/). In addition to
+  being cross-cloud compatible and open source, Kubernetes has also shown tremendous
+  growth in the last year.\n\nIf you’re coming from a PaaS you’ll no doubt have concerns
+  around the ease of use and lack of automated DevOps support in Kubernetes. When
+  I first explored Kubernetes in late 2014 I walked away feeling like it was too complicated
+  and didn’t fit Datica’s customer use case. In 2018 it’s a different story.\n\nSince
+  Kubernetes officially hit 1.0 in 2015, the community and project have grown at a
+  tremendous pace. What really makes Kubernetes a viable option is not the core project
+  itself, but the community of tools and add-ons that surround it. Kubernetes isn’t
+  a PaaS, it’s a foundation on which to build a PaaS.\n\nThink of Kubernetes and the
+  cloud native community as a set of building blocks. With these building blocks you
+  can construct any number of different solutions. No longer are you held back or
+  restricted by PaaS providers. \n\n## Which to choose\n\nThe decision to choose Kubernetes
+  over a PaaS (or vice versa) is going to depend on your business, technology, market,
+  team, and several other factors. Having said that, even if you currently have a
+  simple application with a relatively smaller user base, you’re likely going to scale
+  and change rapidly. Preparing for the future by moving to containers now is going
+  to save you time and money when it becomes critical later on.\n"
+:featured_image:
+  :title: blog-kubernetes-paas-featured
+  :description: Kubernetes vs. PaaS featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/3r6k88ycnCQQScWqwmicEQ/e04d1a195e2362b8e6830d975fc96678/blog-kubernetes-paas-featured.jpg"
+  :_meta:
+    :updated_at: '2018-06-21T23:34:57+00:00'
+    :created_at: '2018-06-21T23:34:57+00:00'
+    :id: 3r6k88ycnCQQScWqwmicEQ
+:share_image:
+  :title: blog-kubernetes-paas-share
+  :description: Kubernetes vs. PaaS social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/3XcPzlSFHWkUQWUqyOisq0/1faf35b3f16d6c52e6fa5a934355587c/blog-kubernetes-paas-share.jpg"
+  :_meta:
+    :updated_at: '2018-06-21T23:35:31+00:00'
+    :created_at: '2018-06-21T23:35:31+00:00'
+    :id: 3XcPzlSFHWkUQWUqyOisq0
+:cta_ref:
+  :id: 6KOQ7XhaJqCI00oYacessy
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-14T18:18:47+00:00'
+    :created_at: '2017-08-16T22:18:25+00:00'
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :cta_title: Schedule your Datica CKS demo today
+  :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
+    GDPR, and GxP compliant on AWS and Azure.
+  :cta_label: Schedule a demo
+  :cta_url: https://datica.com/demo/
+  :cta_image:
+    :id: 4l2nKsTXwkc2kauya8W6SW
+  :cta_color: dark-alt
+:related_entries:
+- :id: 4kL9zNbTvyECOaqaykCCEg
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-06T22:38:02+00:00'
+    :created_at: '2017-06-30T01:16:30+00:00'
+    :id: 4kL9zNbTvyECOaqaykCCEg
+  :title: Saas, Paas, IaaS; What's the Difference?
+  :slug: saas-paas-iaas-whats-the-difference
+  :pub_date: !ruby/object:DateTime 2017-07-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'As healthcare increasingly turns to cloud infrastructure, you might want
+    to get to know the different service delivery models — SaaS, PaaS, and IaaS. '
+  :blog_lead: 'In a recent research report, Datica uncovered interesting trends in
+    digital health, including [healthcare cloud trends](https://datica.com/innovation/heart-of-medicine-report-spring-2017/).
+    One of the interesting trends we discovered was that, within healthcare, the definition
+    of cloud is no longer only scoped to SaaS any longer as it had been in the recent
+    past. In fact, healthcare companies are turning to cloud infrastructure services
+    to help manage costs and increasing complexities. '
+  :post: "> In 2017, [75% of hospital CIOs](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)
+    plan to use IaaS services within the next year — up from just 15.3% in 2014.\"
+    \n\nIn light of this trend, we thought it a good time to [once again](https://datica.com/blog/backend-as-a-service-or-platform-as-a-service-which-is-right-for-you/)
+    define the three *service delivery models* prevalent in healthcare companies today.\n\n##
+    Software-as-a-Service (SaaS) \nSaaS is a model for accessing an hosted application
+    developed by a vendor. Typically, access is through a web app, mobile app, or
+    an API. And it is is usually billed by user, API calls, or seats and billing is
+    subscription-based. \n\nSubscription-based models have implications for customers
+    because of the low capital expense to get started and implications for SaaS vendors
+    because of the security issues and cost considerations. The classic example of
+    SaaS is Salesforce CRM; Salesforce has moved into PaaS (Force.com) but it started
+    as SaaS and still generates the bulk of its revenue from SaaS. There are literally
+    tons of other SaaS vendors we all use daily — Box, Zendesk, MailChimp, Moz, Maketo,
+    and Hubspot are just a few. In terms of customer control, this is the most limited
+    delivery model of cloud computing.\n\n## Platform-as-a-Service (PaaS) \n\nPaaS
+    models allow you to deploy and scale your own application to cloud infrastructure
+    without managing servers and/or databases. You may have some control over the
+    infrastructure but it is limited. \n\nUsers of PaaS typically do not have access
+    to the underlying operating system or network devices. Developers can focus on
+    the application, written in a language of their choice, without worrying about
+    building and maintaining the server to run it. The example most developers would
+    think of is Heroku, which is part of Salesforce. There are others, like CloudFoundry
+    and newer offerings like dotCloud. There is also a super cool compliant PaaS just
+    for healthcare… yes, [Datica Platform](/platform/)\n\t\n## Infrastructure-as-a-Service
+    (IaaS)\n\nThis as the blank slate of cloud computing that has been the driving
+    disruptive force in computing over the last 15 years and is a huge [cloud focus
+    for hospital CIOs in 2017](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
+    As opposed to SaaS and PaaS, which build layers of abstraction to interact with
+    customers and keep them away from the OS, IaaS vendors provide customers with
+    access to operating system and sometimes network components. \n\nYou can think
+    of it as a hosted linux prompt. AWS and Rackspace are the prototypes for this.
+    This is usually the cheapest option. It’s a blank slate, and developers can customize
+    down to the OS level. With that control comes more responsibility and ultimately
+    more time spent on infrastructure. The decision that needs to be made [in assessing
+    IaaS](https://datica.com/blog/onramp-to-the-healthcare-cloud/) is whether time
+    and resources should be spent configuring servers and databases, or does it make
+    more sense to spend a little more money on infrastructure but have more resources
+    for your core product and differentiation. Or, in other words, should you choose
+    a PaaS offering or stay with IaaS? \n\nIf you plan on interacting with PHI in
+    any other way beyond simply storing it, you would be wise to consider a PaaS like
+    Datica. Our [Datica Platform](/platform/technology/) lets you move fast on the
+    world’s leading infrastructure providers, like AWS or Microsoft Azure, while keeping
+    the compliance folks happy."
+  :featured_image:
+    :id: 1Xe5ryy0kkQOsGiceckw0a
+  :share_image:
+    :id: 2KQxAp9UDmCOeW8ACU6yUK
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 3dV5xVOogMwaoAoQseeY4s
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-05-16T17:56:24+00:00'
+    :created_at: '2016-11-23T06:51:37+00:00'
+    :id: 3dV5xVOogMwaoAoQseeY4s
+  :title: What is cloud computing? (and why it matters for compliance)
+  :slug: what-is-cloud-computing-and-why-it-matters-for-compliance
+  :pub_date: !ruby/object:DateTime 2014-03-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: What are the essential characteristics of cloud computing? As we work
+    with cloud-based vendors and enterprises in healthcare, we're constantly fielding
+    questions related to cloud deployments and models. This is our attempt to summarize
+    what we've learned.
+  :blog_lead: 'Writing this [post](/blog/2014-predictions-growth-of-healthcare-clouds)
+    on 2014 trends around cloud computing in healthcare got us thinking more about
+    the definition of cloud computing and different options in cloud computing.
+
+'
+  :post: |-
+    As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned.
+
+    I think we all *know* what cloud computing is, or at least we have certain associations and benefits that come to mind for the term “cloud computing”. NIST has a formal definition of cloud computing. NIST breaks down cloud computing into 5 essential characteristics, 3 service models, and 4 deployment models.
+
+    The **Essential Characteristics** of cloud computing include:
+
+    1. **On-demand self-service.** Pretty straightforward. Users of cloud computing are able to provision computing resources (CPU cycles, storage, bandwidth etc) themselves. You can think of the AWS dashboard as the perfect example of this; if you’ve used AWS, you know exactly what I mean.
+    2. **Broad network access.** Cloud computing resources can be utilized by remote clients using standard mechanisms. I think most modern developers think of web apps and APIs for this.
+    3. **Resource pooling.** Computer resources are shared. Models like multi-tenancy and virtual machines are used to achieve this. The idea is that resources are dynamically shared, both up and down, between cloud deployed apps. This can present problems in the case of “noisy neighbor”, where your virtual neighbors are consuming and restricting access to resources. Hosting companies are pretty good at identifying and resolving these issues. But often not, which is why once companies begin to scale to larger volumes, dedicated instances become more interesting.
+    4. **Rapid elasticity.** This is extremely powerful as it enables apps to scale up cloud computing resources as needed, on demand, to support peaks and troughs of usage. Instead of having to build and support high powered services 24/7, those services and resources will scale as needed.
+    5. **Measured service.** Usage is metered, and cloud computing is typically billed on a per use basis. In the case of pure infrastructure, like AWS, you have little to no wasted money because you are only paying for what you consume. Consumption can include bandwidth, CPU cycles, storage, user accounts, API calls, etc.
+
+    Most of these you probably knew of intuitively but, for us, it’s helpful to lay them out. We find there is a lot of confusion, especially in healthcare, about what cloud computing is, who’s using it, and why it is appealing relative to other models of computing. Much of the confusion comes into play when people interchange the terms virtualized computing and cloud computing; virtualized computing is often used synonymously with private cloud. Virtualized hosted environments do not typically allow for self service or automated resource pooling, two of the *essential* characteristics form above.
+
+    The next categorization for cloud computing relates to the amount of control of the underlying resources. Which leads us to back to the NIST defined **Service Models**, which are laid out below:
+
+    1. **Software-as-a-Service (SaaS.** SaaS is a model for accessing an hosted application developed by a vendor. Typically access is through a web app, mobile app, or an API. And it is is usually billed by user, API calls, or seats and billing is subscription-based. Subscription-based models have implications for customers because of the low capital expense to get started and implications for SaaS vendors because of the high negative upfront cash flow outlay to grow (more on this in a later post). The classic example of SaaS is Salesforce CRM; Salesforce has moved into PaaS (Force.com) but it started as SaaS and still generates the bulk of its revenue from SaaS. If you’re a mobile developer you likely know Parse, Urban Airship, and Twilio. There are literally tons of other SaaS vendors, several of which we use at Datica - Box (just made the move from another SaaS - Dropbox), Zendesk, MailChimp, Intercom, Mailgun, Moz, and Close.io. This is the most limited, at least in terms of customer control, model of cloud computing.
+    2. **Platform-as-a-Service (PaaS).** PaaS models allow you to deploy and scale your own application to cloud infrastructure without managing servers and/or databases. You may have some control over the infrastructure but it is limited. Users of PaaS typically do not have access to the underlying operating system or network devices. Developers can focus on the application, written in a language of their choice, without worrying about building and maintainer the server to run it. The example most developers would think of is Heroku, which is part of Salesforce. There are others, like CloudFoundry and newer offerings like dotCloud. There is also a super cool compliant PaaS that recently launched that's called...yes, Datica!
+    3. **Infrastructure-as-a-Service (IaaS).** I think of this as the blank slate of cloud computing that has been the driving disruptive force in computing over the last 15 years. As opposed to SaaS and PaaS, which build layers of abstraction to interact with customers and keep them away from the OS, IaaS vendors provide customers with access to operating system and sometimes network components. You can think of it as a hosted linux prompt. AWS and Rackspace are the prototypes for this. This is usually the cheapest option. It's a blank slate, and developers can customize down to the OS level. With that control comes more responsibility and ultimately more time spent on infrastructure. The decision that needs to be made in assessing IaaS is whether time and resources should be spent configuring servers and databases, or does it make more sense to spend a little more money on infrastructure but have more resources for your core product and differentiation. Or in other words, should you choose a PaaS offering or stay with IaaS.
+
+    In addition to service models, which basically define the level of control customers have over infrastructure, there are also **Deployment Models**, listed below, which define the group to which cloud computing resources are shared.
+
+    1. **Private cloud.** Most often confused with virtualization, private cloud infrastructure is used exclusively by one entity, and can be on or off premise. This is the direction most larger enterprises will move to, including within healthcare. Datica maintains a compliant private cloud. The challenge with most current private cloud deployments is that they provide none of the capabilities that a public cloud (see below) provides such as auto-scaling, API based access to perform a host of tasks etc.
+    2. **Community cloud.** In this deployment, infrastructure is shared with a group, or community, of users. We think of this as a shared private cloud, and it’s usually a community that has something in common. With Datica, we have a HIPAA compliant private cloud in which we host our community of customers; the commonality in our community is that our customers are concerned about compliance, so we’ve painstakingly created a compliant environment with multiple private private networks. Customers get their own private networks within the Datica cloud.
+    3. **Public cloud.** This is the infrastructure that developers know best. In this deployment, the infrastructure is for public use. Pretty simple.
+    4. **Hybrid cloud.** This is where things get interesting. In this deployment, there is a mix of two different models from above. Hopefully using Datica will provide a good example use case. We have a private cloud - Datica manages and maintains the cloud computing resources and it’s exclusive to us. For our customers, we set up private networks within our private cloud, so our private cloud is actually a community cloud for our customers. Additionally, we’re beginning to explore using public cloud resources for certain, non-compliant things such as code sets. In non-compliant deployments, if more resources are needed, such as the case with spikes in usage and/traffic, private clouds will burst into public clouds to gain access to additional cloud computing resources. Key here is to ensure that "post burst", the additional capacity that was spun up, needs to be powered down else month end bills could be a bit surprising.
+
+    The reason we care about cloud computing, including the definition and characteristics of it, is that we firmly believe the benefits of cloud computing have not been realized in healthcare. And we believe much of that relates to a lack of understanding of what cloud computing is, and how cloud computing can be both compliant and secure. Current compliant offerings in healthcare, especially when you look at compliant cloud computing service models, sorely miss the needs of modern app app developers and the industry as a whole; we make the important distinction between PaaS and IaaS, and believe PaaS is the necessary approach to be compliant because of the myriad of compliance requirements beyond dedicated infrastructure. More to come on service models and compliance in a future post.
+  :featured_image:
+    :id: v8LjxQnv9IAGy2EAMowio
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 6hcZMUL5qoc0SyssOiUMCi
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:48:55+00:00'
+    :created_at: '2017-11-29T21:35:56+00:00'
+    :id: 6hcZMUL5qoc0SyssOiUMCi
+  :title: AWS Fargate and HIPAA Compliant Containers
+  :slug: aws-fargate-and-hipaa-compliant-containers
+  :pub_date: !ruby/object:DateTime 2017-11-29 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Day 3 of re:Invent kicked off with AWS CEO, Andy Jassy, announcing Fargate
+    among a slew of new AWS services. Can you tell we''re excited about Fargate?
+
+'
+  :blog_lead: The third day of AWS re:Invent was kicked off this morning with Andy
+    Jassy, CEO of Amazon Web Services, announcing a slew of [new AWS services](https://aws.amazon.com/new/reinvent/).
+    One such service that has us excited is Fargate.
+  :post: "As Randall Hunt put it in a [company blog post](https://aws.amazon.com/blogs/aws/aws-fargate/)
+    announcing the new service: \n\n> AWS Fargate is an easy way to deploy your containers
+    on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual
+    machine you get a container. It’s a technology that allows you to use containers
+    as a fundamental compute primitive without having to manage the underlying instances.\"\n\nWe've
+    seen an incredible increase in container adoption over the last couple of years.
+    Datica has been a huge proponent of containerization technology since our founding.
+    We use Docker in production on a daily basis to deliver HIPAA compliant environments
+    to thousands of users. We even built our own orchestration layer in 2014, one
+    year before [Kubernetes 1.0](https://cloudplatform.googleblog.com/2015/07/Kubernetes-V1-Released.html)
+    was released. To say we're bought into the concept of containers would be a massive
+    understatement.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\"
+    dir=\"ltr\">No longer any need to manage servers and clusters for your containers
+    - AWS Fargate - Run ECS and EKS without managing servers <a href=\"https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw\">#reInvent</a>
+    <a href=\"https://t.co/oPsXdvrSAL\">https://t.co/oPsXdvrSAL</a> <a href=\"https://t.co/lZnS558CXV\">pic.twitter.com/lZnS558CXV</a></p>&mdash;
+    AWS re:Invent (@AWSreInvent) <a href=\"https://twitter.com/AWSreInvent/status/935910336212844544?ref_src=twsrc%5Etfw\">November
+    29, 2017</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\"
+    charset=\"utf-8\"></script>\n\nIt's because of our long history of containerization
+    support that we're excited about AWS Fargate. However, that excitement isn't without
+    reservation. As is the case with most new technology, compliance and security
+    pose great barriers to adoption. We're deeply aware of these barriers at Datica.
+    [The Datica Platform](https://datica.com/platform/) was designed to address the
+    complexities of compliance and security specific to the healthcare industry. The
+    fact is, understanding compliance is difficult enough. That difficulty is exasperated
+    exponentially when it comes time to not only implement that understanding through
+    policy, but prove compliance beyond a reasonable doubt to auditors.\n\nOur primary
+    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    Because we [sign a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    with both AWS and our customers, we cannot guarantee full-stack compliance against
+    a service that is not scoped within the BAA that we sign with AWS. This means
+    our customers in the healthcare industry cannot take advantage of such a service.\n\nLuckily,
+    we've been working on a Docker-based deployment feature for the better part of
+    the last quarter. By working directly with our customers on improving our deployment
+    process, we're approaching a limited release of Datica BYOD (bring your own docker).
+    BYOD will give users the ability to deploy docker containers directly on the platform.
+    No longer will deployments be restricted to the `git push` model. In the future—once
+    it becomes HIPAA eligible—we plan to take complete advantage of AWS Fargate. Until
+    then, we're confident BYOD will provide an excellent deployment experience for
+    our customers.\n\nBYOD will be released into limited availability in December,
+    2017. We're selectively working with existing customers to test these new features.
+    If you're interested in participating, please reach out to me at [ryan@datica.com](mailto:ryan@datica.com),
+    and if you're at AWS re:Invent stop by booth #519 to chat with us about Fargate
+    and containerization!\n\n\n"
+  :featured_image:
+    :id: 1girbRNRDi0Kg6WmQWskUU
+  :share_image:
+    :id: DLgFmRN1BYimUEiemkGik
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 4QDw13xznycmAwm26KSgGU
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 3VMljZKhTquyQC46sao4mA
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 4RxNckwHOwm4KcSo6eS0km
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:43:46+00:00'
+    :created_at: '2018-03-06T19:44:13+00:00'
+    :id: 4RxNckwHOwm4KcSo6eS0km
+  :title: '2018 Healthcare Trends Part 5: The Real Cloud Comes to Healthcare'
+  :slug: 2018-trends-pt-5-real-cloud-comes-to-healthcare
+  :pub_date: !ruby/object:DateTime 2018-03-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The “real cloud” in healthcare is not virtualization. We are talking
+    about the public cloud and the public cloud providers Amazon, Microsoft, and Google. '
+  :blog_lead: |-
+    Information technology groups at healthcare organizations spend a [colossal chunk](https://www.beckershospitalreview.com/healthcare-information-technology/electronic-health-records-the-good-the-bad-and-the-ugly.html) of their time supporting and “optimizing” EHRs. And, with many of the largest EHR vendors, health system IT does it in-house using their own data centers. In addition to EHRs, hospital IT also has hundreds of smaller, often less essential technologies, that require care and feeding. Couple that with the needs to integrate applications and you quickly see why healthcare IT has such a huge backlog.
+
+    At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
+  :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
+    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
+    and the public cloud providers Amazon, Microsoft, and Google. The public cloud
+    is not Epic hosting in Verona, with a data center that is managed and operated
+    by Epic, or Cerner hosting in Kansas City, with a data center that is managed
+    and operated by Cerner; those are private clouds dedicated to a specific application
+    and purpose. The public cloud is different.\n\nThe public cloud is a powerful
+    public utility and a force that will transform healthcare, not just healthcare
+    IT. It is almost infinitely scalable with a growing laundry list of services and
+    features that can be activated and accessed on demand. And, with new security
+    features, it is now finally ready for prime time, meaning only that it is ready
+    for healthcare organizations to develop and implement cloud strategies. The public
+    cloud will enable many things for healthcare organizations.\n\n## The public cloud
+    will:\n\n1. Get healthcare organizations out of the data center and infrastructure
+    business, allowing focus on providing care, better services, and better products
+    (meds and devices)\n2. Massively improve disaster recovery, aiding in meeting
+    compliance requirements\n3. Accelerate innovation, enabling faster response and
+    adaptation to market changes\n4. Improve and ease access to health data both for
+    providers and patients\n5. Enhance visibility into security and compliance\n6.
+    Enable new partnerships and integrations.\n\nDespite the scale and challenges
+    of moving to the cloud, the cloud is coming to healthcare, and it’s coming faster
+    than most people think. Look no further than HIMSS 2018 and the newly enlarged
+    presence of major cloud providers Amazon Web Services (AWS), Google Cloud Platform
+    (GCP), and Microsoft Azure. Healthcare on the cloud is strategic for every cloud
+    provider. The challenge for these three behemoths is being in healthcare at the
+    right time. These cloud providers are at HIMSS in 2018 because now is the right
+    time, not because 2018 will be the year all healthcare organizations will move
+    all their technology to the cloud; but, 2018 and 2019 will be the years most healthcare
+    organizations start to implement a cloud strategy that will take years to execute.
+    Microsoft, Amazon, and Google can’t miss those opportunities.\n\nI was listening
+    to a [Software Engineering Daily](https://softwareengineeringdaily.com/2018/02/13/box-kubernetes-migration-with-sam-ghods/)
+    podcast last week featuring one of the founders of [Box](https://www.box.com/home).
+    The podcast focused on how Box has embraced the public cloud and why they have
+    chosen to leverage Kubernetes. It’s a fascinating listen. One of the takeaways
+    that map to the cloud trend in health IT is around how moving to the cloud is
+    never one and done, even if you only have one large, monolithic application (in
+    the case of the podcast, the one application was Box).\n\n## Hybrid cloud for
+    3-5 more years\n\nDuring the next 3-5 years, we’re going to see a hybrid approach
+    to the cloud for health IT where there is a mix of cloud applications and ground-based,
+    or on-premise applications. This necessitates a new integration strategy to ensure
+    secure and reliable connectivity between cloud and existing ground applications,
+    not just integration between legacy applications and new applications; ground
+    applications are typically legacy applications. This hybrid cloud strategy also
+    necessitates management of multiple forms of technology infrastructure, cloud,
+    and ground or on-premise.\n\n## Legacy applications either killed off or re-architected
+    for public cloud\n\nAs healthcare organizations implement and start to scale their
+    cloud strategies, more ground-based applications will move to the public cloud.
+    Some set of these legacy applications, likely the last to move to the cloud, will
+    be migrated as they are currently architected; that, or they’ll be sunsetted and
+    killed off before they are migrated. Many more of these legacy ground applications
+    will be re-architected as a part of the migration process. The reason to re-architect
+    legacy applications is to:\n\n1) fully take advantage of the cloud (auto-scaling,
+    auto-healing, redundancy, portability, etc.) and\n2) prevent lock-in with a specific
+    cloud provider. \n\nWhile AWS, Azure, and GCP offer great cloud services and resources,
+    healthcare organizations will want optionality and to avoid lock-in with cloud
+    providers APIs and the specific flavor of services (containers, serverless, etc.).
+    This re-architecture process will be a crucial part of the cloud strategy for
+    healthcare organizations.\n\n## Public cloud requires new skillsets\n\nThe public
+    cloud does require a unique skill set and should usher in a new paradigm (containers,
+    security, serverless, DBaaS, etc.) for healthcare technologies. Hiring resources
+    with the necessary skillsets are challenging to say the least. It’s challenging
+    if you’re in Seattle or Boston. It’s nearly impossible if you’re in a rural location
+    like many healthcare organizations. Access to the right skillsets to leverage
+    public cloud will improve over time but health systems should, and likely will,
+    leverage third parties that specialize in cloud computing; these third parties
+    have matured along with the public cloud.\n\n## Security and compliance — a big
+    challenge\n\nOne particularly outsized challenge associated with the cloud is
+    security and compliance. The cloud has distinct advantages over the current, on-premise
+    model but it also has the perceptive challenge of giving up the keys to the castle
+    to a cloud provider. This perceptive challenge can and will be overcome, but it
+    requires changes to the way healthcare organizations manage risk for their data
+    and how they align that risk with liability from cloud providers acting as stewards
+    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
+    third parties, both cloud providers for infrastructure and cloud specialists for
+    migration, security, and compliance, healthcare IT and healthcare compliance will
+    transform themselves. What those groups look like in a post-cloud world is hard
+    to say, but it’s clear they will have to change to embrace this brave new world.
+    This will not happen overnight.\n\nA lot of the above are impacts that will be
+    felt long-term and not necessarily in 2018. But, as healthcare organizations begin
+    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    some starting that journey at HIMSS this year, they need to consider all of this.
+    Cloud strategies should be all-encompassing but also should be revisited on some
+    regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
+    Invite you to also take a look at the first three trends we’ve already explored
+    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    And don’t forget to subscribe to the blog to the right to have the rest of the
+    trends we’ll explore delivered right to your inbox. \n\n\n"
+  :featured_image:
+    :id: 4MNhBVh0ZaKKWM2IsgIgWw
+  :share_image:
+    :id: 3WOYUfm0paQSCyaE4iYaUi
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

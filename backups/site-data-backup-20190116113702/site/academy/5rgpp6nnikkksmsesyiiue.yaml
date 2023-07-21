@@ -1,0 +1,671 @@
+---
+:id: 5rGPP6NnIkkkSmsEsyIiUe
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-06-07T22:59:38+00:00'
+  :created_at: '2017-01-16T17:41:30+00:00'
+  :id: 5rGPP6NnIkkkSmsEsyIiUe
+:title: HL7 205 - The HL7 MDM (Medical Document Management) Message
+:slug: hl7-205-the-hl7-mdm-medical-document-management-message
+:pub_date: !ruby/object:DateTime 2016-05-11 00:00:00.000000000 Z
+:author:
+  :id: 18lsmOuZ98QEuUS4gQWCAk
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-01-10T01:03:53+00:00'
+    :created_at: '2017-02-03T02:10:39+00:00'
+    :id: 18lsmOuZ98QEuUS4gQWCAk
+  :fullname: Rick Wattras
+  :slug: rick-wattras
+  :person_type: Datica Directors
+  :role: Healthcare Integration Engineer Team Lead
+  :profile_pic:
+    :id: 4xmJ1U6DBewscgS6sq6Y0a
+  :email: rick@datica.com
+  :bio_short: 'As Datica’s Healthcare Integrations Team Lead, Rick manages a team
+    of engineers that cultivate customer relationships and build the cloud-based integration
+    logic/infrastructure to allow healthcare organizations to share and store patient
+    and other encrypted data. '
+  :bio: 'With extensive knowledge of integrated healthcare standards (HL7, CDA, FHIR)
+    and workflows, Rick’s deep healthcare and IT experience began at Epic with an
+    almost three-year stint before moving over to Datica in 2015. Rick holds a BS
+    in Computer Engineering from Case Western Reserve. He is also an avid ice hockey
+    fan that keeps the team up-to-date on all the scores. '
+  :location:
+    :lat: 43.0592056
+    :lon: -89.4008958
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:summary: 'The Medical Document Management (MDM) message is a commonly used HL7 message
+  type that provides information about new or updated notes or documents. '
+:post: "The Medical Document Management (MDM) message is a commonly used HL7 message
+  type that provides information about new or updated notes or documents. Per the
+  HL7 standard, it's main purpose is \"to produce an accurate, legal, and legible
+  document that serves as a comprehensive account of healthcare services provided
+  to a patient\".\n\nThere are several MDM message trigger events and they can be
+  split into two categores - those that describe the status of the document and those
+  that both describe the document and also contain the document itself:\n\n| MDM Subtype
+  | Trigger Event/Description |\n|-------------|---------------------------|\n| T01
+  | Original Document Notification |\n| T02 | Original Document Notification with
+  Content |\n| T03 | Document Status Change Notification |\n| T04 | Document Status
+  Change Notification with Content |\n| T05 | Document Addendum Notification |\n|
+  T06 | Document Addendum Notification with Content |\n| T07 | Document Edit Notification
+  |\n| T08 | Document Edit Notification with Content |\n| T09 | Document Replacement
+  Notification |\n| T10 | Document Replacement Notification with Content | \n| T11
+  | Document Cancel Notification |\n\n\nFollowing the standard HL7 message structure,
+  an MDM message is made up of segments and groups of segments, each of which may
+  be required, optional, repeatable, or some combination thereof. A quick note on
+  reading HL7 message examples which seem to contain a bunch of [],{} etc. The general
+  rule is as follows:\n- No brackets around it - **Required**\n- [] - **Optional**\n-
+  { } - **Repeating**\n- [{ }] - **Optional Repeating**\n\nThe MDM message structure
+  is as follows.\n```\nMDM     Medical Document Management Message\nMSH     Message
+  Header\nPID     Patient Identification\n  [{NTE}]  Notes and Comments\nPV1   Patient
+  Visit\n{[\n  ORC    Common Order\n  OBR Observation Request\n    [NTE]  Notes and
+  Comments\n]}\nTXA Document Notification\n  [{NTE}] Notes and Comments\n{\n  OBX*
+  Observation notes\n    [{NTE}] Notes and Comments\n}\n```\n\nSome notes on the above
+  triggers and message structure:\n\n- The most common of the MDM subtypes is the
+  T02 because it notifies the receiving system that a new document has been created
+  and also includes the document content itself. One typical workflow will have a
+  vendor write notes back into the EMR via an MDM^T02 so that the notes are loaded
+  into a patient's chart and available for physician review.\n\n- The ORC/OBR segments
+  are optional and are mostly only used for workflows like order-based transcriptions,
+  where an order can be created or updated by the MDM message.\n\n- Note the asterisk
+  (*) next to the OBX segment. That's there to indicate that MDM messages will only
+  include repeating OBX segments if they include the document content itself. The
+  content is stored in the OBX segment(s) in a format dictated by the receiving system.
+  Some possible formats include: plain text, formatted text (ie. RTF), or base64-encoded
+  documents like PDFs. The document can be split across multiple OBX segments or stored
+  in one single OBX dependent on the preference of the receiving system or the character
+  limits of each segment. \n\nNow let's break down an example MDM HL7 message by each
+  segment. The message we want to send is: a note containing a consulting physician's
+  (James A. Matthews) clinical diagnosis has been created and should be attached to
+  a patient's chart. The patient is Mike J. Thomas: male, African American, MRN:12983718,
+  SSN:123-45-9999, born on January 1, 1970, account number: 18273652.\n\nBased on
+  this information, the required segments would be created as follows:\n\n**MSH -
+  Message Header**\nLet's assume an all Epic environment, i.e. the sending and receiving
+  systems are both Epic, and that the note is created on 2016/05/10 at 07:16:33. Also,
+  the version of HL7 being used is v2.3. This would result in a segment that looks
+  like this.\n\n```\nMSH|^~\\&|Epic|Epic|||20160510071633||MDM^T02|12345|D|2.3\n```\n\n**PID
+  - Patient Identification**\nHere we identify which patient this note is about. We
+  include the patient's identifier, full name, DOB, sex, race, address, phone number(s),
+  account number, SSN and place of birth. Some of these are optional as described
+  in the format specification:\n\n```\nPID|1||12983718^^^^EPI||Thomas^Mike^J^^MR.^||19500101|M||AfrAm|506
+  S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-9998|(608)123-5679||S||18273652|123-45-9999||||^^^WI^^\n```\n\n**PV1
+  - Patient Visit**\nThis usually contains information on the admission information,
+  attending, referring and consulting, admitting physician IDs and names and so on.
+  We'll just keep it simple and just have the consulting physician's info:\n\n```\nPV1|||^^^CARE
+  HEALTH SYSTEMS^^^^^||||||1173^MATTHEWS^JAMES^A^^^||||||||||||\n```\n\n**TXA - Document
+  Notification**\nThe TXA segment contains information about the transcribed document
+  including the report type, date/time, provider info, a unique document number assigned
+  by the sending system (ex: 12345), and a document status (ex: PA = Pre-Authenticated):\n\n```\nTXA||CN||20160510071633|1173^MATTHEWS^JAMES^A^^^|||||||^^12345|||||PA|\n```\n\n**OBX
+  - Observation**\nOBX segment(s) contain the document content itself. Here, we'll
+  split out document contents into multiple OBX segments for clarity though this isn't
+  a requirement. The receiving system should dictate their preference. In this example,
+  TX indicates the content will be in plain text:\n\n```\nOBX|1|TX|||Clinical summary:
+  Based on the information provided, the patient likely has viral sinusitis  commonly
+  called a head cold.\nOBX|2|TX|||Diagnosis: Viral Sinusitis\nOBX|3|TX|||Diagnosis
+  ICD: J01.90\nOBX|4|TX|||Prescription: benzonatate (Tessalon Perles) 100mg oral tablet
+  30 tablets, 5 days supply. Take one to two tablets by mouth three times a day as
+  needed. disp. 30. Refills: 0, Refill as needed: no, Allow substitutions: yes\n```\n\nNow,
+  putting them all together we get the full HL7 MDM message.\n\n```\nMSH|^~\\&|Epic|Epic|||20160510071633||MDM^T02|12345|D|2.3\nPID|1||12983718^^^^EPI||Thomas^Mike^J^^MR.^||19500101|M||AfrAm|506
+  S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-9998|(608)123-5679||S||18273652|123-45-9999||||^^^WI^^\nPV1|||^^^CARE
+  HEALTH SYSTEMS^^^^^||||||1173^MATTHEWS^JAMES^A^^^||||||||||||\nTXA||CN||20160510071633|1173^MATTHEWS^JAMES^A^^^|||||||^^12345|||||PA|\nOBX|1|TX|||Clinical
+  summary: Based on the information provided, the patient likely has viral sinusitis
+  \ commonly called a head cold.\nOBX|2|TX|||Diagnosis: Viral Sinusitis\nOBX|3|TX|||Diagnosis
+  ICD: J01.90\nOBX|4|TX|||Prescription: benzonatate (Tessalon Perles) 100mg oral tablet
+  30 tablets, 5 days supply. Take one to two tablets by mouth three times a day as
+  needed. disp. 30. Refills: 0, Refill as needed: no, Allow substitutions: yes\n```\n\nThat's
+  it! If it looks complicated, don't worry - Datica is here to help.\n\nIf you're
+  looking to integrate EHR data with your application without becoming an HL7 expert,
+  Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://catalyze.io/hl7/).\n\nAnd
+  don't forget to review the rest of our HL7 articles [here](https://datica.com/academy)
+  to learn more about other available HL7 message types and workflows.\n"
+:related_guide:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:related_entries:
+- :id: 4T8HPfQfS8gO8qGwS6GSmu
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-03T14:09:28+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 4T8HPfQfS8gO8qGwS6GSmu
+  :title: HL7 204 - The HL7 Scheduling messages, SIU and SRM
+  :slug: hl7-204-the-hl7-scheduling-messages-siu-and-srm
+  :pub_date: !ruby/object:DateTime 2016-05-04 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: 'The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling
+    messages with date and time, resources, services, location, and more appoint info. '
+  :post: "The SIU (Schedule Information Unsolicited) and SRM (Schedule Request Message)
+    messages contain information related to appointment scheduling. SRM messages are
+    used for requesting changes to a health system's schedule, such as a request for
+    a new appointment booking, appointment rescheduling, modification, cancellation,
+    etc. SIU messages are used to notify auxiliary applications of a change made to
+    the health system's schedule, such as a notification for the booking of a new
+    appointment, appointment rescheduling, modification, cancellation, etc. Scheduling
+    messages contain information about the appointment date and time, resources, services,
+    location, and any other pertinent information regarding the appointment. The purpose
+    or action prescribed by any scheduling message will depend entirely on the trigger
+    event (See the List of Trigger Events below). \n\nFollowing the standard HL7 message
+    structure, an SIU or SRM message is made up of segments and groups of segments,
+    each of which may be required, optional, repeatable, or some combination thereof.
+    A quick note on reading HL7 message examples which seem to contain a bunch of
+    [],{} etc. The general rule is as follows:\n\n- No brackets around it - Required\n-
+    [] - **Optional**\n- { } - **Repeating**\n- [{ }] - **Optional Repeating**\n\nBelow
+    are the message structures of both the SIU and the SRM:\n\n##SIU Message Structure\n```\nSIU
+    \    Schedule Information Unsolicited\n\nMSH     Message Header\nSCH     Schedule
+    Activity Information\n [{NTE}]     Notes and Comments (for Schedule Activity)\nPID
+    \    Patient Identification\n [PD1]     Patient Additional Demographics\n [ROL]
+    \    Role (for Patient)\n [PV1]     Patient Visit Information\n [PV2]     Patient
+    Visit Info Continued\n [{OBX}]     Notes and Comments (for Patient)\n [{DG1}]
+    \    Diagnosis (for Patient)\n{\n\tRGS     Resource Group Segment\n\t{\n\t\tAIS
+    \    Appointment Info. - Service\n\t\t [{NTE}]     Notes and Comments (for Service)\n\t}\n\t[{\n\t\tAIG
+    \    Appointment Info. - General Resource\n\t\t [{NTE}]     Notes and Comments
+    (for Resource)\n\t}]\n\t[{\n\t\tAIP     Appointment Info. - Personnel\n\t\t [{NTE}]
+    \    Notes and Comments (for Personnel)\n\t}]\n}\n```\n\n##The SRM Message Structure\n```\nSRM
+    \    Schedule Request Message\n\nMSH     Message Header\nARQ     Appointment Request
+    Information\n [{NTE}]     Notes and Comments (for Schedule Activity)\nPID     Patient
+    Identification\n [PD1]     Patient Additional Demographics\n [ROL]     Role (for
+    Patient)\n [PV1]     Patient Visit Information\n [PV2]     Patient Visit Info
+    Continued\n [{OBX}]     Notes and Comments (for Patient)\n [{DG1}]     Diagnosis
+    (for Patient)\n{\n\tRGS     Resource Group Segment\n\t{\n\t\tAIS     Appointment
+    Info. - Service\n\t\t [{NTE}]     Notes and Comments (for Service)\n\t}\n\t[{\n\t\tAIG
+    \    Appointment Info. - General Resource\n\t\t [{NTE}]     Notes and Comments
+    (for Resource)\n\t}]\n\t[{\n\t\tAIP     Appointment Info. - Personnel\n\t\t [{NTE}]
+    \    Notes and Comments (for Personnel)\n\t}]\n}\n```\n\nThere are a few things
+    to note about the message structures. As you may have already noticed, the structure
+    of the two message types are virtually identical. We'll discuss that more later.
+    For now, we will explore the shared features of both the SIU and SRM:\n\n- The
+    Resource Group segment (RGS) is always required, and may contain more than one
+    resource group. This segment acts as a header for the collection of resource segments
+    that follow it.\n\n- Within a Resource Group, the Appointment Service Information
+    (AIS) is the only required resource segment. This suggests that any new/requested
+    appointment must have a scheduled service attached to it.\n\n- Note the presence
+    of multiple (optional, repeatable) Diagnosis (DG1) segments. If repeated, the
+    first will be the primary diagnosis.\n\n- Note the presence of the OBX (Observation)
+    segment as an optional, repeatable segment. The use here is different from its
+    use in the ORU (Observational Report - Unsolicited) message. When used, it contains
+    notes and comments pertaining to the patient in much the same way an NTE segment
+    would, rather than information about observations and results. For instance, the
+    OBX segments may contain a Transcribed Report (TX) with patient information that
+    may be relevant to the appointment. \n\nAs mentioned before, the only apparent
+    difference between the structure of an SIU message and an SRM message is the second
+    segment. The SIU message contains an **SCH** segment whereas the SRM message contains
+    an **ARQ** segment. Even these two segments share most of the same fields. However,
+    there are some key differences, notably:\n\n- **Date/Time Range**\n\tIn the SIU
+    message, the SCH segment contains one field with all of the appointment timing/quantity
+    information in one place (SCH.11). In the SRM message, the ARQ segment has four
+    separate fields for appointment timing quantity. They consist of one required
+    field for the requested start date/time range (ARQ.11) and the optional fields
+    for appointment priority (ARQ.12), repeating interval (ARQ.13), and the interval
+    duration (ARQ.14).\n\n- **Audit Trail Contacts**\n\tThe SIU message can contain
+    the name, phone number, address, and location information for the person who \"placed\"
+    the appointment (SCH.12 - SCH.15), the person who \"filled\" the appointment (SCH.16
+    - SCH.19), and the person who \"entered\" the appointment (SCH.20 - SCH.22). As
+    an SRM message is sent only when an appointment has not yet been filled, the ARQ
+    segment only contains fields for the placer (ARQ.15 - ARQ.18) and enterer (ARQ.19
+    - ARQ.21) of the appointment.\n\t\n- **Filler Status Code**\n\tThe status of the
+    appointment is only present in SIU messages (SCH.25). This is, again, due to the
+    fact that a scheduling request must be filled before it can have any status other
+    than \"requested\".\n\nApart from the few differences between the SCH segment
+    and the ARQ segment, there is no structural difference between an SIU message
+    and an SRM message. However, the main difference between any two message types
+    comes not from the structure of the message, but from the action prescribed by
+    the different trigger events.\n\n### List of Trigger Events\n\nTrigger events
+    for SRM:\n\n| Segment ID | Description |\n|------------|-------------|\n| S01
+    | Request New Appointment Booking |\n| S02 | Request Appointment Rescheduling
+    |\n| S03 | Request Appointment Modification |\n| S04 | Request Appointment Cancellation
+    |\n\nTrigger Events for SIU:\n\n|Segment ID | Description |\n|-----------|-------------|\n|
+    S12 | Notification of New Appointment Booking |\n| S13 | Notification of Appointment
+    Rescheduling |\n| S14 | Notification of Appointment Modification |\n| S15 | Notification
+    of Appointment Cancellation |\n| S26 | Notification that Patient did not show
+    up for Scheduled Appointment |\n\n### Message Construction\n\nThe message I want
+    to send is: A female, Caucasian patient, Jane Fredericks, MRN:30745109, SSN:321-87-6543
+    born on May 1, 1973 and account number of 11396810 wants to schedule a new appointment
+    to have an X-Ray taken of her ankle. The appointment request is being placed by
+    Dr. James Matthews. The exact service to be performed is X-RAY ANKLE 3+ VW with
+    the associated CPT code of 73610. This is based upon a diagnosis of Broken Ankle.
+    Additional information that will need to be sent will include the appointment
+    date and time, duration, sending and receiving systems, the version of HL7 being
+    used etc. The request is approved and the hospital sends a notification for the
+    new appointment booking.\n\nBased on this information, the segments would be created
+    as follows:\n\n#### MSH - Message Header\nAssuming an all Epic environment i.e.
+    sending and receiving systems are all Epic and request is created at 2016/05/02
+    at 16:20:33. Version of HL7 being used is v2.3. Since this message is a notification
+    for a new appointment booking, the message type is SIU and the trigger event is
+    S12. This would result in a segment that looks like this.\n\n```\nMSH|^~\\&|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||\n```\n\n####
+    SCH\nThis contains all of the scheduling information - the placer and filler application's
+    appointment identifiers, duration, start time, the person who requested the appointment,
+    and the appointment status. To keep things simple, we'll only include the identifiers
+    and required information.\n\n```\nSCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED\n```\n\n####
+    PID - Patient Identification\nSince this message is a patient specific request,
+    it needs all the associated patient info to prevent any confusion. This would
+    include the patient's identifier, full name, DOB, sex, race, address, phone number(s),
+    account number, SSN and place of birth.\n\n```\nPID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421
+    N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^\n```\n\n####
+    PV1 - Patient Visit\nThis usually contains information on the admission information,
+    attending, referring and consulting, admitting physician IDs and names and so
+    on. I'll just keep it simple and just have the attending physician's info in the
+    sample giving us\n\n```\nPV1|||^^^CARE HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\n```\n\n####
+    DG1 - Diagnosis\nSome basic context needs to be provided so that the billing systems
+    can do their work so diagnosis information is also provided. So in ICD10 (I10),
+    ankle fracture is coded as S82.\n\n```\nDG1||I10|S82^ANKLE FRACTURE^I10|ANKLE
+    FRACTURE||\n```\n\n#### RGS - Resource Group\nThis is brief header for the group
+    of resource segments that follow it. Included is the number of the resource group,
+    the action prescribed (here it's \"add\", or 'A'), and the group ID. This group
+    ID may be used for modifying or rescheduling the resource group at a later date.\n\n```\nRGS|1|A|094\n```\n\n####
+    AIS - Appointment Info. - Service\nThis contains information related to the scheduled
+    service. In this case, it will be an X-Ray for the patient's ankle. Along with
+    the CPT code for the scheduled service, the segment also contains the time the
+    service is expected to start (may be different from the appointment start time)
+    and the length of time the service will be needed.\n\n```\nAIS|1||73610^X-RAY
+    ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||\n```\n\n#### AIP - Appointment
+    Info. - Personnel\nThis optional repeating segment identifies personnel needed
+    for the appointment that are not explicitly mentioned anywhere else in the message.
+    For the scheduled appointment, a radiologist (Allan Good) will be needed to perform
+    the X-Ray. Just like the AIS segment, this segment contains the time the radiologist
+    will be needed and for how long, which gives us\n\n```\nAIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||\n```\n\n###
+    Putting it all together\nTo assemble the SIU message, we string together the message
+    segments following the message structure outlined above:\n\n```\nMSH|^~\\&|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||\nSCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED\nPID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421
+    N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^\nPV1|||^^^CARE
+    HEALTH SYSTEMS^^^^^||||1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\nRGS|1|A|094\nAIS|1||73610^X-RAY ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||\nAIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||\n```\n\nIf
+    you're looking to integrate EHR data with your application without becoming an
+    HL7 expert, Datica can help. Learn more about Datica Managed Integration Services
+    for HL7 [here](https://catalyze.io/hl7/).\n\nLooking for further help on integrating
+    an SIU or SRM feed with an EHR? Check out this post: [SIU Integration Help](http://content.catalyze.io/siu-scheduling-integration-help)\n"
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: iUK3rg26hqUEIsiuAIQou
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: iUK3rg26hqUEIsiuAIQou
+  :title: HL7 203 - The HL7 ORM (Order Entry) message
+  :slug: hl7-203-the-hl7-orm-order-entry-message
+  :pub_date: !ruby/object:DateTime 2018-09-03 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: 'The Order Entry (ORM) message is a common HL7 message type. ORM messages
+    contain information about an order, most commonly radiology or lab orders. '
+  :lead: The Order Entry (ORM) message is one of the most commonly used HL7 message
+    type. ORM messages contain information about an order. This includes placing new
+    orders, canceling existing orders, discontinuation, holding, etc. Orders pertain
+    to either materials (e.g., 1 liter of 0.9% saline) or services (e.g., a blood
+    panel, etc.). Usually this is patient specific. The trigger event for this message
+    is any change to an order i.e. order is created, modified, cancelled, put on hold
+    and so on.
+  :post: "Before we jump into ORM messages, a quick review might be in order. As we've
+    discussed [before](/discover/ehr-integrations/), HL7 has many message types which
+    can be very daunting. It's not only that there are messages but also that there
+    are types of HL7 messages which are geared towards handling specific events. Admission,
+    Discharge, Transfer (ADT) messages are sent when patient's are admitted, discharged
+    or otherwise moved around the hospital. Scheduling (SIU) messages schedule and
+    update appointments in clinics. Order Entry (ORM) messages are sent when orders
+    are placed or edited and Order Result (ORU) messages are sent back with results
+    that correspond to the original ORM message. These are the most common HL7 message
+    types; most other workflows, like updating flowsheets or filing visit notes, use
+    some combination of segments from these message types to accomplish their goals.
+    Since we already covered the ADT message in detail [here](/academy/hl7-201-the-admission-discharge-transfer-adt-message/),
+    we thought we could move onto the Order Entry (ORM) message.\n\nAs mentioned earlier,
+    an order is a request for material or services, usually for a specific patient.
+    These could be anything ranging from medication orders, measuring of vitals, lab
+    tests, specific food / dietary orders, radiology films. These could also be generic
+    orders (not clinical or pertaining to patient) for materials required to keep
+    the hospital running i.e. linens from housekeeping, supplies from central supply
+    etc. If something needs to happen in a hospital or clinic, from printing a requisition
+    to e-prescribing, orders distribute pertinent data from system to system.\n\nORM
+    messages are most commonly used to send Radiology Orders and Lab Orders[1]. Following
+    the standard HL7 message structure, an ORM message is made up of segments and
+    groups of segments, each of which may be required, optional, repeatable, or some
+    combination thereof. A quick note on reading HL7 message examples which seem to
+    contain a bunch of [],{} etc. The general rule is as follows:\n- No brackets around
+    it - **Required**\n- `[]` - **Optional**\n- `{ }` - **Repeating**\n- `[{ }]` -
+    **Optional Repeating**\n\nThe ORM message structure is as follows.\n\n~~~javascript\nORM
+    \    General Order Message\nMSH     Message Header\n [{NTE}]    Notes and Comments
+    (for Header)\n[\n   PID     Patient Identification\n   [PD1]    Additional Patient
+    Identification\n      [{NTE}]  Notes and Comments (for Patient ID)\n   [PV1    Patient
+    Visit\n    [PV2|]   Patient Visit Additional Information\n    [{IN1   Insurance\n
+    \     [IN2]   Insurance Additional Info\n   [IN3]   Insurance Additional Info\n
+    \   }]\n    [GT1]   Guarantor\n    [{AL1}]   Allergy\n  ]\n]\n {\n   ORC    Common
+    Order\n  [\n   Order Detail Segment OBR, etc.\n       [{NTE}]  Notes and Comments
+    (for Detail)\n       [{DG1}]  Diagnosis\n       [\n        {\n         OBX   Observation/Result\n
+    \             [{NTE}] Notes and Comments (for Results)\n         }\n       ]\n
+    \ ]\n  {[CTI]}   Clinical Trial Identification\n [BLG]    Billing segment\n }\n~~~\n{:
+    .prettyprint .lang-js}\n\nA couple of interesting things to note before we work
+    through an example.\n\n- As mentioned earlier, the ORM message can be used to
+    send patient specific orders or just operational orders (like ordering sheets
+    etc.) which is why, the PID segment above is an optional segment. The segment
+    is only required in the case of new orders and only if the new order is related
+    to a particular patient. Only then will / should  the PID segment be included
+    in the message.\n- Note the presence of multiple (optional, repeatable) Diagnosis
+    (DG1) segments. If repeated, the first will be the primary diagnosis.\n- Note
+    the presence of the OBX (Observation) segment as an optional, repeatable segment.
+    The use here is different from its use in the ORU (Observational Report - Unsolicited)
+    message. When used, it carries clinical information that might be needed by the
+    receiving system to interpret the observation that will be made, rather than information
+    about observations and results. So if the consuming system is an Imaging system,
+    then the ID would be set to TCM and and additional context around the order would
+    be sent (for example, CPT code of order with the associated description- 73610^X-RAY
+    ANKLE 3+ VW). Similarly, other ID types allowed include GDT (narrative), Addendum
+    (ADT), Study Notes (TCM), Transcribed Reports (TX).\n\nWith that out of the way,
+    let's take a simple message and see how it gets translated into an HL7 ORM message.\n\nThe
+    message I want to send is: A male, African American patient, John Appleseed, MRN:20891312,
+    SSN:123-45-7890 born on December 1, 1966 and account number of 11480003 needs
+    to have X-Ray of his ankle done. The order is being place by Dr. James Matthews.
+    The exact procedure to be performed is X-RAY ANKLE 3+ VW with the associated CPT
+    code  of 73610. This is based upon a diagnosis of Broken Ankle. Additional information
+    that will need to be sent will include facility, sending and receiving systems,
+    the version of HL7 being used etc.\n\nBased on this information, the segments
+    would be created as follows:\n\n#### MSH - Message Header\nAssuming an all Epic
+    environment i.e. sending and receiving systems are all Epic and order is created
+    at 2014/04/18 at 17:33:14. Version of HL7 being used is v2.3. This would result
+    in a segment that looks like this.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PID - Patient Identification\nSince this message
+    is a patient specific order, it needs all the associated patient info to prevent
+    any confusion and ensure no billing comebacks. This would include the patients
+    identifier, full name, DOB, sex, race, address, phone number(s), account number,
+    SSN and place of birth. Some of these are optional as described in the format
+    specification.\n\n~~~shell\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\n~~~\n{: .prettyprint .lang-shell}\n\nI'll skip
+    the NTE segment and go the next key one.\n\n#### PD1 - Patient Additional demographics\nThis
+    essentially contains the name and ID of primary facility where care is being provided
+    and the name and ID of the provider placing the order resulting in\n\n~~~shell\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PV1 - Patient Visit\nThis usually contains information
+    on the admission information, attending, referring and consulting, admitting physician
+    IDs and names and so on. I'll just keep it simple and just have the attending
+    physician's info in the sample giving us\n\n~~~shell\nPV1|||^^^CARE HEALTH SYSTEMS^^^^^|||
+    |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### ORC - Common Order\nFinally, we get to the order
+    details. As mentioned before, since this is a patient specific order, it must
+    be a new order.  So, we need to specify that it is a new order (NW), the order
+    number of the originating (placer) system (987654 from EPIC), the order number
+    of the system filling this (for reference - 76543 from EPIC). Additional details
+    that need to be filled in include dates and times of transaction, who created
+    the order, who the ordering provider was, the location IDs (facility, department)
+    and callback information in case something needs to be clarified.\n\n~~~shell\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### Observation Request\nSince the order is being
+    sent to an imaging facility, additional details need to be specified such as the
+    CPT codes and so on. I won't detail this as much here. The key fields required
+    here are the order details (73610^X-RAY ANKLE 3+ VW), ordering provider info (1173^MATTHEWS^JAMES^A^^^)
+    and who the interpreter of the results is going to be (6064^MANSFIELD^JEREMY^^^^).\n~~~\n{:
+    .prettyprint .lang-shell}OBR|1|363463^EPC|1858^EPC|73610^X-RAY ANKLE 3+ VW^^^X-RAY
+    ANKLE \n||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### DG1:  - Diagnosis\nSome basic context needs
+    to be provide so that the billing systems can do their work so diagnosis information
+    is also provided. So in ICD10 (I10), ankle fracture is coded as S82.\n\n~~~shell\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nNow, we string
+    all these together and we get the full HL7 ORM message.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\nPV1|||^^^CARE
+    HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\nOBR|1|363463^EPC|1858^EPC|73610^X-RAY
+    ANKLE 3+ VW^^^X-RAY ANKLE ||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nIt's not pretty,
+    but it's the way healthcare orders are passed from system to system today, even
+    if it's an all EPIC facility. Thankfully there are services like Datica to help
+    you work with HL7 messages.\n\nIf you're looking to integrate EHR data with your
+    application without becoming an HL7 expert, Datica can help. Learn more about
+    Datica Managed Integration Services for HL7 [here](/discover/ehr-integrations/).\n\nLooking
+    for further help on integrating an ORM (Orders, Procedures) feed with an EHR?
+    Check out [ORM Integration Help](/guide/how-to-integrate-with-hospitals/)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

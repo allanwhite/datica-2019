@@ -1,0 +1,403 @@
+---
+:id: 6wHERSJEycWCyaOGMQeu44
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-20T22:09:35+00:00'
+  :created_at: '2016-11-23T06:51:35+00:00'
+  :id: 6wHERSJEycWCyaOGMQeu44
+:title: Who's really interpreting and enforcing HIPAA for startups?
+:slug: whos-really-interpreting-and-enforcing-hipaa-for-startups
+:pub_date: !ruby/object:DateTime 2014-08-30 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Breaches and fines have been big news recently because a malicious hacker,
+  or group of hackers, was able to gain access to health records.
+:blog_lead: |
+  We've covered HIPAA from almost all angles, including interpretation and [enforcement](https://datica.com/academy/the-who-and-how-of-hipaa-enforcement/). When most people think about enforcement and HIPAA, they think about [breaches](https://datica.com/academy/hipaa-and-data-breaches/), fines, and potential jail time. All of those areas of enforcement are officially carried out by the [Office of Civil Rights](http://www.hhs.gov/ocr/office/) (OCR), which is part of Health and Human Services (HHS). But that's not the practical side of enforcement for many of our customers.
+
+  > > You have to learn the rules of the game. And then you have to play better than anyone else. **- Albert Einstein**
+:post: |2+
+
+  Breaches and fines have been big news recently. Community Health Systems (CHS) has been in the news  lately because a malicious hacker, or group of hackers, was able to gain access to health records for 5.4 million people (CHS is a large system). The current [speculation](http://www.forbes.com/sites/danmunro/2014/08/18/cyber-attack-nets-4-5-million-records-from-large-hospital-system/) is that CHS could face fines up to $150 million levied by OCR. The cause of the CHS breach was a vulnerability in SSL discovered and made public over 4 months ago. CHS had not patched all of its servers. I assume CHS manages its own servers and likely has many, many applications; but, Heartbleed was a very public vulnerability and I'm surprised production systems were unpatched. At Datica we updated all of our systems the same day the vulnerability was discovered.
+
+  Looking at the CHS case, it should be OCR that is investigating the cause of the breach and determining the financial penalties. For [covered entities](https://training.datica.com/#covered-entities) (CE), OCR enforces HIPAA. That's because covered entities are the ones that ultimately own the [ePHI](/academy/what-is-protected-health-information-or-phi/); we've [written](/blog/inheritance-and-ownership-of-compliance-risk/) about data ownership and inheritance of compliance from covered entities to business associates. And OCR [anticipates](http://www.fiercehealthit.com/story/ocr-attorney-whopping-hipaa-fines-you-aint-seen-nothin-yet/2014-06-16) many more investigations and fines over the next 12 months. In addition to OCR, states are increasingly [cracking down](http://www.fiercehealthit.com/story/privacy-mac-mcmillan-hipaa-ocr-hhs-healthcare-himss/2014-08-22?page=full) on health data privacy and security, complicating compliance for both covered entities and business associates. For the purpose of this post, our focus is more on OCR than states.
+
+  While we have a few large CE customers like Blue Shield of California and the VA, the majority of our customers are business associates (BAs) and our customers customers are covered entities. Datica is a business associate or subcontractor, depending on our customers. [Business associates](/academy/hipaa-subcontractors-and-baas/) and subcontractors handle or process ePHI in some way for CEs or other BAs. While OCR investigates potential breaches of BAs, what you realize pretty quickly as a BA is that you have very little interactions with OCR and HHS in proving how you comply with HIPAA. As a BA, HIPAA is largely defined by covered entities that are your customers.
+
+  We often help our customers when they get to the compliance and security point of selling to a large CE (hospital or payer typically). Our team has a lot of experience selling and managing contracts with large CEs. We still do work directly with large CEs today, and have even signed BAAs directly with CEs that are customers of our customers; this provides additional protection for our customers and transfers more of the compliance burden onto Datica. In our experience, we've seen the CEs interpret HIPAA rules for BAs. CEs put this interpretation onto BAs through [spreadsheets](https://cloudsecurityalliance.org/research/ccm/), checklists, and long questionnaires on security, compliance, and privacy. It's interesting in that these security and privacy questions vary from CE to CE, though there is always some overlap (things like "When did you last test your disaster recover plan?" and "What form of encryption do you use for data at rest?").
+
+  In these questions CEs are interpreting HIPAA for BAs. Many of our customers are more interested in closing contracts with CEs than completing full HIPAA audits, so CE interpretation trumps OCR interpretation much of the time. And there are things that CEs ask that aren't required by HIPAA, like stating 'all business associates need to have hardware firewalls'; we've seen this with several customers, and is the reason we host on AWS, Azure, Rackspace, and IBM SoftLayer.
+
+  These CE security and compliance questions are typically part of the contracting process, or at the very least the implementation process. They can significantly slow the closing and sales process for BAs, especially smaller startups using modern, cloud-based technologies. At Datica, we offer both HIPAA compliant infrastructure and content (white papers, audit reports, policies, etc) that helps *our* customers show compliance to *their* customers. We also assist customers in completing these questionnaires and spreadsheets as well as joining phone calls with security and compliance officers for our customers.
+
+:cta_ref:
+  :id: O1KP7bmXwOqCu0C4AMwkO
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-14T22:20:25+00:00'
+    :created_at: '2017-05-21T20:33:38+00:00'
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :cta_title: Get the HIPAA Guide
+  :cta_desc: This comprehensive guide will walk you through important HIPAA compliance
+    definitions and concepts. You will emerge armed with a basic understanding to
+    HIPAA’s purpose and rules, your obligations, and ways to address compliance.
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/hipaa/
+  :cta_svg_icon:
+    :id: 6KJhSKH6MMmkMuguysWMgu
+  :cta_icon: "/public/icons/brand/icon-large-resource-compliance-blue.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 4VBvunljxmaIuyqmiuemA2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:57:19+00:00'
+    :created_at: '2016-11-23T21:57:55+00:00'
+    :id: 4VBvunljxmaIuyqmiuemA2
+  :title: How do you prove HIPAA compliance?
+  :slug: how-do-you-prove-hipaa-compliance
+  :pub_date: !ruby/object:DateTime 2015-03-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'Without a doubt, this is one of the most important questions healthcare
+    companies need to ask themselves and their partners: How to prove HIPAA compliance?'
+  :blog_lead: 'Without a doubt, this is one of the most important questions healthcare
+    companies need to ask themselves and their partners: _How to prove HIPAA compliance?_
+
+'
+  :post: |
+    Unlike other government regulations, it is not illegal for a company to slap a "HIPAA Compliant" tagline, which means we've seen an explosion in companies claiming some variance of compliance. The sneakiest marketing cons are the ones claiming to be ["HIPAA Ready"](https://datica.com/blog/beware-of-hipaa-ready-vendors/) — a deflection away from the fact that they aren't compliant, but could be. The murky messaging found in the marketplace would prompt anyone to stop and ask again: **How do you prove HIPAA compliance?**
+
+    We delved into this topic in the latest entry to our Academy library. Here I discuss the various ways a technology company can prove whether they are compliant or not. Spoiler: the cheap options are flimsy, while the good options are expensive and time consuming. There is no easy way, but there are better ways than others.
+
+    [Take a look at our new Academy entry, and over 20 other descriptive articles about HIPAA, HL7, and compliance.](https://datica.com/academy/proving-hipaa-compliance/)
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3UmybvA5440k0Ueay8MW6E
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:06:04+00:00'
+    :created_at: '2016-11-23T22:18:34+00:00'
+    :id: 3UmybvA5440k0Ueay8MW6E
+  :title: 'Assessment Series: HIPAA Compliance Assessment'
+  :slug: hipaa-compliance-assessment
+  :pub_date: !ruby/object:DateTime 2015-06-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The HIPAA Compliance Assessment was created to help meet the objectives
+    of HIPAA while also providing insights into possibilities for streamlining processes
+    and lowering costs.
+
+'
+  :blog_lead: 'HIPAA compliance is an ongoing challenge for healthcare enterprises,
+    so the HIPAA Compliance Assessment was created to help meet the objectives of
+    HIPAA while also providing insights into possibilities for streamlining processes
+    and lowering costs.
+
+'
+  :post: "With regulations that remain ongoing, convoluted, and potentially counter-intuitive,
+    achieving [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) at
+    federally required measures is becoming more difficult in healthcare. Enterprise
+    executive liability stipulates an ongoing effort for assessment to create a first-class
+    compliance strategy. In the most minimum context, HIPAA has created complexities
+    to the health insurance systemization that was already inundated with federal
+    mandates. For example:\n\n* All departments and serviceable groups that deal with
+    PHI will be observed with scrutiny for HIPAA compliance.\n* Policies in relation
+    to HIPAA compliance must be written and documented, but employees are required
+    to be trained on them whilst also having an expounded privacy officer accountable
+    for managing the enterprise's HIPAA compliance.\n* Noncompliance penalties have
+    not been fully systematized but risk of press coverage and detrimental consumer
+    perceptions cannot be overlooked. \n\nThe required HIPAA Compliance Assessment
+    is intentioned to be brief, concise, and extensive. A complete assessment will
+    include these measures:\n\n* Recognize state of readiness for all facets of HIPAA
+    - privacy, security, and transactional\n* Ascertain areas of preeminent risk\n*
+    Facilitate ongoing regulatory compliance\n* Offer insights into efficiency and
+    fiscally effective initiatives \n\nMiss the other two entries in the Assessment
+    Series? Check out the [HIPAA Risk Assessment](https://datica.com/blog/hipaa-risk-assessment/)
+    and the [HIPAA Security Assessment](https://datica.com/blog/hipaa-security-assessment/)
+    as well.\n\n"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3wwjLVr7UAm6iq04aOGqyw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-10T00:23:04+00:00'
+    :created_at: '2016-11-23T22:18:32+00:00'
+    :id: 3wwjLVr7UAm6iq04aOGqyw
+  :title: 5 HIPAA Topics to Address With Clinicians
+  :slug: 5-hipaa-topics-to-address-with-clinicians
+  :pub_date: !ruby/object:DateTime 2015-07-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'HIPAA regulations outline IT compliance in high-level detail but don''t
+    specify methods for true compliance — an obstacle for healthcare clinicians. '
+  :blog_lead: 'HIPAA regulations outline IT compliance in high-level detail but  does
+    not specify methods for true compliance. This lack of a guided approach can prove
+    to be an obstacle for healthcare clinician managers seeking concrete methods to
+    train personnel, especially in regards to technology.
+
+'
+  :post: |+
+    Fortunately, Datica is here to help you by making sure your training focuses solely on what clinicians need to know, which will save time and increase engagement. Here are the five key topics we suggest you focus on in your HIPAA training sessions:
+
+    ## 1) Remote Access to the Electronic Health Record (EHR)
+
+    With all of the documentation that clinicians deal with during the workdays, they could be accessing EHRs from their home to keep with their responsibilities. But if they are not properly trained on how to access these records, they could be setting your healthcare system up for a security breach. Here are a few tips:
+
+    - Enact a two-step authentication for allowing remote access
+    - Implement immediate sessions termination following a clinician signing in and being inactive for a predetermined amount of time.
+    - Inaugurate personal firewall software on all laptops and machine that store protected health information or connect to networks where protected health information may be stored.
+    - Place an embargo on clinicians from remotely accessing EHRs except in certain instances
+
+    ## 2) Mobile Device Controls and Security
+
+    Missing or stolen devices (laptops, tablets, and phones) account for the most HIPAA security breaches. If clinicians have protected health information on these devices, these devices must be encrypted, password protected, and have safeguards properly implemented. Consider having clinicians sign a mobile device security agreement to emphasize the importance of housing data on these devices.
+
+    ## 3) Pertinent EHR Access
+
+    Clinicians are not oblivious to the HIPAA Privacy rules and their responsibilities but part of that responsibility is that they only access patients’ information if they are directly involved in the care. Consistently stress the importance of this to ensure that staff members do not violate this rule and that they will be facing audits to ensure nothing goes askew.
+
+    ## 4) Email and Texting Guidance
+
+    Since email and texting are so convenient for clinicians, some may be sending protected health information through these channels without a second thought. Be sure to drive the message that sharing information through these channels should always be avoided. Be sure to provide HIPAA compliant communication tools in alternative to these, such as HIPAA compliant secure messaging through patient portals.
+
+    ## 5) Social Media Channel Guidance
+
+    In the modern day, most clinicians are somehow involved with at least one social media channel, such as LinkedIn, Facebook, or Twitter. Be sure to highlight that they should be keeping their social media pages private to avoid any requests from friends that are double as patients. Also be sure and address that clinicians need to ensure their blogging appropriately if applicable, and not as a source to provide health guidance to patients.
+
+    All in all, HIPAA compliance training should be very thorough but still direct with your clinicians. These are points to be treated as critical training areas for your organization. If you want a complete summary on HIPAA, check out our [HIPAA compliance resource page](https://datica.com/discover/hipaa-compliance/) written by our team of experts.
+
+  :cta_ref:
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

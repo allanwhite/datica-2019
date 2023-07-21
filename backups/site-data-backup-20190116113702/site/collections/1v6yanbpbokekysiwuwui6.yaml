@@ -1,0 +1,278 @@
+---
+:id: 1V6YanbPBOkeKYSIwuWUI6
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2018-08-28T17:53:36+00:00'
+  :created_at: '2018-08-28T17:53:36+00:00'
+  :id: 1V6YanbPBOkeKYSIwuWUI6
+:title: Datica Guides
+:slug: datica-guides
+:subhead: Authoritative Guides Written By Industry Experts
+:related_entries:
+- :id: v3Inn3xhHaskmq4ywwmkI
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-08-17T20:05:55+00:00'
+    :created_at: '2018-08-16T23:11:42+00:00'
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :title: HIPAA / HITRUST Self Assessment Guide
+  :slug: hipaa-hitrust-self-assessment-guide
+  :summary: 'This lightweight self-assessment worksheet illuminates the cloud requirements
+    of HIPAA that you need to plan for in your own digital health product. '
+  :subhead: Are you sure your product is HIPAA compliant?
+  :tags:
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 2gE9oPn2yUGEQEoGKEASUQ
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: This HIPAA worksheet is meant to illuminate the cloud requirements of HIPAA
+    that you need to plan for in your own digital health product.
+  :authors:
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :guide_text: "What does \"HIPAA Compliant\" really mean? Frequently it is just a
+    marketing label that some companies bestow upon themselves and not really an attestation
+    of compliance. That's risky.\n\nThis worksheet is meant to illuminate the cloud
+    requirements of HIPAA that you need to plan for in your own digital health product.
+    A more comprehensive risk assessment, such as the HITRUST CSF Self-Assessment,
+    is also necessary. Use this checklist to understand what compliance controls are
+    needed, and assess your compliant state at several cloud layers:\n\n- __The Physical
+    Layer__ \n- __The Operating System and Application Layers__ \n- __The Administrative
+    Layer__\n\nOnce you've completed this checklist you'll have a much better understanding
+    of what it will take to be HIPAA compliant in the cloud."
+  :related_form:
+    :id: 1Jp8dA5yw8ceCEuIy4csq6
+  :form_id: 25a134fd-6903-40bf-acfd-7f5c6b478e92
+  :icon: hipaa-hitrust-self-assessment-guide
+  :bg_image:
+    :id: 2ynfPi2vdaUWY6yAkGu4c2
+  :image_thumb:
+    :id: QFttAsn4qqmuw2oC628kI
+  :share_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 2niXNAQR924CwM0YcOeo0C
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-31T23:55:43+00:00'
+    :created_at: '2017-10-06T19:59:13+00:00'
+    :id: 2niXNAQR924CwM0YcOeo0C
+  :title: Total Cost of Ownership of Compliance in the Cloud
+  :slug: total-cost-of-ownership-of-cloud-compliance
+  :summary: In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica on how to measure and manage the total cost of ownership
+    to achieve compliance in the cloud.
+  :subhead: The new 2018 guide to the total cost of healthcare compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: Measure and manage the total cost of ownership of cloud compliance.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 2B98PdoITGQAYwcWk2muY4
+  :guide_text: "There’s much to know about both compliance and cloud management and
+    that knowledge requires a significant investment in time, education, personnel,
+    and money. This guide will help makers of digital health products make informed
+    decisions about whether to “build” cloud compliance themselves, or “buy” it in
+    the form of the Datica Compliant Kubernetes Service.\n\nThis TCO guide explains
+    the considerations of compliance and cloud management in healthcare and offers
+    a framework to understand the activities, resources, and cost estimates for each
+    of those considerations. These estimates are based on our extensive experience
+    working with multiple third-party auditors and multiple cloud infrastructure providers
+    (like AWS and Azure).\n\nWhat's inside:\n\n- Understanding compliance in the cloud
+    \n- Flying solo on AWS or Azure is primitive\n- The importance of proving compliance
+    with HITRUST \n- The total cost of ownership framework and estimates\n- TCO summary"
+  :related_form:
+    :id: 5CQGDgTQVU8uAeY4cAg28S
+  :form_id: 31f9bd13-23b1-4bbb-8ec0-fdfaf0552494
+  :bg_image:
+    :id: 19G8ntoDREkcgMwA6mKQme
+  :image_thumb:
+    :id: 2yyrhvg12wySaoSgyQ6C6G
+  :share_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:40+00:00'
+    :created_at: '2018-04-03T19:32:22+00:00'
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :title: GDPR Compliance Guide
+  :slug: gdpr-compliance
+  :summary: This guide to GDPR for the healthcare industry will prepare you to do
+    business in the EU and understand how to handle PHI of EU citizens. With Datica,
+    you’ll be ready when GDPR takes effect on May 25, 2018.
+  :subhead: GDPR Compliance in Healthcare
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :desc: This guide to GDPR for the healthcare industry will prepare you to do business
+    in the EU and understand how to handle PHI of EU citizens. With Datica, you’ll
+    be ready when GDPR takes effect on May 25, 2018.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: rVZcG8ORWKg8o4EIuqQ8a
+  :guide_text: |-
+    This guide will help you understand the General Data Protection Regulation, the much anticipated new European Union (EU) security and privacy framework that goes into effect on May 25th, 2018. If you do anything with EU citizen healthcare data, then you are at risk of significant penalties for violations. We'll help you understand GDPR and more of the following:
+
+    * What is the GDPR?
+    * How does GDPR compare to HIPAA?
+    * Does the GDPR apply to cloud service providers?
+    * What is a GDPR data breach?
+    * GDPR Data Breach Notification Checklist
+    * How much are the GDPR Fines and Penalties?
+    * What if you transfer data outside of the EU?
+    * Is Datica GDPR Compliant?
+  :related_form:
+    :id: 3ZVjq51LUka6K66WSeaag4
+  :form_id: get-your-gdpr-guide
+  :bg_image:
+    :id: 5W3IHiE20o2u0awEYO6Yu6
+  :image_thumb:
+    :id: 1YdgcwP4nW4CoW6yOQ4Ami
+  :share_image:
+    :id: 5eJe16wpUc4uGsSOiOQGKQ
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+- :id: QKaSmqZ3OuUG628eeqKOa
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:40+00:00'
+    :created_at: '2017-02-27T22:00:23+00:00'
+    :id: QKaSmqZ3OuUG628eeqKOa
+  :title: What Health Systems Can Gain From FHIR Adoption
+  :slug: fhir-for-health-systems
+  :list_view_hidden: true
+  :summary: A guide to open data models—the fuel for transformation.
+  :subhead: A guide to open data models—the fuel for transformation.
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :desc: In this guide, we’ll review what FHIR enables in health systems, not from
+    a technology perspective, but from an operational improvement perspective.
+  :authors:
+  - :id: 7aMAu7W6K4M8S0eCuIyCCM
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: "In a recent blog post on the [Rise and the Fall of the EHR](/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/),
+    Datica co-founder Travis Good, MD mentioned how EHR vendors are promoting FHIR
+    as a way to allow open access to EHR data. In this guide, we’ll review what FHIR
+    enables in health systems, not from a technology perspective, but from an operational
+    improvement perspective.\n\nAt Datica, we often focus on the problem that we solve
+    to stay true to our focus and identity when making strategic decisions. Many of
+    our employees have decades of experience in enterprise EHR implementations and
+    they often say that in their EHR implementation days no one asked them, “What
+    problem do you solve?” If you were to ask an EHR vendor this question a number
+    of years ago, they might say they digitize paper health records to improve accessibility
+    of information. EHRs have met their goal and the patients’ healthcare data is
+    centrally stored and can be viewed across disciplines in an organization.\n\nToday,
+    we realize that those EHR implementations were laying the information technology
+    groundwork that would become the fabric of a healthcare transformation movement.
+    As Good wrote in his post, the EHR and data consolidation are just the first steps
+    in organizational\ntransformation. \n\nThe Datica guide to __FHIR for Health Systems__
+    will help explain the best way to adopt open data models to fuel transformation.
+    Included in the guide:\n\n- Healthcare’s Focus is on Transformation\n- Open Data
+    Models – A Path Forward for Modern Integration\n- Respond with Agility\n- Be Flexible
+    in Vendor Choice\n- Foster a Culture of Innovation\n- Give up Some of Your Legos"
+  :related_form:
+    :id: 66LPjqRIZymM2e2WoquiAW
+  :form_id: 8a85feba-ffec-4101-ac55-f07b26baf531
+  :bg_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 5KKD6XVLC8YuCq4eOoKEoO
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-01T21:41:01+00:00'
+    :id: 5KKD6XVLC8YuCq4eOoKEoO
+  :title: Hospitals and Health Systems Integration Guide
+  :slug: how-to-integrate-with-hospitals
+  :summary: This guide is designed to be an educational piece for those just getting
+    started with healthcare integration. It outlines the typical path, the technology
+    required, and the players involved. It also includes a free project plan in the
+    form of a downloadable spreadsheet.
+  :subhead: The definitive integration guide written by industry experts
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :featured_image:
+    :id: 2zqo1GLqz6uAOgSCMe4aoc
+  :desc: 'Integration is a journey, not an API or easily solved by consultants. It
+    is a multi-step process laden with missteps and misinformation. It''s also confusing,
+    so you might be asking yourself: How do I integrate with a hospital or health
+    system?'
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  :guide_text: |-
+    This guide is designed to be an educational piece for those just getting started with healthcare integration. It outlines the typical path, the technology required, and the players involved. It also includes a free project plan in the form of a downloadable spreadsheet.
+
+    To learn more about how to integrate with hospitals and health systems, be sure to check out our [Academy](/academy). The Datica guide to hospital and health system integration will explain the typical process of an integration. Included in the guide:
+
+    * What is healthcare integration?
+    * Why does healthcare integration matter?
+    * What is the integration plan?
+    * Free Project Plan download link
+    * What do industry experts say?
+    * What are today’s integration challenges?
+    * What is the solution to healthcare integration?
+  :related_form:
+    :id: 4FWInrkQsU0KOcKMYs2ae8
+  :form_id: b1fca551-5ec2-4174-8b27-bc288be1e338
+  :bg_image:
+    :id: 4pVFUNtinCe0o6wI0Gaaus
+  :image_thumb:
+    :id: 2zqo1GLqz6uAOgSCMe4aoc
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:icon_slug: datica-guides

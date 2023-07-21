@@ -1,0 +1,144 @@
+---
+:id: 5OtjGM3nziIciaGUYYuIug
+:_meta:
+  :content_type_id: podcastEntry
+  :updated_at: '2017-05-09T21:44:27+00:00'
+  :created_at: '2017-05-09T21:44:27+00:00'
+  :id: 5OtjGM3nziIciaGUYYuIug
+:title: Joshua Mandel, MD — FHIR and barriers to widespread adoption of Clinical Decision
+  Support
+:slug: joshua-mandel-md
+:pub_date: !ruby/object:DateTime 2017-05-09 00:00:00.000000000 Z
+:tags:
+- :id: 4WpqU1En6MsqmCEWweeCmO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:23:44+00:00'
+    :created_at: '2016-09-29T19:23:44+00:00'
+    :id: 4WpqU1En6MsqmCEWweeCmO
+  :tag_full: FHIR
+  :slug: fhir
+  :description: FHIR is the latest standard to be developed under the HL7 organization.
+    Pronounced 'Fire' , FHIR stands for Fast Healthcare Interoperability Resources.
+    I think it's the most interesting standard to have come out of HL7 since the original
+    HL7 protocol.
+  :url: https://www.hl7.org/fhir/
+- :id: 1bZjdJN72GiIWI4CeEQgmo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-27T22:20:31+00:00'
+    :created_at: '2017-01-27T22:20:31+00:00'
+    :id: 1bZjdJN72GiIWI4CeEQgmo
+  :tag_full: Workflows
+  :slug: workflows
+  :description: Regarding healthcare information workflows with systems like EHRs.
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:guest:
+  :id: 3SEepG1Fq0eEiCYcOgAWq4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-05-09T19:03:05+00:00'
+    :created_at: '2017-05-09T19:03:05+00:00'
+    :id: 3SEepG1Fq0eEiCYcOgAWq4
+  :fullname: Josh Mandel, MD
+  :slug: josh-mandel
+  :person_type: Guest
+  :role: Health IT Ecosystem Lead at Verily (Google Life Sciences)
+  :profile_pic:
+    :id: 3qZXofsdr2wq6kqWskkcC4
+  :bio_short: Josh is a physician and software developer working to fuel an ecosystem
+    of health apps with access to clinical data. After earning an S.B. in computer
+    science and electrical engineering from the Massachusetts Institute of Technology
+    and an M.D. from the Tufts University School of Medicine, he joined the faculty
+    of the Boston Children's Hospital Informatics Program and Harvard Medical School,
+    where he serves as lead architect for [SMART Platforms](http://smartplatforms.org/).
+    Josh also serves as the community lead for the national Blue Button REST API.
+    He has a special interest in tools and interfaces that support software developers
+    who are new to the health domain.
+  :profile_twitter: joshcmandel
+  :profile_linkedin: joshua-mandel-88347235
+  :location:
+    :lat: 42.3600825
+    :lon: -71.05888010000001
+:soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321783446&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+:summary: Our guest in this episode is Joshua Mandel, MD, who is both a physician
+  and software developer. With Mark Olshchesky as host, Dr. Mandel dives into SMART
+  on FHIR and the widespread adoption of Clinical Decision Support. Dr. Mandel shares
+  his experience as a technical architect for the [SMART project](http://smartplatforms.org/)
+  organized by Harvard Medical School and Boston Children’s Hospital, as well as specific
+  projects that are making a difference to clinicians and healthcare.
+:key_takeaways: "\n1. Learn how SMART on FHIR enables clinical decision support (CDS)
+  tools\n2. Discover action steps to support CDS advancement \n3. Hear how clinicians
+  can leverage good technology without pain points\n4. Identify new technologies advancing
+  CDS workflows"
+:post: "### Dr. Mandel responds:\n\n**On defining SMART:** \"SMART is an acronym that
+  stands for Substitutable Medical Applications and Reusable Technology. This idea
+  of substitutability was the key focus. The idea, whether it was a patient or a clinician
+  should be able to pick the apps that they want to use and interact with healthcare
+  data using those apps.\" \n\n**On helping developers build SMART-enabled apps:**
+  \"At [docs.SMARTHealth.org](http://docs.smarthealth.org), we describe how to get
+  started building  a browser-based app. You could even take a set of sample code
+  that runs right in the browser, tweak it, write some new FHIR queries and get started
+  writing code without having to download or installing packages locally.\"\n\n**On
+  the benefits of SMART on FHIR:** \"SMART provides a way to embed these apps directly
+  inside either an EHR or a patient portal, so that when you are in the middle of
+  a clinical workflow, you can pick and choose the tools that you want to use, without
+  having to sign into another system.\"\n\n**On alerts for clinical workflows:** \"Alerts
+  are often incorporated into an EHR as a way to enforce a policy but not necessarily
+  a way of enhancing a clinical workflow or clinical decisions. So, I think that alerts,
+  in general, have a bad rap for good reasons.\"\n\n**On the pushing standards forward:**
+  \"The best kind of arrangement that we have to push these standards forward is what
+  I call a triad, where there is a hospital system that is interested in adopting
+  a CDS product in the context of their EHR. If we can get all three of those together,
+  that is by far the best way for us to develop a new feature in a specification like
+  CDS Hooks.\" \n\n**On preparation for CDS:** \"Make an early investment in FHIR
+  and make sure that basic data types like medications, allergies and lab tests are
+  available through a FHIR interface.\" \n\n**On CDS and what it _really_ means:**
+  \"Clinical decision support is a bit of a jargon-y term. What we really mean is
+  third-party services, such as helpful contextual information, for clinicians while
+  they are going through their daily workflow.\" "

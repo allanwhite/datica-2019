@@ -1,0 +1,16 @@
+---
+:id: 2GVMxTQ8KQa6mAwCCksy64
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:29+00:00'
+  :created_at: '2018-02-08T22:21:29+00:00'
+  :id: 2GVMxTQ8KQa6mAwCCksy64
+:title: Buildpacks
+:slug: buildpacks
+:category: Services
+:summary: Deploying is as simple as `git push datica master`
+:desc: We don’t expect every user and developer on the Platform to build their own
+  Docker images. That’s why we’re dedicated to continuing support for our buildpack
+  functionality. This allows users to simply run `git push` and the Platform takes
+  care of the rest of the work for you. Support for all official buildpacks are standard
+  on the Platform, while custom buildpacks are also possible and encouraged if necessary.

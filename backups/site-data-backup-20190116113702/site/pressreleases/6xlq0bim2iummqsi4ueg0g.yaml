@@ -1,0 +1,104 @@
+---
+:id: 6XLQ0bim2IUmmqsI4uEG0G
+:_meta:
+  :content_type_id: pressReleases
+  :updated_at: '2018-07-02T17:04:07+00:00'
+  :created_at: '2018-07-02T17:04:07+00:00'
+  :id: 6XLQ0bim2IUmmqsI4uEG0G
+:title: Datica Joins the Cloud Native Computing Foundation
+:slug: datica-joins-the-cloud-native-computing-foundation
+:pub_date: !ruby/object:DateTime 2018-07-02 00:00:00.000000000 Z
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'Datica announced today that they have joined the Cloud Native Computing
+  Foundation (CNCF) as a silver member. Datica has always been a huge proponent of
+  the open source community, with more than 500 stars on the company’s open source
+  policies, and joining the CNCF demonstrates its commitment to contributing to the
+  Kubernetes® ecosystem. '
+:post: "\nMadison, WI, and Seattle, WA \n\nDatica™ announced today that they have
+  joined the Cloud Native Computing Foundation (CNCF) as a silver member. Datica has
+  always been a huge proponent of the open source community, with more than 500 stars
+  on the company’s open source policies, and joining the CNCF demonstrates its commitment
+  to contributing to the Kubernetes® ecosystem. \n\nDatica recently [migrated it’s
+  security and compliance platform to Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/),
+  a CNCF project, to offer a complete cloud-native solution for regulated industries
+  such as healthcare.  Datica enables organizations to manage the compliant state
+  of their entire enterprises in one actionable view — across multiple clouds and
+  within multiple industries.  In addition to being cross-cloud compatible and open
+  source, the CNCF Kubernetes community and project have grown at a tremendous pace.
+  In fact, the [CNCF announced Datica as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
+  this week, bringing the membership level to 236 companies. What really makes Kubernetes
+  a viable option is not the core project itself, but the community of tools and add-ons
+  that surround it.\n\n“The intent of open source is to provide community-vetted projects
+  for the benefit of others, who then freely build upon them to solve other complex
+  and pressing problems,” explains Travis Good, MD, CEO and chief privacy officer.
+  “Datica is a big believer of the value and spirit of open source and, with our open
+  source policies, has already taken the concept beyond bits and bytes to words and
+  legalese that can often bog down a digital health enterprise hoping to bring swift
+  change to the marketplace.” Good continues, “We’re extending that commitment to
+  the open source community by joining the CNCF to collaborate with other Kubernetes
+  developers who are trying to build secure and compliant products.”\n\n“We’re thrilled
+  to have Datica as one of our newest silver members,” says Dan Kohn, executive director
+  of the [CNCF](http://www.cncf.io/). “Other members of the cloud native ecosystem
+  who are also developing products for highly-regulated industries such as healthcare
+  will benefit from resources and contributions from Datica.”  \n\n### About Datica\n\nDatica
+  helps highly regulated industries manage sensitive information in the cloud. The
+  Datica Platform complies with HIPAA, HITRUST, GDPR, GxP and more by providing a
+  secure, compliant Kubernetes managed service that integrates with additional cloud
+  services. Datica’s customers include mid-to-late stage startups to Fortune 100 companies.
+  For more information, visit [Datica.com](https://datica.com).\n"

@@ -1,0 +1,180 @@
+---
+:id: 2QyVPoH66sq6qI8oKQwOWC
+:_meta:
+  :content_type_id: reports
+  :updated_at: '2018-09-17T20:08:53+00:00'
+  :created_at: '2018-09-11T23:21:57+00:00'
+  :id: 2QyVPoH66sq6qI8oKQwOWC
+:title: 'Complete Cloud Compliance: Chapter 2 - What really is compliance? '
+:slug: complete-cloud-compliance-chapter-2
+:pub_date: !ruby/object:DateTime 2018-09-11 00:00:00.000000000 Z
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:summary: 'Datica CEO Travis Good MD and CMO Kris Gosser wrote a book: Complete Cloud
+  Compliance. Sign up to get chapter 2 now and be notified when the book is printed
+  and available.'
+:subhead: The Definitive Book on Cloud Compliance
+:lead: 'Complete Cloud Compliance is a program developed after years of managing high-stakes
+  compliance requirements across mission critical healthcare workloads. It is a chance
+  to control destiny. The program is written for healthcare organizations, but all
+  while under the principle that best practices are best practices, meaning the insights
+  shared can be applied across global regimes and any industry.
+
+'
+:desc: |
+  ## 9 big ideas in the book
+
+  1. When controlled, compliance is actually a competitive edge.
+  2. The cloud is no longer other people's computers. It is managed services.
+  3. As cloud services get more abstract to improve developer experience (a good thing), more control is being taken away from the user making compliance attestation harder (a bad thing).
+  4. Compliance is only as strong as the weakest link in the abstraction chain.
+  5. Frameworks are the best way to manage regulations. The best frameworks are built for a dynamic future, not a dated past.
+  6. Complete cloud compliance is hard because technologists struggle to understand compliance while compliance officers struggle to understand the cloud.
+  7. The cloud is global, so compliance is now global.
+  8. Cloud compliance comes down to data management. The three verbs of data are store, compute, and transmit.
+  9. Data sources are splintering instead of unifying, making compliance more complex.
+
+  __Register to get an excerpt of the book,__ chapter 2: _"What_ really _is compliance?"_ You'll also be notified when the printed book is available.
+:authors:
+- :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:form_id: complete-cloud-compliance-chapter-2-what-really-is-compliance
+:icon: complete-cloud-compliance-chapter-2-what-really-is-compliance
+:bg_image:
+  :title: blog-book-announcement-featured
+  :description: 'Blog: We wrote a book featured image'
+  :url: "//images.ctfassets.net/189dvqdsjh46/7wFYDDX0HeqeiIkowEi0ac/4cd6dab854b78565d746a09cff254115/Global-Compliance-bg-image-dark.jpg"
+  :_meta:
+    :updated_at: '2018-09-11T23:20:08+00:00'
+    :created_at: '2018-09-11T21:03:49+00:00'
+    :id: 7wFYDDX0HeqeiIkowEi0ac
+:image_thumb:
+  :title: compliance-book-combo-thumb
+  :description: compliance book, art, thumbnail, combo, pages
+  :url: "//images.ctfassets.net/189dvqdsjh46/1G30bVzhoU6iGsCKMaeY64/c626a79047b0f0d8f58ccb361c8892ef/compliance-book-combo-thumb.png"
+  :_meta:
+    :updated_at: '2018-09-17T20:04:51+00:00'
+    :created_at: '2018-09-17T20:04:51+00:00'
+    :id: 1G30bVzhoU6iGsCKMaeY64
+:share_image:
+  :title: compliance-book-cta
+  :description: with url
+  :url: "//images.ctfassets.net/189dvqdsjh46/1NSPdxWObme2qAOOkY6MUe/e40872377fc81a6ebe4b760c42c4ddc3/compliance-book-share-url.jpg"
+  :_meta:
+    :updated_at: '2018-12-05T18:21:03+00:00'
+    :created_at: '2018-09-11T23:04:49+00:00'
+    :id: 1NSPdxWObme2qAOOkY6MUe
+:related_form:
+  :id: 5VrP9rKBwsIkAWWWgGW6aE
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-09-12T04:48:24+00:00'
+    :created_at: '2018-09-06T22:51:22+00:00'
+    :id: 5VrP9rKBwsIkAWWWgGW6aE
+  :title: Free Sample Chapter
+  :slug: compliance-book-interest-datica
+  :desc: Form submission to request chapter 2 of Complete Cloud Compliance and be
+    notified for general publish and availability
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"fea0d40d-2a19-45e5-914a-74c3d1099fb8\",\n
+    \ target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n    window.dataLayer
+    = window.dataLayer || [];\n    window.dataLayer.push({\n                    'event'
+    : 'GAEvent',      \n                    'eventCategory' : 'Compliance Book',\n
+    \                   'eventAction' : 'Form Submission',\n                    'eventLabel'
+    : 'Ch. 2 Download',\n                    'eventValue' : '5'\n                    });\n
+    \                 },\n  css: \"\"\n});\n</script>"

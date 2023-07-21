@@ -1,0 +1,147 @@
+---
+:id: 1R6jcLddS0wsEcgiGK4MCg
+:_meta:
+  :content_type_id: leadershipGallery
+  :updated_at: '2017-08-16T17:45:06+00:00'
+  :created_at: '2017-07-24T18:57:29+00:00'
+  :id: 1R6jcLddS0wsEcgiGK4MCg
+:title: 'Simplify, Automate, Delegate: How technology can make doctors happier and
+  patients healthier'
+:slug: simplify-automate-delegate-how-tech-can-make-doctors-happier-patients-happier
+:volume: 1
+:pub_date: !ruby/object:DateTime 2017-07-24 00:00:00.000000000 Z
+:person_leader:
+  :id: 19AQ3OsuqMEQaKOS8EosSE
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-08-16T19:08:53+00:00'
+    :created_at: '2017-07-24T18:26:02+00:00'
+    :id: 19AQ3OsuqMEQaKOS8EosSE
+  :fullname: Lyle Berkowitz, MD, FACP, FHIMSS
+  :slug: lyle-berkowitz
+  :person_type: Guest
+  :role: Director of Innovation, Northwestern Memorial HealthCare
+  :profile_pic:
+    :id: 5JskwOxWVyuYuqgKWoK2wY
+  :bio_short: 'Lyle Berkowitz, MD, FACP, FHIMSS is a primary care physician, a healthcare
+    IT innovator, and a serial entrepreneur with a passion for creating real world
+    solutions which improve the quality and efficiency of the healthcare system for
+    both patients and physicians. '
+  :bio: "Dr. Berkowitz is the Director of Innovation for [Northwestern Memorial HealthCare][nm.org],
+    a multi-hospital health system with a top 10 academic medical center at its core.
+    A practicing primary care physician, he is also founder and director of the non-profit
+    [Szollosi Healthcare Innovation Program (SHIP) at Northwestern.][http://www.theshiphome.org/]\n\nDr.
+    Berkowitz has co-founded several healthcare startups and is the founder and chairman
+    of [healthfinch.com][http://www.healthfinch.com/], a software company which optimizes
+    clinical workflow efficiency. He additionally serves on the Board of Directors
+    for [OneView Healthcare][http://www.oneviewhealthcare.com/], a patient engagement
+    company, and is president of Back9 Healthcare Consulting, where he helps a wide
+    variety of healthcare organizations use information technologies and innovation
+    strategies in new and disruptive ways.  "
+  :profile_twitter: drlylemd
+  :profile_linkedin: drlyle
+  :location:
+    :lat: 41.8781136
+    :lon: -87.62979819999998
+:tags:
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+- :id: qgckjVVwLQiyQcKsiyS6c
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-11T21:45:15+00:00'
+    :created_at: '2017-01-11T21:45:15+00:00'
+    :id: qgckjVVwLQiyQcKsiyS6c
+  :tag_full: EHR
+  :slug: ehr
+  :description: Electronic Health Records
+- :id: 1bZjdJN72GiIWI4CeEQgmo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-27T22:20:31+00:00'
+    :created_at: '2017-01-27T22:20:31+00:00'
+    :id: 1bZjdJN72GiIWI4CeEQgmo
+  :tag_full: Workflows
+  :slug: workflows
+  :description: Regarding healthcare information workflows with systems like EHRs.
+:summary: 'Lyle Berkowitz, MD of healthfinch shares how the future of healthcare is
+  going to be based on an technology empowered, team-based care approach.
+
+'
+:lead: When a new technology is introduced, productivity often declines a bit while
+  everyone works out the kinks, before jumping up significantly. Unfortunately, when
+  it comes to digital health technology, we are still trapped in this productivity
+  paradox after 20 years of the modern age of healthcare information technology (HIT).
+:post: "However, technology itself is not the core problem – rather, it's how HIT
+  was created and deployed that has created so many problems. The gaming industry
+  could think conceptually and translate two-dimensional board games into an amazingly
+  fun and easy to use three-dimensional experience. In healthcare, by contrast, software
+  designers stuck to the paradigm of the paper record, thereby limiting themselves
+  in multiple ways. And perhaps even worse, the designers and implementers focused
+  on having physicians do all the data entry, rather than thinking about how other
+  personnel, or even the computer, could help in that task. \n\nFortunately there
+  is still hope. Digital health technology can still make doctors happier and patients
+  healthier if we focus on how to simplify, automate, and delegate care so that the
+  right people do the right work. A human centered design approach will help us to
+  start building tools and workflows that solve for quality and efficiency at the
+  same time. \n\nAt healthfinch, for example, anything we create must make life easier
+  for doctors and save them time. We challenge our team to automate what can be automated,
+  delegate what can be delegated, and simplify everything else. It sounds like an
+  easy concept, but it's not something that's traditionally done in the HIT world.
+  \n\nTake refills, as a prototypical workflow that can be optimized. A typical primary
+  care doctor may have to respond to 10-20 refill requests a day. What if we had a
+  smart rules engine that could assess the work flow coming in and automate the process
+  of reviewing everything based on approved, standardized, evidence-based protocols.
+  Then we would delegate it to the appropriate staff person to handle based on doctor
+  approved protocols. Meanwhile, we can automate other processes, such as contacting
+  a patient about a follow up appointment, or denying duplicate refill requests.  Finally,
+  if a refill has to be sent to a doctor, we can explain the reasoning in simple terms
+  to ensure the doctor can make a quick decision. \n\nThis type of workflow automation
+  would achieve what everyone says is impossible - improved quality, saving time,
+  cutting costs, and increasing both patient and physician satisfaction all at the
+  same time! And we know from other industries that technology can do even more if
+  we let it reach its full maturity! It's astounding that we let automated cars roam
+  our streets where our kids are playing, but we continue to have inertia and barriers
+  to letting routine workflows be automated by a computer when it can be done quicker
+  and more safely than how we do it now. \n\nUnfortunately, a big part of these barriers
+  are the increasing amount of regulations and requirements that have built up over
+  the past two decades around documentation and workflow. It has gotten to the point
+  that studies now show for every hour of direct patient care, there's at least another
+  hour of extra work. As expected, the more we pile onto the non-patient facing work,
+  the more doctors cut their patient load. A recent survey reported that typical primary
+  care doctors saw 98 patients a week in 2011, working 54 hours a week. A repeat of
+  the survey in 2016 found that primary care doctors had cut their weekly workload
+  to 76 patients, while still working 54 hours – helping prove the theory that we
+  are seeing increasing administrative work for every patient seen.  \n\nSo what might
+  we do to reverse this situation? Let’s start by making sure regulations do not get
+  in the way. For example, the rules around scope of practice were developed many
+  decades ago, well before we anticipated electronic medical records and computerized
+  technology. As a result, they wind up being hard to interpret and sometimes restrictive
+  in today’s high tech world. \n\nThe scope-of-practice laws are at the state level,
+  so we need to lobby our state lawmakers to closely re-examine those laws. If it's
+  simply not clear what a doctor can delegate or what a computer can automate, they
+  need to clarify that rule. And if a rule forbids such delegation, then maybe we
+  need to update and adjust those laws.  \n\nAt the federal level, it might be a good
+  idea to do an assessment of the different scope of practice laws across the nation.
+  At the very least, this can provide insight for all the states. At the very most,
+  it might become clear that some federal regulations or interpretations should be
+  considered. \n\n> If we want to save our healthcare system, both software designers
+  and lawmakers need to understand that, just like every other industry, we need to
+  be able to easily automate and delegate more activities. With doctor-approved protocols
+  and oversight, it can and should be safe and effective and efficient to delegate
+  more of the routine and repeatable activities that happen every day.\n\nThe future
+  of healthcare is going to be a form of information technology empowered, team-based
+  care approach that allows for massive scalability. In this scenario, a doctor may
+  see fewer patients face to face, but will be enabled to take care of many more patients
+  via their team. Of course, we also need to balance this with the fact that relationship
+  between the patient and their providers is still very human and local. We need to
+  preserve this sacred doctor-patient relationship, but perhaps expand it to the whole
+  care team – saving both patients and physicians at the same time. I know technology
+  can help us figure out how to do this and create the future we want and need. "

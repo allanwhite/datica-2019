@@ -1,0 +1,606 @@
+---
+:id: 15Wf9C7PIIeg4sCsQkeygW
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-20T22:35:53+00:00'
+  :created_at: '2016-11-23T06:51:36+00:00'
+  :id: 15Wf9C7PIIeg4sCsQkeygW
+:title: What does HealthKit mean for mobile app developers?
+:slug: what-does-healthkit-mean-for-mobile-app-developers
+:pub_date: !ruby/object:DateTime 2014-06-03 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 4TyZlvypiw6yMeuGG8W4mu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:11:18+00:00'
+    :created_at: '2016-11-23T01:11:18+00:00'
+    :id: 4TyZlvypiw6yMeuGG8W4mu
+  :tag_full: mHealth
+  :slug: mhealth
+  :description: '"Mobile health" is a general term for the use of mobile phones and
+    other wireless technology in medical care. The most common application of mHealth
+    is the use of mobile phones and communication devices to educate consumers about
+    preventive health care services.'
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: HealthKit is important for developers — both data collectors and digital
+  health app developers.
+:blog_lead: 'Apple WWDC was today. The buildup, as always, has been massive. It''s
+  always a surprise what will be unveiled, though some sources seem to get reliable
+  info ahead of time. I wrote a [post](http://histalkmobile.com/what-could-healthbook-be/)
+  last week on Healthbook. That post was largely speculative, as everything is before
+  Apple formally announces it. In that post, I described Healthbook as the new app
+  that is very likely going to be a part of the new version of iOS, iOS 8, from Apple.
+
+'
+:post: |+
+  At that time the speculation, which I delve into much deeper in the post mentioned above, is that Healthbook would be basically Passbook but for health- and wellness-related cards. There are some major differences I thought would exist between Healthbook and Passbook. I speculated that Apple would take structured health and wellness data for Healthbook cards, not just blobs of data and images like Passbook. This is a major difference from Passbook and opens up Apple as a potential aggregator and hub of health and wellness data.
+
+  Additionally, Apple has sensors built into its hardware, and these sensors are getting better with each new hardware release. These sensors can can track activity data on people. If Apple ever releases an iWatch, which it didn't announce at WWDC today, that may add to the set of data Apple is able to collect itself without 3rd party apps and sensors.
+
+  We now have a better sense of what Healthbook will be, and it won't be called Healthbook. It's called [HealthKit](https://developer.apple.com/healthkit/), and it's vying to be a hub of health and wellness data. With HealthKit, apps can share data with Apple, and Apple in turn says "the user decides which data should be shared with your app." Data can be collected via sensor or by manual patient input. [Documentation](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS8.html#//apple_ref/doc/uid/TP40014205-SW1) is scant but one of the interesting things it does say is that "Once data is shared with your app, your app can register to be notified when that data changes; you have fine-grained control over when your app is notified." This is very cool and very powerful; more on this below. Some of the first apps that come to mind for integration with HealthKit are Nike apps, Fitbit, Withings, Jawbone, MyFitnessPal, LoseIt!, and Wahoo, among others.
+
+  The sample code Apple [provides](https://developer.apple.com/library/prerelease/ios/samplecode/Fit/Introduction/Intro.html) today is for a nutrition app that tracks the name of a food and the energy associated with that food, in joules. This is such a random and specific example that I'm wondering why they used it. For this example, the name of the food is a string and joules is a double. That's all right now for documentation. It's still largely speculative how Apple will model out health data, and if Apple will add in the ability to codify data, which in health and wellness could make it much more valuable.
+
+  The biggest surprises in the announcement were partnerships with Mayo Clinic and Epic. Mayo is building an app that will integrate blood pressure readings into HealthKit, and enable sharing of that data with Mayo providers. I'm curious if there's a communication aspect of this in which Mayo providers can reach out to patients based on readings entered into HealthKit. Mayo was also quoted at WWDC, a nice piece of social proof from an established brand in healthcare.
+
+  With the Epic partnership, it's an open question what the integration will look like. Will Epic be sharing its data with Apple, or vice versa, or both? Apple played up the brand of Epic in healthcare, showcasing a slide full of logos from Epic institutions. If this is simply a way to get HealthKit data into Epic MyChart, it holds little value. The experience of viewing the data in HealthKit is going to be much better than MyChart, and having the ability to view HealthKit data alongside Epic data in MyChart is of limited value. I'm skeptical of an Apple-Epic integration any deeper than that, at least in the short to medium term.
+
+  ## What does this mean for app developers?
+
+  HealthKit is important for developers, both data collectors (sensor makers and apps that collect data directly) as well as those interested in building apps that harness health and wellness data. Assuming Apple has success in getting developers to implement apps and data into HealthKit, the following are interesting things for developers to consider.
+
+  * Data is important. It's the reason Apple is trying to aggregate data from apps that run on iOS. With HealthKit, Apple is opening up a potential treasure drove of data to any app developer that can get a user to share HealthKit data with their app. This makes it easy for any mobile developer with a good design sense to build an app that harnesses data collected from a myriad of apps and devices (assuming all those apps and devices integrate with HealthKit). And if Apple integrates tracking data from its own hardware sensors, which I imagine it has to do, that's tracking data on almost every iPhone user. That's powerful for developers.
+
+  *  Data, no matter how well designed, is only going to go so far to engage individuals in their health and help drive positive behavior change. With HealthKit, apps will be able to set "fine-grained" notification rules for changes to HealthKit data. I can imagine an almost limitless number of use cases for this - messages to users to close the feedback loop, to family or friends (social pressure), to physicians or health systems to trigger interventions, to pharmacies for refills, and on and on. This opens up a ton of possibilities to go beyond data and drive real positive change in health and wellness behavior.
+
+  * Building anything for Apple means building on a platform that has access to 100s of millions of verified accounts with credit cards for payment processing. While I don't think these accounts represents all, or maybe even most, of the people in real need of help with health and wellness, it does simplify your business model if you have users that are willing and able to pay. Of course, if you use Apple for payments, you'll be giving them 30%.
+
+  * Sensor and hardware makers can focus on hardware and rely on Apple for software. I'm not sure how practical this one is, but HealthKit opens to door to extremely inexpensive sensors to integrate data into HealthKit and instantly be a part of a larger ecosystem that can write software to leverage that data.
+
+  The major things I wonder about with HealthKit relate to privacy, security, and ownership of data. With Apple potentially sharing data with healthcare providers, will it be signing BAAs and at what point does HIPAA apply? Who owns the data if a user decides to move off of iOS? Apple does not have the best track record of [supporting](http://www.techrepublic.com/article/how-to-keep-receiving-sms-from-iphone-users-after-making-the-switch-to-android/) open, cross platform standards. These are all yet-to-be-answered questions.
+
+
+:cta_ref:
+  :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2017-02-07T04:29:29+00:00'
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :cta_title: 7 Big Ideas
+  :cta_desc: Download a free copy of our annual report on Innovation. We interviewed
+    some of the industry's best thinkers and doers, and summarized the 7 biggest ideas
+    in this easy-to-read ebook.
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/2015
+  :cta_svg_icon:
+    :id: 4G7J6PZbVCmoOuAEO4UsIY
+  :cta_icon: "/public/icons/brand/icon-large-lightbulb-circle.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 2Ku9TaK7ZCEuy444CSyq64
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-12T18:52:47+00:00'
+    :created_at: '2016-11-23T22:18:26+00:00'
+    :id: 2Ku9TaK7ZCEuy444CSyq64
+  :title: Apple’s New ResearchKit Studies 
+  :slug: apples-new-researchkit-studies
+  :pub_date: !ruby/object:DateTime 2015-10-23 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: In the past, clinical trials could only extend as far as researchers could
+    geographically recruit, but Apple's ResearchKit enables more valuable data sets.
+  :blog_lead: "Back in March, Apple released their iOS open-source clinical research
+    platform, ResearchKit, that focused on health conditions, such as breast cancer
+    and diabetes, leading to over 100,000 participants contributing their health data.
+    Now, not even a year later, the mogul tech giant has released three new trials
+    geared towards epilepsy, melanoma, and autism. Until recently, clinical trials
+    could only extend as far as researchers could demographically and geographically
+    recruit, but by moving clinical trials to a mobile based platform, like the iPhone
+    or Apple Watch, researchers can now get exponentially more valuable data sets
+    that can potentially accelerate medical research. \n\n> > Few will have the greatness
+    to bend history itself, but each of us can work to change a small portion of events,
+    and in the total of all those acts will be written the history of this generation.
+    - Robert Kennedy\n"
+  :post: "\n### EpiWatch App & John Hopkins\n\nResearchers from John Hopkins University
+    officially launched the EpiWatch app on October 15 to collect data from patients
+    throughout each stage of a seizure. Utilizing the open source framework of Apple’s
+    ResearchKit, the app is able to collect data pertaining to the recurrent characteristics
+    common of seizures, such as unconventional responsiveness. With more than 3 million
+    Americans and 65 million people worldwide currently living with epilepsy, researches
+    will by using the collected data to create and implement new tools to monitor
+    and manage the condition. Users will be able to activate the app when they are
+    experiencing an oncoming seizure and the app will record heart rate and movements
+    while also testing the user’s responsiveness by playing a purposeful memory game.
+    This is the first medical research app to involve a cognitive analysis of this
+    kind. The data collection is expected to take place throughout the next year or
+    two and it is anticipated to provide momentous results. \n\n### Autism & Beyond
+    & Duke University\n\nAlso released, a ResearchKit app titled [*Autism & Beyond*](https://itunes.apple.com/us/app/autism-beyond/id1025327516?mt=8),
+    developed by a team of researchers from Duke University and the Duke Medical Center,
+    is aiming to learn more about autism in young children across all corners of the
+    world. This well-intentioned mobile application will take users through questionnaires
+    that will act as a screening tool and videos that will provide analysis of facial
+    expressions in order to provide feedback towards potential developmental disorders
+    in children. The app developers at Duke strongly relay that this app is not intended
+    to serve as a diagnostic tool, but rather a method for families to receive feedback
+    and encourage further consultation from a healthcare provider when seen appropriate.
+    \n\n### Mole Mapper & OHSU\n\nLastly, another ResearchKit app, Mole Mapper, was
+    constructed to learn about melanoma risks by having users contribute photos of
+    their moles to track evolution over time. The app was designed by Dan Webster,
+    a cancer biologist, and Oregon Health and Science University’s Sancy Leachman,
+    M.d., Ph.D., chair of the Department of Dermatology at the OHSU School of Medicine
+    and director of the OHSU Knight Cancer Institute’s Melanoma Research Program.
+    Webster and Leachman have enabled the app's users to own and maintain their images
+    for personalized use  but can also share with OHSU’s researchers by signing an
+    electronic consent form in an effort to further studies on detection and prevention.
+    More than 4,000 participants have contributed to this research and Mole Mapper
+    is anticipated to expand to the tens of thousands in the near future.\n\n[Apple’s
+    ResearchKit has created a lot of excitement](https://datica.com/blog/apple-s-researchkit-and-clinical-research-opportunities-and-challenges/)
+    and energy that the industry has never seen before. Healthcare innovation is taking
+    center stage and the world is reaping the benefits. Continue to check back regularly
+    as we will be tracking the progress of these studies and others similar.\n\n"
+  :cta_ref:
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :related_entries:
+  - :id: 3CRNT0PSxai4w4yMMy0CUy
+  - :id: 56FWqktehq8SYmSis2ckQW
+  - :id: 2PkmPZvMRGGgs6EaIQw8yq
+  - :id: 15Wf9C7PIIeg4sCsQkeygW
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: FGkU1eol6SagAkcY6E24m
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-16T20:39:30+00:00'
+    :created_at: '2016-11-23T21:57:54+00:00'
+    :id: FGkU1eol6SagAkcY6E24m
+  :title: 'Apple''s ResearchKit and Clinical Research: Opportunities and Challenges'
+  :slug: apple-s-researchkit-and-clinical-research-opportunities-and-challenges
+  :pub_date: !ruby/object:DateTime 2015-04-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: Apple's ResearchKit represents the first time a significant player in
+    the consumer ecosystem has stepped into the esoteric world of clinical research.
+  :blog_lead: |
+    Apple [announced](https://www.apple.com/pr/library/2015/03/09Apple-Introduces-ResearchKit-Giving-Medical-Researchers-the-Tools-to-Revolutionize-Medical-Studies.html) ResearchKit on March 9. Since then, there has been a flurry of blog posts and discussions around its value and impact. I'll go into more detail on that below but the main thing is that this is the first time a **significant** player in the consumer ecosystem has stepped into the esoteric world of clinical research. The product being offered does have limitations around code, technology and liability—all of which can be addressed. That Apple is willing to step up and help improve medical research, an area desperately in need of change, is heartening and will, I'm willing to bet, cause Google and others to step up as well.
+
+    > > "Thar's gold in them thar hills!"
+    > > > — Mulberry Sellers, Mark Twain's A Gilded Age.
+  :post: "\nThe purpose of this article for is to provide a better, and perhaps more
+    nuanced, understanding of:\n\n1. The world of clinical studies;\n2. Which *types*
+    of clinical studies ResearchKit in conjunction with HealthKit might be best suited
+    for initially; and\n3. What the future of clinical studies (no matter the type)
+    could look like with ResearchKit and similar solutions from other providers.\n\nI
+    won't cover what ResearchKit provides in detail. Although we're beginning work
+    on that at Catalyze, we'll wait until Apple open sources it (another big win)
+    before delving into it in more detail.\n\nSo let's jump right in...\n\n### The
+    world of clinical studies\n\nThere are several *types* of clinical studies. [Clinicaltrials.gov](https://clinicaltrials.gov)
+    categorizes them into three buckets:\n\n- [Observational Studies](https://clinicaltrials.gov/ct2/about-studies/glossary#observational-study):
+    This is the *simplest* study (this is very relative - I do not intend to imply
+    these studies are trivial by any means). The goal here is to collect data on effectiveness
+    / outcomes related to a particular disease, intervention (use of a drug, life
+    style changes such as exercise or diet etc.) or diagnostics (choice of screening
+    method - e.g. BMI vs. blood test, frequency - e.g. every three months vs. annually
+    and more). Patients **do not** get allocated to different groups, each with different
+    interventions. Think of this more as a data collection exercise used to generate
+    hypotheses which can be further tested and verified with stronger evidence. Which
+    bring us to...\n- [Interventional Studies (or Clinical Trials)](https://clinicaltrials.gov/ct2/about-studies/glossary#interventional-study):
+    These are the clinical trials we've all heard about lasting multiple years, costing
+    billions of dollars and driving up the cost of brand name drugs. It's an intensive
+    process with significant oversight and regulation (to ensure data is not massaged
+    or faked, which falls under CFR 21 - Part 11) across multiple phases (to evaluate
+    impact of dosage levels - Phase 1, to evaluate impact of various dosage levels
+    - Phase II etc.). This is a much more rigorous study intended to gather statistical
+    **evidence** (double blind studies, placebos,  etc.) *proving* that a particular
+    interventional does / will have a statistically significant impact on outcomes.\n-
+    [Expanded Access](https://clinicaltrials.gov/ct2/about-studies/glossary#expanded-access):
+    If patients have a serious life-threatening disease and there is an insufficiently
+    large pool of patients to do a full fledged interventional clinical trial with
+    all the associated A/B testing, placebo etc., patients can be enrolled in expanded
+    access trials. This is heavily overseen and regulated by the FDA for obvious reasons.\n\nThat's
+    a high level introduction to the different types of clinical studies and their
+    relative effort. Based upon this information, you can draw an obvious conclusion
+    that, for the immediate term, observational studies are the easiest area of ResearchKit
+    applicability. The more data a researcher has, the better the likelihood a hypothesis
+    is based on fact rather than gut. That is critical because, as mentioned earlier,
+    the other two types of studies can get pretty expensive. I'll focus the rest of
+    this post on observational studies and how Apple's ResearchKit and HealthKit can
+    help.\n\nLet's talk a bit about the challenges in the observational studies space
+    (some of these will apply to all types of studies as well).\n\n### Challenges\n\n####
+    Recruitment\n\n> \"Join the army\" they said, \"it'll be FUN\" they said.\n> —
+    Engineers, Company of Heroes\n\nRecruitment is **THE** major bane of all clinical
+    studies. Observational studies, specifically in cases when the intervention is
+    a drug, rely on the fact that earlier interventional studies have already happened.
+    How do people report unexpected adverse reactions? Turns out that an adverse event
+    is [defined by the FDA](http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm?fr=314.80)
+    as any undesirable experience that can be associated with the use of a medical
+    product in a patient. It can be anything from the product not working as intended
+    to causing a serious, life-threatening reaction, or even death. That's a pretty
+    broad range, and one aspect of patient self reporting which we all hear about.\n\nThe
+    other aspect is reporting on outcomes. What is the impact of taking a particular
+    medication vs others for the same condition, what is the impact of this amount
+    of dosage vs. others? The more available data points, the more considered the
+    hypothesis. And that is where HealthKit can play a significant role. Within a
+    few hours of ResearchKit being announced, [multiple apps](http://www.bizjournals.com/boston/blog/health-care/2015/03/mgh-uses-apple-research-kit-to-redefine-research.html)
+    reported thousands of sign ups, which has it's pros and cons:\n\n#### Pros\n\n\t-
+    *Easy to sign up*: [Thousands of people](http://www.macrumors.com/2015/03/11/researchkit-thousands-sign-up/)
+    signed up within 24 hours of the announcement. Amazing. As a researcher notes
+    in the [this](http://www.bloomberg.com/news/articles/2015-03-11/apple-researchkit-sees-thousands-sign-up-amid-bias-criticism)
+    article, and I quote, \"To get 10, 000 people enrolled in a medical study normally,
+    it would take a year and 50 medical centers around the country...\". That is astounding.\n\t-
+    Anyone with an iPhone can now join\n\t- Some aspects of data gathering can be
+    done passively (more in the next section)\n\t- All aspects of permissions are
+    taken care of in-app\n\t- Various kinds of data gathering: voice, gait, entry
+    etc. can all be addressed\n\n#### Cons\n\n\t- *Verification & Matching*: Also
+    a pro, anyone can sign up.  This ties to the aspect of data quality and reliability.
+    Verification will remain an issue unless addressed explicitly. Lisa Schwartz,
+    professor at the Dartmouth Institute for Health Policy and Clinical Practice,
+    notes in the same Fortune article referenced earlier, \"Just collecting lots of
+    information about people—who may or may not have a particular disease, and may
+    or may not represent the typical patient—could just add noise and distraction.\"\n\t-
+    *Selection bias*: The simplest bias is only iPhone users can participate, which
+    is not a broad enough sample. But that's addressable as soon as the rest jump
+    on the bandwagon and Apple open sources ResearchKit. For a more in depth chat
+    about biases, see [this](https://statsdoc.wordpress.com/2015/03/10/apples-researchkit-is-not-yet-ready-for-primetime-a-medical-researchers-perspective/)
+    post from someone who works in the field on a daily basis. Note that he too is
+    optimistic about the opportunity.\n\n#### Gathering data\n\n> \"Human beings were
+    not meant to sit in little cubicles staring at computer screens all day, filling
+    out useless forms...\"\n> — Peter Gibbons, Office Space\n\nAt the core of it all,
+    this is the rationale and enabler behind the quantified self movement. Capturing
+    data cannot always be an active effort on the part of the patient. A significant
+    amount of the data capture needs to be passive, or at least easy, to gather. Traditionally,
+    the only way to capture this kind of data was to ask the patient to fill out lengthy
+    forms weekly or as frequently as possible. The irony is if it is difficult enough
+    for a physician to get a patient to adhere to medication prescriptions, what hope
+    does a researcher have to ask patients to fill out a form regularly about the
+    effects of that prescription?\n\nAnd that is the second biggest innovation. The
+    combination of HealthKit, Core Motion and ResearchKit make it possible to come
+    up with innovations such as the [Parkinson's mPower app](http://parkinsonmpower.org/)
+    which enables \"innovative activity-based measurements of Parkinson symptoms that
+    include a memory game, finger tapping, voice recording, and walking\". There's
+    more to come as developers dream up ways to combine the three solutions into a
+    seamless patient experience.\n\nIt is worthwhile to note that two of the three
+    (apart from ResearchKit) have equivalents in the Android world as well. The selection
+    bias problem is not a long lived one by any means.\n\n### The promise of Apple
+    ResearchKit\n\n> \"Remember Red, hope is a good thing, maybe the best of things,
+    and no good thing ever dies.\"\n> — Andy Dufresne, The Shawshank Redemption\n\nWhile
+    a lot can be said about the negatives, or rather, the areas of improvement, ResearchKit
+    has several things going for it, namely\n- Apple: Having such a large organization
+    put its weight and product behind healthcare research, is a huge step forward.\n-
+    Recruitment: See above not to mention the ease of use and UX that Apple demands
+    of apps on it's AppStore.\n- Consent and privacy: Having this baked in from the
+    start goes a long way in allaying fears about privacy and data use. It is interesting
+    to note that one of the reasons behind the [initial partnership](http://www.macrumors.com/2015/03/20/inside-story-researchkit/)
+    to develop ResearchKit was that *\"he wanted to work with them rather than competitors
+    like Google and Microsoft because Apple is a hardware company that doesn't need
+    to sell data, and that he believed Apple when the company said it wouldn't look
+    at the data being used in ResearchKit\"*. I'm a bit of skeptic so I don't fully
+    believe that but time will tell.\n- Passive data gathering: As mentioned earlier,
+    the combination of HealthKit, Core Motion and ResearchKit opens up a world of
+    possibilities.\n- Active data gathering: easy forms!!!! And associated workflows.
+    While this might seem trivial technically, making it easy from a business and
+    developer perspective as described [here](https://developer.apple.com/researchkit/researchkit-technical-overview.pdf)
+    is very promising.\n- Open source: While the principles of this are not quite
+    clear, it seems as though innovations around data capture can be (should / will
+    be?) open sourced is again something that could force an opportunity for researchers
+    and developers to collaborate with each other.\n- Significant academic institution
+    participation: The starting line up includes Massachusetts General Hospital, Dana
+    Farber Cancer Institute, Penn Medicine, University of Oxford, University of Rochester,
+    Stanford Medicine, UCLA Jonsson Cancer Research Center and Weill Cornell Medical
+    College. That is an impressive line up.\n\n### The gaps to be addressed\n\n> \"Hmmm,
+    upgrades\"\n> — Neo, The Matrix Reloaded\n\nBut—and yes, there's always a but—apart
+    from the business challenges outlined above, Apple does make it very clear that
+    there are gaps, some of which will be addressed by Apple, others by developers
+    via open source contributions and still others that will be left up to the researchers.
+    Namely:\n\n- Matching: Signups and participation is always a good thing. But as
+    described earlier, verification and matching participants to match research study
+    requirements is an open challenge.\n- Passive background data collection: This
+    must be enabled via APIs like HealthKit and CoreMotion that already support this.\n-
+    Security: Secure communication mechanisms between the app and server. This is
+    not a significant issue. Hopefully all communication will be done over SSL/TLS.\n-
+    Scheduling: The ability to schedule surveys and active tasks for your participants.
+    This is not automatic but again is addressable with server side logic.\n- A defined
+    data format for how ResearchKit structured data is serialized. Standardization
+    around the data models will be a good thing to progress towards especially aligning
+    with the HL7 and upcoming FHIR standards. This is an exciting area and something
+    that we at Catalyze are working towards.\n- Automatic compliance with international
+    research regulations and HIPAA guidelines. These are the researcher's responsibility.
+    Not to mention CFR21 Part 11 compliance. These are all the aspects that Catalyze
+    deals with on an ongoing basis across a wide variety of customers.\n\n### Summary\n\n>
+    \"I think all you need is a small taste of success, and you will find it suits
+    you.\"\n> — Monique, Better Off Dead.\n\nApple's announcement around ResearchKit
+    has generated a lot of [buzz and excitement](http://fortune.com/2015/03/15/apples-researchkit-is-a-big-hit-at-sxsw/)
+    for good reason. The combination of HealthKit, Core Motion and ResearchKit is
+    a potent combination. Hopefully, since two of three already exist in the Android
+    world, the third should follow quickly. Which, from a patient and researcher perspective,
+    is a good thing. While there are significant positives, there still remain several
+    challenges that need to be resolved but it is our firm belief at Catalyze that
+    existing solutions from vendors (such as Catalyze) and other open source contributions
+    will see these addressed shortly.\n\n"
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2PkmPZvMRGGgs6EaIQw8yq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-06T22:49:41+00:00'
+    :created_at: '2016-11-23T21:32:53+00:00'
+    :id: 2PkmPZvMRGGgs6EaIQw8yq
+  :title: How the Epic/Healthkit integration actually works
+  :slug: how-the-epic-healthkit-integration-actually-works
+  :pub_date: !ruby/object:DateTime 2014-10-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :categories_blog: healthcare
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: You may already know Healthkit integrates with the Epic Mychart app, but
+    here's a look at how that Epic Healthkit integration most likely really works.
+  :blog_lead: 'There''s been no shortage of pieces on how the Epic/Healthkit integration
+    _might_ work or should _work_. Even the piece in which [Epic spokespersons talked
+    about functionality](http://venturebeat.com/2014/09/17/ehr-giant-epic-explains-how-it-will-bring-apple-healthkit-data-to-doctors/)
+    points to how "the EHR accesses HealthKit data from the MyChart app, not via a
+    direct integration with the HealthKit platform." Ok, so it uses MyChart, Epic''s
+    patient portal. But saying that MyChart is used for integration is like saying
+    that soufflé is made because a pan interfaces with a stove. What you really need
+    to know are the ingredients and how they mix together. We''ve got the scoop.
+
+'
+  :post: |
+    The first thing worth noting about the Epic to [Healthkit](https://datica.com/blog/what-does-healthkit-mean-for-healthcare/) integration is that *it is not patient-initiated*. Any user using the MyChart application on an iPhone running iOS 8 cannot decide to send information to their clinicians. Epic won't store it; in fact MyChart won't even show you the activity in MyChart unless a clinician has ordered MyChart tracking for you. You've been looking for real, prescribed apps? Here's the first one.
+
+    While this may disappoint patients looking for a new communication tool, this makes alot of sense for doctors and clinicians. Many clinicians are afraid the upcoming [Internet of Things for healthcare](https://datica.com/blog/connected-health-today-and-in-the-future/) era will be a lot of static in ratio to noise. How can apps and EHRs guarantee clinicians only retrieve pertinent patient information from devices with intervention opportunity?
+
+    When a clinician orders the "Healthkit" prescription, it prompts the doctors to set usual specific limits for "abnormal" alerting of tracked values. This is the killer feature. For a non-diabetic, a blood glucose level of 130 mg/dl would be abnormal. But, that's not who providers are concerned about. For a diabetic, a provider might want to dictate what they believe "abnormal" is for a specific patient. Maybe it's a blood glucose over 160 mg/dl. Maybe it's a blood glucose of 200 mg/dl. Existing EHR decision support/order recommendation tools can be used to provide high-level guidelines for tracking, but letting clinicians dictate what _they_ should warned about on a patient-by-patient level makes this tool truly useful.
+
+    The somewhat comical thing about this is that it requires the clinician to ascertain that the patient is using an iPhone running iOS 8 to use Healthkit. When [Travis](https://datica.com/about/travis/) and I were chatting about this yesterday, he mentioned that he was looking forward to teasing his doctor colleagues on talking with their patients about what phone they used.
+
+    _"I'm sorry, there was nothing we could do for the patient. We tried our hardest, but they had an iPhone 4S. We can't get their data."_
+
+    Once the order is signed by the clinician, it goes through some Epic programming magic. The next time the patient signs into MyChart on their iPhone, they'll see the "Track my Health" feature. From there, clicking it allows the patient to pick the tracker prescription the doctor ordered. Clicking on that moves the patient over to Apple's Healthkit where Apple verifies that the user is going to share the requested data with MyChart. Once that is done, anytime a entry from a glucometer or smart scale goes into Healthkit, it sends the data to MyChart which then sends the data to Epic. If the data is abnormal, it lets the responsible clinician know through the EHR inbasket. Since the patient already has MyChart, the clinician could send the patient a message securely back to the patient with feedback or an Action Plan through secure messaging.
+
+    ## What does it all mean?
+
+    My thoughts:
+
+    - App prescribing is here, and this is how it works. Apple has the first integration, but it seems like Epic is going to own some part of this workflow. There's been a few startups whose plan has been to prescribe apps; there will still be room for security/auditing/certification but the app prescription path (at least for Epic) will run through the [EHR's order entry](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/). It'll be interesting to see the process in which hospitals can petition Epic to select new apps and platforms (like Validic) to receive patient data.
+    - It would be hard for other EHR/Patient Portal combos to replicate something like this. Epic has a pretty tight coupling between the EHR and their patient portal that other vendors would need to accomplish via some [EHR integrations](https://datica.com/discover/ehr-integrations/) or custom APIs.
+    - Traditional integration is still alive. MyChart/Healthkit helps your app write data to MyChart, but doesn't provide any controls to request patient data from it. If you want to get data out of the EHR, you'll need to do integration. If you want to get patient data into the EHR without any of the afforementioned steps, you'll need a traditional flowsheet/notes interface. Need help with that? [We can help.](https://datica.com/managed-integration/)
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 6G1djiYjD26CQ00iaIWGg8
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

@@ -1,0 +1,122 @@
+---
+:id: 6tu1o1CsgMaOwscigewAWK
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T01:10:23+00:00'
+  :created_at: '2017-02-03T00:26:38+00:00'
+  :id: 6tu1o1CsgMaOwscigewAWK
+:title: 'Voalte Guest Post: The company we keep'
+:slug: voalte-guest-post-the-company-we-keep
+:pub_date: !ruby/object:DateTime 2016-02-16 00:00:00.000000000 Z
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: The challenge for today's hospital CIOs is choosing vendors and technologies
+  that integrate with the EMR as well as numerous other hospital systems. That's why
+  integration is such a hot topic in healthcare, and is something we take very seriously
+  at Voalte.
+:blog_lead: 'Healthcare technology has always been a complex business, and it''s not
+  getting any simpler. In the 1960s, mainframes were the behemoth systems that stored
+  data, mostly related to a hospital''s accounting functions. In the ''80s and ''90s,
+  health IT turned to desktop computers and networking solutions for clinical and
+  operational data. In recent years, federal mandates under the American Recovery
+  and Reinvestment Act caused the focus to shift to electronic medical records (EMRs),
+  bringing numerous advantages for patients, medical practices and health systems,
+  such as:'
+:post: "* Fewer errors in personal health records\n* Efficient transfer of patient
+  data\n* Enhanced workflows that allow for increased productivity\n* Reduction of
+  labor and operational costs\n* Superior e-Prescribing and clinical documentation\n\nWhile
+  EMRs are powerful systems that have gone a long way in bringing healthcare organizations
+  into the digital age, they cannot do everything. Hospitals need numerous systems
+  to take full advantage of their EMRs in ways that benefit caregivers, patients,
+  and the hospitals that have invested so many resources.\n\nThe challenge for today's
+  hospital CIOs is choosing vendors and technologies that integrate with the EMR as
+  well as numerous other hospital systems. That's why integration is such a hot topic
+  in healthcare, and is something we take very seriously at Voalte.\n\nThe first Voalte
+  integrations were with [Philips Intellispace Event Management][1] (previously Emergin)
+  and Connexall, which enabled us to give hospital caregivers a single end-point device
+  for communication as well as alarm and alert notifications. We have since integrated
+  with technologies from many other companies with the goal of giving our customers
+  a complete communication platform that ties together multiple solutions seamlessly.
+  \n\nIn other industries, integrations are more commonplace than in healthcare. Salesforce,
+  for example, started as an application platform but has grown into a platform other
+  companies can build on. (See last year's news about the [Box-Salesforce][3] integration,
+  which helps their joint customers access files more efficiently and lets developers
+  easily embed Box's content-management functions into Salesforce.) Facebook and Twitter
+  are examples of consumer solutions that allow others to build on their platforms,
+  using APIs in ways not originally intended. (If you followed the [Politiwoops][4]
+  story, you know that Twitter pulled the plug on this archive of deleted tweets by
+  politicians, before reversing that decision as part of its pledge to foster better
+  relationships).\n\nIn the future, we believe the Voalte Platform APIs and SDKs will
+  allow partners and customers to create innovative solutions that we cannot even
+  begin to imagine. Our partnership with Datica is a cornerstone of our strategy of
+  allowing innovators who use Voalte Platform to have easy access to EHR data so they
+  can build amazing patient-centric solutions. We are able to do this because Datica
+  lets us focus on our job rather than on the administrative, compliance burdens.\n\n----\n\n_Alex
+  Brown is Director of Strategy at Voalte, where he leads the Product and Partnership
+  teams. Over the past five years, he has managed partnerships with leading EMR, device
+  and integration vendors._\n\n\n[1]: http://www.usa.philips.com/healthcare/product/HC866030/intellispace-event-management-information-system\n[3]:
+  http://techcrunch.com/2015/12/16/box-salesforce-partnership-demonstrates-power-of-cloud-connectivity/\n[4]:
+  http://politwoops.sunlightfoundation.com/"
+:cta_ref:
+  :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2017-02-07T04:29:29+00:00'
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :cta_title: 7 Big Ideas
+  :cta_desc: Download a free copy of our annual report on Innovation. We interviewed
+    some of the industry's best thinkers and doers, and summarized the 7 biggest ideas
+    in this easy-to-read ebook.
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/2015
+  :cta_svg_icon:
+    :id: 4G7J6PZbVCmoOuAEO4UsIY
+  :cta_icon: "/public/icons/brand/icon-large-lightbulb-circle.svg"
+  :cta_color: gray-light
+:discovery_topic:
+  :id: 2GT6S0aIrCA46qmAySAYM0

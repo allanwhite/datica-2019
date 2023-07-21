@@ -1,0 +1,946 @@
+---
+:id: 4QDw13xznycmAwm26KSgGU
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T22:10:47+00:00'
+  :created_at: '2017-11-21T23:26:18+00:00'
+  :id: 4QDw13xznycmAwm26KSgGU
+:title: The AWS re:Invent Ultimate Guide for Makers of Digital Health Products
+:slug: aws-reinvent-ultimate-guide-for-makers-of-digital-health-products
+:pub_date: !ruby/object:DateTime 2017-11-21 00:00:00.000000000 Z
+:tags:
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+- :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T21:38:17+00:00'
+    :created_at: '2017-10-20T21:38:17+00:00'
+    :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :tag_full: Events
+  :slug: events
+  :description: Datica events, conferences, speaking opportunities, etc.
+  :url: https://datica.com/events
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: With 1,000 sessions to choose from, we offer a bit of help to our friends
+  out there in the healthcare industry who might be attending AWS re:Invent next week.
+:blog_lead: |-
+  With more than a thousand possible sessions to choose from and so many parties to attend, we thought we’d offer a bit of help to our friends out there in the healthcare industry who might be attending *AWS re:Invent* next week. In addition to presenting and exhibiting, many of our own people will be at the following sessions, chalk talks, panel discussions, and, of course, at the healthcare happy hour. Don’t forget to stop by the Datica booth #519 while you’re there. See you next week!
+
+  See the entire session list [here](https://www.portal.reinvent.awsevents.com/connect/search.ww).
+:post: "#### [HLC304 - Architecting for HIPAA on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15750)\n\nThis
+  Chalk Talk discusses the latest in HIPAA–eligible AWS services that you can use
+  for healthcare applications and private health information. Learn from AWS healthcare
+  solution architects about some general strategies and common architectures to decouple
+  protected data from processing and orchestration, track where data flows using automation,
+  and have logical boundaries between protected and general workflows.\n\n_**Why Attend:**
+  HIPAA Compliance is what makes developing digital health application so much more
+  difficult than developing applications in almost every other industry. Find out
+  what AWS services matter for healthcare compliance._\n\n#### [HLC307 - Building
+  a Secure and Healthcare-Compliant Platform for Adopting a Cloud-First Strategy Using
+  AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15749)\n\nThis
+  session provides an overview of how Change Healthcare invested in people, process,
+  and an automation platform to adopt a cloud-first strategy. Starting from building
+  a Cloud Center of Excellence team, they identified the compliance, security, and
+  cost optimization requirements and process required to build a framework. They also
+  embedded healthcare compliance, security, architecture best practices, and customer-specific
+  rules and standards for a managed adoption of the cloud. Change Healthcare is leveraging
+  their Cloud 2.0 framework to rapidly deploy their mission applications into AWS.
+  Come learn how Change Healthcare built a serverless architecture using Amazon ECS,
+  AWS Lambda, AWS CodeDeploy, AWS CodeCommit, AWS CloudFormation, AWS Service Catalog,
+  AWS OpsWorks, AWS Elastic Beanstalk, and other managed services.\n\n_**Why Attend:**
+  Change Healthcare is an innovator on the revenue cycle management side of healthcare.
+  If you’re developing an application that has anything to do with claims processing,
+  this session might be interesting to attend._\n\n#### [HLC308 - Healthcare Payers
+  and Serverless Batch Processing Engines](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=16683)\n\nIn
+  this session, hear how Cambia Health Solutions, a not-for-profit total health solutions
+  company, created a self-service data model to convert a large-scale, on-premises
+  batch processing model to a cloud-based, real-time pub-sub and RESTful API model.
+  \ Learn how Cambia leveraged AWS services like Amazon Aurora, AWS Database Migration
+  Service (AWS DMS), AWS Lambda, and AWS messaging services to create an architecture
+  that provides a reasonable runway for legacy customers to convert from old mode
+  to new mode and, at the same time, offer a fast track for onboarding new customers.\n\n_**Why
+  Attend:** Cambia Health is at the heart of innovation in healthcare and it will
+  be interesting to hear how their self-service data model works._\n\n#### [HLC309
+  - The American Heart Association and How to Build a Secure and Collaborative Precision
+  Medicine Platform on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15747)\n\nThe
+  American Heart Association (AHA) Precision Medicine Platform was built on AWS to
+  enable the research community to accelerate the development of solutions for cardiovascular
+  diseases and stroke. In this session, AWS Partner Network, REAN Cloud, and the AHA
+  discuss how they architected the AHA Precision Medicine Platform to facilitate healthcare
+  research collaboration and data discovery for hundreds of users around the world.
+  They discuss how to catalog, discover, and analyze precision medicine cohorts at
+  scale using Amazon S3, Amazon EMR, Amazon Elasticsearch Service, and Amazon AppStream
+  2.0. Additionally, they explain how the platform adheres to the strict security
+  and logging requirements necessary for compliance with HIPAA and FedRAMP by using
+  AWS Identity and Access Management, AWS CloudTrail, AWS Config, and Amazon Kinesis.\n\n_**Why
+  Attend:** Find out how the AHA is building a Precision Medicine platform to analyze
+  data at scale to help improve patient outcomes._\n\n#### [HLC310 - How Methodist
+  Le Bonheur Healthcare's Focus on Standardizing Compliant Ops Led to Breakthrough
+  Apps](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=16998)\n\nThe
+  innovation team at Methodist Le Bonheur Healthcare (MLH), an integrated health care
+  delivery system, saw AWS as an enabler to faster ideation on breakthrough patient
+  care products over their existing internal private cloud options. In this session,
+  you learn how they eliminated HIPAA compliance as a barrier to their speed-to-market
+  goals by standardizing internal DevOps and DevSecOps duties across applications,
+  as well as taking advantage of the containerization of enterprise technology. MLH
+  partnered with Datica, an APN Healthcare Competency Partner, to address vulnerability
+  scanning, intrusion detection, disaster recovery, backups, encryption, audit logging,
+  and deployment orchestration. You hear how, with this partnership, they ensure that
+  the configuration and orchestration of all AWS HIPAA Eligible Services meet the
+  controls set by healthcare's most stringent accreditation body, HITRUST, with every
+  workload deployment. You also learn how MLH's adoption of a standard compliance
+  layer led to quickly achieving stronger data integration with electronic health
+  records.\n\n_**Why Attend:** Because, Datica! But seriously, we’re excited to share
+  how our customer MLH is finding great success on the Datica Platform._\n\n#### [LFS302
+  - Real World Evidence Platforms to Enable Therapeutic Innovation](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14474)\n\nHistorically,
+  there has been an information asymmetry in pharmaceutical R&D where the biopharmaceutical
+  companies had the deepest understanding and knowledge about their products and how
+  they helped and interacted with patients. Now, there's new, real-world data that
+  exists from regulators, health plans, government authorities, and patients, which
+  is helping pharma companies to understand how their therapies and their innovations
+  drive value and impact in patient populations. There are imperatives to leverage
+  that data, create new partnerships in their ecosystem, and get access to that data
+  in an ethical way to derive insights to both fuel innovation and drive discovery.
+  In this session, you learn best practices from Deloitte and Celgene about strategy,
+  operating models, and execution frameworks when implementing a real-world, evidence
+  data platform.\n\n_**Why Attend:** [The evidence stage of your digital health journey](https://datica.com/dhsf/#evidence-validating-the-idea)
+  is one of the most difficult, yet crucial, stages to get through. Validating that
+  your application is actually doing what you say it will or improving patient outcomes
+  is what will help you grow and scale your business. Attend this session to learn
+  about evidence in pharmaceutical and biopharmaceutical organizations._\n\n#### [LFS304
+  - Born in the AWS Cloud: How Eagle Genomics Uses AWS to Process Billions of DNA
+  Sequence Reads](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14507)\n\nWith
+  the increasing use of genomic sequencing for scientific discovery, the rate-limiting
+  step for researchers is not in obtaining genetic code, but in having the capacity
+  for storage and computing power to analyze it. In this session, you learn how Eagle
+  Genomics built a cloud platform that uses an open-source workflow engine (eHive),
+  Docker containers to process jobs, and a REST service to manage pipeline runs, all
+  to help customers process genetic sequences up to 20 times faster without additional
+  costs. You also learn how Eagle used Amazon EC2 Spot instances to provide low-cost
+  compute power, and services such as Amazon S3 to power their cost-effective and
+  scalable genetic processing platform.\n\n_**Why Attend:** One of the biggest impediments
+  we hear about when large organizations are considering migrating to the cloud is
+  the issue of how to handle those massive amounts of data. Find out how Eagle Genomics
+  is scaling._\n\n#### [LFS305 - Automated Policy Enforcement for Real-time Operations,
+  Security, and Compliance for Life Sciences](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14542)\n\nImplementing
+  stringent security and compliance controls, like GxP, across your enterprise cloud
+  ecosystem, while ensuring the agility of the DevSecOps process requires significant
+  expertise and a lot of time to design, build, and maintain custom operations tooling.
+  In this session, you learn how Turbot used AWS services to simplify IT operations
+  to provide continuous compliance to major life sciences customers. You also hear
+  how life sciences companies like Novartis Institutes for Biomedical Research (NIBR)
+  have become agile, ensured control, and automated best practices using automated
+  policy controls to configure, monitor, and maintain their cloud resources. By doing
+  this, they became more supportive of their researchers' application stack. You also
+  learn how data scientists and core researchers can take advantage of the power of
+  DevOps and cloud computing without compromising enterprise security or data protection
+  requirements.\n\n_**Why Attend:** If you’re at the enterprise level, or maybe just
+  curious about how large cloud ecosystems in Life Sciences maintain security and
+  compliance, attend this session._\n\n#### [LFS306 - How Eli Lilly Leverages AWS
+  as a Clinical Innovation Platform to Change the Patient Experience in Healthcare](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15680)\n\nThe
+  Clinical Innovation Labs team at Eli Lilly and Company is leveraging AWS services,
+  design thinking methodology, and co-creation to transform ideas for translating
+  clinical research into real-world solutions. The Eli Lilly “Innovators’ Platform”
+  is a rapid prototyping environment that combines patient behavior discovery analysis,
+  art-of-the-possible storyboarding, health device mockup creation, and simulated
+  patient walkthrough analysis. This platform is used to demonstrate the capabilities
+  of emerging technologies and enables participants to contribute ideas to extend
+  the platform. This presentation describes how the team and its processes work together,
+  what components make up the platform, and why it’s making an impact on patient health.
+  We discuss the team’s use of various AWS services, including AWS Lambda, Amazon
+  API Gateway, AWS IoT, Amazon Cognito, Amazon S3, and AWS Elastic Beanstalk. We also
+  provide demos of what has been built using this platform methodology.\n\n_**Why
+  Attend:** Eli Lilly is one of the top innovators in the biopharmaceutical segment
+  of the healthcare industry. You might want to learn about how their innovation labs
+  do things._\n\n#### [ABD316 - American Heart Association: Finding Cures to Heart
+  Disease Through the Power of Technology](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15839)\n\nCombining
+  disparate datasets and making them accessible to data scientists and researchers
+  is a prevalent challenge for many organizations, not just in healthcare research.
+  American Heart Association (AHA) has built a data science platform using Amazon
+  EMR, Amazon Elasticsearch Service, and other AWS services, that corrals multiple
+  datasets and enables advanced research on phenotype and genotype datasets, aimed
+  at curing heart diseases. In this session, we present how AHA built this platform
+  and the key challenges they addressed with the solution. We also provide a demo
+  of the platform, and leave you with suggestions and next steps so you can build
+  similar solutions for your use cases.\n\n_**Why Attend:** Population health management
+  is an area many digital health technologies are focused on today. Attend this one
+  to hear how the AHA is wrangling all that data using AWS._\n\n#### [ARC205 - Born
+  in the Cloud, Built like a Startup](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14439)\n\nThis
+  presentation compares three modern architecture patterns that startups are building
+  their businesses around. It includes a realistic analysis of cost, team management,
+  and security implications of each approach. It covers AWS Elastic Beanstalk, Amazon
+  ECS, Amazon API Gateway, AWS Lambda, Amazon DynamoDB, and Amazon CloudFront. Attendees
+  will also hear from venture capital investor Third Rock Ventures (TRV) who has launched
+  40+ biotech startups over the last 10 years. TRV will outline how it launches cloud
+  native startups that turn bleeding edge science into new treatments across the spectrum
+  of disease, with highlights drawn Relay Therapeutics and Tango Therapeutics.\n\n_**Why
+  Attend:** We all want to do everything we can to make sure our digital health startup
+  succeeds in this competitive, highly regulated environment. It will be interesting
+  to hear how Third Rock Ventures sees a startup’s viability._\n\n#### [ARC407 - Deconstructing
+  SaaS: A Deep Dive into Building Multi-tenant Solutions on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=16050)\n\nSaaS
+  presents developers with a unique blend of architectural challenges. While the concepts
+  of multi-tenancy are straightforward, the reality of making all the moving parts
+  work together can be daunting. In this session, we move beyond the conceptual bits
+  of SaaS and look under the hood of an SaaS application. Our goal is to examine the
+  fundamentals of identity, data partitioning, and tenant isolation through the lens
+  of a working solution and to highlight the challenges and strategies associated
+  with building a next generation SaaS application on AWS. We look at the full lifecycle
+  of registering new tenants, applying security policies to prevent cross-tenant access,
+  and leveraging tenant profiles to effectively distribute and partition tenant data.
+  We intend to connect many of the conceptual dots of an SaaS implementation, highlighting
+  the tradeoffs and considerations that can shape your approach to SaaS architecture.\n\n_**Why
+  Attend:** The [build vs. buy decision](https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product/)
+  is one many makers of digital health products go through when deciding how to deploy
+  their application into the cloud in a compliant fashion. Of course, we recommend
+  buying Datica, a multi-tenant cloud platform ready-made for healthcare, but you
+  might learn about what’s involved if you are considering setting up your own compliant
+  infrastructure._\n\n#### [CON205 - Birds of a Feather: Containers and Open Source
+  at AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=17800)\n\nCloud
+  native architectures take advantage of on-demand delivery, global deployment, elasticity,
+  and higher-level services to enable developer productivity and business agility.
+  Open source is a core part of making cloud native possible for everyone. In this
+  session, we welcome thought leaders from the CNCF, Docker, and AWS to discuss the
+  cloud's direction for growth and enablement of the open source community. We also
+  discuss how AWS is integrating open source code into its container services and
+  its contributions to open source projects.\n\n_**Why Attend:** At Datica, we believe
+  that the future of healthcare is open and, in fact, just announced a move toward
+  [open sourcing our code](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+  for healthcare integrations. Since [the Datica Platform](https://datica.com/platform/)
+  is multi-tenant and container-based this session might help you understand how Datica
+  enables fast, compliant deployment to the cloud for makers of digital health products._\n\n####
+  [DEV320 - A Primer on Developing Software in the Cloud](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14987)\n\nDevelopers
+  are always looking for new ways to make it faster and easier to develop and release
+  software. However, their development tools haven't evolved to support the highly
+  distributed, dynamic, fast-paced development processes made possible by the cloud.
+  In this session, we take a closer look at the tools that developers can use to improve
+  their productivity. Through demonstrations, we showcase how developers can quickly
+  edit, debug, and deploy applications to the cloud while collaborating with their
+  team.\n\n_**Why Attend:** If you’re still at the [napkin scribble stage of your
+  digital health journey](https://datica.com/dhsf/), you might want to attend this
+  session to find out what it will take to develop your software in the cloud._\n\n####
+  [ENT320 - How a Global Healthcare Company Built a Migration Factory to Quickly Move
+  Thousands of Applications to AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14485)\n\nSetting
+  a goal for your teams to move a large number of workloads to AWS in a short period
+  of time can be a great way to motivate teams to migrate quickly. Cardinal Health
+  created a migration factory composed of teams, tools, and processes that streamlined
+  the movement of workloads from on-premises to AWS. In this session, hear from Cardinal
+  Health about how they used a migration factory to successfully move thousands of
+  applications to the AWS Cloud.  In addition, learn best practices for creating an
+  effective migration platform and process in your organization.\n\n_**Why Attend:**
+  The thought of [migrating to the cloud](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)
+  is one of the things that keeps healthcare CIOs up at night. This session will give
+  you some insights from another brave healthcare team who has made the move._\n\n####
+  [MSC301 - Cloud Security for Regulated Industries](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=14522)\n\nIn
+  this session, we discuss the challenges that regulated industries (e.g., government,
+  financial, and healthcare) face in demonstrating compliance with security requirements.
+  Learn which AWS Marketplace services enable appropriate threat mitigations in cloud
+  computing through customer use cases, and understand how to minimize your burden.
+  We also demonstrate methods to reduce business impact while increasing security
+  effectiveness and reducing risk in your environment.\n\n_**Why Attend:** Compliance
+  is healthcare’s middle name so if you’re a maker of digital health products, you’ll
+  want to attend this session to find out how AWS is for regulated industries._\n\n####
+  [GPSTEC303 - GPS: Blockchain and the Road to Innovation](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=15126)\n\nFor
+  many, Blockchain has been a black box with little standardization on how to use
+  the technology. The need to understand a multitude of protocols, consortiums, and
+  services, along with their strengths and weaknesses, makes it difficult to select
+  the best option for individual use cases. The lack of technical maturity leads to
+  an uneasiness within the community that can negatively affect adoption. With our
+  new partnerships, along with Intel, this panel discusses technology drivers that
+  are pushing standards forward and accelerating the adoption of Blockchain in the
+  AWS enterprise space. Come join us for a closer look at what Blockchain is doing
+  for several industries and their use cases.\n\n_**Why Attend:** It wouldn’t be a
+  technology conference if someone wasn’t talking about Blockchain! We’re hearing
+  lots of buzz about Blockchain in healthcare as some predict it may be the key to
+  the future of secure data interoperability. Attend this session to find out what
+  all the buzz is about._\n\n#### [HLC01 - AWS Healthcare Happy Hour – Sponsored by
+  Cloudticity](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=17776)\n\nCome
+  enjoy a drink and light snacks with your peers from the Healthcare Industry at Buddy
+  V at The Venetian. You’ll have the opportunity to network with other industry professionals,
+  as well as meet some of the AWS presenters from Monday’s Healthcare track. \n\n_**Why
+  Attend:** The Datica crew will be there!_"
+:featured_image:
+  :title: aws yellow waterfall texture 16x9
+  :description: background, events, AWS, re:invent, conference
+  :url: "//images.ctfassets.net/189dvqdsjh46/20unIrjmnakUgyqYyAIGwK/ba1f662d245abdb6d38df52b3ec45007/aws_yellow_waterfall_texture_16x9.jpg"
+  :_meta:
+    :updated_at: '2017-11-21T23:45:52+00:00'
+    :created_at: '2017-11-21T23:45:52+00:00'
+    :id: 20unIrjmnakUgyqYyAIGwK
+:share_image:
+  :title: blog-aws-reinvent-guide-share
+  :description: share, re:invent, events, AWS
+  :url: "//images.ctfassets.net/189dvqdsjh46/69vSsEKZ2MiICWqSggmEMi/a5e7fc9a1672aa6e4413722e4d63ca02/blog-aws-reinvent-guide-share.jpg"
+  :_meta:
+    :updated_at: '2017-11-22T00:25:50+00:00'
+    :created_at: '2017-11-22T00:25:50+00:00'
+    :id: 69vSsEKZ2MiICWqSggmEMi
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 4ItmAo1t5SIG8MsiEa2K2K
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-02-26T23:21:18+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 4ItmAo1t5SIG8MsiEa2K2K
+  :title: AWS Re:Invent Re:Cap No.1
+  :slug: aws-reinvent-recap-1
+  :pub_date: !ruby/object:DateTime 2016-11-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: This was Datica's first time attending AWS Re:invent along with 32,000
+    attendees ranging from engineers to CIOs and a broad range of industries.
+  :blog_lead: This is the first time that we at Datica are attending AWS Re:invent.
+    We always knew that the event was large but we're surprised to see and hear that
+    the event has grown substantially since last year. AWS re:invent expects to have
+    about 32,000 attendees this year with attendee profiles ranging from engineers
+    to CIOs and a broad range of industries.
+  :post: |-
+    This is a recap of observations during the first half of the conference. We'll publish another recap at the end of the conference.
+
+    From what we understand this is the first year that there was a specific track and presentations focused around healthcare and life sciences with some big names presenting. This track was on Monday before the formal kickoff on Tuesday when the keynotes begin to happen. Presenters included the following:
+
+    * **Cambia**: who spoke on large scale machine learning and data science / big data
+    * **Cerner**: who spoke about having an on-demand DR strategy for their HealtheIntent platform
+    * **Merck**: who spoke about remaining in continuous compliance with life sciences and other regulatory standard
+    * **UCSC** Genomics Institute: who spoke about large scale cancer genomic data analysis
+    * **Claritas Genomics**: who participated in a panel with Motorola and Coursera discussing how to remain in compliance with regulatory requirements in education (FERPA), healthcare (HIPAA) and legal (CJIS).
+
+    These tracks were extremely popular with long lines. The overflow lines were very long as well and wound around entire hallways.
+
+    As you can gather from the talk titles themselves, a lot of the focus was on regulatory requirements and big data. We saw compliance emerge as potentially the most important topic amongst healthcare.
+
+    Healthcare, being more conservative than most industries, is embarking down this cloud journey with hybrid cloud deployments being the initial strategy. Organizations want to move to the cloud, but not immediately. They are looking for more of a transition.
+
+    The move to the cloud is being looked at as an opportunity because various reasons such as:
+
+    * **Cost of Elasticity**: as mentioned earlier, a lot of the initial efforts seem to be focused around big data and analytics. The numbers thrown out during those sessions were invariably in the multiple petabytes range. At that scale, the cloud is an ideal option with immediate scale available as needed.
+    * **Clean slate**: While some organizations have been in the cloud for a little while, the move to the cloud gives these organizations a chance to re-do and re-architect their solutions. Such as making them more service oriented, more micro services etc.
+    * **Repeatability and reusability**: While there is a heavy initial focus on the US, the organizations are also global in scope. With the added regulations around data sovereignty that are being imposed by governments, any IT strategy must be globally scalable. The cloud with multiple points of presence globally allows for addressing this need in a much more cost effective and faster manner.
+    * **Building DevOps competency**: This is increasingly important. Companies are realizing that scaling locally or globally requires automation. Especially because of repeatability as that is a core requirement for regulatory purposes. Managing separate global deployments becomes cost effective only if they're not snowflakes.
+    * **Availability of toolsets**: With a plethora of services such as EMR (elastic map reduce) which includes support for Hadoop, Spark etc., prebuilt AMIs to support analytics such as Tableau, Qlik and more, RDS and more, initial setup and learning curves are much shortened.
+    * **Simplified logging and audit trails**: A lot of the regulatory requirements come down to detailed audit trails and data extraction from logs. The cloud provides these raw data spouts quickly. Some effort is required, of course, to connect, parse and present this raw data in a usable format.
+
+    While all that is great, there still are some challenges.
+
+    1. ** Volume of data**: There is no simple answer here especially because of the large volumes of data mentioned earlier. Things like Snowball help get the initial load done but ongoing challenges like DR (disaster recovery) remain a challenge. Especially if that requires a 2x investment in infra. Cerner has approached this through an on-demand DR strategy where the raw data is replicated always but the infra needed to run analytics etc is spun up whenever needed and data reprocessed. This has the challenge of a full 100% recovery taking up to 12 hours but is still an impressive effort.
+    2. **Networking and encryption in transit**: Networking is still a bit esoteric and challenging especially in the compliance world combined with enterprisey components. Combined these two require full encryption in-transit using rotating TLS keys, 2FA (two factor authentication), ADFS (Active Directory Federation Service) and IAM (AWS' Identity and Access Management) integrations and ongoing management of ACLs. Additional requirements like bastion servers gating access and separate VPCs for "management" and compute / data are also recommended as best practice.
+
+    ## Summary
+
+    It looks like the move to the cloud is accelerating in healthcare and life sciences. Big data and analytics seem to be at the vanguard of this effort. Disaster recovery on demand also seems to be of value. Hybrid strategies leveraging existing investment and the cloud as an extension of that seems to be the first step.
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 5xoRY6Vp1C222IgKW4Emo8
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 5xoRY6Vp1C222IgKW4Emo8
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-14T18:33:19+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 5xoRY6Vp1C222IgKW4Emo8
+  :title: AWS Re:Invent Re:Cap No.2
+  :slug: aws-reinvent-recap-2
+  :pub_date: !ruby/object:DateTime 2016-12-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: We recap the second half of the AWS Re:Invent conference with a look at
+    how some of the announcements could be applicable to the healthcare domain.
+  :blog_lead: "## A recap of the AWS re:Invent keynotes\n    \nWe're returning from
+    three and a half days at the re:invent conference. It was an extraordinary event
+    both in terms of the number of people attending but also in terms of the calibre
+    and diversity of the attendees. I had some conversations where people reminisced
+    about how re:invent has come to be **the** IT conference and has taken over the
+    mantle from VMWorld. It also helps that the brands making presentations and sharing
+    their knowledge are acknowledged leaders in their industry _viz_ Netflix (entertainment),
+    Merck (life sciences), FINRA (finance), Twilio (messaging), Mapbox (mapping),
+    enterprise IT (VMWare and Workday), McDonald's (fast food) and more. Every presentation
+    in the keynote has slides filled with logos of major brands in every industry
+    you can imagine. Each of the keynotes—the first by CEO Andy Jassy and the second
+    by CTO Werner Vogels—were about two and a half hours long. Each was filled with
+    product announcements and interspersed with customer presentations, all of which
+    were illuminating and funny at times as well. The Snowmobile announcement, for
+    one, was sheer showmanship (it was driven onto stage) and remains memorable for
+    every attendee. It was also parked right next to our booth in the exhibit hall
+    and had a constant stream of people coming by to take selfies and pose with it."
+  :post: "![IMG 4343](//images.contentful.com/189dvqdsjh46/1enTmTaXO0e66UYSaIOiCI/a92c59be15c6ba00f63e1dd7d9492fb7/IMG_4343.jpg)\n\nWhile
+    both keynotes were interesting from a technology perspective, I felt that it would
+    be worthwhile to condense it down and explore how some of these announcements
+    could be applicable to the healthcare domain.\n\n## Possible healthcare impact
+    from major product announcements made and \n\n### EC2 instance sizes\n\n[EC2 instances][3]
+    that are bigger, smaller and programmable were announced, to satisfy the least
+    and the most compute / memory / storage hungry software. Some of these were geared
+    to keep AWS way ahead of it's competitors and others such as [LightSail][4] (the
+    preconfigured virtual private server - VPS) seemed to be directly targeted at
+    niches serviced by companies like Digital Ocean. \n\nThis is important for healthcare
+    and life sciences. As I wrote about [before][5], one of the primary use cases
+    that the healthcare industry is focused on is big data analytics, which necessarily
+    implies large scale data analysis which in turn requires pretty large scale machines.
+    Given that elasticity is also possible with these machines, things such as genomic
+    analysis and outcomes analysis is likely to benefit substantially. At the other
+    end of the spectrum, smaller instances will allow innovation and other groups
+    to dip their toes into the cloud or try out ideas quickly and cheaply.\n\n###
+    AI and ML as an API\n\n[Rekognition][6] (image analysis and detection), [Polly][7]
+    (text to voice with intelligence) and [Lex][8] (voice based AI and interaction),
+    all accessible via an API were announced. Machine Learning (ML) via an API and
+    UI was announced earlier with these new products now being able to be used in
+    concert. While some believe that Google has a lead in the AI space given it's
+    history and access to vast troves of data, AWS seems to be focusing it's efforts
+    on enabling specific use cases that customers might have in specific domains and
+    offering up the technology it uses internally in products such as Alexa / Echo.
+    All of this seems to be in response to Google's announcements earlier about the
+    availability of its solutions, it does seem that in conjunction with the data
+    movement and compute solutions, AWS might be in a position to catch up with Google
+    in this regard. It does seem like this is an attempt to also make the technology
+    more ubiquitous and thus the de-facto. I wouldn't be surprised to see ML and AI
+    models developed by customers made available to others on the AWS marketplace
+    in a little while. \n\nAI and ML is, of course, extremely applicable to healthcare.
+    Reams of data is available within EHRs, PACS, PBM systems, pharmacies and claims
+    management systems. However, analyzing all this data requires the right set of
+    people. Both from a deployment and ongoing system management perspective but also,
+    even more importantly, from the data science perspective. Other industries are
+    also jumping into the data fray which makes it very challenging to staff up on
+    both the devOps as well as the data science roles. The above mentioned solution
+    is an attempt by AWS to try and simplify access to this somewhat esoteric of fields.
+    I would predict academic hospitals with its set of medical informaticists, medical
+    students and researchers, seeing immediate use for this capability. Specifically
+    Rekognition and the ML API...\n\nOn the consumer side too, we can expect to see
+    Lex (with voice based commands to summon the nurse, control the temperature, raise
+    and lower the bed, capturing patient feedback and many more) being put to use
+    in various ways in hospitals and Polly on the web or inside clinical applications.
+    The possibilities are quite staggering.\n\n### Embedded IoT software aka Greengrass\n\nAs
+    a preloaded piece of software onto IoT chips and with pre-built security, AWS
+    Lambda links, local storage and orchestration amongst devices, [Greengrass][9]
+    was a major announcement that is very timely. Especially given the recent DDoS
+    attacks initiated via IoT devices and also that the IoT trend is not slowing down
+    anytime soon. \n\nDevices already exist within health systems and have been [recognized][10]
+    to be very insecure. The capabilities described can make Greengrass the foundation
+    for another generation of more intelligent and secure healthcare IoT devices.\n\n###
+    VMWare Cloud on AWS\n\nThis had to have been one of the most significant [announcements][11]
+    re enterprise IT. VMWare cloud (vMotion), vSphere (compute), NSX (networking)
+    and vSAN (storage) are all deployed on bare metal machines on AWS. Enterprise
+    IT teams used to working in the VMWare world can now move seamlessly from one
+    to the other. This is likely to speed up adoption of the AWS cloud significantly.
+    There was no mention of exclusivity from VMWare so we can expect to see similar
+    announcements coming soon from Azure and Google.\n\nHealthcare and life sciences
+    are still in the early stages of the move to the cloud but this VMWare cloud on
+    AWS could be just the thing that could act as the catalyst to accelerate that
+    movement. However, the issues around compliance (HIPAA, HITRUST and GxP) remain
+    open and need to be addressed. We do see this as an area of opportunity for us.\n\n###
+    Cloud-first data management tools\n\n[Step Functions][12] (workflow management),
+    [Glue][13] (ETL), [Athena][14] (S3 querying) were all geared towards enabling
+    and simplifying data movement and massaging needed to enable analytics and machine
+    learning capabilities. With expanding capabilities, it does seem that AWS could
+    be considered competitive to companies such as Mulesoft. \n\nThis is pretty significant
+    in that this is billed only a use basis, which implies that you no longer have
+    to buy expensive upfront licenses but only as needed. This can have an immediate
+    impact for healthcare startups as well as for the innovation groups in healthcare
+    institutions.\n\n### Automatic DDoS protection\n\n[Shield][15] was a great announcement
+    which essentially provides **all** AWS customers with core DDoS protection (volumetric
+    and TCP) automatically and for no extra charge. Advanced versions are also available
+    of course at a higher price. But this free offering is a great first step to address
+    the concerns that some customers have raised with us as well. While it makes marketing
+    sense, it also makes sound business sense to AWS because DDoS attacks on any of
+    their customer accounts will have a cascading impact on other customer's workloads
+    and secondly, there are bound to be issues with the final bill post attacks. \n\nThis
+    further removes the security concerns felt by CIOs and CISOs in health systems
+    and plans especially given that basic protection is automatically put into place
+    and leverages the cumulative man-years of knowledge that AWS has in protecting
+    it's own and it's customer's infrastructure.\n\n### Easier data transfer to the
+    cloud\n\nI wrote about the challenge that a lot of the customer's continue to
+    face in moving data to the cloud from their datacenters in the [previous post][5].
+    This has been addressed by using much larger capacity [Snowballs][16] with some
+    enhancements and compute ability and for very large data transfers measured in
+    exabytes, a tractor trailer sized device, called the [Snowmobile][17].\n\n## Summary\n\nTwo
+    key points.\n\n1. With a revenue run rate of $15 Billion—and a projected growth
+    rate of 55% YoY that as a business size dwarfs the next 14 competitors put together—the
+    AWS business is enormous.\n\n2. The move to the cloud, while not in it's infancy,
+    is only just in it's pre-teen years.\n\nWe can expect to see AWS as the market
+    leader and the de-facto choice of many of the CIOs in healthcare. Given Amazon's
+    history of expanding into related spaces, it is not surprising to see it expand
+    into domains led by companies by New Relic, Digital Ocean and Mulesoft. While
+    AWS' offerings might not be as full featured as the established, we can safely
+    predict that in a year or less, they are likely to be at feature parity which
+    should be a source of concern for those companies.\n\nThe healthcare industry
+    can leverage a lot of these new capabilities. We expect to see immediate uptake
+    on the larger machine sizes for big data and analytics, short term uptake on the
+    ML and AI toolsets especially in academic healthcare and medium to long term adoption
+    of the Greengrass toolkit for innovative device development and use. \n\nIt will
+    be interesting to see how Microsoft Azure, Google, IBM SoftLayer, and others do
+    to counter next year.\n\n[3]: https://aws.amazon.com/ec2/instance-types/\n[4]:
+    https://amazonlightsail.com/\n[5]: https://datica.com/blog/aws-reinvent-recap-1/\n[6]:
+    https://aws.amazon.com/rekognition/\n[7]: https://aws.amazon.com/polly/\n[8]:
+    https://aws.amazon.com/lex/\n[9]: https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-greengrass-now-in-limited-preview/\n[10]:
+    http://www.darkreading.com/iot/medical-device-security-gets-intensive-care/d/d-id/1323989\n[11]:
+    https://www.vmware.com/cloud-services/vmware-cloud-aws.html\n[12]: https://aws.amazon.com/step-functions/\n[13]:
+    https://aws.amazon.com/glue/\n[14]: https://aws.amazon.com/blogs/aws/amazon-athena-interactive-sql-queries-for-data-in-amazon-s3/\n[15]:
+    https://aws.amazon.com/shield/\n[16]: https://techcrunch.com/2016/11/30/snowballedge/\n[17]:
+    https://aws.amazon.com/snowmobile/"
+  :featured_image:
+    :id: 4D7eG9JiLYo8qw8sqCQ6qE
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 4ItmAo1t5SIG8MsiEa2K2K
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 4AznnGBn9SEs6kAyyuCmIW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-06T21:05:25+00:00'
+    :created_at: '2017-11-16T17:05:36+00:00'
+    :id: 4AznnGBn9SEs6kAyyuCmIW
+  :title: Announcing one-click installations of Mirth Connect and Open-Source Connectors
+  :slug: announcing-one-click-installations-of-mirth-connect-and-open-source
+  :pub_date: !ruby/object:DateTime 2017-11-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: platform
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: Today we are launching one-click installations of Mirth Connect combined
+    with Open-Source Connectors for the Datica Platform.
+  :blog_lead: Today we are launching one-click installations of [Mirth Connect](https://www.mirth.com/)
+    combined with Open-Source Connectors. It is the next evolution of how we help
+    solve the problem of healthcare data integration. The switch to a more open solution
+    is a testament to our enduring commitment to helping customers with integration
+    in the best way possible.
+  :post: "> Healthcare developers can get started on new projects faster, and benefit
+    from three years of learning. We aim to empower the developer community to solve
+    the problem of integration themselves with tools that are open, reliable, compliant,
+    and secure.\n\nThe launch is based on consistent feedback that customers need
+    more flexibility, more control over their integration environments, better pricing
+    at scale, and future-proofing for things like [FHIR](/academy/introduction-to-fhir/)
+    and the Epic App Orchard and Cerner Code.\n\nDatica has been doing healthcare
+    integration since October 2014, going through a [few iterations in pricing and
+    packaging](/blog/announcing-self-service-and-free-trials/). Regardless of the
+    iteration, our pragmatic, partnership approach remained consistent and accomplished
+    a lot. In three years we built a team of experts to deliver on integrations and
+    delivered over 150 live integrations into healthcare organizations, with many
+    more in process. Historically it was a SaaS-based pricing model where customers
+    paid a fixed fee per month per interface, per site or even an annual license to
+    purchase site-based delivery. We did integration work in every major vertical:
+    vendors, life sciences, healthcare organizations, and payers.\n\nTimes have changed
+    since 2014 in the integration world. The cloud has gone from a taboo term in digital
+    health to the default place to build 99% of new healthcare applications. FHIR
+    has gone from a glimmer in [Grahame Grieve's](/innovation/grahame-grieve-pt1/)
+    eye into an API platform that will soon be made available from most of the big
+    EHRs. A new wave of digital health developers believe in openness first, even
+    at hospitals as they look to commercialize IP in a digital format. There was no
+    way to predict this would happen so fast (at least in healthcare, three years
+    seems fast) but we are here now.\n\nOver the last three years, we learned the
+    best way to help our customers was to teach them this point: there is no silver
+    bullet to integration **but it is a problem you can solve with the right tools**.
+    \n\nThat's why we are releasing the ability to deploy Mirth Connect with \"one-click\"
+    into your [Datica environment](/platform/). You gain the expertise we've built
+    on running reliable and available integration capabilities in one-click, deployed
+    directly into your compliant environment on the Datica platform. Mirth, which
+    is an open-source platform itself, is a great tool for software developers to
+    use for integration. This is why we've written up documentation based on the hundreds
+    of integrations that we've done which can teach you quickly how to [get started
+    on using Mirth](https://datica.zendesk.com/hc/en-us/sections/115001535023-Mirth-Getting-Started).\n\n##
+    Open-Source Mirth Connectors\n\nWe also [open-sourced our code](https://github.com/daticahealth/Mirth-Transforms)
+    for transforming data from HL7 to JSON. This is a major evolution for digital
+    health teams. We do not believe in locking customers into proprietary APIs, so
+    we have published everything we've learned at the transformation layer, with many
+    more scripts to come. It's all in an effort to help you gain more transparency
+    and confidence with [EHR integration](/discover/ehr-integrations/).\n\nThese connectors
+    are a series of libraries that can be plugged into your Mirth Connect environment
+    which immediately enable HL7 feeds for consumption by a restful API. We will be
+    continuing to open-source content as we create it, including transformers to other
+    data types like those for [Open mHealth](http://www.openmhealth.org/) and [Office
+    365 Cards](https://docs.microsoft.com/en-us/outlook/actionable-messages/actionable-messages-via-connectors).
+    The only major limitations behind what we aim to open-source will be transforms
+    which are based on vendor-specific connections or data models which we can't expose
+    due to legal reasons (e.g. Epic Interconnect XML data models).\n\n## Integration
+    Environment Details\n\nTake note: the integration environment is much more than
+    just Mirth. Each environment has a bundle of tools important to successful integration:\n\n*
+    Highly Available (HA) configuration of Mirth instances. HA operations of Mirth
+    are not trivial. We make it easy, instantly.\n* HA configuration of Postgres.
+    A supplemental database is important for initial message ingestion, and must support
+    a similar HA nature for continuous connection.\n* Load balancers.\n* Network monitoring
+    and usage alerts. Understanding the traffic usage is important for audit purposes.
+    Additional alerting is important for ongoing management of a connection.\n* VPN
+    Management. Remember, you do not integrate with Epic, you integrate with a specific
+    site's version of Epic. Therefore you'll need a VPN for every integration you
+    plan to make. Our VPN tooling makes it easy, combined with our expertise in how
+    to ensure they stay connected 24/7.\n\nThe integration environment is available
+    in both the [Standard and Professional plans](/pricing). The environment is not
+    available for free trials (yet), but will be soon. Along with this update, we
+    have now made VPN management available in the Standard plan as well, so people
+    can get started with EHR integration for as low as $1,150/mo.\n\nWe're often asked
+    how much throughput a typical environment can handle. The answer is _a lot_. A
+    single environment with no modifications can handle as many as fifty site integrations.
+    If customers need to scale throughput, they simply scale RAM. If you have any
+    additional questions, [please reach out](/services/#cta). We're happy to chat.\n\n##
+    Pricing Updates\n\nOne thing you may notice is that we do not bundle the integration
+    environment with professional services under the name of \"Managed Integration\"
+    anymore.\n\nOur customers that have greater challenges or unique needs can now
+    purchase both separately since services are now optional.\n\nThis means digital
+    health teams can get all the integration tooling they need — along with HITRUST
+    CSF Certified, HIPAA compliant, secure infrastructure housed under one [Business
+    Associate Agreement](/blog/3-common-misconceptions-about-business-associate-agreements/)
+    — for as little as $1,150/mo.\n\nThe other exciting news about Datica's pricing
+    is that this scales much better for you. It's pricing that is truly aligned with
+    your success.\n\n## The Future of Integration Is Open\n\nThis is a shift in how
+    we offer integration because it better aligns with the needs of digital health
+    companies. You want open standards, you want ease of use, you want compliance
+    and security, but most importantly, you want successful EHR integrations. This
+    new option gives that to you with a single click.\n\nHealthcare developers can
+    get started on new projects faster, and benefit from three years of learning.
+    We aim to empower the developer community to solve the problem of integration
+    themselves with tools that are open, reliable, compliant, and secure.\n\nFor moments
+    where projects seem too difficult, [our integration services team](/services)
+    will be ready to jump in and help you with that lift. We see a world in which
+    all of our customers can eventually own their own integrations and we want to
+    provide the easiest path for customers to be able to manage that themselves. [Reach
+    out](/services/#cta) if you have any questions, we'd love to help you out.\n"
+  :featured_image:
+    :id: 6JRShb9r5S2kgakoeM0EME
+  :share_image:
+    :id: 5XLvUOemeAIQyEMss2uW6I
+  :cta_ref:
+    :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+  :related_entries:
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 6CB2jwUkdaQ2aUG884qQSS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 3VMljZKhTquyQC46sao4mA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:45:37+00:00'
+    :created_at: '2018-02-26T20:29:04+00:00'
+    :id: 3VMljZKhTquyQC46sao4mA
+  :title: HITRUST on AWS is possible! Find out how at HIMSS18
+  :slug: hitrust-on-aws-is-possible-find-out-how-at-himss18
+  :pub_date: !ruby/object:DateTime 2018-02-26 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting
+    on the topic of HITRUST in the AWS booth #1625 at 11:00am.
+
+'
+  :blog_lead: |-
+    HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625.
+
+    AWS asked us to share our knowledge of HITRUST with their customers, or those organizations interested in being AWS customers, in a special 20-minute session held at 11:00 am. We are excited for the opportunity to break down the fundamentals of HITRUST on AWS, and then give advice to attendees on their own journey towards HITRUST certification.
+  :post: "\nHITRUST is becoming one of the most important pivot points for any enterprise
+    healthcare cloud strategy. We've seen this first hand ourselves, time and time
+    again.\n\nInnovative health IT programs typically face three blockers when trying
+    to adopt AWS:\n\n1. **Internal IT closely guards available resources.** They push
+    projects to internally owned and managed hard drives and CPU cores. When moving
+    to the cloud, those initiatives can be viewed as \"Shadow IT\" because of the
+    DevOps and cloud engineering resources needed outside of their control.\n\n2.
+    **Internal Compliance does not approve of the low levels of liability taken on
+    by AWS.** Under AWS's [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/),
+    roughly 1/10th of compliance controls are taken on by them (mostly the physical
+    level and firewall). The other 9/10ths are major gaps that are now the organization's
+    responsibility. Not cool in their book.\n\n3. **Internal Security is often aligned
+    with Internal Compliance.** They view a presence on AWS as a new threat vector.
+    While AWS themselves have some of the best infrastructure security measures in
+    the world, the operating system level is still the responsibility now of the organization
+    to secure. That's a lot of work and a lot of liability! Typically it's a problem
+    requiring hard-to-find resources like cloud engineers—a luxury in health IT.\n\nAll
+    combined, most healthcare enterprises are blocked from adopting AWS. David Deas,
+    Corporate Director of Innovation and Knowledge Analytics at Method Le Bonheur,
+    articulated this exact pain while giving a talk at last year's re:Invent conference:\n\n<iframe
+    width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oju3cVT5YBo?rel=0\"
+    frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n##
+    Enter HITRUST, the on-ramp for AWS\n\nFor the David Deas's of the world, HITRUST
+    has been a godsend.\n\nFor three years in a row, Datica has been Stage 3 CSF Certified
+    on top of AWS. Our Platform absorbs all liabilities for compliance **on** the
+    cloud, which extends AWS's excellent coverage for compliance **of** the cloud.
+    \n\n![Datica Shared Responsibility Model](//images.contentful.com/189dvqdsjh46/3lcfH25St2OysgsKCgc4Kk/f368d2e9d454a691098bdcd725b05271/Shared_Responsibilities.png)\n\nHealthcare
+    enterprises have taken note. They look to Datica to give assurances to those three
+    internal stakeholders, which in turn green light adoption of AWS for innovative
+    projects.\n\n* Internal IT trusts Datica's cloud management, effectively eliminating
+    the \"Shadow IT\" concern while simultaneously alleviating their burden to always
+    \"rob Peter to pay Paul\" with hard drives and CPUs.\n\n* Internal Security and
+    Internal Compliance both view HITRUST as the highest standard of security and
+    compliance in the industry. By partnering with Datica, all their concerns go away.\n\nThe
+    result is that people like David Deas who can get meaningful work done fast, are
+    making a genuine impact on the lives of patients while reducing clinical costs.\n\n##
+    Live presentation for those who can't make it at HIMSS\n\nIf you are not attending
+    HIMSS this year, or if you are unable to make the 11:00 am time slot on Tuesday,
+    March 6th, we are holding a 30-minute webinar later in March to expand on Travis'
+    presentation. Please join us if you can't visit us in person at HIMSS.\n\n[Visit
+    our webinar overview to register for the March 21st presentation at 12:00 pm CST.](https://content.datica.com/hitrust-on-aws-2018-03-21)\n\nWhile
+    you’re at HIMSS make sure to also visit the Datica booth, #5077. See you at HIMSS!\n\n\n"
+  :featured_image:
+    :id: 2Lo2RhplFSUYgYaaI62icw
+  :share_image:
+    :id: 1jCkELzupwW6ugkiqIqqie
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

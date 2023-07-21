@@ -1,0 +1,158 @@
+---
+:id: 4I9re0AHjGs8AKyWOMMAK8
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2018-10-09T22:57:07+00:00'
+  :created_at: '2018-09-26T23:30:08+00:00'
+  :id: 4I9re0AHjGs8AKyWOMMAK8
+:title: How to build your own Complete Cloud Compliance program
+:slug: how-to-build-complete-cloud-compliance-program
+:event_date: !ruby/object:DateTime 2018-10-09 13:00:00.000000000 -05:00
+:summary: In this practical webinar, extracted from Chapters 5 and 6 of the new book,
+  Complete Cloud Compliance, we’ll detail the steps you need to take to ensure cloud
+  compliance.
+:subhead: Learn how to build a compliance program that accounts for cloud-native microservices
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+:lead: |+
+  Nothing has fully tied together the compliance considerations needed for the cloud-native, microservices-based architectures of this modern era until now. Complete Cloud Compliance(3C) is the new mandate for cloud-based healthcare applications.
+
+  In this practical webinar, extracted from Chapters 5 and 6 of the upcoming book, [Complete Cloud Compliance](https://datica.com/innovation/complete-cloud-compliance-chapter-2/), we’ll show you how compliance has failed to keep up with modern cloud architectures and will detail the steps you need to take to ensure cloud compliance.
+
+:desc: |-
+  ## Watch this webinar to:
+
+  * Understand the compliance tradeoffs caused by today’s abstraction of the cloud, including cloud-native microservices and managed services.
+  * Find out the 6 common components that are necessary for any 3C program.
+  * Learn how to create a cloud compliance roadmap that will guide your way to your own 3C program.
+:authors:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: uYc9d0ZbpeKi8Iy2YW4Mi
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-10-10T16:30:59+00:00'
+    :created_at: '2018-10-09T22:23:26+00:00'
+    :id: uYc9d0ZbpeKi8Iy2YW4Mi
+  :title: Webinar - How to build Complete Cloud Compliance
+  :slug: webinar-how-to-build-complete-cloud-compliance
+  :desc: Form for 10/9/2018 webinar archive
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"da7532c4-4b3e-4e82-99dd-9a1e5394e47b\",\n
+    \ css: \"\",\n  target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n
+    \   window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n
+    \                     'event' : 'GAEvent',     \n                      'eventCategory'
+    : 'Webinar',\n                      'eventAction' : 'Form Submission',\n                      'eventLabel'
+    : 'Build Complete Cloud Compliance',\n                      'eventValue' : '2'\n
+    \                     });\n                    }\n});\n</script>"
+:video_embed:
+  :id: 5xyNI8BG7YmU0U6A0M44cW
+  :_meta:
+    :content_type_id: videos
+    :updated_at: '2018-10-09T22:55:11+00:00'
+    :created_at: '2018-10-09T22:55:11+00:00'
+    :id: 5xyNI8BG7YmU0U6A0M44cW
+  :title: How to build your own Complete Cloud Compliance Program
+  :slug: how-to-build-your-own-complete-cloud-compliance-program
+  :custom_form: <script src="https://fast.wistia.com/embed/medias/2apo1kvgbk.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_2apo1kvgbk videoFoam=true" style="height:100%;position:relative;width:100%"><div
+    class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/2apo1kvgbk/swatch"
+    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;"
+    /></div></div></div></div>
+  :wistia_id: 2apo1kvgbk
+  :bg_image:
+    :id: 4CiiFRHmxiW2emW0WmmiYu
+:image_thumb:
+  :title: webinar-c3-2-promo-bg
+  :description: Build Complete Cloud Compliance program promo bg
+  :url: "//images.ctfassets.net/189dvqdsjh46/4CiiFRHmxiW2emW0WmmiYu/d6c4dcd95cfc3a204c565e7c6a08793f/webinar-c3-2-promo-bg.jpg"
+  :_meta:
+    :updated_at: '2018-09-27T19:19:38+00:00'
+    :created_at: '2018-09-26T22:52:56+00:00'
+    :id: 4CiiFRHmxiW2emW0WmmiYu
+:share_image:
+  :title: webinar-c3-2- promo-lg
+  :description: Build Complete Cloud Compliance program promo lg
+  :url: "//images.ctfassets.net/189dvqdsjh46/tEItlivaveUouCGw2IuwQ/4112cec8dc037be7a11a15311c77ce23/webinar-c3-2-_promo-lg.jpg"
+  :_meta:
+    :updated_at: '2018-09-27T19:19:38+00:00'
+    :created_at: '2018-09-26T22:55:06+00:00'
+    :id: tEItlivaveUouCGw2IuwQ
+:cta_ref:
+  :id: 6uKml5g9d60cQI2YswoqEE
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:30:52+00:00'
+    :created_at: '2018-10-02T19:30:36+00:00'
+    :id: 6uKml5g9d60cQI2YswoqEE
+  :cta_title: Take the Cloud Configurations Survey
+  :cta_desc: We want to make sure the Cloud Compliance Management System has you covered.
+    Tell us what other cloud configurations you want to see.
+  :cta_label: Take the Survey
+  :cta_url: https://datica.com/cloud-compliance-management-system/survey/
+  :cta_image:
+    :id: 5TDGfDp13aEgs6gO8g2YC2
+  :cta_image_small:
+    :id: 6KsyCUFBSMsOW6UW2IUW4U
+  :cta_color: gray-light

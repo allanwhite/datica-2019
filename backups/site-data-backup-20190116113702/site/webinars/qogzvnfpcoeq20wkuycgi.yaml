@@ -1,0 +1,298 @@
+---
+:id: QOGZVNFPCoeq20wKUyCGi
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2018-09-20T20:09:04+00:00'
+  :created_at: '2018-06-13T18:22:38+00:00'
+  :id: QOGZVNFPCoeq20wKUyCGi
+:title: Kubernetes and HITRUST Compliance
+:slug: kubernetes-and-hitrust-compliance
+:event_date: !ruby/object:DateTime 2018-06-20 13:00:00.000000000 -05:00
+:summary: Learn how Kubernetes with Datica can guarantee a continuously compliant
+  state for deploying containerized workloads.
+:subhead: Learn how Kubernetes with Datica can guarantee a continuously compliant
+  state for deploying containerized workloads.
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:lead: Kubernetes has risen to be the industry accepted leader in orchestration, doing
+  an amazing job at scaling, firing up and tearing down containers, updating systems
+  without any outages, and more. But in healthcare and many other highly-regulated
+  industries, compliance to HIPAA, GxP, NIST, GDPR, and other regulatory frameworks
+  has limited developers’ ability to jump on the Kubernetes bandwagon.
+:desc: |-
+  Until Datica. We built the Kubernetes-based Datica Platform to run in any cloud environment with compliance as its core DNA. Lately, HITRUST has emerged as the best way to prove compliance to internal stakeholders. Compliance and security professionals view it as the best industry standard and approve partners who are HITRUST CSF Certified, like Datica.
+
+  ### In this webinar you will learn:
+
+  1. Why HITRUST? How does it “Map” to other compliance regimes and how does that support my compliance story?
+  2. How you can use Kubernetes with Datica to easily deploy containerized workloads and guarantee a continuously compliant state.
+  3. What is the “Shared Responsibility” model?
+  4. How HITRUST CSF certification removes the business blockers of compliance and security so you can access the benefits of Kubernetes.
+  5. Why continuous compliance monitoring is crucial to monitoring and maintaining the security of your data and how Datica enables it.
+  6. What does the Datica Kubernetes Platform look like?
+:authors:
+- :id: rVZcG8ORWKg8o4EIuqQ8a
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-10-31T03:11:34+00:00'
+    :created_at: '2018-02-19T20:40:25+00:00'
+    :id: rVZcG8ORWKg8o4EIuqQ8a
+  :fullname: Christopher Gerg
+  :slug: christopher-gerg
+  :person_type: Datica Alumni
+  :role: Chief Security Officer
+  :profile_pic:
+    :id: gKMODezw2WQ8sy8246u4K
+  :email: christopher@datica.com
+  :bio_short: Christopher Gerg leads the security and compliance teams at Datica in
+    his role as Chief Security Officer.
+  :bio: "With more than 15 years of information security experience, Gerg most recently
+    served as CEO and Principal Consultant at Gauntlet Consulting, LLC. Prior to that,
+    HealthGrades tapped Gerg as its Chief Information Security Officer and VP of Infrastructure
+    & Engineering. He has experience in the hosting, managed security services, e-commerce,
+    healthcare, financial, and payment card industries and has worked as a Systems
+    Administrator, Network Engineer, Penetration Tester, Information Security Architect,
+    VP of Information Technology, Director and Chief Information Security Officer.
+    Gerg was a past member of the Network Security Team for the 2000 Republican National
+    Convention and is also an author of the O’Reilley Media book “Managing Network
+    Security with Snort and IDS Tools.”\n\nWhile an expert in the theoretical aspects
+    of information security best practice, he is also experienced in the practical
+    aspects of building a secure technical environment – and working with the boardroom
+    to promote executive understanding and support. "
+  :profile_linkedin: christopher-gerg-8aa0a66a
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: 5Dlbw6xnXyQ0syQCGeU8KK
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:05+00:00'
+    :created_at: '2018-07-02T22:48:58+00:00'
+    :id: 5Dlbw6xnXyQ0syQCGeU8KK
+  :title: Webinar - Kubernetes + HITRUST
+  :slug: webinar-kubernetes-hitrust
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"c79209aa-0e50-40e0-b6e6-99e2fe6133c5\",\n
+    \ target: \"#hsFormContainer\",\n  css: \"\",\n  onFormSubmit: function($form)
+    {\n    window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n
+    \                     'event' : 'GAEvent',     \n                      'eventCategory'
+    : 'Webinar',\n                      'eventAction' : 'Form Submission',\n                      'eventLabel'
+    : 'Kubernetes + HITRUST',\n                      'eventValue' : '2'\n                      });\n
+    \                   }\n});\n</script>"
+:video_embed:
+  :id: 2y1scqPV9uOwMsogmAKkkC
+  :_meta:
+    :content_type_id: videos
+    :updated_at: '2018-07-10T22:17:53+00:00'
+    :created_at: '2018-07-10T22:17:53+00:00'
+    :id: 2y1scqPV9uOwMsogmAKkkC
+  :title: Kubernetes & HITRUST webinar
+  :slug: kubernetes-and-hitrust-webinar
+  :custom_form: <script src="https://fast.wistia.com/embed/medias/w0yuuwjc07.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_w0yuuwjc07 videoFoam=true" style="height:100%;position:relative;width:100%"><div
+    class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/w0yuuwjc07/swatch"
+    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;"
+    /></div></div></div></div>
+  :wistia_id: w0yuuwjc07
+  :bg_image:
+    :id: 6TlD2byq2IGg24oM04I2aM
+:image_thumb:
+  :title: webinar-k8-2-bg
+  :description: kubernetes, webinars
+  :url: "//images.ctfassets.net/189dvqdsjh46/6TlD2byq2IGg24oM04I2aM/26491463437a9fc92e8c6224254738f9/webinar-k8-2-bg.png"
+  :_meta:
+    :updated_at: '2018-06-22T21:15:22+00:00'
+    :created_at: '2018-06-13T18:22:00+00:00'
+    :id: 6TlD2byq2IGg24oM04I2aM
+:share_image:
+  :title: webinar-k8-2-promo-lg
+  :description: HITRUST on Kubernetes Webinar CTA image
+  :url: "//images.ctfassets.net/189dvqdsjh46/6vqOsDKfNCOCOkeqOIYASc/a5c24dd0628c2a8789ec6c82c48e2654/webinar-k8-2-promo-lg.png"
+  :_meta:
+    :updated_at: '2018-06-08T00:12:41+00:00'
+    :created_at: '2018-06-07T21:03:16+00:00'
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2

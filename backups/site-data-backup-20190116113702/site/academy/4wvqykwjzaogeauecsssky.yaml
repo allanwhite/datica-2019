@@ -1,0 +1,720 @@
+---
+:id: 4wVqYkwjzaogEAuecsSsky
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:40+00:00'
+  :created_at: '2017-01-16T17:41:29+00:00'
+  :id: 4wVqYkwjzaogEAuecsSsky
+:title: HIPAA, Subcontractors, and BAAs
+:slug: hipaa-subcontractors-and-baas
+:pub_date: !ruby/object:DateTime 2018-08-16 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: The major part of security in healthcare is HIPAA, and the HIPAA rules changed
+  in late 2013 with the new HIPAA Omnibus that adds subcontractors entities.
+:post: |-
+  Our mission is to help developers build health apps and technology. Specifically we want to offer tools and services to deal with the security and data challenges in healthcare. The major part of security in healthcare is HIPAA, and the HIPAA rules changed in late 2013 in ways that we've been planning for at Datica. The new HIPAA Omnibus ("omnibus" means something with several volumes or chapters, I didn't know that so I looked it up and thought I'd share) rules that went into effect on 9/23, amongst other changes, created a category of entities called subcontractors.
+
+  Previously HIPAA rules only defined two categories of entities - covered entities and business associates. Covered entities are basically providers, payers, and clearinghouses. Business associates are basically entities that work with covered entities to perform a service or services to store, transmit, and/or process PHI. The new HIPAA rules expanded the number of categories of entities by 50% with the addition of subcontractors; for those of us in health tech, we think this is a pretty big deal.
+
+  Subcontractors are entities that business associates use to process, create, or store PHI. Subcontractors don't have business associate agreements, or really any direct relationships, with covered entities; but, starting 9/23/2013, theses subcontractors need to have business associate agreements (BAAs) with business associates. It's all very obvious and confusing at the same time. Essentially you can think of subcontractors as a business associate of a business associate.
+
+  The best examples of subcontractors we can think of are hosted services providers like Amazon Web Services, Datica, and Rackspace. Datica is a subcontractor for some of our customers and, as such, we do sign BAAs. We also act as a business associate directly for covered entities like enterprises, and sign BAAs in this capacity as well. We offer the same API-based services for developers in both circumstances, but the relationship is slightly different in the eyes of HIPAA.
+
+  At Datica we know that subcontractors, as defined by HIPAA, have existed for a long time. As more health apps and services have shifted to hosted, or cloud based, and more infrastructure tools (app dev, logging, analytics, data collections, etc) have become mainstream, covered entities and business associates have begun to rely on "subcontractors". The new HIPAA rules now mean those subcontractors need to work with business associates to assure all parties are covered in terms of liability.
+
+  This is a very exciting and major shift for health tech. HIPAA has finally acknowledged subcontractors and the role they play in creating, processing, and transmitting PHI. That's important for health tech to build smart, scalable, and interoperable tools. As a developer in healthcare, if you're considering acting as a business associate, or selling services to a covered entity, you need to understand if you fit into a certain entity category as defined by HIPAA.
+
+  We encourage you to read the rest of the new [rules](http://www.hhs.gov/news/press/2013pres/01/20130117b.html), or at least one of the commentaries that covers them in more detail, to see about the other changes that are a part of the Omnibus rule. If you have any questions related to the new rules, where you potentially fit, and how we can help you mitigate your risk, shoot us an [email](mailto:hello@datica.io).
+:related_guide:
+  :id: 6evss0t4I0IC2cQasg0K2O
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :title: Everything you need to know about HIPAA compliance
+  :slug: hipaa
+  :summary: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :subhead: A guide written by the authoritative voices on HIPAA compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: |-
+    Over the many years Datica has been providing HIPAA compliant cloud solutions to healthcare companies large and small, we have amassed a comprehensive understanding around what makes HIPAA confusing.
+
+    We have empathy for the anxieties you encounter and the confusion even veteran healthcare leadership confide within us. We understand the questions we are asked and the curiosities newcomers have. It is because of this unique position as HIPAA experts in the healthcare community that we decided to aggregate the most important topics into a condensed, easily digestible guide for those looking to quickly gain literacy around HIPAA.
+
+    The Datica guide to HIPAA compliance will answer all your nagging questions. Included in the guide:
+
+    - HIPAA Overview: The origins and intent of HIPAA
+    - Protected Health Information and why it is central to HIPAA
+    - Definitions of a Covered Entity, Business Associate, Subcontractor, and which apply to you
+    - The importance of Business Associate Agreements
+    - How to prove compliance
+    - Why HITRUST is critical
+    - Administrative vs. Technical safeguards and obligations
+    - How audits are done, including estimated costs
+    - Finally, a simple explanation to whether you need to be compliant and how you achieve compliance
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ea3f6ef3-bac2-4c1c-a26b-b2a93d1db2a1
+  :bg_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 3JRgbNv5QcuO2ouAcUOaiI
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 3JRgbNv5QcuO2ouAcUOaiI
+  :title: How do you do HIPAA training?
+  :slug: how-do-you-do-hipaa-training
+  :pub_date: !ruby/object:DateTime 2018-02-09 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: HIPAA Security Rule standards include training workforce members. That
+    means all employees and contractors of a business associate or covered entity.
+  :post: |-
+    There are standards within the HIPAA Security Rule to train all organization workforce members. That means all employees, as well as contractors, of a business associate  or covered entity. The rules for training two-fold - 1) providing training to new workforce members and 2) ongoing and periodic training, especially with environment or organizational changes. It's not simply a one time and done requirement.
+
+    The content of training should also be two-fold - 1) training around HIPAA (what is PHI, when is it authorized to disclose, etc) and 2) training around information security. The first category of content deals with understanding what HIPAA is, the types of data that would meet the definition of ePHI, and the types of safeguards which are required and addressable as part of HIPAA - things like encryption, auditing, and disaster recovery. The goal should be for every employee and contractor to have an understanding of what HIPAA means, at a high level, and ideally have it be a part of the way that an organization makes operational and technical decisions.
+
+    The other category of training relates not specifically to HIPAA, but more around training workforce members in information security best practices. It's important to understand about things like encryption from the technical perspective and from a process perspective, not necessarily for HIPAA, but so that good information security practices are something that workforce members know and follow.
+
+    At Datica, we provide HIPAA and information security training for all new employees to assure that they know how to spell HIPAA correctly, and additionally, so that they understand the nature of the types of data that we're storing for customers, the importance of the integrity of that data, and the security and privacy related to that data. We also provide employees training on an annual basis and with weekly, what we call, Brown Bag Trainings. Those trainings always relate to either a HIPAA topic, like contingency planning or disaster recovery, or a security topic, like some specific information security topic that may not be prescriptive within HIPAA, but is really best practice. The reason we differentiate between the two categories of training is that compliance and security aren't always the same thing.
+
+    We want security to be a part of the way that our workforce members think about technology. We want it to go into every decision that they make, and every requirement that they write, and every line of code. So that they understand not just the importance of HIPAA, not just what is PHI, but also what are the best technical practices to secure that data. We're acting as a trusted compliance partner, and an abstracted compliance and security layer for our customers, so we need security and compliance to be at the center of how we operate. We put a lot of time and energy into training to make sure that all of the technology that we provide to our customers is not just compliant, but also secure. We're planning to "open source" our training, and do more open training by using our Brown Bag Trainings as a springboard into blog posts in which others can learn.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: 7rqrnw1soEOS4QEeAC0c8q
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :title: Business Associate Agreements
+  :slug: business-associate-agreements
+  :pub_date: !ruby/object:DateTime 2018-04-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: With ePHI access, business associates are required to sign a HIPAA business
+    associate agreement (BAA). Learn more about business associate agreements here.
+  :post: |-
+    The HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and entities that have to follow the HIPAA security and privacy rules. The main categories are clearinghouses, covered entities (CEs) - typically hospitals, payers, and providers, and business associates. Business associates are far away the biggest cohort of cloud computing companies.
+
+    Business associates are people or organizations who contract and provide services and/or technology for covered entities. In the process of providing those services or those technologies, business associates handle, process, transmit, or in some way interact with electronic protected health information (ePHI) from those covered entities. With this ePHI access, business associates are required to sign what's called a business associate agreement (BAA). Below is the actual language from HIPAA 164.308.
+
+    * (b)(1) Business associate contracts and other arrangements. A covered entity may permit a business associate to create, receive, maintain, or transmit electronic protected health information on the covered entity's behalf only if the covered entity obtains satisfactory assurances, in accordance with §164.314(a), that the business associate will appropriately safeguard the information. A covered entity is not required to obtain such satisfactory assurances from a business associate that is a subcontractor.
+
+    * (2) A business associate may permit a business associate that is a **subcontractor** to create, receive, maintain, or transmit electronic protected health information on its behalf only if the business associate obtains satisfactory assurances, in accordance with §164.314(a), that the subcontractor will appropriately safeguard the information.
+
+    Business associate agreements are basically legal contracts that outline the ways in which business associates follow HIPAA, as well as the responsibilities and risks that the business associate takes on. They typically defines the type of services that the business associate is providing, the type of data that they are interacting with, states that they will follow HIPAA and not disclose PHI without authorization. They also should address areas around breach notifications and penalties. Traditionally, pre-cloud and prior to the HIPAA Omnibus changes of 2013, BAAs were boiler plate. Here's the [template BAA](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/contractprov.html) from HHS.
+
+    Business associate agreements became a lot more interesting with the passing of the new HITECH HIPAA Omnibus Rule in 2013, which expanded upon that definition of business associate to include something called subcontractors. Subcontractors are typically service or technology organizations that provide additional services to the business associates, which are providing services for the covered entities. With subcontractors and APIs and SaaS, there is now a chain of entities touching ePHI in some way, and each of them need to have BAAs in place that are consistent and not contradictory to one another. As an example, a business associate selling to hospital A can't have a breach notification policy of less than 24 hours if the hosting provider they use has a physical breach notification policy of 2 months.
+
+    As the internet, cloud computing, and APIs have broken down silos, more and more applications rely on different layers of technology and services, considered subcontractors. These subcontractors have to sign business associate agreements with business associates, who in turn have to sign a business associate agreement with covered entities. That's actually a very common use case for us at Datica, where most of our early customers are business associates, and their customers are covered entities.
+
+    We spent a lot of time and a lot of money with our attorneys on our BAAs because this is a new area, an area we don't think is well defined yet; we don't think the existing BAA templates are adequate or even make sense for most hosted vendors. In this new paradigm of health technology there are interesting definitions around which entities are responsible, both technically and financially in the case of a breach, for different aspects of the HIPAA rules. We tell our prospective customers to read their current business associated agreements that they have with their hosting providers or other services companies to get a sense of what the legal responsibility is for the business associate and the aspects to which the subcontractor is ultimately. Regardless of who is issuing the BAA, you should read through it in detail because at some point a compliance or security officer likely will read it and you want to be as proactive about compliance issues as you can.
+
+    If you boil it down, business associate agreements are just contracts that outline the ways in which different organizations are going to handle electronic protected health information (ePHI), the types of responsibilities that those organizations take on, some of the very specific rules around their obligations with regards to HIPAA. This last one, the obligations of subcontractors, is an area in which you want to pay close attention. Specifically read what the subcontractors obligations are in terms of timeliness of breach notification, because that was a part of the changes in the HIPAA Omnibus Rule that just went into effect. We have had several early customers come to us because the time period for breach notifications with their existing hosting provider is not acceptable for covered entities they are selling into. We've talked to several companies that have run into roadblocks with enterprises because their business associate agreements with their hosting providers had been out of line, and especially relating to breach notification. Our policy at Datica is breach notification within 4 hours, along with some very detailed [plans](https://catalyze.io/hipaa#notification-in-the-case-of-breach---13402(a)-and-13402(b)) to help you mitigate the risk of a breach.
+
+    At a high level, that's what business associate agreements are and you are expected to have those for all of the various technology and services companies that you work with that might in some way interact, process, store, or have access to ePHI. If you're a business associate or you're a covered entity, we happily sign BAAs. And if you're interested in seeing one of our BAAs, [email us](mailto:legal@datica.com) and we'll walk you through ours and answer any questions you might have about it.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 1PYfVd3tsoq6WeAMGyWwo6
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 5Eape5yb0k0SGOu2Asw0ss
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:38:33+00:00'
+    :created_at: '2017-12-11T23:44:43+00:00'
+    :id: 5Eape5yb0k0SGOu2Asw0ss
+  :title: How does GDPR compare to HIPAA?
+  :slug: how-does-gdpr-compare-to-hipaa
+  :pub_date: !ruby/object:DateTime 2017-12-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Though different in who they apply to and how you prove compliance, HIPAA
+    and GDPR are both about having security as a core tenet of operations.
+  :blog_lead: At the AWS re:Invent conference earlier this month, GDPR was a major
+    area of interest from attendees though AWS has little content coverage for GDPR.
+    GDPR, which stands for General Data Protection Regulation, is the acronym for
+    the much anticipated new EU security and privacy framework that goes into effect
+    in May of 2018. GDPR leaves some discretion to EU member states but, as a general
+    rule, and the reason it is getting so much attention, is that it applies across
+    all EU Member States. The purpose of this post is to introduce those familiar
+    with healthcare privacy and security in the United States, namely those concerned
+    with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even
+    security requirements more generally, but instead focuses on the broader principles
+    and privacy guidelines for health data under GDPR.
+  :post: "\nThe process of expanding and proving compliance across multiple frameworks,
+    both for us and our customers, is not new to us at Datica. You can follow our
+    changes through the updates to our [open source policies and procedures](https://datica.com/open-source/policies/);
+    our policies define the operational and technical controls we use. We started
+    with HIPAA and quickly expanded to leverage [HITRUST](https://datica.com/blog/hitrust-csf-certification-round-3/)
+    as the core risk framework for our internal compliance program. We then added
+    SOC2, Privacy Shield, and, most recently, GxP. We will complete our full GDPR
+    audit in 2018 ahead of GDPR going into effect. Our goal has always been to build
+    and maintain one compliance program to prove compliance with multiple frameworks.
+    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
+    \                                                                                       \n##
+    GDPR applies to all personal data storage\n\n[GDPR is getting outsized attention](https://www.eugdpr.org/)
+    because it applies to all personal data storage and processing, limiting or putting
+    at risk all companies that leverage individually identifiable data (think of Google
+    and Facebook, not just healthcare providers, payors, life sciences, and digital
+    health companies). GDPR also applies to organizations that control or process
+    data for citizens of EU Member States regardless of where the organization is
+    based.\n\nHealthcare and health data, “data concerning health”, is one subset
+    of GDPR and specifically applies to data concerning physical and mental health,
+    genetic data, and biometric data. The good news is that GDPR has considerable
+    overlap with HIPAA, and to an even larger extent, HITRUST.\n\n## GDPR entities:
+    controllers and processors\n\nIn the world of HIPAA, you’re either a covered entity
+    (CE) or a business associate (BA); for the purposes of this guide, subcontractors
+    are just business associates of business associates. In the world of GDPR, you’re
+    either a controller or a processor. The structures don’t mirror each other 100%
+    but controllers, like covered entities, are the organizations that ultimately
+    own personal data and processors, like business associates, provide services,
+    or data processing, for controllers.\n\nThe major difference is that HIPAA strictly
+    defines covered entities based on functions in healthcare as providers, payors,
+    and clearinghouses whereas GDPR defines controllers as “natural or legal person,
+    public authority, agency or other body which, alone or jointly with others, determines
+    the purposes and means of processing of personal data.” HIPAA defines entities
+    based on the function of the organization and GDPR defines it based on the ownership
+    of data; this is a consistent theme throughout GDPR. \n\nMy interpretation of
+    GDPR, and a significant area of difference that healthcare organizations need
+    to consider, is that direct to consumer health offerings like Fitbit, MapMyRun,
+    or an application for medical adherence created by a pharmaceutical company, would
+    be considered controllers whereas in the US, under HIPAA, they wouldn’t need to
+    adhere to HIPAA until they worked with customers or patients of a provider or
+    payor. When those same direct to consumer companies in the US did work with providers
+    and payors, they would be considered business associates and not covered entities.
+    This flips the model for these companies as they are now the focal point of data
+    control and risk under GDPR.\n\nControllers, like covered entities, are ultimately
+    responsible and liable for the protection of data. As such, controllers need to
+    put data processing agreements (DPA) in place with processor partners; similarly,
+    covered entities under HIPAA must put business associate agreements (BAAs) in
+    place with business associates. GDPR is more prescriptive in terms of what needs
+    to be included in a DPA, something that is much needed in the US but is lacking
+    in the HIPAA rules. The prescriptive nature of DPAs ensures additional protection
+    and transparency over the wild west of BAAs in the US. One of the things GDPR
+    requires, with some rare exceptions, in DPAs is that data is destroyed once the
+    relationship between controller and processor ends; this severely limits the ability
+    of processors to aggregate and retain personal data for future use. And, similarly
+    to the US and HIPAA after the Omnibus rule was passed, processors under GDPR must
+    have similar DPAs in place with their own processor partners.\n\n## GDPR breach
+    reporting\n\nUnder GDPR, there are strict breach reporting requirements. The timeline
+    to report breaches is 72 hours from becoming aware of a breach. Any organization
+    adhering to HIPAA would have breach reporting timelines in policies, contracts,
+    and/or BAAs; but, most breach reporting times we see from major cloud providers
+    and vendors are on the order of days (10 days being the shortest we’ve seen),
+    weeks, and even months. The lowest time we’ve seen for breach reporting is our
+    own Datica breach reporting time, which is 4 hours. For entities looking to comply
+    with GDPR, there are changes that need to be made both technically and operationally
+    to commit to 72 hour breach reporting.\n\n## Health data access under GDPR\n\nGDPR
+    puts forth clear guidelines for when health data can be processed, or essentially
+    when it can be accessed. Under GDPR, health data can only be accessed 1) with
+    explicit consent from the individual, 2) for health and social care, and 3) for
+    public health (cross border containment being the example given). There are some
+    nuances to this, specifically with data for scientific or clinical research, but
+    those are mainly only with explicit consent. HIPAA similarly defines permitted
+    uses and disclosures of health data for 1) treatment, 2) payment, and 3) healthcare
+    operations.\n\nSome of the harder areas of GDPR, at least in comparing it to HIPAA,
+    are the rights of individuals to get access to all of their data and to be forgotten
+    (have all their data deleted). Healthcare data is much more extensive than other
+    types of data like payment data; it’s the reason complying with HIPAA isn’t the
+    same as complying with PCI where you can essentially outsource payment processing
+    to Stripe. Granting access to all personal health data or being able to delete
+    all health data is a very high bar to meet, especially for large, bloated EHRs
+    and legacy healthcare software.\n\n## Data Protection Impact Assessments\n\nOne
+    of the things I like a lot about the GDPR is the overarching principle of data
+    protection by design and default. Sadly, security, and compliance, is often an
+    afterthought at best or perceived unnecessary box to check at worst. GDPR explicitly
+    attempts to resolve this pattern. GDPR goes further than HIPAA, and in this way
+    is very similar to HITRUST, in that it anchors risk assessment, analysis, and
+    management to the entire lifecycle of products and services. GDPR requires controllers
+    and processors to conduct Data Protection Impact Assessments (DPIAs), which are
+    just a longer name for a risk assessment. These DPIAs should be performed before
+    the start of development work and done periodically throughout the lifecycle of
+    a product to ensure data is protected and secure. This risk-based model is similar
+    to the way organizations are supposed to use HITRUST to develop a baseline risk
+    model and then consistently update that baseline model. It’s the model we use
+    at Datica and has made it easy for us to maintain continuous compliance for us
+    and our customers.\n\nWhy should you care about the GDPR? If you do anything with
+    healthcare data in the EU, then you are at risk of significant penalties for violations.
+    The penalties for violating GDPR can be up to $20m or 4% global revenue, whichever
+    is highest. If you want to work in the EU or are already in the EU, you need to
+    expand your compliance program and posture to minimize your risk.\n\n----                                                                                                    \nGoing
+    forward, we’ll get into technical details and mappings between HIPAA and GDPR.
+    We’ll also provide specific guidance to inform expansionary changes to security
+    and compliance programs to bring them in line with GDPR. Fundamentally, addressing
+    HIPAA and GDPR is about having security as a core tenet of operations; the major
+    difference is ensuring that evidence and documentation is created to prove compliance
+    with each framework.\n\n"
+  :featured_image:
+    :id: 7aTcDUZzOgKM2yGuYY0u2
+  :share_image:
+    :id: OeOKXAQNoIUAIkEqyGoWk
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+- :id: 3bwNayxEnYkukwYQ6Qqee0
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:09:54+00:00'
+    :created_at: '2017-06-02T18:15:38+00:00'
+    :id: 3bwNayxEnYkukwYQ6Qqee0
+  :title: 3 Common Misconceptions About Business Associate Agreements
+  :slug: 3-common-misconceptions-about-business-associate-agreements
+  :pub_date: !ruby/object:DateTime 2017-06-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: HIPAA outlines the types of entities that are covered but the further
+    down the line a subcontractor gets from a covered entity, the more confusion there
+    is.
+  :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
+    by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+    to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
+    covered entities (CEs), and business associates. The further down the line the
+    subcontractor gets from the covered entity, the more confusion there is about
+    who really is a business associate and who needs to sign a business associate
+    agreement. \n"
+  :post: "\n## Who is a Business Associate?\n\nTo put it very simply, a business associate
+    is a person or organization who interacts with PHI from a covered entity or another
+    business associate. \n\nMore specifically, in the process of providing services
+    or technology to either a covered entity (for example, a hospital) or another
+    business associate as a subcontractor (such as a PaaS provider like Datica), business
+    associates handle, process, transmit, or in some way interact with electronic
+    protected health information (ePHI) from those covered entities. With this PHI
+    access, all business associates are required to sign what’s called a [business
+    associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+    The BAA is a legal contract that describes how the business associate adheres
+    to HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also
+    typically defines the services that the business associate is providing, the type
+    of data they are interacting with, and addresses areas around breach notifications
+    (such as timelines), and penalties.\n\n## If I’m a Subcontracted Developer, Whose
+    BAA do I sign? \n\nThings got a lot more confusing when the HITECH HIPAA Omnibus
+    Rule in 2013 expanded the simple earlier definition of business associate to include
+    something called subcontractors. Subcontractors, like a software developer or
+    hosting provider, are typically service or technology organizations that provide
+    additional services to the business associates, which are providing services for
+    the covered entities. \n\n### Think of it a chain of trust\n\nIt’s like a chain
+    that follows the PHI from the very first link of the chain which is the covered
+    entity. The next link would be the business associate and all of their subcontractors
+    (also business associates) would be links that follow. Think of subcontractors
+    as business associates of business associates. The BAA follows the direct path
+    of the chain. So, a covered entity is not required to sign a BAA with their business
+    associates’ subcontractors, but the business associate is.\n\nEach party in the
+    chain is required by [regulation and by contract](https://www.americanbar.org/content/newsletter/publications/aba_health_esource_home/aba_health_law_esource_1301_hipaa_christiansen.html)
+    to protect the PHI and administer it consistently with the obligations of the
+    covered entity at the top of the chain. So, for example, if a covered entity is
+    a hospital and that hospital has a breach notification of 24 hours, every link
+    (or business associate) of that chain needs to also specify 24 hour breach notification
+    in their BAAs.\n\n## 3 Common Misconceptions\n\nWe talk to development shops and
+    vendors who get this wrong all the time. Here are three of the most common mistaken
+    beliefs we hear:\n\n1. The vendor in question doesn’t necessarily need to be HIPAA-compliant
+    because they aren’t storing data. Even though the vendor claimed they were not
+    storing PHI, having data pass through their systems would still require protection
+    under HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because
+    they encrypted the data in transit and in storage. This is certainly crucial,
+    but there is so much more to HIPAA than encrypting data. You can read about everything
+    we do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+    At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
+    physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
+    As a result, that vendor would need to have a BAA signed with their hosting vendor
+    to ensure legitimacy.\n3. The subcontractor doesn’t need to sign a BAA because
+    the vendor they’re subcontracting for already has one in place with the covered
+    entity. As of 2013, this is false. As soon as PHI passes through your system,
+    you are also automatically considered a business associate and the vendor you
+    subcontracted with will require a BAA from you. In fact, the latest rules state
+    that covered entities MUST ensure they obtain satisfactory assurances from their
+    business associates, and they must do the same with their subcontractors, and
+    so on, no matter how far “down the chain” the information flows. \n\nThis may
+    seem complicated, but don’t forget that the purpose of all of this is to ensure
+    that individuals’ health information remains protected by all parties involved."
+  :featured_image:
+    :id: 2mhnyoSoMQ8S4sII8C0WUK
+  :share_image:
+    :id: 3VRqcm8oEgWucGq06QKSkq
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3p7mN2zaLuoAo6aGwKS0CG
+  - :id: 3nbjv23ydqyiOEwkKkyYCa
+  - :id: 2vLZLMLDskY4UiW8guikiA
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

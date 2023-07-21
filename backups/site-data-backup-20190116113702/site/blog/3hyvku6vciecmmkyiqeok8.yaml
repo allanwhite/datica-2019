@@ -1,0 +1,543 @@
+---
+:id: 3hYvku6VcIecmMKYIQeok8
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T19:58:30+00:00'
+  :created_at: '2017-05-10T01:58:02+00:00'
+  :id: 3hYvku6VcIecmMKYIQeok8
+:title: Healthcare's Shifting Definition of the Cloud
+:slug: healthcares-shifting-definition-of-the-cloud
+:pub_date: !ruby/object:DateTime 2017-05-10 00:00:00.000000000 Z
+:tags:
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: This infographic, extracted from the inaugural Spring '17 _Heart of Medicine_
+  Quarterly Report, describes healthcare's shifting definition of the cloud.
+:blog_lead: 'Datica''s inaugural quarterly report, [The Heart of Medicine: Transformation
+  through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/),
+  tells the most compelling stories of innovation and change in healthcare. '
+:post: |+
+  <a href="https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf" title="cloud adoption in healthcare infographic" rel="external">
+  <img src="https://images.contentful.com/189dvqdsjh46/1OrH0GVvn2iAaqGuOMi66U/65b0f7f0407c6229bca3561517303c53/report-infographic-preview-sq.jpg?w=300" alt="cloud adoption in healthcare infographic" class="float-right" width="150" >
+  </a>
+
+  As part of this first report, we took a deep dive into cloud adoption in healthcare, comparing the results from the [HIMSS Cloud Studies from 2014](http://www.himss.org/library/healthcare-privacy-security/cloud-security/security-survey) and [2017](http://www.himssanalytics.org/research/essentials-brief-2017-cloud-study) and found a few surprising results, most notably, an uptick in adoption of certain areas of cloud computing and services.
+
+  [This infographic](https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf), extracted from the Spring 2017 Quarterly Report, summarizes what we found out about the shifting definition of the cloud in healthcare. Take a look, and then get your copy of the [complete report](https://datica.com/innovation/heart-of-medicine-report-spring-2017/) for other great articles on innovation and change in healthcare.
+
+
+:featured_image:
+  :title: infographic-blog-featured@2x
+  :description: featured, blog, infographic, report
+  :url: "//images.ctfassets.net/189dvqdsjh46/26i0gSEBFy4Mu2y8QUcgIE/430735c02b029c605463e4667595a7cd/infographic-blog-featured_2x.png"
+  :_meta:
+    :updated_at: '2017-05-10T01:49:50+00:00'
+    :created_at: '2017-05-10T01:49:50+00:00'
+    :id: 26i0gSEBFy4Mu2y8QUcgIE
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light
+:related_entries:
+- :id: 7BC902tFlKQwC6YygGECKY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-08-29T04:47:44+00:00'
+    :created_at: '2017-04-11T17:12:26+00:00'
+    :id: 7BC902tFlKQwC6YygGECKY
+  :title: The Accelerating Migration to the Healthcare Cloud
+  :slug: accelerating-migration-to-the-healthcare-cloud
+  :pub_date: !ruby/object:DateTime 2017-04-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 2fzMqf6H3W28sIImkqygQw
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: In this article, we explore the migration to cloud computing in healthcare,
+    the benefits of cloud computing in healthcare, and HIPAA cloud compliant hosting.
+  :blog_lead: "I saw an article recently titled, [“Hospital datacenters: Extinct in
+    5 years?”](http://www.healthcareitnews.com/news/hospital-datacenters-extinct-5-years)
+    that made my jaw drop just a bit. The race to the cloud is unquestionably taking
+    place in just about every other industry. More than half of the CIOs polled at
+    last year’s Gartner Symposium IT Expo are moving away from a captive data center
+    environment and working toward a cloud-first strategy. \n\nThe healthcare industry
+    is notoriously the laggard in that migration and, up until now, healthcare’s race
+    to the cloud has looked more like a slow walk. So, five years may be a bit ambitious.\n\nEven
+    so, the healthcare cloud migration is gaining steam among hospitals and health
+    systems today. In fact, healthcare cloud spending is expected to rise nearly threefold,
+    from $3.73 billion in 2015 to [$9.48 billion by 2020](http://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/).\n\nIn
+    this article, we explore the state of cloud computing in healthcare today, the
+    benefits of cloud computing in the healthcare industry, and HIPAA cloud compliant
+    hosting. \n"
+  :post: "![Cloud spending in healthcare on the rise](//images.contentful.com/189dvqdsjh46/59j42nAkjKawoAK60kCyEY/da74cb1359d706ad4d1b2b039e3f6f43/blog-cloud-spending-in-healthcare-_2x.png)\n\n##
+    The State of Cloud Computing in Healthcare Today\n\n> “These are the two transformational
+    changes in healthcare — value pressure and the digitization of healthcare. So
+    when you ask me what I’m obsessing about today in my role running a fairly large
+    unit at UCSF, it’s the value pressure. We have to figure out ways to provide better,
+    safer, and more satisfying care at a lower cost… The value pressure is real and
+    causing important changes in the way we think about our work and organize ourselves.”
+    — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
+    Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+    and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
+    while keeping costs low. To follow are some of the key pressures driving accelerated
+    migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
+    migration to the cloud is often a business decision to remain competitive by funding
+    innovation. CIOs today are partnering with business department owners to help
+    them find ways to shift funds into the things that really matter both to them
+    and to the business strategy as a whole. \n\nCloud usage at hospitals and health
+    systems is often centered around managing business applications to achieve those
+    financial efficiencies. It is not as simple looking at the costs of running those
+    applications on-premise, in the cloud, or on hybrid infrastructure. The conversation
+    between healthcare CIOs and their business leaders has to focus on how much value
+    it brings to the business as a whole. \n\n### The Benefits of Cloud Computing
+    to Healthcare as a Business\nThe cloud makes it possible to hold more information
+    and also do it a lower cost. This allows even the [smallest hospitals access to
+    the kind of storage](http://www.cloudcomputing-news.net/news/2016/jul/28/six-key-benefits-cloud-computing-healthcare-industry/)
+    that allows them to provide the most value, without a hefty price tag. Shifting
+    to the cloud and decommissioning old servers means healthcare IT departments can
+    shift that money to fund innovation projects in the organization. \n\n## Value
+    to Patients\nHealthcare today is rapidly shifting from a volume-based, fee-for-service
+    model, to the newer value-based model outlined by the Affordable Care Act (ACA).
+    In the value-based care world, providers are graded based on the value to the
+    patient as opposed to the volume of services. \n\nTo explain the difference further,
+    the fee-for-service model, which has been the standard for a long time, rewarded
+    physicians and hospitals for filling beds and conducting numerous tests and treatments.
+    On the other hand, the newer, value-based care model rewards providers on cost-effectiveness
+    and clinical case outcomes. This change requires rapid innovation that only cloud
+    computing can cost-effectively provide.\n\nIn addition to those changes in payment
+    models, patients’ perceptions of value are quickly changing. To understand this,
+    it’s crucial to think of patients as consumers, [and those consumers are adapting
+    to offloading nearly every aspect of their lives into the cloud](http://www.cloud-council.org/deliverables/CSCC-Impact-of-Cloud-Computing-on-Healthcare.pdf).
+    Our dependency on instant access to everything, from news, answers, and financial
+    records to our social interactions, has changed our expectations in all areas
+    of our lives. \n\nAlong with this digitalization, consumers are taking control
+    of their own data in innovative ways as apps track, store, and analyze personal
+    data on everything from our heart rate to our credit score trends. From a consumer
+    point of view, expectations in data availability are seamless from one part of
+    their lives to the next. They not only expect to be able to access all of their
+    own healthcare data, just as they do with their bank data, but they expect to
+    be able to provide the data they’re generating with wearables and apps back to
+    healthcare providers. \n\n### The Benefits of Healthcare Cloud Computing to Patient
+    Value\nCloud computing enables hospitals and health systems to face the challenge
+    of delivering more patient value. It provides them with a connected environment
+    to exchange data with their patients. It also provides the means to handle the
+    massive amounts of data that are growing exponentially in a cost-efficient manner.
+    On-premise infrastructure costs are high and data scalability is more feasible
+    in the cloud.\n\n## Interoperability\nInteroperability, both internally and externally,
+    is a growing pressure on healthcare CMIOs and CIOs. Not only is there a need to
+    easily exchange data between internal departments, for example, between an EHR
+    and billing system, but there is also an increasing demand from consumers and
+    the industry as a whole to be able to make patient data exchangeable with other
+    organizations. \n\n### The Benefits of Cloud Computing to Interoperability\nCloud
+    computing as an IT platform facilitates information sharing across the healthcare
+    ecosystem, enabling cross-industry services and making internal data exchange
+    faster and more cost-effective.\n\n## Demands for Faster Innovation\n> “It’s very
+    similar economics to road building. It’s the creation of infrastructure that enables
+    exchange to happen. Everybody’s interested in a cheaper way to get from A to B.
+    But not everybody’s interested in what is required to create a cheaper way to
+    get from A to B.” — Grahame Grieve, Director, Healthcare Intersections, from the
+    [Datica Healthcare Innovators Podcast](https://datica.com/innovation/grahame-grieve-pt3/)
+    \n\nHealthcare consumerism is an underlying trend that ultimately makes cloud
+    adoption essential to provider success. Healthcare organizations need to make
+    very quick decisions about integrations and new technology. Their innovation centers
+    require a quick, affordable, and secure platform to rapidly test while maintaining
+    the confidentiality of patient information. That platform needs to be scalable
+    as the size and quantity of data sets grow exponentially. It also needs to be
+    interoperable for internal and external collaboration.\n\nThese [innovation demands](https://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/)
+    are driving an acceleration of cloud computing in healthcare today. \n\n### Benefits
+    of Cloud Computing for Innovation \nAs hospitals transform to modern, digital
+    enterprises and value-based payment models, they need to find innovative ways
+    to quickly test and evaluate integrations and technology options. Cloud platforms
+    allow for the agility and speed to innovate while lowering the barriers to innovation.
+    \n\n## HIPAA Compliant Cloud Hosting\n> “Healthcare is undergoing massive technological
+    transformation. Datica's approach to HIPAA compliance means Microsoft Azure customers
+    can utilize trusted solutions to privacy and data security which meet the highest
+    levels of healthcare standards. We're excited to offer a HITRUST CSF Certified
+    platform such as Datica in the Azure ecosystem.” — Nicole Herskowitz, Senior Director
+    Product Marketing, Microsoft Azure, Microsoft Corp.\n\nHealthcare data management
+    includes strict requirements for security, confidentiality, privacy, traceability
+    of access, reversibility of data, and long-term preservation. As hospitals and
+    health systems race to quickly test and decide on ideas and applications that
+    include everything from patient health applications to AI, they need a HIPAA compliant
+    cloud hosting platform to build or test those applications upon. Datica leads
+    the industry with the first, most complete HIPAA compliant cloud infrastructure.
+    [Datica Compliant Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified
+    on AWS, Microsoft Azure, IBM SoftLayer, and Rackspace, achieving the highest industry
+    privacy and security standards across infrastructure providers.\n\n## Cloud Computing
+    Benefits Healthcare\nThe challenges healthcare enterprises face persist and the
+    benefits of cloud computing to help them face these challenges are too compelling
+    to ignore. Cloud computing allows healthcare enterprises to access improved technology
+    at lower initial capital expenditures than physical environments. As healthcare
+    organizations enter the race to migrate to the cloud, the barriers for innovation
+    and modernization become lower, information sharing becomes possible, and the
+    value-based transformation can actually take place.\n"
+  :featured_image:
+    :id: 6O4SBR24hi6UoWCGqy64cc
+  :share_image:
+    :id: 1em5YLgkP4YYwEaowaWAqQ
+  :cta_ref:
+    :id: wJ0lHvmWOsOcq80IWIKAW
+  :related_entries:
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 3kabC1VofumgW6owKmIkqG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:03+00:00'
+    :created_at: '2017-02-24T22:33:57+00:00'
+    :id: 3kabC1VofumgW6owKmIkqG
+  :title: 'Reflections on HIMSS 2017: Same Same, but Different'
+  :slug: reflections-on-himss-2017-same-same-but-different
+  :pub_date: !ruby/object:DateTime 2017-02-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The buzz at HIMSS 2017: analytics, machine learning, AI, cyber-security,
+    patient-centered care, and open data were a few themes we saw this year.'
+  :blog_lead: "[HIMSS 2017](http://www.himssconference.org/) is done. It’s time for
+    the outpouring of commentaries on the event. And, amazingly, it’s already time
+    to be thinking about next year if you’re an exhibitor. I realize the big companies
+    do this but, at Datica, we too are planning and already booked our booth for next
+    year. Thankfully we got a good booth space on the top floor and not in the basement
+    (Vegas needs 2 levels to support HIMSS whereas Orlando only needs one massive
+    level)."
+  :post: "\n## Major Themes\n\nYou could have predicted these going into the event
+    based on the sessions and promotional material.\n\n- **Analytics / machine learning
+    / AI**. If I was to only pick one theme this year, this would be it. From Watson
+    to Health Catalyst to the population health offerings of pretty much every EHR
+    vendor, some form of analytics was woven into everything this year. Like patient
+    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    is seen as a major part of the future of care. Analytics does hold amazing potential
+    but, like patient engagement, health systems need to develop strategies for how
+    and where to use analytics if they are going to be successful. Analytics for analytics
+    sake won’t help. Understanding the problems to solve or questions to answer with
+    analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
+    health data goes digital, and more and more digital health data is generated by
+    sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
+    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    Cybersecurity is an essential part of digital health, just like cloud is an essential
+    part of digital health. This should be a recurring theme of HIMSS as the next
+    10 years are going to be defined by healthcare moving data between new technologies
+    and between new partnerships.\n- **Patient-centered care**. This is the one I
+    wasn’t sure if I should include because I feel like some variation of this has
+    been a recurring theme. I guess being a constant theme still makes it a theme.
+    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    maybe because it has been a constant theme, is starting to mature. Services need
+    to be centered on patients, and many of those services will be technology driven.
+    The reason for services need to be patient-centered is 1) that’s what patients
+    expect today and 2) that is what providers, payors, and life sciences need to
+    do to compete for patients, members, and customers. I think we’ve swung back from
+    the days when we thought B2C, or going direct to consumer, would work across most
+    patient populations. Groups like Healthgrades still own a lot of consumer health
+    traffic but integrating those consumer tools with providers and more formal care
+    is also a part of patient centricity. \n- **Open data**. This one definitely isn’t
+    new. I remember hearing [Todd Park beating the drum about *data liberación*](http://healthstandards.com/blog/2015/06/23/data-liberacion/)
+    back in 2011. It only took three more years for most EHR vendors to start to get
+    behind a new standard called FHIR and another three or so years, until today,
+    when EHRs are ready to expose data via FHIR. I’m bullish on FHIR as a potential
+    data standard but highly skeptical of FHIR as a path to open data and innovation.
+    We have projects like Argonaut driving towards new ways to use FHIR so we’ll have
+    to wait and see how those develop. The overwhelming sentiment around open data
+    is that access to data, ideally in a trusted and consistent bi-directional way,
+    is the only way to build the technology ecosystem that’s needed to put patients
+    at the center of care and start to drive towards the [triple aim].\n\n## Same
+    same, but different\n\nThere’s a saying I first heard in Thailand and use from
+    time to time - [*same same but different*](https://en.wikipedia.org/wiki/Tinglish).
+    I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
+    back, looking at HIMSS as a whole, it felt like we had simply transported all
+    the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
+    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    happened. The Athena party happened. Lots of bankers parties with better food
+    and drink options. Uber didn’t work well. Restaurants were full all the time.
+    Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
+    like HIMSS.\n\nBut then, in other ways, it felt very different from previous years.
+    The impression I got, on a consistent basis, is that people are burned out on
+    the status quo. People are tired of HIMSS being the same year after year. People
+    are tired of \"doing things to check boxes\", a reference to buying EHRs to get
+    money from Meaningful Use, and \"want to really start making things happen\".
+    These quotes are from people at large health systems, people in the same roles
+    that would have said something like \"Epic is going to do that\" when asked about
+    patient engagement or population health or pretty much anything health IT just
+    a few years ago. These are decision makers at the core of the health IT industry
+    and not just startups and investors. The tide has very clearly turned in the industry.\n\nThis
+    is exciting! It will take time to see how quickly this sea change practically
+    takes hold and we start to see more and more digital health technologies adopted
+    and scaled at health systems. But, the process is starting and big systems are
+    developing strategies and processes for the next 3-5 years. And, maybe the most
+    shocking part, especially compared to several years ago, is that health systems
+    are looking outside their EHR vendors for the future of health IT.\n\n*Want to
+    learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
+    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    podcast series.*\n\n\n"
+  :featured_image:
+    :id: 6l7x9mycV2K66sSeIUYaIW
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+- :id: 3dV5xVOogMwaoAoQseeY4s
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-05-16T17:56:24+00:00'
+    :created_at: '2016-11-23T06:51:37+00:00'
+    :id: 3dV5xVOogMwaoAoQseeY4s
+  :title: What is cloud computing? (and why it matters for compliance)
+  :slug: what-is-cloud-computing-and-why-it-matters-for-compliance
+  :pub_date: !ruby/object:DateTime 2014-03-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: What are the essential characteristics of cloud computing? As we work
+    with cloud-based vendors and enterprises in healthcare, we're constantly fielding
+    questions related to cloud deployments and models. This is our attempt to summarize
+    what we've learned.
+  :blog_lead: 'Writing this [post](/blog/2014-predictions-growth-of-healthcare-clouds)
+    on 2014 trends around cloud computing in healthcare got us thinking more about
+    the definition of cloud computing and different options in cloud computing.
+
+'
+  :post: |-
+    As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned.
+
+    I think we all *know* what cloud computing is, or at least we have certain associations and benefits that come to mind for the term “cloud computing”. NIST has a formal definition of cloud computing. NIST breaks down cloud computing into 5 essential characteristics, 3 service models, and 4 deployment models.
+
+    The **Essential Characteristics** of cloud computing include:
+
+    1. **On-demand self-service.** Pretty straightforward. Users of cloud computing are able to provision computing resources (CPU cycles, storage, bandwidth etc) themselves. You can think of the AWS dashboard as the perfect example of this; if you’ve used AWS, you know exactly what I mean.
+    2. **Broad network access.** Cloud computing resources can be utilized by remote clients using standard mechanisms. I think most modern developers think of web apps and APIs for this.
+    3. **Resource pooling.** Computer resources are shared. Models like multi-tenancy and virtual machines are used to achieve this. The idea is that resources are dynamically shared, both up and down, between cloud deployed apps. This can present problems in the case of “noisy neighbor”, where your virtual neighbors are consuming and restricting access to resources. Hosting companies are pretty good at identifying and resolving these issues. But often not, which is why once companies begin to scale to larger volumes, dedicated instances become more interesting.
+    4. **Rapid elasticity.** This is extremely powerful as it enables apps to scale up cloud computing resources as needed, on demand, to support peaks and troughs of usage. Instead of having to build and support high powered services 24/7, those services and resources will scale as needed.
+    5. **Measured service.** Usage is metered, and cloud computing is typically billed on a per use basis. In the case of pure infrastructure, like AWS, you have little to no wasted money because you are only paying for what you consume. Consumption can include bandwidth, CPU cycles, storage, user accounts, API calls, etc.
+
+    Most of these you probably knew of intuitively but, for us, it’s helpful to lay them out. We find there is a lot of confusion, especially in healthcare, about what cloud computing is, who’s using it, and why it is appealing relative to other models of computing. Much of the confusion comes into play when people interchange the terms virtualized computing and cloud computing; virtualized computing is often used synonymously with private cloud. Virtualized hosted environments do not typically allow for self service or automated resource pooling, two of the *essential* characteristics form above.
+
+    The next categorization for cloud computing relates to the amount of control of the underlying resources. Which leads us to back to the NIST defined **Service Models**, which are laid out below:
+
+    1. **Software-as-a-Service (SaaS.** SaaS is a model for accessing an hosted application developed by a vendor. Typically access is through a web app, mobile app, or an API. And it is is usually billed by user, API calls, or seats and billing is subscription-based. Subscription-based models have implications for customers because of the low capital expense to get started and implications for SaaS vendors because of the high negative upfront cash flow outlay to grow (more on this in a later post). The classic example of SaaS is Salesforce CRM; Salesforce has moved into PaaS (Force.com) but it started as SaaS and still generates the bulk of its revenue from SaaS. If you’re a mobile developer you likely know Parse, Urban Airship, and Twilio. There are literally tons of other SaaS vendors, several of which we use at Datica - Box (just made the move from another SaaS - Dropbox), Zendesk, MailChimp, Intercom, Mailgun, Moz, and Close.io. This is the most limited, at least in terms of customer control, model of cloud computing.
+    2. **Platform-as-a-Service (PaaS).** PaaS models allow you to deploy and scale your own application to cloud infrastructure without managing servers and/or databases. You may have some control over the infrastructure but it is limited. Users of PaaS typically do not have access to the underlying operating system or network devices. Developers can focus on the application, written in a language of their choice, without worrying about building and maintainer the server to run it. The example most developers would think of is Heroku, which is part of Salesforce. There are others, like CloudFoundry and newer offerings like dotCloud. There is also a super cool compliant PaaS that recently launched that's called...yes, Datica!
+    3. **Infrastructure-as-a-Service (IaaS).** I think of this as the blank slate of cloud computing that has been the driving disruptive force in computing over the last 15 years. As opposed to SaaS and PaaS, which build layers of abstraction to interact with customers and keep them away from the OS, IaaS vendors provide customers with access to operating system and sometimes network components. You can think of it as a hosted linux prompt. AWS and Rackspace are the prototypes for this. This is usually the cheapest option. It's a blank slate, and developers can customize down to the OS level. With that control comes more responsibility and ultimately more time spent on infrastructure. The decision that needs to be made in assessing IaaS is whether time and resources should be spent configuring servers and databases, or does it make more sense to spend a little more money on infrastructure but have more resources for your core product and differentiation. Or in other words, should you choose a PaaS offering or stay with IaaS.
+
+    In addition to service models, which basically define the level of control customers have over infrastructure, there are also **Deployment Models**, listed below, which define the group to which cloud computing resources are shared.
+
+    1. **Private cloud.** Most often confused with virtualization, private cloud infrastructure is used exclusively by one entity, and can be on or off premise. This is the direction most larger enterprises will move to, including within healthcare. Datica maintains a compliant private cloud. The challenge with most current private cloud deployments is that they provide none of the capabilities that a public cloud (see below) provides such as auto-scaling, API based access to perform a host of tasks etc.
+    2. **Community cloud.** In this deployment, infrastructure is shared with a group, or community, of users. We think of this as a shared private cloud, and it’s usually a community that has something in common. With Datica, we have a HIPAA compliant private cloud in which we host our community of customers; the commonality in our community is that our customers are concerned about compliance, so we’ve painstakingly created a compliant environment with multiple private private networks. Customers get their own private networks within the Datica cloud.
+    3. **Public cloud.** This is the infrastructure that developers know best. In this deployment, the infrastructure is for public use. Pretty simple.
+    4. **Hybrid cloud.** This is where things get interesting. In this deployment, there is a mix of two different models from above. Hopefully using Datica will provide a good example use case. We have a private cloud - Datica manages and maintains the cloud computing resources and it’s exclusive to us. For our customers, we set up private networks within our private cloud, so our private cloud is actually a community cloud for our customers. Additionally, we’re beginning to explore using public cloud resources for certain, non-compliant things such as code sets. In non-compliant deployments, if more resources are needed, such as the case with spikes in usage and/traffic, private clouds will burst into public clouds to gain access to additional cloud computing resources. Key here is to ensure that "post burst", the additional capacity that was spun up, needs to be powered down else month end bills could be a bit surprising.
+
+    The reason we care about cloud computing, including the definition and characteristics of it, is that we firmly believe the benefits of cloud computing have not been realized in healthcare. And we believe much of that relates to a lack of understanding of what cloud computing is, and how cloud computing can be both compliant and secure. Current compliant offerings in healthcare, especially when you look at compliant cloud computing service models, sorely miss the needs of modern app app developers and the industry as a whole; we make the important distinction between PaaS and IaaS, and believe PaaS is the necessary approach to be compliant because of the myriad of compliance requirements beyond dedicated infrastructure. More to come on service models and compliance in a future post.
+  :featured_image:
+    :id: v8LjxQnv9IAGy2EAMowio
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

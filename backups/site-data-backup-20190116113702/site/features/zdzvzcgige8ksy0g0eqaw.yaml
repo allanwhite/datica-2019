@@ -1,0 +1,16 @@
+---
+:id: ZdZVZCGigE8KSY0G0Eqaw
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-29T22:13:56+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: ZdZVZCGigE8KSY0G0Eqaw
+:title: Monitoring
+:slug: monitoring
+:category: Core Compliance
+:summary: Sensu container pre-configured for extensive compliance monitoring
+:desc: Monitoring is a critical component of not only HIPAA compliance, but also running
+  a product application in the cloud. Datica’s monitoring stack runs on Sensu with
+  an Uchiwa dashboard on the frontend. The entire package sits in a container instantiated
+  within each customer environment. We ship our monitoring instance with important
+  alerts pre-configured for you.

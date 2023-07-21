@@ -1,0 +1,630 @@
+---
+:id: 55JD3Ys2SkuMqCm6aS6cAO
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:43+00:00'
+  :created_at: '2017-01-16T17:41:33+00:00'
+  :id: 55JD3Ys2SkuMqCm6aS6cAO
+:title: HIPAA and Encryption
+:slug: hipaa-and-encryption
+:pub_date: !ruby/object:DateTime 2018-08-30 00:00:00.000000000 Z
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: 'HIPAA encryption strategy is another factor of HIPAA compliance, whether
+  HIPAA SSL, data at rest, Filevault2, firewall encryption, or more.   '
+:post: |
+  Encryption is one of the standards that exist within the HIPAA Security Rule (164.312(a)(2)(iv)). Specifically, encryption is used as a means of access control. HIPAA defines encryption as "the use of an algorithmic process to transform data into a form in which there is a low probability of assigning meaning without use of a confidential process or key". HIPAA goes to say “Implement a mechanism to encrypt and decrypt electronic protected health information."
+
+  When we talk about encryption in HIPAA, it means both encryption in transit, or data moving from point A (app) to point B (server/DB), and as encryption at rest, or on the hard drive. Encryption is straightforward. It's become industry practice not just in healthcare, but generally - with web services and even increasingly websites - to use SSL and encryption during transmission. With HIPAA, it's important that you do end-to-end encryption - from app to firewall to app server to database server, or logging server even. That means every step along the way from origination to delivery.
+
+  The level of encryption that you use in transit is something that should be industry best practice. We use 256-bit SSL encryption in transit. We have talked to some large corporate entities that have systems that store massive amounts of ePHI behind firewalls in secure networks and the encryption that they're using is just 56-bit on some of these systems. If you talk to them, they feel that the risk is mitigated because of the environment and the access controls that are round those systems and networks.
+
+  The other aspect of encryption is encryption at rest. If you store data in some type of database, encrypting that hard disk is important. When we started out with Datica, we encrypted all of our hard drives. What we discovered was that we took a pretty big hit on I/O performance doing that with standard drives. We swapped out all of our drives for high performing SSD drives and that improved our performance considerably. Today, we encrypt all of our database drives using AES 256-bit encryption, and the SSD drives make the performance comparable to unencrypted volumes.
+
+  There are other encryption tools you can use to improve performance in an encrypted environment. The newer Intel i5 and i7 chips can do AES-NI, which speeds up encryption considerably. AES-NI is what the makes the performance in FileVault2 encryption on new Macs so much better than the performance in previous versions. As part of our HIPAA workstation security policy, we require FileVault encryption on all company laptops. We also encrypt internal company passwords, SSH keys, and secure notes using Lastpass and 256-bit encryption. Decrypting Lastpass requires two-factor authentication through Duo Security.
+
+  Encryption strategy is something you need to think about. This means more than just encrypting, it means how you are going to securely manage keys and maintain performance of your technology. We're happy to talk to you more about how we take care of all aspects of encryption, from in-transit and at-rest to key management and performance, for our customers.
+:related_guide:
+  :id: 1L20oQXl3G2cKSm4gg2wuc
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:41+00:00'
+    :created_at: '2017-06-20T21:34:40+00:00'
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :title: HIPAA Compliance at the Application Level Guide
+  :slug: application-hipaa-compliance
+  :summary: HIPAA compliance at the application level is different than the infrastructure
+    level. This comprehensive guide explains HIPAA considerations for digital health
+    applications.
+  :subhead: A guide written by HIPAA compliance technical experts
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: When a digital health product stores, processes, or transmits PHI, HIPAA
+    asserts rules for how it should handle a multitude of security, privacy, and policy
+    procedures, called “controls”. Demonstrating that your company and your digital
+    health product meet all those controls is how you can call yourself compliant.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: "HIPAA controls can be conceptually organized into three levels: infrastructure,
+    application, and company. This guide dives into all the under-the-hood considerations
+    you must manage at the application level to ensure your application meets the
+    security requirements required for healthcare data. \n\nFollowing this guidance
+    will enable you to get through an audit process and help you more successfully
+    engage with healthcare customers.\n\nThe HIPAA Compliance at the Application Level
+    guide includes information and checklists for:\n\n* Your responsibility for HIPAA
+    \n* Understanding your application's usage including access, credentials & provisioning,
+    ACLs, and usage audits\n* Alignment with customer processes and needs, including
+    business continuity, training & support, data onboarding and backload, collecting
+    user and outcomes data, and upgrading the app\n* Proving compliance"
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ad91c94e-b298-4416-88fe-1548367689f2
+  :bg_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 1PYfVd3tsoq6WeAMGyWwo6
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 1PYfVd3tsoq6WeAMGyWwo6
+  :title: The HIPAA Security Rule
+  :slug: the-hipaa-security-rule
+  :pub_date: !ruby/object:DateTime 2018-02-05 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Security Rule describes the ways in which electronic protected
+    health information, or ePHI, needs to be protected.
+  :post: |
+    The HIPAA Security Rule operationalizes many of the standards set out in the Privacy Rule. Specifically the Security Rule spells out, in various levels of detail, the ways in which electronic protected health information, or ePHI, needs to be protected. The Security Rule, despite setting implementation specifications, isn’t all that specific most of the time.
+
+    The Security Rule is the section of HIPAA that gets most talked about by vendors like us and others with a background in technology. Many times developers and vendors focus specifically on the areas within the Security Rule to achieve compliance. Even with this area of focus, the specific technical controls only make up a minority of the HIPAA Security Rule.
+
+    The HIPAA Security Rule can be broken down into the three main categories below.
+
+    ### Administrative
+
+    This is actually the largest category of safeguards in the HIPAA Security Rule, accounting for more than 50% of the rule. These are not server setting or specifics around technology, they are policies and processes that need to be followed to safeguard data. The biggest, and most important, area covered in this section, at least for people starting out on the journey towards compliance, is the risk assessment. A risk assessment should be the first step for most organizations wanting to be compliant, and covers documenting architecture, identifying risks related to the protection of PHI, and mitigating those risks.
+
+    When you use Datica, we cover much of risk environment for you as we manage many aspects of the architecture. We work with you to define areas that you need to address in terms of risk, and will work closely with you if and when you decide to go forward with a full audit.
+
+    There are other areas in this category including workforce security, contingency planning, training, and a few others, all of which are necessary to examine and address, but the risk assessment is really the big one in this category.
+
+    ### Physical
+
+    This category is easy to understand as it’s the physical aspect of securing systems that have access to ePHI. It breaks out to workstations, facilities, and different portable and mobile media. Most data centers today, including the ones that we use at Datica, more than meet the requirements in the HIPAA Security Rule for facilities. Typically compliant Infrastructure-as-a-Service (IaaS) vendors, like AWS and Firehost, cover this category of HIPAA for you.
+
+    Areas people sometimes neglect are office security and workstation security. These aren’t hard safeguards to meet but they likely involve some process changes, like not allowing cleaning people into your office without supervision, keeping doors locked and tracking visitors, encrypting employee computers, and using workstation firewalls. We control and monitor access at our offices using a smart lock from Lockitron, which provides a nice log of all access.
+
+    ### Technical
+
+    The technical category of safeguards is usually what people think of when they think of securing ePHI. The biggest areas are encryption, access controls, and auditing. With encryption, it has to be end to end, and it has to be at rest. At rest is typically harder. We have found that we need to use high performance SSD drives to improve performance issues that arise with encrypting data at rest.
+
+    For access controls and logging, basically all activity of servers should be logged and those logs should be monitored with appropriate alerting. All API calls should also be logged, including what was accessed (with ePHI at times), by whom, and when. We have spent a lot of time building a powerful and flexible unified logging solution to meet the requirements in this area.
+
+    Beyond the three areas above, there are a few miscellaneous requirements in the security rule. Those additional requirements relate to signing business associate agreements and having policies to, well, manage your policies.
+
+    That's a very high-level overview of the HIPAA Security Rule. You can see pretty detailed information about the Security Rule, and how we address the different specifications, on our HIPAA page.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 17s5iFERjsQOOQeSci2kES
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 17s5iFERjsQOOQeSci2kES
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 17s5iFERjsQOOQeSci2kES
+  :title: The HIPAA Privacy Rule
+  :slug: the-hipaa-privacy-rule
+  :pub_date: !ruby/object:DateTime 2018-02-06 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Privacy Rule is important to understand because it explains
+    the types of data, covered entities, and uses of data HIPAA is concerned about.
+  :post: |
+    ## Overview
+    The HIPAA [Privacy Rule](https://www.hhs.gov/sites/default/files/privacysummary.pdf) sets many of the terms used for HIPAA, outlines the types of entities that need to comply with HIPAA, defines appropriate uses or disclosures of health information, and also covers penalties for HIPAA violations. The Privacy Rule is important to understand, despite the fact that it doesn't include specific technical requirements or polices, as the Privacy Rule gives an understanding of the types of data, entities, and uses of data that HIPAA is concerned about.
+
+    ## Entities
+    The Privacy Rule defines two main categories of entities:
+
+    1. *Covered Entities (CEs)*. These are the traditional players in healthcare - providers, hospitals, health systems, insurers. For some reason clearinghouses are called out as they transform and process health information for payers and providers; the clearinghouse that I always think of is Emdeon.
+
+    2. *Business Associates (BAs)*. These are individuals and organizations that provide services and/or technology to covered entities. In the process of providing those services and technology, the business associate in some way process, transmit, or store protected health information (PHI). All software vendors in healthcare, if they somehow touch PHI, are business associates.
+
+    A third category of entity or, maybe more accurately, a subcategory of business associates was added in 2013 as part of the HIPAA Omnibus rules in the HITECH Act. The HITECH Act defined a subcontractor as an entity that "creates, receives, maintains, or transmits protected health information on behalf of the business associate." A subcontractor is a business associate of a business associate. It can be a hosting provider, an email delivery service (email address), or even an analytics platform (IP address), if it in some way touches PHI. At Datica, many of our customers are business associates and we are subcontractors for them so we meet the new definition of subcontractor.
+
+    The Omnibus Rule also defined a PHR vendor, offering a PHR through a covered entity as a business associate.
+
+    ## PHI + De-identifying
+    We devoted an entire post to "[What is PHI?](https://catalyze.io/learn/what-is-protected-health-information-or-phi)" because it's an incredibly important topic in HIPAA. It's basically personally identifiable data (name, email, phone, etc) combined with some type of health-related data (medication, diagnosis, provider name).
+
+    PHI can be de-identified by removing certain elements from the data, in a process called the [Safe Harbor](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance) method, or through "[expert determination](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#guidancedetermination)", which seems a bit fuzzy to us as it is ripe for interpretation. The idea with both methods for de-identification is to make it so you can't identify an individual from a data set (duh!).
+
+    ## Use or disclosing of PHI
+    PHI can only be disclosed for reasons defined by the HIPAA Privacy Rule, or with written permission by an individual about their own health information. Other than providing access to the individual to his/her medical record, the Privacy Rule allows for disclosing PHI for three main reasons:
+
+    1. *Treatment.* Probably the most obvious reason for disclosure, exchanging PHI between providers for treatment, management, and consultation happens all the time.
+    2. *Payment.* In order to collect payments from insurers, disclosure of PHI is essential.
+    3. *Operations.* We think of this as the catch-all bucket. It encompasses many administrative functions such as quality reporting and different types of operational analytics. This is also where disclosures for medical education fall in.
+
+    There are some other, more obscure, reasons for disclosures. The most relevant reasons left are for legal reasons ("required by law"), worker compensation, and for restricted research purposes, amongst others.
+
+    In some select cases – in particular, marketing – covered entities may disclose PHI but only with authorization from the individual.
+
+    ## Minimum necessary
+    One of the central tenants of HIPAA, as stated in the Privacy Rule, is minimum necessary use of PHI. The idea is relatively simple, don't disclose any information that is not necessary for the reason for which the information is to be used. For example, if you're trying to find out how much a patient owes for a particular procedure, you probably don't need to disclose that patient's allergies. In healthcare today, minimum necessary is usually observed by either specific HL7 or EDI X12 message types which confine the amount and type of data in a data exchange.
+
+    ## Notice of HIPAA Privacy Policies
+    Covered entities must provide individuals with a notice informing those individuals of their rights, as well as detailing other factors such as the protections the covered entity use to secure PHI. You probably remember getting and signing these every time you go to the doctor.
+
+    ## Penalties
+    The Office of Civil Rights (OCR), within HHS, is responsible for enforcing the HIPAA rules. In addition to civil (financial) penalties, there are criminal penalties for knowingly disclosing PHI or obtain PHI in violation of the HIPAA Privacy Rule.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 7rqrnw1soEOS4QEeAC0c8q
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: kRNQkVjBcGmGUKY2I0GGO
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-08T17:52:32+00:00'
+    :created_at: '2017-12-08T17:38:48+00:00'
+    :id: kRNQkVjBcGmGUKY2I0GGO
+  :title: Why Let's Encrypt is our favorite open source project this year
+  :slug: why-lets-encrypt-is-our-favorite-open-source-project-this-year
+  :pub_date: !ruby/object:DateTime 2017-12-08 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'This holiday season, we''re proud to support one of our favorite open
+    source projects, Let''s Encrypt, in their mission to make the internet more secure. '
+  :blog_lead: |-
+    We highly value open-source technology at Datica. We're not only contributors to the open source community, but [open source users](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/) and [producers](https://datica.com/open-source/) as well.
+
+    One such open source project that we're absolutely thrilled to be using is [Let's Encrypt](https://letsencrypt.org/). *Let's Encrypt* is a completely free and open source certificate authority. Developers can use *Let's Encrypt* to obtain a free SSL/TLS certificate for their websites and applications. This allows them to enable a secure connection for their users via HTTPS.
+  :post: |
+    This summer we [announced](https://datica.zendesk.com/hc/en-us/articles/115005338623-Datica-Platform-3-0-Release-Notes) that all new customers would receive free *Let's Encrypt* SSL certificates for their Datica Platform environments. Additionally, any customers wanting to renew or upgrade their existing certs can also receive a free *Let's Encrypt* certificate. This feature has been amazing for our customers. Not only are these certs provided to users completely free from *Let's Encrypt*, but they're also super easy to obtain via the [Datica CLI](https://resources.datica.com/compliant-cloud/cli-reference/#certs). In addition, these certificates also automatically renew each year.
+
+    We're proud to [support Let's Encrypt](https://letsencrypt.org/donate/) in their mission to make the internet more secure. If you're looking to support an open source project this Holiday season, we couldn't think of a more worthy candidate than *Let's Encrypt.*
+  :featured_image:
+    :id: 4LSxW8LK1iwYqiIOkUswoM
+  :share_image:
+    :id: 6r5atcG90swYAQq42qGg0o
+  :cta_ref:
+    :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+  :related_entries:
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 6PvZQlithuG0geIK4I6QU0
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-07T22:31:18+00:00'
+    :created_at: '2017-10-25T23:26:59+00:00'
+    :id: 6PvZQlithuG0geIK4I6QU0
+  :title: Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files
+  :slug: using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files
+  :pub_date: !ruby/object:DateTime 2017-10-25 00:00:00.000000000 Z
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :categories_blog: engineering
+  :author:
+    :id: BZwvwGSzAc00yCQKUiOuS
+  :summary: The GnuPG is a free implementation of OpenPGP — the most widely used email
+    encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt
+    encrypted SFTP files.
+  :blog_lead: |-
+    ## Why is encryption important?
+
+    HIPAA compliance has requirements for the transfer and storage of [Protected Health Information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/). Standard SSH file transfer can securely transfer data onto the [Datica Platform](https://datica.com/platform/). However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.
+
+    While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).
+  :post: "## What is GnuPG and OpenPGP?\n\nThe [GNU Privacy Guard (GnuPG)](https://gnupg.org/)
+    is a free implementation of the OpenPGP standard (also known as RFC 4880, as defined
+    by the [Internet Engineering Task Force](https://www.ietf.org/rfc/rfc4880.txt
+    )).\n\nOpenPGP is the most widely used email encryption standard. It is available
+    on all major platforms, including MacOS, Windows, GNU, Linux, Android, and iOS.
+    [OpenPGP](http://openpgp.org/) is the way to go when you need a free and open
+    source tool to encrypt files, especially across multiple different platforms.\n\n###
+    GPG Keychain Clients and CLI\n\nThe keychain client I use is [GPG Suite 2017.1](https://gpgtools.org/).
+    This is a simple tool for managing keys for different projects. You can import
+    another party’s public key, a private key you created elsewhere, or generate new
+    public and private key pairs within the client. After installing a keychain client,
+    you will also need to make sure you have installed the [GNU core utilities](https://www.gnu.org/software/coreutils/coreutils.html).\n\n-
+    Using the GPG command line interface to generate a brand new key: $ gpg --gen-key
+    \n- Importing an existing GPG key:  `$ gpg --import gpg/<keyfile>.asc`\n- GPG
+    keys will have two parts if you generate them yourself — public and private. If
+    you’re importing one provided by another party, you will likely only have the
+    public half of the key. \n \n<pre>\n\n-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n...\n...\n-----END
+    PGP PUBLIC KEY BLOCK-----\n-----BEGIN PGP PRIVATE KEY BLOCK-----\n...\n...\n...\n----END
+    PGP PRIVATE KEY BLOCK-----\n\n</pre>\n\n### Using a key to encrypt and decrypt
+    files\n\n- Encrypting an existing file with your GPG key: `$ gpg --encrypt -r
+    <recipient or ID for public key> <filename>`\n- Decrypting an existing (already
+    encrypted file): `$ gpg --decrypt <filename>`\n- You can also lock down your key
+    to require a password for use, specify an output file for the decrypted contents,
+    and flag to skip prompting the user for those values: `gpg --passphrase-file <fileContaingPassword>
+    --output <fileToWriteOutput> --no-use-agent --decrypt <fileToBeDecrypted>`\n\n###
+    Automation\n\nExample situation:  you have an SFTP endpoint where another party
+    will be dropping encrypted files. You provide them with the public half of your
+    [GPG](https://futureboy.us/pgp.html) with which to encrypt files, and then you
+    set up your private key alongside your SFTP receiver to decrypt the files later
+    on. You won’t want to do this manually, so just set up a scheduled task to handle
+    this for you.\n\n- Drop location for inbound, encrypted file:  `/foo/inbox/file.gpg`\n-
+    Adding your GPG key file password (optional):  `/foo/gpg/password.txt`\n- Drop
+    location for decrypted file:  `/foo/outbox/decryptedfile`\n- Drop location for
+    already processed inbox file:  `/foo/recycling/file.gpg`\n- Build a script to
+    pick up the encrypted file and use the GPG key and password to decrypt the file
+    again.\n\n<pre>\n\n#!/bin/bash\ncd /foo/inbox\nfor FILE in ./*.gpg; do\n    echo
+    \"Original file:      $FILE\"\n    echo \"Decrypted file:      ${FILE%.gpg}\"\n
+    \   gpg --passphrase-file ../gpg/password.txt --output \"${FILE%.gpg}\" --no-use-agent
+    --decrypt \"$FILE\"\n    mv --backup=numbered \"$FILE\" \"../recycling\"\n    mv
+    --backup=numbered \"${FILE%.gpg}\" \"../outbox/\"\ndone\n\n</pre>\n\nThen, all
+    that’s left is to set up a Cron schedule for this script to run periodically.\n"
+  :featured_image:
+    :id: ktGncK0sSscKyC4UQIwGK
+  :share_image:
+    :id: 4uJkVvYWNWCYkOKmSAowkK
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 2vJopokP6008c6MsUIi6MY
+  - :id: 3vvtEIgkNaOgQyWCcYuQ0Q
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 3OnaohMlZucmAkaQ8A0qAu
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:55:06+00:00'
+    :created_at: '2017-08-30T16:43:43+00:00'
+    :id: 3OnaohMlZucmAkaQ8A0qAu
+  :title: Facing down the largest breaches of 2017 with Datica's open-source policies
+  :slug: facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies
+  :pub_date: !ruby/object:DateTime 2017-08-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: As we roll into the end of 2017, it's worth looking back on how the industry
+    has been doing protecting PHI against the threat of cyber-intrusions.
+  :blog_lead: 'As we roll into the last few months of the year, it''s worth looking
+    back on how the industry has been doing protecting PHI and adapting to the increasingly
+    threatening world of cyber-intrusions. While the big stories generally revolve
+    around the largest amount of lives impacted and the most technically harrowing
+    attacks, it''s worth noting that there are still breaches as simple as someone
+    stealing a laptop with a spreadsheets with thousands of persons worth of PHI on
+    it. In this article, we''re going to go through some of the largest breaches of
+    2017 and discuss how we address these as a company which we''ve shared in our
+    open-source policies. While it''s impossible to say in retrospect if any breach
+    was 100% preventable, having policies in place to provide "reasonable effort"
+    to prevent exposure is key to minimizing the damage from the unpreventable. '
+  :post: "## Ransomware or Malware\n\nAt top of mind in 2017 is ransomware and malware,
+    which shut down and exposed multiple hospitals and HIT Vendors thoughout the year.
+    Of those, two were notable:\n\n-  [Pacific Alliance Medical Center attack potentially
+    leaks 260K patients](http://www.healthcareitnews.com/news/los-angeles-provider-breached-ransomware-attack-over-260000-patients-affected-updated)\n-
+    \ [Nuance Impacted for Weeks Due to Malware](https://www.healthcare-informatics.com/news-item/cybersecurity/cyber-attack-update-nuance-still-down-researchers-believe-petya-not)\n\nThe
+    vector of the attack is relatively straightforward: through phishing or infected
+    3rd party hardware like a thumb drive, hackers gain access to hardware throughout
+    an organization's network and encrypt data on that hardware. The purpose of ransomware
+    is to extract payment to undo that encryption while other malware like the ones
+    believed to be used in the Nuance attack are wholly irreversible and are just
+    designed to effectively destroy the data.\n\nPreventing something like an attack
+    like this actually hits to the heart of most of our policies, but let's go for
+    the top 3 references in this article. First, [patch management](https://policy.datica.com/#9.5-patch-management-procedures)
+    ensures that you are constantly being vigilant to new security concerns. While
+    it's not directly stated in our policies, we have one person and a backup who
+    are wholly responsible for managing patches for our system for security concerns.
+    Second, having policies on [appropriate system access and by reducing the need
+    for privledged users](https://policy.datica.com/#7.2-access-establishment-and-modification)
+    reduces the risk that if one user's credentials are compromised all systems could
+    be accessible by an attacker. Third, we run [OSSEC and Anti-Virus](https://policy.datica.com/#17.4-prevention-of-malware-on-production-systems)
+    on all production systems to identify any otherwise unknown attacks and to solve
+    any issues brought up from an attack.\n\n## Unauthorized Access or Disclosure\n\n-
+    [Indiana Medicaid warns patients of health data breach](http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach)\n-
+    [Phishing attack at UC Davis leads to health data breach](http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients)\n\nOther
+    than a vector for malware, [phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)
+    can also be used as a method for attackers to simply gain access to systems by
+    getting credentials to a system. Or, a well-meaning dev may accidentally breach
+    patient data by placing it on a public facing web page. \n\nWhile your mileage
+    may vary, our policies have a few tips to help prevent this. First, we require
+    [two-factor auth](https://policy.datica.com/#17.7-production-system-security)
+    on all production systems. While this doesn't necessarily prevent a system user
+    from giving an attacker their credentials *and* auth token (sigh), it reduces
+    the risk of unauthorized cross application access and minimizes the window by
+    which an attacker can maintain access to an application. We also require access
+    to all production systems to be [managed over a VPN with two-factor auth](https://policy.datica.com/#7.2-access-establishment-and-modification).
+    We also have an unofficial \"All data is potentially PHI\" policy for our managed
+    integration services hardware/software. While we may have access to test environments
+    with mock patient data, we assume that we may be sent PHI from any vendor or healthcare
+    organization. As such, we protect all data like PHI as established in our policies.
+    \n\n## Theft or Improper Disposal\n\n- [WSU hard drive theft potentially impacts
+    1 million people](http://www.healthcareitnews.com/news/wsu-hard-drive-theft-potentially-impacts-1-million-people)\n-
+    [State Employee Dumps Medicaid Worksheets in dumpster](http://bismarcktribune.com/news/state-and-regional/state-employee-dumps-medicaid-worksheets-in-dumpster/article_13f36eb4-1fb4-5278-93e1-1d30a00c9f9a.html)\n\nWhile
+    hackers and ransomeware are increasingly perilous, [20% of data breaches reported
+    to the OCR are good old fashioned theft and improper disposal](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf).
+    Someone stealing a laptop from a car or a unencrypted hard drive from an office
+    to cause a breach are a tale as old as HIPAA itself.\n\nWe may be biased, but
+    **stop storing PHI on local machines or on paper**. [We don't](https://policy.datica.com/#7.13-access-to-ephi).
+    We only used [approved tools](https://policy.datica.com/#20.-approved-tools-policy)
+    with appropriate access controls and encryption to store and transfer PHI. We
+    also have [no servers in our offices](https://policy.datica.com/#10.-facility-access-policy)
+    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica.com/discover/hipaa-compliance/)
+    the hard way, either getting beat up by your first 250-question audit or worse:
+    by finding yourself on the OCR's Wall of Shame. Consult our policies or let us
+    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica.com/platform/).
+    \n\n\n"
+  :featured_image:
+    :id: 7EkRpt7VsIoAkms4sE8gQs
+  :share_image:
+    :id: 2LxaDSQm2kcWsQuQ8WmsSk
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  - :id: 5S8LbWARFKIogwQ2Mmcg80
+  - :id: 1tg5P46GikgUYoSqsYUcSY
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

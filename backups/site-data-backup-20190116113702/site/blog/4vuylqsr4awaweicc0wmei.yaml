@@ -1,0 +1,885 @@
+---
+:id: 4VUylqSR4AWawEICC0wMEI
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-12-05T02:07:57+00:00'
+  :created_at: '2018-10-29T15:04:32+00:00'
+  :id: 4VUylqSR4AWawEICC0wMEI
+:title: " EHRs in a Mobile First World"
+:slug: ehrs-in-a-mobile-first-world
+:pub_date: !ruby/object:DateTime 2018-10-29 00:00:00.000000000 Z
+:tags:
+- :id: qgckjVVwLQiyQcKsiyS6c
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-11T21:45:15+00:00'
+    :created_at: '2017-01-11T21:45:15+00:00'
+    :id: qgckjVVwLQiyQcKsiyS6c
+  :tag_full: EHR
+  :slug: ehr
+  :description: Electronic Health Records
+- :id: 4TyZlvypiw6yMeuGG8W4mu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:11:18+00:00'
+    :created_at: '2016-11-23T01:11:18+00:00'
+    :id: 4TyZlvypiw6yMeuGG8W4mu
+  :tag_full: mHealth
+  :slug: mhealth
+  :description: '"Mobile health" is a general term for the use of mobile phones and
+    other wireless technology in medical care. The most common application of mHealth
+    is the use of mobile phones and communication devices to educate consumers about
+    preventive health care services.'
+- :id: 2ExI7snXjysKOqWqmwQwwU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:18:13+00:00'
+    :created_at: '2016-11-22T20:18:13+00:00'
+    :id: 2ExI7snXjysKOqWqmwQwwU
+  :tag_full: Telemedicine
+  :slug: telemedicine
+  :description: Telemedicine is the remote diagnosis and treatment of patients by
+    means of telecommunications technology, such as video chats and mobile devices
+    and sensors.
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Considering EHRs eat up clinician time, clinicians are a mobile workforce,
+  and nearly 100% have smartphones, lets reimagine clinical documentation to be mobile-first.
+:blog_lead: As my daughter shoved my iPhone into my face this morning to try to unlock
+  it, seems fitting to be writing about mobile today. When I think of mobile, I now
+  think only of smartphones and not tablets. I used to consider tablets but increasingly
+  they feel closer to the desktop experience as I can’t really use them on the go
+  the same way I can use my phone. A mobile strategy should be synonymous with a smartphone
+  strategy.
+:post: "As an aside, before I started this post I was going over my personal task
+  list. I was attempting to add symbols for the various ways in which I can complete
+  tasks (phone, email, etc). This goes back to my days of following [GTD](https://gettingthingsdone.com/).
+  Anyway, what I quickly discovered as I sat at the airport was that none of the tasks
+  I needed to complete could really be done on my smartphone. Well, I could probably
+  complete several of them but it would be incredibly inefficient compared to doing
+  them on my computer. It quickly occurred to me that anything I could do on mobile
+  was already done, and the only tasks left were on hold until I got time on my computer.
+  Most of the on-hold tasks were longer content pieces.\n\nThe title of this post
+  refers to a post by [Fred Wilson from 8 years ago](https://avc.com/2010/09/mobile-first-web-second/)
+  about building products first for mobile, then for larger form factors. There are
+  lots of success stories of products that launched and only supported mobile (Waze
+  and Instagram to name a couple). For consumer health products, the paradigm of mobile-first
+  development holds true today. Look no further than then the myriad of health and
+  wellness apps in the [iOS App Store](https://developer.apple.com/app-store/). To
+  gain adoption and engaged users, mobile is essential. This post isn’t about mobile
+  consumer healthcare apps.\n\nOn the enterprise side of healthcare, the dominant
+  software in use today is the EHR. It’s used by all different types of users across
+  clinical, financial, and even operations. Specifically for clinical users, EHRs
+  eat up significant amounts of time each day. By and large, the major EHR vendors
+  (Epic, Cerner, and Athena) are not mobile-first. This means that clinical users
+  are forced to find and spend much of their time each day on a desktop screen. For
+  a very mobile workforce, this is an incredibly inefficient use of time.\n\nThere
+  are examples of newer, iPad-first or iPad-only EHRs. My wife and several of her
+  colleagues use a specialty-specific [iPad-only EHR from Modernizing Medicine](https://www.modmed.com).
+  A scribe charts her encounters and then my wife is left, usually at the end of the
+  week, with 100-150 notes to close out. She does this at home on her iPad but could
+  just as easily close them out on a computer. The reason her EHR is mobile-first,
+  for her at least, is because she has a scribe that charts her encounter while she
+  sees the patient. The caveat to this is she still uses a laptop at home in the evenings
+  to quickly close out notes and do referrals.\n\n## Unbundling the EHR\n\nConsidering
+  [EHRs are inefficient](https://www.ncbi.nlm.nih.gov/pubmed/24060331) when it comes
+  to eating up clinician time (a very valuable resource), clinicians are a mobile
+  workforce, and [nearly 100% of clinicians have smartphones](https://www.statista.com/statistics/416951/smartphone-use-for-professional-purposes-among-us-physicians/),
+  it’s worth thinking about how to reimagine clinical documentation to be mobile-first.
+  This isn’t to say EHRs don’t help with organizational efficiency but I’m thinking
+  about clinician efficiency. The major EHR vendors listed above are not going to
+  be replaced anytime soon and, if I was an investor, I wouldn’t invest in a new enterprise
+  EHR. That leaves the option of chipping away at specific sets of functionality currently
+  in the EHR. I have come to refer to this as [unbundling the EHR](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\nEHRs
+  in a mobile-first world are only possible by unpacking the functionality of the
+  EHR into discrete workflows/functions that can be completed efficiently on a smartphone.
+  This isn’t replacing the EHR but is a way to make using an EHR more efficient. It’s
+  mobile-enabling the EHR, or more accurately clinical workflow, in a stepwise fashion
+  with a goal to leverage mobile to minimize desktop time and use. The data remains
+  within the EHR (at least for the immediate term) but the ways in which clinicians
+  interface with EHR data are broken up into discrete, mobile-enabled functions. Proving
+  ROI with this approach is not hard if solutions either improve throughput/capacity
+  for clinicians or show benefits like closing out notes in a more timely way and
+  being able to bill faster or more accurately. And marketing these solutions as helping
+  healthcare organizations better leverage the massive investment they have made in
+  EHRs will resonate. Essentially, the goal is to leverage mobile to more efficiently
+  use an EHR and only leave certain functions to non-mobile devices.\n\nIn order to
+  succeed the specific functionality enabled on mobile needs to be able to pull the
+  relevant context, usually based on the patient. By definition, these types of solutions
+  are dependent on EHR data and must be able to integrate with the EHR. This is becoming
+  easier as EHRs [open up data via FHIR](https://datica.com/academy/introduction-to-fhir/)
+  but data integration remains the biggest hurdle to unpacking the EHR and starting
+  to break up the EHR user experience. This is another example of EHR customers needing
+  to push their EHR vendors harder to accelerate initiatives to ease access to EHR
+  data.\n\n## Mobile-first EHR Tools \n\nThere are already successful examples of
+  unbundling the EHR to leverage mobile. Many of these, even ones that have scaled
+  to hundreds of hospitals, are still only scratching the surface of unbundling the
+  EHR.\n\n- __Clinical Communications__. Communication is a major part of delivering
+  care to patients. It also happens to be something that EHRs don’t do very well.
+  Companies like [Voalte](https://www.voalte.com/) and [TigerConnect](https://www.tigerconnect.com/)
+  have built products to connect clinicians. And now these companies are expanding
+  the value to users with new workflows and data integration. I’ve never seen this
+  statistic but I wonder how much time nurses and doctors spend in clinical communication
+  apps vs EHRs.\n\n- __Clinical Documentation Improvement (CDI)__. This is a new mobile-enabled
+  functionality to be unbundled from the EHR. [Artifact Health](https://www.artifacthealth.com/)
+  is a good example. Artifact built a mobile application that brings relevant patient
+  context related to CDI into a mobile interface where clinicians can answer simple
+  questions. The answers to those questions are then returned back to the EHR and/or
+  billing. Instead of having a stack of CDI requests linger in an inbox in the EHR
+  or a physical desk, clinicians can now complete CDI requests quickly and easily
+  on the go.\n\n- __Real-time Device Data__. This is an area where [Airstrip](https://www.airstrip.com/)
+  still dominates. Airstrip started with maternal heart rate monitors and have since
+  extended to other medical devices as well as EHR data. The goal for Airstrip is
+  to be the mobile interface for clinical workflow and mobile-relevant clinical data.
+  They offer desktop tools but the real success of Airstrip is in focusing on the
+  mobile experience of clinicians. \n\n- __Data Entry__. Data entry into EHRs is a
+  massive time suck for clinicians. There are a few different approaches to unbundle
+  this functionality from the EHR. The most widely used today is scribing, with companies
+  like [Augmedix](https://www.augmedix.com/) and [iScribes](https://iscribes.co/)
+  as examples of technology-enabled virtual scribing. Scribing is essentially a Mechanical
+  Turk operation with audio, and sometimes video, recordings of patient encounters
+  documented in the EHR by people other than the providers conducting the encounters.
+  Newer voice-based tools intelligently automate the creation of cards of documentation
+  based on physician speech recording during encounters.\n\n- __Virtual Visits__.
+  Despite what the EHR vendors may say, telemedicine is not exactly a core EHR function.
+  Increasingly, virtual care is being delivered by clinical staff via mobile apps
+  and services like [Spruce Health](https://sprucehealth.com) and [Zipnosis](https://zipnosis.com).\n\nThese
+  are just a few examples. There are lots more opportunities to unbundle specific
+  functionality of the EHR. While not replacing the EHR or even obviously threatening
+  its dominant place in clinical and health IT, the approach of unbundling the EHR
+  chips away at one of the two primary pillars of the EHR moat — the EHR as the primary
+  clinical user interface and the EHR as the primary clinical data repository.\n\nBy
+  leveraging mobile, new mobile-first EHR tools have the potential to engage very
+  valuable users — clinicians. Once engaged, there are opportunities to extend functionality
+  with interconnected apps and data (iOS shortcuts would be very interesting ways
+  to link clinical apps into workflows). And, the hardest part of the process, [integration
+  with EHR data](https://datica.com/compliant-managed-integration/), is only done
+  once at each site so an extension to new offerings is considerably easier after
+  the first one.\n\nUnbundling the EHR is where we are going to see the most successful
+  disruption of the EHR in enterprise health IT. It’s a matter of timing and the market
+  is now ripe as we shift towards a post-EHR world.\n\n"
+:pull_quote:
+  :id: 1xWIEhFCzWEkGSIic00yK6
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2018-12-05T01:08:27+00:00'
+    :created_at: '2018-12-05T01:08:27+00:00'
+    :id: 1xWIEhFCzWEkGSIic00yK6
+  :quote_title: EHRs & mobile design
+  :quote_type: team
+  :quote_body: EHRs in a mobile-first world are only possible by unpacking the functionality
+    of the EHR into discrete workflows/functions that can be completed efficiently
+    on a smartphone. This isn’t replacing the EHR but is a way to make using an EHR
+    more efficient.
+  :related_person:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+:featured_image:
+  :title: blog-ehrs-mobile-first-world-featured
+  :description: EHRs in a mobile first world featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/HBpYz2ZUcuwUEqwcEIcGK/162fe26333c952a7c456425989168be6/people_on_mobile_phones_-_rawpixel-1054575-unsplash.jpg"
+  :_meta:
+    :updated_at: '2018-12-05T01:06:31+00:00'
+    :created_at: '2018-10-26T22:32:01+00:00'
+    :id: HBpYz2ZUcuwUEqwcEIcGK
+:share_image:
+  :title: blog-ehrs-mobile-first-world-share
+  :description: EHRs in a mobile first world share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/27ozMC1NaweGWiS0W0SSqq/c49e0b50159c972dccdfaab6c8326f4f/blog-ehrs-mobile-first-world-share.jpg"
+  :_meta:
+    :updated_at: '2018-10-26T22:32:35+00:00'
+    :created_at: '2018-10-26T22:32:35+00:00'
+    :id: 27ozMC1NaweGWiS0W0SSqq
+:cta_ref:
+  :id: 1RjrCwRgq4eOaS8cG60my4
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-11-22T04:21:39+00:00'
+    :created_at: '2017-11-09T01:17:27+00:00'
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :cta_title: Get the DHSF eBook
+  :cta_desc: This downloadable version of the Digital Health Success Framework (DHSF)
+    is a simple guide for the makers of digital healthcare products.
+  :cta_label: Get the eBook
+  :cta_url: https://datica.com/guide/digital-health-success-framework-ebook/
+  :cta_image:
+    :id: 4sQIg0ID7ywgK2S8SKSmyo
+  :cta_svg_icon:
+    :id: NWVKb7XE6QU8uE6s4WiEI
+  :cta_color: blue-alt
+:related_entries:
+- :id: 7vYtFWVvoWOqGoaugOEQco
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-12T00:29:48+00:00'
+    :created_at: '2018-10-11T23:30:28+00:00'
+    :id: 7vYtFWVvoWOqGoaugOEQco
+  :title: AWS re:Invent Healthcare Developer's Conference Guide
+  :slug: aws-re-invent-healthcare-developers-conference-guide
+  :pub_date: !ruby/object:DateTime 2018-10-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'Datica strives to make life a bit easier for healthcare developers, so
+    we did the dirty work of pouring through the master list of thousands of AWS re:Invent
+    sessions to pick our top 25. '
+  :blog_lead: "Today is the day the session reservation system opened up for attendees
+    of AWS re:Invent 2018. If this year is anything like [re:Invent last year](https://datica.com/blog/re-invent-day-2-looking-toward-the-future/),
+    the sessions will fill really fast, so don’t delay in choosing your sessions.
+    \n\nThose of you who know Datica already know that one of our main company goals
+    is to make life a bit easier for developers of digital health products. In line
+    with that goal, we did the dirty work for you of pouring through the [master list
+    of thousands of sessions](https://www.portal.reinvent.awsevents.com/connect/search.ww)
+    to hone in on the top 25 the Datica crew going to the re:Invent conference have
+    selected to attend. \n"
+  :post: "\nLook for our product team members, Ryan Rich, Chief Product Officer, and
+    Anthony Pleshek, Product Manager, who will be sharpening their skills right along
+    with you at these sessions. And, while you’re at re:Invent, stop by the Datica
+    booth #1607 for a demo of any of our products, including the just-announced [Cloud
+    Compliance Management System (CCMS)](https://datica.com/cloud-compliance-management-system/)
+    and where we’ll be giving away Yeti tumblers and copies of our new book, [Complete
+    Cloud Compliance](https://datica.com/innovation/complete-cloud-compliance-chapter-2/).\n\nWithout
+    further ado, here’s our recommended list of AWS re:Invent sessions for healthcare
+    developers. Get ‘em while they’re hot!\n\n## 25 sessions not to miss at AWS re:Invent
+    \n\nHere are the sessions covering some of the hottest topics in healthcare development.
+    This mixed bag of topics — including everything from serverless, containers, multi-tenant
+    architecture, compliance, FHIR, GxP, GDPR, IoT, and more — will get you on your
+    way to digital health product success.\n\n1. [ARC209-R - Architecture Patterns
+    for Multi-Region Active-Active Applications](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22880).
+    \n2. [ARC212 - Trends in Digital Transformation](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=88683).
+    \n3. [ARC213-R - Architecting for the Cloud](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=88681).
+    \n4. [ARC214 - Using Containers and Serverless to Deploy Microservices](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=88680).
+    \n5. [ARC304 - Architecture Patterns of Serverless Microservices](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22851).
+    \n6. [ARC305 - Serverless Architectural Patterns and Best Practices](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22856).
+    \n7. [ARC309 - From One to Many: Evolving VPC Design](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22859)\n8.
+    [ARC316 - Hands-On: Breaking a Multi-Region Active-Active Solution](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22867)\n9.
+    [ARC326-R - Migrating Single-Tenant Applications to Multi-Tenant SaaS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=91491)\n10.
+    [ARC418 - Deconstructing SaaS: Deep Dive into Building Multi-Tenant Solutions
+    on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=88686)\n11.
+    [HLC201-iL - Leadership Session: Innovation-Driven Healthcare](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=23000)\n12.
+    [HLC301-i - Architecting for Healthcare Compliance on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=22999)\n13.
+    [HLC302-S-i - Automating Compliance on AWS](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=90761)\n14.
+    [HLC401 - AWS Serverless Interface Building and Cerner's FHIR Experience](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89078)\n15.
+    [HLC402 - Creating Serverless Functions for Healthcare Messaging Applications](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=90219)\n16.
+    [HLC403 - VMware on AWS for Healthcare](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=90218)\n17.
+    [LFS304-i - Building IoT Devices for Regulated Industries](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89075)\n18.
+    [LFS316 - Architecting for GxP Compliance in Life Sciences](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89076)\n19.
+    [SEC204-R - Well-Architected for Security](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89822)\n20.
+    [SEC205-R - Confidently Execute Your Cloud Audit: Expert Advice](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89565)\n21.
+    [SEC206-R - GDPR Readiness and Management](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89845)\n22.
+    [SEC301 - The Theory and Math Behind Data Privacy and Security Assurance](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=23030)\n23.
+    [SEC305-L - Leadership Session: AWS Security](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=23028)\n24.
+    [SEC309-S - Moody’s: Deploying Cloud-Native Architectures with Automation](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=89861)\n25.
+    [SEC310 - 0x32 Shades of #7f7f7f: The Tension Between Absolutes and Ambiguity
+    in Security](https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=23118)\n\nWe’ll
+    see you in one of those sessions or at Booth #1607 in Vegas in November at AWS
+    re:Invent! \n"
+  :featured_image:
+    :id: Zv6PIqpXYOkogIsC6ISmG
+  :share_image:
+    :id: 2rLAqeB1QEW0UM0ckwo0cm
+  :cta_ref:
+    :id: 36zZKUG51CaoweqoOGWYae
+  :related_entries:
+  - :id: 3lzG8iBWBquS8cQeWG0G8i
+  - :id: 5xoRY6Vp1C222IgKW4Emo8
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 6LboeTU7m0YiugQ2owU0cW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:45:59+00:00'
+    :created_at: '2018-01-19T01:34:44+00:00'
+    :id: 6LboeTU7m0YiugQ2owU0cW
+  :title: The Trusted Exchange Framework and the Pursuit of Interoperability
+  :slug: the-trusted-exchange-framework
+  :pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'The January, 2018 draft of the Trusted Exchange Framework is the first
+    real step toward interoperability since the Cures Act was passed. '
+  :blog_lead: 'One of the biggest obstacles to using electronic health data to the
+    fullest potential is the lack of interoperability. At every level of healthcare,
+    the lack of interoperability causes problems: patients cannot easily access their
+    own health data, providers have problems accessing the health information of new
+    patients, researchers cannot access the data necessary to identify trends that
+    would improve population health, and technology companies struggle to compete
+    in a closed marketplace. '
+  :post: "The [21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34/text),
+    sometimes referred to as the Cures Act, which was passed in December 2016, identifies
+    the need for interoperability. Interoperability would make the exchange of personal
+    health information (PHI) possible while still maintaining security. Currently,
+    information is siloed within EHR systems, and [data integration with those EHRs](https://datica.com/platform/integration/)
+    is frequently cited issue for healthcare providers. \n\nAlongside the need for
+    various stakeholders to be able to access information, there is the requirement
+    to follow the dictates of the [Health Insurance Portability and Accountability
+    Act (HIPAA)](https://datica.com/academy/hipaa-101-a-primer/). Information needs
+    to be accessible, but must also remain secure. Through the Cures Act, Congress
+    instructed the Office of the National Coordinator (ONC) to create or support the
+    creation of a framework for health information networks (HINs) to exchange health
+    information through a common agreement. \n\n## What is The Trusted Exchange Framework?\n\nThe
+    draft Trusted Exchange Framework is the first step toward interoperability. The
+    ONC has published a [User’s Guide to Understanding the Draft Trusted Exchange
+    Framework](https://www.healthit.gov/sites/default/files/draft-guide.pdf). The
+    document was released on January 5, 2018, and consists of two parts:\n\nPart A
+    - Principles for Trusted Exchange\nPart B - Minimum Required Terms and Conditions
+    for Trusted Exchange\n\nStakeholders are [encouraged to submit comments](https://beta.healthit.gov/topic/interoperability/trusted-exchange-framework-and-common-agreement)
+    through February 20, 2018. Once comments have been submitted and a final version
+    agreed upon, the Trusted Exchange Framework and Common Agreement (TEFCA) will
+    be published in the Federal Register. The ONC expects the final version to be
+    published by late 2018. \n\nThe stakeholders include: \n\n* Health information
+    networks\n* Federal agencies\n* Public health organizations\n* Individuals\n*
+    Payers\n* Providers\n* Technology developers\n\nOne of the most important goals
+    of the Trusted Exchange Framework is to create what the ONC describes as “a single
+    on-ramp” to interoperability. Currently, healthcare organizations use different
+    point-to-point interfaces to exchange PHI with each other. This system requires
+    the creation and maintenance of all those individual interfaces, which is expensive
+    and inefficient. \n\nCreating one framework for various stakeholders to exchange
+    information will simplify the process, make accessing their own PHI easier for
+    patients, and create a more competitive market for technology companies. \n\n##
+    Two Parts of the Trusted Exchange Framework\n\n### Trusted Exchange Framework
+    Part A\n\nThe first part of the Framework is Principles for Trusted Exchange.
+    The ONC has defined six principles: \n1. Standardization\n2. Transparency\n3.
+    Cooperation and Non-Discrimination\n4. Security and Patient Safety\n5. Access\n6.
+    Data-Driven Accountability \n\nThese general principles are described as “guardrails,”
+    and the goal of Part A is to build trust among the various HINs. \n\n### Trusted
+    Exchange Framework Part B\n\nThe second part of the framework is Minimum Required
+    Terms and Conditions for Trusted Exchange. This section creates common practices
+    for the exchange of health information, including a common authentication process,
+    rules for exchange, and organizational and operational practices. \n\nSpeaking
+    to [Fierce Healthcare](https://www.fiercehealthcare.com/regulatory/onc-genevieve-morris-trusted-exchange-framework-common-agreement-interoperability),
+    Genevieve Morris, the principal deputy national coordinator for health information
+    technology at the ONC said, \n\n> This is just the floor of what those required
+    terms and conditions are. We all just have to agree to the same terms in order
+    for that exchange to happen.” \n\n## Building on the 3 Goals of Interoperability\n\nThe
+    Trusted Exchange Framework builds on the work that the industry has already done
+    to advance interoperability. [A press release](https://www.hhs.gov/about/news/2018/01/05/draft-trusted-exchange-framework-and-common-agreement-released-hhs.html)
+    from the Department of Health and Human Services regarding the draft stresses
+    that there are three important goals of interoperability: \n\n1. Patient access
+    - patients should be able to easily access their own health information.\n2. Population-level
+    data exchange - both providers and payers need access to population-level health
+    data in order to analyze trends, outcomes, and costs.\n3. Open and accessible
+    APIs - giving the health IT community access to health information will improve
+    the entrepreneurial climate, leading to innovation and improved usability. \n\nThe
+    ONC will outsource the actual implementation of the framework. The ONC will hold
+    an “open and competitive selection of a single Recognized Exchange Framework Entity
+    (RCE) from the industry,” wrote Morris in a [blog post on HealthIT Buzz](https://www.healthit.gov/buzz-blog/interoperability/trusted-exchange-framework-common-agreement-common-sense-approach-achieving-health-information-interoperability/).
+    \ \n\nThe RCE will work with the ONC to develop the final version of the TEFCA
+    that is published in the Federal Register. \n"
+  :featured_image:
+    :id: 9olotaRMhGeCcA8uWQk0O
+  :share_image:
+    :id: 48KfMUhT8IqIIYoOCcqG2q
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5nkgweRTpKkSuMKMCa4mog
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T23:36:35+00:00'
+    :created_at: '2018-01-16T01:34:50+00:00'
+    :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  :title: 6 Healthcare Trends to Watch in 2018
+  :slug: 6-healthcare-trends-to-watch-in-2018
+  :pub_date: !ruby/object:DateTime 2018-01-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Government, individuals, and private sector will continue a push for change
+    in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.
+  :blog_lead: It’s 2018, and the world looks much different [than it did a year ago](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/).
+    Go [back even further](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+    and the differences are even more stark. No place is that more evident than in
+    healthcare. As the largest industry in the world, healthcare has  weathered the
+    most significant political waves of the last fifteen years. As the costs of healthcare
+    increased unchecked, politicians took notice.
+  :post: "\nIn our pseudo free-market health system, where a considerable portion
+    of costs are covered with public funds, and where the largest public payor initiates
+    changes that are then emulated by commercial payors and, likewise, where government
+    entities heavily regulate healthcare’s techniques and technologies, politicians
+    have intervened to force changes. With healthcare being a major topic of the last
+    several elections and a top priority for President Obama during one of his two
+    terms (as it was for President Clinton, though his primary initiatives in healthcare
+    didn’t pass), it’s no surprise that the current administration also would like
+    to impart change. [President Trump is now working to alter](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
+    some of what the Obama administration put into place. This move creates more uncertainty
+    and requires change. I think everyone agrees on a defined set of goals for the
+    industry, known as the triple aim (better outcomes, lower costs, improved experience),
+    but the path to achieving those goals is wildly variable depending on your political
+    position.\n\nUnfortunately these required changes have placed the industry in
+    turmoil. In an effort to modernize its technology, EHRs have been forced between
+    providers and patients to ensure better, more consistent data collection. Ideally,
+    this move should reduce medical errors and redundant tests, however, the government
+    missed a massive opportunity here when it spent north of $40B on incentives to
+    increase digitization of medical records — EHR software that wasn’t built to reduce
+    medical errors, unnecessary tests or even improve clinician communication or data
+    sharing across providers that would ensure continuity of care. At the same time,
+    government financial incentives prompted a change to healthcare services to ensure
+    quality. Yet, most of these quality initiatives didn’t go far enough and consequently
+    increased data reporting burdens for clinicians. Meanwhile, payments for the majority
+    of healthcare services have been reduced, squeezing provider margins and changing
+    the rules for how providers are paid.\n \nHealthcare hasn’t improved for consumers.
+    During appointments, providers struggle to connect because they have screens,
+    not patients, in front of them. Insurance coverage has gotten worse; choices have
+    been reduced and the complexity of bills and payor communications to consumers
+    more complex. How much worse have things become? I have an MD, MBA, and MS. I
+    run a healthcare company with ~50 employees and have been writing and speaking
+    on healthcare and healthcare technology for ten years. My wife and many of my
+    friends are practicing physicians; some are my physicians. Yet, I woefully struggle
+    to understand my medical bills, choices in providers, and generally how to navigate
+    our broken system. \n\nWhere does that leave healthcare going into 2018? I’d argue
+    that healthcare, if anything, is worse today than it was a year ago. The government,
+    individuals, and private sector will certainly continue pushing for more changes
+    in 2018. Given that, I predict we’ll see a few major healthcare trends as we move
+    through the new year.\n\n## Subscription / direct pay / cash-based practices \n\nConsumers,
+    with minimal choice in healthcare, find it difficult to speak with their wallets
+    or their feet. Similarly, providers have even fewer options. It's no wonder that
+    subscription medicine and cash-based medical practices are growing in popularity
+    for both providers and patients (more on that below). These care models align
+    incentives and are transparent. Geared towards those who have the ability to pay
+    extra for better services, today, the majority of these care models bank on the
+    pocketbooks of the middle to upper class. However, [emerging data sets](https://www.heritage.org/health-care-reform/report/direct-primary-care-innovative-alternative-conventional-health-insurance)
+    show the success of this model is also possible for underserved populations, as
+    well. Learn more about what I think will happen with [cash-pay practices in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/).\n
+    \ \n## Post-EHR healthcare \n\nThe gravy train of meaningful use (MU) is over.
+    The effect of MU was a significant, artificial, driver of adoption for a few EHRs.
+    Today, digital health records are the standard. As we move through 2018, keep
+    an eye on EHRs and how they justify their ROI once massive capital expenditures
+    are written down. Likewise, you’ll want to consider how clinicians adjust to this
+    brave new world. Read more about my [2018 predictions for the post-EHR world](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\n##
+    Clinicians as developers\n\nThe EHR wave of health IT left out clinicians. EHR
+    and IT vendors drove those early technology decisions. Now, with software eating
+    the world, clinicians are acting like software developers and corporate innovators
+    in helping to design and, in some cases, build new technology and technology-enabled
+    services for their colleagues and their patients. [Read more of my thoughts on
+    clinicians as developers.](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)\n\n##
+    The real cloud\n\n[HIMSS 2018](http://www.himssconference.org/), the largest health
+    technology conference on the planet, will for the first time see the behemoth
+    booths of EHR vendors challenged by the equally massive booths of public cloud
+    service providers like Amazon, Microsoft, and Google. This is the canary in the
+    coalmine moment for healthcare, not just for the adoption of the real cloud over
+    simple virtualization, but also in the fragmentation of infrastructure and services
+    managed by third parties for healthcare delivery organizations. [Learn more about
+    the real cloud in healthcare.](https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n\n##
+    Beyond digital health hype\n\nDigital health has been hyped for a long time as
+    a savior for healthcare. Unfortunately, healthcare is not that simple and no savior
+    exists to untangle us from our current mess of a system. Technology, for technology’s
+    sake, is not going to fix healthcare. While we’ve witnessed incredible enthusiasm
+    around new technologies disrupting healthcare, we’re also now seeing some public
+    failures, like the recent [acquisition/fire sale of Practice Fusion](http://www.healthcareitnews.com/news/allscripts-buys-practice-fusion-100-million),
+    or the [Castlight Health initial public offering hype](https://www.usatoday.com/story/money/markets/2014/03/14/castlight-health-ipo/6411725/)
+    and valuation assumptions compared to the market reality of today. Similar to
+    EHRs, digital health now must prove it’s worth if it’s going to have sticking
+    power. [Find out more about getting beyond the digital hype.](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n\n##
+    Blockchain to the rescue \n\nSpeaking of hype, [blockchain has made its way into
+    healthcare](https://www.forbes.com/sites/bernardmarr/2017/11/29/this-is-why-blockchains-will-transform-healthcare/#2560e48f1ebe).
+    Smart contracts, immutability, and a clear audit trail — hallmarks of blockchain
+    technology — hold much promise for healthcare data and exchange. The problem is
+    that technology, especially when it comes to data sharing and interoperability
+    in healthcare, is not the dominant roadblock. Layering in new technology, like
+    blockchain, leaves the fundamental organizational and political problems unsolved.\n\nI’ll
+    focus on each of these trends in subsequent posts, distilling all of these healthcare
+    trends down into one larger narrative: post-EHR healthcare is finally ready and
+    incented to start making the necessary changes that will align with the triple
+    aim. Massive organizations will vie for their place in this new healthcare world;
+    some will win and others won’t. The winners will be the providers AND the patients.\n"
+  :featured_image:
+    :id: 4Jy6Q7twdqk8AMssewYKIa
+  :share_image:
+    :id: 2RBIZfT40wkGOqiqqy46gk
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+- :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:44:33+00:00'
+    :created_at: '2018-02-21T19:05:15+00:00'
+    :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :title: '2018 Healthcare Trends Part 3: 6 Predictions for the Post-EHR World'
+  :slug: 2018-trends-6-predictions-post-ehr-world
+  :pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD,
+    CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world. '
+  :blog_lead: "Sadly, the biggest winners in our post-health reform world (post-HITECH
+    and ACA) are neither patients nor providers; the big winners are electronic health
+    record (EHR) companies and the cottage industry of consultants and services who
+    support them. This isn’t an indictment of EHRs, though I don’t think EHRs have
+    delivered on the promise of the triple aim. It’s merely a sad observation of the
+    outcome of billions of dollars spent to improve healthcare. Regardless, we are
+    here in 2018, and EHRs play a central role in the daily lives of providers and,
+    by extension, patients.\n\nIn this third part of our [2018 Healthcare Trends](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)
+    series, I offer predictions of what we can expect to see in a post-EHR world. "
+  :post: "\nToday, EHRs are in use by [95+% of eligible providers](https://dashboard.healthit.gov/quickstats/pages/FIG-Hospital-Progress-to-Meaningful-Use-by-size-practice-setting-area-type.php).
+    With that massive adoption, EHRs, at least the meaningful use certified EHRs deemed
+    by the government worthy of carrot and stick adoption incentives, play two foundational
+    roles in healthcare today.\n\n1. **EHRs are the hub of patient data.** They collect
+    and store both subjective information and objective data from devices. They store
+    reports and other kinds of file attachments. They store discrete data.\n2. **EHRs
+    are the hub of clinical workflow.** Though EHRs are designed for general workflows,
+    they don’t provide the tailored fit clinicians actually need forcing them to have
+    to adapt their workflows to EHRs and not the other way around as it should be.
+    Orders, messages, referrals, you name it. If providers are not entering or looking
+    for data in the EHR, they are using the EHR to accomplish a task.\n\nThese two
+    roles are foundational to building solutions, technology, or technology-enabled
+    processes on top of the EHR; there are exceptions to this rule but, increasingly,
+    even these exceptions are being forced to integrate. This changes everything,
+    especially for those innovators in healthcare that are trying to develop solutions
+    for providers and patients. But, almost as importantly, it forces EHRs to now
+    either a) build new solutions themselves, b) support new 3rd party solutions,
+    or c) risk replacement by newer EHRs that do either a or b. This process isn’t
+    happening overnight, but it is happening.\n\nHealthcare technology tends to cycle
+    every 15 years or so between best-of-breed solutions and all-in-one platforms.
+    Today’s EHRs are at the tail end of a 15-year cycle that has seen their adoption
+    grow massively as healthcare providers have implemented one of a few EHR options
+    as platforms. Now, we are starting to cycle back to best-of-breed solutions as
+    it has become abundantly clear that monolithic EHRs cannot develop solutions fast
+    enough to meet the demands of the market. One platform cannot do everything. And
+    EHRs, at least the major ones, are trying a mix of the a and b strategy above
+    to hold their place as the central healthcare IT software.\n\n## EHRs still control
+    access to patient data\n\nEHRs still control access to data and clinician workflows
+    and have used that control to slow down adoption of new digital health solutions.
+    EHRs have developed proprietary programs, or app stores/orchards/ programs, in
+    attempts to support, whether that support is real or perceived, 3rd party solutions
+    — Epic has App Orchard, Cerner has Cerner Cares, Allscripts has the Allscripts
+    Developer Program, and Athena has More Disruption Please (there are more examples,
+    but these are the big four). While programs from Athena and Allscripts are mature
+    at this point, the emerging programs from Epic and Cerner have been slow to take
+    off at best or failing at achieving any meaningful adoption at worst. The reasons
+    for their slow take off or failure are partially technology-related (the app stores
+    are proprietary) and partially business-model related (Apple can take 30% of app
+    store partner revenue because Apple is the primary driver of revenue whereas EHRs
+    are trying to collect 30% of revenue as a tax merely to integrate with them.)
+    The $15-20K EHR integration price tag we grew to loathe is now a 30% tax on partner
+    revenue.\n\nAt the same time EHRs try to support 3rd party applications, they
+    are trying to build their own solutions to shut out digital health products. Every
+    EHR now has a data warehousing solution, most have a population health tool, and
+    many have telemedicine offerings. Similarly to Microsoft’s strategy of using its
+    Windows and Office customer base to sell Azure cloud services, EHRs are trying
+    to sell their own new products. The problem is none of the major EHRs are as savvy,
+    either technically or business-wise, as Microsoft.\n\n## The Slow Burn of FHIR\n\nConcurrently,
+    many major EHRs are supporting FHIR as a standard way to access EHR data. Some
+    of that support may be vaporware, but most EHRs are at least announcing [FHIR
+    capabilities](https://datica.com/guide/fhir/). FHIR has been in discussions for
+    several years and, despite a lot of broad-based support, is moving painfully slowly
+    towards adoption and actual implementation. Yes, the big four may support reading
+    data from their EHRs via FHIR, but there is very little a real application can
+    do by only reading data from the EHR. At times, the slow pace of FHIR adoption
+    seems intentional by the many incumbents supporting it. Despite that, a recent
+    survey found that health system CIOs consider FHIR to be the technology with the
+    [most promise in 2018](https://www.healthcare-informatics.com/news-item/interoperability/cios-see-fhir-potential-game-changer-and-blockchain-overhyped-survey),
+    meaning FHIR is here to stay.\n\n## Is Replacing EHRs the Path Forward?\n\nIf
+    EHRs are failing to support 3rd-party solutions and failing to develop and sell
+    their own digital health products fast enough, does that leave option C — replacing
+    EHRs — as the only path forward? \n\nNot exactly. \n\nAs both the hub of data
+    and hub of clinical workflow, EHRs are extremely entrenched today. The vast majority
+    of health system IT department resources are dedicated to supporting EHRs, so
+    there are strange incentive conflicts. And, FHIR has been highly effective at
+    buying EHRs more time.\n\nAs I said before, this process is not happening overnight,
+    but it is happening. More industry leaders are [speaking out against EHRs](http://www.modernhealthcare.com/article/20180122/NEWS/180129979)
+    and the rampant blocking of innovation so needed in healthcare. EHRs can only
+    buy so much time. What I think we are going to see over the next 3-5 years, a
+    time that also coincides with when a lot of health systems will have written down
+    the heavy upfront capital expense of EHRs, is EHRs becoming less and less a clinical
+    workflow tool and more and more a clinical encounter documentation tool and one
+    source, not the primary hub, of clinical data.\n\nThere are two parts to that
+    prediction. The first just means that we’re going to see purpose-built tools for
+    specific workflows. We already see that today with clinical communication tools
+    like [Voalte](http://www.voalte.com/) that are making the lives of nurses easier
+    by enabling them to use a fast, mobile, purpose-built platform for their workflows
+    and communications. The second is piggybacking on the inevitable march toward
+    continuous and complete patient data. EHR data today is episodic. Clinical data
+    tomorrow will include episodic EHR data but also remote monitoring data, social
+    data, genetic data, and always-on sensor data. The EHR data will be one part of
+    a much larger puzzle. I think the EHRs of today, the large ones I mention in this
+    post, have too much technical debt to move fast enough to serve as the hub of
+    clinical data tomorrow. They are saddled with their history.\n\n## 6 Predictions
+    about EHRs in 2018\n\nPredictions are easy when you don’t have specific timelines.
+    So what do I think we’ll see with EHRs and clinical data in 2018?\n\n1. **More
+    direct patient access to EHR data.** There was already a major announcement of
+    [Apple enabling its customers to access Epic and Cerner data](https://www.healthdatamanagement.com/news/apple-health-app-effort-to-engage-consumers-by-sharing-ehr-info).\n2.
+    **More available production FHIR services.** Most of these will be couched as
+    pilots or beta, but progress is progress. FHIR will also be used for direct patient
+    access to data.\n3. **Social determinants of health matter…a lot.** Everybody
+    always cites studies that show WHO data of high US healthcare spending with resultant
+    lousy health outcomes. This is true. And sad. But it’s not the whole story. In
+    the US, we spend far less on social programs and services than most countries
+    that beat our health outcomes. The result is a health system that doubles as a
+    social safety net, with all costs incurred by the health system. Social data and
+    care based on that data will be a major shift in 2018, and I think most of that
+    will happen outside the EHR, at least regarding data sources and storage.\n4.
+    **Demand for data access by EHR customers.** One of the challenges when integrating
+    with an EHR is that the default answer is usually “no”. There is invariably friction
+    to overcome and it is up to the health system to overcome this friction. I think
+    2018 we will see a lot less acceptance of “no” and more pushing for EHRs to open
+    up access to data, whether that data is exposed via FHIR or HL7 v2.x or a proprietary
+    API middle layer like that provided by Sansoro Health.\n5. **Mega-mergers require
+    new strategies around data sharing from unwilling players.** Large-scale mergers
+    like Dignity/CHI and Providence-St. Joseph’s/Ascension will show vendors willing
+    to demonstrate a more willing ability to play nice so that they don’t lose market
+    share as hundreds of hospital sites are brought under one IT umbrella for the
+    sake of efficiency. Epic has already shown some cards around this with their [Come
+    Together/Happy Together/Working Together](https://www.epic.com/epic/post/3222)
+    trio, but it’s hard to say if it’ll stave off mega losses in the usual hospital
+    merger shakeup where two EHR vendors enter and only [one leaves](https://www.fiercehealthcare.com/ehr/advocate-health-care-aurora-healthcare-epic-ehr-merger-care-coordination).\n6.
+    **More ambulatory EHR providers bite the dust.** Now that the dust of Meaningful
+    Use has settled, more companies are beginning to evaluate if they want to stay
+    at the EHR table. With Allscripts acquiring both McKesson’s EHR suite and Practice
+    Fusion (at a loss), anticipating more contraction in the EHR space as disinterested
+    players try to divest assets while they are still holding water (GE Centricity,
+    Greenway) seems like a safe bet. \n\nIf you enjoyed this post, you might want
+    to take a look at my first [2018 trend deep dive into how cash-pay practices will
+    grow](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/). \n"
+  :featured_image:
+    :id: 4Tm8DN5A08U02UiMCiWgoU
+  :share_image:
+    :id: 4u6llwzbvikEookEgoCOCG
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

@@ -1,0 +1,117 @@
+---
+:id: 7wDoP0SHTiSMcAmmOgkKqO
+:_meta:
+  :content_type_id: caseStudy
+  :updated_at: '2018-04-10T21:46:21+00:00'
+  :created_at: '2017-01-13T07:03:32+00:00'
+  :id: 7wDoP0SHTiSMcAmmOgkKqO
+:case_study_title: Cordata Gains Compliance Confidence from Clients and Investors
+  with Datica
+:slug: cordata
+:featured: true
+:tags:
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+- :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:27:49+00:00'
+    :created_at: '2016-11-23T18:27:49+00:00'
+    :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :tag_full: Customers
+  :slug: customers
+  :description: See what our customers are doing.
+:customer:
+  :id: 5SzQ95Vy36iqOSiYIqeAui
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-11-28T21:51:32+00:00'
+    :created_at: '2016-08-19T18:16:01+00:00'
+    :id: 5SzQ95Vy36iqOSiYIqeAui
+  :company_name: Cordata
+  :slug: cordata
+  :customer_logos:
+  - :id: 2pGgP96c8sWI0ui0c8QI4O
+  - :id: 3GrlnYmGnukyGWGe8IIsCg
+  :fullname: Gary Winzenread
+  :role: CEO and President
+  :profile_pic:
+    :id: 2cl8tFI5vOIqQoYOwwAW0C
+  :customer_quote:
+    :id: 2IXpuuoj5eyEgAaaEiEeG6
+  :profile_twitter: cordata
+  :profile_linkedin: cordata
+  :related_products:
+  - :id: 2fzMqf6H3W28sIImkqygQw
+  :customer_story_short: Cordata's care coordination platform builds a bridge between
+    todays fee-for-service driven healthcare model to tomorrow's value-based healthcare
+    model. Datica helped Cordata get over the compliance hurdle, and has saved the
+    Ohio company time, hassle and the cost of a full-time engineer.
+  :case_study:
+    :id: 7wDoP0SHTiSMcAmmOgkKqO
+:related_form:
+  :id: 2Qp2qN2TmEMaYOeASoUIEQ
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:03+00:00'
+    :created_at: '2018-04-10T20:05:45+00:00'
+    :id: 2Qp2qN2TmEMaYOeASoUIEQ
+  :title: Cordata Case Study
+  :slug: cordata-case-study
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"e6c2e2f9-fad5-4cb5-b853-fcefc3439dba\",\n
+    \ target: \"#hsFormContainer\",\n  onFormSubmit: function($form) {\n  window.dataLayer
+    = window.dataLayer || [];\n  window.dataLayer.push({\n                    'event'
+    : 'GAEvent',     \n                    'eventCategory' : 'Case Study',\n                    'eventAction'
+    : 'Form Submission',\n                    'eventLabel' : 'Cordata',\n                    'eventValue'
+    : '2'\n                    });\n                  },\n  css: \"\"\n});\n</script>\n"
+:form_id: e6c2e2f9-fad5-4cb5-b853-fcefc3439dba
+:media_object: <script src="//fast.wistia.com/embed/medias/vcjue00pyu.jsonp" async></script><script
+  src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding"
+  style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"
+  style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed
+  wistia_async_vcjue00pyu popover=true popoverAnimateThumbnail=true videoFoam=true"
+  style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+:customer_quote:
+  :id: 2BeNQoqXUk0YCuYoiuWkOs
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-02-06T03:02:59+00:00'
+    :created_at: '2017-01-13T07:01:12+00:00'
+    :id: 2BeNQoqXUk0YCuYoiuWkOs
+  :quote_title: Cordata on recognition
+  :quote_type: customer
+  :quote_body: We are seeking to build confidence with many stakeholders. When I mention
+    Datica, I get nods of recognition and no more questions asked about infrastructure.
+  :customer:
+    :id: 5SzQ95Vy36iqOSiYIqeAui
+:related_product:
+  :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+:value_prop: Datica helps customers build trust with stakeholders
+:body: |-
+  When a healthcare IT company struggles with compliance, Datica is ready to step in. Helping Cordata over the compliance hurdle has saved the Ohio company time, hassle and the cost of a full-time engineer. Yet the bonus value of the Datica Platform became most evident during fundraising. Cordata’s CEO received nods of approval from investors when they realized the company’s technology is built upon the HIPAA compliant, HITRUST CSF Certified Datica Platform.
+
+  #### Discover how Datica helped Cordata strengthen its compliance in this case study.
+
+  * The __Challenge:__ Build a HIPAA compliant infrastructure without interrupting engineer workflows
+  * The __Solution:__ Datica’s Compliant Cloud and expertise to provide compliance direction for product development
+  * The __Advantage:__ Cordata gains greater confidence in its own security practices
+  * The __Opportunities:__ Investors immediately trust Cordata’s infrastructure based upon its partnership with HIPAA security experts at Datica

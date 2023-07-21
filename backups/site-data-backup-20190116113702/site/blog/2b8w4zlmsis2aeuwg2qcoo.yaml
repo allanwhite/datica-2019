@@ -1,0 +1,71 @@
+---
+:id: 2b8w4zLmSIs2AEUWG2QCOo
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-03T00:26:21+00:00'
+  :created_at: '2017-02-03T00:26:21+00:00'
+  :id: 2b8w4zLmSIs2AEUWG2QCOo
+:title: 7-Step Technology Checklist for PHI Protection
+:slug: 7-step-technology-checklist-for-phi-protection
+:pub_date: !ruby/object:DateTime 2016-06-21 00:00:00.000000000 Z
+:categories_blog: company
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: Criminal and financial penalties alongside severe reputation loss — with
+  wagers so high, hospitals need to grow above the impromptu manual audits. Further
+  contextual proof is given since these audits review a very minute percentage of
+  all daily access events. Ensuring widespread patient privacy requires a solid foundation
+  involving policy, procedures, and technology.
+:blog_lead: Criminal and financial penalties alongside severe reputation loss — with
+  wagers so high, hospitals need to grow above the impromptu manual audits. Further
+  contextual proof is given since these audits review a very minute percentage of
+  all daily access events. Ensuring widespread patient privacy requires a solid foundation
+  involving policy, procedures, and technology.
+:post: |-
+  Certain tasks simply cannot be addressed efficiently when done manually. With the appropriate technology, hospitals and healthcare entities can move beyond the limitations of random and manual audits. Now, patient privacy monitoring can be automated.
+
+  Automation implementation through technology helps healthcare organizations investigate and track breaches more efficiently as well. Reports on unauthorized access attempts to patient medical records are generated in addition to enacted practices to prevent another breach. Having automated solutions for integrating and correlating access to PHI across various healthcare systems ensures the simplest and most effective way to streamline all processes and procedures that ensure compliance. The OCR HIPAA audits and the HIPAA Omnibus Rule mandate healthcare organizations have live practices that prove a hospital is able to monitor and react to patient records access.
+
+  When evaluating technology for a patient privacy-monitoring program, the following checklist can ensure the selected system is capable of critical capabilities:
+
+  1. Key monitoring of all patient records access: By automatically aggregating audit logs from across the entire organization and providing single search queries and proactive auditing
+  2. Catching and resolving single as well as recurring breaches in real-time: It is important that inappropriate activity be spotted as it happens by proactively auditing all access to patient records
+  3. Documenting breach investigations and their resolution: With a centralized and automated system, information required for documenting all investigation and their resolutions can be easily provided for fulfilling notification requirements
+  4. Providing reporting per state and federal guidelines: Helps in the creation of a centralized, comprehensive environment for reviewing documented findings and providing insight into areas that require additional security measures and/ or employee education
+  5. Documenting the release of medical records: When releasing medical records, a HIPAA violation can occur in so many ways and it is important that there is a procedure in place to document and track their release
+  6. Accounting for disclosures: Hospitals and business associates are required to address all PHI disclosures, and the process must be able to track and document the disclosures in a central repository
+  7. Meeting MACRA requirements of patient privacy: Should allow hospitals to implement policies and procedures for preventing, detecting, containing and correcting security violations.
+
+  Questions? Reach out to us [directly][1], [tweet us][2], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+  [1]: mailto:hello@datica.com
+  [2]: https://twitter.com/daticahealth

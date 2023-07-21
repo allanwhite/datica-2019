@@ -1,0 +1,204 @@
+---
+:id: HkskHrVGykqSqOKGiqkaW
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2019-01-11T18:46:37+00:00'
+  :created_at: '2019-01-11T18:46:37+00:00'
+  :id: HkskHrVGykqSqOKGiqkaW
+:title: Site Navigation, Primary
+:slug: site-nav
+:subhead: Datica brings healthcare to the cloud.
+:desc: Get through the maze of compliance and onto the cloud faster with Datica.
+:related_entries:
+- :id: 1d5wbHCKFGuiQka4kE6Icc
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-16T19:11:05+00:00'
+    :created_at: '2019-01-11T18:46:28+00:00'
+    :id: 1d5wbHCKFGuiQka4kE6Icc
+  :title: Cloud Compliance
+  :title_short: Compliance
+  :section: Compliance
+  :summary: We're the experts at understanding the exact policies and procedures required
+    to turn HIPAA-eligible services on the public cloud into architectures that can
+    pass a HITRUST CSF assessment.
+  :section_promo:
+    :id: 2niXNAQR924CwM0YcOeo0C
+  :child_data:
+  - :url: "/compliant-kubernetes-service/"
+    :desc: Datica is a complete, enterprise cloud-native solution for regulated industries.
+    :icon: cks-logo-w
+    :title: Compliant Kubernetes Service
+    :nav_main: true
+    :title_short: Datica CKS
+  - :url: "/compliant-platform-as-a-service/"
+    :desc: The Compliant Cloud Platform Perfectly Designed for Early-Stage Applications.
+    :icon: cpaas-logo-w
+    :title: Compliant Platform-as-a-Service
+    :nav_main: true
+    :title_short: Datica CPaaS
+  - :url: "/cloud-compliance-management-system/"
+    :desc: The first-ever tool to guarantee compliance assurance of managed cloud-native
+      services.
+    :icon: ccms-logo-w
+    :title: Cloud Compliance Management System
+    :nav_main: true
+    :title_short: Datica CCMS
+  :section_link_label: Find the right compliance solution for you
+  :section_link_uri: "/cloud-compliance/"
+- :id: qPwQe06R6CkG84uC0Gqcs
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-16T19:10:39+00:00'
+    :created_at: '2019-01-11T18:46:28+00:00'
+    :id: qPwQe06R6CkG84uC0Gqcs
+  :title: EHR Integration
+  :title_short: Integration
+  :show_in_top_nav: true
+  :section: Integration
+  :summary: Datica's approach to integration takes the stress and frustration of complex
+    healthcare data integration problems—and lets you focus on your products.
+  :section_promo:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :child_data:
+  - :url: "/compliant-managed-integration/"
+    :desc: The complete toolset to handle compliant, scalable, secure data exchange
+      with any EHR or clinical system.
+    :icon: cmi-logo-w
+    :title: Compliant Managed Integration
+    :nav_main: true
+    :title_short: Datica CMI
+  - :url: "/compliant-managed-integration#services"
+    :desc: Expert guidance and project services.
+    :icon: icon-consulting-compass
+    :title: Integration Services + CMI
+    :nav_main: true
+    :title_short: Integration Services
+  :section_link_label: Get help with integration
+  :section_link_uri: "/ehr-integration/"
+- :id: 3w2UrZpeB2IUeE6myA06U
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-16T19:18:32+00:00'
+    :created_at: '2019-01-11T18:46:33+00:00'
+    :id: 3w2UrZpeB2IUeE6myA06U
+  :title: Learn
+  :title_short: Learn
+  :show_in_top_nav: true
+  :section: Learn
+  :summary: Learn how to navigate the complexities of HIPAA compliance and integration
+  :section_promo:
+    :id: 4IGQbjkdri0qWEwskmII2m
+  :child_data:
+  - :url: "/academy/"
+    :desc: The definitive resource for those looking to learn about compliance and
+      interoperability
+    :title: Datica Academy
+  - :url: "/blog/"
+    :desc: News and insights from the Datica team.
+    :title: Datica Blog
+  - :url: "/innovation/"
+    :desc: Home of the Healthcare Innovators Podcast, In-depth Reports, and More
+    :title: Innovation Hub
+  - :url: "/discover/"
+    :desc: A curated collection of compliance topics from Datica
+    :title: 'Discover: Compliance Topics'
+  - :url: "/open-source/"
+    :desc: We believe in the importance of open source.
+    :title: Open Source
+  - :url: "/dhsf/"
+    :desc: The framework for teams building digital health products
+    :title: Digital Health Success Framework
+  - :url: "/webinars/"
+    :desc: Datica webinars covering compliance topics in depth.
+    :title: Webinars
+  :section_link_uri: "/academy/"
+- :id: 6lEL7ywmxqmeiUcaSSCkIq
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-16T19:14:34+00:00'
+    :created_at: '2019-01-11T18:46:28+00:00'
+    :id: 6lEL7ywmxqmeiUcaSSCkIq
+  :title: About Datica
+  :title_short: Company
+  :show_in_top_nav: true
+  :section: Company
+  :summary: Datica exists to help you make the most of the healthcare cloud.
+  :child_data:
+  - :url: "/about/"
+    :desc: Background on the company
+    :title: About Us
+  - :url: "/leadership/"
+    :desc: The team guiding Datica
+    :title: Leadership
+  - :url: "/careers/"
+    :desc: Job opportunities at Datica
+    :title: Careers
+    :has_divider: true
+  - :url: "/press/"
+    :desc: Full press background, and information for media outlets
+    :title: Press
+  - :url: "/events/"
+    :desc: Datica events, past and future.
+    :title: Events
+  :section_link_uri: "/about/"
+- :id: 28xeDnFCVKQMCssa0CwO0W
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-11T18:46:33+00:00'
+    :created_at: '2019-01-11T18:46:33+00:00'
+    :id: 28xeDnFCVKQMCssa0CwO0W
+  :title: Help
+  :title_short: Help
+  :show_in_top_nav: true
+  :section: Help
+  :summary: Are you a customer? Get help with Datica products and services.
+  :child_data:
+  - :url: https://product.datica.com/
+    :desc: Sign in to your dashboard
+    :title: Sign in
+  - :url: https://help.datica.com/hc/en-us/
+    :desc: Documentation & Support across all Datica products
+    :title: Documentation & Support
+  - :url: https://status.datica.com/
+    :desc: System up time and alerts
+    :title: System Status
+- :id: 2wwytJjtF2SUKYKkQoY2eo
+  :_meta:
+    :content_type_id: navSections
+    :updated_at: '2019-01-11T18:46:28+00:00'
+    :created_at: '2019-01-11T18:46:28+00:00'
+    :id: 2wwytJjtF2SUKYKkQoY2eo
+  :title: Legal
+  :title_short: Legal
+  :show_in_top_nav: false
+  :section: Legal
+  :summary: Datica legal & policy information.
+  :child_data:
+  - :url: https://policy.datica.com/
+    :desc: Our company policies
+    :title: Company Policies
+  - :url: https://training.datica.com/
+    :desc: Our training policies
+    :title: Compliance Training
+  - :url: https://hipaa.datica.com/
+    :desc: How we map to HIPAA's rules
+    :title: HIPAA Mappings
+  - :url: https://privacy.datica.com/
+    :desc: This Privacy Statement describes Datica’s Web site privacy practices.
+    :title: Datica Privacy Policy
+:cta_ref:
+  :id: 28kGtqwD2oym6k8cUgksiQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-15T21:56:25+00:00'
+    :created_at: '2016-08-15T20:57:41+00:00'
+    :id: 28kGtqwD2oym6k8cUgksiQ
+  :cta_title: Contact Us Today
+  :cta_desc: 'Get in touch today to set your enterprise on the road to compliant hosting.  '
+  :cta_label: Contact us
+  :cta_url: https://datica.com/contact/
+  :cta_image:
+    :id: 2TCuBiWHHGCUiCccym8uye
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: blue-alt

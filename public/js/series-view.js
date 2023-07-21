@@ -1,0 +1,1 @@
+$("document").ready(function(){function e(e){document.getElementById("series").setAttribute("data-registered",e),console.log("registered == "+e)}e(null!=$.cookie("seriesReg")&&$.cookie("seriesReg")==seriesId)});

@@ -1,0 +1,168 @@
+---
+:id: 1QxSAij0QUIU4Ge6CucGCw
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T06:43:20+00:00'
+  :created_at: '2016-11-23T06:43:20+00:00'
+  :id: 1QxSAij0QUIU4Ge6CucGCw
+:title: 2014 Predictions - Apps Changing to Platforms
+:slug: 2014-predictions-apps-changing-to-platforms
+:pub_date: !ruby/object:DateTime 2014-01-08 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: This post covers the not-so-new trend of successful apps evolving into platforms.
+:blog_lead: 'I covered an overview of trends for 2014 in my last post. I hedged a
+  bit because there are some very broad trends on that list. Hopefully this series
+  of posts will add additional detail to what we''re betting on for 2014. This post
+  covers the not-so-new trend of successful apps evolving into platforms.
+
+'
+:post: "Everybody loves platforms. We're a platform company too, a backend platform
+  for health apps. Platforms can be very powerful and disruptive, but can also be
+  challenging to sell without specific solutions pre-built on the platform. Also,
+  as people build applications they may automate or create reusable components that
+  will later turn into a platform offering. And dogfooding your own platform while
+  building solutions is the best way to test and refine a platform.\r\n\r\nThe shift
+  from app to platform isn't unique to digital health. Twitter started as an app that's
+  now a platform. Facebook is very similar. So is Salesforce. The list goes on and
+  on to include others like Netflix and Spotify. Even the Pebble watch is a wrist-based
+  platform now. There a lots of examples; too many to mention here actually.\r\n\r\nPlatforms
+  expand the functionality and value by integrating 3rd party apps and data. This
+  is almost always done today with APIs. Once apps grow large enough in terms of adoption
+  and user base, opening up an API and becoming a platform makes sense because 1)
+  it adds value and stickiness for current users, 2) it opens up revenue streams through
+  transaction fees for 3rd party apps (think Apple's 30% for app purchases in the
+  iOS or Mac App Store), and 3) it's attractive to 3rd parties because they have a
+  decent base of customers to target.\r\n\r\nIn digital health the battle to be the
+  platform is usually about aggregating data. Today we see two main buckets of platform
+  players emerging in health and wellness - the electronic medical records (EMRs)
+  and the quantified self companies. There are some exceptions to the rule, but generally
+  these buckets cover the platforms that are leading the way.\r\n\r\nOn the EMR/EHR
+  side of things, several vendors opened^1 up APIs and app stores last year. The biggest
+  players that made waves were Athena, Greenway, and Allscripts. The value for EHRs
+  is quite clear - EHRs sit on the clinical data for organizations and 3rd party apps
+  can theoretically add value to patients, admins, and providers. In the process EHRs
+  secure their place as the center of the enterprise health IT universe, or the mothership.
+  The biggest challenge is that EHRs store tons and tons of data, and exposing it
+  is a meaningful way is hard. If you look at API documentation for EHRs, it is resource
+  based and very hard for a developer to use.\r\n\r\nThe other major challenge for
+  EHRs is that they were built for the past, and still mostly current, paradigm in
+  healthcare - episodic care. As more organizations shift paradigms to risk based
+  business models (ACOs, capitation, etc), are EHRs the platforms of choice to serve
+  as the foundation for models of care for which they weren't intended or architected?
+  It's a good question, and a debate that will heat up over the next several years.\r\n\r\nThe
+  one other EHR to note in this discussion is Epic. Epic made some press last fall
+  when it announced the launch of [open.epic](http://open.epic.com/). The site today
+  simply lists the companies that have integrated with Epic. Going forward, the idea
+  is to enable vendors API access to Epic for writing data to Epic. It is unclear
+  whether APIs will be open to read data from Epic. It's an interesting departure
+  for Epic as it has stated (I've personally heard Epic people say this) that Epic
+  doesn't have partners, it has customers. It remains to be seen if open.epic will
+  enable partnerships, or just be a new version of the existing model where vendors
+  have to sell to Epic customers, then have those customers get/pay Epic to open up
+  an interface.\r\n\r\nThe other category of apps, other than EHRs, in heathcare that
+  have evolved to platforms are on the quantified self side, or patient data reporting/collection
+  side. The platforms here are trying to integrate data from as many self reported
+  devices and apps as they can. The major players on that side right now are Fitbit,
+  which keeps raising tons of money for its vision, and Runkeeper with its Healthgraph
+  API. There are others smaller players like Nike, Jawbone, LoseIt!, and MapMyFitness
+  (acquired by Under Armour for $150 million in 2013) that are making similar transitions.
+  Aetna has made a big push into this area with its CarePass platform. Currently this
+  category is primarily used by the motivated healthy, who are not the main drivers
+  of healthcare cost. We are starting to see pilots of some of these apps and platforms
+  with payers and health systems. In 2014 we'll see more of these pilots, and more
+  3rd party integrations with these platforms.\r\n\r\nThe other major platform plays
+  in digital health are 1) Healthtap and Zocdoc on the consumer side and 2) Doximity^2
+  on the provider side. The major difference with these platforms is the power of
+  the platform is less about health or wellness data and more about the number of
+  users. In certain ways, they are doing what Facebook did in going from a network
+  to a platform.\r\n\r\nIn 2014 it's unlikely we'll see much in the way of cross mingling
+  between these different categories of platforms but we'll see. All of them will
+  be pushing to get data into and out of other domains (quantified self to EHR and
+  vice versa). And we'll like see a few more successful apps go the platform route
+  in 2014.\r\n\r\n1 Open\" is used loosely here. Most EHR vendors with APIs or app
+  stores are not open in the same way that Facebook or Twitter are open. This is usually
+  by design, as the data is much more sensitive and ownership of data can get murky.
+  With EHRs, \"open\" usually means apply and do a manual review.\r\n\r\n2 Doximity
+  started with a clear platform and network vision so it's not quite the same as an
+  app app, like Runkeeper for example, that evolved to a platform, though it is still
+  early with its API.\r\n\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

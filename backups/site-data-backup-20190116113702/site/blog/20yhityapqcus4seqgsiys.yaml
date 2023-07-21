@@ -1,0 +1,613 @@
+---
+:id: 20YHiTYApqcUS4sEqGSIyS
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-10-17T20:41:28+00:00'
+  :created_at: '2017-06-30T00:59:09+00:00'
+  :id: 20YHiTYApqcUS4sEqGSIyS
+:title: 5 Steps to HITRUST CSF Certification
+:slug: 5-steps-to-hitrust-csf-certification
+:pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+:tags:
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:categories_blog: company
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: Complying with HIPAA and proving it are two very different things. Datica
+  is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+:blog_lead: |-
+  > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+  Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+:post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+  we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+  HITRUST, for those that don’t know, is an industry-driven attempt to create a prescriptive,
+  standardized, repeatable compliance framework that all organizations in healthcare
+  can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to HITRUST CSF Certification\n\nWe
+  went through our first [HITRUST CSF audit alongside Coalfire](https://datica.com/compliance/)
+  — a 3rd party auditor — in 2015 and are now in the midst of our 2017 renewal audit.
+  After going through this a few times now, we can summarize the HITRUST CSF Certification
+  process with these five giant steps. It’s an involved process and there are no shortcuts.
+  A company considering HITRUST Certification must traverse the same steps.\n\n###
+  Step 1: Investigate the process\n\nThere are different ways to conduct an audit
+  and the first undertaking is for the company to work with their auditor (for example,
+  [Coalfire](https://www.coalfire.com/)) to make a decision about which kind of audit
+  to do. HITRUST CSF is fast becoming the standard, but many auditors have proprietary
+  auditing processes that are also an option. When Datica went through this step,
+  and in an effort to move from HIPAA to HITRUST CSF Certification, Datica executives
+  and employees spent considerable time researching the domains of HITRUST.\n\n###
+  Step 2: Scope the project with the chosen HITRUST CSF Assessor\n\nThis step is fairly
+  straightforward involving the estimation of time and cost. In this part of the process,
+  it’s determined how many and which of the 19 total HITRUST domains, dozens of controls,
+  and 700+ potential requirements apply to the company. Controls vary depending on
+  the type of company and products being certified. For exmaple, a cloud platform
+  like Datica has several hundred requirements that apply to us whereas a company
+  that is not cloud based may have a completely different set of controls and requirements
+  that apply to them. We have all the details about the domains, controls, and requirements
+  that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+  Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+  sizeable amount of documentation is involved during the completion, including policies,
+  risk assessments, as well as technical documentation and configurations. This can
+  take 3-6 months the first year and around 2 months for subsequent audits. The amount
+  of time this takes is highly dependent on the full scope of each company's audit
+  determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe company
+  will need to provide evidence for entries in the CSF. This part of the process can
+  take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost there!
+  This is the lengthiest part of the process, with it taking up to 18 months for lawyers
+  at the HITRUST Alliance to audit the audit involving back and forth on specific
+  line items. Now that HITRUST CSF is becoming the standard way to conduct HIPAA compliance
+  audits, the volume of requests going through HITRUST has increased from just hundreds
+  in 2016 to thousands now in 2017. Once this step is complete, the company receives
+  a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis whole process needs to
+  be completed on an annual basis but the good news is it’s much faster, slightly
+  easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+  the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+  we’ve gained as a company and the extensive testing of our technology brings great
+  value to our customers. The best news of all of this for Datica customers is that
+  HITRUST allows for inheritance, which means if you are planning to obtain your own
+  CSF certification, you can inherit Datica’s certificate to shortcut an average of
+  40% of the time and costs of the process.\n"
+:featured_image:
+  :title: 5 steps to hitrust CSF certification
+  :description: Blog Header 5 steps to hitrust CSF certification
+  :url: "//images.ctfassets.net/189dvqdsjh46/1zvvE9oj9GGycGS8UWqqgm/49717e484234e73480cd804429bc8b90/fruits-2367209_1280.jpg"
+  :_meta:
+    :updated_at: '2017-06-30T00:48:08+00:00'
+    :created_at: '2017-06-30T00:48:08+00:00'
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+:share_image:
+  :title: 5 steps to CSF - share image
+  :description: blog, social, share
+  :url: "//images.ctfassets.net/189dvqdsjh46/6C9vg8Q1KECuaQsuC4MWgg/55845f366804ce9a85fccc5ca80136c9/5_steps_to_CSF_-_share_image.jpg"
+  :_meta:
+    :updated_at: '2017-06-30T17:52:40+00:00'
+    :created_at: '2017-06-30T17:52:40+00:00'
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 1K6JaB74wcCgIe4KSaWYiY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:46:02+00:00'
+    :created_at: '2017-02-03T00:26:18+00:00'
+    :id: 1K6JaB74wcCgIe4KSaWYiY
+  :title: The Truth About HITRUST — and Why It Should Become the Industry Standard
+  :slug: the-truth-about-hitrust-and-why-it-should-become-the-industry-standard
+  :pub_date: !ruby/object:DateTime 2016-11-09 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: There's still a lot of misinformation and misunderstanding about HITRUST,
+    even among vendords and consultants. This article will clear up some of the confusion.
+  :blog_lead: Recently, I was surprised to see a handful of online posts from vendors
+    and consultants about HITRUST, voicing opinions that don't quite match up with
+    my understanding and experiences. The questions raised and inaccurate claims made
+    showed me that there's still a lot of misinformation and misunderstanding about
+    HITRUST.
+  :post: "To understand where we are today, it's important to know where [HITRUST](https://datica.com/discover/hitrust/)
+    came from. After HIPAA was passed into law in 1996, the following decade or so
+    was a confusing, disorganized morass in which the HIPAA Security Rule did not
+    provide prescriptive measures for covered entities (CE) and [business associates
+    (BA)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/).
+    Basically, these organizations were given the flexibility to implement comprehensive
+    information security programs and analyze their own levels of risk — something
+    many healthcare organizations had no experience with, so even those who did have
+    programs had ones that were significantly less robust than they needed.\n\nIn
+    2007, leaders within the healthcare field — including CIOs, security and privacy
+    officers from leading healthcare providers, insurers and vendors — came together
+    to solve this problem. HITRUST initially developed an information security framework
+    with the intentions of creating an industry standard, including control baselines
+    so an organization could make their own choice based on their unique needs. Originally
+    referred to as the [HITRUST Common Security Framework (CSF)](http://content.datica.com/what-is-the-hitrust-framework),
+    the CSF was developed specifically for healthcare — designed to be scalable, customizable
+    and capable of providing certifiable risk assurances.\n\nToday, the HITRUST CSF
+    is the most widely adopted information privacy and security risk management framework
+    among healthcare organizations in the United States. In addition, many organizations
+    outside of the U.S. have also implemented the HITRUST CSF.\n\nNaturally, there
+    are always questions and concerns about paradigm-shifting approaches — especially
+    when it concerns information security and privacy. Every day seems to bring more
+    risk and news stories about hacks and breaches. So it makes complete sense for
+    a group of experts to lead the charge and collaboratively build a security framework
+    that can benefit the entire industry. \n\nWith that said, here are a few of the
+    issues that I saw being discussed online — and my take on them:\n\n## Misconception
+    #1: The HITRUST approach is too expensive — costing excessive money, time and
+    resources.\n\nSome people forget how things used to be — when \"doing it yourself\"
+    was expensive and time-consuming, usually with poor results. While a company usually
+    starts with an inexpensive [HITRUST self-assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment),
+    that's just the first step. \n\nThe costs of a HITRUST-validated assessment are
+    commensurate with a third-party assessment; and if you perform a comprehensive
+    assessment of any type, the costs should be roughly equivalent. Although in many
+    cases, the overall information privacy and security assessment costs can be substantially
+    less because of the assess-once, report-many approach supported by the HITRUST
+    CSF Assurance program. The alignment between the HITRUST CSF and CSF Assurance
+    programs allows a single CSF Assessment report to support multiple objectives
+    (such as a HIPAA risk assessment or an assessment against the NIST Cybersecurity
+    Framework), and this same report can be accepted by multiple external parties
+    (business partners, government agencies, etc.) — reducing the costs associated
+    with multiple assessments. \n\nIn addition, a HITRUST CSF assessment will identify
+    which controls will be evaluated and provide illustrative assessment procedures,
+    which allow for better preparation — and potentially reducing costs. In addition,
+    an organization can get a HITRUST CSF Validated report and a SOC 2 report based
+    on one assessment, making the costs substantially less than doing two separate
+    assessments.\n\nOf course, determining the ultimate value of a HITRUST CSF Assessment
+    centers on the peace of mind found after going through the process — and knowing
+    that a breach can cost millions of dollars. Also, what are the other options that
+    would be comprehensive, relevant and consistent, while offering the needed transparency?
+    \ \n\nComparatively, the costs of the HITRUST approach are negligible. It might
+    seem reductive to say, but the age-old question must be considered: \"How much
+    are you willing to spend for peace of mind?\" Of course, more bottom-line-focused
+    professionals simply have to look at the return on investment (ROI) to see the
+    true value.\n\n## Misconception #2: It's unnecessarily burdensome to implement
+    the HITRUST methodology.\n\nAs I mentioned above, the \"old way\" of establishing
+    your own information security program was both undirected and cumbersome, costing
+    tremendous amounts of time and money. To be sure, implementing the HITRUST CSF
+    at my company took effort. \n\nBut all of us at Datica understand the importance
+    of comprehensive risk management, and chose HITRUST to help us train for a higher
+    level of information security and create the optimal organizational structure.
+    \n\nWhile the assessment required significant time and resources to complete,
+    the ability to satisfy multiple assessment and reporting requirements saved us
+    both time and money in the long run. (Based on our experience, we also recommend
+    designating a team member as the internal subject matter expert.) We truly believe
+    it's more than worth the effort.\n\nOne of my esteemed colleagues, Lee Penn, is
+    the CFO and Chief Compliance Officer at PDHI —  a SaaS company that develops and
+    distributes the ConXus Platform for delivering workplace wellness and population
+    health management programs. Lee — also a member of the HITRUST Business Associate
+    Council — noted that his company had a similar experience to ours. He said that
+    while it was time and resource-intensive — particularly so, as it was the first
+    third-party attestation that PDHI had ever sought — they're a better company,
+    with a more effective information privacy and security program for having made
+    the effort to achieve certification under the HITRUST CSF. It's now part of the
+    PDHI culture — and the resources they now save by not having to undergo repetitive
+    assessments easily offsets the ongoing costs of maintaining the certification
+    — while heightening PDHI's trustworthiness to its clients.\n\nWhile other methodologies
+    use a simplistic and non-prescriptive \"red/yellow/green stoplight\" and costly,
+    unique questionnaires — which most would agree provided too much wiggle room with
+    compliance — HITRUST's more sophisticated scoring model provides better accuracy
+    and precision than a checklist approach, and subsequently better assurances about
+    the state of an organization's information protection, whether for use internally
+    or by a third party. \n\n## Misconception #3: The results and efficacy of the
+    HITRUST approach are questionable.\n\nQuite simply, nobody else reaches the level
+    of quality assurance for third-party assessments as those conducted by HITRUST
+    Assessors. And organizations now have over 50 assessors (a number that continues
+    to grow) to choose from, so users can \"shop around\" and take advantage of free
+    market dynamics to find one that meets their specific needs. \n\nI was recently
+    speaking with Pamela Arora — senior vice president and chief information officer
+    at Children's Health in Dallas — who has seen the same benefits from her organization's
+    efforts as my own company. She observed that with the threat landscape continuously
+    evolving, we must continue work to ensure our security programs protect patient
+    and organizational data from end to end, because you're only as strong as your
+    weakest link. Protecting data, she noted, is one of their highest priorities;
+    therefore, if a partner goes through the third-party certification with HITRUST,
+    they're able to be more confident that the organization's security posture is
+    not eroded, since they know the partners also meet CSF security requirements.
+    \  \n\nPamela recognizes that challenges exist. In some instances, an organization's
+    culture may initially be resistant to pursuing certification, but with continued
+    encouragement from the industry — and demonstration of the value in CSF certification
+    — they're confident that potential resistance will ultimately melt away.\n\nClearly,
+    the widespread adoption of the HITRUST CSF — which is used for everything from
+    a \"best practices\" reference to the basis for a certifiable information protection
+    program — demonstrates that the HITRUST approach works. If that's not enough evidence,
+    a recent review by Allied World U.S. stated that [\"organizations that had obtained
+    a HITRUST CSF Certification posed lower cyber-related risks than those organizations
+    that have not.\"][1]\n\n## Misconception #4: Making HITRUST certification a requirement
+    is unfair. \n\nThis complaint really confuses me — and I'm a vendor. There are
+    many good reasons why organizations are requiring a HITRUST CSF certification
+    of their business associates, and most of them positively benefit the business
+    associates. Covered entities have been expanding and enhancing their information
+    protection since passage of the HITECH ACT — a trend which has only been exacerbated
+    by recent statistics on 3rd party-related breaches. \n\nThe result has been an
+    increase in the number of requests for assessments or other forms of assurance
+    — which are often different from one covered entity to another, and subsequently
+    add cost and complexity to the healthcare system. Fortunately, this trend has
+    been recognized by a growing number of covered entities, who have seen resources
+    distracted from their own information protection programs to perform and evaluate
+    assessments of their vendors and other business associates.\n\nFor organizations
+    that have a strong information privacy and security program, undergoing a HITRUST
+    CSF assessment is not a difficult process — and those that aren't committed to
+    stronger privacy and security were not going to hide from a comprehensive assessment
+    regardless. This way, they have a smart option that can be used more broadly across
+    the industry. In fact, that's one of the roles of the HITRUST Business Associate
+    Council — to ensure that vendors are fully engaging in the process and working
+    more broadly with the industry (and even across industries) to ensure the HITRUST
+    CSF Assessment reports are accepted. \n\n## The bottom line: Together, we can
+    make things better.\n\nBuilding industry consensus on information protection methodologies
+    and standards is what the [HITRUST Alliance](https://hitrustalliance.net/) is
+    all about. It takes experienced, respected professionals to lead the way for improvements
+    in any industry, and healthcare is no different. Professionals from every corner
+    of the industry have provided — and continue to provide — their valuable time
+    and insight. HITRUST welcomes active participation in its committees and working
+    groups, and constructive feedback through its comment process from anyone in the
+    field who would like to share their ideas for the betterment of us all. \n\nThe
+    truth is that we're all in this together, and our common goal is the common good
+    — protecting individually identifiable healthcare information. At every level,
+    our industry has to embrace the shift to digital management of healthcare information,
+    understand the risks involved in this change, and take appropriate steps to manage
+    them. By working together, we can all focus on creating practical, reliable ways
+    to improve security and minimize risk. In my view, HITRUST has taken a leading
+    role in improving the state of information protection in the healthcare industry
+    and is doing so efficiently and effectively.\n\n[1]: https://hitrustalliance.net/content/uploads/2016/02/HITRUST-CSF-AWAC-Cyber-Insurance-PR_final-for-wire.pdf"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 6ohESCsO2coISmaMGS6YES
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 1tTTpzANBugAQQuQCIaUmy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:01:50+00:00'
+    :created_at: '2017-02-03T00:26:18+00:00'
+    :id: 1tTTpzANBugAQQuQCIaUmy
+  :title: 'HHS Guidance on HIPAA Compliance in the Cloud: What You Need to Know'
+  :slug: hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know
+  :pub_date: !ruby/object:DateTime 2016-11-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HHS released its official Guidance on HIPAA & Cloud Computing last month.
+    The guidance answers some lingering questions that people seem to ask.
+  :blog_lead: |-
+    HHS released it's official [Guidance on HIPAA & Cloud Computing][1] last month. The guidance answers some lingering questions that people seem to ask. In some ways, it's HHS playing catchup to the industry. The cloud, while still early in terms of adoption in healthcare, is already heavily used for creating, receiving, maintaining, and transmitting ePHI. Look no further than [athenahealth][2], one of the largest EHR providers, for an example of a lot of ePHI in the cloud. Storing or moving data around different cloud-based services is becoming more and more commonplace.
+
+    [1]: http://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing/index.html
+    [2]: http://www.athenahealth.com/
+  :post: |
+    > A lack of transparency results in distrust and a deep sense of insecurity. - Dalai Lama
+
+    Personally, I think HHS could and should play a more active and significant role in trends like cloud computing. I acknowledge it's hard to keep up with pace of technology in healthcare but there's still more HHS could do to engage with those leading these technical charges. That said, it's good to have official guidance from HHS.
+
+    Yesterday I jointly conducted a webinar with [Coalfire][3]. Today I will recap some of the highlights, and pull out the salient points from the guidance and summarized them below. (_Note: CSP stands for cloud service provider._)
+
+    * **Lacking encryption keys doesn't prevent you from being liable under HIPAA.** From the guidance, _This is true even if the CSP processes or stores only encrypted ePHI and lacks an encryption key for the data. Lacking an encryption key does not exempt a CSP from business associate status and obligations under the HIPAA Rules._ This has been a claim by some CSPs and this is one of the most clear and relevant aspects of the HHS guidance. The claim by some CSPs is that, by not having the keys to decrypt ePHI, they are not a subcontractor or business associate. HHS says they are because they still store receive and maintain, even if that ePHI is encrypted and the CSP does not have the key to decrypt it. CSPs that fall into this bucket at considered _no-view services_ by HSS.
+    * **But lacking keys does change obligations.** From the guidance, _In particular, where only the customer controls who is able to view the ePHI maintained by the CSP, certain access controls, such as authentication or unique user identification, may be the responsibility of the customer, while others, such as encryption, may be the responsibility of the CSP business associate._ This is the first I've seen HHS acknowledge—implicitly, at least—the concept of compliance inheritance for HIPAA. At Datica, we [pioneered][4] the concept of inheritance and still feel strongly that compliance inheritance is the best path to securing data, reducing risk of breach, and complying with HIPAA, in a cloud-based world.
+    * **Lacking keys it could change breach reporting.** From the guidance, _If the ePHI that has been breached is encrypted consistent with the HIPAA standards set forth in 45 CFR § 164.402(2) and HHS' Guidance [13](#) the incident falls within the breach "safe harbor" and the CSP business associate is not required to report the incident to its customer._ This is significant as it changes breach reporting requirements for no-view CSPs, and breach reporting is a big part of HIPAA and a big part of what covered entities want to understand about their business associates and partners.
+    * **All types of cloud configurations are ok for HIPAA.** From the guidance, _…while a covered entity or business associate may use cloud-based services of any configuration (public, hybrid, private, etc.), [3](#) provided it enters into a BAA with the CSP, the type of cloud configuration to be used may affect the risk analysis and risk management plans of all parties and the resultant provisions of the BAA._ NIST [defines][5] different cloud deployment models. The most common are public and private, or some mix of those two that NIST defines as hybrid. Organizations can comply with HIPAA using any deployment model but there are different risks associated with each and it is the job of the covered entity and business associate to properly assess the risk when selecting the proper deployment model. I would have preferred HHS go further and call out [single-tenant and multi-tenant in regards to HIPAA and cloud][6].
+    * **SLAs need to align with BAAs.** From the guidance, _If a covered entity or business associate enters into a SLA with a CSP, it should ensure that the terms of the SLA are consistent with the BAA and the HIPAA Rules._ This is something that many business associates don't do but should. The core of this guidance is that the SLA from a CSP should ensure that access to ePHI is not restricted due to excessive downtime.
+    * **Security and breach reporting should be very specifically defined.** From the guidance, _The Security Rule, however, is flexible and does not prescribe the level of detail, frequency, or format of reports of security incidents, which may be worked out between the parties to the business associate agreement (BAA)._ With ePHI moving between CSPs (think APIs and [Blank-as-a-Service][7]), it's imperative that each party knows what it is responsible for reporting. Reporting is essential to investigating and shutting off breaches.
+    * **Cloud service providers do not need to store ePHI for some period of time.** From the guidance, _No, the HIPAA Rules generally do not require a business associate to maintain electronic protected health information (ePHI) beyond the time it provides services to a covered entity or business associate._ This [not news][8] to us but it something that is frequently misunderstood about HIPAA so it's good that HHS called this out for CSPs.
+    * **It's ok to use servers outside the USA.** From the guidance, _Yes, provided the covered entity (or business associate) enters into a business associate agreement (BAA) with the CSP and otherwise complies with the applicable requirements of the HIPAA Rules._ This surprised me a little. Not because I don't agree with HHS but because I have a hard time imagining the use case for this. We have global customers, particularly in the life sciences arena, who need global deployments. In those cases, we deploy separate apps and databases across different regions depending on where end users reside. All customers we have that work with US citizens are deployed in US data centers.
+    * **Documentation of security practices is not required from cloud service providers.** From the guidance, _The HIPAA Rules do not expressly require that a CSP provide documentation of its security practices to or otherwise allow a customer to audit its security practices._ This type of documentation, while not required, may still be needed by covered entities and business associates based on the their determination of risk.
+
+    ## What was not in the guidance?
+
+    I think a few things were missing and that HHS didn't go far enough.
+
+    1. **Define compliance inheritance.** I think HHS could go further here. HITRUST is a [good example][9] by incorporating the concept of inheritance into the CSF. Inheriting aspects of HIPAA is a core part of cloud deployments and should be addressed by HHS.
+    2. **Address questions about multi-tenancy.** This is probably the most frequent question when it comes to ePHI + cloud. It would have been good to have official guidance as a part of the cloud guidance from HHS.
+    3. **Start moving towards a universal, readable BAA.** The BAA [template][10] that HSS has on it's site, while useful in its generalizability, is too broad. There are things we know about the cloud and one of them, related to inheritance above, is that different parties can own different obligations. Creating a universal BAA, even if HHS is just the convener of industry leaders, would go a long way to helping healthcare move to the cloud in a safe way.
+
+    Healthcare, and it's data and applications, are slowly but surely embracing the cloud. The recent guidance from HHS has gotten a lot of attention. Hopefully this summary was helpful. If you have any other questions, reach out to us at [hello@datica.com][11].
+
+
+    [3]: https://www.coalfire.com/
+    [4]: https://policy.datica.com/#compliance-inheritance
+    [5]: http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+    [6]: https://datica.com/academy/hipaa-and-multi-tenancy/
+    [7]: https://datica.com/blog/inheritance-and-ownership-of-compliance-risk/
+    [8]: https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/
+    [9]: https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/
+    [10]: http://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
+    [11]: mailto:hello@datica.com
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 6wHERSJEycWCyaOGMQeu44
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 4tO4SNTLtYQQwgYIiO4064
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:43:56+00:00'
+    :created_at: '2016-11-23T22:18:32+00:00'
+    :id: 4tO4SNTLtYQQwgYIiO4064
+  :title: Check out our new HIPAA Compliance FAQ!
+  :slug: check-out-our-new-hipaa-compliance-faq
+  :pub_date: !ruby/object:DateTime 2015-07-31 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: We wanted an abbreviated list of the most common topics we get asked about.
+    The result is this HIPAA Compliance FAQ.
+  :blog_lead: 'We provide detailed [documentation][1] on Datica [products][2] primarily
+    to help companies and individuals understand what we offer in order to better
+    inform buying decision—how we’re different, what is the value, how to use Datica,
+    and so on. It also helps them find answers to questions independently, removing
+    us as a bottleneck. (We’re always happy to answer questions but we know how useful
+    it is to be able to search and find the answer yourself.) While not a dedicated
+    product itself, HIPAA [compliance][3] is a foundational aspect of all of our products
+    and our organization; our [platform][4], is HIPAA compliant and HITRUST CSF Certified
+    infrastructure.
+
+'
+  :post: "\nThat’s why we’re releasing a [Compliance FAQ][7] today. We get asked about
+    compliance every day by customers, by website visitors, by our customers’ customers
+    like hospitals, payers, large employers that are doing compliance reviews. We
+    wanted an abbreviated list of the most common topics we get asked about. The result
+    is this Compliance FAQ. Specifically thinking about user stories, below are the
+    use cases for the FAQ that drove our process.\n\n1. Current customers can find
+    information about security and HIPAA compliance to answer questions for their
+    audits and security reviews.\n2. Current customers can send auditors and compliance
+    officers to find answers themselves.\n3. Website visitors can get answers to questions
+    about how Datica approaches and complies with HIPAA.\n4. Anybody can find answers
+    to basic HIPAA questions to help draft or edit their own [HIPAA policies][8].\n\nWe’ll
+    add to the FAQ over time as we get asked more questions.\n\nIn addition, we recently
+    launched a curated guide to HIPAA compliance for those who are just starting out.
+    We encourage you to start there if you are trying to understand HIPAA as a whole
+    first. [You can get your free copy of the guide here][9].\n\n[1]:\thttp://resources.datica.com\n\n[4]:\thttps://datica.com/compliant-cloud/\n\n[6]:\thttp://hl7.dataic.com\n\n[7]:\thttps://resources.datica.com/compliance/compliance-faq/\n\n[8]:\thttps://catalyzeio.github.io/policies/\n\n[9]:\thttps://datica.com/guide/hipaa/\n\n"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 3wwjLVr7UAm6iq04aOGqyw
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-02-27T22:26:28+00:00'
+    :created_at: '2016-11-23T22:18:34+00:00'
+    :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :title: Datica is HITRUST CSF Certified
+  :slug: datica-is-hitrust-certified
+  :pub_date: !ruby/object:DateTime 2015-07-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'Announcement: Datica if HITRUST CSF Certified.'
+  :blog_lead: "> The reward of suffering is experience - Harry S. Truman\n"
+  :post: |+
+    When we founded Datica, our goal was to leverage the experience we had building and selling health technology into a product that would help other people more easily build and scale their own technology in healthcare. We essentially wanted to productize our previous work and experience in the industry. Our focus from inception has been on taking the compliance burden off the shoulders of our customers. We’re proud that our customers are [experiencing](/proof) that value. That’s why we’re incredibly excited to announce that the Datica Platform is now fully HITRUST CSF Certified. You can read the official announcement [here](http://www.prweb.com/releases/2015/07/prweb12851981.htm).
+
+    Datica, both our products and our company, were built from the ground up to be in [compliance](/guide/hipaa) with the rigorous security and compliance requirements of healthcare. To that end, both our organization and our technology comply with HIPAA and HITRUST. On the organizational side, we have [policies and procedures](https://policy.datica.com) in place to secure our internal laptops, train our employees on compliance, and address all of the other administrative requirements that make up a strong information security management program. On the technical side, security, compliance, and minimizing the risk of unauthorized access of PHI is at the core of all the technical work that we do and is the foundation of the products our customers use.
+
+    Complying with HIPAA and [proving](/academy/proving-hipaa-compliance) it are two different things. I could tell you that we’re `HIPAA compliant`. I can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to **prove compliance** is to go through 3rd party audits. We’ve been through two 3rd party [HIPAA audits](/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/) over the last 18 months. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant.
+
+    Now we have additional validation and proof in the form of our HITRUST CSF Certification. HITRUST, for those that don’t know, is an industry-driven attempt to create a prescriptive, standardized, repeatable compliance framework that all organizations in healthcare can trust. In our case, we completed a validated HITRUST assessment using a 3rd party auditor to verify our controls.
+
+    If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected. I’ve experienced HIPAA from multiple angles - as a technical auditor, as a mobile app vendor, as a clinician, and as a compliant platform  vendor - but I learned more about compliance from this HITRUST experience than anything I’ve done before.
+
+    But, that’s all the more reason to be excited about this announcement! HITRUST isn’t easy, and it shouldn’t be. The experience we’ve gained as a company and the extensive testing of our technology bring great value to our customers. I’m ecstatic because our HITRUST CSF Certification will help our customers prove their applications and data are secure. It’s more compelling proof than our HIPAA audits.
+
+    If you’re already a Datica customer, there’s nothing you need to do; the infrastructure you’re hosting on is now HITRUST CSF Certified. If you’re not a Datica customer and want to learn why this is so valuable, or you just have questions about what it takes to complete a HIPAA audit or HITRUST assessment, please don’t hesitate to [reach out](/contact).
+
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2

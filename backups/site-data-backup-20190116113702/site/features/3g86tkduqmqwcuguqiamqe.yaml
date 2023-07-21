@@ -1,0 +1,17 @@
+---
+:id: 3G86TKduQMQWcUguQiAMQE
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:30+00:00'
+  :created_at: '2018-02-08T22:21:30+00:00'
+  :id: 3G86TKduQMQWcUguQiAMQE
+:title: Service Files
+:slug: service-files
+:category: Services
+:summary: Complete control over an environment services configuration
+:desc: Service files are one of the most used features across the entire Platform.
+  With Service Files, users are able to customize the services that make up their
+  environment(s). Some Service Files are created when the Service is created — others
+  are created later. For example, every time a Site is added, a Service File is added
+  to the Environment's Service Proxy to manage the NGINX configuration for the site.
+  This gives users near full control over how each service is configured on the Platform.

@@ -1,0 +1,130 @@
+---
+:id: 6WxuXi1fOwiqMaWO6OMOWc
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T22:18:35+00:00'
+  :created_at: '2016-11-23T22:18:35+00:00'
+  :id: 6WxuXi1fOwiqMaWO6OMOWc
+:title: 2015 HIPAA Audits Ramping Up
+:slug: 2015-hipaa-audits-ramping-up
+:pub_date: !ruby/object:DateTime 2015-07-10 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: The HIPAA audit program is gearing up in 2015 to unpredictably assess healthcare
+  covered entities and business associates for compliance with the HIPAA security,
+  privacy, and breach notification rules set forth by the Office for Civil Rights.
+:blog_lead: 'The HIPAA audit program is gearing up in 2015 to unpredictably assess
+  healthcare covered entities and business associates for compliance with the HIPAA
+  security, privacy, and breach notification rules set forth by the Office for Civil
+  Rights.
+
+'
+:post: "Back in 2012, the HIPAA Compliance Audit program did a year of trial audits
+  and now that the US Department of Health and Human Services has had sufficient time
+  to analyze the results, the 2015 HIPAA Audit Program has been revealed. Most likely
+  the key objectives for this round of audit questioning will be to focus on the inadequacies
+  spotted in the 2012 trials. Requisitions for information have been consigned to
+  near 1200 covered entities and business associates by the HHS to ascertain if it
+  would be apropos to audit. Since new HIPAA rules enact higher fines - mandatory
+  minimum fines of $10, 000 - for willful neglect of compliance, being sagacious and
+  preconditioned for an unprecedented audit is more important than ever. Federal and
+  private officials have openly and candidly stated that enforcement is a top priority
+  of the HHS. So a message to non-compliant covered entities and business associates:
+  Beware that there will be little to no leniency for non-compliance now and for many
+  years to come. \r\n\r\n### Key Takeaways from 2012 Audits\r\n\r\n- Covered entities
+  on the smaller side bore many more issues. The smaller entities represented 66%
+  of paucity findings. \r\n- An inordinate amount of these inadequacies were by healthcare
+  providers. These providers accounted for 50% of the audited entities and recounted
+  for 81% of these insufficiency findings. \r\n- 65% of overall findings were in relation
+  to the Security Rule, but the OCR did ascribe this to the audit protocol having
+  primary focus on security rather than breach notification or privacy.\r\n\r\n###
+  Top 2012 Security Enigmas to Note for 2015 Audits\r\n\r\n- Operator activity monitoring
+  \r\n- Validation/probity\r\n- Medium usage and destruction\r\n- Circumstantial/crisis
+  planning\r\n- [Risk Assessment](https://catalyze.io/learn/hipaa-risk-assessment-and-management)\r\n-
+  Admitting and adjusting operator access\r\n\r\n### Top 2012 Privacy Enigmas to Note
+  for 2015 Audits\r\n\r\n- Analysis process for refutation of patient access to records\r\n-
+  Negation to include proper patient access to records\r\n- [Business Associate Agreements](https://catalyze.io/learn/business-associate-agreements)\r\n-
+  Personal representatives disclosure\r\n- [Deficit policies and procedures enacted](https://catalyze.io/learn/how-do-you-do-hipaa-training)\r\n-
+  Usage and exposure of PHI\r\n\r\n\r\nHave any questions or concerns? All of us here
+  at Catalyze are available anytime for your support. Reach out to us directly or
+  tweet us [@catalyzeio](https://twitter.com/catalyzeio) and be sure to keep following
+  our blog for regular updates.\r\n\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

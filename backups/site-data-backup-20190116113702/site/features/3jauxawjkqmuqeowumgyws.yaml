@@ -1,0 +1,50 @@
+---
+:id: 3jAUXAWjkQmuqeOWUmgYws
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:31+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: 3jAUXAWjkQmuqeOWUmgYws
+:title: Intrusion Detection
+:slug: intrusion-detection
+:category: Core Compliance
+:summary: OSSEC pre-configured to meet all compliance requirements
+:desc: Datica takes advantage of OSSEC, the industry-leading open-source intrusion
+  detection software. As is the case with all controls required for both HIPAA compliance,
+  GDPR compliance, GxP compliance, and HITRUST certification, IDS comes pre-installed
+  and pre-configured for all production environments. Customers currently can not
+  swap out OSSEC for another tool.
+:related_tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.

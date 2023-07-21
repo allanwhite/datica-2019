@@ -1,0 +1,120 @@
+---
+:id: 3HeRyI2gy4y6mqOCYMSSOy
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-07T21:09:12+00:00'
+  :created_at: '2016-11-23T06:51:37+00:00'
+  :id: 3HeRyI2gy4y6mqOCYMSSOy
+:title: Inheritance and Ownership of Compliance Risk
+:slug: inheritance-and-ownership-of-compliance-risk
+:pub_date: !ruby/object:DateTime 2014-03-21 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: The HIPAA Omnibus Rule accounted for the paradigm shift in technology development
+  and cloud computing.
+:blog_lead: 'The HIPAA Omnibus Rule that went into effect in 2013 changed the landscape
+  of HIPAA. It created a new name for business associate called a "subcontractor".
+  In much the same way a business associate processes, transmits, or stores ePHI for
+  a [covered entities](https://datica.com/academy/hipaa-101-a-primer/), a subcontractor
+  processes, transmits, or stores ePHI for a business associate.
+
+'
+:post: |+
+  It's easier to just consider them a business associate of a business associate. And subcontractors are required to sign business associate agreements (BAAs). We get asked a lot about subcontractors and BAAs by customers and prospects.
+
+  In creating this new category of entities, the Omnibus Rule accounted for the paradigm shift in technology development and cloud computing. The most commonly used example of a subcontractor is a cloud hosting provider, like Catalyze. But there are many other types of services that could be considered subcontractors. As data and services are exposed using web services, typically APIs, there is a huge number of BLANK as a Service offerings that have cropped up. Many modern applications utilize third party APIs for features and functionality. Using simple to consume APIs, modern applications can tap into databases, messaging (SMS or Push or email or Voice), metrics, logging, customer support, data sources, backup, and on and on. When applications use APIs, depending on the service, certain data is passed back and forth to third parties. According to the new Omnibus Rule, if ePHI data is passed to these 3rd party web services, those services are subcontractors and required to sign BAAs. Since things like IP addresses, when combined with information like a providers name, date of service, payment for healthcare service, can be considered ePHI, this gets very murky, very fast.
+
+  What we're starting to see now, and what we should see a lot more of, are chains of BAAs from covered entity to a business associate to any number of subcontractors for that business associate. At the center is the covered entity. Branching out from there into business associates and then subcontractors, sort of like a tree. With this chain of relationships and BAAs, all entities are typically taking on some risk.
+
+  The main questions relate to responsibility and risk exposure. At the end of they day, it's the covered entity, and likely the compliance office at the covered entity, that is going to decide what is acceptable for its business associates, and in turn what is acceptable for the subcontractors of its business associates. In the case of many compliant infrastructure providers, the BAAs they sign assume very little risk and leave much of the technical responsibility, and associated risk of a breach, on the customers that use them; we created Catalyze to provide a more sane approach to compliance, acting as more of a partner and full service compliance platform, with the associate risk that entails, to make it simpler to utilize the cloud in a compliant way.
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

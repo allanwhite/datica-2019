@@ -1,0 +1,707 @@
+---
+:id: 515m1QVsxW0EKCYo0MEiaS
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2019-01-10T23:50:19+00:00'
+  :created_at: '2017-09-07T17:28:21+00:00'
+  :id: 515m1QVsxW0EKCYo0MEiaS
+:title: Lifting A Fork for Open Source
+:slug: lifting-a-fork-for-open-source
+:pub_date: !ruby/object:DateTime 2017-09-07 00:00:00.000000000 Z
+:tags:
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:categories_blog: healthcare
+:author:
+  :id: 6NxyE8vlfOqMOkkGsCSusA
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-06-01T22:09:06+00:00'
+    :created_at: '2016-08-15T23:59:46+00:00'
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :fullname: Marcia Noyes
+  :slug: marcia-noyes
+  :person_type: Datica Alumni
+  :sort_weight: 8
+  :role: Director of Communications
+  :profile_pic:
+    :id: FV6bMibcoS6KucswgSCec
+  :email: marcia@datica.com
+  :bio_short: In her role at Datica, Marcia drives external communication strategy
+    in projects as diverse as conferences, public relations, customer-driven content,
+    and the Healthcare Innovation Series.
+  :bio: Marcia has more than seven years experience directing national and international
+    public relations efforts and was the initial PR Director for the healthcare startup
+    iTriage (an Aetna aquisition). She has worked in the Mass Communication field
+    for decades as a television reporter, magazine writer and newspaper journalist.
+    She holds a B.S. in Mass Communications from Lamar University.
+  :profile_twitter: marcianoyes
+  :profile_linkedin: marciahornnoyes
+  :location:
+    :lat: 39.7541032
+    :lon: -105.00022419999999
+:summary: This Q&A with Datica's Chief Data Officer, Mark Olschesky, explores what
+  it means that Datica just passed 200 forks of our open-source policies.
+:blog_lead: |-
+  A week ago, Chief Data Officer [Mark Olschesky](https://datica.com/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
+
+  > When you come to a fork in the road, take it!
+:post: "As with many technical terms, the word “fork” obviously had more than one
+  meaning. The mention of this particular company achievement, along with its oddly
+  referenced name suddenly had my non-technical mind driving for answers. I needed
+  to uncover not only what a “fork” was, but also why having 200 of them came with
+  so many “thumbs up” and “clapping hand” emoticons. The discovery called for a quick
+  Q&A with none other than torchbearer himself, [Mark Olschesky](/about/mark/). \n\n####
+  Q: Just what is a “fork” in technical terms?\n\n**Mark:**  A fork is a term for
+  duplicating a code or document repository. It’s not required. Someone could simply
+  download the source from the repository without us knowing at all. In the open-source
+  world, “forks” and “stars” are a common way to track the success of a project. We
+  use [GitHub to host our policies](https://github.com/catalyzeio/policies/); there,
+  you can track all changes made to the policies by reviewing forks made by our customers.\n\n####
+  Q: Participating in open-source projects has been strategic for Datica, can you
+  tell me more about its importance to the company?\n\n**Mark:** When the company
+  was founded in 2013, the industry had its share of duplicitous vendors peddling
+  “HIPAA-compliant” solutions for hosting and application development. Turns out that
+  many of those solutions were far from compliant. As a company that, 1) wanted to
+  do more to make compliance in the cloud easier and, 2) was not the first HIPAA-compliant
+  vendor, the company needed to go the extra mile to prove our compliance and differentiate
+  the company from the rest of the market beyond base market copy.\n\n#### Q: How
+  did that differentiation begin?\n\n**Mark:** During Datica’s first HITRUST audit,
+  CEO Travis Good, MD saw the potential for sharing what we’d learned with the entire
+  industry via open-source policies. He then made the following strategic decisions:\n\n-
+  Datica should publish our policies in a way that allows them to be easily tracked
+  over time (GitHub).\n- We should open-source the policies to both engender goodwill
+  with the developer community and to also demonstrate the lengths that Datica goes
+  for its customers versus other “HIPAA-compliant” vendors. \n- Provide a way for
+  other companies with existing infrastructure or that didn’t want to host with Datica
+  to fork those policies and make them their own. As such, we would show different
+  flavors of how to demonstrate compliance with different application stacks or organizational
+  differences.\n\n#### Q: How does forking of our open-source policies help healthcare
+  in general?\n\n**Mark:** As a company, Datica does not manage all the parts of HIPAA.
+  For example, we don’t employ clinicians or have software that performs medical decision-making
+  or automated outreach to patients. As such, it’s hard for our policies to be the
+  definitive guide for “what it means to be HIPAA compliant.”\n\n#### Q: That sounds
+  counterintuitive to the ultimate goal of HIPAA compliance. Can you explain how forks
+  play into that?\n\n**Mark:** By looking at forks, you can see what other customers
+  have done. Most commonly, you can see companies with different Business Associate
+  Agreements (BAAs). You’ll also see some major material differences through the forks.
+  \n\n#### Q: Can you give me a good example of a fork?\n\n**Mark:** One is Bind.
+  As an insurer/broker (and therefore likely a [Covered Entity](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+  their policies will differ from Datica’s as a cloud infrastructure/tooling provider.
+  Bind’s willingness to share what they’ve done could help other insurers or brokers
+  with their path to build and demonstrate compliance. That can save everyone time
+  and money. That savings allows organizations to work on the real problems in healthcare.\n\n####
+  Q: When the 200th fork came in from the Chief Technology Officer of a care coordination
+  platform, you shared this good news with the entire company. Why was this an important
+  achievement?\n\n**Mark:** Many open-source projects don’t receive much attention,
+  so it’s great to see that Datica’s open-sourced policies are one of the more popular
+  open source projects in healthcare compliance. The Linux Foundation took a similar
+  approach a year later in [publishing their policies](https://github.com/lfit/itpol).
+  Datica is proud to be one of the earlier innovators in a space that facilitates
+  transparency in best practices by publishing those policies. As a company we strive
+  to constantly do what’s best for our customers, but also the industry as a whole.\n"
+:featured_image:
+  :title: Lifting a fork for open source header
+  :description: Lifting a for for open source header, blog, featured, fork, road
+  :url: "//images.ctfassets.net/189dvqdsjh46/1965rZnwPkaUM2CY8SUKak/54f1822b3fcba2a5098c5c87234f7cde/fork_in_road__South_Dakota.jpg"
+  :_meta:
+    :updated_at: '2017-09-07T19:40:07+00:00'
+    :created_at: '2017-09-07T17:23:15+00:00'
+    :id: 1965rZnwPkaUM2CY8SUKak
+:share_image:
+  :title: Lifting a fork for open source share
+  :description: Lifting a fork for open source, share, fork, road
+  :url: "//images.ctfassets.net/189dvqdsjh46/65w5CGxURO0882K08I0A26/278e21c72662fdead50918ac66233944/fork_in_road_-_social_poster.jpg"
+  :_meta:
+    :updated_at: '2017-09-07T18:39:44+00:00'
+    :created_at: '2017-09-07T17:26:28+00:00'
+    :id: 65w5CGxURO0882K08I0A26
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 5S8LbWARFKIogwQ2Mmcg80
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:42:09+00:00'
+    :created_at: '2016-11-23T21:32:54+00:00'
+    :id: 5S8LbWARFKIogwQ2Mmcg80
+  :title: Our company policies, now available free on GitHub
+  :slug: our-company-policies-now-available-free-on-github
+  :pub_date: !ruby/object:DateTime 2014-09-25 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: HIPAA compliance is complicated, but it doesn't have to be. To make compliance
+    easier for companies working with PHI, we open source our HIPAA policies.
+  :blog_lead: 'Today is a big day for us, and for those businesses striving for HIPAA
+    compliance. [Starting today, we are open sourcing all our company policies.](http://catalyzeio.github.io/policies/)
+    Are you a company who handles PHI and trying to achieve HIPAA compliance? Then
+    you''ll find what we are about to share compelling and useful.
+
+'
+  :post: |
+    Achieving [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) generally has two halves. The first half includes all technical guidelines, both physical and digital. Encryption, logging, monitoring, backup—these are just a few examples. Since the beginning, Datica has worked every day to take on these technical burdens for our customers.
+
+    The second half of HIPAA is focused on administrative and organizational activities, and these are where _your_ company policies come into play. Non-technical guidelines include signing [Business Associate Agreements (BAAs)](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), risk management procedures, and policies for training, among many other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
+
+    When we were creating our policies, we found several templates for healthcare providers, but nothing for modern health technology companies. We spent a vast amount of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
+
+    By open sourcing our own company policies, we hope other healthcare companies will benefit. It aligns with our company mission: to help you focus on fixing healthcare without spending all of your time on HIPAA.
+
+    The policies are hosted on GitHub, the premier public platform for open-sourced content. [To read more, head over to the project's homepage.](http://catalyzeio.github.io/policies/)
+
+    Let us know if you find these useful!
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 2vLZLMLDskY4UiW8guikiA
+  - :id: 5bc3xAovn2yaOu8mOS0mE0
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 20lgM36LfqK0SM8MyY2WGs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:15:52+00:00'
+    :created_at: '2017-08-07T21:01:59+00:00'
+    :id: 20lgM36LfqK0SM8MyY2WGs
+  :title: Why There is Up Front Pricing Now
+  :slug: why-there-is-up-front-pricing-now
+  :pub_date: !ruby/object:DateTime 2017-08-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1ohoWljgTW4ksAGY6w2U4Q
+  :categories_blog: company
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: 'Almost 3 years ago, I wrote about why there was no listed Datica pricing
+    on our site. Today, I wrote about why we actually DO now have upfront pricing. '
+  :blog_lead: 'Almost three years ago, I wrote a blog post about why [there was no
+    up front pricing](https://datica.com/blog/why-there-is-no-up-front-pricing/) for
+    the Datica Platform or our integration services. It was as earnest as I could
+    get about how I felt about our sales model at the time: there was no shortage
+    of people who came to our website not understanding why handling some aspects
+    of HIPAA compliance or data integration wasn''t as cheap as a $5 Digital Ocean
+    droplet.'
+  :post: "![Old office](//images.contentful.com/189dvqdsjh46/2eMSsIeNu8YcUuOW6qkEYS/6980a750bcb5cf100747466b6cb69a7e/Datica_old_office.001.png?fm=jpg)\n*That's
+    me in 2015, in the background of a photo in Datica's original office.* \n \n*Editor's
+    note: As we roll out updates and changes to our new Kubernetes-based compliance
+    platform our pricing is fluxuating and we're temporarily back to providing custom
+    quotes based on specific configurations. Learn more about our [public product
+    roadmap](https://datica.com/blog/what-were-building-daticas-public-product-roadmap/)
+    and the exciting things happening at Datica* \n\nWe've done a lot of work since
+    then, and we've now changed our opinion on the topic. We now offer up front Datica
+    pricing right on the website: [https://datica.com/pricing/](https://datica.com/pricing/).
+    I'd like to go through my old article and discussed what changed and why we now
+    offer upfront pricing.\n\n1) \"First, our pricing is non-standard, which can lead
+    to buyer confusion.\" & 2) \"Second, we discovered prospects were making apples-to-oranges
+    comparisons with companies who weren’t direct competitors.\"\n \nRealistically,
+    our largest competitors in the compliant cloud space aren’t other PaaS vendors
+    but rather DIY solutions on one of the major IaaS vendors like Amazon or Azure.
+    At the time, it was hard to communicate exactly what the total cost of ownership
+    for build vs. buy would be, since we didn’t fully understand our costs as we were
+    building infra at scale and going through our initial sets of audits. We've since
+    written massive amounts of documentation on the subject: our [HIPAA](https://datica.com/discover/hipaa-compliance/)
+    and [HITRUST](https://datica.com/discover/hitrust/) guides provide in depth details
+    on effort and costs while our [open-sourced policies](https://github.com/catalyzeio/policies)
+    provide a detailed roadmap of what it takes to prove HITRUST certification if
+    you were going to DIY.  If you work in a \"We build everything 100% here\" shop,
+    you'll find the policies useful for your own build-outs. If you are looking to
+    partner with a vendor, we now can provide you with the data to demonstrate that
+    we provide the best value on the market.\n \n3) Third, we saw that often prospects
+    weren’t entirely sure which one of our products to choose, so they would choose
+    neither.\n \nDatica is the platform on which everything is built. Compliance is
+    the top requirement for all digital health applications and it's where developers
+    looking to build or move to the cloud need to begin. Something like integration
+    is built on top of the platform, in a complementary fashion. We didn't know how
+    to communicate this best in 2015 and we probably didn't help ourselves with mountain
+    climbing analogies later that year with Redpoint and Stratum. We've figured out
+    better ways to communicate that we want to be your one stop shop for all your
+    tough challenges in building digital health products in the cloud — above hosting
+    and interface engines.\n \n4) Fourth, we believe strongly in a core message of
+    the Lean Startup movement: We want to talk to people.\n \nDon't worry! We're still
+    out talking to people. We just don't need to bake it into all pieces of the sales
+    process if you aren't interested anymore. In fact, we used a lot of feedback and
+    discussions from customers and prospects to build the [Digital Health Success
+    Framework](https://datica.com/dhsf/).\n \nWhile we made it easier to see our pricing
+    and features, we still want to talk. It might be our midwestern roots, but we
+    want to learn more about what you're working on and the challenges you're going
+    through on your projects. We want to help, even if it means we send you along
+    to someone else. Don't hesitate to [reach out](https://datica.com/contact/)!\n\n"
+  :featured_image:
+    :id: 1VH4BjrS7uY42AGqMcYOI
+  :share_image:
+    :id: 5wMilTOBjyweUaIcEkEqmu
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 18bX0o2xgYwSOoSUOuGaGC
+  - :id: 6Dml5x08koWoIe6cCYYGEc
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 1tg5P46GikgUYoSqsYUcSY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-28T03:09:51+00:00'
+    :created_at: '2018-07-02T17:24:15+00:00'
+    :id: 1tg5P46GikgUYoSqsYUcSY
+  :title: Datica’s gone native — cloud native!
+  :slug: datica's-gone-native-cloud-native
+  :pub_date: !ruby/object:DateTime 2018-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: We've taken our commitment to open source and Kubernetes a step further
+    by becoming a silver member of the Cloud Native Computing Foundation (CNCF).
+  :blog_lead: As any of the 200+ people who have already forked Datica’s open source
+    compliance policies can attest, we’ve always been a big believer in the value
+    and spirit of open source. Last year our open source commitment evolved to include
+    [Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+    to help solve the problem of healthcare data integration. Most recently, the open
+    source project [Kubernetes&reg;](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/)
+    became the fundamental technical management layer for Datica. To take this commitment
+    even further, we’re thrilled to announce we’ve become one of the newest silver
+    members of the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF),
+    home of Kubernetes.
+  :post: "  \nSince 2015, Kubernetes has become the industry standard for container
+    management, lending the best tools for workload deployment on public clouds. In
+    addition to being cross-cloud compatible and open source, the CNCF Kubernetes
+    project and community have grown at a tremendous pace. In fact, the [CNCF announced
+    Datica as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
+    last week, bringing the membership level to 236 companies. What really makes [Kubernetes
+    a viable option](https://datica.com/blog/kubernetes-vs-paas/) is not the core
+    project itself, but the community of tools and add-ons that surround it.\n\nWe’re
+    excited for what the future holds in this open-source-fueled era of rapid development
+    and are particular excited to step into this future in partnership with the CNCF
+    to collaborate with other Kubernetes developers who are trying to build secure
+    and compliant products. \n\nTake a look at the [press release announcing our CNCF
+    membership](https://datica.com/press-release/datica-joins-the-cloud-native-computing-foundation/)
+    for more details.\n\n\n"
+  :featured_image:
+    :id: 4rUKbhbssoiy84e4MaSMYs
+  :share_image:
+    :id: 4BA2icKqCskuuGQOQw8yEA
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :related_entries:
+  - :id: 1ITEzHLxx2QIaK4YagEecK
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 1ITEzHLxx2QIaK4YagEecK
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:32:59+00:00'
+    :created_at: '2018-06-21T23:38:52+00:00'
+    :id: 1ITEzHLxx2QIaK4YagEecK
+  :title: Kubernetes vs. PaaS
+  :slug: kubernetes-vs-paas
+  :pub_date: !ruby/object:DateTime 2018-06-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: If you're new to container orchestration and more familiar with a fully
+    managed platform-as-a-service (PaaS), Kubernetes can seem complex. Learn the differences
+    and tradeoffs.
+  :blog_lead: Kubernetes® is dominating in 2018. If you're not already thinking about
+    Kubernetes or at least containerization, then you're behind. Fortunately, containers
+    and cloud native architectures have never been more accessible or easier to get
+    started with. From infrastructure providers like AWS and Azure offering their
+    own [versions of managed Kubernetes](https://sysdig.com/blog/ecs-fargate-eks-kubernetes-aws-compared/),
+    to organizations like Cloud Foundry offering [Kubernetes services](https://www.cloudfoundry.org/container-runtime/),
+    the world is shifting toward containers.
+  :post: "\nIf you're working inside of a regulated industry, like healthcare or finance,
+    these tools may seem out of reach. The compliance requirements and security restrictions
+    of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
+    to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
+    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    Our customers are asking for it, it’s the future of managing workloads born in
+    the cloud, and Datica is already the most robust solution for compliance management
+    on the planet. \n\nIf you're new to container orchestration and more familiar
+    with a fully managed platform, like Heroku or Datica's legacy product, Kubernetes
+    can seem complex. The goal of this article is to compare Kubernetes with a traditional
+    PaaS, discuss the differences, and examine the tradeoffs.\n\n> Now that the world
+    has sufficiently been eaten by software, applications and tools have become ever
+    larger and more complex.\n\n## What is a PaaS?\n\nA Platform as a Service, or
+    a PaaS is intended to create a layer of abstraction on top of cloud service providers
+    (or in some cases data centers and bare metal) so the end user can focus on deploying,
+    managing, and scaling their applications and data. Without going into the [history
+    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    it's easy to think about it as a way of automating many of the repetitive, lower-level
+    tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
+    known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
+    and [Pivotal Cloud Foundry](https://pivotal.io/platform). These systems work when
+    developers make minimal configuration changes to their application's code and
+    then simply \"push\" their code to the cloud. The PaaS will then make an attempt
+    to understand the code, install the required dependencies, containerize the application,
+    and then serve it up. These providers then have a UI layer for managing resources,
+    networking, access, and more.\n\n## The benefits of a PaaS\n\nBeing able to directly
+    push your code to the cloud and have it running is a tremendous benefit over the
+    old days of standing up a server, installing an operating system (and then patching
+    it each time there's a vulnerability), getting nginx configured properly, and
+    much more. With a PaaS, developers can focus on delivering value via their product,
+    not building IT infrastructure.\n\nIn addition to being able to simply push your
+    code and have it running, many of these PaaS providers also couple database managed
+    services as part of their Platform.\n\n## The pitfalls of a PaaS\n\nThe ease of
+    use for a PaaS comes at the cost of flexibility. Want to install custom software
+    on an instance? Nope. Want to ssh into an instance to investigate an issue that
+    isn't appearing in the logs? Nope. Want to do anything beyond a simple Ruby, Python,
+    or Node app? Good luck.\n\nA PaaS serves a very specific purpose — to help small
+    teams with simple applications run those in the cloud without the DevOps overhead
+    of managing a fleet of instances on AWS or Azure.\n\nThe primary reason why so
+    many PaaS providers have failed to make substantial headway in the enterprise
+    space is because the model is so restrictive. For an organization managing hundreds
+    of applications with petabytes of data, it makes more sense to build out a team
+    that can manage all of it instead of making substantial changes to your business
+    in order to fit a square peg into a round hole.\n\n## Enter Kubernetes and containers\n\nNow
+    that the world has sufficiently been eaten by software, applications and tools
+    have become ever larger and more complex. A small organization that just three
+    years ago could have survived on Heroku is now growing at a pace that prohibits
+    them from continuing to use a restrictive PaaS. Maybe they're exploring machine
+    learning or want a data warehouse. Whatever the case, they've outgrown the PaaS
+    model. Now they need to move to something more flexible: Kubernetes.\n\nSince
+    the invention of containers, and specifically with the popularity of Docker, organizations
+    have been figuring out easier ways to orchestrate containers — that is, how to
+    get them running, connected and served up in the cloud. In a way, orchestration
+    is the primary function of a PaaS. Because containers are relatively trivial to
+    build (and in most cases the build process can be automated, ex: [Gitkube](https://gitkube.sh/))
+    the focus in the container space has been on orchestration.\n\n## The benefits
+    of containers\n\nThe benefits of containers over virtual machines has been discussed
+    to no end on the internet. I won't go into detail here, but simply put — with
+    containers, developers can port their applications from machine to machine whether
+    that's running it locally on a Mac, on a server in AWS or on a droplet on Digital
+    Ocean. A container is a container and it can run anywhere. Compare this to the
+    complexity of managing an entire fleet  VM, each with its own OS. With containers
+    there’s only one operating system to manage, even with hundreds of containers.\n\n##
+    Why Kubernetes\n\nKubernetes and containers have many of the same benefits. They
+    can both run anywhere and they both function the same whether they're running
+    on AWS, Azure, GCP, or in the locked closet down the hall. Kubernetes is open
+    source, financially backed by hundreds of organizations, and is managed by the
+    [Cloud Native Computing Foundation](https://www.cncf.io/). In addition to being
+    cross-cloud compatible and open source, Kubernetes has also shown tremendous growth
+    in the last year.\n\nIf you’re coming from a PaaS you’ll no doubt have concerns
+    around the ease of use and lack of automated DevOps support in Kubernetes. When
+    I first explored Kubernetes in late 2014 I walked away feeling like it was too
+    complicated and didn’t fit Datica’s customer use case. In 2018 it’s a different
+    story.\n\nSince Kubernetes officially hit 1.0 in 2015, the community and project
+    have grown at a tremendous pace. What really makes Kubernetes a viable option
+    is not the core project itself, but the community of tools and add-ons that surround
+    it. Kubernetes isn’t a PaaS, it’s a foundation on which to build a PaaS.\n\nThink
+    of Kubernetes and the cloud native community as a set of building blocks. With
+    these building blocks you can construct any number of different solutions. No
+    longer are you held back or restricted by PaaS providers. \n\n## Which to choose\n\nThe
+    decision to choose Kubernetes over a PaaS (or vice versa) is going to depend on
+    your business, technology, market, team, and several other factors. Having said
+    that, even if you currently have a simple application with a relatively smaller
+    user base, you’re likely going to scale and change rapidly. Preparing for the
+    future by moving to containers now is going to save you time and money when it
+    becomes critical later on.\n"
+  :featured_image:
+    :id: 3r6k88ycnCQQScWqwmicEQ
+  :share_image:
+    :id: 3XcPzlSFHWkUQWUqyOisq0
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

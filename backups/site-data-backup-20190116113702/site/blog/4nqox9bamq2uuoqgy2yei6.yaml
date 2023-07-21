@@ -1,0 +1,110 @@
+---
+:id: 4nqoX9BAmQ2uUoqGy2yEI6
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-27T22:26:28+00:00'
+  :created_at: '2016-11-23T22:18:34+00:00'
+  :id: 4nqoX9BAmQ2uUoqGy2yEI6
+:title: Datica is HITRUST CSF Certified
+:slug: datica-is-hitrust-certified
+:pub_date: !ruby/object:DateTime 2015-07-16 00:00:00.000000000 Z
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'Announcement: Datica if HITRUST CSF Certified.'
+:blog_lead: "> The reward of suffering is experience - Harry S. Truman\n"
+:post: |+
+  When we founded Datica, our goal was to leverage the experience we had building and selling health technology into a product that would help other people more easily build and scale their own technology in healthcare. We essentially wanted to productize our previous work and experience in the industry. Our focus from inception has been on taking the compliance burden off the shoulders of our customers. We’re proud that our customers are [experiencing](/proof) that value. That’s why we’re incredibly excited to announce that the Datica Platform is now fully HITRUST CSF Certified. You can read the official announcement [here](http://www.prweb.com/releases/2015/07/prweb12851981.htm).
+
+  Datica, both our products and our company, were built from the ground up to be in [compliance](/guide/hipaa) with the rigorous security and compliance requirements of healthcare. To that end, both our organization and our technology comply with HIPAA and HITRUST. On the organizational side, we have [policies and procedures](https://policy.datica.com) in place to secure our internal laptops, train our employees on compliance, and address all of the other administrative requirements that make up a strong information security management program. On the technical side, security, compliance, and minimizing the risk of unauthorized access of PHI is at the core of all the technical work that we do and is the foundation of the products our customers use.
+
+  Complying with HIPAA and [proving](/academy/proving-hipaa-compliance) it are two different things. I could tell you that we’re `HIPAA compliant`. I can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to **prove compliance** is to go through 3rd party audits. We’ve been through two 3rd party [HIPAA audits](/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/) over the last 18 months. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant.
+
+  Now we have additional validation and proof in the form of our HITRUST CSF Certification. HITRUST, for those that don’t know, is an industry-driven attempt to create a prescriptive, standardized, repeatable compliance framework that all organizations in healthcare can trust. In our case, we completed a validated HITRUST assessment using a 3rd party auditor to verify our controls.
+
+  If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected. I’ve experienced HIPAA from multiple angles - as a technical auditor, as a mobile app vendor, as a clinician, and as a compliant platform  vendor - but I learned more about compliance from this HITRUST experience than anything I’ve done before.
+
+  But, that’s all the more reason to be excited about this announcement! HITRUST isn’t easy, and it shouldn’t be. The experience we’ve gained as a company and the extensive testing of our technology bring great value to our customers. I’m ecstatic because our HITRUST CSF Certification will help our customers prove their applications and data are secure. It’s more compelling proof than our HIPAA audits.
+
+  If you’re already a Datica customer, there’s nothing you need to do; the infrastructure you’re hosting on is now HITRUST CSF Certified. If you’re not a Datica customer and want to learn why this is so valuable, or you just have questions about what it takes to complete a HIPAA audit or HITRUST assessment, please don’t hesitate to [reach out](/contact).
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

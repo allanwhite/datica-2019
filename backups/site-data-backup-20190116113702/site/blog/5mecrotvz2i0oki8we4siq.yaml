@@ -1,0 +1,571 @@
+---
+:id: 5mEcrotvz2i0oki8WE4sIq
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-07-27T17:42:58+00:00'
+  :created_at: '2018-07-27T17:42:58+00:00'
+  :id: 5mEcrotvz2i0oki8WE4sIq
+:title: 'Summer Quarterly Report Preview: Privacy and Big Technology'
+:slug: summer-quarterly-report-preview-privacy-big-technology
+:pub_date: !ruby/object:DateTime 2018-07-27 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-29T20:16:04+00:00'
+    :created_at: '2016-11-29T20:16:04+00:00'
+    :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :tag_full: Leadership
+  :slug: leadership
+  :description: Pioneers, innovators, and leaders of great teams.
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+- :id: 538OyakPcc0eKKiyeccEwC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-07-25T14:53:57+00:00'
+    :created_at: '2017-07-25T14:53:57+00:00'
+    :id: 538OyakPcc0eKKiyeccEwC
+  :tag_full: Pharma (pharmaceutical industry)
+  :slug: pharma
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: The Summer 2018 Datica Quarterly Report has timely insights as healthcare
+  grapples with GDPR, new privacy laws in CA, and forays into healthcare by the tech
+  titans of Microsoft and Amazon.
+:blog_lead: This latest [Datica Industry Report](https://datica.com/innovation/report-q2-2018-privacy-big-technology/)
+  was an exciting package to put together. As we have done in [previous reports](https://datica.com/innovation/),
+  we have curated some of the more insightful articles and commentary from publications
+  around the web. Certainly, there’s a lot of privacy news out there. We think it’s
+  timely as the Healthcare industry grapples with GDPR, new privacy legislation in
+  California and, seemingly, more aggressive healthcare industry efforts by the technology
+  titans of Microsoft and Amazon.
+:post: "\nA fascinating section of the report includes two studies worth diving into:\n\n*
+  The Cloud Security Report by Cybersecurity Insiders and Crowd Research Partners.
+  What’s noteworthy: The study is based on 400,000 security professionals on LinkedIn.\n*
+  Deloitte’s report, “Healthcare and Life Sciences Predictions 2020”. It’s thoughtful
+  and smart.\n\nMy takeaway from all the recent privacy/security news in the healthcare
+  space and the general business and consumer landscape is what I recently wrote in
+  a forthcoming book we are authoring about compliance:\n\n> Complying with regulations
+  on protecting patient data privacy sounds like it should be pretty cut and dried,
+  right? The government sets rules and companies follow them, or else they are penalized.
+  In fact, compliance is a bit more squishy than that, because it needs to evolve
+  and respond to the ongoing changes in the market that are caused by digital transformation.
+  \n\n> Healthcare is no different from any industry where technology is rapidly changing.
+  You see this whenever a new technology comes along. Over time, everyone — humans,
+  cultures, businesses, industries — have had a hard time understanding the legal,
+  social, and ethical consequences of a brand new development. They find themselves
+  asking, ‘Well, what do we do with this technology now that it’s a thing?’ You can
+  already project into the future what happens when, say, we can finally splice genes
+  the right way. People will be asking, what do we do now that we can change our eye
+  color on the fly?\n\n> Compliance behaves like a lagging indicator. It’s just a
+  part of regulation and regulation has tried to keep up with the pace of technology.\n\nWe
+  hope you enjoy this edition of the [Datica Quarterly Report](https://datica.com/innovation/report-q2-2018-privacy-big-technology/).
+  If you have questions or comments, as always, [contact us](https://datica.com/contact/)."
+:featured_image:
+  :title: 2018-q3-report-bg-large
+  :description: Summer 2018 Datica Quarterly Report image header
+  :url: "//images.ctfassets.net/189dvqdsjh46/5i86f3BdReW2iIqaQoy0oa/7712c6e4769d00a4a7488f1b4b5ccd83/2018-q3-report-bg-large.jpg"
+  :_meta:
+    :updated_at: '2018-07-23T23:25:52+00:00'
+    :created_at: '2018-07-23T22:04:08+00:00'
+    :id: 5i86f3BdReW2iIqaQoy0oa
+:share_image:
+  :title: 2018-q3-report-share
+  :description: Summer 2018 Datica Quarterly Report social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/Ozi16LLjSECiCWywQCUOs/de7f3a857d063022d19f8d419d4dcee2/2018-q3-report-share.jpg"
+  :_meta:
+    :updated_at: '2018-07-23T23:26:42+00:00'
+    :created_at: '2018-07-23T22:04:08+00:00'
+    :id: Ozi16LLjSECiCWywQCUOs
+:cta_ref:
+  :id: 5J0scaBKMwmoCiMk2eGkc2
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-27T17:42:52+00:00'
+    :created_at: '2018-07-27T17:42:22+00:00'
+    :id: 5J0scaBKMwmoCiMk2eGkc2
+  :cta_title: Innovation Quarterly Report 2018 Q2 - Privacy and Big Technology
+  :cta_desc: Healthcare is grappling with GDPR, new privacy rules in California, and
+    more aggressive healthcare industry efforts by the technology titans of Microsoft
+    and Amazon. This newest Datica Quarterly Report explores these issues and more.
+  :cta_label: Get it Now!
+  :cta_url: https://datica.com/innovation/report-q2-2018-privacy-big-technology
+  :cta_image:
+    :id: 6d2yNv3U76sAsIIqcQeQUo
+:related_entries:
+- :id: 1RprfyzKKEmY4Yyqea0UKW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-07T22:52:23+00:00'
+    :created_at: '2017-12-13T16:47:09+00:00'
+    :id: 1RprfyzKKEmY4Yyqea0UKW
+  :title: 'Q4 Industry Report: Shadow IT''s positives and negatives within healthcare'
+  :slug: q4-industry-report-shadow-its-positives-and-negatives-within-healthcare
+  :pub_date: !ruby/object:DateTime 2017-12-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'Datica''s Winter 2017 quarterly industry report examines the paradox
+    of shadow IT in healthcare. Is it a security threat or enabler for innovation? '
+  :blog_lead: "[The Winter installment of Datica's quarterly industry report is now
+    available](https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives).
+    The report examines shadow IT as both a growing security threat to health IT,
+    but also as a unique and unrivaled enabler for innovation when managed appropriately.
+    Shadow IT as a topic is quite the paradox—this report tries to help make sense
+    of it."
+  :post: "The changes in one year between 2017's AWS re:Invent conference and this
+    year's edition were stark. We [blogged](https://datica.com/blog/aws-fargate-and-hipaa-compliant-containers/)
+    about [some](https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/)
+    of our [observations](https://datica.com/blog/re-invent-day-2-looking-toward-the-future/).
+    In certain ways, the topic of shadow IT was a polarizing conversation throughout
+    the conference. On the one hand, most vendors at the conference were promoting
+    tools to control costs, security, and compliance of AWS so as to curb factions
+    of shadow IT development. But on the other hand, David Deas, Corporate Director
+    of Innovation and Knowledge Analytics at Methodist Le Bonheur Healthcare in Memphis,
+    [got up on stage and talked about how HIPAA compliant and HITRUST certified versions
+    of \"shadow IT\" became a defining enabler for his institutions initiatives](https://www.youtube.com/watch?v=oju3cVT5YBo).\n\nIt's
+    that dichotomy we've heard throughout 2017 and chose to examine in Q4's report.\n\nReaders
+    will find a timely, in-depth summary of AWS re:Invent 2017 from the point of view
+    of health IT.\n\nWe scoured what the industry has to say, and extracted the most
+    important points of information for readers. We also went to see what the analysts
+    are saying.\n\nAs with the [Spring report's](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)
+    op-ed from [Dr. John Halamka, CIO of Beth Israel Deaconess Medical Center](http://geekdoctor.blogspot.com/),
+    we were graced with Sue Schade's point of view in this report. \n\nFew people
+    have had to grapple with the challenges of shadow IT like Sue throughout her career.
+    Back in 2015, [we interviewed Sue](https://datica.com/innovation/sue-schade/)
+    for our Healthcare Innovators series (since then has been converted to a [podcast](https://datica.com/podcast/)
+    format). She shared stories and gave solid advice about managing shadow IT in
+    her role as CIO of Hospital and Health Centers at Michigan Medicine at the time.
+    We are thrilled she was willing to give insight to the topic.\n\nWe hope you enjoy.
+    Thanks for reading!"
+  :featured_image:
+    :id: 53wqveD0jKwwiUE0sMcuqK
+  :share_image:
+    :id: 1RqULZW0pukwaICqG8KOGU
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 4rlKh6oBpKAGGWI0cWQiA
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1xWyIu23sMAEAYA4sC2qk2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-09-29T16:55:40+00:00'
+    :created_at: '2017-09-28T22:02:32+00:00'
+    :id: 1xWyIu23sMAEAYA4sC2qk2
+  :title: 'Public vs. Private Cloud Computing Examined: Our Latest Quarterly Industry
+    Report'
+  :slug: public-vs-private-cloud-computing-examined-our-latest-quarterly-industry
+  :pub_date: !ruby/object:DateTime 2017-09-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Our latest industry report takes a look at various opinions and definitions
+    on public vs. private cloud computing within healthcare.
+  :blog_lead: 'Last quarter, we published our first industry report titled [The Heart
+    of Medicine: Transformation Through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/).
+    The report took a look at how sentiments have changed the last few years around
+    the topic of "cloud" within enterprise healthcare. Measuring the changes between
+    a 2014 HIMSS study and their 2017 version showed that certain use cases on the
+    cloud have not just taken off, but are commonplace—a good sign for the progress
+    of digital health.'
+  :post: |-
+    Each quarter we will bring a similar report focused on a key topic related to healthcare technology. The shape of a report can take many forms. One quarter might be an extensive data study while another quarter might be an aggregation of industry views. Regardless of the style of report, the intent remains the same: Inform the digital health market with insights that can help them be successful. _There is no strategy without intelligence._
+
+    Today we are happy to share our latest report titled [Public and Private Cloud Computing within Healthcare](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/). The premise of this report is simple: the debate between Public vs. Private cloud models is ongoing, yet many digital health companies we speak with aren't exactly sure their definitions, nor which model might be a fit for them. The [cloud](https://datica.com/discover/healthcare-cloud/) is expansive and complex. This report is meant to help breakdown the differences between the two, and source industry insights related to what is a good fit for healthcare.
+
+    Feedback is always welcome. Let us know what you think on Twitter at @daticahealth!
+  :featured_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :share_image:
+    :id: 3OtctYqALCei8CmiwMsMEW
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :related_entries:
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 7qJqDu9dAIseEkaCMOIaQW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-05-21T23:49:12+00:00'
+    :created_at: '2018-05-21T16:49:08+00:00'
+    :id: 7qJqDu9dAIseEkaCMOIaQW
+  :title: 'Cloudy Outlook: A 2018 CIO Cloud Perspectives Survey'
+  :slug: cloudy-outlook-2018-cio-cloud-perspective-survey
+  :pub_date: !ruby/object:DateTime 2018-05-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: 'Migrating organizational data to the cloud is one of a number of concerns
+    hospital CIOs currently face. To dig deeper into those concerns, Datica conducted
+    a survey on the topic. The results reveal that many healthcare organizations are
+    in a holding pattern. '
+  :blog_lead: 'Migrating organizational data to the cloud is one of a number of concerns
+    hospital CIOs currently face. To dig deeper into those concerns, Datica conducted
+    a survey on the topic [during and after HIMSS18](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).
+    Members of the College of Healthcare Information Management Executives (CHIME)
+    answered questions regarding their organizations’ plans and efforts to move their
+    data to the cloud. The results reveal that many healthcare organizations are in
+    a holding pattern. '
+  :post: "Cloud storage has the potential to change healthcare in positive ways, from
+    administration efficiencies to population health. An array of new opportunities
+    for providers await when moving data storage into the cloud. But, there’s a long
+    way to go before that potential can be realized.\n\n## Cloud adoption is a top
+    priority, but not in full throttle mode\n\nAbout 80% of the survey respondents
+    said that cloud hosting is in the top 20 priorities within their organizations;
+    however, only around 30% said they have a strategy for that data migration. Such
+    massive operational changes take time. We need only look at healthcare’s recent
+    past with implementation of electronic health records (EHRs) to see the truth
+    in that statement. \n\n*JUST RELEASED: Get Datica’s [2018 CIO Cloud Perspectives
+    Survey here](https://datica.com/innovation/healthcare-cloud-take-off-waiting-for-fog-clear/)*\n\nThose
+    organizations that have already made the cloud leap are innovating: 32% are using
+    the cloud to build machine learning applications, and 45% are creating applications
+    to improve population health. With the possibility of such uses, why are some
+    organizations hesitating? \n\nOne of the biggest concerns survey respondents cite
+    is around security. Roughly 50% said it is a primary worry. Given the regulatory
+    landscape and the sensitivity of protected health information (PHI), it’s not
+    surprising that security is a top concern. As cloud hosting becomes a more viable
+    option, new tools are emerging to give healthcare organizations greater control
+    over their data, which will help dissipate concerns about data security. \n\nAnother
+    barrier for some organizations is the lack of a clear business value in storing
+    data in the cloud. About 40% of the executives who took the survey said that things
+    like what to do with existing equipment or how their organization would make practical
+    use of cloud storage impedes the shift.\n\n## Some are taking to the cloud, others
+    remain grounded\n\nAlmost 20% of survey respondents reported that their organizations
+    are already hosting 50% or more of their software infrastructure remotely. An
+    additional 14% said at least a quarter to half of their infrastructure is hosted
+    remotely. That means just over one-third of the organizations represented in the
+    Datica survey are discovering what works, what possibilities are opened, and how
+    the cloud might improve healthcare delivery. \n\nConversely, about 20% of the
+    executives said that migrating data storage to the cloud was not a current priority
+    for their organization. [Regulatory compliance](https://datica.com/platform/),
+    security, and privacy are all concerns, among others. \n\nIn the broadest terms,
+    the survey seems to show that executives are aware of the potential of the cloud,
+    both for improving healthcare delivery as well as for data breaches. As is always
+    the case, some organizations are innovating and pushing the limits of what is
+    possible, while others take a wait-and-see attitude. \n\n\n"
+  :featured_image:
+    :id: 6TMlhE5ne84028cSMmcqgo
+  :share_image:
+    :id: mhLKGCtpja4QcWcWCU6Uc
+  :cta_ref:
+    :id: 6waYDn33oc6wEwWYSa6CwC
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 36CaY4T1ocmsqEokcmqGga
+  - :id: 1RprfyzKKEmY4Yyqea0UKW
+  - :id: 4igZ8DM9ugaIQeIIEouY4c
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 36CaY4T1ocmsqEokcmqGga
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-25T18:04:56+00:00'
+    :created_at: '2018-04-25T18:04:56+00:00'
+    :id: 36CaY4T1ocmsqEokcmqGga
+  :title: 'Spring 2018 Report Review: A look at the Impact of Healthcare Innovation'
+  :slug: spring18-report-review-impact-healthcare-innovation
+  :pub_date: !ruby/object:DateTime 2018-04-25 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'Datica’s 2018 spring innovation report examines how the media is describing
+    the digital health transformation through four articles from major industry publications.
+    The report also examines insights from Accenture and the World Economic Forum
+    surveys, and takes a look at HIMSS 2018. '
+  :blog_lead: "Anyone familiar with the healthcare industry knows that a transformation
+    is happening; it is not some distant event. Digital health is changing how healthcare
+    is delivered and consumed, and innovation is at the heart of the transformation.
+    \n\nDatica’s 2018 spring innovation report examines how the media is describing
+    the digital health transformation through four articles from major industry publications.
+    The report also examines insights from Accenture and the World Economic Forum
+    surveys, and takes a look at HIMSS 2018. "
+  :post: "## Surprising digital health trends reported by the media\n\nFeaturing stories
+    from The Wall Street Journal, The Economist, Harvard Business Review, and Healthtech
+    News, Datica’s Spring 2018 innovation report finds that there are some specific,
+    and perhaps surprising trends in digital innovation. From hospitals supporting
+    startups to the competition for data that artificial intelligence is bringing
+    about, the four articles touch on current hot button topics. \n\nIn a story titled
+    [“Hospitals Fund Potential Game-Changers in Health Tech”](https://www.wsj.com/articles/hospitals-vie-to-fund-a-health-tech-breakthrough-1520430189)
+    the Wall Street Journal reports on how some hospitals are beginning to fund health-tech
+    startups in the hopes of supporting innovation that will result in improvements.
+    Hospitals are in a good position to decide which innovative projects to support
+    because hospitals have the clearest understanding of their own problems that need
+    to be solved. \n\nThe Economist tackles the topic of medical data and technologies
+    surrounding it in an article titled [“Data and medicine: A revolution in healthcare
+    is coming.”](https://www.economist.com/news/leaders/21736138-welcome-doctor-you-revolution-health-care-coming)
+    Applications that detect heart arrhythmia or that have diagnostics capabilities
+    are powerful, as are those that may improve the management of chronic disease.
+    However, the article misses the mark in its implication that those types of technologies
+    are on the verge of widespread adoption. Such innovations will change healthcare,
+    but it will happen gradually. \n\nPatient-centered is a phrase that appears in
+    almost every discussion of digital health innovation, and the Harvard Business
+    Review examines the importance of keeping the patient front and center in an article
+    titled [“Putting Humans at the Center of Health Care Innovation.”](https://hbr.org/2018/03/putting-humans-at-the-center-of-health-care-innovation)
+    Innovation is most important when it puts people, rather than money, at the center.
+    \n\nAdvancing innovation in digital health is going to require a migration to
+    the cloud, according to an article in Healthtech News titled [“Eric Schmidt lays
+    out formula for healthcare innovation.”](http://www.healthcareitnews.com/news/eric-schmidt-lays-out-formula-healthcare-innovation)
+    Moving to the cloud will mean having an infrastructure that is tested, interoperable,
+    and secure. However, AI is going to require data acquisition because it depends
+    on large datasets to determine algorithmic success. \n\n## Reports from the Experts\n\nReports
+    from institutions, academic organizations, and consulting firms often contain
+    insights that aren’t always obvious from interactions with partners and customers.
+    The Datica spring innovation report includes summaries from two such reports:
+    the [Accenture Digital Health Technology Vision 2017](https://www.accenture.com/us-en/insight-digital-health-tech-vision-2017)
+    and the [World Economic Forum report.](http://reports.weforum.org/digital-transformation/healthcare-building-a-digital-healthcare-system/)
+    \n\nEach of the reports points to trends that are going to impact the digital
+    health transformation. AI, digital ecosystems, open marketplaces for talent, the
+    need for better understanding human behavior, and entirely new digital industries
+    are all mentioned in the Accenture report. The World Economic Forum included discussion
+    of how to build a digital healthcare system that will empower people. \n\n## Heavyweights
+    at HIMSS18\n\nMicrosoft has always been involved in [HIMSS](https://datica.com/blog/himss18-recap-invasion-major-tech-providers/),
+    but this year their focus was less on Azure and more on the Microsoft solutions
+    on the cloud. AWS had a bigger presence than ever before at HIMSS, and featured
+    demonstrations of solutions to specific healthcare problems. \n\nGoogle put on
+    a show bigger than either Microsoft or AWS, with a major booth and high profile
+    sessions and keynotes. However, it wasn’t clear exactly what cloud-based solutions
+    Google is offering the healthcare sector. \n\nTelehealth and population health
+    have matured. They are no longer coming soon but have arrived. Both technologies
+    are now part of the health IT landscape. \n\nIT was also clear at HIMSS18 that
+    there’s more innovation happening than necessarily meets the eye. New projects
+    in digital health products as well as internal innovation within organizations
+    are likely to spur rapid improvements in the near future. \n\nThe full [Datica
+    Spring 2018 innovation report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+    elucidates the sources currently driving the digital health transformation. By
+    pulling together unique perspectives on disparate topics, Datica clearly describes
+    the innovation situation and how it’s impacting digital health. \t\t\t\t\t\n"
+  :featured_image:
+    :id: F92wrNf7McMOU6kE6w6Gw
+  :share_image:
+    :id: 6jZxHRz77qSqCCquq8eyQI
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 1RprfyzKKEmY4Yyqea0UKW
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

@@ -1,0 +1,697 @@
+---
+:id: 2EuEhl4RAQsuUyuWsCQeEq
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-09-13T23:11:00+00:00'
+  :created_at: '2017-09-13T17:50:05+00:00'
+  :id: 2EuEhl4RAQsuUyuWsCQeEq
+:title: HITRUST CSF Certification Round 3
+:slug: hitrust-csf-certification-round-3
+:pub_date: !ruby/object:DateTime 2017-09-12 00:00:00.000000000 Z
+:tags:
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: With our 3rd HITRUST CSF certification, the Datica Platform now provides
+  customers greater flexibility with cloud infrastructure choices.
+:blog_lead: HIPAA regulations create a barrier for makers of digital health products
+  to adopt the cloud. Whether you are a digital health startup, a health system, payer,
+  or life sciences organization, it takes an enormous amount of work to [get your
+  digital health product off the ground](https://datica.com/dhsf/) while, at the same
+  time, achieving and maintaining continuous HIPAA compliance.
+:post: |-
+  <script src="https://fast.wistia.com/embed/medias/1o1udvaa6z.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="group wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1o1udvaa6z seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+
+  At Datica, we address all the infrastructure-based HIPAA rules and regulations for customers. Customers sign a single Business Associate Agreement with us, which reduces the complexity of managing several BAAs.
+
+  Through us and through our BAA, customers are able to build and deploy onto the world’s best infrastructure providers like [Amazon Web Services](https://aws.amazon.com/health/) or [Microsoft Azure](https://azure.microsoft.com/en-us/industries/healthcare/) without having to worry about shouldering the immense technical obligations required to achieve HIPAA compliance.
+
+  ## Going for the Gold: Proving HIPAA Compliance with the Gold Standard, HITRUST
+
+  With the HITRUST Common Security Framework (CSF) Certification, we have proof the Datica Platform meets the “gold standard” of industry expectations. [HITRUST CSF Certification](https://datica.com/discover/hitrust/) remains an important designation for any organization developing digital health products that handle sensitive PHI. It combines different legislative initiatives that may be similar and yet somewhat contradictory to each other. The CSF provides one set of prescriptive controls from which everyone can work.
+
+  ![diagram - platform-hitrust-inheritance](//images.contentful.com/189dvqdsjh46/fE9OrSoh0sa04GGIeUA6y/1ec20a7821aaf7c388f891786139e088/platform-hitrust-inheritance.png)
+
+  Customers inherit our security but, more importantly, they inherit our [HITRUST CSF certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/). Datica has been a leading voice in shaping what HITRUST looks like in the cloud and the fact that we just received our HITRUST CSF certification for the third time gives industry validation to our approach.
+
+  This latest CSF Certification is even more comprehensive [than the last](https://datica.com/platform/compliance/) since it also includes both the Azure and [Docker](https://www.docker.com/) portions of [Datica’s platform](https://datica.com/platform/). With this certification extended to additional components of our platform, we now offer customers greater flexibility with cloud infrastructure choices.
+
+  <h4 class="text--spaced text-center group">Compliance Facts</h4>
+  <div class="row small-up-1 medium-up-3 align-center">
+      <div class="column">
+          <span class="headline-1">5</span>
+          <p>Total number of independent audits Datica has passed, including HIPAA and SOC1/2.</p>
+      </div>
+      <div class="column">
+          <span class="headline-1">3</span>
+          <p>Total number of HITRUST CSF Certifications Datica has received, two full and one interim since 2015.</p>
+      </div>
+      <div class="column">
+          <span class="headline-1">1000+</span>
+          <p>Total number of security and risk assessments we have assisted our customers pass.</p>
+      </div>
+  </div>
+
+  > Having Azure and Docker in the certification makes Datica an easy choice for those who want to be compliant and move to the cloud.”
+  — __Lori Meals, Director of Compliance, Datica__
+
+  As the information protection framework for the healthcare industry, the HITRUST CSF Certification brings a new level of effectiveness and efficiency to third-party assurance. This latest certification provides assurance that we appropriately secure and protect PHI so you can focus on what you do best — building your digital health product in the cloud.
+:featured_image:
+  :title: gold-bars-4x3-blur
+  :description: featured image, blog
+  :url: "//images.ctfassets.net/189dvqdsjh46/2QkCtSwtb26OAcs6wWUcUI/ee081ed2310294dd77a5f9da13506662/gold-bars-4x3-blur-alt-2.jpg"
+  :_meta:
+    :updated_at: '2017-09-13T22:58:17+00:00'
+    :created_at: '2017-09-13T17:34:25+00:00'
+    :id: 2QkCtSwtb26OAcs6wWUcUI
+:share_image:
+  :title: '09-13-17 blog - social share'
+  :description: share, blog, gold
+  :url: "//images.ctfassets.net/189dvqdsjh46/6HZ8G1hkreGyoOq04QUW28/dffc5b13da6e558ba61f4218241bc511/09-13-17_blog_-_social_share.jpg"
+  :_meta:
+    :updated_at: '2017-09-13T17:40:40+00:00'
+    :created_at: '2017-09-13T17:40:40+00:00'
+    :id: 6HZ8G1hkreGyoOq04QUW28
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 3OnaohMlZucmAkaQ8A0qAu
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:55:06+00:00'
+    :created_at: '2017-08-30T16:43:43+00:00'
+    :id: 3OnaohMlZucmAkaQ8A0qAu
+  :title: Facing down the largest breaches of 2017 with Datica's open-source policies
+  :slug: facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies
+  :pub_date: !ruby/object:DateTime 2017-08-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: As we roll into the end of 2017, it's worth looking back on how the industry
+    has been doing protecting PHI against the threat of cyber-intrusions.
+  :blog_lead: 'As we roll into the last few months of the year, it''s worth looking
+    back on how the industry has been doing protecting PHI and adapting to the increasingly
+    threatening world of cyber-intrusions. While the big stories generally revolve
+    around the largest amount of lives impacted and the most technically harrowing
+    attacks, it''s worth noting that there are still breaches as simple as someone
+    stealing a laptop with a spreadsheets with thousands of persons worth of PHI on
+    it. In this article, we''re going to go through some of the largest breaches of
+    2017 and discuss how we address these as a company which we''ve shared in our
+    open-source policies. While it''s impossible to say in retrospect if any breach
+    was 100% preventable, having policies in place to provide "reasonable effort"
+    to prevent exposure is key to minimizing the damage from the unpreventable. '
+  :post: "## Ransomware or Malware\n\nAt top of mind in 2017 is ransomware and malware,
+    which shut down and exposed multiple hospitals and HIT Vendors thoughout the year.
+    Of those, two were notable:\n\n-  [Pacific Alliance Medical Center attack potentially
+    leaks 260K patients](http://www.healthcareitnews.com/news/los-angeles-provider-breached-ransomware-attack-over-260000-patients-affected-updated)\n-
+    \ [Nuance Impacted for Weeks Due to Malware](https://www.healthcare-informatics.com/news-item/cybersecurity/cyber-attack-update-nuance-still-down-researchers-believe-petya-not)\n\nThe
+    vector of the attack is relatively straightforward: through phishing or infected
+    3rd party hardware like a thumb drive, hackers gain access to hardware throughout
+    an organization's network and encrypt data on that hardware. The purpose of ransomware
+    is to extract payment to undo that encryption while other malware like the ones
+    believed to be used in the Nuance attack are wholly irreversible and are just
+    designed to effectively destroy the data.\n\nPreventing something like an attack
+    like this actually hits to the heart of most of our policies, but let's go for
+    the top 3 references in this article. First, [patch management](https://policy.datica.com/#9.5-patch-management-procedures)
+    ensures that you are constantly being vigilant to new security concerns. While
+    it's not directly stated in our policies, we have one person and a backup who
+    are wholly responsible for managing patches for our system for security concerns.
+    Second, having policies on [appropriate system access and by reducing the need
+    for privledged users](https://policy.datica.com/#7.2-access-establishment-and-modification)
+    reduces the risk that if one user's credentials are compromised all systems could
+    be accessible by an attacker. Third, we run [OSSEC and Anti-Virus](https://policy.datica.com/#17.4-prevention-of-malware-on-production-systems)
+    on all production systems to identify any otherwise unknown attacks and to solve
+    any issues brought up from an attack.\n\n## Unauthorized Access or Disclosure\n\n-
+    [Indiana Medicaid warns patients of health data breach](http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach)\n-
+    [Phishing attack at UC Davis leads to health data breach](http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients)\n\nOther
+    than a vector for malware, [phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)
+    can also be used as a method for attackers to simply gain access to systems by
+    getting credentials to a system. Or, a well-meaning dev may accidentally breach
+    patient data by placing it on a public facing web page. \n\nWhile your mileage
+    may vary, our policies have a few tips to help prevent this. First, we require
+    [two-factor auth](https://policy.datica.com/#17.7-production-system-security)
+    on all production systems. While this doesn't necessarily prevent a system user
+    from giving an attacker their credentials *and* auth token (sigh), it reduces
+    the risk of unauthorized cross application access and minimizes the window by
+    which an attacker can maintain access to an application. We also require access
+    to all production systems to be [managed over a VPN with two-factor auth](https://policy.datica.com/#7.2-access-establishment-and-modification).
+    We also have an unofficial \"All data is potentially PHI\" policy for our managed
+    integration services hardware/software. While we may have access to test environments
+    with mock patient data, we assume that we may be sent PHI from any vendor or healthcare
+    organization. As such, we protect all data like PHI as established in our policies.
+    \n\n## Theft or Improper Disposal\n\n- [WSU hard drive theft potentially impacts
+    1 million people](http://www.healthcareitnews.com/news/wsu-hard-drive-theft-potentially-impacts-1-million-people)\n-
+    [State Employee Dumps Medicaid Worksheets in dumpster](http://bismarcktribune.com/news/state-and-regional/state-employee-dumps-medicaid-worksheets-in-dumpster/article_13f36eb4-1fb4-5278-93e1-1d30a00c9f9a.html)\n\nWhile
+    hackers and ransomeware are increasingly perilous, [20% of data breaches reported
+    to the OCR are good old fashioned theft and improper disposal](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf).
+    Someone stealing a laptop from a car or a unencrypted hard drive from an office
+    to cause a breach are a tale as old as HIPAA itself.\n\nWe may be biased, but
+    **stop storing PHI on local machines or on paper**. [We don't](https://policy.datica.com/#7.13-access-to-ephi).
+    We only used [approved tools](https://policy.datica.com/#20.-approved-tools-policy)
+    with appropriate access controls and encryption to store and transfer PHI. We
+    also have [no servers in our offices](https://policy.datica.com/#10.-facility-access-policy)
+    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica.com/discover/hipaa-compliance/)
+    the hard way, either getting beat up by your first 250-question audit or worse:
+    by finding yourself on the OCR's Wall of Shame. Consult our policies or let us
+    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica.com/platform/).
+    \n\n\n"
+  :featured_image:
+    :id: 7EkRpt7VsIoAkms4sE8gQs
+  :share_image:
+    :id: 2LxaDSQm2kcWsQuQ8WmsSk
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  - :id: 5S8LbWARFKIogwQ2Mmcg80
+  - :id: 1tg5P46GikgUYoSqsYUcSY
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 43RrKqACLKiEqKoiMsy2O8
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-08-18T15:52:44+00:00'
+    :created_at: '2017-08-18T15:52:44+00:00'
+    :id: 43RrKqACLKiEqKoiMsy2O8
+  :title: 'Spear Phishing: Hackers Aiming for Healthcare'
+  :slug: spear-phishing-hackers-aiming-for-healthcare
+  :pub_date: !ruby/object:DateTime 2017-08-18 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: In the 377 healthcare data breaches last year, phishing attacks were among
+    the top data breach causes. Why is healthcare such a target for spear phishing
+    attacks?
+  :blog_lead: "At the beginning of August, the BBC reported that a UK-based “prankster”
+    had successfully [spoofed the White House.](http://www.bbc.com/news/world-us-canada-40788080)
+    Through spear phishing emails, this bad actor had not only convinced a senior
+    cyber security officer that he was the president’s son-in-law and senior advisor
+    Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus
+    to fool then White House Communications Director Anthony Scaramucci into inflammatory
+    email exchanges. After posting a few of those emails on Twitter, the culprit promised
+    not to do it again and urged the current administration to “tighten up IT policy.”
+    While the jokester later indicated his email spoofing had no harmful intent, the
+    implications go way beyond 1600 Pennsylvania Avenue. \n"
+  :post: "Phishing is a widely used form of social engineering where malicious ne’re-do-wells
+    broadcast  disguised emails to a large population in an attempt to steal sensitive
+    information like usernames, passwords, financial and yes, healthcare data. Although
+    not commonly known until 2005, phishing scams first appeared around 1995, with
+    the term first being coined in a Usenet group on January 2, 1996. When America
+    Online (AOL) reigned as king of email communication, scammers regularly masked
+    themselves as banking sites and financial institutions, as well as PayPal and
+    Ebay. These fraudulent emails would often persuade victims to open a link with
+    a malevolent attachment or visit a malicious web site. \n\nLater, these phishing
+    scams bred a more targeted type of phishing called [“spear phishing.”](https://www.wired.com/2015/04/hacker-lexicon-spear-phishing/)
+    For this type of hoax, cyber shysters use targeted emails designed to appear as
+    if from someone the victim knows, such as a colleague, business manager or even
+    someone from the human resources department. These tailored emails often contain
+    subject lines or content that capitalize on the victim’s known interests. \n\n##
+    Is Healthcare a Spear Phishing Target?\n\nIn the 377 healthcare data breaches
+    last year, the [Identity Theft Resource Center (ITRC) and CyberScout](http://www.prnewswire.com/news-releases/data-breaches-increase-40-percent-in-2016-finds-new-report-from-identity-theft-resource-center-and-cyberscout-300393208.html)
+    report shows phishing attacks were among the top data breach causes. Along with
+    hacking and skimming, these three scams made up 55.5 percent of the breaches.
+    Furthermore, spear phishing appears to be the most likely type of scam targeting
+    CEOs. From 2015 to 2016, the numbers for these methods of breaches rose 17.7 percent.
+    In the first part of 2017, phishing has been used to gain access to UC Davis Health,
+    Torrance Memorial Medical and Washington University School of Medicine, according
+    to Healthcare IT News piece titled [“The biggest healthcare breaches of 2017 (so
+    far).”](http://www.healthcareitnews.com/slideshow/biggest-healthcare-breaches-2017-so-far?page=32)
+    This upward trend isn’t about to subside until an even more lucrative scam arises.
+    With an average cost of a healthcare data breach at about $380 per record, mitigating
+    spear phishing remains top of mind for Datica and its customers.\n\n## Spear Phishing
+    Recommendations\n\nFor insight into this latest trend, I reached out to Datica
+    Security Engineer Brandon Maxwell. He shared the reason for an increase in spear
+    phishing: high success rates — which make it the number one delivery vehicle for
+    ransomware and malware. “They don’t need complex methods of breaking through security
+    walls when they can simply trick someone inside an organization to hand over what
+    they want,” says Maxwell. \n\nDatica, like every other healthcare IT organization,
+    is also vulnerable to this type of encounter. For example, one spear phishing
+    attempt that we recently blocked came from an imposter who cleverly spoofed one
+    of our executive’s email addresses. He or she used that email address to request
+    a wire transfer from the finance department. Trained to spot such deceit, the
+    department head alerted the appropriate person within Datica about the email and
+    its request, and ultimately averted the scam. Datica now uses this spoof example
+    to warn its own customers to such trickery. \n\nDatica’s Director of Compliance
+    Lori Meals touts four ways healthcare organizations can better protect themselves
+    from such attacks. Her recommendations and thoughts, along with Maxwell’s include:\n\n###
+    Awareness, training and testing\n\nAll employees need to be made aware of what
+    phishing is and the damage that can result from a successful attack. Maxwell outlines
+    the steps he uses to fully inform Datica employees, “Sharing what a spear phishing
+    email looks like, explaining how to evaluate such an email and then confirming
+    that employees know to whom suspicious emails should be forwarded for evaluation
+    are a strategic way to thwart outside intrusions that could breach an organization’s
+    thickest walls.” Meals strongly encourages periodic testing of employees’ knowledge
+    and awareness of fake phishing emails by crafting internal spear phishing lures
+    that can be distributed internally. However, she cautions against doing testing
+    at specific dates. “You don’t want to make testing so regular that on October
+    1st, every employee expects a fake spear phishing email,” says Meals. \n\n###
+    Putting technical measures in place\n\nCertain technical steps must be in place
+    as the first line of defense against all phishing scams. “When someone is trying
+    to fake an email and send it to someone in your organization, you should have
+    the technical measures in place that will flag that email as suspicious,” says
+    Maxwell.\n\n### Measurement and management\n\nSetting and tracking goals, then
+    managing any steps for failure is a critical part of any good compliance program
+    “Having zero percent of employees click on that test should be the organizational
+    goal,” says Meals. “Anything less than a zero level goal would require remediation
+    steps.” \n\nThese compliance concepts run parallel with the concepts found in
+    HITRUST. Datica joins an elite group of healthcare vendors in the United States
+    to achieve [HITRUST CSF Certification](https://datica.com/platform/compliance/)
+    status and believes that this gold-standard for security of healthcare data is
+    the best way to protect its customers. \n\n## Datica’s Customer Protections\n\nSecurity
+    and compliance are deeply woven into [Datica’s company culture](https://datica.com/).
+    If you’ve ever had to let one of your employees go who had access to your environment
+    on the Datica platform, you have encountered Datica’s billing-based method of
+    double verification. The Datica engineering team works hand in hand with the billing
+    department to quickly verify and make customer requested adjustments for access.
+    Datica utilizes stringent measures for Identity proofing to protect its customers.
+    These steps combined with the recommendations above better protect your organization
+    for a spear phishing attack. \n"
+  :featured_image:
+    :id: 6cwnhG1ji0eIICWIaqYwau
+  :share_image:
+    :id: 5G95TNr5RuMY2ECCEw4SYS
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2

@@ -1,0 +1,484 @@
+---
+:id: 2vLZLMLDskY4UiW8guikiA
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-07-19T00:03:32+00:00'
+  :created_at: '2016-11-23T21:37:50+00:00'
+  :id: 2vLZLMLDskY4UiW8guikiA
+:title: The Importance of Business Associate Agreements (BAAs)
+:slug: the-importance-of-business-associate-agreements-baas
+:pub_date: !ruby/object:DateTime 2014-12-11 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:27:49+00:00'
+    :created_at: '2016-11-23T18:27:49+00:00'
+    :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :tag_full: Customers
+  :slug: customers
+  :description: See what our customers are doing.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Simply put, a Business Associate Agreement (BAA) defines responsibility,
+  and thus liability, with respect to the handling of PHI data.
+:blog_lead: 'HIPAA guidelines define the safeguards for protected health information
+  (PHI). Business Associate Agreements (BAAs) are contracts that outline how different
+  organizations will handle electronic protected health information (ePHI) and the
+  types of responsibilities that each organization assumes.  Simply put, a BAA defines
+  responsibility, and thus liability, with respect to the handling of PHI data.
+
+'
+:post: "We've written about [BAAs before](https://datica.com/academy/business-associate-agreements/).
+  Start there for a general understanding. The rest of this article, as well as a
+  [Part 2 that talks about the top 5 things to look for in a business associate agreement](https://datica.com/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
+  will dive into why selecting a BAA is important, and give guidance when doing so.\n\n##
+  It's not just a checkbox\n\n>   A chain is only as strong as its weakest link.\n>
+  \  —  A wise engineer\n\nDatica has talked to many companies about their HIPAA compliant
+  hosting requirements and how our Platform-as-a-Service (PaaS) can address their
+  requirements. Our mission is to help them get most of the way down the road of [HIPAA
+  compliance](https://datica.com/discover/hipaa-compliance/). Often we discuss the
+  topic of other vendors in the space, both similar HIPAA-compliant platforms or traditional
+  companies like AWS, Firehost, Bluebox, etc. While the conversion usually focuses
+  on technology and features, we emphasize the differences in our business associate
+  agreements as well, because, in some ways, it is our best feature. With Datica,
+  you sign one BAA to cover the entire compliance spectrum.\n\nUnlike several others,
+  we do not require a non-disclosure agreement (NDAs) to view our BAA. In fact, it's
+  [publicly available](https://policy.datica.com/#catalyze-hipaa-business-associate-agreement-baa)
+  as a part of our [open-sourced policies](https://catalyzeio.github.io/policies);
+  we often encourage newer companies to use the business associate agreement template
+  as a starting point for their own BAA. We specifically set aside time with new customers
+  to explain what it covers and what is doesn't and why.\n\nIt is very important you
+  read the language in the BAA from your vendor and understand it well. While it might
+  seem the thought \"I have a BAA with my vendor\" is sufficient, the reality is when
+  a breach or any other kind of security incident happens, you're at risk for whatever
+  was declared in your BAA. In many ways a BAA is a mechanism for transferring risk
+  (and thus liability) from one entity to another by having each entity acknowledging
+  their responsibility in managing specific aspects of the legal mandates. \n\n##
+  Briefly, how a business associate agreement works\n\nBusiness associate agreements
+  became a lot more interesting with the passing of the new HITECH HIPAA Omnibus Rule
+  in 2013, which expanded upon the definition of _business associate_ to include something
+  called subcontractors. _Subcontractors_ are typically service or technology organizations
+  that provide additional services to the business associates, which are providing
+  services for the covered entities.\n\nThe effect has been increased chaining of
+  responsibilities—a good thing in today's technology landscape. As the internet,
+  cloud computing, and APIs have broken down silos, more applications rely on different
+  layers of technology and services, [considered subcontractors](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/).
+  These _subcontractors_ (e.g. Datica, AWS) sign BAAs with _business associates_ (you),
+  who in turn sign a BAA with _covered entities_ (health system, health plan).\n\nIt
+  is critical for you to remember that ultimately you, as the business associate signing
+  a contract with a covered entity, are the one left holding the ball. It is your
+  responsibility to ensure the following:\n\n- **Know your BAAs.** Since a chain of
+  entities (like IaaS / hosting providers, APIs and SaaS) touch the ePHI, each must
+  have BAAs in place with you that are consistent and not contradictory. For example,
+  a business associate selling to Hospital ABC can't agree to a 24-hour breach notification
+  policy if the hosting provider has a physical breach notification policy of 2 months.\n-
+  **Meet your responsibilities.** If all the hosting provider gives you is VMs and
+  VPN access, you are now responsible for everything else HIPAA demands. We're talking
+  about encryption at-rest or in-transit (even within your dedicated environment),
+  dedicated logging, and so on. Know what HIPAA requires and what you're left having
+  to take care of yourself!\n\n## The takeaway\n\nThat leaves you with an intriguing
+  proposition. By choosing Datica, you only ever have to sign one BAA. Never will
+  you have to worry about lining up consistency with multiple vendors, or dreading
+  the anxiety of gaps not covered.\n\nIn our next article, we will take a look at
+  the top things you should look for in a BAA. If you have any BAA questions, feel
+  free to [email us](mailto:hello@datica.com), we're always happy to help.\n\n"
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 3bwNayxEnYkukwYQ6Qqee0
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:09:54+00:00'
+    :created_at: '2017-06-02T18:15:38+00:00'
+    :id: 3bwNayxEnYkukwYQ6Qqee0
+  :title: 3 Common Misconceptions About Business Associate Agreements
+  :slug: 3-common-misconceptions-about-business-associate-agreements
+  :pub_date: !ruby/object:DateTime 2017-06-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: HIPAA outlines the types of entities that are covered but the further
+    down the line a subcontractor gets from a covered entity, the more confusion there
+    is.
+  :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
+    by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+    to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
+    covered entities (CEs), and business associates. The further down the line the
+    subcontractor gets from the covered entity, the more confusion there is about
+    who really is a business associate and who needs to sign a business associate
+    agreement. \n"
+  :post: "\n## Who is a Business Associate?\n\nTo put it very simply, a business associate
+    is a person or organization who interacts with PHI from a covered entity or another
+    business associate. \n\nMore specifically, in the process of providing services
+    or technology to either a covered entity (for example, a hospital) or another
+    business associate as a subcontractor (such as a PaaS provider like Datica), business
+    associates handle, process, transmit, or in some way interact with electronic
+    protected health information (ePHI) from those covered entities. With this PHI
+    access, all business associates are required to sign what’s called a [business
+    associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+    The BAA is a legal contract that describes how the business associate adheres
+    to HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also
+    typically defines the services that the business associate is providing, the type
+    of data they are interacting with, and addresses areas around breach notifications
+    (such as timelines), and penalties.\n\n## If I’m a Subcontracted Developer, Whose
+    BAA do I sign? \n\nThings got a lot more confusing when the HITECH HIPAA Omnibus
+    Rule in 2013 expanded the simple earlier definition of business associate to include
+    something called subcontractors. Subcontractors, like a software developer or
+    hosting provider, are typically service or technology organizations that provide
+    additional services to the business associates, which are providing services for
+    the covered entities. \n\n### Think of it a chain of trust\n\nIt’s like a chain
+    that follows the PHI from the very first link of the chain which is the covered
+    entity. The next link would be the business associate and all of their subcontractors
+    (also business associates) would be links that follow. Think of subcontractors
+    as business associates of business associates. The BAA follows the direct path
+    of the chain. So, a covered entity is not required to sign a BAA with their business
+    associates’ subcontractors, but the business associate is.\n\nEach party in the
+    chain is required by [regulation and by contract](https://www.americanbar.org/content/newsletter/publications/aba_health_esource_home/aba_health_law_esource_1301_hipaa_christiansen.html)
+    to protect the PHI and administer it consistently with the obligations of the
+    covered entity at the top of the chain. So, for example, if a covered entity is
+    a hospital and that hospital has a breach notification of 24 hours, every link
+    (or business associate) of that chain needs to also specify 24 hour breach notification
+    in their BAAs.\n\n## 3 Common Misconceptions\n\nWe talk to development shops and
+    vendors who get this wrong all the time. Here are three of the most common mistaken
+    beliefs we hear:\n\n1. The vendor in question doesn’t necessarily need to be HIPAA-compliant
+    because they aren’t storing data. Even though the vendor claimed they were not
+    storing PHI, having data pass through their systems would still require protection
+    under HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because
+    they encrypted the data in transit and in storage. This is certainly crucial,
+    but there is so much more to HIPAA than encrypting data. You can read about everything
+    we do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+    At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
+    physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
+    As a result, that vendor would need to have a BAA signed with their hosting vendor
+    to ensure legitimacy.\n3. The subcontractor doesn’t need to sign a BAA because
+    the vendor they’re subcontracting for already has one in place with the covered
+    entity. As of 2013, this is false. As soon as PHI passes through your system,
+    you are also automatically considered a business associate and the vendor you
+    subcontracted with will require a BAA from you. In fact, the latest rules state
+    that covered entities MUST ensure they obtain satisfactory assurances from their
+    business associates, and they must do the same with their subcontractors, and
+    so on, no matter how far “down the chain” the information flows. \n\nThis may
+    seem complicated, but don’t forget that the purpose of all of this is to ensure
+    that individuals’ health information remains protected by all parties involved."
+  :featured_image:
+    :id: 2mhnyoSoMQ8S4sII8C0WUK
+  :share_image:
+    :id: 3VRqcm8oEgWucGq06QKSkq
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3p7mN2zaLuoAo6aGwKS0CG
+  - :id: 3nbjv23ydqyiOEwkKkyYCa
+  - :id: 2vLZLMLDskY4UiW8guikiA
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 1tTTpzANBugAQQuQCIaUmy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:01:50+00:00'
+    :created_at: '2017-02-03T00:26:18+00:00'
+    :id: 1tTTpzANBugAQQuQCIaUmy
+  :title: 'HHS Guidance on HIPAA Compliance in the Cloud: What You Need to Know'
+  :slug: hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know
+  :pub_date: !ruby/object:DateTime 2016-11-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HHS released its official Guidance on HIPAA & Cloud Computing last month.
+    The guidance answers some lingering questions that people seem to ask.
+  :blog_lead: |-
+    HHS released it's official [Guidance on HIPAA & Cloud Computing][1] last month. The guidance answers some lingering questions that people seem to ask. In some ways, it's HHS playing catchup to the industry. The cloud, while still early in terms of adoption in healthcare, is already heavily used for creating, receiving, maintaining, and transmitting ePHI. Look no further than [athenahealth][2], one of the largest EHR providers, for an example of a lot of ePHI in the cloud. Storing or moving data around different cloud-based services is becoming more and more commonplace.
+
+    [1]: http://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing/index.html
+    [2]: http://www.athenahealth.com/
+  :post: |
+    > A lack of transparency results in distrust and a deep sense of insecurity. - Dalai Lama
+
+    Personally, I think HHS could and should play a more active and significant role in trends like cloud computing. I acknowledge it's hard to keep up with pace of technology in healthcare but there's still more HHS could do to engage with those leading these technical charges. That said, it's good to have official guidance from HHS.
+
+    Yesterday I jointly conducted a webinar with [Coalfire][3]. Today I will recap some of the highlights, and pull out the salient points from the guidance and summarized them below. (_Note: CSP stands for cloud service provider._)
+
+    * **Lacking encryption keys doesn't prevent you from being liable under HIPAA.** From the guidance, _This is true even if the CSP processes or stores only encrypted ePHI and lacks an encryption key for the data. Lacking an encryption key does not exempt a CSP from business associate status and obligations under the HIPAA Rules._ This has been a claim by some CSPs and this is one of the most clear and relevant aspects of the HHS guidance. The claim by some CSPs is that, by not having the keys to decrypt ePHI, they are not a subcontractor or business associate. HHS says they are because they still store receive and maintain, even if that ePHI is encrypted and the CSP does not have the key to decrypt it. CSPs that fall into this bucket at considered _no-view services_ by HSS.
+    * **But lacking keys does change obligations.** From the guidance, _In particular, where only the customer controls who is able to view the ePHI maintained by the CSP, certain access controls, such as authentication or unique user identification, may be the responsibility of the customer, while others, such as encryption, may be the responsibility of the CSP business associate._ This is the first I've seen HHS acknowledge—implicitly, at least—the concept of compliance inheritance for HIPAA. At Datica, we [pioneered][4] the concept of inheritance and still feel strongly that compliance inheritance is the best path to securing data, reducing risk of breach, and complying with HIPAA, in a cloud-based world.
+    * **Lacking keys it could change breach reporting.** From the guidance, _If the ePHI that has been breached is encrypted consistent with the HIPAA standards set forth in 45 CFR § 164.402(2) and HHS' Guidance [13](#) the incident falls within the breach "safe harbor" and the CSP business associate is not required to report the incident to its customer._ This is significant as it changes breach reporting requirements for no-view CSPs, and breach reporting is a big part of HIPAA and a big part of what covered entities want to understand about their business associates and partners.
+    * **All types of cloud configurations are ok for HIPAA.** From the guidance, _…while a covered entity or business associate may use cloud-based services of any configuration (public, hybrid, private, etc.), [3](#) provided it enters into a BAA with the CSP, the type of cloud configuration to be used may affect the risk analysis and risk management plans of all parties and the resultant provisions of the BAA._ NIST [defines][5] different cloud deployment models. The most common are public and private, or some mix of those two that NIST defines as hybrid. Organizations can comply with HIPAA using any deployment model but there are different risks associated with each and it is the job of the covered entity and business associate to properly assess the risk when selecting the proper deployment model. I would have preferred HHS go further and call out [single-tenant and multi-tenant in regards to HIPAA and cloud][6].
+    * **SLAs need to align with BAAs.** From the guidance, _If a covered entity or business associate enters into a SLA with a CSP, it should ensure that the terms of the SLA are consistent with the BAA and the HIPAA Rules._ This is something that many business associates don't do but should. The core of this guidance is that the SLA from a CSP should ensure that access to ePHI is not restricted due to excessive downtime.
+    * **Security and breach reporting should be very specifically defined.** From the guidance, _The Security Rule, however, is flexible and does not prescribe the level of detail, frequency, or format of reports of security incidents, which may be worked out between the parties to the business associate agreement (BAA)._ With ePHI moving between CSPs (think APIs and [Blank-as-a-Service][7]), it's imperative that each party knows what it is responsible for reporting. Reporting is essential to investigating and shutting off breaches.
+    * **Cloud service providers do not need to store ePHI for some period of time.** From the guidance, _No, the HIPAA Rules generally do not require a business associate to maintain electronic protected health information (ePHI) beyond the time it provides services to a covered entity or business associate._ This [not news][8] to us but it something that is frequently misunderstood about HIPAA so it's good that HHS called this out for CSPs.
+    * **It's ok to use servers outside the USA.** From the guidance, _Yes, provided the covered entity (or business associate) enters into a business associate agreement (BAA) with the CSP and otherwise complies with the applicable requirements of the HIPAA Rules._ This surprised me a little. Not because I don't agree with HHS but because I have a hard time imagining the use case for this. We have global customers, particularly in the life sciences arena, who need global deployments. In those cases, we deploy separate apps and databases across different regions depending on where end users reside. All customers we have that work with US citizens are deployed in US data centers.
+    * **Documentation of security practices is not required from cloud service providers.** From the guidance, _The HIPAA Rules do not expressly require that a CSP provide documentation of its security practices to or otherwise allow a customer to audit its security practices._ This type of documentation, while not required, may still be needed by covered entities and business associates based on the their determination of risk.
+
+    ## What was not in the guidance?
+
+    I think a few things were missing and that HHS didn't go far enough.
+
+    1. **Define compliance inheritance.** I think HHS could go further here. HITRUST is a [good example][9] by incorporating the concept of inheritance into the CSF. Inheriting aspects of HIPAA is a core part of cloud deployments and should be addressed by HHS.
+    2. **Address questions about multi-tenancy.** This is probably the most frequent question when it comes to ePHI + cloud. It would have been good to have official guidance as a part of the cloud guidance from HHS.
+    3. **Start moving towards a universal, readable BAA.** The BAA [template][10] that HSS has on it's site, while useful in its generalizability, is too broad. There are things we know about the cloud and one of them, related to inheritance above, is that different parties can own different obligations. Creating a universal BAA, even if HHS is just the convener of industry leaders, would go a long way to helping healthcare move to the cloud in a safe way.
+
+    Healthcare, and it's data and applications, are slowly but surely embracing the cloud. The recent guidance from HHS has gotten a lot of attention. Hopefully this summary was helpful. If you have any other questions, reach out to us at [hello@datica.com][11].
+
+
+    [3]: https://www.coalfire.com/
+    [4]: https://policy.datica.com/#compliance-inheritance
+    [5]: http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+    [6]: https://datica.com/academy/hipaa-and-multi-tenancy/
+    [7]: https://datica.com/blog/inheritance-and-ownership-of-compliance-risk/
+    [8]: https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/
+    [9]: https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/
+    [10]: http://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
+    [11]: mailto:hello@datica.com
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 6wHERSJEycWCyaOGMQeu44
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 4Z0S58Q4JqsMuqmKUoUMEQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2016-11-23T21:37:50+00:00'
+    :created_at: '2016-11-23T21:37:50+00:00'
+    :id: 4Z0S58Q4JqsMuqmKUoUMEQ
+  :title: BAA isn't a Checkbox for HIPAA Compliance
+  :slug: baa-isn-t-a-checkbox-for-hipaa-compliance
+  :pub_date: !ruby/object:DateTime 2015-01-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: While HIPAA compliant is a loaded term, simply signing a BAA in no way
+    makes you compliant.
+  :blog_lead: 'We get asked a lot about business associate agreements (BAAs). As you
+    can see from the content on our blog [here](https://catalyze.io/blog/if-a-vendor-won-t-sign-a-baa-they-aren-t-hipaa-compliant),
+    [here](https://catalyze.io/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement),
+    and [here](https://catalyze.io/blog/the-importance-of-business-associate-agreements),
+    as well as our Learn entry [here](https://catalyze.io/learn/business-associate-agreements),
+    we lay out the specific HIPAA rules for BAAs. We do this because BAAs are one
+    of the most misunderstood and misinterpreted aspects of HIPAA. To be clear, BAAs
+    are required to be signed by business associates (most of our customers) and subcontracts
+    ([business associates of a business associate](https://catalyze.io/learn/hipaa-subcontractors-and-baas)).
+    BAAs can''t be avoided, whether you cleanly fit into a bucket of customers or
+    technologies defined by HHS (you store, transmit, and/or process PHI) or your
+    hospital and payer customers determine you have to follow HIPAA (even if you don''t
+    think so).
+
+'
+  :post: |+
+    A major issue with BAAs is the perception that, as a tech vendor, signing a BAA with your "compliant" hosting provider makes you HIPAA compliant. ("Compliant" is in quotes because we've seen a rash of hosting providers claim HIPAA compliance when they are far from it. Presently there is no penalty for marketing yourself as HIPAA compliant—the real punishment comes financially to its customers when it's too late.)
+
+    While **HIPAA compliant** is a loaded term, simply signing a BAA in no way makes you compliant. [Complying with HIPAA](https://hipaa.catalyze.io/) requires many things, and signing BAAs is only one of them.
+
+    We recently had a call with members of the HHS and OCR privacy group about the absence of a clear BAA template, which results in a deluge of varying formats. The variation coupled with the practice of large "compliant" hosting providers [gating their BAAs behind NDAs](https://catalyze.io/blog/the-importance-of-business-associate-agreements), makes it exceptionally hard to grasp the purpose and state of BAAs.
+
+    Large "compliant" hosting providers know all of this, and clearly outline the obligations for themselves and their customers in BAAs. We always encourage prospective customers to read BAAs from all vendors they are considering, [including Catalyze](https://policy.catalyze.io/#catalyze-hipaa-business-associate-agreement-baa), and pay very close attention to their outlined obligations. Oftentimes the obligations put on tech vendors by hosting providers are hard to meet because they require resources to configure and secure hosting environments. Therein lies the irony of the *BAA as a checkbox for compliance perception*; tech vendors sometimes don't meet all their obligations in those BAAs and when that happens those BAAs aren't even in effect, despite tech vendors paying the increased cost associated with "compliant" hosting.
+
+    We debated about our BAA approach early on at Catalyze, but eventually settled on three key points.
+
+    1. Be fully transparent.
+    2. Provide as much research- and experience-backed content as possible to create an educational dialog around BAAs.
+    3. Take the interpretation and guess work out of BAAs by taking on all of the technology obligations under HIPAA other than application level security (which we don't have insight into for our customers).
+
+    We're proud of where we landed with our BAA, and, while simply signing a BAA with us doesn't make you completely HIPAA compliant, it does relieve much of your technological and legal burden so you can focus on changing healthcare for the better.
+
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

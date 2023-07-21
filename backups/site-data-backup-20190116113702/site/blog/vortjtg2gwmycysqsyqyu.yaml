@@ -1,0 +1,94 @@
+---
+:id: VorTjTg2GWMyCYsQSyQyU
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-27T22:27:17+00:00'
+  :created_at: '2016-11-23T22:18:32+00:00'
+  :id: VorTjTg2GWMyCYsQSyQyU
+:title: Urgent! HIPAA Security Pros Needed in Healthcare!
+:slug: urgent-hipaa-security-pros-needed-in-healthcare
+:pub_date: !ruby/object:DateTime 2015-07-30 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: The increase in technological innovation is bringing rapid changes to the
+  healthcare industry as a whole but it’s also bringing a need for more IT security
+  professionals. What is causing the lack of talent and what do you need to know to
+  be considered a professional?
+:blog_lead: 'The increase in technological innovation is bringing rapid changes to
+  the healthcare industry as a whole but it’s also bringing a need for more IT security
+  professionals. What is causing the lack of talent and what do you need to know to
+  be considered a professional?
+
+'
+:post: |+
+  Healthcare entities are struggling to keep up with the demand for a growing personnel to manage and support the technological advances to electronic medical records, electronic health records, data analytics, wearable technologies, and health-monitoring devices. While this technology is streamlining healthcare to deliver more effective results, it is also increasing the need for scrutinizing HIPAA privacy and security measures.
+
+  As most know, technology changes industries rapidly, and in healthcare, the technology is changing faster than personnel can update their skill sets. Networks are much more complicated than they were even three years ago. Security and Privacy are momentous even with standard applications but when it comes to healthcare, patients presume their information will be taken seriously.
+
+  In order to avoid breaches or leaks, healthcare entities need to implement preventative measures rather than waiting for an incident to occur and then responding. But with the shortage of IT security professionals in the industry, this is quite difficult to accomplish.
+
+  If you want to be sure you know the essentials to HIPAA compliance and the beginnings to becoming an IT security professional, read our [compliance guide](/guide/hipaa/).
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

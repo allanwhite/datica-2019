@@ -1,0 +1,130 @@
+---
+:id: 1h1uLMjUjiEIWkcCyCU6eU
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:42:46+00:00'
+  :created_at: '2016-11-23T06:43:18+00:00'
+  :id: 1h1uLMjUjiEIWkcCyCU6eU
+:title: 2014 Predictions - Growth of Niche Digital Health
+:slug: 2014-predictions-growth-of-niche-digital-health
+:pub_date: !ruby/object:DateTime 2014-01-13 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Why do focusing on niche offerings make so much sense in health and wellness?
+:blog_lead: '2013, and to a lesser extent 2012, saw the growth and success of niche-based
+  health IT offerings. Both on the provider side, with specialty specific EHRs like
+  those from Modernizing Medicine, and on the patient side, with apps and services
+  like [Telcare](http://www.telcare.com/), [Propellor Health](http://propellerhealth.com/),
+  [Ovuline](http://www.ovuline.com/), Direct Dermatology, and now [Kurbo Health](http://www.datrihealth.com/).
+
+'
+:post: "In 2014 we'll see more and more niche-based health IT launches, in part because
+  of the examples of the successes listed above, and in part because having a niche
+  1) helps vendors say \"no\" to things that don't fit, 2) allows vendors to know
+  customers and their needs really well (workflows, integration points, etc), and
+  3) helps vendors develop a go to market strategy and early champion customers; I
+  think investors also like niche assuming the niche is large enough for the investor
+  to have an interest.\r\n\r\nWhy do niche offerings make so much sense in health
+  and wellness? Simply put, health and wellness is extremely broad. Focusing on a
+  niche is smart, mainly for the following reasons:\r\n\r\n- **Healthcare is increasingly
+  specialized**. Providers spend years in training to become experts in a very specific
+  field. And the increasing popularity of fellowships makes medical specialties even
+  more niche. It's getting to a point where providers, and even clinics sometimes,
+  are devoted to just one condition. This specialization results in medical fields
+  that hardly resemble one another - in practice, workflows, data, and tools. One
+  of the major gripes with meaningful use is that the targets were created by and
+  for primary care, and don't fit very well with many specialties. The reality is
+  that the charting needs of an ophthalologist, who now could be either general, retina,
+  oculoplastics, glaucoma, pathology, or corneal, are very different from those of
+  a primary care outpatient physician (and a host of other specialties). Flipping
+  the equation, the needs of the patients with these varying conditions are similarly
+  different.\r\n- **Targets are exceptionally diverse**. Health and wellness cut across
+  all segments of the population - from newborn to elderly, rich to poor, across languages
+  and cultures, acute to chronic, and lifestyle to congenital. That means building
+  one size fits all solutions is not only challenging, it's pretty close to impossible.
+  If you look at the provider side you see a range of users from tech savvy Twitter
+  users in their 20s to 70 year olds that just want to get to retirement before they
+  have to use an EHR.\r\n\r\nThe biggest problem with niche offerings and specialization
+  in technology is that it leads to fragmentation in the market. It's very hard for
+  large enterprises, which are getting larger all the time, that are looking for one
+  size fits all solutions, to consider a mashup of niche solutions. And if an enterprise
+  has the confidence to try multiple EHRs and apps for its providers and members/customers,
+  how much is it going to cost to integrate the data from all of those apps, whether
+  those apps are on the provider side or on the patient side. Ideally more granular
+  integration standards will emerge, such as [HL7 FHIR](http://www.hl7.org/implement/standards/fhir/).\r\n\r\nSo
+  what niche offerings are most likely to see the largest interest? The most likely
+  targets are common conditions like diabetes, conditions with limited access to resources
+  like dermatology, high volume specialties where volume is king like dermatology
+  and ophthalmology, conditions that can be treated remotely like psychiatry, and
+  acute conditions with engaged patients like obstetrics and oncology.\r\n\r\nA niche
+  that's exciting to watch takeoff is pediatric, or kids, health. Companies like [Zamzee](https://www.zamzee.com/),
+  [Sqord](https://www.sqord.com/), and more recently Kurbo Health are entering this
+  niche. Pediatric health is a huge determinant of adult health, and early lifestyle
+  inventions are very powerful.\r\n\r\nCurious if others are seeing this niche trend
+  in digital health? Is it sustainable?\r\n\r\nStay tuned for the rest of our coverage
+  of 2014 trends. We'd love to hear your feedback and thoughts on the market. Please
+  don't hesitate to comment below.\r\n\r\n"

@@ -1,0 +1,534 @@
+---
+:id: 6B0TGVhf560Q8YsMem8Omu
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2018-12-14T22:48:50+00:00'
+  :created_at: '2018-12-13T23:53:33+00:00'
+  :id: 6B0TGVhf560Q8YsMem8Omu
+:title: Integration Resources
+:slug: integration-resources-category
+:subhead: Understand EHR Integration
+:related_entries:
+- :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+- :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 52med8hyLYW8ewGyymYqUS
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-12-14T21:44:04+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 52med8hyLYW8ewGyymYqUS
+  :title: HL7 101 - A primer
+  :slug: hl7-101-a-primer
+  :pub_date: !ruby/object:DateTime 2018-03-27 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: HL7 is a healthcare industry standard for messaging between applications,
+    for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.
+  :lead: 'Health Level Seven (HL7) is a standard utilized by the healthcare industry
+    to enable messaging between applications, EHR to PMS (practice management system)
+    for example. It is managed and maintained by [Health Level Seven International
+    (HL7)](http://hl7.org) which is a not-for-profit, ANSI-accredited standards developing
+    organization. '
+  :post: |
+    The HL7 standard is often jokingly referred to as the “non-standard standard.” This is not very fair but it does reflect the fact that almost every hospital, clinic, imaging center, lab, and care facility is “special” in terms of how it implements HL7 (really?, why?). The reason is primarily because there is no such thing as a standard business or clinical process for interacting with patients, clinical data, or related personnel.
+
+    The HL7 messaging protocol was designed to facilitate high volumes of pre-defined data to be shared across many applications reliably. The protocol selected to make this happen was a traditional file transfer or a TCP/IP **socket** in both a real-time and batched fashion. HL7 v2 message structure is complex, flat, and delimited. HL7 has obviously evolved over time. The current version of HL7 is v3, however, older versions exist and make up the bulk of the standard used today primarily because of the large number customizations that have been done to each HL7 message.
+
+    #### The key differences between an HL7 v2 and HL7 v3 message are as follows:
+
+    1. v2.x was primarily meant for clinical communications - medical orders, patient registration etc. whereas v3.x has additional features for use by informaticists and for government reporting requirements.
+    2. v2.x was a custom format (barebones text - all coded and separated by a pipe with headers and multiple segments etc.) v2.x looks like this:
+
+    ![academy-hl7protocol](//images.contentful.com/189dvqdsjh46/612KI64BeokOUW82m0w0oc/f4b03fd55891221f038ed0e8ad1c1521/academy-hl7protocol.png)
+
+    whereas an HL7 v3.0 message is an XML format (I'm not sure if that's an improvement) - very verbose and detailed - like this:
+
+    ![academy-hl7syntax](//images.contentful.com/189dvqdsjh46/Ea7Dy1f3CCGWM4uWEwsWK/7ac35d657e029cf8c71aa8dfaa33bef1/academy-hl7syntax.png)
+
+    3. All v2.x formats are backward compatible. v3.x is a wholly separate format and not backwards compatible.
+
+    Any technology solution in healthcare has to support both v2.x and v3.x formats. Open source parsing solutions exist to help with processing HL7 (see section below on Parsing HL7 messages). However, in this author's humble opinion, the 3.x standards are unlikely to be implemented given the investments already made in the 2.x versions. The [FHIR](http://hl7.org/implement/standards/FHIR-Develop/) standards, which are still under active development, are more likely to be implemented rather than the v3.0 standards. See this Figure for some data supporting this hypothesis. (source: Corepoint)
+
+    ![academy-figure1](//images.contentful.com/189dvqdsjh46/2CnbugFEHqQ0SWymeeEWGK/33f4cac50b16d3845ddaf11f32d0a36c/academy-figure1.png)
+
+    ### Customization
+
+    Every conversation that you've ever overheard about HL7 usually includes customizations to be accounted for and associated implementation costs. When I was starting in this space, I heard the same things but wasn't really sure what it meant.
+
+    So here's a summary of what I've learned. I will caveat this by saying that I am not an HL7 expert - there are folks out there who have much more extensive experience than I do; [Keith Boone](http://motorcycleguy.blogspot.com/) for one, whose blog is worth subscribing to if you have any interest in healthcare standards for one. Given that I'm not an expert, if you see any errors in this document, please let me know (and also let us know if you're looking for an interesting change in [careers](mailto:jobs@catalyze.io)).
+
+    More about custom formats... HL7 messages are indeed customized but this does not imply, as an example, that every ADT (admission, discharge, transfer) message is different between different hospitals; ADT is ubiquitous so it's an HL7 message type you should know. Customization came about when certain message types, like ADT, could not support sending all the data elements that needed to be sent. For example, a message might be able to handle only 50 data elements but an EKG reading might need to send over 200. The extra data elements were then sent over using the notorious Z segment - a miscellaneous segment into which pretty much any key value pair could be jammed in. This custom blob of data in the Z segment would then need to be parsed and mapped etc. for automated processing and use, creating impressive levels of customization in data exchange.
+
+    Before you get too excited, the true customization comes in the form of the content of the HL7 message. The HL7 organization has defined code sets to be used to translate the terse codes sent over within the HL7 message. See [here](https://www.impactportal.info/emrCodeSet.asp?SID=4) for a listing of some v2.3 code sets or [here](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) for a more comprehensive listing from the "horse's mouth." The purpose of the code sets, as you can imagine, is to codify the content to reduce the size of the message. ANT, as an example, stands for Anterior in the context of body sites and so on. And, by the way, these code sets for HL7 have also evolved / been added to / modified with each version of HL7. However, these code sets, which are released and maintained as part of the standard, aren't often adhered to. EHRs (usually) and hospitals have defined their own code sets. So the content sent over within the HL7 message needs to be "looked up" against that specific code set before it can be made useful. An Epic code set is unique (although common across Epic deployments) and different from an AllScripts code set. This is the uniqueness that must be addressed by any solution in this space and the reason why HL7 implementations can sometimes be expensive - they need to take into account not only the Z segments and map them to the appropriate data models but the code sets have to be taken into account as well.
+
+    So, in practice, HL7 can be perhaps best described as a messaging protocol and format standard in most implementations rather than as a comprehensive messaging standard.
+
+    ### HL7 Message Types (most common)
+
+    There are more than 80 message types, a whole host of segments and codes for pretty much anything you can think of. See [this](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) document for a pretty comprehensive listing. But the following are the most common HL7 message types:
+
+    |Message Name|Description|
+    |------------|-----------|
+    |ACK|General acknowledgement message. This is the ack sent when a message is received by the destination system. ACKs are automated responses. However, you could use ACKs as a way to modulate the speed at which messages come through as the sending system will not send the next message until the ACK is received|
+    |ADT|Admission, Discharge and Transfer message. Created whenever a patient goes through any of those states. There are a whole list of these possible states. See below for a sampling of a few more|
+    |ORM|Pharmacy/treatment order message|
+    |ORU|Observation message (unsolicited). Unsolicited because the destination systems are not asking for it, it is fired off and the source systems will take it in and process it if needed or discard it if not.|
+    |BAR|Add or change the billing account.|
+    |SIU|Schedule information (unsolicited) usually patient specific. This is used to create, modify and delete patient appointments and other schedules.|
+    |MDM|Medical document management. This often acts as a workhorse. It is meant to handle documents like notes, reports etc. But often is used to capture a whole host of other data for which there is no easy mapping. In which case, the incoming data gets converted into a PDF and pushed into the EHR via this MDM message|
+    |DFT|Detailed financial transactions. This data is used to capture the details of procedures etc. so that claims can be generated.|
+    |MFN|Master files notification - changes to core data elements are sent through this.|
+    |QRY|Query - as the name implies is used to query source systems for data on things like patient demographics etc.|
+    |RAS|Pharmacy/treatment administration message|
+    |RDE|Pharmacy/treatment encoded order message|
+    |RGV|Pharmacy/treatment give message|
+
+    ​It should also be noted that each of these message types have different types (sub-types) as well. For example, there are 51 (yep, that's right) different types of ADT messages that are used for various trigger events. Some of the most commonly used ADT messages include:
+
+    - ADT-A01 – patient admit
+
+    - ADT-A02 – patient transfer
+
+    - ADT-A03 – patient discharge
+
+    - ADT-A04 – patient registration
+
+    - ADT-A05 – patient pre-admission
+
+    - ADT-A08 – patient information update
+
+    - ADT-A11 – cancel patient admit
+
+    - ADT-A12 – cancel patient transfer
+
+    - ADT-A13 – cancel patient discharge
+
+    The important thing to remember is that the content of the message doesn't change all that much between all these sub-types. The message is still about the specific patient (PID segment - see segment section below).
+
+    ### HL7 Segments
+
+    A segment is a group of fields that then contain different types of data. Each segment exists independently and can be utilized in multiple messages, in different sequences. Segments may be required for a particular message or in other cases, they may be optional.
+
+    A unique three-character code called the "Segment ID" identifies each segment. Segment ID codes beginning with the letter Z are reserved for the "custom" Z-segments (key value pairs) that are not part of the HL7 standard.
+
+    You can remove one or more segments from a message if desired. But because HL7 rules state that unexpected or unused segments should be ignored, most systems will ignore the unexpected segments without issue (therefore, manually removing these segments is unnecessary). Segments should be removed only if one of the receiving systems will not have problems when unexpected segments are received.
+
+    These are the most common segment types that will be used across multiple message types.
+
+    |Segment Name|Description|
+    |------------|-----------|
+    |DG1|Diagnosis|
+    |EVN|Event type|
+    |GT1|Guarantor|
+    |IN1|>Insurance|
+    |MSH|Message header|
+    |NTE|Notes and comments|
+    |OBRI|Observation Request|
+    |OBXI|Observation Result|
+    |ORCI|Common Order|
+    |PID|Patient Identification|
+    |FT1|For DFT messages - Financial transactions|
+
+    At a high level, that's HL7. Look for further articles delving into more details on HL7 message structures and the common message types.
+
+    If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+  :featured_image:
+    :id: 4ggNbm9G64M8es2wW2qWGO
+  :related_entries:
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+- :id: 4VUylqSR4AWawEICC0wMEI
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-12-05T02:07:57+00:00'
+    :created_at: '2018-10-29T15:04:32+00:00'
+    :id: 4VUylqSR4AWawEICC0wMEI
+  :title: " EHRs in a Mobile First World"
+  :slug: ehrs-in-a-mobile-first-world
+  :pub_date: !ruby/object:DateTime 2018-10-29 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 4TyZlvypiw6yMeuGG8W4mu
+  - :id: 2ExI7snXjysKOqWqmwQwwU
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Considering EHRs eat up clinician time, clinicians are a mobile workforce,
+    and nearly 100% have smartphones, lets reimagine clinical documentation to be
+    mobile-first.
+  :blog_lead: As my daughter shoved my iPhone into my face this morning to try to
+    unlock it, seems fitting to be writing about mobile today. When I think of mobile,
+    I now think only of smartphones and not tablets. I used to consider tablets but
+    increasingly they feel closer to the desktop experience as I can’t really use
+    them on the go the same way I can use my phone. A mobile strategy should be synonymous
+    with a smartphone strategy.
+  :post: "As an aside, before I started this post I was going over my personal task
+    list. I was attempting to add symbols for the various ways in which I can complete
+    tasks (phone, email, etc). This goes back to my days of following [GTD](https://gettingthingsdone.com/).
+    Anyway, what I quickly discovered as I sat at the airport was that none of the
+    tasks I needed to complete could really be done on my smartphone. Well, I could
+    probably complete several of them but it would be incredibly inefficient compared
+    to doing them on my computer. It quickly occurred to me that anything I could
+    do on mobile was already done, and the only tasks left were on hold until I got
+    time on my computer. Most of the on-hold tasks were longer content pieces.\n\nThe
+    title of this post refers to a post by [Fred Wilson from 8 years ago](https://avc.com/2010/09/mobile-first-web-second/)
+    about building products first for mobile, then for larger form factors. There
+    are lots of success stories of products that launched and only supported mobile
+    (Waze and Instagram to name a couple). For consumer health products, the paradigm
+    of mobile-first development holds true today. Look no further than then the myriad
+    of health and wellness apps in the [iOS App Store](https://developer.apple.com/app-store/).
+    To gain adoption and engaged users, mobile is essential. This post isn’t about
+    mobile consumer healthcare apps.\n\nOn the enterprise side of healthcare, the
+    dominant software in use today is the EHR. It’s used by all different types of
+    users across clinical, financial, and even operations. Specifically for clinical
+    users, EHRs eat up significant amounts of time each day. By and large, the major
+    EHR vendors (Epic, Cerner, and Athena) are not mobile-first. This means that clinical
+    users are forced to find and spend much of their time each day on a desktop screen.
+    For a very mobile workforce, this is an incredibly inefficient use of time.\n\nThere
+    are examples of newer, iPad-first or iPad-only EHRs. My wife and several of her
+    colleagues use a specialty-specific [iPad-only EHR from Modernizing Medicine](https://www.modmed.com).
+    A scribe charts her encounters and then my wife is left, usually at the end of
+    the week, with 100-150 notes to close out. She does this at home on her iPad but
+    could just as easily close them out on a computer. The reason her EHR is mobile-first,
+    for her at least, is because she has a scribe that charts her encounter while
+    she sees the patient. The caveat to this is she still uses a laptop at home in
+    the evenings to quickly close out notes and do referrals.\n\n## Unbundling the
+    EHR\n\nConsidering [EHRs are inefficient](https://www.ncbi.nlm.nih.gov/pubmed/24060331)
+    when it comes to eating up clinician time (a very valuable resource), clinicians
+    are a mobile workforce, and [nearly 100% of clinicians have smartphones](https://www.statista.com/statistics/416951/smartphone-use-for-professional-purposes-among-us-physicians/),
+    it’s worth thinking about how to reimagine clinical documentation to be mobile-first.
+    This isn’t to say EHRs don’t help with organizational efficiency but I’m thinking
+    about clinician efficiency. The major EHR vendors listed above are not going to
+    be replaced anytime soon and, if I was an investor, I wouldn’t invest in a new
+    enterprise EHR. That leaves the option of chipping away at specific sets of functionality
+    currently in the EHR. I have come to refer to this as [unbundling the EHR](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\nEHRs
+    in a mobile-first world are only possible by unpacking the functionality of the
+    EHR into discrete workflows/functions that can be completed efficiently on a smartphone.
+    This isn’t replacing the EHR but is a way to make using an EHR more efficient.
+    It’s mobile-enabling the EHR, or more accurately clinical workflow, in a stepwise
+    fashion with a goal to leverage mobile to minimize desktop time and use. The data
+    remains within the EHR (at least for the immediate term) but the ways in which
+    clinicians interface with EHR data are broken up into discrete, mobile-enabled
+    functions. Proving ROI with this approach is not hard if solutions either improve
+    throughput/capacity for clinicians or show benefits like closing out notes in
+    a more timely way and being able to bill faster or more accurately. And marketing
+    these solutions as helping healthcare organizations better leverage the massive
+    investment they have made in EHRs will resonate. Essentially, the goal is to leverage
+    mobile to more efficiently use an EHR and only leave certain functions to non-mobile
+    devices.\n\nIn order to succeed the specific functionality enabled on mobile needs
+    to be able to pull the relevant context, usually based on the patient. By definition,
+    these types of solutions are dependent on EHR data and must be able to integrate
+    with the EHR. This is becoming easier as EHRs [open up data via FHIR](https://datica.com/academy/introduction-to-fhir/)
+    but data integration remains the biggest hurdle to unpacking the EHR and starting
+    to break up the EHR user experience. This is another example of EHR customers
+    needing to push their EHR vendors harder to accelerate initiatives to ease access
+    to EHR data.\n\n## Mobile-first EHR Tools \n\nThere are already successful examples
+    of unbundling the EHR to leverage mobile. Many of these, even ones that have scaled
+    to hundreds of hospitals, are still only scratching the surface of unbundling
+    the EHR.\n\n- __Clinical Communications__. Communication is a major part of delivering
+    care to patients. It also happens to be something that EHRs don’t do very well.
+    Companies like [Voalte](https://www.voalte.com/) and [TigerConnect](https://www.tigerconnect.com/)
+    have built products to connect clinicians. And now these companies are expanding
+    the value to users with new workflows and data integration. I’ve never seen this
+    statistic but I wonder how much time nurses and doctors spend in clinical communication
+    apps vs EHRs.\n\n- __Clinical Documentation Improvement (CDI)__. This is a new
+    mobile-enabled functionality to be unbundled from the EHR. [Artifact Health](https://www.artifacthealth.com/)
+    is a good example. Artifact built a mobile application that brings relevant patient
+    context related to CDI into a mobile interface where clinicians can answer simple
+    questions. The answers to those questions are then returned back to the EHR and/or
+    billing. Instead of having a stack of CDI requests linger in an inbox in the EHR
+    or a physical desk, clinicians can now complete CDI requests quickly and easily
+    on the go.\n\n- __Real-time Device Data__. This is an area where [Airstrip](https://www.airstrip.com/)
+    still dominates. Airstrip started with maternal heart rate monitors and have since
+    extended to other medical devices as well as EHR data. The goal for Airstrip is
+    to be the mobile interface for clinical workflow and mobile-relevant clinical
+    data. They offer desktop tools but the real success of Airstrip is in focusing
+    on the mobile experience of clinicians. \n\n- __Data Entry__. Data entry into
+    EHRs is a massive time suck for clinicians. There are a few different approaches
+    to unbundle this functionality from the EHR. The most widely used today is scribing,
+    with companies like [Augmedix](https://www.augmedix.com/) and [iScribes](https://iscribes.co/)
+    as examples of technology-enabled virtual scribing. Scribing is essentially a
+    Mechanical Turk operation with audio, and sometimes video, recordings of patient
+    encounters documented in the EHR by people other than the providers conducting
+    the encounters. Newer voice-based tools intelligently automate the creation of
+    cards of documentation based on physician speech recording during encounters.\n\n-
+    __Virtual Visits__. Despite what the EHR vendors may say, telemedicine is not
+    exactly a core EHR function. Increasingly, virtual care is being delivered by
+    clinical staff via mobile apps and services like [Spruce Health](https://sprucehealth.com)
+    and [Zipnosis](https://zipnosis.com).\n\nThese are just a few examples. There
+    are lots more opportunities to unbundle specific functionality of the EHR. While
+    not replacing the EHR or even obviously threatening its dominant place in clinical
+    and health IT, the approach of unbundling the EHR chips away at one of the two
+    primary pillars of the EHR moat — the EHR as the primary clinical user interface
+    and the EHR as the primary clinical data repository.\n\nBy leveraging mobile,
+    new mobile-first EHR tools have the potential to engage very valuable users —
+    clinicians. Once engaged, there are opportunities to extend functionality with
+    interconnected apps and data (iOS shortcuts would be very interesting ways to
+    link clinical apps into workflows). And, the hardest part of the process, [integration
+    with EHR data](https://datica.com/compliant-managed-integration/), is only done
+    once at each site so an extension to new offerings is considerably easier after
+    the first one.\n\nUnbundling the EHR is where we are going to see the most successful
+    disruption of the EHR in enterprise health IT. It’s a matter of timing and the
+    market is now ripe as we shift towards a post-EHR world.\n\n"
+  :pull_quote:
+    :id: 1xWIEhFCzWEkGSIic00yK6
+  :featured_image:
+    :id: HBpYz2ZUcuwUEqwcEIcGK
+  :share_image:
+    :id: 27ozMC1NaweGWiS0W0SSqq
+  :cta_ref:
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :related_entries:
+  - :id: 7vYtFWVvoWOqGoaugOEQco
+  - :id: 6LboeTU7m0YiugQ2owU0cW
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: O5XY3cExskYckGGkIYyY0
+  :_meta:
+    :content_type_id: webinars
+    :updated_at: '2018-07-11T19:59:36+00:00'
+    :created_at: '2018-07-11T06:24:09+00:00'
+    :id: O5XY3cExskYckGGkIYyY0
+  :title: One-Click-Install Mirth Connect and Open Source Mirth Transformations
+  :slug: one-click-install-mirth-connect-and-open-source-mirth-transformations
+  :event_date: !ruby/object:DateTime 2017-11-17 13:00:00.000000000 -07:00
+  :summary: In this session, Mark gave an overview of our history and a demonstration
+    of how to set up Mirth on the Platform.
+  :subhead: The future of integration is open.
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  :lead: In November, Datica launched [One-Click-Install Mirth Connect](https://datica.com/platform/integration),
+    along with our new open source [Mirth Transforms](https://github.com/daticahealth/Mirth-Transforms).
+  :desc: |-
+    The full announcement is available [here](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/).
+
+    This is a shift in how we offer integration because it better aligns with the needs of digital health companies. You want open standards, you want ease of use, you want compliance and security, but most importantly, you want successful EHR integrations. OCI Mirth Connect gets you there.
+
+    In this session, Mark gave an overview of our history and a demonstration of how to set up Mirth on the Platform. The recording is available here:
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :related_form:
+    :id: oEcUsMRA1qsKmeKGgK6GI
+  :video_embed:
+    :id: 5VTf6JBb5SWqu2iqecU2sG
+  :image_thumb:
+    :id: 6H0Gdxtr2M2M4o64aUk6oO
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:icon_slug: icon-integration-puzzle

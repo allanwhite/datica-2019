@@ -1,0 +1,639 @@
+---
+:id: 5IWeaTEI9yCAQYK8qeqa2I
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:41+00:00'
+  :created_at: '2017-01-16T17:41:32+00:00'
+  :id: 5IWeaTEI9yCAQYK8qeqa2I
+:title: Why HIPAA is not PCI
+:slug: why-hipaa-is-not-pci
+:pub_date: !ruby/object:DateTime 2018-04-16 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: 'This post discusses HIPAA and different types of hosted infrastructure
+  options, answering the question of why HIPAA is not PCI. '
+:post: |-
+  This post is part an answer to a question on Quora about HIPAA and different types of hosted infrastructure options. You can read more on Quora [here](http://www.quora.com/Health-Insurance-Portability-and-Accountability-Act-HIPAA/Becoming-HIPAA-Compliant-Should-you-use-a-Backend-As-A-Service-or-a-HIPAA-Server-Why).
+
+  To start, and for full disclosure, I'm the co-founder of Datica. At Datica we offer APIs for developers looking to add HIPAA compliant hosted infrastructure to web and mobile apps. We take a different approach from either of the two examples cited, and we believe we have good reasons from a risk mitigation and application functionality standpoint. Mapping Datica to the various aspects of HIPAA, we currently address technical and physical requirements, and will be very shortly adding a tool to address the administrative and policy safeguards; for this last part (admin and policy), we needed a tool internally to proactively address the admin and policy rules of HIPAA and, after building it, we've been asked by multiple customers if we could offer it as a service, so we are - HIPAAboard.com.
+
+  Back to the question. The answers so far are very thorough and the bulk of what I would say has been covered. The specific comparisons between HIPAA IaaS and PaaS options are nicely laid out, though the distinction between IaaS, PaaS, and BaaS have eroded and aren't clean cut. It's probably worthwhile to give examples in each bucket:
+
+  - IaaS - AWS, Rackspace, Azure, SoftLayer, Firehost, OnlineTech, etc. You can think of these as a blank slate or terminal in the cloud. These were the pioneering services. Very powerful and have led to incredible disruption.
+
+  - PaaS - Heroku, Cloud Foundry, OpenShift, DotCloud, etc. These services take care of application deployment and scaling so you don't have to worry about linux or unix, at least remotely (you still have to get a local environment running as you build and test). You still have to write your own APIs and web services, but you don't have to worry about configuring a server and database.
+
+  - BaaS - Parse, Kinvey, StackMob, etc. These began as mobile backends, but have evolved to offer web developers the same SDKs (JS); web and mobile are converging so this makes sense. With BaaS you can focus on the front-end - UI and UX - and distribution, without having to worry about touching a server or database. With the explosion of mobile apps, and bespoke apps, over the last several years these services have seen tremendous growth.
+
+  - EVERYTHINGELSEaaS - Twilio/Plivo, UrbanAirship, Keen.IO, MongoLab, etc.
+
+  The reason I say these buckets are converging is we're seeing AWS offer services like messaging via it's SNS service and Parse offer analytics, like Keen.IO and Flurry, and Push, like UrbanAirship. Heroku also offers a myriad of services via Add-ons.
+
+  As a developer, the service layer you choose in large part depends on the application you are building and the specific needs you have from a business and use case perspective. The more complex the app, especially as it relates to backend logic and data modeling, the more likely you'll need to use a secure IaaS like Firehost. If you're new or the app is new, you may not know how complex the app needs to be or what your backend needs are, so using an abstracted service layer, like what Datica offers via APIs and SDKs, is a much faster and cheaper way to get up and running, and ideally validate some of your hypotheses. I can say that at Datica we haven't had many cases where we can't support the business or use cases; most apps and developers that have approached us and are using Datica can use API-based services, like the ones we offer to get up and running on day one, without the need to roll their own infrastructure on Firehost, OnlineTech, AWS, or Rackspace. We also offer this at a considerable savings over Firehost, AWS, or Rackspace.
+
+  There's also a question of flexibility when developing. The more infrastructure services you rely on, the faster you'll get started and the less ongoing maintenance you'll have, but you'll also have less flexibility, and you'll likely pay a bit more for the convenience. That is one of the major gripes that developers have with BaaS like Parse; they often complain that you can only build simple apps using BaaS. Flexibility may not be a big deal and, when it comes to building a vertical-specific infrastructure, which is what we're talking about here, hopefully the infrastructure (PaaS or BaaS) provider knows healthcare and is close enough to its customers to build out the services and features required to meet the majority of developer use cases. At Datica we think HIPAA is just one part of health app development, and expand upon that with additional tools like data models, mappings, and sources. The more health-specific features you can offer means you're just left with corner cases, and no one service, even a vertical specific offering, is going to be able to meet all the corner cases.
+
+  We do, or I should say our attorneys, our HIPAA auditors (we just completed our independent 3rd party HIPAA audit this summer/fall), and at least two health system compliance offices we've worked with, disagree with the assessment that you can add a storage layer via API to an existing app (on Heroku or Google App Engine) and address the security rules within HIPAA. It's not as simple as the approach Stripe takes to making apps PCI compliant because the data isn't as simple, and PCI and payment processing is a different problem from HIPAA compliance.
+
+  Stripe is a really good example to illustrate this. For an app to be PCI compliant using Stripe it has to use HTTPS, which isn't really a major hurdle, and use one of the front-end JS libraries or widgets from Stripe (currently Stripe.js or Checkout). The reason for this is that, by using one of those front-end libraries, all payment data passes directly to Stripe and the app that's using Stripe is out of scope for PCI. So Stripe technically doesn't make apps PCI compliant, it enables apps to process payments while not touching PCI-relevant data, and in the process enables apps to remain out of the scope for PCI compliance.
+
+  At the end of the day, all you need from Stripe is to store payment information and process payments, either on demand or at scheduled times. This is a simple use case, really, and is the reason why it is easy to handoff payments and PCI compliance to Stripe; it's also the genius of Stripe. It's really a very powerful solution. We've used it and love it! You can read more on Stripe and PCI [here](https://support.stripe.com/questions/do-i-need-to-be-pci-compliant-what-do-i-have-to-do).
+
+  The thing about payment processing is that it is necessary but not a core part of any app. And the subset of PCI-relevant data is much, much smaller than PHI data. Because of that, applying the Stripe model to HIPAA is much, much harder. Any identifiable information, as defined by [HHS](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance), linked to a health related service or payment, is considered PHI, and in scope for HIPAA. It's far more likely an app would store and use a phone number or email or an IP address (in a log maybe), as an example of identifiable data, than an app would need to store a credit card number. And it's far harder to build front-end libraries, like Stripe.js and Checkout, for the myriad of data and models health app developers will want to create and store that would be considered PHI.
+
+  It's really hard, and we see it as a burden to developers, to prevent custom apps from acting as a passthrough and touching PHI. Separating logic from data is a hard thing to do, and we think has very limited use cases. And if apps touch (transmit, process, store) PHI then those apps are considered in scope of HIPAA and have to be secured to meet HIPAA requirements. And, as of 9/23/2013, so do all subcontractors used to build or run those apps.
+
+  Another fundamental difference with HIPAA is that the data you are storing is part of the core value of the app; if you build a health app, health data IS is your app. It's not payment processing. It's the data collected via a glucose monitor or a WiFi scale or an intake form or a virtual visit app (asynchronous telemed). The app has to use that data to power the app (provide logic) and provide a customized user experience. In the overwhelming majority of cases the app needs access to that data, and you can't simply hand off the storage layer and make an app compliant or out of scope of HIPAA.
+
+  It's why, after spending a lot of time researching the challenges of HIPAA security, we built Datica the way we did, with version 1 being essentially a HIPAA compliant BaaS offering, and not as an add-on for existing apps. Our platform (users, auth, storage, etc) is API-based, so could be used as storage layer, but we don't think that's a real path to HIPAA compliance. Datica Compliant Cloud includes additional features and flexibility, something we're really excited about and hope will address more and more of the market need. Ultimately we want to give developers a simple way to add modern web services to health apps and, in the process, we want to mitigate risk for them and help them overcome some of the compliance roadblocks we encountered in building and selling apps in healthcare.
+:related_guide:
+  :id: 6evss0t4I0IC2cQasg0K2O
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :title: Everything you need to know about HIPAA compliance
+  :slug: hipaa
+  :summary: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :subhead: A guide written by the authoritative voices on HIPAA compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: |-
+    Over the many years Datica has been providing HIPAA compliant cloud solutions to healthcare companies large and small, we have amassed a comprehensive understanding around what makes HIPAA confusing.
+
+    We have empathy for the anxieties you encounter and the confusion even veteran healthcare leadership confide within us. We understand the questions we are asked and the curiosities newcomers have. It is because of this unique position as HIPAA experts in the healthcare community that we decided to aggregate the most important topics into a condensed, easily digestible guide for those looking to quickly gain literacy around HIPAA.
+
+    The Datica guide to HIPAA compliance will answer all your nagging questions. Included in the guide:
+
+    - HIPAA Overview: The origins and intent of HIPAA
+    - Protected Health Information and why it is central to HIPAA
+    - Definitions of a Covered Entity, Business Associate, Subcontractor, and which apply to you
+    - The importance of Business Associate Agreements
+    - How to prove compliance
+    - Why HITRUST is critical
+    - Administrative vs. Technical safeguards and obligations
+    - How audits are done, including estimated costs
+    - Finally, a simple explanation to whether you need to be compliant and how you achieve compliance
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ea3f6ef3-bac2-4c1c-a26b-b2a93d1db2a1
+  :bg_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 4yuVlN4hWw0wgM6SOaae0G
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:34:32+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 4yuVlN4hWw0wgM6SOaae0G
+  :title: The Who and How of HIPAA Enforcement
+  :slug: the-who-and-how-of-hipaa-enforcement
+  :pub_date: !ruby/object:DateTime 2017-07-20 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: 'Learn about HIPAA enforcement, including who is responsible for enforcing
+    HIPAA violations and compliance, and the fines for violating HIPAA. '
+  :lead: When people talk or write about HIPAA, it's always presumed that there's
+    an enforcement aspect, though enforcement is rarely explicitly discussed.
+  :post: |
+    As much as people and organizations value the privacy and security of the personal health information of their customers (patients, members, users/consumers), the fear of HIPAA violation fines and other penalties are the major drivers of compliance and security efforts. Penalties, whether fines or otherwise, are quantifiable and expose organizations to very real financial risk if proper controls, both tech and policy, aren't put into place and followed.
+
+    HHS sets the rules for HIPAA, and enforcement is carried out by The Office of Civil Rights (OCR) within HHS. OCR is tasked with the responsibility of investigating complaints. Based on an investigation, the OCR determines if the covered entity or the business associate of a covered entity was in compliance with the HIPAA security and privacy rule. The investigation branches at whether an organization is in violation of HIPAA rules or not. If the organization is not in violation, the findings are documented and the case is closed. HIPAA is not always prescriptive, and has terms like "reasonable," so there is some interpretation and gray area at this stage.
+
+    In a recent report by the OCR, the HIPAA Security Rule accounted for the majority, or 60%, of violations, followed by HIPAA Privacy Rule violations and then HIPAA Breach Notification violations. That recent report also cited a lack of complete or accurate risk assessments as a widespread problem, with up to two thirds of entities lacking full and timely risk assessments. Risk assessments are incredibly valuable and should inform much of your security and privacy posture as an organization.
+
+    If the OCR finds an organization to be in violation, the following actions may take place:
+
+    * Voluntary compliance;
+    * Corrective action; and/or
+    * Resolution agreement.
+
+    There are monetary penalties associated with HIPAA violations, and the amounts of such violations were raised considerably last year as part of the HIPAA Omnibus Rule included in the HITECH act. The current financial penalties are listed below.
+
+    (image: penalties.png)
+
+    Previous to these new rules, the fine associated with each HIPAA violation was capped at $25,000. This number is now $1.5 million per violation.
+
+    In certain extreme HIPAA cases, individuals can be exposed to criminal risk as well. When criminal action is involved with HIPAA, the OCR hands the case off to The Department of Justice. Individuals are at risk of HIPAA enforcement and penalties if they "knowingly" obtain, disclose, or use PHI "in violation" of HIPAA rules. You can read a very detailed, legal opinion on what [constitutes](http://www.justice.gov/olc/hipaa_final.htm) legal vs civil in the case of HIPAA. There is a lengthy discussion of the terms "knowingly" and "in violation" in that document, which is why we put them in quotes.
+
+    It's not always clear who enforces HIPAA compliance and violations. The HIPAA privacy rule is enforced by the OCR, the Department of Justice to a lesser extent, and, recently, the FCC has waded into HIPAA enforcement for the privacy of health data through its mandate to protect consumers. The financial penalties from the FCC are lower than those from the OCR; but, the FCC has the power to require annual privacy audits, as it has done with companies like Google and Facebook, and these audits, over time, have the potential to be very expensive for companies. This move by the FCC is new, and still making its way through the courts, so it's still uncertain how the FCC will fit with HIPAA enforcement.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 6iyNBVdpAIgewyYekqISUG
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 2uVitrbH7qy2OyeGwcGEO2
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-31T19:32:20+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 2uVitrbH7qy2OyeGwcGEO2
+  :title: HIPAA and Multi Tenancy
+  :slug: hipaa-and-multi-tenancy
+  :pub_date: !ruby/object:DateTime 2018-01-12 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: What exactly is multi tenant cloud and does Datica Compliant Cloud offer
+    a multi tenant environment?
+  :lead: Datica provides HIPAA compliant and HITRUST CSF Certified hosting and integration
+    solutions for a variety of customers. These HIPAA and HITRUST audits have been
+    performed by a national third party [(*Coalfire*)](https://coalfire.com). In the
+    case of HITRUST, we have been through additional scrutiny in the context by the
+    certifying authority, namely [HITRUST](https://hitrustalliance.net).
+  :post: |2+
+
+    As we continue to grow our customer base, we get asked about Datica being a multi-tenant solution and the supposed security challenges that could perhaps arise because of that. We felt that it made sense for us to write up this "position paper" on multi-tenancy and security. Our hope is that this post will clarify our security posture and provide others with a few pointers on better security practices.
+
+    ## The cloud by definition is multi-tenant
+
+    One of the first things to note is that in the modern cloud computing world, **everything** is multi-tenant. All the IaaS providers you use such as Google, MSFT, AWS and Rackspace are multi-tenant. All the SaaS companies that you know and use, such as Salesforce, Intuit and Stripe are multi-tenant. But before we discuss how multi-tenancy and security are not orthogonal, it would be worthwhile to explain tenancy in the cloud context so that we are all on the same page.
+
+    In cloud computing, tenancy generally refers to how the platform (PaaS or Platform as a Service) and underlying infrastructure (IaaS) are shared among different customers. Before we explore this further, let's setup an analogy. Let's setup an apartment building with multiple rental units (tenants). The building itself can be compared to an IaaS (bricks, mortar etc.). The building comes with property management i.e. shared water pump, utilities management (electricity, sewage, garbage collection and so on) and maintenance. Property management can be considered equivalent to a Platform as a Service (Datica Compliant Cloud) i.e. a service that takes care of the details so that the renter (tenant) doesn't have to. Given that analogy, let's dig a bit deeper.
+
+    ### A multi-tenant cloud is where all customers share the same cloud infrastructure. This does not mean that customers can see each other’s data.
+
+    Going back to the analogy, it is the property management organization's responsibility to ensure that Jane Appleseed's key for apartment 101 does not allow her access to apartment 102. She only has access to her occupancy. But she only has one garage door opener with a code specific to her but managed centrally. Similarly, it is the Platform's (Datica Compliant Cloud's) role to ensure that a tenant only has access to their environment (apartment) and associated services (rooms and garage).
+
+
+    ### Shared infrastructure automatically places a greater emphasis on security. Access to the multi-tenant environment is strictly controlled and customers get a view of **only** their data.
+
+    In the analogy, this requirement forces the property management group (PaaS provider) to plan for separate mailbox keys, tracking users of those keys, correlating keys with the occupants of the apartment, having a doorman to prevent the random pizza guy from entering the building and so on. Living in a building with a doorman is much more secure than an automated buzz-someone-in system. This is what Datica Compliant Cloud manages and maintains on an ongoing basis. We also hire external penetration testers on an annual basis, scan our networks weekly, perform penetration tests internally on a quarterly basis and track possible security breaches as part of our service.
+
+    ### The benefit of a multi-tenant model is that the provider can **maintain** a shared infrastructure for all customers.
+
+    Customers benefit from always being on the latest version of all underlying software - the OS (operating system), the databases, webservers, etc. In the unlikely event that one of our customers learns about a problem before we do, we can immediately take action and ensure that the appropriate fixes get put into place quickly for all our customers. When it’s time to upgrade Datica Compliant Cloud, all of our customers are upgraded at the same time and share the same experience. In the analogy, if property management decides to replace the aging solar panels with more performant ones, all of your tenants get the benefits at the same time. Maintenance is a significant cost not only to the service provider but also to the customer so the easier and cheaper it is, the better off all parties will be. Or in other words...
+
+    > The key to performance is elegance, not battalions of special cases. — Jon Bentley and Doug McIlroy
+
+    For example, Salesforce.com, at the relatively high end of the multi-tenancy spectrum, has 72,500 customers who are supported by 8 to 12 multi-tenant instances (meaning IaaS/PaaS instances) in a 1:5000 ratio. Said differently, each multi-tenant instance supports 5,000 tenants who share the same database schema. Intacct, a financial systems SaaS provider in the middle of the spectrum, has more than 2,500 customers who share 10 instances in a 1:250 ratio. [Source](http://www.computerworld.com/article/2517005/data-center/multi-tenancy-in-the-cloud--why-it-matters.html)
+
+    At Datica, we go several steps more to ensure our customers security and isolation.
+
+    - AppArmor profiles: ensure that containers are isolated as much as the underlying operating system allows.
+    - Encryption in-transit: ensures that even **within** your environment, all network traffic is encrypted with customer specific keys
+    - Encryption at-rest: enforces all volumes are encrypted
+    - Customer specific app, database (and cache): are specific to each customer and never shared.
+    - Dedicated logging  and monitoring for each customer: to reduce your costs while ensuring your environment remains compliant.
+    - Dedicated networking: to assure isolation of all traffic on a per customer basis.
+
+    This is essentially no different from you managing your own set of containers on a IaaS provider. At Datica, our goal is to simplify infrastructure and compliance so that you can focus on your application features and your customers.
+
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: SMDqjNdTaKCGU60Ow6eYu
+  - :id: 4yuVlN4hWw0wgM6SOaae0G
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+- :id: 2aVxbQ5VAoqmKkQksiQSCA
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:28:02+00:00'
+    :created_at: '2018-02-09T01:00:06+00:00'
+    :id: 2aVxbQ5VAoqmKkQksiQSCA
+  :title: What is GxP?
+  :slug: what-is-gxp
+  :pub_date: !ruby/object:DateTime 2018-02-08 00:00:00.000000000 Z
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :tags:
+  - :id: 46srurONA4UMuqge4Eek4S
+  :summary: GxP stands for "Good Practice" and is a set of operational controls for
+    Life Sciences organizations working within the confines of the FDA. Learn more
+    about GxP compliance.
+  :lead: |-
+    GxP stands for "Good Practice" and is a set of operational controls for Life Sciences organizations working within the confines of the FDA.
+
+    The FDA publishes its regulations on the back of NIST, which is why GxP largely follows NIST standards. There is no one authoritative documentation source for GxP, like we have the [2013 Omnibus for HIPAA](https://datica.com/discover/hipaa-compliance/) or Articles from the European Union on [GDPR](https://datica.com/discover/gdpr/). Instead, GxP is an industry-accepted definition of best practices mapped to FDA regulations.
+  :post: |
+    ## GxP Compliance
+
+    In many ways, GxP is where HIPAA was mid-2000s before [HITRUST](https://datica.com/discover/hitrust/) came along. Back then, HIPAA compliance was mostly whatever someone wanted to claim it was. "HIPAA Compliance" meant one lawyer's word against another. It's why business deals took six months just to get past the "But are you HIPAA compliant?" stage. Hundreds of consultants, auditors, and lawyers defined what they believed HIPAA compliance to be, and proceeded to use that as their definition for their jobs. You can imagine why HIPAA has been a mess for a long time. This is why HITRUST is such a boon: The industry is finally agreeing to a certified definition, which accelerates the 20-year-old mating dance.
+
+    GxP is still in that situation. There is no certifying body to GxP compliance, so it's whatever someone wants to claim it to be.
+
+    ## eCFR — (Electronic) Code of Federal Regulations
+
+    The basis of cloud-based GxP audits stems from [CFR Title 21 Chapter 11](https://www.ecfr.gov/cgi-bin/text-idx?SID=d4649e96a61f20151121c218b3fec507&mc=true&node=pt21.1.11&rgn=div5). CFR Title 21 is intended for the FDA, and Chapter 11 scopes to electronic records. When a cloud services provider—like Datica—claims to be GxP compliant, the company is claiming that they were audited against an interpretation of CFR Title 21 Chapter 11.
+
+    The bulk of the controls in a GxP audit are administrative and not technical. Whereas HIPAA, and HITRUST in particular, get very deep in the weeds of encryption, intrusion detection, and so on, GxP focuses mostly at processes and procedures to ensure quality.
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 45hh3YTAoweueQYcmaCKsW
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 5Eape5yb0k0SGOu2Asw0ss
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:38:33+00:00'
+    :created_at: '2017-12-11T23:44:43+00:00'
+    :id: 5Eape5yb0k0SGOu2Asw0ss
+  :title: How does GDPR compare to HIPAA?
+  :slug: how-does-gdpr-compare-to-hipaa
+  :pub_date: !ruby/object:DateTime 2017-12-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Though different in who they apply to and how you prove compliance, HIPAA
+    and GDPR are both about having security as a core tenet of operations.
+  :blog_lead: At the AWS re:Invent conference earlier this month, GDPR was a major
+    area of interest from attendees though AWS has little content coverage for GDPR.
+    GDPR, which stands for General Data Protection Regulation, is the acronym for
+    the much anticipated new EU security and privacy framework that goes into effect
+    in May of 2018. GDPR leaves some discretion to EU member states but, as a general
+    rule, and the reason it is getting so much attention, is that it applies across
+    all EU Member States. The purpose of this post is to introduce those familiar
+    with healthcare privacy and security in the United States, namely those concerned
+    with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even
+    security requirements more generally, but instead focuses on the broader principles
+    and privacy guidelines for health data under GDPR.
+  :post: "\nThe process of expanding and proving compliance across multiple frameworks,
+    both for us and our customers, is not new to us at Datica. You can follow our
+    changes through the updates to our [open source policies and procedures](https://datica.com/open-source/policies/);
+    our policies define the operational and technical controls we use. We started
+    with HIPAA and quickly expanded to leverage [HITRUST](https://datica.com/blog/hitrust-csf-certification-round-3/)
+    as the core risk framework for our internal compliance program. We then added
+    SOC2, Privacy Shield, and, most recently, GxP. We will complete our full GDPR
+    audit in 2018 ahead of GDPR going into effect. Our goal has always been to build
+    and maintain one compliance program to prove compliance with multiple frameworks.
+    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
+    \                                                                                       \n##
+    GDPR applies to all personal data storage\n\n[GDPR is getting outsized attention](https://www.eugdpr.org/)
+    because it applies to all personal data storage and processing, limiting or putting
+    at risk all companies that leverage individually identifiable data (think of Google
+    and Facebook, not just healthcare providers, payors, life sciences, and digital
+    health companies). GDPR also applies to organizations that control or process
+    data for citizens of EU Member States regardless of where the organization is
+    based.\n\nHealthcare and health data, “data concerning health”, is one subset
+    of GDPR and specifically applies to data concerning physical and mental health,
+    genetic data, and biometric data. The good news is that GDPR has considerable
+    overlap with HIPAA, and to an even larger extent, HITRUST.\n\n## GDPR entities:
+    controllers and processors\n\nIn the world of HIPAA, you’re either a covered entity
+    (CE) or a business associate (BA); for the purposes of this guide, subcontractors
+    are just business associates of business associates. In the world of GDPR, you’re
+    either a controller or a processor. The structures don’t mirror each other 100%
+    but controllers, like covered entities, are the organizations that ultimately
+    own personal data and processors, like business associates, provide services,
+    or data processing, for controllers.\n\nThe major difference is that HIPAA strictly
+    defines covered entities based on functions in healthcare as providers, payors,
+    and clearinghouses whereas GDPR defines controllers as “natural or legal person,
+    public authority, agency or other body which, alone or jointly with others, determines
+    the purposes and means of processing of personal data.” HIPAA defines entities
+    based on the function of the organization and GDPR defines it based on the ownership
+    of data; this is a consistent theme throughout GDPR. \n\nMy interpretation of
+    GDPR, and a significant area of difference that healthcare organizations need
+    to consider, is that direct to consumer health offerings like Fitbit, MapMyRun,
+    or an application for medical adherence created by a pharmaceutical company, would
+    be considered controllers whereas in the US, under HIPAA, they wouldn’t need to
+    adhere to HIPAA until they worked with customers or patients of a provider or
+    payor. When those same direct to consumer companies in the US did work with providers
+    and payors, they would be considered business associates and not covered entities.
+    This flips the model for these companies as they are now the focal point of data
+    control and risk under GDPR.\n\nControllers, like covered entities, are ultimately
+    responsible and liable for the protection of data. As such, controllers need to
+    put data processing agreements (DPA) in place with processor partners; similarly,
+    covered entities under HIPAA must put business associate agreements (BAAs) in
+    place with business associates. GDPR is more prescriptive in terms of what needs
+    to be included in a DPA, something that is much needed in the US but is lacking
+    in the HIPAA rules. The prescriptive nature of DPAs ensures additional protection
+    and transparency over the wild west of BAAs in the US. One of the things GDPR
+    requires, with some rare exceptions, in DPAs is that data is destroyed once the
+    relationship between controller and processor ends; this severely limits the ability
+    of processors to aggregate and retain personal data for future use. And, similarly
+    to the US and HIPAA after the Omnibus rule was passed, processors under GDPR must
+    have similar DPAs in place with their own processor partners.\n\n## GDPR breach
+    reporting\n\nUnder GDPR, there are strict breach reporting requirements. The timeline
+    to report breaches is 72 hours from becoming aware of a breach. Any organization
+    adhering to HIPAA would have breach reporting timelines in policies, contracts,
+    and/or BAAs; but, most breach reporting times we see from major cloud providers
+    and vendors are on the order of days (10 days being the shortest we’ve seen),
+    weeks, and even months. The lowest time we’ve seen for breach reporting is our
+    own Datica breach reporting time, which is 4 hours. For entities looking to comply
+    with GDPR, there are changes that need to be made both technically and operationally
+    to commit to 72 hour breach reporting.\n\n## Health data access under GDPR\n\nGDPR
+    puts forth clear guidelines for when health data can be processed, or essentially
+    when it can be accessed. Under GDPR, health data can only be accessed 1) with
+    explicit consent from the individual, 2) for health and social care, and 3) for
+    public health (cross border containment being the example given). There are some
+    nuances to this, specifically with data for scientific or clinical research, but
+    those are mainly only with explicit consent. HIPAA similarly defines permitted
+    uses and disclosures of health data for 1) treatment, 2) payment, and 3) healthcare
+    operations.\n\nSome of the harder areas of GDPR, at least in comparing it to HIPAA,
+    are the rights of individuals to get access to all of their data and to be forgotten
+    (have all their data deleted). Healthcare data is much more extensive than other
+    types of data like payment data; it’s the reason complying with HIPAA isn’t the
+    same as complying with PCI where you can essentially outsource payment processing
+    to Stripe. Granting access to all personal health data or being able to delete
+    all health data is a very high bar to meet, especially for large, bloated EHRs
+    and legacy healthcare software.\n\n## Data Protection Impact Assessments\n\nOne
+    of the things I like a lot about the GDPR is the overarching principle of data
+    protection by design and default. Sadly, security, and compliance, is often an
+    afterthought at best or perceived unnecessary box to check at worst. GDPR explicitly
+    attempts to resolve this pattern. GDPR goes further than HIPAA, and in this way
+    is very similar to HITRUST, in that it anchors risk assessment, analysis, and
+    management to the entire lifecycle of products and services. GDPR requires controllers
+    and processors to conduct Data Protection Impact Assessments (DPIAs), which are
+    just a longer name for a risk assessment. These DPIAs should be performed before
+    the start of development work and done periodically throughout the lifecycle of
+    a product to ensure data is protected and secure. This risk-based model is similar
+    to the way organizations are supposed to use HITRUST to develop a baseline risk
+    model and then consistently update that baseline model. It’s the model we use
+    at Datica and has made it easy for us to maintain continuous compliance for us
+    and our customers.\n\nWhy should you care about the GDPR? If you do anything with
+    healthcare data in the EU, then you are at risk of significant penalties for violations.
+    The penalties for violating GDPR can be up to $20m or 4% global revenue, whichever
+    is highest. If you want to work in the EU or are already in the EU, you need to
+    expand your compliance program and posture to minimize your risk.\n\n----                                                                                                    \nGoing
+    forward, we’ll get into technical details and mappings between HIPAA and GDPR.
+    We’ll also provide specific guidance to inform expansionary changes to security
+    and compliance programs to bring them in line with GDPR. Fundamentally, addressing
+    HIPAA and GDPR is about having security as a core tenet of operations; the major
+    difference is ensuring that evidence and documentation is created to prove compliance
+    with each framework.\n\n"
+  :featured_image:
+    :id: 7aTcDUZzOgKM2yGuYY0u2
+  :share_image:
+    :id: OeOKXAQNoIUAIkEqyGoWk
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+- :id: 45hh3YTAoweueQYcmaCKsW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:19:18+00:00'
+    :created_at: '2018-02-09T01:08:40+00:00'
+    :id: 45hh3YTAoweueQYcmaCKsW
+  :title: 'GxP and Business Associates: Does it exist like HIPAA?'
+  :slug: gxp-and-business-associates-does-it-exist-like-hipaa
+  :pub_date: !ruby/object:DateTime 2018-02-08 00:00:00.000000000 Z
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :tags:
+  - :id: 46srurONA4UMuqge4Eek4S
+  :summary: 'GxP does not have the concept or BAAs or contracts that outline risk
+    like HIPAA does. There is no concept of inheritance or chaining liability. Learn
+    more here. '
+  :lead: |+
+    A Business Associate is a vendor who works with a Covered Entity within the terms set forth by HIPAA. A [Business Associate Agreement](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), or BAA, is the contract between parties who handle Protected Health Information, or PHI.
+
+    The intent of a BAA is to outline ownership of risk and liability as defined by HIPAA. A chain of risk is then created as BAs sign BAAs with other Subcontractor BAs.
+
+  :post: |2
+
+    GxP does not have the concept or BAAs or contracts that outline risk. There is no concept of inheritance or chaining liability.
+
+    The reason stems from a topic we discussed in [our GxP primer](https://datica.com/academy/what-is-gxp/): GxP isn't a government regulation with defined vocabulary or mandated procedures, like [HIPAA](https://datica.com/discover/hipaa-compliance/) or [GDPR](https://datica.com/discover/gdpr/). Instead, GxP is an industry-accepted understanding of NIST standards adopted by the FDA in [CFR Title 21 Chapter 11](https://www.microsoft.com/en-us/trustcenter/compliance/fda).
+
+    Nowhere are BAAs or other contracts outlined. There is no risk passed down via GxP.
+
+    Instead, when a cloud service provider, like Datica, claims GxP compliance, they are claiming that they have been audited against the interpretations of FDA guidelines. Whatever relationships that business has with its partners — like Datica with AWS or Microsoft Azure — is immaterial. For example, a customer of Datica is only concerned if Datica itself is GxP compliant; contrast this to HIPAA, where a customer of Datica is also concerned what BAA inheritance Datica has with its partners.
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 2aVxbQ5VAoqmKkQksiQSCA
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

@@ -1,0 +1,14 @@
+---
+:id: CZDuT3TlU4C0akq8uCgGG
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-19T16:28:33+00:00'
+  :created_at: '2018-05-10T22:26:59+00:00'
+  :id: CZDuT3TlU4C0akq8uCgGG
+:title: CKS - Authorization
+:slug: kubernetes-authorization
+:category: Kubernetes
+:feature_status: Current
+:summary: Integrating Datica's core authentication mechanism with kubectl.
+:desc: Datica's authorization API is responsbile for managing users, access control
+  lists and groups.

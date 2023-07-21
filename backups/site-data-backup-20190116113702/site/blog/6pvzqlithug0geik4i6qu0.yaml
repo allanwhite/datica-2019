@@ -1,0 +1,529 @@
+---
+:id: 6PvZQlithuG0geIK4I6QU0
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:31:18+00:00'
+  :created_at: '2017-10-25T23:26:59+00:00'
+  :id: 6PvZQlithuG0geIK4I6QU0
+:title: Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files
+:slug: using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files
+:pub_date: !ruby/object:DateTime 2017-10-25 00:00:00.000000000 Z
+:tags:
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: engineering
+:author:
+  :id: BZwvwGSzAc00yCQKUiOuS
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-21T20:26:00+00:00'
+    :created_at: '2017-10-25T16:34:22+00:00'
+    :id: BZwvwGSzAc00yCQKUiOuS
+  :fullname: Eric Richards
+  :slug: eric-richards
+  :person_type: Datica Alumni
+  :role: Healthcare Integration Engineer
+  :profile_pic:
+    :id: 1k70NnjPHUaY0CgGmqsqgW
+  :email: eric.richards@datica.com
+  :profile_linkedin: eric-richards-95852826
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: The GnuPG is a free implementation of OpenPGP — the most widely used email
+  encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt
+  encrypted SFTP files.
+:blog_lead: |-
+  ## Why is encryption important?
+
+  HIPAA compliance has requirements for the transfer and storage of [Protected Health Information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/). Standard SSH file transfer can securely transfer data onto the [Datica Platform](https://datica.com/platform/). However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.
+
+  While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).
+:post: "## What is GnuPG and OpenPGP?\n\nThe [GNU Privacy Guard (GnuPG)](https://gnupg.org/)
+  is a free implementation of the OpenPGP standard (also known as RFC 4880, as defined
+  by the [Internet Engineering Task Force](https://www.ietf.org/rfc/rfc4880.txt )).\n\nOpenPGP
+  is the most widely used email encryption standard. It is available on all major
+  platforms, including MacOS, Windows, GNU, Linux, Android, and iOS. [OpenPGP](http://openpgp.org/)
+  is the way to go when you need a free and open source tool to encrypt files, especially
+  across multiple different platforms.\n\n### GPG Keychain Clients and CLI\n\nThe
+  keychain client I use is [GPG Suite 2017.1](https://gpgtools.org/). This is a simple
+  tool for managing keys for different projects. You can import another party’s public
+  key, a private key you created elsewhere, or generate new public and private key
+  pairs within the client. After installing a keychain client, you will also need
+  to make sure you have installed the [GNU core utilities](https://www.gnu.org/software/coreutils/coreutils.html).\n\n-
+  Using the GPG command line interface to generate a brand new key: $ gpg --gen-key
+  \n- Importing an existing GPG key:  `$ gpg --import gpg/<keyfile>.asc`\n- GPG keys
+  will have two parts if you generate them yourself — public and private. If you’re
+  importing one provided by another party, you will likely only have the public half
+  of the key. \n \n<pre>\n\n-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n...\n...\n-----END
+  PGP PUBLIC KEY BLOCK-----\n-----BEGIN PGP PRIVATE KEY BLOCK-----\n...\n...\n...\n----END
+  PGP PRIVATE KEY BLOCK-----\n\n</pre>\n\n### Using a key to encrypt and decrypt files\n\n-
+  Encrypting an existing file with your GPG key: `$ gpg --encrypt -r <recipient or
+  ID for public key> <filename>`\n- Decrypting an existing (already encrypted file):
+  `$ gpg --decrypt <filename>`\n- You can also lock down your key to require a password
+  for use, specify an output file for the decrypted contents, and flag to skip prompting
+  the user for those values: `gpg --passphrase-file <fileContaingPassword> --output
+  <fileToWriteOutput> --no-use-agent --decrypt <fileToBeDecrypted>`\n\n### Automation\n\nExample
+  situation:  you have an SFTP endpoint where another party will be dropping encrypted
+  files. You provide them with the public half of your [GPG](https://futureboy.us/pgp.html)
+  with which to encrypt files, and then you set up your private key alongside your
+  SFTP receiver to decrypt the files later on. You won’t want to do this manually,
+  so just set up a scheduled task to handle this for you.\n\n- Drop location for inbound,
+  encrypted file:  `/foo/inbox/file.gpg`\n- Adding your GPG key file password (optional):
+  \ `/foo/gpg/password.txt`\n- Drop location for decrypted file:  `/foo/outbox/decryptedfile`\n-
+  Drop location for already processed inbox file:  `/foo/recycling/file.gpg`\n- Build
+  a script to pick up the encrypted file and use the GPG key and password to decrypt
+  the file again.\n\n<pre>\n\n#!/bin/bash\ncd /foo/inbox\nfor FILE in ./*.gpg; do\n
+  \   echo \"Original file:      $FILE\"\n    echo \"Decrypted file:      ${FILE%.gpg}\"\n
+  \   gpg --passphrase-file ../gpg/password.txt --output \"${FILE%.gpg}\" --no-use-agent
+  --decrypt \"$FILE\"\n    mv --backup=numbered \"$FILE\" \"../recycling\"\n    mv
+  --backup=numbered \"${FILE%.gpg}\" \"../outbox/\"\ndone\n\n</pre>\n\nThen, all that’s
+  left is to set up a Cron schedule for this script to run periodically.\n"
+:featured_image:
+  :title: spiral staircase - yoosun-won-32209
+  :description: stairs, spiral, texture, B&W, pattern
+  :url: "//images.ctfassets.net/189dvqdsjh46/ktGncK0sSscKyC4UQIwGK/36a152d094ba7f549c2ec036294c5c68/spiral_staircase_-_yoosun-won-32209.jpg"
+  :_meta:
+    :updated_at: '2017-10-26T17:45:55+00:00'
+    :created_at: '2017-10-26T17:45:55+00:00'
+    :id: ktGncK0sSscKyC4UQIwGK
+:share_image:
+  :title: blog-eng-sftp-decrypt
+  :description: engineering, social, sftp, pgp, share
+  :url: "//images.ctfassets.net/189dvqdsjh46/4uJkVvYWNWCYkOKmSAowkK/d6f7d956c0a4c44fc266e9dd9fe8945f/blog-eng-sftp-decrypt-share.jpg"
+  :_meta:
+    :updated_at: '2017-10-26T17:53:48+00:00'
+    :created_at: '2017-10-25T23:37:23+00:00'
+    :id: 4uJkVvYWNWCYkOKmSAowkK
+:cta_ref:
+  :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-15T21:39:13+00:00'
+    :created_at: '2017-05-27T01:25:44+00:00'
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :cta_title: Get the TCO Guide to Healthcare Integrations
+  :cta_desc: 'This comprehensive guide to computing Total Cost of Ownership (TCO)
+    of healthcare integrations is for anyone involved in EHR integrations who needs
+    to thoroughly understand all the project costs.  Use this guide to help with build
+    vs. buy decisions.
+
+'
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-integrations/
+  :cta_image:
+    :id: 55cqBx5A4ESeeQS8SA0GGY
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 79e4rnBGHC2YgmKqu8QuwA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-12T19:29:59+00:00'
+    :created_at: '2017-09-05T20:48:13+00:00'
+    :id: 79e4rnBGHC2YgmKqu8QuwA
+  :title: If It's Possible, We Can Integrate It
+  :slug: if-its-possible-we-can-integrate-it
+  :pub_date: !ruby/object:DateTime 2017-09-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: There's much a digital health company needs to know about EHR integrations.
+    Here are 4 essential questions digital health teams should ask their customers.
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+    We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
+    We''ve done this work with big organizations and vendors to small FQHCs and niche
+    EHR vendors. As a result of all this integration experience, we now have a pretty
+    good grasp on the intricacies of how integration works. We can reasonably estimate
+    how long it takes us to do a project and how that varies with different types
+    of vendors. '
+  :post: "> What you must learn is that these rules are no different than rules of
+    a computer system. Some of them can be bent, others can be broken.\" -- Morpheus,
+    The Matrix\n\nHowever, despite our progress, there are still hundreds of systems
+    that we have not integrated with. In the ambulatory setting alone, there are more
+    than 650 technologies certified for Meaningful Use Stage 2. While working with
+    the top 30 already gives us a leg up and covers a majority of the industry, it's
+    not uncommon for us to hear about a new piece of HIT technology that our customers
+    and prospects are looking to integrate with. \n\nDespite your perceptions of us
+    as an integration services team, we don't have any secret super powers to solve
+    problems with interoperability. Our solution, as simple as it may sound, is just
+    being the best at our specialized skill set as we can be. This means:\n\n- Writing
+    interfaces and transforming data to programmer-friendly formats using Mirth, an
+    open-source interface engine. \n- Setting up VPNs when needed on open-source Strongswan
+    appliances.\n- Having a team of experts in health data and project management
+    on hand to analyze project needs. \n- Everything hosted on the HITRUST-certified
+    Datica Platform, staffed by a team of ops, security, and compliance experts. \n\nWhile
+    we may know about obscure technologies that power integrations at a given EHR
+    vendor, our process is likely similar to anyone else's when kicking off a project.
+    As such, it's worth noting that **some projects may be impossible to complete**
+    due to external constraints. Turns out that data blocking in healthcare is really
+    a thing. So, if Datica is not helping you in your pre-sales process with customers,
+    it's up to you to ask all the necessary questions to ensure that you will be able
+    to successfully integrate your application with the EHR and site in question.
+    \n\n## Four essential questions digital health teams should ask their customers\n\n###
+    1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
+    alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
+    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
+    are standards, this doesn't mean all EHRs support exchanging data through these
+    formats. In fact, some EHRs have no integration capabilities at all. Make sure
+    the EHR supports the data standards that you need. Particularly, make sure the
+    EHR supports the data standards in the method you need them. For example, if you
+    need CCDs *pushed* to you at the end of a visit vs. *pulling* them proactively,
+    you will want to ensure the EHR has the capability to manage that process. There
+    is a very real possibility here that the EHR may have no suitable integration
+    technology, which may limit your data integration possibilities to flat-file style
+    extracts or may require manual data entry to power your application.\n\nIt's worth
+    noting that there are some integrations [that seem simple but are really complex](https://xkcd.com/1425/).
+    For example, while it would seem obvious that any EHR could expose provider availability
+    to schedule appointments, this is actually rare functionality. It's *easy* to
+    know what appointments are scheduled/canceled but it's *hard* to know when you
+    can schedule an appointment. Just because there are no appointments from 12:00-2:00
+    doesn't mean the provider isn't doing hospital rounds or research. As such, what
+    may have been an easy API query on Allscripts, Epic, and Athena turns into a nightmare
+    of stored procedure R&D and database access requirements with smaller EHRs. This
+    is why it's good to have experts on hand to help you understand the rules of the
+    road and to match integration expectations to reality. \n\n\n### 2) Do you have
+    the internal or external resources to perform the integration work?\n\nSmaller
+    organizations may have an EHR with HL7, CDA, or API integration capabilities,
+    however, they might not have the personnel to configure their instance to do that
+    integration. It's not uncommon to find a nurse or clinic administrator who is
+    also the EHR administrator. While they may be able to manage their provider's
+    schedules or handle some claims, setting up an interface or API may be foreign
+    to them. This can be a blocker for a project. \n\nDatica cannot directly assist
+    with a backend EHR build. This is usually for one of these reasons:\n\n- The EHR
+    vendor would require us to sign an agreement that had some kind of non-compete
+    clause to it. \n- The EHR vendor will not grant us access to their systems. \n-
+    We simply lack the expertise in 650 EHRs. \n\nAs such, if the organization needs
+    assistance with an internal EHR build, it's out of the scope of our standard integration
+    services. While we may be able to refer the organization to other consultants
+    or vendors who can assist with this EHR build, additional scope and cost considerations
+    would be included.\n\n### 3) Can you commit to getting work done within reasonable
+    timelines?\n\nThe top KPI for a fast, successful installation is an agreed upon
+    project plan with assigned task owners and due dates. At larger orgs, the only
+    task owners are typically the EHR integrators (Datica) and organizational IT.
+    However, in some integrations, there may be dependencies on vendors to perform
+    some pieces of setup. This is particularly true if the org is not licensed for
+    a given interface yet or if the EHR vendor hosts the organization's EHR instance.
+    \n\nNot to sell you a horror story but, sometimes, these timelines can be brutal.
+    While many projects go live within a month of kickoff, we've also seen projects
+    span a year due to EHR vendors dragging their feet on either contracting or infrastructure
+    deployments. Other than badgering effectively, unless your customer's organization
+    can push their EHR vendor to move faster, it's hard to make the process any faster
+    than it is. If your integrated product must be live by a certain point to reach
+    contractual obligations to your customer, make sure your customer has the means
+    to get that system live by that point. \n\n### 4) Who will validate clinical content
+    and logic facilitated through integrations?\n\nYour application may want to segment
+    patients based on certain clinical attributes sent in the payload of the HL7 or
+    CDA message. For example, you may want your application to send an alert when
+    a patient with diabetes is admitted to the hospital. The question, of course,
+    is how do you define patients with diabetes? Will they be manually defined by
+    clinicians or will you be trying to define them by diagnoses from the admission,
+    in their problem list, or by other clinical attributes like High A1C or being
+    prescribed insulin?\n\nWhile we can apply some logic to segment patients in our
+    interface engine, we do not have clinical informaticists on hand to dictate or
+    validate logic that we would create at your behest. The integration engine may
+    not be the best place to have that application logic and you may consider those
+    mappings and analysis to be IP of your company. You may decide that an organization
+    purchasing your digital health product can validate your clinical content (Epic
+    did this) or we are happy to refer you to informatics consultants who are qualified
+    to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
+    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    your digital health product. If you need to hire a niche EHR consultant to build
+    an interface on the EHR itself and it costs $5k, can you pass that along to your
+    customer or extract that value within your product? If not, you may debate the
+    merits of deploying your product in a standalone fashion or adjusting the terms
+    of your deal for your customer. If you're new to this, we can help. All [Datica
+    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    support to define implementation strategies and to determine feasibility and ease
+    of integration at a given site. \n"
+  :featured_image:
+    :id: 3A5PaEiOYgA6cOO8gA8Ay4
+  :share_image:
+    :id: 4CZYOKYKlyyE6eOieO2o6w
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 2wDfIlF1QY2e6u88acqkMY
+  - :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2vJopokP6008c6MsUIi6MY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2016-11-23T21:37:50+00:00'
+    :created_at: '2016-11-23T21:37:50+00:00'
+    :id: 2vJopokP6008c6MsUIi6MY
+  :title: Mirth Connect and Vulnerability Scanning
+  :slug: mirth-connect-and-vulnerability-scanning
+  :pub_date: !ruby/object:DateTime 2014-12-31 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :summary: Periodic tips and tricks about Mirth Connect and HL7 integration.
+  :blog_lead: 'We''ll be writing periodic tips and tricks about Mirth Connect and
+    HL7 integration. Follow us on twitter [@catalyzeio](https://twitter.com/catalyzeio)
+    for updates.
+
+'
+  :post: |+
+    We run weekly [vulnerability scans](https://policy.catalyze.io/#vulnerability-scanning-policy) on our Production servers to help ensure HIPAA compliance. Even though access to our interface engine server instances are restricted by VPN access, a hospital or vendor partner might be compromised and begin to attempt to execute malicious activities against our Mirth servers. As such, we need to create our own "gorilla" to make sure potential attacks on our Mirth boxes don't create undesired side effects.
+
+    The good news: Mirth out of the box is resilient to the attacks from Nessus, our vulnerability scanner. No dangers accrue, but there are considerations when using a vulnerability scanner to keep everything cool and kosher.
+
+    ### Password auditing and logging
+
+    Nessus on your box can log into Mirth. It doesn't get far, but it does flood your logs with garbage login attempts. Mirth only allows you to restrict login retries for a specific user, so the garbage isn't necessarily prevented. While this is harmless, if you want to lookup real user login audits you must tailor your search with Advanced search criteria like this.
+
+    (image: password-auditing.png)
+
+    ### Limit TCP attacks on your system
+
+    When Nessus finds an open port with open TCP connections, it attempts to grab maximum possible connections, then hit it with a litany of attacks. While the attacks themselves fail, it's not good if Nessus opens up all the TCP connections that you've allowed for a specific channel and then keeps them. When we realized what Nessus was doing, we took two proactive steps to solve the problem.
+
+    **Limit the number of simultaneous connections Nessus can use.** You shouldn't stop Nessus from accessing Mirth channels, but you don't want it to block out your customer connections either. Don't allow Nessus to open infinite connections on any given port/channel. You can do this by setting Max Simultaneous TCP Sessions / Host to a reasonable number. We went with 4. Ensure you have enough connections available on a channel to accommodate for your customer's channels and Nessus at any given time.
+
+    (image: limit-tcp.png)
+
+    **Kill connections after a specified period of time.** Nessus will keep used TCP connections for vulnerability scanning open after it's done testing. Finding enough connections is rather ugly. To fix this, change the default channel settings to kill connections after a set period of time, like 15 seconds.
+
+    (image: timeout.png)
+
+    **Optimize error handling.** A blank message or garbage message will error out on your channel, which should trigger your error handling. You may want to toss this towards a channel for processing in which you ignore errors or don't page the team when you get hit with something from your Vulnerability scanner.
+
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 3vvtEIgkNaOgQyWCcYuQ0Q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-14T18:32:19+00:00'
+    :created_at: '2016-11-23T21:57:56+00:00'
+    :id: 3vvtEIgkNaOgQyWCcYuQ0Q
+  :title: Start Mirth Connect as a Service on Boot
+  :slug: start-mirth-connect-as-a-service-on-boot
+  :pub_date: !ruby/object:DateTime 2015-01-20 00:00:00.000000000 Z
+  :tags:
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :categories_blog: healthcare
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: You want your Mirth Connect servers to be resilient to arbitrary reboots,
+    but did you know you can start/restart your Mirth engine as a Linux service?
+  :blog_lead: 'You want total uptime with your Mirth Connect servers. They should
+    be resilient to the problems that usually beleaguer the [healthcare cloud](https://datica.com/discover/healthcare-cloud/).
+    This includes arbitrary reboots. Arbitrary reboots are the currency of the cloud
+    and you should be prepared for them.
+
+'
+  :post: |+
+    Did you know you can start/restart Mirth Connect as a Linux service? I wouldn't be surprised if you didn't. I'm a big fan of RTFM, but you aren't really told in [the manual](http://info.mirth.com/rs/mirthnextgen/images/MConn_v3_0_1_UserGuide.pdf) or find it easily in a google search.
+
+    [Mirth](https://datica.com/blog/mirth-connect-and-vulnerability-scanning/) talks a lot about starting and stopping the service using the GUI, but you really want your servers to try to stand themselves up in the event of an unforeseen outage. This is pretty easy to setup.
+
+    First, if you were unaware, you can use mcservice (in Mirth 3.* anyways) like any regular Linux service with:
+
+    `service mcservice start|stop|status|restart|force-reload`
+
+    Your options are pretty self-explanatory. If you want to set mcservice to automatically start on start/reboot, you simply need to input:
+
+    `sudo update-rc.d mcservice defaults`
+
+    This will restart mirth on boot, which on a VM running SSDs usually occurs within seconds. If you have a setup like [Datica](https://datica.com/compliant-cloud/) where you have load-balanced, redundant servers ready to receive and process messages to incur a zero downtime outage. Otherwise, this should have you up and running again quickly and painlessly.
+
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 2vJopokP6008c6MsUIi6MY
+  - :id: 62z6JFrw08UkKsegycMyAQ
+  - :id: 7BC902tFlKQwC6YygGECKY
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

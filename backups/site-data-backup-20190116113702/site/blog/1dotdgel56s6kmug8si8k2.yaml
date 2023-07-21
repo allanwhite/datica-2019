@@ -1,0 +1,532 @@
+---
+:id: 1DoTDGEl56s6kmug8SI8K2
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T18:02:05+00:00'
+  :created_at: '2017-03-15T20:52:26+00:00'
+  :id: 1DoTDGEl56s6kmug8SI8K2
+:title: FHIR is No Longer Just a Concept
+:slug: fhir-is-no-longer-just-a-concept
+:pub_date: !ruby/object:DateTime 2017-03-15 00:00:00.000000000 Z
+:tags:
+- :id: 4WpqU1En6MsqmCEWweeCmO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:23:44+00:00'
+    :created_at: '2016-09-29T19:23:44+00:00'
+    :id: 4WpqU1En6MsqmCEWweeCmO
+  :tag_full: FHIR
+  :slug: fhir
+  :description: FHIR is the latest standard to be developed under the HL7 organization.
+    Pronounced 'Fire' , FHIR stands for Fast Healthcare Interoperability Resources.
+    I think it's the most interesting standard to have come out of HL7 since the original
+    HL7 protocol.
+  :url: https://www.hl7.org/fhir/
+- :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+- :id: qgckjVVwLQiyQcKsiyS6c
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-11T21:45:15+00:00'
+    :created_at: '2017-01-11T21:45:15+00:00'
+    :id: qgckjVVwLQiyQcKsiyS6c
+  :tag_full: EHR
+  :slug: ehr
+  :description: Electronic Health Records
+:categories_blog: healthcare
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: 'Mark Olschesky shares what he learned, saw, and enjoyed at the 2nd annual
+  HL7 FHIR Applications Roundtable. Hint: FHIR is fast becoming a reality.'
+:blog_lead: I recently traveled to Duke University to both attend and present at the
+  2nd [HL7 FHIR Applications Roundtable](http://www.hl7.org/events/fhir/roundtable/2017/03/).
+  This topped my must-attend 2017 events after I attended the first event last fall
+  in Boston. Here's what I learned, saw, and enjoyed at the applications roundtable.
+:post: "## A Recap of the HL7 FHIR Applications Roundtable\n\n### Datica's presentation\nI
+  presented a demonstration of Datica, highlighting how vendors and innovation groups
+  can use [Compliant Cloud](https://datica.com/compliant-cloud/) to build applications
+  that aggregate hospital registration and scheduling feeds along with vitals and
+  results from multiple organizations. They can then build the longitudinal patient
+  records in an easy to query method. Of course, the underlying data storage format
+  and query mechanisms are those provided by FHIR. It's an effective catalyst for
+  companies building a new product that relies on data integration, especially from
+  disparate sources. If you need to facilitate faster application development for
+  you or your team, let us know and we’ll schedule a demo.\n\n![MarkO-at-Duke-U-Med-interior-w.-DMU-logo](//images.contentful.com/189dvqdsjh46/MpnXJGu24MqkQo88WOWMu/f737b76a63cf82ad05e296baaa631752/MarkO-at-Duke-U-Med-interior-w.-DMU-logo.jpg)\n
+  \n### More live demos\nWhile the last FHIR Applications Roundtable featured many
+  \"conceptual\" demonstrations of applications, during this second roundtable we
+  saw more applications directly embedded into EHRs; presenters demonstrated their
+  apps within the Cerner and Epic EHRs. After this year’s presentations, I can say
+  with even more certainty that FHIR is for real.\n \n### Real-life use cases for
+  PHRs and patient-initiated interoperability\nPersonal Health Records (PHRs) have
+  existed for years, but often lacked true utility due to their inability to integrate
+  directly with EHRs and their associated patient portals. As such, most PHRs operated
+  via manual patient entry of their data into the PHR software. This had changed.
+  Multiple demos showed how PHRs could use SMART on FHIR to access data from multiple
+  EHRs and patient portals, all with permissions and scope set by the patient. Live
+  demos highlighted this functionality, including one given by Michele Mottini from
+  CareEvolution showing access of data from Cedars-Sinai My CS-Link (powered by Epic's
+  MyChart). As someone who operates primarily on the B2B side of interoperability
+  but yearned for real solutions around patient-initiated interoperability, seeing
+  that patients will have the ability to aggregate data from multiple portals and
+  hospitals soon is exciting. A hat tip to Epic and Cerner for making this happen.\n
+  \n### Need for API management\nA few vendors provided presentations on how access
+  controls could be layered on top of FHIR for more pragmatic management of FHIR resources.
+  It seems like [EMR vendors are remaining hands-off](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+  in this space, leading other vendors to rush in to fill the gap in API management
+  (including Datica!).\n \n### People from all sides of the healthcare technology
+  spectrum\nThe ability to talk to employees from startups, publicly-traded companies,
+  hospitals and payers, life sciences and pharma all in the same place is amazing
+  at the Apps Roundtable. Once again, [people are investing time and resources in
+  FHIR](https://datica.com/guide/fhir-for-health-systems/). A data standard is only
+  as good as its utility and more and more companies are pledging to utilize it. As
+  someone who wants to see interoperability improved through pragmatic standards-based
+  integration, this provides hope that we'll get there.\n\n### Duke is lovely\nAfter
+  things wrapped up on Wednesday, I meandered around the Medical School. Taking a
+  short walk from the hospital towards the Duke Chapel and Gardens on a nice sunny
+  day provided a peaceful environment only steps from the hospital.\n\n![MarkO-at-Duke-U-Med-exterior](//images.contentful.com/189dvqdsjh46/32c1t5oUPSUSScGW0UM2gi/175e508b0ac48fb5a8492063b591199b/MarkO-at-Duke-U-Med-exterior.jpg)\n\nDatica
+  is a proud member of the [HL7 organization](http://www.hl7.org/). Basing our integration
+  and data management approaches around standards like FHIR gives our customers the
+  best chance at being future-proof vs. proprietary data formats built by other vendors.
+  These HL7 events gives us a first-hand look at what others are working on and how
+  we can help make that happen with Datica Compliant Cloud.\n\n*Get the guide to open
+  data models and learn how to fuel transformation in your health system or hospital.
+  Download [What Health Systems Can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/)
+  today.*"
+:featured_image:
+  :title: blog - FHIR not a concept anymore (Marko)
+  :description: featured, blog, poster
+  :url: "//images.ctfassets.net/189dvqdsjh46/2dsCn5UQ5e4Yu0oyq0m6Um/4c065dd388c3a042c259eafc14118c7a/03-15-17-FHIR-not-a-concept-anymore-_Marko_.jpg"
+  :_meta:
+    :updated_at: '2017-03-15T18:49:53+00:00'
+    :created_at: '2017-03-15T18:49:53+00:00'
+    :id: 2dsCn5UQ5e4Yu0oyq0m6Um
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light
+:related_entries:
+- :id: 6jA6tzvdG886cyim8eGISg
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-02-08T01:38:37+00:00'
+    :created_at: '2016-12-20T19:26:24+00:00'
+    :id: 6jA6tzvdG886cyim8eGISg
+  :title: 'Micky Tripathi: a FHIR-side Chat'
+  :slug: micky-tripathi
+  :pub_date: !ruby/object:DateTime 2016-07-22 00:00:00.000000000 Z
+  :tags:
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :guest:
+    :id: 1asL7Fj3xAcSUYGW6UEoUm
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275676666&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: 'In this episode, Travis Good, MD conducts a FHIR-side chat with Micky
+    Tripathi, President and CEO of the Massachusetts eHealth Cooperative. The two
+    discuss the upsides and down-sides of the new data standard and dig into the predictions
+    around availability of use case applications and FHIR tools, as well as app portability
+    enabled by FHIR. Despite what many feel about FHIR’s ability to solve all aspects
+    of the interoperability puzzle, Tripathi uses his humor to illustrate how misplaced
+    those sentiments might be. Listeners will also be treated to Tripathi’s thoughts
+    of who the industry dark horse may be in solving the problem with patient-generated
+    data. '
+  :key_takeaways: |-
+    1. Discover why other vertical developers have avoided developing within healthcare and why FHIR changes that
+    2. Get the inside scoop on timing of FHIR production use case estimates
+    3. Become educated on what FHIR won’t help you solve
+    4. Learn more about the Argonaut Project and the role it plays with the new standards development
+  :post: |-
+    **On why FHIR changes things for one developer outside of healthcare:** "THAT I can work with. I look at it and it’s a language I can read; it’s something that I’m happy to build to, because it makes complete sense with the way I’ve been doing internet technology in other sectors."
+
+    **On why those outside healthcare start with patient facing apps:** "They seem to approach it from the patient perspective, in part because they are not working from the inside out, so that’s their point of access in the healthcare system."
+
+    **On predictions around production timing:** "I think we’ll start to see that as people get certified to meet a particular use case related to a consumer-facing API, we’ll put more and more specific things into production, maybe later this year and certainly in 2017. There’s increasing demand that I’m always surprised by.
+
+    **On the Argonaut Project:** "We have a growing an implementation community, which is 90+ organization who have enrolled in the implementation community. I don’t want to pretend that we have 90 active participants every week. That’s the reality of these kinds of things — there’s a lot of interest and participation at different levels, according to what their needs are."
+
+    "The whole purpose of the Argonaut Project was to say let’s take the work that is being done at the standards level and see what we can do to accelerate a subset of the broader FHIR that’s being developed through the standards development organization HL7."
+
+    **On what FHIR won’t solve:** "The things that [FHIR] won’t solve is disincentives or lack of incentives that exist in the market for exchanging information in the first place. It doesn't solve any of those things."
+
+    **On whether FHIR will replace HL7 version 2:** "One thing I can say with confidence is even if it does, it's going to be a very long transition process. I think we'll have version 2 point-to-point interface transactions in place for a long time, in part because they are pretty rock solid and they work, and they are in place today. It's the classic "if it's not broken, don't fix it."
+
+    **On the key stakeholder who might put patient-generated data to use:  "**Everyone wants to upload their FitBit data somewhere and they are discovering that their doctors really don't want it. What if CVS said, ‘Send your FitBit stuff to me. I have a team of epidemiologist and others and fancy algorithms that will do a lot of the signal-to-noise analysis and you tell us who your PCP is and we will tell your PCP when we see something that they should be concerned about.’ And then patients trust CVS even more and they are tied in even more with CVS."
+
+    ----
+
+    If this podcast leaves you wondering about this new data standard, [learn more about FHIR](https://catalyze.io/fhir) here in less time than a coffee break.
+- :id: 7qQTaLKmGsaQEKYYOs0ykw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-15T19:16:02+00:00'
+    :created_at: '2016-11-23T22:18:35+00:00'
+    :id: 7qQTaLKmGsaQEKYYOs0ykw
+  :title: Datica's New FHIR Documentation is Your Trusted FHIR Resource
+  :slug: catalyzes-new-fhir-documentation-is-your-trusted-fhir-resource
+  :pub_date: !ruby/object:DateTime 2015-06-12 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: 'Standing for Fast Healthcare Interoperability Resources, FHIR, originally
+    inspired by Graham Grieve, is the latest touchstone to be developed under the
+    HL7 conglomerate. '
+  :blog_lead: 'Standing for Fast Healthcare Interoperability Resources, FHIR, originally
+    inspired by [Graham Grieve](http://www.healthintersections.com.au/), is the latest
+    touchstone to be developed under the HL7 conglomerate. And, in popular opinion,
+    is the most likely of all HL7 standards to be embraced as a widely implemented
+    solution. That is why Catalyze is proud to bring you our new [FHIR Documentation](https://fhir.catalyze.io)
+    as your #1 FHIR resource  as we remain an industry leader on HIPAA compliant integration.
+
+'
+  :post: "In our documentation we discuss what makes FHIR so promising—starting with
+    what makes its foundation solid:\r\n\r\n- A simpler way to exchange data without
+    the inflexible workflow of other HL7 standards.\r\n- Utilization of a direct RESTful
+    style.\r\n- The heavy emphasis on connectathons, convention and referral implementations,
+    etc. as an integral part of the FHIR process.\r\n- Focus on targeting almost all
+    common use cases in contrast to the minority of exceptions.\r\n\r\nBut even more
+    valuable and important than the technical factors that create its base are the
+    components that FHIR addresses that enables persons to generate and reserve more
+    funds with the key operators being:\r\n\r\n- Medical device integration\r\n- Mobile
+    healthcare applications + the cloud\r\n- A highly flexible and customizable workflow\r\n\r\nFHIR
+    realistically could be the pilot for new and improved efficiencies. For vendors
+    like Catalyze, FHIR brings new opportunity to offer value to our business partners,
+    and for the end users, FHIR will provide leading-edge methods for streamlining
+    patient care and lowering the final costs. \r\n\r\nFor all of this and more, go
+    check out our [FHIR Documentation](https://fhir.catalyze.io) and subscribe to
+    our [twitter feed](https://twitter.com/catalyzeio) to stay up to date on what
+    you need to know.\r\n\r\n"
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 3kabC1VofumgW6owKmIkqG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:03+00:00'
+    :created_at: '2017-02-24T22:33:57+00:00'
+    :id: 3kabC1VofumgW6owKmIkqG
+  :title: 'Reflections on HIMSS 2017: Same Same, but Different'
+  :slug: reflections-on-himss-2017-same-same-but-different
+  :pub_date: !ruby/object:DateTime 2017-02-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The buzz at HIMSS 2017: analytics, machine learning, AI, cyber-security,
+    patient-centered care, and open data were a few themes we saw this year.'
+  :blog_lead: "[HIMSS 2017](http://www.himssconference.org/) is done. It’s time for
+    the outpouring of commentaries on the event. And, amazingly, it’s already time
+    to be thinking about next year if you’re an exhibitor. I realize the big companies
+    do this but, at Datica, we too are planning and already booked our booth for next
+    year. Thankfully we got a good booth space on the top floor and not in the basement
+    (Vegas needs 2 levels to support HIMSS whereas Orlando only needs one massive
+    level)."
+  :post: "\n## Major Themes\n\nYou could have predicted these going into the event
+    based on the sessions and promotional material.\n\n- **Analytics / machine learning
+    / AI**. If I was to only pick one theme this year, this would be it. From Watson
+    to Health Catalyst to the population health offerings of pretty much every EHR
+    vendor, some form of analytics was woven into everything this year. Like patient
+    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    is seen as a major part of the future of care. Analytics does hold amazing potential
+    but, like patient engagement, health systems need to develop strategies for how
+    and where to use analytics if they are going to be successful. Analytics for analytics
+    sake won’t help. Understanding the problems to solve or questions to answer with
+    analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
+    health data goes digital, and more and more digital health data is generated by
+    sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
+    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    Cybersecurity is an essential part of digital health, just like cloud is an essential
+    part of digital health. This should be a recurring theme of HIMSS as the next
+    10 years are going to be defined by healthcare moving data between new technologies
+    and between new partnerships.\n- **Patient-centered care**. This is the one I
+    wasn’t sure if I should include because I feel like some variation of this has
+    been a recurring theme. I guess being a constant theme still makes it a theme.
+    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    maybe because it has been a constant theme, is starting to mature. Services need
+    to be centered on patients, and many of those services will be technology driven.
+    The reason for services need to be patient-centered is 1) that’s what patients
+    expect today and 2) that is what providers, payors, and life sciences need to
+    do to compete for patients, members, and customers. I think we’ve swung back from
+    the days when we thought B2C, or going direct to consumer, would work across most
+    patient populations. Groups like Healthgrades still own a lot of consumer health
+    traffic but integrating those consumer tools with providers and more formal care
+    is also a part of patient centricity. \n- **Open data**. This one definitely isn’t
+    new. I remember hearing [Todd Park beating the drum about *data liberación*](http://healthstandards.com/blog/2015/06/23/data-liberacion/)
+    back in 2011. It only took three more years for most EHR vendors to start to get
+    behind a new standard called FHIR and another three or so years, until today,
+    when EHRs are ready to expose data via FHIR. I’m bullish on FHIR as a potential
+    data standard but highly skeptical of FHIR as a path to open data and innovation.
+    We have projects like Argonaut driving towards new ways to use FHIR so we’ll have
+    to wait and see how those develop. The overwhelming sentiment around open data
+    is that access to data, ideally in a trusted and consistent bi-directional way,
+    is the only way to build the technology ecosystem that’s needed to put patients
+    at the center of care and start to drive towards the [triple aim].\n\n## Same
+    same, but different\n\nThere’s a saying I first heard in Thailand and use from
+    time to time - [*same same but different*](https://en.wikipedia.org/wiki/Tinglish).
+    I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
+    back, looking at HIMSS as a whole, it felt like we had simply transported all
+    the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
+    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    happened. The Athena party happened. Lots of bankers parties with better food
+    and drink options. Uber didn’t work well. Restaurants were full all the time.
+    Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
+    like HIMSS.\n\nBut then, in other ways, it felt very different from previous years.
+    The impression I got, on a consistent basis, is that people are burned out on
+    the status quo. People are tired of HIMSS being the same year after year. People
+    are tired of \"doing things to check boxes\", a reference to buying EHRs to get
+    money from Meaningful Use, and \"want to really start making things happen\".
+    These quotes are from people at large health systems, people in the same roles
+    that would have said something like \"Epic is going to do that\" when asked about
+    patient engagement or population health or pretty much anything health IT just
+    a few years ago. These are decision makers at the core of the health IT industry
+    and not just startups and investors. The tide has very clearly turned in the industry.\n\nThis
+    is exciting! It will take time to see how quickly this sea change practically
+    takes hold and we start to see more and more digital health technologies adopted
+    and scaled at health systems. But, the process is starting and big systems are
+    developing strategies and processes for the next 3-5 years. And, maybe the most
+    shocking part, especially compared to several years ago, is that health systems
+    are looking outside their EHR vendors for the future of health IT.\n\n*Want to
+    learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
+    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    podcast series.*\n\n\n"
+  :featured_image:
+    :id: 6l7x9mycV2K66sSeIUYaIW
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

@@ -1,0 +1,592 @@
+---
+:id: f7teOq2J7acGGGyS8CQWA
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:42+00:00'
+  :created_at: '2017-01-16T17:41:30+00:00'
+  :id: f7teOq2J7acGGGyS8CQWA
+:title: HIPAA 101 A primer
+:slug: hipaa-101-a-primer
+:pub_date: !ruby/object:DateTime 2018-03-21 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: 'The HIPAA acronym stands for the Health Insurance Portability and Accountability
+  Act. This HIPAA primer covers HIPAA 101 basics, meaning, entitities, etc. '
+:post: |-
+  This article assumes no prior knowledge of HIPAA and is meant to present a very high level snapshot of what HIPAA is and who it impacts.
+
+  HIPAA stands for the **H**ealth **I**nsurance **P**ortability and **A**ccountability **A**ct. If you're not familiar with HIPAA, or you haven't spent a lot of time in the healthcare industry, you may not realize that spelling "HIPAA" wrong is a running joke.
+
+  Most people, especially in IT, will have some story about a consultant or vendor delivering a report or sending emails with HIPAA spelled wrong. I can remember doing my first HIPAA audit at HCA as a consultant, way back before I went to medical school or knew what an EHR was, and having to do a find-and-replace to assure we caught any misspellings of "HIPAA" before submitted the report to HCA. Just remember it's **not** like "hippo", there's only one "P".
+
+  What's interesting about the acronym "HIPAA" is that the "P" in HIPAA does not stand for "privacy" and the "I" does not stand for "information". It's interesting because the general perception of HIPAA, which is accurate, is that it's main purpose to to "protect" health "information". The reason for this perception is that the protection of health information is essential to avoid financial penalties for breaches and non-compliance. While much of HIPAA, especially as it is enforced by compliance officers to avoid financial risk, is about securing data, HIPAA also sets rules around how data is exchanged between systems and how authorizations are done to allow for access to individual medical records.
+
+  The one other essential acronym with HIPAA is "PHI". [PHI stands for **P**rotected **H**ealth **I**nformation](https://catalyze.io/learn/what-is-protected-health-information-or-phi). PHI is often referred to as "personal health information", which is a pretty accurate description of PHI. PHI is pretty simple - it's the combination of a personal identifier (name, DOB, SSN, IP address, email, etc) with some health-related data (condition, medication, lab, encounter, health payment, etc). PHI warrants a larger discussion but for now it's important to know the term so we can start using it. See [this blog post](https://catalyze.io/blog/what-is-protected-health-information-or-phi/) for a deeper insight.
+
+  Getting back to HIPAA - the spirit of HIPAA is pretty simple - 1) to secure and protect personal health information and 2) to enforce standards for electronic transactions in healthcare. Specifically, HIPAA has three main parts, summarized below:
+
+  1. **HIPAA Privacy Rule**. This portion of HIPAA deals with protection, access, and authorization related to PHI. It sets rules for when and how PHI is disclosed. It also gives individuals ownership of their health records, as well as the right to access them and request corrections to them.
+
+  2. **HIPAA Security Rule**. The Security Rule sets standards for the security of technology used to access, store, transmit, or process PHI. It is concerned with electronic PHI, or ePHI. It operationalizes much of the Privacy Rule. It's not always prescriptive in how to secure technology, and some aspects are left to interpretation. This section of HIPAA is the most relevant to app developers from a practical standpoint. One additional thing to know is that certain implementation specifications laid out in the security rule are either required, meaning you have to do them, or addressable. Addressable specifications are ones in which an entity needs to either 1) implement the specific implementation as written, 2) implement an alternative specification, or 3) not implement anything for that specific requirements because it is not reasonable or necessary to do so. As with most things in HIPAA, the important thing is that decisions related to addressable specifications are documented.
+
+  A quick side note on documentation - as we alluded to earlier, HIPAA is not prescriptive. Therefore, the general approach has been one of being able to show that the risk of data leakage / breach has been mitigated to the extent possible and the steps taken to do so documented (and updated when changed). These reams of documentation are in place so that in case of a breach, companies can show the extent to which safeguards were implemented.
+
+  3. **Administrative Simplification**. This area of HIPAA relates to the accepted coding for data exchanged in healthcare. The transactions this applies to are financial related (claims, eligibility, enrollment, etc). As the name implies, the intent is to make it administratively easier to exchange data by not having to keep track of an endless number of code sets. The common code sets range from X12 or NCPDP (pharmacy-related) and include DRG, ICD, CPT, NDC, SNOMED-CT, and LOINC amongst others.
+
+  The other aspects of HIPAA that are relevant as a starting point are the types of entities that HIPAA recognizes. Basically, entities fall into two broad buckets:
+
+  1. **Covered Entities**. Health systems, payers, and clearinghouses (process claims) fall into this category.
+
+  2. **Business Associates**. These, most likely you if you're reading this, are entities that provide services to covered entities and through those services access, transmit, process, or store PHI. Changes to HIPAA that went into effect in the fall of 2013 expanded the definition of business associate to include "subcontractors", or entities that provide services to business associates. A simple use case - a developer that builds a PHR for a hospital is a business associate, and the hosting provider that developer uses (ideally Datica) is a subcontractor. The developer signs a BAA with the hospital and as well as with the hosting provider, again ideally Datica.
+
+  So that's our intro. You now know more about HIPAA that 99.9% of the population. The rest of our articles go into much more depth on these topics but this is a great place to start.
+:related_guide:
+  :id: 6evss0t4I0IC2cQasg0K2O
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :title: Everything you need to know about HIPAA compliance
+  :slug: hipaa
+  :summary: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :subhead: A guide written by the authoritative voices on HIPAA compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: |-
+    Over the many years Datica has been providing HIPAA compliant cloud solutions to healthcare companies large and small, we have amassed a comprehensive understanding around what makes HIPAA confusing.
+
+    We have empathy for the anxieties you encounter and the confusion even veteran healthcare leadership confide within us. We understand the questions we are asked and the curiosities newcomers have. It is because of this unique position as HIPAA experts in the healthcare community that we decided to aggregate the most important topics into a condensed, easily digestible guide for those looking to quickly gain literacy around HIPAA.
+
+    The Datica guide to HIPAA compliance will answer all your nagging questions. Included in the guide:
+
+    - HIPAA Overview: The origins and intent of HIPAA
+    - Protected Health Information and why it is central to HIPAA
+    - Definitions of a Covered Entity, Business Associate, Subcontractor, and which apply to you
+    - The importance of Business Associate Agreements
+    - How to prove compliance
+    - Why HITRUST is critical
+    - Administrative vs. Technical safeguards and obligations
+    - How audits are done, including estimated costs
+    - Finally, a simple explanation to whether you need to be compliant and how you achieve compliance
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ea3f6ef3-bac2-4c1c-a26b-b2a93d1db2a1
+  :bg_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 17s5iFERjsQOOQeSci2kES
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 17s5iFERjsQOOQeSci2kES
+  :title: The HIPAA Privacy Rule
+  :slug: the-hipaa-privacy-rule
+  :pub_date: !ruby/object:DateTime 2018-02-06 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Privacy Rule is important to understand because it explains
+    the types of data, covered entities, and uses of data HIPAA is concerned about.
+  :post: |
+    ## Overview
+    The HIPAA [Privacy Rule](https://www.hhs.gov/sites/default/files/privacysummary.pdf) sets many of the terms used for HIPAA, outlines the types of entities that need to comply with HIPAA, defines appropriate uses or disclosures of health information, and also covers penalties for HIPAA violations. The Privacy Rule is important to understand, despite the fact that it doesn't include specific technical requirements or polices, as the Privacy Rule gives an understanding of the types of data, entities, and uses of data that HIPAA is concerned about.
+
+    ## Entities
+    The Privacy Rule defines two main categories of entities:
+
+    1. *Covered Entities (CEs)*. These are the traditional players in healthcare - providers, hospitals, health systems, insurers. For some reason clearinghouses are called out as they transform and process health information for payers and providers; the clearinghouse that I always think of is Emdeon.
+
+    2. *Business Associates (BAs)*. These are individuals and organizations that provide services and/or technology to covered entities. In the process of providing those services and technology, the business associate in some way process, transmit, or store protected health information (PHI). All software vendors in healthcare, if they somehow touch PHI, are business associates.
+
+    A third category of entity or, maybe more accurately, a subcategory of business associates was added in 2013 as part of the HIPAA Omnibus rules in the HITECH Act. The HITECH Act defined a subcontractor as an entity that "creates, receives, maintains, or transmits protected health information on behalf of the business associate." A subcontractor is a business associate of a business associate. It can be a hosting provider, an email delivery service (email address), or even an analytics platform (IP address), if it in some way touches PHI. At Datica, many of our customers are business associates and we are subcontractors for them so we meet the new definition of subcontractor.
+
+    The Omnibus Rule also defined a PHR vendor, offering a PHR through a covered entity as a business associate.
+
+    ## PHI + De-identifying
+    We devoted an entire post to "[What is PHI?](https://catalyze.io/learn/what-is-protected-health-information-or-phi)" because it's an incredibly important topic in HIPAA. It's basically personally identifiable data (name, email, phone, etc) combined with some type of health-related data (medication, diagnosis, provider name).
+
+    PHI can be de-identified by removing certain elements from the data, in a process called the [Safe Harbor](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance) method, or through "[expert determination](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#guidancedetermination)", which seems a bit fuzzy to us as it is ripe for interpretation. The idea with both methods for de-identification is to make it so you can't identify an individual from a data set (duh!).
+
+    ## Use or disclosing of PHI
+    PHI can only be disclosed for reasons defined by the HIPAA Privacy Rule, or with written permission by an individual about their own health information. Other than providing access to the individual to his/her medical record, the Privacy Rule allows for disclosing PHI for three main reasons:
+
+    1. *Treatment.* Probably the most obvious reason for disclosure, exchanging PHI between providers for treatment, management, and consultation happens all the time.
+    2. *Payment.* In order to collect payments from insurers, disclosure of PHI is essential.
+    3. *Operations.* We think of this as the catch-all bucket. It encompasses many administrative functions such as quality reporting and different types of operational analytics. This is also where disclosures for medical education fall in.
+
+    There are some other, more obscure, reasons for disclosures. The most relevant reasons left are for legal reasons ("required by law"), worker compensation, and for restricted research purposes, amongst others.
+
+    In some select cases – in particular, marketing – covered entities may disclose PHI but only with authorization from the individual.
+
+    ## Minimum necessary
+    One of the central tenants of HIPAA, as stated in the Privacy Rule, is minimum necessary use of PHI. The idea is relatively simple, don't disclose any information that is not necessary for the reason for which the information is to be used. For example, if you're trying to find out how much a patient owes for a particular procedure, you probably don't need to disclose that patient's allergies. In healthcare today, minimum necessary is usually observed by either specific HL7 or EDI X12 message types which confine the amount and type of data in a data exchange.
+
+    ## Notice of HIPAA Privacy Policies
+    Covered entities must provide individuals with a notice informing those individuals of their rights, as well as detailing other factors such as the protections the covered entity use to secure PHI. You probably remember getting and signing these every time you go to the doctor.
+
+    ## Penalties
+    The Office of Civil Rights (OCR), within HHS, is responsible for enforcing the HIPAA rules. In addition to civil (financial) penalties, there are criminal penalties for knowingly disclosing PHI or obtain PHI in violation of the HIPAA Privacy Rule.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 7rqrnw1soEOS4QEeAC0c8q
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 3xrZxi1Z8caYQOG0EagsGo
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:30+00:00'
+    :id: 3xrZxi1Z8caYQOG0EagsGo
+  :title: What is HITRUST?
+  :slug: what-is-hitrust
+  :pub_date: !ruby/object:DateTime 2018-05-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :summary: HITRUST certification by the HITRUST Alliance enables vendors and covered
+    entities to prove HIPAA compliance based on a standardized framework.
+  :lead: |-
+    > The reason a lot of people do not recognize opportunity is because it usually goes around wearing overalls looking like hard work. – Thomas A. Edisons
+
+    The term “HIPAA compliant” gets thrown around a lot—by vendors, consultants, developers, audits, and others. The problem with the free flowing nature of the term is that “HIPAA compliant” is subjective. The only way to [prove](https://catalyze.io/learn/proving-hipaa-compliance) compliance is to complete—and pass—an external audit, preferably one conducted by a reputable audit firm with HIPAA experience.
+  :post: |-
+    Because of the subjective nature of HIPAA and variability in audits (as a former info sec auditor I feel qualified in saying that), [covered entities](https://catalyze.io/learn/the-hipaa-privacy-rule) have a hard time assessing compliance and security for external vendors as well as internal projects (think innovation groups and research). Oftentimes the result is a re-invention of the wheel every time a vendor sells to a new covered entity and every time a covered entity assesses the security of a new vendor. It’s incredibly inefficient and ripe with opportunities to miss things; missing things with security and compliance expose covered entities to significant risk. Enter HITRUST, an industry-driven effort to standardize on a common, certifiable framework to benefit both vendors and covered entities.
+
+    <div class="row">
+        <div class="columns small-12 large-6">
+            <img src="//images.contentful.com/189dvqdsjh46/65WY3n4gMgYyEgEUOYou0e/6363083f85e47d3f004dc948c8403a87/academy-slide1.png" alt="audit requirements">
+        </div>
+        <div class="columns small-12 large-6">
+            <img src="//images.contentful.com/189dvqdsjh46/2Up0JnEQQwEyey2OgweGE2/857837e2201d9e34bf33ae59753d4c15/academy-slide2.png" alt="audit reports">
+        </div>
+    </div>
+
+
+    ### Introduction to HITRUST
+
+    [HITRUST](https://hitrustalliance.net/about-us/), or the Health Information Trust Alliance, is actually not a framework at all, but the organization that created and maintains the Common Security Framework, or [CSF](https://hitrustalliance.net/hitrust-csf/). The CSF, currently in version 7, is a certifiable framework that brings together, or harmonizes, several other compliance frameworks and standards including HIPAA, PCI, ISO, and NIST. By “harmonize” the CSF maps all of those standards together, with the CSF as the central mapping key.
+
+    According to its website, HITRUST, and its corresponding CSF, “was born out of the belief that information security should be a core pillar of, rather than an obstacle to, the broad adoption of health information systems and exchanges.” Security and compliance are a key part of the success of health technology; they cannot be ignored or treated as an afterthought. Without a standardized framework, process, and certifying body, HIPAA is often an obstacle for healthcare technology. HITRUST is an attempt to help vendors better prove their security and to help covered entities streamline security and compliance reviews of vendors. In that attempt, HITRUST is succeeding. More and more health systems are asking for HITRUST and vendors that have it are moving more quickly through the process with covered entities.
+
+    ![academy-slide3](//images.contentful.com/189dvqdsjh46/6TONan7aSsEsqe6OWGMsy6/8383cf386469cb881c6ea4a0d41c6104/academy-slide3.png)
+
+    (Image credit: [HITRUST CSF Assurance Program](https://hitrustalliance.net/content/uploads/2014/04/BA-1-Understand-the-CSF-and-CSF-Assurance-Program.pdf))
+
+
+    ### CSF Domains and Controls
+
+    The CSF is divided into 19 different domains. In contrast to HIPAA, the CSF does not create broad buckets like Administrative and Security controls.
+
+    * Information Protection Program
+    * Endpoint Protection
+    * Portable Media Security
+    * Mobile Device Security
+    * Wireless Protection
+    * Configuration Management
+    * Vulnerability Management
+    * Network Protection
+    * Transmission Protection
+    * Password Management
+    * Access Control
+    * Audit Logging & Monitoring
+    * Education, Training & Awareness
+    * Third Party Security
+    * Incident Management
+    * Business Continuity & Disaster Recovery
+    * Risk Management
+    * Physical & Environmental Security
+    * Data Protection & Privacy
+
+    In addition to the above domains, HITRUST has 135 specific controls.
+
+
+    ### CSF Levels of Implementation
+
+    For each of the 135 controls defined by HITRUST, there are 3 distinct implementation levels. Each implementation level builds on the one below - level 2 includes all of level 1 plus additional requirements, level 3 includes all of level 2 plus additional requirements. So technically level 3 is the most stringent set of requirements. Most organizations have varied levels of implementation for different controls and are not just level 1 or 2 or 3 across the board.
+
+    I think this is the area in which there is the most confusion about HITRUST, or at least the area in which we get asked most about our own HITRUST CSF Certification. The start of every HITRUST assessment, regardless of the type of assessment (see Degrees of Assurance below for more on that), is gathering information about the entity being assessed. This information is used to assess the organization, system, and regulatory requirements for the assessment. Conceptually, the risk or scope of the assessment is being determined.
+
+    This step is also written into HIPAA but is not a part of most assessments. HIPAA allows for controls that are reasonable and appropriate. In the words of HHS `An important step in protecting electronic protected health information (EPHI) is to implement reasonable and appropriate administrative safeguards that establish the foundation for a covered entity’s security program.` Most HIPAA assessments are one size fits all because there is no framework to interpret `reasonable` and `appropriate`; in the end, it’s likely a good thing that those aren’t interpreted.
+
+    In determining the implementation level, HITRUST dynamically sets requirements for each organization and each assessment. Like the CSF more broadly, it’s a standardized process for determining implementation level.
+
+
+    ### CSF Degrees of Assurance
+
+    HITRUST offers 3 different Degrees of Assurance, which are essentially levels of assessment. The Degrees of Assurance align with cost, level of effort, amount of time, and rigor. Each level builds on the one below. For reference, Datica has completed a CSF Certified assessment, which is the highest Degree of Assurance.
+
+    The following options exist for Degrees of Assurance, starting with the least cost, effort, time, and rigor.
+
+    1. **Self Assessment.** This is simply an organization completing CSF on its own. It is valuable, typically as an internal tool for the organization, because it’s done again a standardized framework. There are no external parties that verify any aspects of the assessment. It results in a HITRUST issued CSF Self Assessment Report.
+
+    2. **CSF Validated.** This, and the CSF Certified option below, requires a 3rd party CSF Assessor to verify the information gathered by the organization completing the assessment. The CSF Assessor is [approved](https://hitrustalliance.net/csf-assessors/) by HITRUST. This Degree of Assurance requires an onsite visit by the CSF Assessor. HITRUST reviews the completed and validated assessment and issues a Validated Report as the outcome.
+
+    3. **CSF Certified** Similar to the CSF Validated assessment, the organization undergoing the assessment is granted a HITRUST CSF Certification that is good for two years. The major differences for this Degree of Assurance is that the organization granted HITRUST CSF Certification meets all of the certification requirements of the CSF. This builds on the CSF Validated assessment in that HITRUST reviews and certifies the entries of the organization and the validation of the 3rd party assessor. In the case of Datica, this final step for certification took 3-4 months.
+
+
+    ### PCI for Healthcare
+
+    There are parallels between HITRUST and PCI. For those that are not familiar, PCI is the compliance framework for the financial and payments processing industry. Achieving PCI compliance is very involved, similar to a Certified HITRUST Assessment. Whereas HIPAA was written and is technically enforced by the federal government (HHS specifically), the CSF was written and is maintained by HITRUST, which is [governed](https://hitrustalliance.net/about-us/board-directors/) by a representative body from the healthcare industry.
+
+    In many ways, HITRUST is an attempt by the healthcare industry to create a standardized, PCI-like certification. In terms of enforcement, the healthcare industry, as opposed to HHS, is meant to enforce HITRUST by requiring Certified Assessments of business associates and subcontractors. There are still gaps in adoption within the healthcare industry, but the tide is clearly turning as more and more entities are expecting vendors to be HITRUST CSF Certified.
+
+
+    ### HITRUST vs HIPAA
+
+    As mentioned above, HITRUST builds on HIPAA. It takes HIPAA, a non-standardized and non-prescriptive compliance framework, and creates a standardized compliance framework, assessment, and certification process for the healthcare industry. In the process it “harmonizes” HIPAA with other compliance frameworks such as PCI and NIST. HITRUST also adapts requirements for certification to the risks of an organization based on organizational, system, and regulatory factors.
+
+    As opposed to HIPAA, which has defined penalties for security breaches, the enforcement of HITRUST is dependent on the healthcare industry itself, typically covered entities like hospitals and payers, requiring HITRUST CSF Certification of vendors. HITRUST has gained adoption quickly in healthcare and we are seeing it more and more as an expectation for vendors. While not always required as a step in implementing a new technology, HITRUST certainly streamlines the security and compliance step in the implementation process.
+
+    Having been through both HIPAA audits and a Certified CSF Assessment, it is safe to say that HITRUST CSF Certification is a much more rigorous process, with a higher burden of proof put on the organization trying to achieve certification, than a HIPAA audit. Achieving HITRUST CSF Certification requires significantly more time, effort, and resources than a HIPAA audit. Being HITRUST CSF Certified should be seen as a more significant badge for security and compliance than completing a HIPAA audit.
+
+    If you are considering or have completed a HITRUST assessment, feel free to [reach out](mailto:hipaa@datica.com) with questions or feedback.
+  :related_guide:
+    :id: 1t0tIH6KWIyWAAk6iS2Se2
+  :related_entries:
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 3lJNN0q4FWgqoYWGGWKGUg
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:40+00:00'
+    :created_at: '2017-01-16T17:41:29+00:00'
+    :id: 3lJNN0q4FWgqoYWGGWKGUg
+  :title: Introduction to FHIR
+  :slug: introduction-to-fhir
+  :pub_date: !ruby/object:DateTime 2018-05-16 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :summary: 'The FHIR acronym stands for Fast Healthcare Interoperability Resources.
+    FHIR is a new open sourced interoperability standard of the HL7 organization. '
+  :lead: FHIR (Fast Healthcare Interoperability Resources) is a new and emerging standard
+    being developed under the auspices of the [Health Language 7](https://hl7.org)
+    (HL7) organization. [(View a primer on HL7.)](https://catalyze.io/learn/hl7-101-a-primer)
+    Pronounced as 'Fire', it was initially developed by [Graham Grieve](http://www.healthintersections.com.au/),
+    who insisted FHIR be open sourced. At its core, FHIR is intended to be **the**
+    next generation of healthcare interoperability. It tries to combine the best features
+    of HL7 Version 2 and Version 3, in which Grieve was significantly involved.
+  :post: |2-
+
+    ### Why FHIR?
+
+    The current state-of-the-art in healthcare integration and interoperability is based on HL7, and is a serious mess. Organizations today spend upwards of $5000 to $10,000 per HL7 interface, not to mention serious licensing fees to implement and use integration engines. All of which raise the interesting question of, "Wait, if they are all based on a standard, why do I need an integration engine?" For two reasons:
+
+    1. HL7 is a standard but it is not an **open** standard. You need to be a member of the HL7 organization and pay  fees before using the content in any commercial fashion.
+    2. HL7 is an ancient standard: [Wikipedia](http://en.wikipedia.org/wiki/Health_Level_7) notes that it was developed in the late 80s when a lot of things we take for granted now didn't exist - mobile numbers, emails, NPI (national provider identifiers), APIs...
+
+    What resulted was a lot of "I'll just do it **this** way", causing an explosion of HL7 variants. This, in turn, led to the need for interface engines where additional logic needs to be coded to accommodate those *"this-way"* variants and other healthcare specific use cases. That led to the bigger problem that integration and logic is now embedded into the data transformation process. Change your source system (upgrade, replace, etc.) and your integration falls apart. Need more data than you're currently getting, well, it's back to the integration engine again. Oh, by the way, there is no concept of CI / CD (continuous integration, continuous deployment) in the context of integration engines. Often developers make changes in production directly, which is also why healthcare institutions are very cautious about providing access to systems sending data to any external system, no matter the value. And for good reason, as you can imagine.
+
+    #### A better, more modern approach to integration and interoperability
+
+    FHIR has an ambitious goal. Integration capabilities should be built into the EHR itself along with the other aspects of authentication and security. Over time, this will eliminate the need for expensive integration projects and licenses. Additionally, the use of modern concepts such as [RESTful APIs](http://en.wikipedia.org/wiki/Representational_state_transfer) and accompanying documentation will make it much easier for developers and applications to quickly connect and get the data needed. From a design perspective, the general principle is that since healthcare is complicated, creating a standard set of models which are transactional in nature (like HL7) has been shown to be problematic. Therefore, creating core models (like patients, for example), having standardized data models around those core elements, and ensuring that most, if not all, use cases can be addressed by allowing requests to be **composed** as needed.
+
+    Given the above, FHIR does offer many improvements over existing standards:
+
+    - **It's open source**: This is a big deal and the first effort in making healthcare integration more transparent and accessible. Putting it out in the open has created a significant community including developers, vendors and enterprises.
+    - **RESTful**: REST-based design brings a significant amount of benefit, namely that an API that adheres to the principles of REST does not require the client to know anything about the structure of the API. Rather, the server needs to provide whatever information the client needs to interact with the service.
+    - **Extensible**: Extensibility under the RESTful context ensures that additions can be easily tacked on to cover specific use cases without impacting the core models.
+    - **Composable**: Composability ensures that almost any request can be cobbled together using core models or resources and associated extensions.
+    - **Good documentation**: Uniquely driven by the RESTful API approach, which enforces good documentation as a byproduct. A playable version of the FHIR APIs would be a nice to have and is something that we, at Datica, intend to provide as part of this documentation.
+    - **Support for modern web standards**: XML, JSON, HTTP, Atom, OAuth, REST - these are the underlying technologies that FHIR leverages. These are battle tested and have been proven at scale and under significant security requirements.
+
+    #### Flexibility without modifying underlying systems or integration engines
+
+    As described earlier, various healthcare workflows (e.g. z-segments in HL7) that forced extensions of standards is one of the biggest challenges with older integrations. Underlying systems required code changes to generate specific datasets and additional work on the integration engine to support the data processing. All this made it very cumbersome to create and manage integrations with any changes in the underlying source systems (e.g. upgrades etc.), causing a significant amount of rework.
+
+    FHIR addresses this by:
+
+    - **Focusing on ease of implementation**: Implementation is very different from most standards where the focus is typically more on coverage and data models. FHIR is interesting because the focus has been on ease of implementation from the beginning, including backwards compatibility. Multiple implementation libraries have also been provided in Java and .NET, among others, along with many examples to kick-start development. The website claims "multiple developers had simple interfaces working in a single day", which is unheard of in healthcare.
+    - **Easy extensibility**: FHIR solves extensibility challenges by defining a simple framework for extending and adapting the existing resources. All systems, no matter how they are developed, can easily read these extensions and extension definitions can be retrieved using the same framework as retrieving other resources.
+    - **Human readability**: HL7 3.0 had a concept of a human readable version of the document / data being shared to ensure that developers or clinicians could still read the source data to eliminate any potential of misconfiguration or coding errors. FHIR borrows this concept as well. Every resource carries a human-readable text representation using html as a fallback display option. This is particularly important for complex clinical information where many systems take a simple textual/document based approach.
+
+    ### Advantages over existing standards, e.g. HL7
+
+    - **Pipe delimited vs. JSON, XML...**: No further discussion is required. This approach makes it more easily usable, understandable and testable.
+    - **Security**: HL7 as a protocol doesn't have security and authentication built into it. To be fair, HL7 was always meant to enable intra-system communication, like between lab systems and an EHR. All of which were within a health system's firewalls. Therefore authentication wasn't really needed. The evolution of healthcare has made care delivery more dispersed, which is why HL7 is beginning to show it's gaps. FHIR leverages (or is in the process of defining) modern https based authentication and authorization capabilities such as OAuth, which are prevalent in the modern web and have been battle tested over the years.
+    - **Flexible and composable**: The FHIR design allows developers to combine requests to create any interface or extend resources (with associated definition) and "tack" them onto pre-defined resource models. [(More on the Resource Object here.)](https://catalyze.io/learn/the-fhir-resource-object-the-core-building-block) No coding up the underlying systems or touching interface engines required.
+
+    ### Status and challenges
+
+    FHIR is still a work in progress. It does have a few advantages.
+
+    #### Significant industry support
+
+    Individual developers and other organizations have contributed sample implementations, like [HAPI-FHIR](http://jamesagnew.github.io/hapi-fhir/) and many more. Plus a significant group of enterprises have come together under the auspices of HL7 with the moniker of "Argonaut Project". This group includes EHR vendors and health systems such as
+    - athenahealth
+    - Beth Israel Deaconess Medical Center
+    - Cerner
+    - Epic
+    - Intermountain Healthcare
+    - Mayo Clinic
+    - Meditech
+    - McKesson
+    - Partners HealthCare System
+    - SMART at the Boston Children’s Hospital Informatics Program
+    - The Advisory Board Company
+
+    #### It's a work in progress
+
+    Despite significant industry support, it is unlikely widespread implementations of FHIR will be seen until the 2016-2017 timeframe because definitions and specifications are still in progress, implementations are still underway and more EHR software changes are likely required.
+
+    #### Security is still an open item
+
+    Security with FHIR is incomplete. Authentication before Authorization or vice versa? Conformance and associated profiles per link? Is there to be an API route to call to verify that? Is that route open to everyone?
+
+    #### Not real-time
+
+    Currently the biggest gap, FHIR is not a real-time protocol. In contrast, HL7 was always a real-time protocol. If someone was admitted to the hospital, all relevant parties were notified immediately via ADT.
+
+    FHIR is currently still a request based protocol. You ask if you need to know something such as _"Was this person admitted to the hospital?"_, which makes sense from a patient app perspective, but not so much from a workflow perspective. Webhooks are optional additions, but begs the question _"Why can't we just FHIR enable HL7?"_ The Datica answer is, _"Yes, indeed. It should."_
+
+    #### Granular resource model can become request intensive
+
+    ADT (and other HL7) messages were crafted with care to support hospital and ancillary system workflows. The flexibility and composability (described in the advantages section above) come at a cost. To get all the data that one normally expects from an ADT message would require a "bundle" of FHIR resources. This could get complicated and request-intensive quickly.
+
+    ### Summary
+
+    Overall, FHIR has a lot going for it. There are gaps but they are neither unexpected nor insurmountable. Stay tuned for updates as the FHIR standard evolves.
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

@@ -1,0 +1,13 @@
+---
+:id: 1qQjctb0KMoaCcE0mUgWyk
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-08-01T22:38:57+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: 1qQjctb0KMoaCcE0mUgWyk
+:title: Volume Backups
+:slug: nightly-backups
+:category: Core Compliance
+:feature_status: Current
+:summary: CKS will automatically backup all volumes contained in a cluster. These
+  backups are encrypted and cross region replicated.

@@ -1,0 +1,700 @@
+---
+:id: 7rqrnw1soEOS4QEeAC0c8q
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-08-07T22:41:10+00:00'
+  :created_at: '2017-01-16T17:41:33+00:00'
+  :id: 7rqrnw1soEOS4QEeAC0c8q
+:title: HIPAA Risk Assessment and Management
+:slug: hipaa-risk-assessment-and-management
+:pub_date: !ruby/object:DateTime 2016-01-12 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: A risk assessment – a HIPAA requirement – is the first thing to do since
+  it frames many decisions you'll make regarding your security posture.
+:post: |
+  Probably the first thing to consider when going down the path of compliance, or really the first thing to think about regarding security holistically, is to perform a risk assessment. A risk assessment is a requirement of HIPAA and it's really the first thing that should be done. The reason it's so important is because it frames many of the rest of the decisions you make regarding your security posture.
+
+  In the words of HHS - "Conducting a risk analysis is the first step in identifying and implementing safeguards that comply with and carry out the standards and implementation specifications in the Security Rule. Therefore, a risk analysis is foundational..."
+
+  From the HIPAA Security Rule - "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information held by the organization."
+
+  As part of the risk assessment you need to outline your core technology infrastructure. In that process you should do an inventory of all the systems that you manage. Then you need to map out which of those systems process, transmit, or store electronic protected health information (ePHI). For us that's the starting point for risk management strategy and a risk assessment.
+
+  The next step in a thorough risk assessment is to assess the various threats and vulnerabilities to your environment, and ultimately to the integrity of ePHI. These can be anything from physical threats, like breaking into a data center or a fire or natural disaster in your data center, to malicious software, like hacking into a system, to internal malfeasance, like an employee going rogue and breaking into your systems. You need to map out all of the possible threats and vulnerabilities.
+
+  For us, we map vulnerabilities specifically to HIPAA rules related to protection of ePHI. For each perceived vulnerability, we assess the likelihood and impact - with the product of those two factors producing the risk level. The impact is the potential of a risk leading to a PHI breach - or a loss of PHI - because there are issues around integrity of data in HIPAA. We also determine if that risk has been mitigated in some way by our current security posture and controls.
+
+  Once you know the infrastructure, risks, and threats/vulnerabilities, the next step is to mitigate the risks that exist and have not been fully mitigated by current security controls. Not all risks can be 100% mitigated. There are typically gaps in almost all risk assessments because if you do a risk assessment you will get a ton of different variables - not just the obvious ones at the top of your head right now. And, from those risks, there typically are some gaps that need to be mitigated. It's imperative that you come up with a mitigation strategy. Ask yourself what you can do that is reasonable and appropriate to mitigate risks to ePHI. From there, you need to implement those mitigation strategies and documenting thoroughly. Documentation is not fun but has to be done in a compliant industry like healthcare.
+
+  We follow all of the steps above using a spreadsheet with sheets for each step, and we do ours both annually and on an ongoing basis, when there are changes to our core infrastructure. We use NIST standards ([NIST800-30](http://csrc.nist.gov/publications/nistpubs/800-30/sp800-30.pdf) and [800-26](https://csrc.nist.gov/publications/drafts/Draft-sp800-26Rev1.pdf)) as the model for our [risk assessment](https://catalyze.io/hipaa#security-management-process---164.308(a)(1)(i)) at Datica. We're more than happy to share the spreadsheets and the steps and processes that we use to do that. If you want to reach out to us we can help you with that process. But that really is the first step that you need to do because that helps you really understand where your major gaps are. And it also helps you understand which things you need to do to implement or mitigate the risk that you have within, and the threats that you have to your infrastructure and to PHI -  that you're storing a processing or whatever it might be for covered entity.
+:related_guide:
+  :id: 6evss0t4I0IC2cQasg0K2O
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:39+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :title: Everything you need to know about HIPAA compliance
+  :slug: hipaa
+  :summary: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :subhead: A guide written by the authoritative voices on HIPAA compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: This guide will walk you through important definitions and concepts, building
+    on previous learnings. You will emerge armed with a basic understanding to HIPAA's
+    purpose and rules, your obligations, and ways to address compliance.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: |-
+    Over the many years Datica has been providing HIPAA compliant cloud solutions to healthcare companies large and small, we have amassed a comprehensive understanding around what makes HIPAA confusing.
+
+    We have empathy for the anxieties you encounter and the confusion even veteran healthcare leadership confide within us. We understand the questions we are asked and the curiosities newcomers have. It is because of this unique position as HIPAA experts in the healthcare community that we decided to aggregate the most important topics into a condensed, easily digestible guide for those looking to quickly gain literacy around HIPAA.
+
+    The Datica guide to HIPAA compliance will answer all your nagging questions. Included in the guide:
+
+    - HIPAA Overview: The origins and intent of HIPAA
+    - Protected Health Information and why it is central to HIPAA
+    - Definitions of a Covered Entity, Business Associate, Subcontractor, and which apply to you
+    - The importance of Business Associate Agreements
+    - How to prove compliance
+    - Why HITRUST is critical
+    - Administrative vs. Technical safeguards and obligations
+    - How audits are done, including estimated costs
+    - Finally, a simple explanation to whether you need to be compliant and how you achieve compliance
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ea3f6ef3-bac2-4c1c-a26b-b2a93d1db2a1
+  :bg_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 17s5iFERjsQOOQeSci2kES
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 17s5iFERjsQOOQeSci2kES
+  :title: The HIPAA Privacy Rule
+  :slug: the-hipaa-privacy-rule
+  :pub_date: !ruby/object:DateTime 2018-02-06 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Privacy Rule is important to understand because it explains
+    the types of data, covered entities, and uses of data HIPAA is concerned about.
+  :post: |
+    ## Overview
+    The HIPAA [Privacy Rule](https://www.hhs.gov/sites/default/files/privacysummary.pdf) sets many of the terms used for HIPAA, outlines the types of entities that need to comply with HIPAA, defines appropriate uses or disclosures of health information, and also covers penalties for HIPAA violations. The Privacy Rule is important to understand, despite the fact that it doesn't include specific technical requirements or polices, as the Privacy Rule gives an understanding of the types of data, entities, and uses of data that HIPAA is concerned about.
+
+    ## Entities
+    The Privacy Rule defines two main categories of entities:
+
+    1. *Covered Entities (CEs)*. These are the traditional players in healthcare - providers, hospitals, health systems, insurers. For some reason clearinghouses are called out as they transform and process health information for payers and providers; the clearinghouse that I always think of is Emdeon.
+
+    2. *Business Associates (BAs)*. These are individuals and organizations that provide services and/or technology to covered entities. In the process of providing those services and technology, the business associate in some way process, transmit, or store protected health information (PHI). All software vendors in healthcare, if they somehow touch PHI, are business associates.
+
+    A third category of entity or, maybe more accurately, a subcategory of business associates was added in 2013 as part of the HIPAA Omnibus rules in the HITECH Act. The HITECH Act defined a subcontractor as an entity that "creates, receives, maintains, or transmits protected health information on behalf of the business associate." A subcontractor is a business associate of a business associate. It can be a hosting provider, an email delivery service (email address), or even an analytics platform (IP address), if it in some way touches PHI. At Datica, many of our customers are business associates and we are subcontractors for them so we meet the new definition of subcontractor.
+
+    The Omnibus Rule also defined a PHR vendor, offering a PHR through a covered entity as a business associate.
+
+    ## PHI + De-identifying
+    We devoted an entire post to "[What is PHI?](https://catalyze.io/learn/what-is-protected-health-information-or-phi)" because it's an incredibly important topic in HIPAA. It's basically personally identifiable data (name, email, phone, etc) combined with some type of health-related data (medication, diagnosis, provider name).
+
+    PHI can be de-identified by removing certain elements from the data, in a process called the [Safe Harbor](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#safeharborguidance) method, or through "[expert determination](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html#guidancedetermination)", which seems a bit fuzzy to us as it is ripe for interpretation. The idea with both methods for de-identification is to make it so you can't identify an individual from a data set (duh!).
+
+    ## Use or disclosing of PHI
+    PHI can only be disclosed for reasons defined by the HIPAA Privacy Rule, or with written permission by an individual about their own health information. Other than providing access to the individual to his/her medical record, the Privacy Rule allows for disclosing PHI for three main reasons:
+
+    1. *Treatment.* Probably the most obvious reason for disclosure, exchanging PHI between providers for treatment, management, and consultation happens all the time.
+    2. *Payment.* In order to collect payments from insurers, disclosure of PHI is essential.
+    3. *Operations.* We think of this as the catch-all bucket. It encompasses many administrative functions such as quality reporting and different types of operational analytics. This is also where disclosures for medical education fall in.
+
+    There are some other, more obscure, reasons for disclosures. The most relevant reasons left are for legal reasons ("required by law"), worker compensation, and for restricted research purposes, amongst others.
+
+    In some select cases – in particular, marketing – covered entities may disclose PHI but only with authorization from the individual.
+
+    ## Minimum necessary
+    One of the central tenants of HIPAA, as stated in the Privacy Rule, is minimum necessary use of PHI. The idea is relatively simple, don't disclose any information that is not necessary for the reason for which the information is to be used. For example, if you're trying to find out how much a patient owes for a particular procedure, you probably don't need to disclose that patient's allergies. In healthcare today, minimum necessary is usually observed by either specific HL7 or EDI X12 message types which confine the amount and type of data in a data exchange.
+
+    ## Notice of HIPAA Privacy Policies
+    Covered entities must provide individuals with a notice informing those individuals of their rights, as well as detailing other factors such as the protections the covered entity use to secure PHI. You probably remember getting and signing these every time you go to the doctor.
+
+    ## Penalties
+    The Office of Civil Rights (OCR), within HHS, is responsible for enforcing the HIPAA rules. In addition to civil (financial) penalties, there are criminal penalties for knowingly disclosing PHI or obtain PHI in violation of the HIPAA Privacy Rule.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 7rqrnw1soEOS4QEeAC0c8q
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 1PYfVd3tsoq6WeAMGyWwo6
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 1PYfVd3tsoq6WeAMGyWwo6
+  :title: The HIPAA Security Rule
+  :slug: the-hipaa-security-rule
+  :pub_date: !ruby/object:DateTime 2018-02-05 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: The HIPAA Security Rule describes the ways in which electronic protected
+    health information, or ePHI, needs to be protected.
+  :post: |
+    The HIPAA Security Rule operationalizes many of the standards set out in the Privacy Rule. Specifically the Security Rule spells out, in various levels of detail, the ways in which electronic protected health information, or ePHI, needs to be protected. The Security Rule, despite setting implementation specifications, isn’t all that specific most of the time.
+
+    The Security Rule is the section of HIPAA that gets most talked about by vendors like us and others with a background in technology. Many times developers and vendors focus specifically on the areas within the Security Rule to achieve compliance. Even with this area of focus, the specific technical controls only make up a minority of the HIPAA Security Rule.
+
+    The HIPAA Security Rule can be broken down into the three main categories below.
+
+    ### Administrative
+
+    This is actually the largest category of safeguards in the HIPAA Security Rule, accounting for more than 50% of the rule. These are not server setting or specifics around technology, they are policies and processes that need to be followed to safeguard data. The biggest, and most important, area covered in this section, at least for people starting out on the journey towards compliance, is the risk assessment. A risk assessment should be the first step for most organizations wanting to be compliant, and covers documenting architecture, identifying risks related to the protection of PHI, and mitigating those risks.
+
+    When you use Datica, we cover much of risk environment for you as we manage many aspects of the architecture. We work with you to define areas that you need to address in terms of risk, and will work closely with you if and when you decide to go forward with a full audit.
+
+    There are other areas in this category including workforce security, contingency planning, training, and a few others, all of which are necessary to examine and address, but the risk assessment is really the big one in this category.
+
+    ### Physical
+
+    This category is easy to understand as it’s the physical aspect of securing systems that have access to ePHI. It breaks out to workstations, facilities, and different portable and mobile media. Most data centers today, including the ones that we use at Datica, more than meet the requirements in the HIPAA Security Rule for facilities. Typically compliant Infrastructure-as-a-Service (IaaS) vendors, like AWS and Firehost, cover this category of HIPAA for you.
+
+    Areas people sometimes neglect are office security and workstation security. These aren’t hard safeguards to meet but they likely involve some process changes, like not allowing cleaning people into your office without supervision, keeping doors locked and tracking visitors, encrypting employee computers, and using workstation firewalls. We control and monitor access at our offices using a smart lock from Lockitron, which provides a nice log of all access.
+
+    ### Technical
+
+    The technical category of safeguards is usually what people think of when they think of securing ePHI. The biggest areas are encryption, access controls, and auditing. With encryption, it has to be end to end, and it has to be at rest. At rest is typically harder. We have found that we need to use high performance SSD drives to improve performance issues that arise with encrypting data at rest.
+
+    For access controls and logging, basically all activity of servers should be logged and those logs should be monitored with appropriate alerting. All API calls should also be logged, including what was accessed (with ePHI at times), by whom, and when. We have spent a lot of time building a powerful and flexible unified logging solution to meet the requirements in this area.
+
+    Beyond the three areas above, there are a few miscellaneous requirements in the security rule. Those additional requirements relate to signing business associate agreements and having policies to, well, manage your policies.
+
+    That's a very high-level overview of the HIPAA Security Rule. You can see pretty detailed information about the Security Rule, and how we address the different specifications, on our HIPAA page.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 17s5iFERjsQOOQeSci2kES
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 5Eape5yb0k0SGOu2Asw0ss
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:38:33+00:00'
+    :created_at: '2017-12-11T23:44:43+00:00'
+    :id: 5Eape5yb0k0SGOu2Asw0ss
+  :title: How does GDPR compare to HIPAA?
+  :slug: how-does-gdpr-compare-to-hipaa
+  :pub_date: !ruby/object:DateTime 2017-12-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Though different in who they apply to and how you prove compliance, HIPAA
+    and GDPR are both about having security as a core tenet of operations.
+  :blog_lead: At the AWS re:Invent conference earlier this month, GDPR was a major
+    area of interest from attendees though AWS has little content coverage for GDPR.
+    GDPR, which stands for General Data Protection Regulation, is the acronym for
+    the much anticipated new EU security and privacy framework that goes into effect
+    in May of 2018. GDPR leaves some discretion to EU member states but, as a general
+    rule, and the reason it is getting so much attention, is that it applies across
+    all EU Member States. The purpose of this post is to introduce those familiar
+    with healthcare privacy and security in the United States, namely those concerned
+    with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even
+    security requirements more generally, but instead focuses on the broader principles
+    and privacy guidelines for health data under GDPR.
+  :post: "\nThe process of expanding and proving compliance across multiple frameworks,
+    both for us and our customers, is not new to us at Datica. You can follow our
+    changes through the updates to our [open source policies and procedures](https://datica.com/open-source/policies/);
+    our policies define the operational and technical controls we use. We started
+    with HIPAA and quickly expanded to leverage [HITRUST](https://datica.com/blog/hitrust-csf-certification-round-3/)
+    as the core risk framework for our internal compliance program. We then added
+    SOC2, Privacy Shield, and, most recently, GxP. We will complete our full GDPR
+    audit in 2018 ahead of GDPR going into effect. Our goal has always been to build
+    and maintain one compliance program to prove compliance with multiple frameworks.
+    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
+    \                                                                                       \n##
+    GDPR applies to all personal data storage\n\n[GDPR is getting outsized attention](https://www.eugdpr.org/)
+    because it applies to all personal data storage and processing, limiting or putting
+    at risk all companies that leverage individually identifiable data (think of Google
+    and Facebook, not just healthcare providers, payors, life sciences, and digital
+    health companies). GDPR also applies to organizations that control or process
+    data for citizens of EU Member States regardless of where the organization is
+    based.\n\nHealthcare and health data, “data concerning health”, is one subset
+    of GDPR and specifically applies to data concerning physical and mental health,
+    genetic data, and biometric data. The good news is that GDPR has considerable
+    overlap with HIPAA, and to an even larger extent, HITRUST.\n\n## GDPR entities:
+    controllers and processors\n\nIn the world of HIPAA, you’re either a covered entity
+    (CE) or a business associate (BA); for the purposes of this guide, subcontractors
+    are just business associates of business associates. In the world of GDPR, you’re
+    either a controller or a processor. The structures don’t mirror each other 100%
+    but controllers, like covered entities, are the organizations that ultimately
+    own personal data and processors, like business associates, provide services,
+    or data processing, for controllers.\n\nThe major difference is that HIPAA strictly
+    defines covered entities based on functions in healthcare as providers, payors,
+    and clearinghouses whereas GDPR defines controllers as “natural or legal person,
+    public authority, agency or other body which, alone or jointly with others, determines
+    the purposes and means of processing of personal data.” HIPAA defines entities
+    based on the function of the organization and GDPR defines it based on the ownership
+    of data; this is a consistent theme throughout GDPR. \n\nMy interpretation of
+    GDPR, and a significant area of difference that healthcare organizations need
+    to consider, is that direct to consumer health offerings like Fitbit, MapMyRun,
+    or an application for medical adherence created by a pharmaceutical company, would
+    be considered controllers whereas in the US, under HIPAA, they wouldn’t need to
+    adhere to HIPAA until they worked with customers or patients of a provider or
+    payor. When those same direct to consumer companies in the US did work with providers
+    and payors, they would be considered business associates and not covered entities.
+    This flips the model for these companies as they are now the focal point of data
+    control and risk under GDPR.\n\nControllers, like covered entities, are ultimately
+    responsible and liable for the protection of data. As such, controllers need to
+    put data processing agreements (DPA) in place with processor partners; similarly,
+    covered entities under HIPAA must put business associate agreements (BAAs) in
+    place with business associates. GDPR is more prescriptive in terms of what needs
+    to be included in a DPA, something that is much needed in the US but is lacking
+    in the HIPAA rules. The prescriptive nature of DPAs ensures additional protection
+    and transparency over the wild west of BAAs in the US. One of the things GDPR
+    requires, with some rare exceptions, in DPAs is that data is destroyed once the
+    relationship between controller and processor ends; this severely limits the ability
+    of processors to aggregate and retain personal data for future use. And, similarly
+    to the US and HIPAA after the Omnibus rule was passed, processors under GDPR must
+    have similar DPAs in place with their own processor partners.\n\n## GDPR breach
+    reporting\n\nUnder GDPR, there are strict breach reporting requirements. The timeline
+    to report breaches is 72 hours from becoming aware of a breach. Any organization
+    adhering to HIPAA would have breach reporting timelines in policies, contracts,
+    and/or BAAs; but, most breach reporting times we see from major cloud providers
+    and vendors are on the order of days (10 days being the shortest we’ve seen),
+    weeks, and even months. The lowest time we’ve seen for breach reporting is our
+    own Datica breach reporting time, which is 4 hours. For entities looking to comply
+    with GDPR, there are changes that need to be made both technically and operationally
+    to commit to 72 hour breach reporting.\n\n## Health data access under GDPR\n\nGDPR
+    puts forth clear guidelines for when health data can be processed, or essentially
+    when it can be accessed. Under GDPR, health data can only be accessed 1) with
+    explicit consent from the individual, 2) for health and social care, and 3) for
+    public health (cross border containment being the example given). There are some
+    nuances to this, specifically with data for scientific or clinical research, but
+    those are mainly only with explicit consent. HIPAA similarly defines permitted
+    uses and disclosures of health data for 1) treatment, 2) payment, and 3) healthcare
+    operations.\n\nSome of the harder areas of GDPR, at least in comparing it to HIPAA,
+    are the rights of individuals to get access to all of their data and to be forgotten
+    (have all their data deleted). Healthcare data is much more extensive than other
+    types of data like payment data; it’s the reason complying with HIPAA isn’t the
+    same as complying with PCI where you can essentially outsource payment processing
+    to Stripe. Granting access to all personal health data or being able to delete
+    all health data is a very high bar to meet, especially for large, bloated EHRs
+    and legacy healthcare software.\n\n## Data Protection Impact Assessments\n\nOne
+    of the things I like a lot about the GDPR is the overarching principle of data
+    protection by design and default. Sadly, security, and compliance, is often an
+    afterthought at best or perceived unnecessary box to check at worst. GDPR explicitly
+    attempts to resolve this pattern. GDPR goes further than HIPAA, and in this way
+    is very similar to HITRUST, in that it anchors risk assessment, analysis, and
+    management to the entire lifecycle of products and services. GDPR requires controllers
+    and processors to conduct Data Protection Impact Assessments (DPIAs), which are
+    just a longer name for a risk assessment. These DPIAs should be performed before
+    the start of development work and done periodically throughout the lifecycle of
+    a product to ensure data is protected and secure. This risk-based model is similar
+    to the way organizations are supposed to use HITRUST to develop a baseline risk
+    model and then consistently update that baseline model. It’s the model we use
+    at Datica and has made it easy for us to maintain continuous compliance for us
+    and our customers.\n\nWhy should you care about the GDPR? If you do anything with
+    healthcare data in the EU, then you are at risk of significant penalties for violations.
+    The penalties for violating GDPR can be up to $20m or 4% global revenue, whichever
+    is highest. If you want to work in the EU or are already in the EU, you need to
+    expand your compliance program and posture to minimize your risk.\n\n----                                                                                                    \nGoing
+    forward, we’ll get into technical details and mappings between HIPAA and GDPR.
+    We’ll also provide specific guidance to inform expansionary changes to security
+    and compliance programs to bring them in line with GDPR. Fundamentally, addressing
+    HIPAA and GDPR is about having security as a core tenet of operations; the major
+    difference is ensuring that evidence and documentation is created to prove compliance
+    with each framework.\n\n"
+  :featured_image:
+    :id: 7aTcDUZzOgKM2yGuYY0u2
+  :share_image:
+    :id: OeOKXAQNoIUAIkEqyGoWk
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+- :id: 2GLw9LpLXiUACiowqcsc4W
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T21:14:45+00:00'
+    :created_at: '2018-06-07T21:05:13+00:00'
+    :id: 2GLw9LpLXiUACiowqcsc4W
+  :title: Security as Part of the M & A Due Diligence Process
+  :slug: security-as-part-of-m-a-due-diligence-process
+  :pub_date: !ruby/object:DateTime 2018-06-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 6m4mpSS08w2KQwQ2I6OEIE
+  :summary: There are many key security and privacy considerations for buyers to consider
+    when exploring an M & A opportunity. Christine Sublett spells it out.
+  :blog_lead: "Technical and financial due diligence have long been a part of the
+    review performed by an acquiring company prior to a merger or acquisition (M &
+    A). Cyber security has finally become an important business concern, and this
+    requires information security to also be addressed with as much importance. Without
+    appropriate security due diligence, the acquiring company runs the risk of introducing
+    significant business and technology risk into their organization. \n"
+  :post: "\nOne doesn’t have to look too hard to see an example where this did not
+    occur; [the Verizon acquisition of Yahoo](https://www.nytimes.com/2016/09/23/technology/yahoo-hackers.html)
+    and the TripAdvisor acquisition of Viator are two recent examples (2016 and 2014),
+    with [Viator suffering their breach only weeks after the acquisition](https://thehackernews.com/2014/09/tripadvisors-viator-hit-by-massive-14_24.html).
+    And at the time of the Yahoo breach, Verizon used the opportunity [to express
+    some doubt about the acquisition and to ask for more favorable terms](https://www.reuters.com/article/us-yahoo-m-a-verizon-idUSKBN14P215).
+    \ \n\nIt’s important to develop an M & A strategy, and data security deserves
+    consideration in this process. Vendors that deliver services to healthcare organizations
+    need to comply with a myriad of local, state, federal, and international privacy
+    and security regulatory requirements. At the federal level there are sector-specific
+    laws such as HIPAA. In addition, many states including California and Massachusetts
+    have data security regulations that require organizations to develop, implement,
+    and maintain reasonable information security programs. There are many key security
+    and privacy considerations for buyers to consider when exploring an M & A opportunity.
+    These include the following.\n\n## Data Security safeguards, policies and procedures\n\nAre
+    the policies adequate to comply with applicable regulatory environments? Understanding
+    and evaluating a company’s risk profile requires thoughtful analysis of the policies
+    and practices regarding data collection, use, disclosure, transmission, storage
+    and destruction. Does the company have a comprehensive information security program
+    including appropriate policies and procedures? How does the company educate and
+    train workforce members and third-party vendors with access to data? Do they have
+    an appropriate data protection framework that classifies information assets? Do
+    they have appropriate access control policies and procedures to reduce the risk
+    of inappropriate access to information assets? What is their data retention policy?
+    Do they have a vendor management program in place? Do they have appropriate contractual
+    protections in place with their vendors? Do they have someone focused on information
+    security such as a Chief Information Security Officer(CISO)? \n\n## Security controls
+    \n\nAre the controls implemented by the company adequate and appropriate for the
+    industry in which they do business? While HIPAA and/or HITRUST have numerous physical,
+    administrative and technical control requirements, how a company addresses and
+    implements these controls differ across organizations. Have they conducted any
+    third-party audits or maintain [certifications such as HITRUST](https://datica.com/discover/hitrust/)
+    or a SOC 2? Do they have disaster recovery and business continuity plans? Do they
+    perform vulnerability assessments and penetration tests? Do they perform security
+    testing on their mobile app? Do they have an incident response plan, and do they
+    test it regularly? Have they experienced any data breaches or security incidents?
+    Do they perform appropriate background and security checks on new workforce members?
+    Do they have policies and guidance on how data and systems are physically secured?
+    Do they have appropriate solutions in place to know if they are experiencing an
+    attack? Do they maintain appropriate endpoint controls to prevent compromise?\n\nIn
+    addition, do they maintain a current data map or inventory? It’s critical to understand
+    where data is stored, who can access it, and whether it is secured appropriately
+    as part of an overall [information governance program](https://datica.com/blog/information-governance-survey-shows-benefits-in-compliance/).
+    \n\nWhile security due diligence may show gaps in security posture, it doesn’t
+    mean that the deal will fall through; rather, it will mean that the acquiring
+    company knows what they are getting and then are able to appropriately price the
+    deal taking into account both value of the acquisition, and cost to remediate
+    security deficiencies.\n\n*Datica partner, Christine Sublett, is an information
+    and cyber security, privacy, and information protection professional with more
+    than 25 years in the healthcare technology industry. Visit [Sublett Consulting](https://www.sublettconsulting.com/)
+    to learn more.*\n\n"
+  :featured_image:
+    :id: 5EnpvGK1uE8YUgUuAuGiGC
+  :share_image:
+    :id: 1WhFw5YNmkQ64KKmAAAaOo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 313HeqZWucCuCqO2Y8wgYS
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

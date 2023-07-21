@@ -1,0 +1,116 @@
+---
+:id: 3gWtADXM2sqqMysagy48aw
+:_meta:
+  :content_type_id: featureCategories
+  :updated_at: '2018-07-29T23:50:17+00:00'
+  :created_at: '2018-05-10T22:28:06+00:00'
+  :id: 3gWtADXM2sqqMysagy48aw
+:title: Core Compliance
+:subhead: Compliant Configuration, Compliant Deployments
+:desc: With the underlying infrastructure, operating system, and control plane locked
+  down, CKS delivers an experience that feels like a standard Kubernetes cluster,
+  but one that gets you HIPAA, HITRUST CSF, GxP, GDPR and more, with no additional
+  configuration or work on your end.
+:related_features:
+- :id: 5ZyR4OGWB2C0EMG8ko2iu8
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-01T22:13:36+00:00'
+    :created_at: '2018-07-29T22:13:56+00:00'
+    :id: 5ZyR4OGWB2C0EMG8ko2iu8
+  :title: Operating System
+  :slug: core-os
+  :category: Kubernetes
+  :feature_status: Current
+  :summary: CoreOS is a container-only linux distribution. Datica installs, maintains
+    and patches CoreOS as the central operating system for all CKS clusters.
+- :id: 47grGcmE1aS4kE62c6w4Au
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-01T22:14:17+00:00'
+    :created_at: '2018-07-29T22:13:56+00:00'
+    :id: 47grGcmE1aS4kE62c6w4Au
+  :title: Container Runtime
+  :slug: cri-o
+  :category: Kubernetes
+  :feature_status: Current
+  :summary: CRI-O is the first and only container-runtime specifically designed for
+    Kubernetes and can run containers built by Docker, as well as any other OCI compliant
+    image builder.
+- :id: 4KOUlWUBeUCEEgSaUiGICA
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-07-29T22:13:55+00:00'
+    :created_at: '2018-07-29T22:13:55+00:00'
+    :id: 4KOUlWUBeUCEEgSaUiGICA
+  :title: Networking
+  :slug: networking
+  :category: Core Compliance
+  :feature_status: Current
+  :summary: CKS is configured with flannel and `nginx-ingress` for encrypting network
+    traffic. These tools provide a mature, secure solution to networking with a healthy
+    community of supporters.
+- :id: 5CHh36BMnCgAEOwAYGIIOo
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-07T02:45:07+00:00'
+    :created_at: '2018-05-09T21:45:22+00:00'
+    :id: 5CHh36BMnCgAEOwAYGIIOo
+  :title: Logging
+  :slug: phi-ready-logging
+  :category: Core Compliance
+  :feature_status: Current
+  :summary: Logging is a central component of managing compliance in the cloud. Datica
+    deploys an Elasticsearch, FluentD and Kibana (EFK) stack with all clusters.
+- :id: 7lbfSf1pxmYq4QqmykuYCo
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-07-29T22:13:56+00:00'
+    :created_at: '2018-05-09T21:47:02+00:00'
+    :id: 7lbfSf1pxmYq4QqmykuYCo
+  :title: Monitoring
+  :slug: phi-ready-monitoring
+  :category: Core Compliance
+  :feature_status: Current
+  :summary: CKS ships with a Prometheus instance to handle cluster monitoring, specifically
+    CoreOS's prometheus-operator, with a Grafana dashboard for visualizing activity.
+- :id: 1bafWlcVwYwk26K08K6SIg
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-01T22:23:13+00:00'
+    :created_at: '2018-05-10T23:01:39+00:00'
+    :id: 1bafWlcVwYwk26K08K6SIg
+  :title: Vulnerability Scanning
+  :slug: kubernetes-phi-ready-vulnerability-scanning
+  :category: Kubernetes
+  :feature_status: Current
+  :summary: Vulnerability scanning is performed centrally by Datica on all CKS clusters
+    using Nessus. In addition to Nessus, Falco also plays a major role ensuring vulnerabilities
+    are managed.
+- :id: 3CLZdgTEIEIoWwMCcKikK6
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-07-29T22:13:56+00:00'
+    :created_at: '2018-05-10T22:10:26+00:00'
+    :id: 3CLZdgTEIEIoWwMCcKikK6
+  :title: Intrusion Detection
+  :slug: kubernetes-phi-ready-intrusion-detection
+  :category: Kubernetes
+  :feature_status: Current
+  :summary: Like vulnerability scanning, Falco also plays a critical role in intrusion
+    detection — Falco provides an easy way to build rules and output alerts immediately.
+- :id: 1qQjctb0KMoaCcE0mUgWyk
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-01T22:38:57+00:00'
+    :created_at: '2018-02-08T22:21:31+00:00'
+    :id: 1qQjctb0KMoaCcE0mUgWyk
+  :title: Volume Backups
+  :slug: nightly-backups
+  :category: Core Compliance
+  :feature_status: Current
+  :summary: CKS will automatically backup all volumes contained in a cluster. These
+    backups are encrypted and cross region replicated.
+:sort_order: 1
+:icon_slug: icon-hcms-shield-large
+:slug: core-compliance-cks

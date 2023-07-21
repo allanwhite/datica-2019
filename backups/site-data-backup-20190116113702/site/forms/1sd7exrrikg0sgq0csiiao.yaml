@@ -1,0 +1,21 @@
+---
+:id: 1sd7ExrRIkg0SgQ0CsiiaO
+:_meta:
+  :content_type_id: forms
+  :updated_at: '2018-08-27T04:30:38+00:00'
+  :created_at: '2018-07-30T20:44:39+00:00'
+  :id: 1sd7ExrRIkg0SgQ0CsiiaO
+:title: Contact - CCMS
+:slug: contact-ccms
+:desc: Form object for contact form for CCMS product (Continuous Compliant Management
+  Service).
+:custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+  src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+  type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+  \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"59fd6002-e3c4-4b21-b531-4ef611b024a0\",\n
+  \ target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n    window.dataLayer
+  = window.dataLayer || [];\n    window.dataLayer.push({\n                    'event'
+  : 'GAEvent',      \n                    'eventCategory' : 'Sales Engagement',\n
+  \                   'eventAction' : 'Form Submission',\n                    'eventLabel'
+  : 'Contact - CCMS',\n                    'eventValue' : '10'\n                    });\n
+  \                 },\n  css: \"\"\n});\n</script>"

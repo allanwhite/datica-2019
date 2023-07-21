@@ -1,0 +1,67 @@
+---
+:id: 4OCkYKXr2EEQSIcse0GQOq
+:_meta:
+  :content_type_id: cta
+  :updated_at: '2018-10-04T19:35:20+00:00'
+  :created_at: '2018-06-07T21:04:59+00:00'
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+:cta_title: 'Webinar: HITRUST on Kubernetes'
+:cta_desc: |-
+  HITRUST on Kubernetes is possible ... with Datica.
+  Watch the webinar recording.
+:cta_label: Join us
+:cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+:cta_image:
+  :title: webinar-k8-2-promo-lg
+  :description: HITRUST on Kubernetes Webinar CTA image
+  :url: "//images.ctfassets.net/189dvqdsjh46/6vqOsDKfNCOCOkeqOIYASc/a5c24dd0628c2a8789ec6c82c48e2654/webinar-k8-2-promo-lg.png"
+  :_meta:
+    :updated_at: '2018-06-08T00:12:41+00:00'
+    :created_at: '2018-06-07T21:03:16+00:00'
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+:related_event:
+  :id: QOGZVNFPCoeq20wKUyCGi
+  :_meta:
+    :content_type_id: webinars
+    :updated_at: '2018-09-20T20:09:04+00:00'
+    :created_at: '2018-06-13T18:22:38+00:00'
+    :id: QOGZVNFPCoeq20wKUyCGi
+  :title: Kubernetes and HITRUST Compliance
+  :slug: kubernetes-and-hitrust-compliance
+  :event_date: !ruby/object:DateTime 2018-06-20 13:00:00.000000000 -05:00
+  :summary: Learn how Kubernetes with Datica can guarantee a continuously compliant
+    state for deploying containerized workloads.
+  :subhead: Learn how Kubernetes with Datica can guarantee a continuously compliant
+    state for deploying containerized workloads.
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :lead: Kubernetes has risen to be the industry accepted leader in orchestration,
+    doing an amazing job at scaling, firing up and tearing down containers, updating
+    systems without any outages, and more. But in healthcare and many other highly-regulated
+    industries, compliance to HIPAA, GxP, NIST, GDPR, and other regulatory frameworks
+    has limited developers’ ability to jump on the Kubernetes bandwagon.
+  :desc: |-
+    Until Datica. We built the Kubernetes-based Datica Platform to run in any cloud environment with compliance as its core DNA. Lately, HITRUST has emerged as the best way to prove compliance to internal stakeholders. Compliance and security professionals view it as the best industry standard and approve partners who are HITRUST CSF Certified, like Datica.
+
+    ### In this webinar you will learn:
+
+    1. Why HITRUST? How does it “Map” to other compliance regimes and how does that support my compliance story?
+    2. How you can use Kubernetes with Datica to easily deploy containerized workloads and guarantee a continuously compliant state.
+    3. What is the “Shared Responsibility” model?
+    4. How HITRUST CSF certification removes the business blockers of compliance and security so you can access the benefits of Kubernetes.
+    5. Why continuous compliance monitoring is crucial to monitoring and maintaining the security of your data and how Datica enables it.
+    6. What does the Datica Kubernetes Platform look like?
+  :authors:
+  - :id: rVZcG8ORWKg8o4EIuqQ8a
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :related_form:
+    :id: 5Dlbw6xnXyQ0syQCGeU8KK
+  :video_embed:
+    :id: 2y1scqPV9uOwMsogmAKkkC
+  :image_thumb:
+    :id: 6TlD2byq2IGg24oM04I2aM
+  :share_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82

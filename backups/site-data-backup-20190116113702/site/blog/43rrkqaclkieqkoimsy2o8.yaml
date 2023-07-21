@@ -1,0 +1,543 @@
+---
+:id: 43RrKqACLKiEqKoiMsy2O8
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-08-18T15:52:44+00:00'
+  :created_at: '2017-08-18T15:52:44+00:00'
+  :id: 43RrKqACLKiEqKoiMsy2O8
+:title: 'Spear Phishing: Hackers Aiming for Healthcare'
+:slug: spear-phishing-hackers-aiming-for-healthcare
+:pub_date: !ruby/object:DateTime 2017-08-18 00:00:00.000000000 Z
+:tags:
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+:categories_blog: healthcare
+:author:
+  :id: 6NxyE8vlfOqMOkkGsCSusA
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-06-01T22:09:06+00:00'
+    :created_at: '2016-08-15T23:59:46+00:00'
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :fullname: Marcia Noyes
+  :slug: marcia-noyes
+  :person_type: Datica Alumni
+  :sort_weight: 8
+  :role: Director of Communications
+  :profile_pic:
+    :id: FV6bMibcoS6KucswgSCec
+  :email: marcia@datica.com
+  :bio_short: In her role at Datica, Marcia drives external communication strategy
+    in projects as diverse as conferences, public relations, customer-driven content,
+    and the Healthcare Innovation Series.
+  :bio: Marcia has more than seven years experience directing national and international
+    public relations efforts and was the initial PR Director for the healthcare startup
+    iTriage (an Aetna aquisition). She has worked in the Mass Communication field
+    for decades as a television reporter, magazine writer and newspaper journalist.
+    She holds a B.S. in Mass Communications from Lamar University.
+  :profile_twitter: marcianoyes
+  :profile_linkedin: marciahornnoyes
+  :location:
+    :lat: 39.7541032
+    :lon: -105.00022419999999
+:summary: In the 377 healthcare data breaches last year, phishing attacks were among
+  the top data breach causes. Why is healthcare such a target for spear phishing attacks?
+:blog_lead: "At the beginning of August, the BBC reported that a UK-based “prankster”
+  had successfully [spoofed the White House.](http://www.bbc.com/news/world-us-canada-40788080)
+  Through spear phishing emails, this bad actor had not only convinced a senior cyber
+  security officer that he was the president’s son-in-law and senior advisor Jared
+  Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to
+  fool then White House Communications Director Anthony Scaramucci into inflammatory
+  email exchanges. After posting a few of those emails on Twitter, the culprit promised
+  not to do it again and urged the current administration to “tighten up IT policy.”
+  While the jokester later indicated his email spoofing had no harmful intent, the
+  implications go way beyond 1600 Pennsylvania Avenue. \n"
+:post: "Phishing is a widely used form of social engineering where malicious ne’re-do-wells
+  broadcast  disguised emails to a large population in an attempt to steal sensitive
+  information like usernames, passwords, financial and yes, healthcare data. Although
+  not commonly known until 2005, phishing scams first appeared around 1995, with the
+  term first being coined in a Usenet group on January 2, 1996. When America Online
+  (AOL) reigned as king of email communication, scammers regularly masked themselves
+  as banking sites and financial institutions, as well as PayPal and Ebay. These fraudulent
+  emails would often persuade victims to open a link with a malevolent attachment
+  or visit a malicious web site. \n\nLater, these phishing scams bred a more targeted
+  type of phishing called [“spear phishing.”](https://www.wired.com/2015/04/hacker-lexicon-spear-phishing/)
+  For this type of hoax, cyber shysters use targeted emails designed to appear as
+  if from someone the victim knows, such as a colleague, business manager or even
+  someone from the human resources department. These tailored emails often contain
+  subject lines or content that capitalize on the victim’s known interests. \n\n##
+  Is Healthcare a Spear Phishing Target?\n\nIn the 377 healthcare data breaches last
+  year, the [Identity Theft Resource Center (ITRC) and CyberScout](http://www.prnewswire.com/news-releases/data-breaches-increase-40-percent-in-2016-finds-new-report-from-identity-theft-resource-center-and-cyberscout-300393208.html)
+  report shows phishing attacks were among the top data breach causes. Along with
+  hacking and skimming, these three scams made up 55.5 percent of the breaches. Furthermore,
+  spear phishing appears to be the most likely type of scam targeting CEOs. From 2015
+  to 2016, the numbers for these methods of breaches rose 17.7 percent. In the first
+  part of 2017, phishing has been used to gain access to UC Davis Health, Torrance
+  Memorial Medical and Washington University School of Medicine, according to Healthcare
+  IT News piece titled [“The biggest healthcare breaches of 2017 (so far).”](http://www.healthcareitnews.com/slideshow/biggest-healthcare-breaches-2017-so-far?page=32)
+  This upward trend isn’t about to subside until an even more lucrative scam arises.
+  With an average cost of a healthcare data breach at about $380 per record, mitigating
+  spear phishing remains top of mind for Datica and its customers.\n\n## Spear Phishing
+  Recommendations\n\nFor insight into this latest trend, I reached out to Datica Security
+  Engineer Brandon Maxwell. He shared the reason for an increase in spear phishing:
+  high success rates — which make it the number one delivery vehicle for ransomware
+  and malware. “They don’t need complex methods of breaking through security walls
+  when they can simply trick someone inside an organization to hand over what they
+  want,” says Maxwell. \n\nDatica, like every other healthcare IT organization, is
+  also vulnerable to this type of encounter. For example, one spear phishing attempt
+  that we recently blocked came from an imposter who cleverly spoofed one of our executive’s
+  email addresses. He or she used that email address to request a wire transfer from
+  the finance department. Trained to spot such deceit, the department head alerted
+  the appropriate person within Datica about the email and its request, and ultimately
+  averted the scam. Datica now uses this spoof example to warn its own customers to
+  such trickery. \n\nDatica’s Director of Compliance Lori Meals touts four ways healthcare
+  organizations can better protect themselves from such attacks. Her recommendations
+  and thoughts, along with Maxwell’s include:\n\n### Awareness, training and testing\n\nAll
+  employees need to be made aware of what phishing is and the damage that can result
+  from a successful attack. Maxwell outlines the steps he uses to fully inform Datica
+  employees, “Sharing what a spear phishing email looks like, explaining how to evaluate
+  such an email and then confirming that employees know to whom suspicious emails
+  should be forwarded for evaluation are a strategic way to thwart outside intrusions
+  that could breach an organization’s thickest walls.” Meals strongly encourages periodic
+  testing of employees’ knowledge and awareness of fake phishing emails by crafting
+  internal spear phishing lures that can be distributed internally. However, she cautions
+  against doing testing at specific dates. “You don’t want to make testing so regular
+  that on October 1st, every employee expects a fake spear phishing email,” says Meals.
+  \n\n### Putting technical measures in place\n\nCertain technical steps must be in
+  place as the first line of defense against all phishing scams. “When someone is
+  trying to fake an email and send it to someone in your organization, you should
+  have the technical measures in place that will flag that email as suspicious,” says
+  Maxwell.\n\n### Measurement and management\n\nSetting and tracking goals, then managing
+  any steps for failure is a critical part of any good compliance program “Having
+  zero percent of employees click on that test should be the organizational goal,”
+  says Meals. “Anything less than a zero level goal would require remediation steps.”
+  \n\nThese compliance concepts run parallel with the concepts found in HITRUST. Datica
+  joins an elite group of healthcare vendors in the United States to achieve [HITRUST
+  CSF Certification](https://datica.com/platform/compliance/) status and believes
+  that this gold-standard for security of healthcare data is the best way to protect
+  its customers. \n\n## Datica’s Customer Protections\n\nSecurity and compliance are
+  deeply woven into [Datica’s company culture](https://datica.com/). If you’ve ever
+  had to let one of your employees go who had access to your environment on the Datica
+  platform, you have encountered Datica’s billing-based method of double verification.
+  The Datica engineering team works hand in hand with the billing department to quickly
+  verify and make customer requested adjustments for access. Datica utilizes stringent
+  measures for Identity proofing to protect its customers. These steps combined with
+  the recommendations above better protect your organization for a spear phishing
+  attack. \n"
+:featured_image:
+  :title: Spear Phishing Attacks header image
+  :description: Spear Phishing attacks in healthcare
+  :url: "//images.ctfassets.net/189dvqdsjh46/6cwnhG1ji0eIICWIaqYwau/6a653b9a59c9477ddf3a2ee71045d683/school_of_sharks.jpg"
+  :_meta:
+    :updated_at: '2017-12-04T20:22:13+00:00'
+    :created_at: '2017-08-17T18:38:08+00:00'
+    :id: 6cwnhG1ji0eIICWIaqYwau
+:share_image:
+  :title: Spear Phishing share image
+  :description: Spear Phishing attacks in healthcare share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/5G95TNr5RuMY2ECCEw4SYS/c646f4f87d22accfc48eee403c52e684/blog-spear-phishing.jpg"
+  :_meta:
+    :updated_at: '2017-12-04T20:27:20+00:00'
+    :created_at: '2017-08-17T18:42:27+00:00'
+    :id: 5G95TNr5RuMY2ECCEw4SYS
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:58:20+00:00'
+    :created_at: '2017-05-18T23:47:09+00:00'
+    :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :title: Hybrid Cloud is Now the Preferred Option within Healthcare
+  :slug: hybrid-cloud-is-now-the-preferred-option-within-healthcare
+  :pub_date: !ruby/object:DateTime 2017-05-18 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Private, Public, and Hybrid clouds all exist in healthcare. Hybrid clouds
+    represent the largest area of growth in healthcare organizations.
+  :blog_lead: |-
+    Last week we published our [inaugural quarterly report looking at innovation and transformation within healthcare](/blog/healthcares-shifting-definition-of-the-cloud/). A lot of great insights are jam-packed into the journal, but perhaps the most interesting is the infographic comparing cloud trends over the last three years.
+
+    <a href="https://cdn2.hubspot.net/hubfs/1695915/Datica%20IaaS%20Infographic%202017.pdf" title="cloud adoption in healthcare infographic" rel="external">
+    <img src="https://images.contentful.com/189dvqdsjh46/1OrH0GVvn2iAaqGuOMi66U/65b0f7f0407c6229bca3561517303c53/report-infographic-preview-sq.jpg?w=300" alt="cloud adoption in healthcare infographic" class="float-right" width="150" >
+    </a>
+
+    We compared survey results from [HIMSS' 2014 survey on cloud adoption](http://himss.org/2014-himss-analytics-cloud-survey-full-results?ItemNumber=41958) with their equivalent [2017 survey](http://www.himssanalytics.org/research/essentials-brief-2017-cloud-study). What we found is healthcare's definition of the cloud is changing.
+  :post: |+
+    ## Shift to IaaS
+
+    For the longest time Software as a Service, or SaaS, a.k.a. web-based productivity tools, has traditionally been associated with the term "cloud" ever since Salesforce's "No Software" campaign hit pay dirt in the early 2000s. Using the cloud meant using software.
+
+    Within healthcare, we're not so sure that the definition of cloud is scoped only to SaaS anymore.
+
+    The increase in interest in Infrastructure as a Service (IaaS) between 2014 and 2017 is a good example. Hospital administrators view disaster recovery, data storage, data backup, and data archival critical and costly responsibilities. Turning to cloud-based services is helping manage costs and increased complexity. This was most evident in the simple summary of IaaS adoption:
+
+    * In 2014, 15.3% of hospital CIOs surveyed said they planned to use IaaS services.
+    * In 2017, 75% surveyed said they planned to use IaaS services within the next year.
+
+    That's a remarkable jump.
+
+    ## Data Data Everywhere
+
+    The 75% number is due to market pressures, but likely a singular pressure more than the rest: Simply put, there is more health data being created than CIOs know what to do with it. Wearables are prevalent, digital health products are increasingly being adopted, and mobile health is maturing. Data is being generated from all angles and it's up to the CIO to ensure it's secure, interoperable, and cost effective.
+
+    Even a few years ago there was a lot of data but it was manageable. It's not anymore, that's the clear signal: The acceleration of data creation is to the point where non-cloud-based IaaS services—like on-premise backup services—are simply too expensive and cumbersome.
+
+    Because of the explosion of data, hospital organizations have many strategies to consider as they contemplate how to manage it all. What is clear from the survey data is cloud-based IaaS-like services are now in the plans of most CIOs.
+
+    ## Hybrid Cloud is the preference
+
+    What didn't make it into the infographic but is still very interesting to study is the type of cloud configuration. Since 2014, we've seen a massive shift to hybrid cloud structures.
+
+    The concept of the cloud comes in three primary infrastructure types: Private, Public, and Hybrid. Private means largely single-tenant vertical stacks, which is believed to be the most secure per common convention. Public clouds are another way to say multi-tenant structures. Hybrids are somewhere in between.
+
+    The biggest shift was in organizations moving towards hybrid models. It makes sense when you consider their concerns with security, cost, and complexity. Public structures work fine with SaaS type apps, but sometimes the preference for a private model is strong with data-based needs. That organizations are mixing and matching with hybrid models correlates with the push towards greater IaaS service adoption due to the explosion in data.
+
+    ### How would you classify the type of cloud environment used by your organization?
+
+    |Environment Type|2014 %|2017 %|
+    |:-------------|-----:|-----:|
+    |Private Cloud|37.1%|28%|
+    |Hybrid Cloud|36.3%|58%|
+    |Public Cloud|23.4%|10%|
+    |Unsure|3.2%|5%|
+
+    ## What this means to healthcare
+
+    We believe all this data points to an increased acceptance of cloud-based solutions to emerging problems faced by hospital technology teams. In particular, it means the "bit has flipped" on security and privacy: In many ways, the cloud is now viewed as a safer alternative than outdated on-premise solutions.
+
+    We expect a continual interest and acceptance in IaaS-like services, and even PaaS-like services, which by and large will shift the industry's overall definition of the "cloud" to more than just software.
+
+  :featured_image:
+    :id: 46xZpWQuFW40KUsAYs0E4Y
+  :share_image:
+    :id: 17BTKKPhB28OEWkQsssiAq
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 7m6GhHtIFqeWoKuUQWSAOs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T18:17:07+00:00'
+    :created_at: '2017-02-03T00:26:21+00:00'
+    :id: 7m6GhHtIFqeWoKuUQWSAOs
+  :title: How Does the Cloud Reduce Data Loss Risk?
+  :slug: how-does-the-cloud-reduce-data-loss-risk
+  :pub_date: !ruby/object:DateTime 2016-07-13 00:00:00.000000000 Z
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: Healthcare is being revolutionized by the proliferation of new technologies.
+    With the modern boom of laptop, smartphone and tablet usage being witnessed across
+    medical institutions, allowing doctors to easily connect with their patients is
+    more important than ever. Since medical workers can connect near instantaneously
+    to obtain medical information sought after, primary care workflows can be expedited,
+    but what does this mean for data security?
+  :blog_lead: Healthcare is being revolutionized by the proliferation of new technologies.
+    With the modern boom of laptop, smartphone and tablet usage being witnessed across
+    medical institutions, allowing doctors to easily connect with their patients is
+    more important than ever. Since medical workers can connect near instantaneously
+    to obtain medical information sought after, primary care workflows can be expedited,
+    but what does this mean for data security?
+  :post: |-
+    Risks always follow new technologies. For instance, a tablet may be easily stolen or misplaced. If that tablet has the personal information of several hundred patients stored on it, the unknown whereabouts could lead to lawsuit settlements with insurmountable financial repercussions. Therefore, hospitals must be wary about how they are collecting, storing and protecting the information on their patients.
+
+    Storing data on mobile devices does make it easier to access data, but it also increases the risk of the same data falling into wrong hands if the device is misplaced. It really does not matter much if the data on the device was encrypted or not. Patients (and the judicial system) care more about the actual loss of personal information rather than the loss of the technology itself on which the information was stored. Therefore, being able to protect data itself is a much better proposition for ensuring the safety of patient records. Putting data on secure cloud applications is one way of minimizing risks from theft, provided it cannot be downloaded into any type of computer.
+
+    Cloud service providers that store data securely in multiple places minimize the risk of data loss due to catastrophic natural disasters, sabotage or destruction. Redundancy is assured when the healthcare information is stored on primary database servers along with a backup database server. Providers ensure that customer's data can be replicated to database servers in real-time during disaster recovery operations.
+
+    For healthcare services to attain this level of data, security would turn out to be extremely expensive and administratively very difficult. It would detract from the healthcare provider's primary functionality of caring for their patients. However, when a cloud service provider offers security, it is less expensive as the implementation is usually on a large scale. On one hand, the healthcare industry gets security at affordable prices and on the other, it is not burdened with maintaining a service that is not its core strength.
+
+    Although the cloud hosts and protects medical information, the control remains with the hospital. With support from the cloud service provider, hospitals can ensure a role-based security system for accessing the data. Users can have different levels of access based on their roles within the hospital's organization. Security breaches become easier to prevent, as specific people now require different levels of security clearance. The hospital can choose to employ role-based security for preventing an employee from unwittingly altering or accessing information that he or she is not permitted to because of their specific function.
+
+    From their side, cloud service providers offer a host of security features that their customers can utilize. For ensuring compliance to HIPAA, there are password complexity requirements, verification questions and session lockouts. Providers typically store user passwords with one-way hashing algorithms, while logging user entries with date, time and source IP address. The logs are maintained for a minimum of 30 days to ensure tracking and security.
+
+    The emergence of HIPAA-compliant cloud storage has raised the bar of providing a complete solution for improved performance and security for the service providers. The improved access to information stored on HIPAA-compliant cloud simplifies switching and leads to more savings for the medical facilities.
+
+    Questions? Reach out to us [directly][1], [tweet us][2], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+    [1]: mailto:hello@datica.com
+    [2]: https://twitter.com/daticahealth
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2

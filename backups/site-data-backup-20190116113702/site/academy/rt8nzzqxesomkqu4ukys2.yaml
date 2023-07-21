@@ -1,0 +1,468 @@
+---
+:id: RT8nZZqxeSOmKQu4Ukys2
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:39+00:00'
+  :created_at: '2017-01-16T17:41:33+00:00'
+  :id: RT8nZZqxeSOmKQu4Ukys2
+:title: HIPAA Contingency Planning + Disaster Recovery
+:slug: hipaa-contingency-planning-disaster-recovery
+:pub_date: !ruby/object:DateTime 2018-06-14 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: Business associates and subcontractors need a HIPAA disaster recovery contingency
+  plan in place to maintain the integrity of ePHI in case of a disaster.
+:post: |
+  The HIPAA rules place great weight on the integrity of protected-health information. The reason is that protected-health information is something that's important for somebody's health - if they were to be in an accident or they were to need health services, the ability to look back at their health information, an informed clinical decision-making, management treatment, all of those things. Protected-health information is very, very important. As such, one of the required elements within the HIPAA security rule is around contingency planning.
+
+  Section 164.308(a)(7)(i) of the HIPAA Security Rule states:
+
+  >*Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain electronic protected health information.*
+
+  What that means is planning for an outage, a disaster, or for some condition where systems' infrastructure databases are not accessible or damaged or in some other way not usable. It's crucial that business associates and subcontractors have policies and a HIPAA disaster contingency plan in place to assure that, in the case of a HIPAA disaster, so they can maintain the integrity of ePHI.
+
+  A good example would be Hurricane Katrina. After the hurricane, locally stored health data was not redundant and available in other regions, and that data was not accessible immediately following the outages caused by Katrina. The VA, however, had data accessible from other regions so it was able to access data.
+
+  The first step is developing a HIPAA disaster recovery (DR) plan. A DR plan outlines the process and plan in case there's a disaster - like a a fire, an explosion, or massive power outage (with failed power backup) – at the data center where your servers are stored. It could be a closet in your house; though, I certainly hope not for physical security reasons. Most likely, which is the case with Datica, your contingency plan for disaster involves a rack at a data center somewhere. DR is about planning for what might happen if that data center, for whatever reason, is inaccessible or unusable.
+
+  The first step is in actually assuring that you have thorough backups; so backing up your data, settings, and configurations on a very regular basis is very important for DR. We replicate data to another geographic region and automate the provisioning and "stand-up" scripts using tools like [Salt](http://www.saltstack.com/) across providers to assure availability in the case of a disaster. Note that the DR environment doesn't need to be an exact copy of your production environment (although you could choose it to be so). DR doesn't require you to have a "hot" standby either, i.e. an exact copy of your environment (load balancers for high availability, multiple application, and database nodes, etc.) as having this "hot" environment always available is expensive. Ultimately, your HIPAA disaster recover requirements are driven by trade-offs that you are willing to make between cost and possible down time. The key inputs into that decision are:
+
+  - How mission critical is your application? Directly impacts patient care for example.
+
+  - What could your revenue impact be for downtime? And what have you committed to in your SLAs to your customer - the business (within enterprises) or to enterprises (if you are a vendor)
+
+  Once you have a good backup strategy and plan in place that you've implemented and tested to assure that they're accessible, the next step is assuring you have a process and plan in place for how you would initiate using those backups. Typically, a DR policy defines the roles of the people that are going to be involved in recovering from a disaster and the key steps in communication that need to take place. Usually there is, as a part of a HIPAA disaster recovery plan, a plan for an emergency setup. How do you reconfigure and redeploy your infrastructure in a new data center or into a new environment that might not be optimal (maybe no high availability, for example)? The next step is how you actually migrate back to the environment that your infrastructure was in originally, if that infrastructure can be reinstated or reused.
+
+  Disaster recovery and actual backups are very important, and both are things that are not that fun to do. They take time, and there are resources that need to be dedicated to actual backups. With Datica, we work with you to solve that section of HIPAA. We have a backup process that we can quickly implement unless you already have one in place or would like to incorporate what you've already set up in to the process we have.  We have a very detailed disaster recovery contingency plan that covers all the elements outlined above. We ensure that if something happens to your infrastructure, which we are managing for you, we can stand it back up.
+
+  When it comes to the disaster contingency plan requirement, not only do we meet the technical safeguards and provide you with the technical infrastructure and the tools pre-built to do it, we also have the policy in place for it; and our policy has been assessed by a third party auditor. As an organization and Datica customer, if you're developing your own HIPAA policies, you can inherit or use our HIPAA disaster recovery policy in its entirety. It is essentially your DR policy.
+:related_guide:
+  :id: 1L20oQXl3G2cKSm4gg2wuc
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:41+00:00'
+    :created_at: '2017-06-20T21:34:40+00:00'
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :title: HIPAA Compliance at the Application Level Guide
+  :slug: application-hipaa-compliance
+  :summary: HIPAA compliance at the application level is different than the infrastructure
+    level. This comprehensive guide explains HIPAA considerations for digital health
+    applications.
+  :subhead: A guide written by HIPAA compliance technical experts
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: When a digital health product stores, processes, or transmits PHI, HIPAA
+    asserts rules for how it should handle a multitude of security, privacy, and policy
+    procedures, called “controls”. Demonstrating that your company and your digital
+    health product meet all those controls is how you can call yourself compliant.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: "HIPAA controls can be conceptually organized into three levels: infrastructure,
+    application, and company. This guide dives into all the under-the-hood considerations
+    you must manage at the application level to ensure your application meets the
+    security requirements required for healthcare data. \n\nFollowing this guidance
+    will enable you to get through an audit process and help you more successfully
+    engage with healthcare customers.\n\nThe HIPAA Compliance at the Application Level
+    guide includes information and checklists for:\n\n* Your responsibility for HIPAA
+    \n* Understanding your application's usage including access, credentials & provisioning,
+    ACLs, and usage audits\n* Alignment with customer processes and needs, including
+    business continuity, training & support, data onboarding and backload, collecting
+    user and outcomes data, and upgrading the app\n* Proving compliance"
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ad91c94e-b298-4416-88fe-1548367689f2
+  :bg_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: 1eK0941hX4icwGkikGCKQg
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:39+00:00'
+    :created_at: '2017-01-16T17:41:33+00:00'
+    :id: 1eK0941hX4icwGkikGCKQg
+  :title: HIPAA and Data Breaches
+  :slug: hipaa-and-data-breaches
+  :pub_date: !ruby/object:DateTime 2018-04-11 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: 'Understanding the HIPAA breach policy and having a breach notification
+    checklist can prepare you in case of unauthorized disclosure of ePHI. '
+  :post: |
+    One of the most important aspects of HIPAA has nothing to do with technical security like encryption, backup, logging, or any of other requirements for securing data. What's important is what happens in the case of an unauthorized disclosure of ePHI, or a breach of ePHI. A breach is defined as unauthorized exposure of ePHI or disclosure that's not authorized or allowed under the HIPAA Privacy Rule. The breach rules were amended in 2013 as part of the HITECH Act.
+
+    HITECH Act Sec. 13402(b) Notification of Covered Entity by Business Associate states - A business associate of a covered entity that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured protected health information shall, following the discovery of a breach of such information, notify the covered entity of such breach. Such notice shall include the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been, accessed, acquired, or disclosed during such breach.
+
+    The majority of breaches are actually not software breaches. They're not hacking into a system that causes the unauthorized disclosures. Breaches affecting over 500 records are [published](http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/breachtool.html) by CMS. You can see there's a searchable database of breaches that have occurred, how many records were affected and the type of breach. The vast majority of breaches are hardware breaches. The majority, if not almost all of the breaches, seem to happen because of [employee carelessness](http://rockhealth.com/wp-content/uploads/2013/03/34f9a961f56ac6d3013d8b1bd266ef3b96fee194.png). It seems like it's almost always a contractor's laptop, often at the VA, that's been unencrypted and has been storing tons of patient records. The laptop is stolen from a car or a house or a coffee shop or an airport or whatever.
+
+    "Hacking/IT Incident" only accounts for 68 breaches, a relatively small number. There is great potential to have a breach with a malicious hacker breaking into a private network or any sort of cloud storage, especially public cloud. This potential has fueled much of the slow pace of moving ePHI to the cloud.
+
+    There are ways to mitigate that risk – and that is why we created Datica – but the important thing when it comes to a breach is actually having a process in place that details the steps to take in case of a breach. How do you assess what information was exposed in an unauthorized way and then how do you go about notifying relevant parties of that breach? The necessary notifications include anybody from the actual patient whose medical record was exposed, to the media, covered entities, and business associates. The notification policy should lay out plans for forensics to discover the extent of the breach and the cause of the breach. There is typically a chain of command that is outlined in a breach notification strategy that lays out, in detail, who is responsible for different aspects of notification and mitigation. The rules also put the burden on the business associate "of demonstrating that all notifications were made as required" by HIPAA.
+
+    The policies should be consistent with what is in the requirements of a business associate agreement in as it relates to the timing to report a breach. HIPAA requires notification of a breach "without unreasonable delay" but allows, at a maximum, 60 days to report a known breach. Most covered entities we've worked with want that timeline to be much shorter, and the range we usually hear is somewhere between 24 hours and 5 days. This can be a sticking point in business associate discussions. Some hosting providers have polices in place for breach reporting that are 30 days, 45 days, or even 60 days out; this is not typically inline with what a hospital, payer, or another large healthcare enterprise would expect from a business associate agreement and a breach policy for a business associate that they are working with. Despite the 60 day window, HIPAA rules also go on to require "evidence demonstrating the necessity of any delay." If it takes 60 days, there have to be reasons given for that delay.
+
+    Breach policy and breach notification are things that are extremely important. There are templates for breach notification, but the policy alone does not mitigate risk. There needs to be an understanding within the organization, business associate, or covered entity of what a breach is and what the breach policy is. There also need to be auditing and logging and other systems (IDS) in place to detect and investigate a breach. Detecting the breach is often the challenge which is why having a comprehensive audit log is necessary and, more importantly, being able to generate alerts off the log is critical. Look for something from us to help you address this problem shortly.
+
+    At Datica we have [both](https://catalyze.io/hipaa#hitech-act-and-omnibus-rule:-it-security-provisions) a breach policy and a breach checklist that we can follow in the case of a breach. We've mock tested this policy and checklist to assure it makes sense and all relevant workforce members understand their roles. If you want to learn more about our policies for handling breaches, please just [ask](mailto:hello@catalyze.io).
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: SMDqjNdTaKCGU60Ow6eYu
+  - :id: 5IWeaTEI9yCAQYK8qeqa2I
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 6iyNBVdpAIgewyYekqISUG
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: SMDqjNdTaKCGU60Ow6eYu
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: SMDqjNdTaKCGU60Ow6eYu
+  :title: HIPAA Data Retention Requirements
+  :slug: hipaa-data-retention-requirements
+  :pub_date: !ruby/object:DateTime 2018-07-23 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: HIPAA requires that business associates and covered entities retain multiple
+    types of data for at least six years. Learn what data you need to retain.
+  :post: |
+    HIPAA requires that business associates and covered entities retain the following for at least six years from creation date or last effective date, whichever happens to be later.
+
+    - A written or electronic record of a designation of an organization as a CE (e.g., health plan, affiliated covered entity, etc.) or BA.
+    - Information security and privacy policies and procedures implemented to comply with HIPAA.
+    - All documented settings, activities and assessments required by HIPAA.
+    - All data use agreements and other forms supporting HIPAA compliance.
+    - All signed authorizations and, where applicable, written acknowledgments of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgments.
+    - The Notice of Privacy Practices for entities that must provide them.
+    - Designated record sets that are subject to access by individuals.
+    - Documentation of the titles of the persons or offices responsible for HIPAA compliance, including not only those with over-all responsibility for compliance, but also those responsible for receiving and processing requests for amendments by individuals, and those responsible for receiving and processing requests for an accounting by individuals.
+    - Accounting of disclosures of protected health information (PHI).
+
+    In addition to understanding what HIPAA requires for retention, covered entities and business associates must also know their other legal requirements for retention, from state, federal, international and contractual requirements. For example, Connecticut state law requires that medical records, some of which go beyond HIPAA’s definition of PHI, be maintained for 7 years.
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: 3JRgbNv5QcuO2ouAcUOaiI
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:41+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :title: Business Associate Agreements
+  :slug: business-associate-agreements
+  :pub_date: !ruby/object:DateTime 2018-04-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: With ePHI access, business associates are required to sign a HIPAA business
+    associate agreement (BAA). Learn more about business associate agreements here.
+  :post: |-
+    The HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and entities that have to follow the HIPAA security and privacy rules. The main categories are clearinghouses, covered entities (CEs) - typically hospitals, payers, and providers, and business associates. Business associates are far away the biggest cohort of cloud computing companies.
+
+    Business associates are people or organizations who contract and provide services and/or technology for covered entities. In the process of providing those services or those technologies, business associates handle, process, transmit, or in some way interact with electronic protected health information (ePHI) from those covered entities. With this ePHI access, business associates are required to sign what's called a business associate agreement (BAA). Below is the actual language from HIPAA 164.308.
+
+    * (b)(1) Business associate contracts and other arrangements. A covered entity may permit a business associate to create, receive, maintain, or transmit electronic protected health information on the covered entity's behalf only if the covered entity obtains satisfactory assurances, in accordance with §164.314(a), that the business associate will appropriately safeguard the information. A covered entity is not required to obtain such satisfactory assurances from a business associate that is a subcontractor.
+
+    * (2) A business associate may permit a business associate that is a **subcontractor** to create, receive, maintain, or transmit electronic protected health information on its behalf only if the business associate obtains satisfactory assurances, in accordance with §164.314(a), that the subcontractor will appropriately safeguard the information.
+
+    Business associate agreements are basically legal contracts that outline the ways in which business associates follow HIPAA, as well as the responsibilities and risks that the business associate takes on. They typically defines the type of services that the business associate is providing, the type of data that they are interacting with, states that they will follow HIPAA and not disclose PHI without authorization. They also should address areas around breach notifications and penalties. Traditionally, pre-cloud and prior to the HIPAA Omnibus changes of 2013, BAAs were boiler plate. Here's the [template BAA](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/contractprov.html) from HHS.
+
+    Business associate agreements became a lot more interesting with the passing of the new HITECH HIPAA Omnibus Rule in 2013, which expanded upon that definition of business associate to include something called subcontractors. Subcontractors are typically service or technology organizations that provide additional services to the business associates, which are providing services for the covered entities. With subcontractors and APIs and SaaS, there is now a chain of entities touching ePHI in some way, and each of them need to have BAAs in place that are consistent and not contradictory to one another. As an example, a business associate selling to hospital A can't have a breach notification policy of less than 24 hours if the hosting provider they use has a physical breach notification policy of 2 months.
+
+    As the internet, cloud computing, and APIs have broken down silos, more and more applications rely on different layers of technology and services, considered subcontractors. These subcontractors have to sign business associate agreements with business associates, who in turn have to sign a business associate agreement with covered entities. That's actually a very common use case for us at Datica, where most of our early customers are business associates, and their customers are covered entities.
+
+    We spent a lot of time and a lot of money with our attorneys on our BAAs because this is a new area, an area we don't think is well defined yet; we don't think the existing BAA templates are adequate or even make sense for most hosted vendors. In this new paradigm of health technology there are interesting definitions around which entities are responsible, both technically and financially in the case of a breach, for different aspects of the HIPAA rules. We tell our prospective customers to read their current business associated agreements that they have with their hosting providers or other services companies to get a sense of what the legal responsibility is for the business associate and the aspects to which the subcontractor is ultimately. Regardless of who is issuing the BAA, you should read through it in detail because at some point a compliance or security officer likely will read it and you want to be as proactive about compliance issues as you can.
+
+    If you boil it down, business associate agreements are just contracts that outline the ways in which different organizations are going to handle electronic protected health information (ePHI), the types of responsibilities that those organizations take on, some of the very specific rules around their obligations with regards to HIPAA. This last one, the obligations of subcontractors, is an area in which you want to pay close attention. Specifically read what the subcontractors obligations are in terms of timeliness of breach notification, because that was a part of the changes in the HIPAA Omnibus Rule that just went into effect. We have had several early customers come to us because the time period for breach notifications with their existing hosting provider is not acceptable for covered entities they are selling into. We've talked to several companies that have run into roadblocks with enterprises because their business associate agreements with their hosting providers had been out of line, and especially relating to breach notification. Our policy at Datica is breach notification within 4 hours, along with some very detailed [plans](https://catalyze.io/hipaa#notification-in-the-case-of-breach---13402(a)-and-13402(b)) to help you mitigate the risk of a breach.
+
+    At a high level, that's what business associate agreements are and you are expected to have those for all of the various technology and services companies that you work with that might in some way interact, process, store, or have access to ePHI. If you're a business associate or you're a covered entity, we happily sign BAAs. And if you're interested in seeing one of our BAAs, [email us](mailto:legal@datica.com) and we'll walk you through ours and answer any questions you might have about it.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 1PYfVd3tsoq6WeAMGyWwo6
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

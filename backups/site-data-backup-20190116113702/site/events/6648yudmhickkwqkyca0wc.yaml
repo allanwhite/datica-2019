@@ -1,0 +1,76 @@
+---
+:id: 6648yudmhickKwQKycA0wc
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-03-23T20:27:30+00:00'
+  :created_at: '2018-03-20T22:01:25+00:00'
+  :id: 6648yudmhickKwQKycA0wc
+:title: 9th Annual Becker's Hospital Review Meeting
+:slug: 9th-annual-beckers-hospital-review-meeting
+:date_start: !ruby/object:DateTime 2018-04-11 00:00:00.000000000 -05:00
+:date_end: !ruby/object:DateTime 2018-04-14 00:00:00.000000000 -05:00
+:hide_after_date: !ruby/object:DateTime 2018-04-15 00:00:00.000000000 Z
+:event_tags:
+- Conferences
+:event_logo:
+  :title: Becker's Annual Hospital Review
+  :description: Becker's Annual Hospital Review logo
+  :url: "//images.ctfassets.net/189dvqdsjh46/5XpwhRCKDSeA4QyOAegsGQ/9e011e8fac94aa37a8f40762cb519f73/Screen_Shot_2018-03-20_at_4.45.45_PM.png"
+  :_meta:
+    :updated_at: '2018-03-20T22:22:59+00:00'
+    :created_at: '2018-03-20T22:22:59+00:00'
+    :id: 5XpwhRCKDSeA4QyOAegsGQ
+:summary: 'Visit Booth #1411 to talk with Datica about compliance and security in
+  the cloud. '
+:event_desc: 'Join Datica at [Becker''s 9th Annual Hospital Review Meeting](https://www.beckershospitalreview.com/conference/
+  "Becker''s 9th Annual Hospital Review Meeting") in Chicago. The Hyatt Regency is
+  command central for this much anticipated annual conference. Datica can be found
+  in booth #1411 where you can learn how the Datica Platform fills the compliance
+  gaps on top of public clouds like AWS and Azure by combining the best technology
+  available and mapping it to frameworks like HIPAA, HITRUST, GDPR, and GxP. Schedule
+  your meeting with the team now and we''ll have a special treat waiting for you at
+  the booth. '
+:tags:
+  :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+:event_location:
+  :lat: 41.887706
+  :lon: -87.6228453
+:cta_ref:
+  :id: 5MpeKYq9NeOy6eeKgiEikW
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-03-27T22:21:22+00:00'
+    :created_at: '2018-03-23T20:25:48+00:00'
+    :id: 5MpeKYq9NeOy6eeKgiEikW
+  :title: Join us at Becker's
+  :slug: beckers-2018
+  :custom_form: |-
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+        hbspt.forms.create({
+            portalId: "1695915",
+            formId: "17615d0c-7f71-4725-abb4-b302e4b756ef",
+            onFormSubmit: function($form) {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    'event': 'GAEvent',
+                    'eventCategory': 'Sales Engagement',
+                    'eventAction': 'Form Submission',
+                    'eventLabel': 'Contact Us',
+                    'eventValue': '10'
+                });
+            },
+            css: "",
+            sfdcCampaignId: "70161000001R6mQAAS"
+        });
+    </script>

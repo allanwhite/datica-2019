@@ -1,0 +1,84 @@
+---
+:id: 63I41XQZRmIYSieiKCEau0
+:_meta:
+  :content_type_id: caseStudy
+  :updated_at: '2018-08-28T17:51:14+00:00'
+  :created_at: '2017-01-14T21:01:18+00:00'
+  :id: 63I41XQZRmIYSieiKCEau0
+:case_study_title: 'Propeller Health and Datica: Solving Integration and Workflows
+  to Improve Pediatric Asthma Care'
+:slug: propeller-health
+:customer:
+  :id: 6d6HjIEcdGQ8u2AQG0iAym
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-02-03T16:02:10+00:00'
+    :created_at: '2017-01-14T21:02:08+00:00'
+    :id: 6d6HjIEcdGQ8u2AQG0iAym
+  :company_name: Propeller Health
+  :slug: propeller
+  :customer_logos:
+  - :id: 4eDQ1ESNKUAoAYCO6q8cws
+  :fullname: Greg Tracy
+  :role: CTO & Co-Founder
+  :profile_pic:
+    :id: 4Y64BQUU4MeSEWMSg86s8o
+  :related_products:
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  :customer_story_short: 'Propeller Health is a leading digital health company focused
+    on improving outcomes in chronic respiratory diseases such as asthma and COPD. '
+  :customer_story: |-
+    Propeller’s platform provides real-time data and analytics from connected inhalers to help drive adherence to therapy and identify patients that are at risk for exacerbations. Better information enables more proactive care and reduces cost. Propeller’s customers include hospitals and health systems across the US. Each client is different.
+
+    The case study described here presented two unique challenges for a children’s hospital wanting to integrate Propeller’s solution for their pediatric asthma patients. First, both patient and caregiver data needed to be housed together within the EHR. Second, it was required that Propeller’s real-time analytics were integrated into the normal clinical workflow. Datica provided expertise to help solve for both integration and workflow challenges and enabled Propeller to help patients and their families learn to better manage their disease.
+  :case_study:
+    :id: 63I41XQZRmIYSieiKCEau0
+:related_form:
+  :id: 64UFj93C9iySQGMWwKGKMs
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:04+00:00'
+    :created_at: '2018-04-03T22:35:06+00:00'
+    :id: 64UFj93C9iySQGMWwKGKMs
+  :title: Propeller Case Study
+  :slug: propeller-case-study
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"cbc0a43b-f15b-4bd3-a365-53c8df153b85\",\n
+    \ target: \"#hsFormContainer\",\n  onFormSubmit: function($form) {\n  window.dataLayer
+    = window.dataLayer || [];\n  window.dataLayer.push({\n                    'event'
+    : 'GAEvent',     \n                    'eventCategory' : 'Case Study',\n                    'eventAction'
+    : 'Form Submission',\n                    'eventLabel' : 'Propeller',\n                    'eventValue'
+    : '2'\n                    });\n                  },\n  css: \"\"\n});\n</script>"
+:form_id: cbc0a43b-f15b-4bd3-a365-53c8df153b85
+:customer_quote:
+  :id: 4vLOUnpEPuWa4OoqwKU8sy
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-01-14T20:58:46+00:00'
+    :created_at: '2017-01-14T20:58:46+00:00'
+    :id: 4vLOUnpEPuWa4OoqwKU8sy
+  :quote_title: Greg Tracy on Epic
+  :quote_type: customer
+  :quote_body: Any time you find a resource that understands Epic, like Mark and his
+    team do, you are more likely to meet your desired project goals.
+  :customer:
+    :id: 6d6HjIEcdGQ8u2AQG0iAym
+:related_product:
+  :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+:body: |-
+  #### In this case study, you will learn:
+
+  * An innovative workflow was created to bypass the data restrictions of the EHR
+  * Patient and caregiver data were amalgamated to be read as a singular data source
+  * Successful integrations were positioned for the future

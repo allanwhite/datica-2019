@@ -1,0 +1,18 @@
+---
+:id: 59CwJtcnHaU084mIAieGgw
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:31+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: 59CwJtcnHaU084mIAieGgw
+:title: Load Balancing
+:slug: load-balancing
+:category: Core Compliance
+:summary: HA environments for mission-critical products
+:desc: Datica customers run mission-critical applications impacting patient lives.
+  Being able to support the resiliency of those applications is inherit to the Platform.
+  Our “Service Proxy” service is responsible for routing traffic from the outside
+  world to your environment. The service proxy can handle highly-available (“HA”)
+  applications and will automatically load balance depending on the traffic situation.
+  Additionally, the Platform supports highly-available services all the way down the
+  user’s critical path.

@@ -1,0 +1,146 @@
+---
+:id: 2SE3P08sSIscwYI4uwOSM2
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2018-10-18T22:19:31+00:00'
+  :created_at: '2018-10-18T22:19:31+00:00'
+  :id: 2SE3P08sSIscwYI4uwOSM2
+:title: 'Blog: Promo elements'
+:slug: blog-promo-elements
+:related_entries:
+- :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2QyVPoH66sq6qI8oKQwOWC
+  :_meta:
+    :content_type_id: reports
+    :updated_at: '2018-09-17T20:08:53+00:00'
+    :created_at: '2018-09-11T23:21:57+00:00'
+    :id: 2QyVPoH66sq6qI8oKQwOWC
+  :title: 'Complete Cloud Compliance: Chapter 2 - What really is compliance? '
+  :slug: complete-cloud-compliance-chapter-2
+  :pub_date: !ruby/object:DateTime 2018-09-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :summary: 'Datica CEO Travis Good MD and CMO Kris Gosser wrote a book: Complete
+    Cloud Compliance. Sign up to get chapter 2 now and be notified when the book is
+    printed and available.'
+  :subhead: The Definitive Book on Cloud Compliance
+  :lead: 'Complete Cloud Compliance is a program developed after years of managing
+    high-stakes compliance requirements across mission critical healthcare workloads.
+    It is a chance to control destiny. The program is written for healthcare organizations,
+    but all while under the principle that best practices are best practices, meaning
+    the insights shared can be applied across global regimes and any industry.
+
+'
+  :desc: |
+    ## 9 big ideas in the book
+
+    1. When controlled, compliance is actually a competitive edge.
+    2. The cloud is no longer other people's computers. It is managed services.
+    3. As cloud services get more abstract to improve developer experience (a good thing), more control is being taken away from the user making compliance attestation harder (a bad thing).
+    4. Compliance is only as strong as the weakest link in the abstraction chain.
+    5. Frameworks are the best way to manage regulations. The best frameworks are built for a dynamic future, not a dated past.
+    6. Complete cloud compliance is hard because technologists struggle to understand compliance while compliance officers struggle to understand the cloud.
+    7. The cloud is global, so compliance is now global.
+    8. Cloud compliance comes down to data management. The three verbs of data are store, compute, and transmit.
+    9. Data sources are splintering instead of unifying, making compliance more complex.
+
+    __Register to get an excerpt of the book,__ chapter 2: _"What_ really _is compliance?"_ You'll also be notified when the printed book is available.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :form_id: complete-cloud-compliance-chapter-2-what-really-is-compliance
+  :icon: complete-cloud-compliance-chapter-2-what-really-is-compliance
+  :bg_image:
+    :id: 7wFYDDX0HeqeiIkowEi0ac
+  :image_thumb:
+    :id: 1G30bVzhoU6iGsCKMaeY64
+  :share_image:
+    :id: 1NSPdxWObme2qAOOkY6MUe
+  :related_form:
+    :id: 5VrP9rKBwsIkAWWWgGW6aE
+- :id: 4I9re0AHjGs8AKyWOMMAK8
+  :_meta:
+    :content_type_id: webinars
+    :updated_at: '2018-10-09T22:57:07+00:00'
+    :created_at: '2018-09-26T23:30:08+00:00'
+    :id: 4I9re0AHjGs8AKyWOMMAK8
+  :title: How to build your own Complete Cloud Compliance program
+  :slug: how-to-build-complete-cloud-compliance-program
+  :event_date: !ruby/object:DateTime 2018-10-09 13:00:00.000000000 -05:00
+  :summary: In this practical webinar, extracted from Chapters 5 and 6 of the new
+    book, Complete Cloud Compliance, we’ll detail the steps you need to take to ensure
+    cloud compliance.
+  :subhead: Learn how to build a compliance program that accounts for cloud-native
+    microservices
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :lead: |+
+    Nothing has fully tied together the compliance considerations needed for the cloud-native, microservices-based architectures of this modern era until now. Complete Cloud Compliance(3C) is the new mandate for cloud-based healthcare applications.
+
+    In this practical webinar, extracted from Chapters 5 and 6 of the upcoming book, [Complete Cloud Compliance](https://datica.com/innovation/complete-cloud-compliance-chapter-2/), we’ll show you how compliance has failed to keep up with modern cloud architectures and will detail the steps you need to take to ensure cloud compliance.
+
+  :desc: |-
+    ## Watch this webinar to:
+
+    * Understand the compliance tradeoffs caused by today’s abstraction of the cloud, including cloud-native microservices and managed services.
+    * Find out the 6 common components that are necessary for any 3C program.
+    * Learn how to create a cloud compliance roadmap that will guide your way to your own 3C program.
+  :authors:
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :related_form:
+    :id: uYc9d0ZbpeKi8Iy2YW4Mi
+  :video_embed:
+    :id: 5xyNI8BG7YmU0U6A0M44cW
+  :image_thumb:
+    :id: 4CiiFRHmxiW2emW0WmmiYu
+  :share_image:
+    :id: tEItlivaveUouCGw2IuwQ
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+:icon_slug: blog-promo-elements

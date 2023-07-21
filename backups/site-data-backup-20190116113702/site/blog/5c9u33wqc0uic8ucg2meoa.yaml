@@ -1,0 +1,348 @@
+---
+:id: 5C9U33wqc0UiC8ucg2MEOa
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-16T17:09:45+00:00'
+  :created_at: '2017-06-16T16:38:09+00:00'
+  :id: 5C9U33wqc0UiC8ucg2MEOa
+:title: Speaking at the Healthcare Informatics Health IT Summit in Boston
+:slug: speaking-at-the-healthcare-informatics-health-it-summit-in-boston
+:pub_date: !ruby/object:DateTime 2017-06-16 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Cybersecurity is top of mind for most CEOs and so it was no surprise that
+  it was a hot topic at this week's Health IT Summit in Boston.
+:blog_lead: 'I attended and spoke at the [Healthcare Informatics Health IT Summit](https://www.healthcare-informatics.com/page2/health-it-summit-series-calendar-events)
+  this week in Boston, which started yesterday and ends today. The event was well
+  organized and attended. The program was geared towards practical applications and
+  lessons for healthcare technology. Health system and information exchange executives
+  spoke at many of the sessions. '
+:post: "## Security in the cloud\n \nIf there was a primary theme, it was cybersecurity.
+  One of the two days of the event, and several extra sessions, were focused on cybersecurity.
+  Given that cybersecurity is [top mind for most CIOs](http://www.himss.org/sites/himssorg/files/2016-cybersecurity-report.pdf),
+  this makes a lot of sense. The other topics covered including digital health innovation
+  and policy, with specific discussion of how policy is shaping health system initiatives,
+  partnerships, and technology.\n \nBut ultimately, cybersecurity is the most important
+  and most tangible discussion of the moment for health system administrators, and
+  this conference demonstrated that fact.\n \nThe relationship between security and
+  the cloud is an interesting one from our perspective. Historically, healthcare has
+  been skeptical of the “cloud” because it has been deemed insecure. _Why would you
+  trust your data in someone else’s data center when you can control your own servers?_
+  A reasonable stance 10 years ago, but now that view is obsolete, and you can tell
+  healthcare is shifting in its perception of security in the cloud.\n \nFirst, the
+  sheer size of talented engineers focused on security at the top infrastructure providers
+  is a commonsensical way to view security in the cloud. The largest cloud providers—Amazon,
+  Microsoft, Google and IBM—have close to 10,000 active engineers focused on security
+  and reliability of their platforms. Contrast this to the skeleton crew in most health
+  systems managing a full stack of hardware and software, often using decades-old
+  server technology.\n \nBut perhaps the most important reason that security is now
+  better in the cloud than it is with old owned infrastructure is because of shared
+  incentives. In short, the largest cloud providers are incentivized more than anyone
+  else to be the most secure. If they were to have a single breach, their very multi-billion-dollar
+  business models would be at risk. Contrast this to the incentives of an internal,
+  stodgy IT staff at a hospital who have very different incentives.\n \nAll told,
+  cybersecurity is one of the most important topics to healthcare administrators,
+  and this conference’s focus on it showed that.\n \n## The Success of Digital Health\n
+  \nMy talk was focused on strategies for digital health success.  We’ve spent a good
+  chunk of time distilling down the 3,000+ conversations we’ve had with digital health
+  innovators into a simple-to-use and actionable framework that we think the industry
+  can use as both a roadmap as well as a spot check for gaps to scaling.\n \nThese
+  digital health success strategies apply equally well to a small startup all the
+  way up to an innovation group at a Fortune 100. This is the first time we’ve presented
+  the framework and are thrilled with the positive feedback we’ve already gotten from
+  attendees in Boston.\n \nWithin the coming weeks, we plan to publish the framework
+  for anyone in healthcare to use and learn from. Feedback is always welcome and ideally,
+  we will have others contribute to the framework. Given the sheer volume of content
+  in it—which was clear as I put my talk together and presented—the key to its usefulness
+  will be the interactive experience, which will be an iterative process as well.\n
+  \nIf I missed you at the Summit, feel free to [email me](mailto:travis@datica.com)
+  if you want to learn more about the DHSF.\n \n"
+:featured_image:
+  :title: boston
+  :description: Boston IT Summit
+  :url: "//images.ctfassets.net/189dvqdsjh46/6S0JoUAwQosWM8iY0GKMM/1b4d5c12a368675d7824e445eeb66a99/1024px-Boston_skyline_at_earlymorning.jpg"
+  :_meta:
+    :updated_at: '2017-06-16T16:37:27+00:00'
+    :created_at: '2017-06-16T16:35:44+00:00'
+    :id: 6S0JoUAwQosWM8iY0GKMM
+:share_image:
+  :title: 06-16-17 security insights from TG
+  :description: blog, featured, boston
+  :url: "//images.ctfassets.net/189dvqdsjh46/3LzGYWVgOcW4SU2Q6ySwYC/4b47454977c798a3e71f1c32d44a4b20/06-16-17_security_insights_from_TG.jpg"
+  :_meta:
+    :updated_at: '2017-06-16T17:09:36+00:00'
+    :created_at: '2017-06-16T17:09:36+00:00'
+    :id: 3LzGYWVgOcW4SU2Q6ySwYC
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light
+:related_entries:
+- :id: 4hdDeDpvO0Wy6uU6qkQceU
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-13T16:58:13+00:00'
+    :created_at: '2017-06-12T23:29:26+00:00'
+    :id: 4hdDeDpvO0Wy6uU6qkQceU
+  :title: Onramp to the Healthcare Cloud
+  :slug: onramp-to-the-healthcare-cloud
+  :pub_date: !ruby/object:DateTime 2017-06-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Most of us imagined the cloud onramp in healthcare to be many years away
+    but it's happening now as healthcare embraces SaaS-based digital health solutions.
+  :blog_lead: Something interesting has been happening in healthcare over the last
+    several years. While we’ve been focused on meaningful use, EHRs, and Obamacare,
+    healthcare has quietly started to [embrace the cloud](https://datica.com/discover/healthcare-cloud/).
+    Most of us imagined the cloud onramp in healthcare to be many years away. But
+    it hasn’t been. In many ways, it’s happened the same way it happened in other
+    industries — through data connections between on-premise legacy systems and new
+    cloud-based solutions. Just like many enterprises embraced the cloud over the
+    last 15 years with Salesforce, so too are healthcare enterprises embracing new
+    SaaS-based digital health solutions.
+  :post: " \n## Data is in the Driver’s Seat\n \n**Healthcare’s onramp to the cloud
+    is about data**, not about [lifting and shifting](http://searchcloudcomputing.techtarget.com/feature/When-to-adopt-the-lift-and-shift-cloud-migration-model)
+    legacy systems out of hospital data centers and into the cloud. And, the nature
+    of the cloud enables a paradigm shift in the types of solutions that are succeeding.
+    Digital health technologies, the major drivers of the future of health IT, are
+    being selected *based on the best* of breed model, not *one size fits all* model
+    of the [monolithic EHRs](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+    that have proliferated and dominated health IT resources for the last fifteen
+    years. This swing back to best of breed is important because it opens the door
+    for new, highly-targeted and highly-valuable solutions to flourish. Healthcare
+    is letting a thousand digital health flowers bloom. On the flip side, this new
+    model also creates a ton of noise in the industry that champions and decision
+    makers at healthcare enterprises have to wade through.\n \nDon’t get me wrong,
+    there are still bottlenecks to the onramp, most notably data integration and,
+    most frequently, a non-technical problem; but, even integration is becoming a
+    solved problem (FHIR, new APIs, new knowledge transfer, and open source tools
+    to educate and jumpstart integrations, etc). [EHR integration](https://datica.com/discover/ehr-integrations/)
+    is certainly easier to solve than setting up and managing a host of digital health
+    applications on premise.\n \n## Beware of the Data Security Risks\n \nBut, this
+    type of onramp to the cloud does create a new set of risks for healthcare organizations.
+    **The data onramp, in many ways, is more risky than lift and shift.** The data
+    being shipped to the cloud is health data and the stewards of that health data
+    are [covered entities](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    (mostly health systems and insurance companies). This data isn’t contact information
+    for sales prospects going into Salesforce. Privacy and security are always important
+    but, in healthcare, there is a significant financial risk if you get them wrong.\n
+    \nThe risk is compounded as healthcare organizations work with more and more cloud-based
+    digital health solutions, as is now happening in the best of breed model that
+    has emerged. The challenge in healthcare is that HIPAA is loosely defined at best,
+    and loosely audited at worst. So a healthcare organization may work with ten different
+    digital health solutions and all ten of those solutions may be on the same cloud
+    provider, say AWS for this example, but every one of those digital health solutions
+    addresses [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) and
+    data security in different ways. This makes it nearly impossible for healthcare
+    organizations to maintain a consistent data governance posture and, maybe more
+    importantly, to understand the their current risk of breach or security incident.\n
+    \n## Cloud Cybersecurity Depends on Consistency\n \nSomething we often hear from
+    healthcare organizations is that they have a mix of cloud-based solutions that
+    are connected to their EHRs. These solutions can include applications built in
+    house, applications built by development groups contracted by the organization,
+    and SaaS applications developed and supported from 3rd party vendors. Chances
+    are every one of those instances is secured and managed differently. At Datica,
+    we run a fleet of 500+ cloud hosts across multiple data centers, running many
+    different applications and technology stacks. All of those hosts and networks
+    are audited and assessed on an ongoing basis. Trust us when we say that **doing
+    cybersecurity in the cloud, consistently and continually, is non-trivial.** And
+    it’s our [core expertise](https://datica.com/compliance/)!\n \nThese data risks
+    are mitigated to some extent in the lift and shift model as the cloud is managed
+    and configured in a standard way for technologies [migrating to the cloud](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
+    But, that’s not the model we have in healthcare for the foreseeable future; lift
+    and shift will happen, but our best guess is that is five to ten  years away for
+    even progressive organizations. Ultimately, covered entities will bear the cost
+    of data breaches and it is up to them to find a way to reduce that risk. The onramp
+    to the cloud has already started and is has created new risks. Healthcare organizations
+    need to get ahead of these risks as they continue to test and scale best of breed
+    digital health solutions.\n \n"
+  :featured_image:
+    :id: 1kbiHPwbs8oWsa0QGwYUSU
+  :share_image:
+    :id: 3XAzTTt2XecakamUe4kWK0
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 3kabC1VofumgW6owKmIkqG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:03+00:00'
+    :created_at: '2017-02-24T22:33:57+00:00'
+    :id: 3kabC1VofumgW6owKmIkqG
+  :title: 'Reflections on HIMSS 2017: Same Same, but Different'
+  :slug: reflections-on-himss-2017-same-same-but-different
+  :pub_date: !ruby/object:DateTime 2017-02-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The buzz at HIMSS 2017: analytics, machine learning, AI, cyber-security,
+    patient-centered care, and open data were a few themes we saw this year.'
+  :blog_lead: "[HIMSS 2017](http://www.himssconference.org/) is done. It’s time for
+    the outpouring of commentaries on the event. And, amazingly, it’s already time
+    to be thinking about next year if you’re an exhibitor. I realize the big companies
+    do this but, at Datica, we too are planning and already booked our booth for next
+    year. Thankfully we got a good booth space on the top floor and not in the basement
+    (Vegas needs 2 levels to support HIMSS whereas Orlando only needs one massive
+    level)."
+  :post: "\n## Major Themes\n\nYou could have predicted these going into the event
+    based on the sessions and promotional material.\n\n- **Analytics / machine learning
+    / AI**. If I was to only pick one theme this year, this would be it. From Watson
+    to Health Catalyst to the population health offerings of pretty much every EHR
+    vendor, some form of analytics was woven into everything this year. Like patient
+    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    is seen as a major part of the future of care. Analytics does hold amazing potential
+    but, like patient engagement, health systems need to develop strategies for how
+    and where to use analytics if they are going to be successful. Analytics for analytics
+    sake won’t help. Understanding the problems to solve or questions to answer with
+    analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
+    health data goes digital, and more and more digital health data is generated by
+    sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
+    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    Cybersecurity is an essential part of digital health, just like cloud is an essential
+    part of digital health. This should be a recurring theme of HIMSS as the next
+    10 years are going to be defined by healthcare moving data between new technologies
+    and between new partnerships.\n- **Patient-centered care**. This is the one I
+    wasn’t sure if I should include because I feel like some variation of this has
+    been a recurring theme. I guess being a constant theme still makes it a theme.
+    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    maybe because it has been a constant theme, is starting to mature. Services need
+    to be centered on patients, and many of those services will be technology driven.
+    The reason for services need to be patient-centered is 1) that’s what patients
+    expect today and 2) that is what providers, payors, and life sciences need to
+    do to compete for patients, members, and customers. I think we’ve swung back from
+    the days when we thought B2C, or going direct to consumer, would work across most
+    patient populations. Groups like Healthgrades still own a lot of consumer health
+    traffic but integrating those consumer tools with providers and more formal care
+    is also a part of patient centricity. \n- **Open data**. This one definitely isn’t
+    new. I remember hearing [Todd Park beating the drum about *data liberación*](http://healthstandards.com/blog/2015/06/23/data-liberacion/)
+    back in 2011. It only took three more years for most EHR vendors to start to get
+    behind a new standard called FHIR and another three or so years, until today,
+    when EHRs are ready to expose data via FHIR. I’m bullish on FHIR as a potential
+    data standard but highly skeptical of FHIR as a path to open data and innovation.
+    We have projects like Argonaut driving towards new ways to use FHIR so we’ll have
+    to wait and see how those develop. The overwhelming sentiment around open data
+    is that access to data, ideally in a trusted and consistent bi-directional way,
+    is the only way to build the technology ecosystem that’s needed to put patients
+    at the center of care and start to drive towards the [triple aim].\n\n## Same
+    same, but different\n\nThere’s a saying I first heard in Thailand and use from
+    time to time - [*same same but different*](https://en.wikipedia.org/wiki/Tinglish).
+    I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
+    back, looking at HIMSS as a whole, it felt like we had simply transported all
+    the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
+    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    happened. The Athena party happened. Lots of bankers parties with better food
+    and drink options. Uber didn’t work well. Restaurants were full all the time.
+    Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
+    like HIMSS.\n\nBut then, in other ways, it felt very different from previous years.
+    The impression I got, on a consistent basis, is that people are burned out on
+    the status quo. People are tired of HIMSS being the same year after year. People
+    are tired of \"doing things to check boxes\", a reference to buying EHRs to get
+    money from Meaningful Use, and \"want to really start making things happen\".
+    These quotes are from people at large health systems, people in the same roles
+    that would have said something like \"Epic is going to do that\" when asked about
+    patient engagement or population health or pretty much anything health IT just
+    a few years ago. These are decision makers at the core of the health IT industry
+    and not just startups and investors. The tide has very clearly turned in the industry.\n\nThis
+    is exciting! It will take time to see how quickly this sea change practically
+    takes hold and we start to see more and more digital health technologies adopted
+    and scaled at health systems. But, the process is starting and big systems are
+    developing strategies and processes for the next 3-5 years. And, maybe the most
+    shocking part, especially compared to several years ago, is that health systems
+    are looking outside their EHR vendors for the future of health IT.\n\n*Want to
+    learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
+    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    podcast series.*\n\n\n"
+  :featured_image:
+    :id: 6l7x9mycV2K66sSeIUYaIW
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm

@@ -1,0 +1,104 @@
+---
+:id: 7jiB35FI7CmO2GuucAmMyg
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-09-25T22:54:33+00:00'
+  :created_at: '2018-09-25T22:54:33+00:00'
+  :id: 7jiB35FI7CmO2GuucAmMyg
+:title: SXSW 2018 Digital Health Bootcamp
+:slug: sxsw-2018-digital-health-bootcamp
+:date_start: !ruby/object:DateTime 2018-03-11 00:00:00.000000000 -07:00
+:date_end: !ruby/object:DateTime 2018-03-12 00:00:00.000000000 -07:00
+:event_tags:
+- Conferences
+- Presentations
+- Sponsor
+:is_featured: false
+:event_logo:
+  :title: sxsw-logo
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/2V0xUfqjMcQ6c6aeCCu6GI/965560e325092aa510a3ddd924c1f8bc/sxsw-logo.png"
+  :_meta:
+    :updated_at: '2018-01-04T04:26:53+00:00'
+    :created_at: '2018-01-04T04:26:53+00:00'
+    :id: 2V0xUfqjMcQ6c6aeCCu6GI
+:summary: SXSW 2018 Digital Health Bootcamp with Microsoft
+:event_desc: "Microsoft and Datica co-hosted a digital health bootcamp in Austin,
+  TX at SXSW 2018. The day kicked off with Datica presenting. Kris Gösser presented
+  [The Digital Health Success Framework](https://schedule.sxsw.com/2018/events/PP80977)
+  and Mark Olschesky talked about [How to Integrate with any EHR](https://schedule.sxsw.com/2018/events/PP80976).
+  \n\nFollowing Datica, three Microsoft presenters took turns. Julian Morelli described
+  [How to Use BOTS to Enhance Clinical Workflow](https://schedule.sxsw.com/2018/events/PP80985).
+  Rich DiZerega presented [The Secret to Real-Time Data Integration with EHRs](https://schedule.sxsw.com/2018/events/PP80983).
+  Last up was Ben Summers on [Growing Tomorrow’s Apps on Today’s Platforms](https://schedule.sxsw.com/2018/events/PP80984)."
+:event_related_people:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+- :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+  :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T21:38:17+00:00'
+    :created_at: '2017-10-20T21:38:17+00:00'
+    :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :tag_full: Events
+  :slug: events
+  :description: Datica events, conferences, speaking opportunities, etc.
+  :url: https://datica.com/events

@@ -1,0 +1,18 @@
+---
+:id: Fha2QoG2u2OY4KCyY64EY
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:31+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: Fha2QoG2u2OY4KCyY64EY
+:title: Logging
+:slug: logging
+:category: Core Compliance
+:summary: Centralized logging through an ELK stack
+:desc: Datica provides a complete ELK (Elasticsearch, Logstash, and Kibana) stack
+  for logging. With Elasticsearch and Logstash working behind the scenes to log system-level
+  activity, users can ship additional application-level logs to their central logging
+  container. All logs are exposed via the Kibana dashboard that sits alongside your
+  Platform environment. Before shipping any of your application logs, the Datica ELK
+  stack comes pre-configured with important information about your infrastructure
+  that map to compliance requirements.

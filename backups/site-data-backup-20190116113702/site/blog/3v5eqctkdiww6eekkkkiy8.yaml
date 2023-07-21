@@ -1,0 +1,87 @@
+---
+:id: 3V5eQcTkdiww6EekkKKiy8
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-03T01:31:42+00:00'
+  :created_at: '2017-02-03T00:26:22+00:00'
+  :id: 3V5eQcTkdiww6EekkKKiy8
+:title: 4 PHI Marketing Special Cases
+:slug: 4-phi-marketing-special-cases
+:pub_date: !ruby/object:DateTime 2016-05-03 00:00:00.000000000 Z
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: Under the Omnibus Rule, learn about four special cases for making use of
+  PHI in marketing efforts.
+:blog_lead: In modern daily practice, healthcare professionals can utilize patient
+  protected health information (PHI) to "market" various alternative remedies or products,
+  without formal authorization from the patient / beneficiary. To start off clearly,
+  marketing is the communication of a product or service that encourages the purchase
+  or use of said product or service. Under the HIPAA Omnibus Rules legislation passed
+  in 2013, marketing interaction in healthcare is severely limited. Within the Omnibus
+  Rules is stated that prior to a compensated covered entity recommending third party
+  products or services, that entity must first receive the proper authorization to
+  use patient PHI. For example, an entity must officially notify and authorize patients
+  to obtain or distribute supplements from a third party that also pays the entity
+  a commission. Furthermore, if the entity apportions any products and receives payments/discounts
+  for bulk purchases, the entity must have a statement of disclosure that patients
+  can review that states the entity may sell them products or services in return for
+  recompense of sorts from a third party. Doesn't that sound like a very uncomfortable
+  conversation? Thankfully, it doesn't have to be.
+:post: |-
+  The best method to proceed with the desired marketing is to add an explanatory statement about the participation in these business arrangements within the necessary HIPAA Patient Acknowledgement form. Entities must ensure the phrasing is concise, simple, while stating the patient advisement in agreement with the current HIPAA legislation. Often highly encouraged is to include a Third Party Remuneration paragraph just in case of participation in third party compensation promotions or programs. This rhetoric can be suitably customized but must clearly advise patients of participation in all programs that provide repayments.
+
+  Much the same, Business Associates who receive similar payment models must also receive patient authorization, even in cases where the covered entity receives no gains. All addressable under the Omnibus Rule are four special cases to making use of PHI in marketing efforts:
+
+  ### 1. Direct Marketing
+
+  Firsthand, personal marketing communications are actually not liable to the authorization requirement, such as a pamphlet presentation to a consumer.
+
+  ### 2. Refill Reminders
+
+  Excluded from patient consent are reminders for refill services. There is a catch though; Omnibus Rules states compensation for a refill reminder service must be sensibly related to the covered entity's cost. Specifically, these costs are limited to supplies, labor, and postage. Additionally, there are other services similarly classified: generic equivalents communication, directed medication adherence, self-administered biologics or drugs, and delivery systems, such as an insulin pump.
+
+  ### 3. Payments-In-Kind
+
+  Payments in absence of actual money or payments that execute a disease management program are admissible.
+
+  ### 4. Reasonable Propaganda
+
+  Everyone loves presents, but be mindful as to what is legally admissible and inadmissible. Miniscule valued propaganda gifts are not bound to the authorization requirement.
+
+  **There you have it. Those are the four special cases to marketing with PHI. Hopefully this was insightful, and provides a sense of necessary awareness. HIPAA and all of its accompanying mandates are intense and complex. At Datica, we are trying to simplify as many of these convoluted healthcare topics as possible so you don't have to. Don't do it solo! You are not alone in feeling overwhelmed by the incessant twists and turns of this industry. Many healthcare professionals feel the same way. That is our motivation. **
+
+  **Questions? Reach out to us [directly][3], [tweet us][4], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.**
+
+  [1]: https://datica.com/academy/what-is-protected-health-information-or-phi
+  [2]: https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security
+  [3]: mailto:hello@datica.com
+  [4]: https://twitter.com/daticahealth

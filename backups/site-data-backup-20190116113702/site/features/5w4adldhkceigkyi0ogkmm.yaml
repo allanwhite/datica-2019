@@ -1,0 +1,19 @@
+---
+:id: 5w4aDlDhkceIGKyI0ogkMM
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:30+00:00'
+  :created_at: '2018-02-08T22:21:30+00:00'
+  :id: 5w4aDlDhkceIGKyI0ogkMM
+:title: Caching Services
+:slug: caching-services
+:category: Services
+:summary: Redis and Memcached support for caching management
+:desc: 'In addition to Database services, Datica also manages implementations of Caches
+  with Redis and Memcached. Whether you’re relying on session caching, or need a pub-sub
+  solution, Datica provides the tooling to allow you to maintain control in a secure
+  and compliant manner. Customers can elect to deploy containers with Redis or Memcache
+  and scale RAM as needed. Note: We recommend Redis is best used as a caching tool
+  and not an HA database replacement. For database options, consider our native support
+  for Postgres, MySQL, or Mongo. We also provide additional database options through
+  custom services.'

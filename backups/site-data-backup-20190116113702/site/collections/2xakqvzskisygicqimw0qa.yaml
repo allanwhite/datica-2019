@@ -1,0 +1,561 @@
+---
+:id: 2xAKQVZSKIsygICqimW0qA
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2018-12-14T22:48:34+00:00'
+  :created_at: '2018-12-13T23:47:52+00:00'
+  :id: 2xAKQVZSKIsygICqimW0qA
+:title: Compliance Resources
+:slug: compliance-resources-category
+:subhead: Understanding Compliance in the Cloud
+:desc: Healthcare compliance is complex. Here's some of our most effective educational
+  resources to get you what you need to know.
+:related_entries:
+- :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+- :id: v3Inn3xhHaskmq4ywwmkI
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-08-17T20:05:55+00:00'
+    :created_at: '2018-08-16T23:11:42+00:00'
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :title: HIPAA / HITRUST Self Assessment Guide
+  :slug: hipaa-hitrust-self-assessment-guide
+  :summary: 'This lightweight self-assessment worksheet illuminates the cloud requirements
+    of HIPAA that you need to plan for in your own digital health product. '
+  :subhead: Are you sure your product is HIPAA compliant?
+  :tags:
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 2gE9oPn2yUGEQEoGKEASUQ
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: This HIPAA worksheet is meant to illuminate the cloud requirements of HIPAA
+    that you need to plan for in your own digital health product.
+  :authors:
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :guide_text: "What does \"HIPAA Compliant\" really mean? Frequently it is just a
+    marketing label that some companies bestow upon themselves and not really an attestation
+    of compliance. That's risky.\n\nThis worksheet is meant to illuminate the cloud
+    requirements of HIPAA that you need to plan for in your own digital health product.
+    A more comprehensive risk assessment, such as the HITRUST CSF Self-Assessment,
+    is also necessary. Use this checklist to understand what compliance controls are
+    needed, and assess your compliant state at several cloud layers:\n\n- __The Physical
+    Layer__ \n- __The Operating System and Application Layers__ \n- __The Administrative
+    Layer__\n\nOnce you've completed this checklist you'll have a much better understanding
+    of what it will take to be HIPAA compliant in the cloud."
+  :related_form:
+    :id: 1Jp8dA5yw8ceCEuIy4csq6
+  :form_id: 25a134fd-6903-40bf-acfd-7f5c6b478e92
+  :icon: hipaa-hitrust-self-assessment-guide
+  :bg_image:
+    :id: 2ynfPi2vdaUWY6yAkGu4c2
+  :image_thumb:
+    :id: QFttAsn4qqmuw2oC628kI
+  :share_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 1s1UlhAhkAwwewk20ugYsW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-12-14T18:50:21+00:00'
+    :created_at: '2018-10-01T17:31:07+00:00'
+    :id: 1s1UlhAhkAwwewk20ugYsW
+  :title: AWS RDS Guide - How to configure RDS to comply with HIPAA and HITRUST
+  :slug: aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust
+  :pub_date: !ruby/object:DateTime 2018-10-02 00:00:00.000000000 Z
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: This guide is intended to give developers an easy to understand, step
+    by step runbook for configuring their AWS RDS instance to be HITRUST CSF ready.
+    In the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :lead: This guide is intended to give developers an easy to understand, step by
+    step runbook for configuring their AWS RDS instance to be HITRUST CSF ready. In
+    the following sections we’ll walk through the requirements, controls, and configurations
+    for RDS.
+  :post: |-
+    _Disclaimer: while utilizing these guides can provide alignment with HITRUST, it is still your responsibility as an organization to complete an audit and obtain certification._
+
+    ## Step 1: Ensuring you have a signed Business Associate Agreement (BAA)
+
+    First and foremost, you’ll need a [BAA](https://datica.com/academy/business-associate-agreements/) in place with AWS before configuring any service (and subsequently accepting PHI). AWS maintains a list of services that are covered under their BAA [here](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/) (RDS included). If you haven’t signed a BAA already with AWS, please see the steps below. If you already have a BAA with AWS, simply move on to step 2.
+
+    More information on BAAs from AWS can be found [here](https://aws.amazon.com/blogs/security/introducing-the-self-service-business-associate-addendum/).
+
+    <img class="lozad tofigure" alt="Setting up a BAA" src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5WuZ9O1zMcCcy2YwIamSMg/80cfaebfaa4f32c41cf3f49fa5903949/rds-1.png?fm=png&fl=png8" />
+
+    To sign the AWS BAA...
+
+    1. Navigate to [https://console.aws.amazon.com/artifact/](https://console.aws.amazon.com/artifact/)
+    2. Select the “AWS Business Associate Addendum” section
+    3. Download the AWS Business Associate Addendum
+    4. Confirm you’ve followed the steps properly by checking the three boxes show on the screen
+    5. Click the button that says “Accept the AWS Business Associate Addendum for this account”
+    6. You now have a BAA in place with AWS
+
+    | Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HIPAA &sect; 164.308       | N/A: AWS does not provide API access to their Artifact service       |
+
+    ## Step 2: Selecting a database version
+
+    Because AWS RDS offers various versions of each database, it’s imperative from a compliance and security perspective that you select a known good patched version, and one that will continue to receive updates and patches in the future (using versions no older than 3 previous versions is typically a safe bet).
+
+    <img class="lozad tofigure content-screenshot" alt="RDS: Selecting a database version" src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4r27J6VIEE4eAEIQ4KI4ky/63e34d3ae56d32fdc45f37a38e8f8293/rds-2.png?fm=png&fl=png8" />
+
+    ## Step 3: Create new subnet group
+
+    From AWS:
+
+    > “Subnets are segments of a VPC's IP address range that you designate to group your resources based on security and operational needs. A DB subnet group is a collection of subnets (typically private) that you create in a VPC and that you then designate for your DB instances. A DB subnet group allows you to specify a particular VPC when creating DB instances using the CLI or API; if you use the console, you can just select the VPC and subnets you want to use.”
+
+    How to create a new subnet group:
+
+    1. Search for or choose “*RDS*” in the AWS console (or if you’re following along in this guide find the “*Subnet group*” link in the left side navigation).
+    2. Select the “*Subnet group*” link if you haven’t already
+    3. Select “*Create DB Subnet Group*”
+    4. Complete the information for name and description
+    5. Select your VPC and all subnets related to this VPC
+    6. Select “*Create*”
+
+    <img class="lozad tofigure" alt="Creating a new subnet group" src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3xeX4ZhkPYysm2CuIIKEKi/eb3d15faec2fd9ec6866fded805e82f8/rds-3.gif" />
+
+    | Related Rule     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 4: Enable multi-AZ
+
+    When creating your new RDS instance, ensure you have selected “*Create replica in different zone*” as high availability and replication is critical to businesses handling PHI &mdash; you’ll also see in the table below the relevance to various required HITRUST controls.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling multi-AZ" src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/3txkWTfv5CwqaKc4cEkKSC/dc3afde2ba3fc156537e72f833a8fbc3/rds-4.png?fm=png&fl=png8" />
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DescribeDBSubnetGroups](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBSubnetGroups.html)       |
+
+    ## Step 5: Create security group
+
+    Communication should be limited to only the two VPC networks. No other access should be granted. To create a new Security group, [follow this guide from AWS](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html#CreatingSecurityGroups).
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0630.10h2 System.6       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DescribeSecurityGroups](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSecurityGroups.html)       |
+
+    ## Step 6: Turn off public access
+
+    It should go without saying, but we’ll say it anyway: providing public, unauthorized, access to PHI (either directly or indirectly) is a violation of HIPAA, HITRUST, and several other regimes. Ensuring your RDS instance has public access turned off is critical.
+
+    To turn off public access do the following:
+
+    1. If you’re already in the RDS console and following along as you create a new instance, on Step 3 of creation, select “No” under the “Public accessibility” field <img class="lozad tofigure content-screenshot" alt="Disabling public access" src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/4tWBvDKdcIa22EAC00ikiM/ffe8a7e493def8508c402cfd7953f288/rds-5.png?fm=png&fl=png8" />
+    2. ...or if you have an instance already, simply click the “*Instances*” link in the left side navigation from the main RDS console
+    3. Select the RDS instance you want
+    4. Once you have the instance selected, click the “*Modify*” button on the top right
+    5. Then scroll to the “*Network & Security*” security section — here you will find the “*Public accessibility*” option
+    6. Select “*No*”
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0605.10h1 System.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0630.10h2 System.6       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0805.01m1 Organizational.12       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 0806.01m2 Organizational.12356       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 7: Enable encryption
+
+    Encryption is perhaps the most important of all controls that need to be in place on your database instance(s).
+
+    To enable encryption on an RDS instance, [follow this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html#Overview.Encryption.Enabling).
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling encryption" src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/5mnNkN0b5usYq86UsIgMUm/dab71a3d5b9b9789abf03cb289a29aa3/rds-6.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0903.10f1 Organizational.1       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1132.01v2 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1903.06d1 Organizational.3456711       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 8: Working with backups
+
+    From AWS:
+
+    > “By default, Amazon RDS creates and saves automated backups of your DB instance securely in Amazon S3 for a user-specified retention period.”
+
+    If you’ve already set up an RDS instance without specifying the backup period, AWS states:
+
+    > “You can set the backup retention period when you create a DB instance. If you don't set the backup retention period, the default backup retention period is one day if you create the DB instance using the Amazon RDS API or the AWS CLI, or seven days if you create the DB instance using the AWS Console”
+
+    To set the retention period when creating a new RDS instance, follow these steps:
+
+    1. Navigate to your RDS console
+    2. Select “*Instances*”
+    3. Select “*Create database*”
+    4. Go through the several steps, stop once you’re on the “*Configure advanced settings*” page
+    5. Scroll to the “*Backup*” section and select your desired preferences
+
+    <img class="lozad tofigure content-screenshot" alt="Configuring backup settings" src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/6i3g94kdZSiGiOIMwmYUUI/7394feea3da1c140f21c06536f0bad99/rds-7.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1616.09l1 Organizational.16       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1618.09l1 Organizational.45       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1619.09l1 Organizational.7       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1620.09l1 Organizational.8       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+    | HITRUST 1668.12d1 Organizational.67       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html)       |
+
+    ## Step 9: Patching schedule
+
+    Managing vulnerabilities is a burden for users. Luckily, AWS provides maintenance as part of the RDS instance. In the “*Maintenance*” section on the “*Configure advanced settings*” step of creating an RDS instance, you’ll see two options:
+
+    1. __Auto minor version upgrade__ &mdash; You should set this to “Enable auto minor version upgrade”
+    2. __Maintenance window__ &mdash; For policy purposes, you’ll want/need to select a specific window. Recommendations on day and time will vary drastically depending on your location, business, and several other factors
+
+    <img class="lozad tofigure content-screenshot" alt="Setting up a schedule" src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/Nq2e3iCIYUQQ4yYqE466S/5971449c0756f1cedeae67d3464b4770/rds-8.png?fm=png&fl=png8" />
+
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0701.07a1 Organizational.12       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0707.10b2 System.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0708.10b2 System.2       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0709.10m1 Organizational.1       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0720.07a1 Organizational.4       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+    | HITRUST 0723.07a1 Organizational.8       | [GetMaintenanceWindow](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_GetMaintenanceWindow.html)       |
+
+    ## Step 10: Working with SSL
+
+    “Encrypting everything” is often the most difficult aspect of complying with frameworks like HITRUST CSF. Ensuring that your connections to RDS are encrypted is a fundamental requirement. The best way to enforce encryption for your RDS instance is to force all connections to use SSL.
+
+    The steps required to enforcing SSL on your database will vary depending on your database of choice. For more information and step by step guides, see the following articles from AWS:
+
+    - [MariaDB SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MariaDB.html#MariaDB.Concepts.SSLSupport)
+    - [MySQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport)
+    - [PostgreSQL SSL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL)
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 0805.01m1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0806.01m2 Organizational.12356       | N/A: No related API reference at this time       |
+    | HITRUST 0814.01n1 Organizational.12       | N/A: No related API reference at this time       |
+    | HITRUST 0816.01w1 System.1       | N/A: No related API reference at this time       |
+    | HITRUST 0835.09n1 Organizational.1       | N/A: No related API reference at this time       |
+    | HITRUST 0859.09m1 Organizational.78       | N/A: No related API reference at this time       |
+
+    ## Step 11: Audit Logging & Monitoring
+
+    ### Monitoring
+
+    Enhanced monitoring can be turned on for RDS at time of creation. On the “*Configure advanced settings*” step, find the “*Monitoring*” section and select “*Enable enhanced monitoring*”.
+
+    <img class="lozad tofigure content-screenshot" alt="Enabling enhanced monitoring" src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8&w=600" data-src="//images.ctfassets.net/189dvqdsjh46/2wzKtvxtZya0Oi28kQ6m8S/50c2bdd4e0eec79bc0ad54b7073c7d8d/rds-9.png?fm=png&fl=png8" />
+
+    ### Logging
+
+    From AWS:
+
+    > “RDS PostgreSQL generates query and error logs. We write auto-vacuum info and rds_admin actions to the error log”
+
+    AWS has several articles detailing how logging and monitoring work together to give you transparency into your instance. For more information, [see this guide from AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitoring.html).
+
+    | Related Control(s)     | API Reference     |
+    | ---------- | ---------- |
+    | HITRUST 1204.09aa1 System.3       | [DBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBInstance.html), [DescribeDBLogFiles](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBLogFiles.html)       |
+
+    ## Wrapping up
+
+    Using this guide, developers can ensure their new RDS instance is ready to comply with the HITRUST CSF. Maintaining these configurations for all new infrastructure, updating them for new versions of HITRUST and providing proof &mdash; a digital papertrail &mdash; is an incredible amount of work. Having a partner like Datica can mean the difference between an audit taking 4 months, or 4 weeks.
+
+    For more information on Datica’s products and services. Check out these helpful links:
+
+    - [Cloud Compliance Management System](https://datica.com/ccms)
+    - [Compliant Kubernetes Service](https://datica.com/cks)
+  :featured_image:
+    :id: QuKh6opZkWK8isiySSuYA
+  :related_guide:
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :related_entries:
+  - :id: 43dQoBKc9OuQuyw8k2SmKO
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :cta_ref:
+    :id: 6uKml5g9d60cQI2YswoqEE
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 1gSWwUF6oguGAqG2MqGs8w
+  :_meta:
+    :content_type_id: webinars
+    :updated_at: '2018-10-29T22:19:22+00:00'
+    :created_at: '2018-06-20T18:28:53+00:00'
+    :id: 1gSWwUF6oguGAqG2MqGs8w
+  :title: Kubernetes and Healthcare Compliance
+  :slug: kubernetes-and-healthcare-compliance
+  :event_date: !ruby/object:DateTime 2018-05-15 13:00:00.000000000 -06:00
+  :summary: Learn how Datica enables healthcare compliance and security with our next-generation
+    Kubernetes platform to manage healthcare compliance on top of AWS and Microsoft
+    Azure.
+  :subhead: 'Kubernetes + Datica: A Perfect Match to Fuel Growth of Digital Health'
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :lead: Kubernetes®, the open source container orchestration tool, came out of Google
+    several years ago and has gained traction amazingly fast. Digital health developers
+    have perked up their ears and have been eager to jump on the trend, but without
+    compromising compliance and security. Now, Datica makes that possible with our
+    next-generation Kubernetes platform to manage healthcare compliance on top of
+    AWS and Microsoft Azure.
+  :desc: |-
+    ### In this webinar, you will learn:
+
+    1. Find out how you can use Kubernetes with Datica to easily deploy containerized healthcare workloads and guarantee a continuously compliant state.
+    2. Learn how the Datica Kubernetes Platform works with your AWS or Azure cloud account.
+    3. Understand how the new Datica Cloud Compliance Management System (CCMS) gives you visibility and complete control over the compliant state of your technology per HIPAA, HITRUST, GxP, GDPR, and SOC 2 requirements.
+    4. See how enterprises can now manage the compliant state of multiple Kubernetes clusters across a multi-cloud environment with the Datica CCMS.
+  :authors:
+  - :id: rVZcG8ORWKg8o4EIuqQ8a
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :related_form:
+    :id: 6xBZiyYkfusIQCcAuaCOkI
+  :video_embed:
+    :id: 2SkBcGDkTCueg8ca4mKcso
+  :image_thumb:
+    :id: 55i8F0QfygcMwAwyUEWoug
+  :share_image:
+    :id: ekSZOA01i0U0Ks8YqQqqY
+  :cta_ref:
+    :id: O1KP7bmXwOqCu0C4AMwkO
+:icon_slug: icon-compliance-checklist

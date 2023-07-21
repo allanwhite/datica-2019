@@ -1,0 +1,690 @@
+---
+:id: 3XiSgC4TTWi808sAOwSwoC
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-03-09T23:24:06+00:00'
+  :created_at: '2018-03-09T23:24:06+00:00'
+  :id: 3XiSgC4TTWi808sAOwSwoC
+:title: PHI Exposed for 18 Months during UVA Data Breach
+:slug: phi-exposed18-months-uva-data-breach
+:pub_date: !ruby/object:DateTime 2018-03-09 00:00:00.000000000 Z
+:tags:
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: A recent data breach at the University of Virginia Health System exposed
+  PHI for 18 months! We explore the facts and how this could have been prevented.
+:blog_lead: "Often, the public learns about breaches of personal health information
+  (PHI) because of the number of people affected. In fact organizations are required
+  to [inform the media of breaches](https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html)
+  that affect 500 or more people, so the number of people involved is a critical component
+  of data breach reports.\n\nHowever, a recent data breach at the University of Virginia
+  Health System is interesting for a different reason: the length of time that PHI
+  was exposed. The breach was discovered on December 23, 2016, and reported appropriately.
+  The hacker had first gained access to the system, and the information of 1,882 patients’
+  records, on May 23, 2015, meaning the PHI was exposed for 18 months. \n"
+:post: "\n## The Fruitfly malware attack\n\nThe hacker, Phillip Durachinsky, accessed
+  the information through a physician’s laptop. Durachinsky developed malware called
+  Fruitfly, and when it was installed he was able to view from a remote location whatever
+  the person with the computer was looking at. Because the physician could access
+  patient records, Durachinsky also had access to them. \n\nMark Olschesky, chief
+  data officer at Datica wrote an article addressing some of the [largest data breaches
+  of 2017](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/).
+  In it, he notes, “While it’s impossible to say in retrospect if any breach was 100%
+  preventable, having policies in place to provide ‘reasonable effort’ to prevent
+  exposure is key to minimizing the damage from the unpreventable.” Malware was the
+  cause of multiple breaches in 2017. \n\nOfficials at UVA became aware of the breach
+  because the FBI was investigating Durachinsky, who had used Fruitfly to access computers
+  owned by local, state, and federal government agencies, various companies, individuals,
+  a police department, and schools in addition to UVA. He had been using the malware
+  since 2003. \n\nIn a [press release](https://uvahealth.com/privacy-notice-for-uva-health-system-patients),
+  UVA says, “The FBI has advised us that the third party, who has been arrested, did
+  not take, use or share patients’ information in any way.” In addition to cooperating
+  fully with the FBI investigation UVA followed HIPAA protocol in notifying the affected
+  patients, the media, and the Department of Health and Human Services. The organization
+  set up a call center to handle patient questions about the breach. \n\nIn this case,
+  it appears the hacker did not use the PHI for nefarious purposes, however, the fact
+  that the information was exposed for so long raises some serious questions. Was
+  there anything that UVA officials could have done to learn about the breach sooner?
+  Would security reviews or checks have revealed the malware? Were there any abnormalities
+  that should have alerted the physician or the IT team of the malware? \n\nDatica
+  can answer some of those questions. Patch management, policies on appropriate system
+  access, and OSSEC and anti-virus intrusion detection on all systems to identify
+  attacks that would be otherwise unknown are all methods that Datica uses in an effort
+  to avert attacks such as the one at UVA. Datica’s [open-source policies](https://policy.datica.com/#1-introduction)
+  are designed to address numerous types of attacks, including malware. \n\nThough
+  it ended well for the 1,882 patients since there was no nefarious use or disclosure
+  of their data, it didn't end so well for Durachinsky. The Cavalier Daily, the independent
+  daily news organization at the [University of Virginia reports](http://www.cavalierdaily.com/article/2018/02/records-of-1882-uva-patients-impacted-by-security-breach),
+  “Durachinsky was indicted Jan. 10 in the United States District Court for the Northern
+  District of Ohio on allegations of accessing and damaging protected computers, production
+  of child pornography, aggravated identity theft and illegal wiretap.” \n\n\n\n"
+:featured_image:
+  :title: blog-uva-data-breach-featured
+  :description: UVA Data Breach featured
+  :url: "//images.ctfassets.net/189dvqdsjh46/53gV2Rqsvm8AKOGEkMeAoW/53c72828baf82d76d35a83376108d185/blog-uva-data-breach-featured.jpg"
+  :_meta:
+    :updated_at: '2018-03-09T23:21:44+00:00'
+    :created_at: '2018-03-09T23:21:44+00:00'
+    :id: 53gV2Rqsvm8AKOGEkMeAoW
+:share_image:
+  :title: blog-UVA-data-breach-share
+  :description: UVA Data Breach share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/8hVoWLnFMQu0k2isI2CQu/b2e3f050d5bad5710b308d377f911316/blog-UVA-data-breach-share.jpg"
+  :_meta:
+    :updated_at: '2018-03-09T23:22:34+00:00'
+    :created_at: '2018-03-09T23:22:34+00:00'
+    :id: 8hVoWLnFMQu0k2isI2CQu
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: RYKszr5xW6S4UyWyKUAgk
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-03-05T17:15:32+00:00'
+    :created_at: '2017-10-10T20:52:25+00:00'
+    :id: RYKszr5xW6S4UyWyKUAgk
+  :title: Will new identity-proofing NIST standards prove who you say you are?
+  :slug: will-new-identity-proofing-nist-standards-prove-who-you-say-you-are
+  :pub_date: !ruby/object:DateTime 2017-10-10 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: A recent NIST update includes important changes that encourage out of
+    band authentication methods versus a single source email. Learn how Datica is
+    responding.
+  :blog_lead: Cybersecurity risk management has quickly moved from the “nagging mosquito”
+    kind of problem that every industry must swat to one more likened to a full frontal
+    attack, requiring more arsenal than budgets sometimes allow. Everywhere, from
+    White House hacks into communication emails to security breaches, like the recent
+    one announced by Equifax that has affected 145.5 million Americans, leave cybercriminals
+    more in touch with our private financial and healthcare data than perhaps we are
+    ourselves.
+  :post: "All of these attacks have cybersecurity professionals searching every nook
+    and cranny for ways to more easily understand, manage and mitigate risks to their
+    organizations. Those security exposures abound everywhere and no organization
+    is immune to the problem. One governmental organization actively addressing the
+    widespread issue is the U.S. Department of Commerce’s  [National Institute of
+    Standards and Technology](http://www.nist.gov) (NIST).\n \nA recent NIST update,
+    specifically [revision 3 of 800-63](https://pages.nist.gov/800-63-3/sp800-63-3.html),
+    includes important changes that encourage (out of band authentication methods
+    versus a single source email. [Out of band authentication](http://searchsecurity.techtarget.com/definition/out-of-band-authentication)
+    is more commonly used by financial institutions that often require two separate
+    and unconnected authentication channels for access. This type of two-factor authentication
+    makes hacking an account more difficult.\n\n## Authentication versus identity
+    proofing\n \nThe recent NIST update includes a further clarification that separates
+    out identity authentication from identity proofing. “Identity authentication and
+    authentication proofing complement each other to definitively prove that you have
+    the proper credentials to access a file, server, or other data containing device
+    or software,” explained Datica’s Director of Compliance Lori Meals. “The whole
+    question is: How do we prove John is really John in any instance?”\n \nThis nuance
+    is important to Datica customers who live and breathe in an environment awash
+    with protected health information. More and more the healthcare industry is affected
+    by [security breaches](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)
+    that have deep financial impacts to providers, as well as financial and emotional
+    ramifications to patients. Meals explains that “Healthcare data fetches a high
+    price on the black market, so that makes it a lucrative target for bad actors.”\n
+    \nThis clarification for authentication proofing affects our customers because
+    that will change their controls. When an email has been compromised within an
+    organization, a hacker potentially has easy access to all other aspects of the
+    victim’s accounts.\n \n## How Datica compliance efforts will adapt and respond\n
+    \nThe engineering team is busy prepping a new feature to the [Datica Platform](https://datica.com/platform/)
+    so that an organization can change its multi-factor authentication options to
+    disallow email as an authentication method. \n \nNo organization is immune to
+    the problem of [hacking or phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/);
+    risks proliferate everywhere. However, as a trusted partner for the protected
+    health information of our customers, Datica takes a “no stone left unturned” approach
+    to helping customers prevent the all too common publicity crisis and organizational
+    chaos that occurs when hackers break through organizational walls. That’s why
+    Datica developed its [HIPAA compliant](https://datica.com/discover/hipaa-compliance/)
+    platform initially and was one of the first healthcare IT organizations to become
+    HITRUST CSF Certified. Security and compliance is in our DNA. \n\nIs security
+    and compliance a top concern and priority for your organization? Contact Datica
+    at hello@datica.com to arrange a quick chat about your needs and to learn more
+    about how the Datica Platform can take that burden off your shoulders."
+  :featured_image:
+    :id: 5GQfBFGUzCYqUiQ0s2mkyM
+  :share_image:
+    :id: 26nuIoHkiI0QEG80YIwgi2
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :related_entries:
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3eKJGeQUEM0iAwSIeSE80E
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-03-05T17:14:39+00:00'
+    :created_at: '2018-01-27T00:09:50+00:00'
+    :id: 3eKJGeQUEM0iAwSIeSE80E
+  :title: " HIPAA Enforcement in 2017: Key learnings from others’ mistakes"
+  :slug: hipaa-enforcement-in-2017
+  :pub_date: !ruby/object:DateTime 2018-01-26 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'One thing is certain: healthcare still has a security problem. Out of
+    295 breaches reported so far for 2017, 132 are hacking/IT incident breaches.'
+  :blog_lead: "The US Department of Health and Human Services’ (HHS) Office for Civil
+    Rights (OCR) investigates reports of data breaches involving health information.
+    The breach reports are publicly available and searchable with a tool called the
+    [HIPAA Breach Reporting Tool](https://www.hhs.gov/about/news/2017/07/25/hhs-unveils-improved-web-tool-highlight-recent-breaches-health-information.html
+    ). \n\nBecause entities have 60 days beyond the date a breach occurs to report
+    it, complete results for 2017 will not be available until March 2018. However,
+    a look at what has been reported so far, along with any general trends, may be
+    instructive as we all prepare for the more stringent [penalties of GDPR](https://datica.com/academy/gdpr-fines-and-penalties/)
+    coming in May of 2018. "
+  :post: "## HIPAA Security is still a problem\n\nOne thing is certain: healthcare
+    [still has a security problem](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/).
+    The majority of the breaches in 2017 are classified as being the result of hacking/IT
+    incidents. Out of 295 breaches reported between January 1, 2017 and December 31,
+    2017, 132 are listed as hacking/IT incident breaches. \n\n<img src=\"//images.contentful.com/189dvqdsjh46/I6lTKaUWA0saAwMcgAQiq/2e887136b5a32a26530fdd528bcb004f/data-breach-2017.jpg\"
+    alt=\"2017 Data Breaches by Type\">\n\nOne of the largest, which occurred at Airway
+    Oxygen, Inc., and affected 500,000 people was due to hacking of information in
+    a network server. The company was hit by a ransomware attack in April, 2017, and
+    reported the breach to HHS in June. \n\nAccording to [a story about the Airway
+    Oxygen breach](http://www.healthcareitnews.com/news/500000-affected-ransomware-attack-home-medical-equipment-supplier)
+    in Healthcare IT News, after the attack was discovered, Airway Oxygen “performed
+    an internal scan on its system, changed all passwords for all users, vendors and
+    applications, reviewed the firewall, updated and deployed security tools and installed
+    monitoring software to issue alerts of suspicious activity.” They also hired a
+    cybersecurity firm to help them understand how the breach occurred and its impact.
+    \n\nThe story of Airway Oxygen’s breach begs the question: if they had taken all
+    of those security measures before the breach, would it have happened? There’s
+    no way of knowing, of course, but it certainly is a question worth asking. \n\n##
+    Many types of entities are at risk, not only healthcare providers\n\nAnother interesting
+    thing about the reports for 2017 so far is that all different sorts of entities
+    reported breaches. It’s not only health systems or practices that have suffered
+    security woes; insurers, state departments of human services, software companies,
+    and other types of covered entities and business associates have reported breaches
+    as well. \n\nLate in 2016 and continuing into early in 2017, [MongoDB databases
+    fell victim to ransomware](https://thehackernews.com/2017/01/secure-mongodb-database.html)
+    attacks. The Hacker News reports, “These MongoDB instances weren’t exposed due
+    to any flaw in its software, but due to a misconfiguration (bad security practice)
+    that let any remote attacker access MongoDB databases without using any special
+    hacking tool.” \n\nMongoDB corrected the problem in the next version of its software,
+    but that requires administrators to actually update their servers. In September
+    2017, as many as 26,000 [databases were hijacked and held for ransom](http://www.healthcareitnews.com/news/hackers-are-ransoming-26000-unsecured-mongodb-databases-security-researchers-find).
+    Emory Brain Health Center and Bronx-Lebanon Hospital Center were caught up in
+    the attacks, along with other entities. \n\n## Lessons from others’ mistakes\n\nOn
+    December 28, 2017, the OCR announced a settlement for a breach. The entity, 21st
+    Century Oncology (21CO), was investigated by the Federal Bureau of Investigations
+    (FBI) twice in 2015 and informed that patients’ personal health information (PHI)
+    was being obtained illegally by unauthorized individuals. \n\nThe FBI found that
+    the breach was occurring through a remote desktop protocol from an exchange server.
+    As many as 2.2 million people were affected. \n\nThe settlement was for 21CO to
+    pay $2.3 million and to enter into a corrective action plan (CAP). According to
+    an article published by the law firm Saul Ewing Arstein & Lehr LLP,\nthe results
+    of the OCR’s investigation in this instance offer insight into [what all healthcare
+    entities should be doing](https://www.saul.com/publications/alerts/2017-closes-2-million-hipaa-settlement):
+    \n\n> The OCR’s investigation determined that 21CO (i) failed to conduct an accurate
+    and thorough assessment of the potential risks and vulnerabilities to the confidentiality,
+    integrity and availability of its electronic protected health information (ePHI);
+    (ii) failed to implement security measures sufficient to reduce the risks and
+    vulnerabilities to a reasonable and appropriate level; (iii) failed to implement
+    procedures to regularly review records of its information system activity; and,
+    (iv) disclosed PHI to third party vendors who were acting as business associate
+    without having written business associate agreement in place.” \n\nThe CAP that
+    21CO agreed to includes completing a risk analysis and risk management plan, revising
+    security policies and procedures, and cataloging its business associate agreements,
+    among several other steps. \n\nSaul Ewing Arnstein & Lehr offer advice to other
+    business required to comply with HIPAA regulations, writing, \n\n> As we begin
+    2018, covered entities and business associates should revisit their HIPAA Privacy,
+    Security and Breach Notification policies and procedures to ensure internal compliance
+    and make timely adjustments as appropriate.” \n\nAs we move through 2018 and toward
+    May, when the new GDPR EU data privacy regulations becomes effective, it behooves
+    us all to pay close attention to how much we are at risk of a data breach—not
+    only with HIPAA, but also [with GDPR](https://datica.com/discover/gdpr/). After
+    all, that $2.1 million 21CO HIPAA penalty could potentially be ten times that
+    amount in GDPR fines.\n\nLet Datica remove the burden and risk of compliance for
+    your digital health application with our HITRUST-certified healthcare platform.
+    Get started today with a [free trial](https://datica.com/pricing/). \n"
+  :featured_image:
+    :id: 2tiN03jy8wugiQgKSq2Esg
+  :share_image:
+    :id: I6lTKaUWA0saAwMcgAQiq
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3OnaohMlZucmAkaQ8A0qAu
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:55:06+00:00'
+    :created_at: '2017-08-30T16:43:43+00:00'
+    :id: 3OnaohMlZucmAkaQ8A0qAu
+  :title: Facing down the largest breaches of 2017 with Datica's open-source policies
+  :slug: facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies
+  :pub_date: !ruby/object:DateTime 2017-08-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: As we roll into the end of 2017, it's worth looking back on how the industry
+    has been doing protecting PHI against the threat of cyber-intrusions.
+  :blog_lead: 'As we roll into the last few months of the year, it''s worth looking
+    back on how the industry has been doing protecting PHI and adapting to the increasingly
+    threatening world of cyber-intrusions. While the big stories generally revolve
+    around the largest amount of lives impacted and the most technically harrowing
+    attacks, it''s worth noting that there are still breaches as simple as someone
+    stealing a laptop with a spreadsheets with thousands of persons worth of PHI on
+    it. In this article, we''re going to go through some of the largest breaches of
+    2017 and discuss how we address these as a company which we''ve shared in our
+    open-source policies. While it''s impossible to say in retrospect if any breach
+    was 100% preventable, having policies in place to provide "reasonable effort"
+    to prevent exposure is key to minimizing the damage from the unpreventable. '
+  :post: "## Ransomware or Malware\n\nAt top of mind in 2017 is ransomware and malware,
+    which shut down and exposed multiple hospitals and HIT Vendors thoughout the year.
+    Of those, two were notable:\n\n-  [Pacific Alliance Medical Center attack potentially
+    leaks 260K patients](http://www.healthcareitnews.com/news/los-angeles-provider-breached-ransomware-attack-over-260000-patients-affected-updated)\n-
+    \ [Nuance Impacted for Weeks Due to Malware](https://www.healthcare-informatics.com/news-item/cybersecurity/cyber-attack-update-nuance-still-down-researchers-believe-petya-not)\n\nThe
+    vector of the attack is relatively straightforward: through phishing or infected
+    3rd party hardware like a thumb drive, hackers gain access to hardware throughout
+    an organization's network and encrypt data on that hardware. The purpose of ransomware
+    is to extract payment to undo that encryption while other malware like the ones
+    believed to be used in the Nuance attack are wholly irreversible and are just
+    designed to effectively destroy the data.\n\nPreventing something like an attack
+    like this actually hits to the heart of most of our policies, but let's go for
+    the top 3 references in this article. First, [patch management](https://policy.datica.com/#9.5-patch-management-procedures)
+    ensures that you are constantly being vigilant to new security concerns. While
+    it's not directly stated in our policies, we have one person and a backup who
+    are wholly responsible for managing patches for our system for security concerns.
+    Second, having policies on [appropriate system access and by reducing the need
+    for privledged users](https://policy.datica.com/#7.2-access-establishment-and-modification)
+    reduces the risk that if one user's credentials are compromised all systems could
+    be accessible by an attacker. Third, we run [OSSEC and Anti-Virus](https://policy.datica.com/#17.4-prevention-of-malware-on-production-systems)
+    on all production systems to identify any otherwise unknown attacks and to solve
+    any issues brought up from an attack.\n\n## Unauthorized Access or Disclosure\n\n-
+    [Indiana Medicaid warns patients of health data breach](http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach)\n-
+    [Phishing attack at UC Davis leads to health data breach](http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients)\n\nOther
+    than a vector for malware, [phishing](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)
+    can also be used as a method for attackers to simply gain access to systems by
+    getting credentials to a system. Or, a well-meaning dev may accidentally breach
+    patient data by placing it on a public facing web page. \n\nWhile your mileage
+    may vary, our policies have a few tips to help prevent this. First, we require
+    [two-factor auth](https://policy.datica.com/#17.7-production-system-security)
+    on all production systems. While this doesn't necessarily prevent a system user
+    from giving an attacker their credentials *and* auth token (sigh), it reduces
+    the risk of unauthorized cross application access and minimizes the window by
+    which an attacker can maintain access to an application. We also require access
+    to all production systems to be [managed over a VPN with two-factor auth](https://policy.datica.com/#7.2-access-establishment-and-modification).
+    We also have an unofficial \"All data is potentially PHI\" policy for our managed
+    integration services hardware/software. While we may have access to test environments
+    with mock patient data, we assume that we may be sent PHI from any vendor or healthcare
+    organization. As such, we protect all data like PHI as established in our policies.
+    \n\n## Theft or Improper Disposal\n\n- [WSU hard drive theft potentially impacts
+    1 million people](http://www.healthcareitnews.com/news/wsu-hard-drive-theft-potentially-impacts-1-million-people)\n-
+    [State Employee Dumps Medicaid Worksheets in dumpster](http://bismarcktribune.com/news/state-and-regional/state-employee-dumps-medicaid-worksheets-in-dumpster/article_13f36eb4-1fb4-5278-93e1-1d30a00c9f9a.html)\n\nWhile
+    hackers and ransomeware are increasingly perilous, [20% of data breaches reported
+    to the OCR are good old fashioned theft and improper disposal](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf).
+    Someone stealing a laptop from a car or a unencrypted hard drive from an office
+    to cause a breach are a tale as old as HIPAA itself.\n\nWe may be biased, but
+    **stop storing PHI on local machines or on paper**. [We don't](https://policy.datica.com/#7.13-access-to-ephi).
+    We only used [approved tools](https://policy.datica.com/#20.-approved-tools-policy)
+    with appropriate access controls and encryption to store and transfer PHI. We
+    also have [no servers in our offices](https://policy.datica.com/#10.-facility-access-policy)
+    and BAAs with our cloud providers. \n\n## Conclusion\n\nDon't [learn about HIPAA](https://datica.com/discover/hipaa-compliance/)
+    the hard way, either getting beat up by your first 250-question audit or worse:
+    by finding yourself on the OCR's Wall of Shame. Consult our policies or let us
+    do the lifting for you on our thrice-audited, HITRUST-certified [compliant Platform](https://datica.com/platform/).
+    \n\n\n"
+  :featured_image:
+    :id: 7EkRpt7VsIoAkms4sE8gQs
+  :share_image:
+    :id: 2LxaDSQm2kcWsQuQ8WmsSk
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  - :id: 5S8LbWARFKIogwQ2Mmcg80
+  - :id: 1tg5P46GikgUYoSqsYUcSY
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 43RrKqACLKiEqKoiMsy2O8
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-08-18T15:52:44+00:00'
+    :created_at: '2017-08-18T15:52:44+00:00'
+    :id: 43RrKqACLKiEqKoiMsy2O8
+  :title: 'Spear Phishing: Hackers Aiming for Healthcare'
+  :slug: spear-phishing-hackers-aiming-for-healthcare
+  :pub_date: !ruby/object:DateTime 2017-08-18 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: In the 377 healthcare data breaches last year, phishing attacks were among
+    the top data breach causes. Why is healthcare such a target for spear phishing
+    attacks?
+  :blog_lead: "At the beginning of August, the BBC reported that a UK-based “prankster”
+    had successfully [spoofed the White House.](http://www.bbc.com/news/world-us-canada-40788080)
+    Through spear phishing emails, this bad actor had not only convinced a senior
+    cyber security officer that he was the president’s son-in-law and senior advisor
+    Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus
+    to fool then White House Communications Director Anthony Scaramucci into inflammatory
+    email exchanges. After posting a few of those emails on Twitter, the culprit promised
+    not to do it again and urged the current administration to “tighten up IT policy.”
+    While the jokester later indicated his email spoofing had no harmful intent, the
+    implications go way beyond 1600 Pennsylvania Avenue. \n"
+  :post: "Phishing is a widely used form of social engineering where malicious ne’re-do-wells
+    broadcast  disguised emails to a large population in an attempt to steal sensitive
+    information like usernames, passwords, financial and yes, healthcare data. Although
+    not commonly known until 2005, phishing scams first appeared around 1995, with
+    the term first being coined in a Usenet group on January 2, 1996. When America
+    Online (AOL) reigned as king of email communication, scammers regularly masked
+    themselves as banking sites and financial institutions, as well as PayPal and
+    Ebay. These fraudulent emails would often persuade victims to open a link with
+    a malevolent attachment or visit a malicious web site. \n\nLater, these phishing
+    scams bred a more targeted type of phishing called [“spear phishing.”](https://www.wired.com/2015/04/hacker-lexicon-spear-phishing/)
+    For this type of hoax, cyber shysters use targeted emails designed to appear as
+    if from someone the victim knows, such as a colleague, business manager or even
+    someone from the human resources department. These tailored emails often contain
+    subject lines or content that capitalize on the victim’s known interests. \n\n##
+    Is Healthcare a Spear Phishing Target?\n\nIn the 377 healthcare data breaches
+    last year, the [Identity Theft Resource Center (ITRC) and CyberScout](http://www.prnewswire.com/news-releases/data-breaches-increase-40-percent-in-2016-finds-new-report-from-identity-theft-resource-center-and-cyberscout-300393208.html)
+    report shows phishing attacks were among the top data breach causes. Along with
+    hacking and skimming, these three scams made up 55.5 percent of the breaches.
+    Furthermore, spear phishing appears to be the most likely type of scam targeting
+    CEOs. From 2015 to 2016, the numbers for these methods of breaches rose 17.7 percent.
+    In the first part of 2017, phishing has been used to gain access to UC Davis Health,
+    Torrance Memorial Medical and Washington University School of Medicine, according
+    to Healthcare IT News piece titled [“The biggest healthcare breaches of 2017 (so
+    far).”](http://www.healthcareitnews.com/slideshow/biggest-healthcare-breaches-2017-so-far?page=32)
+    This upward trend isn’t about to subside until an even more lucrative scam arises.
+    With an average cost of a healthcare data breach at about $380 per record, mitigating
+    spear phishing remains top of mind for Datica and its customers.\n\n## Spear Phishing
+    Recommendations\n\nFor insight into this latest trend, I reached out to Datica
+    Security Engineer Brandon Maxwell. He shared the reason for an increase in spear
+    phishing: high success rates — which make it the number one delivery vehicle for
+    ransomware and malware. “They don’t need complex methods of breaking through security
+    walls when they can simply trick someone inside an organization to hand over what
+    they want,” says Maxwell. \n\nDatica, like every other healthcare IT organization,
+    is also vulnerable to this type of encounter. For example, one spear phishing
+    attempt that we recently blocked came from an imposter who cleverly spoofed one
+    of our executive’s email addresses. He or she used that email address to request
+    a wire transfer from the finance department. Trained to spot such deceit, the
+    department head alerted the appropriate person within Datica about the email and
+    its request, and ultimately averted the scam. Datica now uses this spoof example
+    to warn its own customers to such trickery. \n\nDatica’s Director of Compliance
+    Lori Meals touts four ways healthcare organizations can better protect themselves
+    from such attacks. Her recommendations and thoughts, along with Maxwell’s include:\n\n###
+    Awareness, training and testing\n\nAll employees need to be made aware of what
+    phishing is and the damage that can result from a successful attack. Maxwell outlines
+    the steps he uses to fully inform Datica employees, “Sharing what a spear phishing
+    email looks like, explaining how to evaluate such an email and then confirming
+    that employees know to whom suspicious emails should be forwarded for evaluation
+    are a strategic way to thwart outside intrusions that could breach an organization’s
+    thickest walls.” Meals strongly encourages periodic testing of employees’ knowledge
+    and awareness of fake phishing emails by crafting internal spear phishing lures
+    that can be distributed internally. However, she cautions against doing testing
+    at specific dates. “You don’t want to make testing so regular that on October
+    1st, every employee expects a fake spear phishing email,” says Meals. \n\n###
+    Putting technical measures in place\n\nCertain technical steps must be in place
+    as the first line of defense against all phishing scams. “When someone is trying
+    to fake an email and send it to someone in your organization, you should have
+    the technical measures in place that will flag that email as suspicious,” says
+    Maxwell.\n\n### Measurement and management\n\nSetting and tracking goals, then
+    managing any steps for failure is a critical part of any good compliance program
+    “Having zero percent of employees click on that test should be the organizational
+    goal,” says Meals. “Anything less than a zero level goal would require remediation
+    steps.” \n\nThese compliance concepts run parallel with the concepts found in
+    HITRUST. Datica joins an elite group of healthcare vendors in the United States
+    to achieve [HITRUST CSF Certification](https://datica.com/platform/compliance/)
+    status and believes that this gold-standard for security of healthcare data is
+    the best way to protect its customers. \n\n## Datica’s Customer Protections\n\nSecurity
+    and compliance are deeply woven into [Datica’s company culture](https://datica.com/).
+    If you’ve ever had to let one of your employees go who had access to your environment
+    on the Datica platform, you have encountered Datica’s billing-based method of
+    double verification. The Datica engineering team works hand in hand with the billing
+    department to quickly verify and make customer requested adjustments for access.
+    Datica utilizes stringent measures for Identity proofing to protect its customers.
+    These steps combined with the recommendations above better protect your organization
+    for a spear phishing attack. \n"
+  :featured_image:
+    :id: 6cwnhG1ji0eIICWIaqYwau
+  :share_image:
+    :id: 5G95TNr5RuMY2ECCEw4SYS
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

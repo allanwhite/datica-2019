@@ -1,0 +1,883 @@
+---
+:id: 6yNMzCKn84Q4qIsm0sWmUy
+:_meta:
+  :content_type_id: discover
+  :updated_at: '2018-06-05T18:24:02+00:00'
+  :created_at: '2018-01-26T22:30:11+00:00'
+  :id: 6yNMzCKn84Q4qIsm0sWmUy
+:title: GDPR Compliance
+:slug: gdpr
+:topic_tag:
+- :id: 15gxB6GioeIuKGKMSmwiS2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-12-11T19:30:39+00:00'
+    :created_at: '2017-12-11T19:30:39+00:00'
+    :id: 15gxB6GioeIuKGKMSmwiS2
+  :tag_full: GDPR
+  :slug: gdpr
+  :description: General Data Protection Regulation
+:cta_ref:
+  :id: 5romF7X52EGUUEw0sM00Ki
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-06T22:26:54+00:00'
+    :created_at: '2018-04-06T21:46:31+00:00'
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :cta_title: Get your GDPR Compliance Guide
+  :cta_desc: This guide to GDPR for the healthcare industry will prepare you to do
+    business in the EU and understand how to handle PHI of EU citizens. With Datica,
+    you’ll be ready when GDPR takes effect on May 25, 2018.
+  :cta_label: Get the GDPR Guide
+  :cta_url: https://datica.com/guide/gdpr-compliance
+  :cta_image:
+    :id: 3PtpwcCyLYOGM0oiOKGo0O
+  :cta_color: blue-alt
+:summary: 'Makers of digital health products need to be ready for GDPR, which takes
+  effect on May 25, 2018. This overview guides you through the basics of GDPR compliance,
+  data breach notifications, and much more. '
+:featured_image:
+  :title: GDPR compliance overview featured
+  :description: GDPR Compliance Overview Featured Image
+  :url: "//images.ctfassets.net/189dvqdsjh46/6LTxW4dsIwEcU6uaIOCUYw/6775529ba6dab42b775a5572fcd81b02/roman-kraft-106708.jpg"
+  :_meta:
+    :updated_at: '2018-01-26T22:26:18+00:00'
+    :created_at: '2018-01-26T22:26:18+00:00'
+    :id: 6LTxW4dsIwEcU6uaIOCUYw
+:lead: "## What is the GDPR?\nGDPR, which stands for General Data Protection Regulation,
+  is the acronym for the much anticipated new European Union (EU) security and privacy
+  framework that goes into effect on May 25th, 2018. GDPR leaves some discretion to
+  EU member states but, as a general rule—and the reason it is getting so much attention—it
+  applies across all EU Member States. It applies to all personal, individually identifiable
+  data storage of EU citizens’ data which extends its coverage to healthcare providers,
+  payors, life sciences, and digital health companies located anywhere. \n"
+:body: "\n### Why does the GDPR exist?\n\nThe EU has been more progressive around
+  data privacy, and that’s especially true for Germany. During World War II, the fascist
+  regime used personal information to target people for all sorts of atrocities. Therefore,
+  Europeans are especially sensitive to personal data being shared. The issue of data
+  privacy and leaks has become more urgent in recent years after it came to light
+  that the U.S. National Security Association (NSA) was spying on European citizen
+  data, starting a snowball effect that also involved issues of data privacy on Facebook
+  and exacted a seismic shift upon international data privacy regulations.\n\n###
+  Why care about GDPR Data Security?\n\nIf you do anything with EU citizen healthcare
+  data, then you are at risk of significant penalties for violations. The penalties
+  for violating GDPR can be up to $20m or 4% global revenue, whichever is highest.
+  That’s enough to put most healthcare vendors out of business. If you want to work
+  in the EU, are already in the EU, or even if you could potentially collect EU citizen
+  health data, you need to expand your compliance program and posture to minimize
+  your risk.\n\n### How does GDPR compare to HIPAA?\n\nHealthcare and health data,
+  “data concerning health”, is one subset of GDPR and specifically applies to data
+  concerning physical and mental health, genetic data, and biometric data. The good
+  news is that GDPR has considerable overlap with HIPAA, and to an even larger extent,
+  HITRUST. Fundamentally, addressing HIPAA and GDPR is about having security as a
+  core tenet of operations; the major difference is ensuring that evidence and documentation
+  is created to prove compliance with each framework.\n\nGet a general overview of
+  [how GDPR compares to HIPAA](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/)
+  including why GDPR is getting such outsized attention, the definition of GDPR, how
+  to report breaches, the guidelines for health data access, and the required Data
+  Protection Impact Assessments (DPIAs) on the Datica blog.\n\n## Does the GDPR apply
+  to cloud service providers?\n\nTo understand whether the GDPR applies to your cloud
+  service business, you need to first understand the different definitions of “Controller”
+  and “Processor” and the relationship between the two. Using HIPAA as an analogy
+  to explain: a Controller is like a Covered Entity, a Processor is like a Business
+  Associate, and a Sub-processor is like a Subcontractor.\n\nIf you are reading this,
+  within the GDPR, you are most likely a Processor of some sort. Welcome to the club!
+  This is what Datica is as well because any piece of health IT technology that handles
+  identifiable EU citizen data in a cloud-based modality can be considered a “cloud
+  service provider” which means a Processor. \n\nUnderstand the obligations Processors
+  (and cloud service providers) have within GDPR, risk allocation between business
+  partners, the GDPR definition of data protection by design and default, and the
+  role of HITRUST in GDPR compliance by reading the academy article, [GDPR for Cloud
+  Service Providers.](https://datica.com/academy/gdpr-for-cloud-service-providers/)\n\n##
+  What is a GDPR data breach?\n\nWe get asked all the time for the meaning of a data
+  breach. It often comes up when people look at a breach vs. a security incident.
+  It gets even muddier when the term “security incident involving ePHI” is brought
+  into the mix. While seemingly nitpicky, understanding the differences between these
+  terms is essential to reduce your risk and to inform your partners and customers.
+  Ambiguity and opacity is a not a good strategy when it comes to compliance and foundational
+  definitions.\n\nLearn about what counts as a security incident under GDPR, and how
+  GDPR data breach compares to HIPAA data breach in the Datica Academy article, [What
+  is a Data Breach under GDPR and HIPAA](https://datica.com/academy/what-is-data-breach-gdpr-and-hipaa/)\n\n###
+  Are there really only 72 hours for breach notification?\n\nOne of the most challenging
+  aspects of any security and compliance program is data breach notification. “Beach
+  notification” is actually multiple tasks — surveillance, investigation, and ultimately
+  notification (to end users, partners, and sometimes media). It is time-consuming,
+  expensive, and, when handled poorly, embarrassing for organizations and can lead
+  to more investigations.\n\nThe 72-hour security breach requirement written into
+  General Data Protection Regulation (GDPR) Article 33 is rightfully generating a
+  lot of attention and angst. 72 hours is not enough time to do all of the things
+  that organizations are used to doing ahead of notifying authorities and individuals
+  about a breach.\n\nGDPR breach reporting is more prescriptive and more aggressive
+  than the requirements under HIPAA, or likely any other compliance framework. Learn
+  the ins and outs of [GDPR data breach requirements](https://datica.com/academy/gdpr-data-breach-requirements/)
+  in the Datica Academy.\n\n### What’s the checklist for a breach notification process?\n\nThe
+  breach notification requirements outlined in GDPR Article 33 are aggressive —“The
+  controller shall without undue delay and, where feasible, not later than 72 hours
+  after having become aware of it, notify the personal data breach to the supervisory
+  authority.” \n\nAt Datica, we’ve built and tested our breach notification process
+  to meet the most stringent notification requirements of covered entities. At times,
+  we’ve had to adjust our compliance program. The following steps are the ones we
+  went through when we updated our breach reporting. All of these actions should be
+  orchestrated by your data protection officer, the person at your organization who
+  is ultimately responsible for your compliance with GDPR.\n\n1. Define and get consensus
+  on what you mean by “breach”\n2. Document your current process\n* Identify major
+  buckets of work\n* Rank the criticality of each bucket of work\n* Rank each bucket
+  of work by the about of time it takes to complete\n* Identify key personnel\n* Identify
+  critical steps that must be completed before notifying authorities\n3. Develop the
+  new process that can be completed in 72 hours\n* Create templates/ efficiencies\n*
+  Test your new process (and document it)\n4. Notify customers and partners of your
+  new breach reporting process\n\nThe academy post, [GDPR Data Breach Notification
+  Checklist](https://datica.com/academy/gdpr-data-breach-notification-checklist/)
+  walks through the details of each step listed above you should take to bring your
+  breach reporting policies and procedures in compliance with GDPR.\n\n## How much
+  are the GDPR Fines and Penalties?\n\nArticle 58 of the GDPR grants supervisory authority
+  the ability to not only to investigate controllers and processors but also to impose
+  fines. The administrative penalties are defined in GDPR Article 83. The fines are
+  in addition to other actions, such as audits and corrective actions, outlined in
+  Article 58.\n\nThe specific GDPR penalty language, and the bulk of the discussion
+  and interest in the Regulation, is in Article 83. There are two specific fines listed
+  in Article 83 - 1) 10,000,000 EUR, or 2% of total worldwide turnover (revenue) and
+  2) 20,000,000 EUR, or 4% of total worldwide turnover (revenue). \n\nFor a detailed
+  understanding of the reasons for each of the different fine levels, advice on how
+  to minimize your risk of GDPR fines, and a description of Article 84 member States’
+  penalties, read the Datica academy entry, [GDPR Fines and Penalties.](https://datica.com/academy/gdpr-fines-and-penalties/)\n\n##
+  What if you transfer data outside of the EU? \n\nWhile you are gearing up for the
+  GDPR, one critical facet cannot be overlooked for healthcare enterprises and digital
+  health companies who aspire to work internationally. If your U.S. company plans
+  to bring health data from the EU back to the United States, you must address an
+  additional privacy requirement laid out by the European Court of Justice. \n\nThe
+  EU-U.S. Privacy Shield, which replaced the previous Safe Harbour Framework, levies
+  a stronger obligation on U.S. companies today. To comply, companies must either
+  self-certify for the EU-U.S. Privacy Shield or obtain a third-party assessment.
+  This self-certification or assessment confirms that your company meets the Privacy
+  Shield Framework requirements that help protect the personal data of Europeans.
+  \n\nThe Datica blog has more information on Privacy Shield so you can [know the
+  ropes before pulling data back across the pond.](https://datica.com/blog/privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond/)\n\n##
+  Is Datica GDPR Compliant?\n\nDatica's compliance program is comprehensive. The process
+  of expanding and proving compliance across multiple frameworks, both for us and
+  our customers, is not new to us at Datica. You can follow our changes through the
+  updates to our open source policies and procedures; our policies define the operational
+  and technical controls we use. We started with HIPAA and quickly expanded to leverage
+  HITRUST as the core risk framework for our internal compliance program. \n\nWe then
+  added SOC2, Privacy Shield, and, most recently, GxP. We plant to complete our full
+  GDPR audit by May 25, 2018, when GDPR goes into effect. Our goal has always been
+  to build and maintain one compliance program to prove compliance with multiple frameworks.
+  In the paraphrased words of HITRUST: one control, many frameworks.\n\nDatica exists
+  to help makers of digital health products be successful whether they work solely
+  with U.S. citizen data or if they dip a toe into the commercial waters between countries.
+  We live in a thriving, global digital economy today. When everyone follows the rules,
+  we increase the chances of digital health success and decrease the chances of getting
+  our hands and wallets slapped in court.\n\nWith Datica, you'll be ready when GDPR
+  takes effect in May, 2018. [Talk to one of our compliance experts](https://datica.com/contact/)
+  today to find out how you can be compliant with GDPR or drop us a line at [hello@datica.com](mailto:hello@datica.com).\n"
+:related_blog:
+- :id: E1VA55CiNq2Ioa4wm2y4Q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:44:10+00:00'
+    :created_at: '2017-12-04T17:46:13+00:00'
+    :id: E1VA55CiNq2Ioa4wm2y4Q
+  :title: 'Privacy Shield: Know the ropes before pulling data back across the pond'
+  :slug: privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond
+  :pub_date: !ruby/object:DateTime 2017-12-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: If your U.S. company plans to bring health data from the European Union
+    back to the states, you must address EU-U.S. Privacy Shield — an additional privacy
+    requirement laid out by the European Court of Justice.
+  :blog_lead: If your U.S. company plans to bring health data from the European Union
+    back to the states, you must address an additional privacy requirement laid out
+    by the European Court of Justice. The [EU-U.S. Privacy Shield](https://www.privacyshield.gov/welcome),
+    which replaced the previous Safe Harbour Framework, levies a stronger obligation
+    on U.S. companies today. To comply, companies must either self-certify for the
+    EU-U.S. Privacy Shield or obtain a third-party assessment. This [self-certification](https://www.privacyshield.gov/article?id=How-to-Join-Privacy-Shield-part-1)
+    or assessment confirms that your company meets the Privacy Shield Framework requirements
+    that help protect the personal data of Europeans.
+  :post: "\nWhile everyone is gearing up for the General Data Protection Regulation
+    (GDPR) that goes into effect for the European Union on May 25, 2018, one critical
+    facet cannot be overlooked for customers who aspire to work internationally.\n\n##
+    Q & A with Lori Meals\n\nDatica Director of Compliance Lori Meals has been gathering
+    more details on the Privacy Shield and readying Datica for its own self-certification.
+    She recently sat down to answer questions on the topic that will be helpful to
+    you as you think through the necessary steps in bringing private health data back
+    to the states from abroad.\n \n### Why are the privacy protections more stringent
+    in the European Union than the U.S.?\n \nThe EU has been more progressive around
+    data privacy, and that’s especially true for Germany. During World War II, the
+    fascist regime used personal information to target people for all sorts of atrocities.
+    Therefore, Europeans are especially sensitive to this sort of personal data being
+    shared.\n \n### Why was the Safe Harbour Framework invalidated and the EU-U.S.
+    Privacy Shield enacted in its place?\n \nAll comes down to [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden).
+    Remember him? He’s the former National Security Association (NSA) contractor who
+    revealed that the intelligence agency had been spying on European citizen data
+    held by American companies.  That snowball quickly rolled downhill to Facebook.
+    Austrian student Max Schrems filed subsequent lawsuits, alleging that Facebook
+    had not been protecting personal data of Europeans, as extrapolated from the Snowden
+    leaks. Those leaks showed that the NSA performed surveillance on technology companies,
+    like Facebook. His complaints landed in the European Court of Justice whose governance
+    quickly invalidated the Safe Harbour Framework and exacted a seismic shift upon
+    international data privacy.\n\n### Is the Privacy Shield certification required
+    for Datica?\n \nNo, it is not incumbent upon us, but it is for our customers,
+    assuming they are expanding into Europe and/or using European citizen data. Without
+    the Privacy Shield, a U.S. company is potentially liable when not adhering to
+    these principles.\n \n### What must a customer know about Privacy Shield?\n \nThe
+    Privacy Shield has a couple of important vocabulary words: data controller and
+    data processor. Datica would be the “data processor” because we only work on behalf
+    of those who are collecting the data. The Privacy Shield lays out the data protection
+    principles that gives an individual the right to know that a company not only
+    holds your data, but that the individual can request that such data be deleted,
+    updated or changed, as well as requesting copies of it.\n \n### Is there anything
+    else that a Datica customer needs to know?\n \nBefore expanding into Europe, U.S.
+    companies must sign a Data Processing Agreement (DPA). The DPA signifies the agreement
+    the parties’ have made with respect to terms governing personal data processing.
+    Organizations will also need to contract with a 3rd party to handle complaints
+    about how the organization handles data, should any arise. \n\n### How does this
+    impact digital health companies long-term?\n \nThe rules and regulations have
+    become more stringent upon U.S. companies involved with cross border data transfers.
+    Abiding by the European requirements is imperative for staying out of hot legal
+    waters. \n\nDatica exists to help make digital health companies successful whether
+    they work solely with U.S. citizen data or if they dip a toe into the commercial
+    waters between countries. We live in a thriving, global digital economy today.
+    When everyone follows the rules, we increase the chances of digital health success
+    and decrease the chances of getting our hands and wallets slapped in court.\n\n"
+  :featured_image:
+    :id: 73DTpr4wNi22UU6CgocCmw
+  :share_image:
+    :id: 6auAUkK0nKEMeaEywAQqeG
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 43RrKqACLKiEqKoiMsy2O8
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+- :id: 5Eape5yb0k0SGOu2Asw0ss
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:38:33+00:00'
+    :created_at: '2017-12-11T23:44:43+00:00'
+    :id: 5Eape5yb0k0SGOu2Asw0ss
+  :title: How does GDPR compare to HIPAA?
+  :slug: how-does-gdpr-compare-to-hipaa
+  :pub_date: !ruby/object:DateTime 2017-12-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Though different in who they apply to and how you prove compliance, HIPAA
+    and GDPR are both about having security as a core tenet of operations.
+  :blog_lead: At the AWS re:Invent conference earlier this month, GDPR was a major
+    area of interest from attendees though AWS has little content coverage for GDPR.
+    GDPR, which stands for General Data Protection Regulation, is the acronym for
+    the much anticipated new EU security and privacy framework that goes into effect
+    in May of 2018. GDPR leaves some discretion to EU member states but, as a general
+    rule, and the reason it is getting so much attention, is that it applies across
+    all EU Member States. The purpose of this post is to introduce those familiar
+    with healthcare privacy and security in the United States, namely those concerned
+    with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even
+    security requirements more generally, but instead focuses on the broader principles
+    and privacy guidelines for health data under GDPR.
+  :post: "\nThe process of expanding and proving compliance across multiple frameworks,
+    both for us and our customers, is not new to us at Datica. You can follow our
+    changes through the updates to our [open source policies and procedures](https://datica.com/open-source/policies/);
+    our policies define the operational and technical controls we use. We started
+    with HIPAA and quickly expanded to leverage [HITRUST](https://datica.com/blog/hitrust-csf-certification-round-3/)
+    as the core risk framework for our internal compliance program. We then added
+    SOC2, Privacy Shield, and, most recently, GxP. We will complete our full GDPR
+    audit in 2018 ahead of GDPR going into effect. Our goal has always been to build
+    and maintain one compliance program to prove compliance with multiple frameworks.
+    In the paraphrased words of HITRUST: [one control, many frameworks](https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust/).\n
+    \                                                                                       \n##
+    GDPR applies to all personal data storage\n\n[GDPR is getting outsized attention](https://www.eugdpr.org/)
+    because it applies to all personal data storage and processing, limiting or putting
+    at risk all companies that leverage individually identifiable data (think of Google
+    and Facebook, not just healthcare providers, payors, life sciences, and digital
+    health companies). GDPR also applies to organizations that control or process
+    data for citizens of EU Member States regardless of where the organization is
+    based.\n\nHealthcare and health data, “data concerning health”, is one subset
+    of GDPR and specifically applies to data concerning physical and mental health,
+    genetic data, and biometric data. The good news is that GDPR has considerable
+    overlap with HIPAA, and to an even larger extent, HITRUST.\n\n## GDPR entities:
+    controllers and processors\n\nIn the world of HIPAA, you’re either a covered entity
+    (CE) or a business associate (BA); for the purposes of this guide, subcontractors
+    are just business associates of business associates. In the world of GDPR, you’re
+    either a controller or a processor. The structures don’t mirror each other 100%
+    but controllers, like covered entities, are the organizations that ultimately
+    own personal data and processors, like business associates, provide services,
+    or data processing, for controllers.\n\nThe major difference is that HIPAA strictly
+    defines covered entities based on functions in healthcare as providers, payors,
+    and clearinghouses whereas GDPR defines controllers as “natural or legal person,
+    public authority, agency or other body which, alone or jointly with others, determines
+    the purposes and means of processing of personal data.” HIPAA defines entities
+    based on the function of the organization and GDPR defines it based on the ownership
+    of data; this is a consistent theme throughout GDPR. \n\nMy interpretation of
+    GDPR, and a significant area of difference that healthcare organizations need
+    to consider, is that direct to consumer health offerings like Fitbit, MapMyRun,
+    or an application for medical adherence created by a pharmaceutical company, would
+    be considered controllers whereas in the US, under HIPAA, they wouldn’t need to
+    adhere to HIPAA until they worked with customers or patients of a provider or
+    payor. When those same direct to consumer companies in the US did work with providers
+    and payors, they would be considered business associates and not covered entities.
+    This flips the model for these companies as they are now the focal point of data
+    control and risk under GDPR.\n\nControllers, like covered entities, are ultimately
+    responsible and liable for the protection of data. As such, controllers need to
+    put data processing agreements (DPA) in place with processor partners; similarly,
+    covered entities under HIPAA must put business associate agreements (BAAs) in
+    place with business associates. GDPR is more prescriptive in terms of what needs
+    to be included in a DPA, something that is much needed in the US but is lacking
+    in the HIPAA rules. The prescriptive nature of DPAs ensures additional protection
+    and transparency over the wild west of BAAs in the US. One of the things GDPR
+    requires, with some rare exceptions, in DPAs is that data is destroyed once the
+    relationship between controller and processor ends; this severely limits the ability
+    of processors to aggregate and retain personal data for future use. And, similarly
+    to the US and HIPAA after the Omnibus rule was passed, processors under GDPR must
+    have similar DPAs in place with their own processor partners.\n\n## GDPR breach
+    reporting\n\nUnder GDPR, there are strict breach reporting requirements. The timeline
+    to report breaches is 72 hours from becoming aware of a breach. Any organization
+    adhering to HIPAA would have breach reporting timelines in policies, contracts,
+    and/or BAAs; but, most breach reporting times we see from major cloud providers
+    and vendors are on the order of days (10 days being the shortest we’ve seen),
+    weeks, and even months. The lowest time we’ve seen for breach reporting is our
+    own Datica breach reporting time, which is 4 hours. For entities looking to comply
+    with GDPR, there are changes that need to be made both technically and operationally
+    to commit to 72 hour breach reporting.\n\n## Health data access under GDPR\n\nGDPR
+    puts forth clear guidelines for when health data can be processed, or essentially
+    when it can be accessed. Under GDPR, health data can only be accessed 1) with
+    explicit consent from the individual, 2) for health and social care, and 3) for
+    public health (cross border containment being the example given). There are some
+    nuances to this, specifically with data for scientific or clinical research, but
+    those are mainly only with explicit consent. HIPAA similarly defines permitted
+    uses and disclosures of health data for 1) treatment, 2) payment, and 3) healthcare
+    operations.\n\nSome of the harder areas of GDPR, at least in comparing it to HIPAA,
+    are the rights of individuals to get access to all of their data and to be forgotten
+    (have all their data deleted). Healthcare data is much more extensive than other
+    types of data like payment data; it’s the reason complying with HIPAA isn’t the
+    same as complying with PCI where you can essentially outsource payment processing
+    to Stripe. Granting access to all personal health data or being able to delete
+    all health data is a very high bar to meet, especially for large, bloated EHRs
+    and legacy healthcare software.\n\n## Data Protection Impact Assessments\n\nOne
+    of the things I like a lot about the GDPR is the overarching principle of data
+    protection by design and default. Sadly, security, and compliance, is often an
+    afterthought at best or perceived unnecessary box to check at worst. GDPR explicitly
+    attempts to resolve this pattern. GDPR goes further than HIPAA, and in this way
+    is very similar to HITRUST, in that it anchors risk assessment, analysis, and
+    management to the entire lifecycle of products and services. GDPR requires controllers
+    and processors to conduct Data Protection Impact Assessments (DPIAs), which are
+    just a longer name for a risk assessment. These DPIAs should be performed before
+    the start of development work and done periodically throughout the lifecycle of
+    a product to ensure data is protected and secure. This risk-based model is similar
+    to the way organizations are supposed to use HITRUST to develop a baseline risk
+    model and then consistently update that baseline model. It’s the model we use
+    at Datica and has made it easy for us to maintain continuous compliance for us
+    and our customers.\n\nWhy should you care about the GDPR? If you do anything with
+    healthcare data in the EU, then you are at risk of significant penalties for violations.
+    The penalties for violating GDPR can be up to $20m or 4% global revenue, whichever
+    is highest. If you want to work in the EU or are already in the EU, you need to
+    expand your compliance program and posture to minimize your risk.\n\n----                                                                                                    \nGoing
+    forward, we’ll get into technical details and mappings between HIPAA and GDPR.
+    We’ll also provide specific guidance to inform expansionary changes to security
+    and compliance programs to bring them in line with GDPR. Fundamentally, addressing
+    HIPAA and GDPR is about having security as a core tenet of operations; the major
+    difference is ensuring that evidence and documentation is created to prove compliance
+    with each framework.\n\n"
+  :featured_image:
+    :id: 7aTcDUZzOgKM2yGuYY0u2
+  :share_image:
+    :id: OeOKXAQNoIUAIkEqyGoWk
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+:related_academy:
+- :id: 3WgGJvG40EGu0sAOA4SQe2
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:25:44+00:00'
+    :created_at: '2018-01-09T18:45:19+00:00'
+    :id: 3WgGJvG40EGu0sAOA4SQe2
+  :title: GDPR Data Breach Requirements
+  :slug: gdpr-data-breach-requirements
+  :pub_date: !ruby/object:DateTime 2018-01-09 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: One of the most challenging aspects of any security and compliance program,
+    including GDPR, is breach notification.
+  :lead: 'One of the most challenging aspects of any security and compliance program
+    is breach notification. “Beach notification” is actually multiple tasks — survelliance,
+    investigation, and ultimately notification (to end users, partner, and sometimes
+    media). It is time consuming, [expensive](https://www.csoonline.com/article/3234685/data-protection/how-much-will-non-compliance-with-gdpr-cost-you.html),
+    and, when handled poorly, embarrassing for organizations and can lead to more
+    investigations. '
+  :post: "The 72-hour security breach requirement written into General Data Protection
+    Regulation (GDPR) Article 33 is rightfully generating a lot of attention and angst.
+    72 hours is not enough time to do all of the things that organizations are used
+    to doing ahead of notifying authorities and individuals about a breach.\n\n##
+    HIPAA vs. GDPR Breach Notifications\n\nIn the case of HIPAA in the United States,
+    notifying affected individuals of a breach, especially when they number in the
+    thousands or even millions, can be a massively resource-intensive endeavor; it
+    is also very expensive. That said, in the United States under HIPAA often individuals
+    are notified weeks or months after a breach is actually discovered. This is typically
+    because healthcare organizations take time to investigate the scope and cause
+    of breaches, mitigate the vulnerabilities that caused the breach, and develop
+    and implement a process for managing notifications.\n\nThe [HIPAA Breach Notification
+    Rule](https://www.hhs.gov/hipaa/for-professionals/breach-notification) requires
+    that covered entities, or the delegates of covered entities (business associates
+    typically), notify individuals and Health and Human Services (HHS) “without unreasonable
+    delay and in no case later than 60 days following a breach”. 60 days is a lot
+    of time. Breach notification under HIPAA is often a part of a [business associates
+    agreement](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    (BAA) between covered entities and business associates. In many cases, we see
+    breach reporting times of 30 to 60 days for cloud service providers, which aligns
+    with the 60-day breach reporting requirement in HIPAA. Datica guarantees 4-hour
+    breach reporting in our BAA with partners because our philosophy has always been
+    to proactively notify in order to expedite discovery, containment, and notification
+    to individuals while minimizing the risk to our partners; delaying notification
+    to our partners exposes them to more risk, not less.\n\n## GDPR Articles 33 and
+    34\n\nThe GDPR breach notification requirement, contained in [Articles 33 and
+    34 of GDPR](http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf)
+    and [in contrast to HIPAA](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/),
+    states that “the controller shall without undue delay and, where feasible, not
+    later than 72 hours after having become aware of it, notify the personal data
+    breach to the supervisory authority.” 72 hours is not a lot of time, even only
+    to notify authorities and not individuals. For organizations operating in Europe
+    with HIPAA-oriented policies, changes are likely required.\n\nThe first step to
+    bringing your policies and procedures into compliance with GDPR is to accept that
+    [GDPR breach reporting](https://gdpr-info.eu/art-33-gdpr/) is more prescriptive
+    and more aggressive than with HIPAA, or likely any other compliance frameworks
+    to which you are familiar. From this first step it’s a matter of running a stringent
+    process to update both your technology and organizational practices. You will
+    also want to review the breach reporting obligations that your processors and
+    subprocessors have in your data protection agreements. And do all that quickly
+    as May 2018, the date GDPR goes into effect, is rapidly approaching.\n\n*Learn
+    more about GDPR — Find out the actual [definitions of security incident and data
+    breach under HIPAA and GDPR.](https://datica.com/academy/what-is-data-breach-gdpr-and-hipaa/)*
+    \n\n\n"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 6iyNBVdpAIgewyYekqISUG
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 1cDUJOfihS6CamYeuSG2KW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:23:57+00:00'
+    :created_at: '2018-01-10T21:40:08+00:00'
+    :id: 1cDUJOfihS6CamYeuSG2KW
+  :title: GDPR Data Breach Notification Checklist
+  :slug: gdpr-data-breach-notification-checklist
+  :pub_date: !ruby/object:DateTime 2018-01-10 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: This GDPR data breach notification checklist outlines the steps that should
+    be orchestrated by your data protection officer to ensure GDPR compliance.
+  :lead: The breach notification requirements outlined in GDPR Article 33 are aggressive
+    —“The controller shall without undue delay and, where feasible, not later than
+    72 hours after having become aware of it, notify the personal data breach to the
+    supervisory authority.” We discussed how this is different from [breach reporting
+    requirements in HIPAA](https://datica.com/academy/gdpr-data-breach-requirements/)
+    in another Academy article. This post walks through the steps you should take
+    to evaluate your breach reporting policies and procedures to bring them inline
+    with GDPR.
+  :post: "\nAt Datica, we’ve built and tested our breach notification process to meet
+    the most stringent notification requirements of covered entities. At times, we’ve
+    had to adjust our compliance program. The following steps are the ones we went
+    through when we updated our breach reporting. All of these actions should be orchestrated
+    by your data protection officer, the person at your organization who is ultimately
+    responsible for your compliance with GDPR.\n\n## Define and get consensus on what
+    you mean by “breach”\n\nIt’s imperative to agree to the meaning of the term ahead
+    of time, and educate your entire workforce and partners about it. Successfully
+    meeting the 72-hour timeline for beach notification under GDPR requires that all
+    members of your workforce are trained and activated when it comes to identifying
+    a potential breach. Under GDPR, [the term “data breach” is more expansive](https://datica.com/academy/what-is-data-breach-gdpr-and-hipaa/)
+    under GDPR  than under HIPAA, so it’s important to understand if you are complying
+    with the GDPR definition before you go through the process of updating your breach
+    notification processes.\n\n## Document your current process\n\nStart with your
+    policies. Specifically, in regards to breach notification, these should outline
+    1) the steps and 2) the responsible parties when it comes to breach notification.
+    You can look at our [Datica breach policies here](https://policy.datica.com/#12-breach-policy).\nThere
+    are several key things you need to identify and document:\n\n### Identify Major
+    buckets of work \n\nYou don’t have to get into the details yet, but you should
+    understand your broad areas of work. Examples are things like identification,
+    investigation, containment, and notification (both internal and external).\n\n###
+    Rank the criticality of each bucket of work\n\nPerfect is the enemy of the good,
+    even when it comes to compliance. To condense a set of processes down to meet
+    the 72 GDPR data breach requirement successfully, there’s an incredibly high likelihood
+    you will have to sequence things in new ways. Understanding the criticality is
+    essential to do this. The criticality is based predominantly on the risk to your
+    organization of not doing that process.\n\n### Rank each bucket of work by the
+    amount of time it takes to complete\n\nFor each of the identified buckets of work,
+    rank them by the amount of time they take to complete, from shortest to longest.
+    Assume unlimited resources for these assessments.\n\n### Identify Key personnel\n\nIdentify
+    required roles for your current process. As a part of this, pay attention to bottlenecks
+    and where additional resources might be able to shorten the overall time required.\n\nIf
+    this step of documenting your current process is hard to start or complete, you
+    may want to quickly look for external assistance from an advisory firm that specializes
+    in healthcare compliance. One of the features of GDPR is security by design and
+    by default. Timely breach notification is a symptom that falls out of this underlying
+    ethos, so it’s likely you need a broader revamp of your security and compliance
+    programs.\n\n## Identify critical steps that must be completed before notifying
+    authorities\n\nThis part is challenging because it has a degree of subjectivity.
+    Now that you’ve documented your current breach process, you have to identify things
+    that can be delayed until after authorities are notified. The GDPR 72 hour timeline
+    isn’t for informing individuals; it’s for notifying authorities. The only way
+    you’re going to be able to meet the 72 hours is by trimming part of the process.
+    Since informing authorities isn't publicly disclosing a breach, some activities,
+    like investigation and media strategy, can be done after authorities are notified
+    of a breach. The intent of the 72-hour timeline in GDPR is likely to notify authorities
+    so they can be prepared proactively and potentially assist with, notifications
+    to affected individuals.\n\n## Develop the new process that can be completed in
+    72 hours\n\nNow that you’ve documented the current process and made the hard decision
+    about what can be delayed until after you notify authorities of a breach, you
+    need to document your new process. You don’t need to list the 72-hour timeline
+    for notifying authorities. You can outline this in your data protection agreements
+    or contracts with customers.\n\nIn light of the GDPR requirements, our view is
+    that it is prudent to have one breach notification policy and process that differentiates
+    notifying authorities and notifying individuals. You can educate your workforce
+    and ensure you can meet the stringent 72 hours for authorities while then doing
+    additional steps before you inform individuals.\n\nBelow is a very high-level
+    example breach notification process.\n\n1. Discovery\n2. Initial investigation\n3.
+    Notify appropriate authorities\n4. Full investigation\n5. Risk assessment\n6.
+    Risk mitigation\n7. Individual and public notification\n\n## Create templates/efficiencies\n\nConsistency
+    is crucial to any compliance program. Taking the guesswork and busywork out of
+    the breach reporting process by creating templates will help you move quickly,
+    ideally meeting the GDPR 72 hour breach reporting requirement, and ensure repeatability.
+    Templates can be used for the actual documents shared with authorities or with
+    individuals. Depending on the workflow tool you’re using, you can create template
+    processes in Jira or Trello or any number of project management systems. \n\n##
+    Test your new process (and document it)\n\nTesting your breach reporting process,
+    and documenting the results of that testing, is a requirement. There are different
+    forms of testing. Initial testing should be tabletop testing. This is a form of
+    testing where you, and all of the responsible parties, walk through the different
+    processes, inputs, and outputs that are a part of breach reporting. You don’t
+    do all the steps, but you walk through them as a group to ensure everything is
+    clear.\n\nNext, you should do a full test. It doesn’t have to be a secret within
+    the organization. You simply simulate the discovery a breach and follow the necessary
+    steps. You can make it more complicated by keeping it a secret but, at this stage,
+    there is limited value in that. Go through the process and document everything.
+    When you’re done, do a retrospective. Use the feedback to inform edits the breach
+    notification process.\n\n## Notify customers and partners of your new breach reporting
+    process\n\nOnce you’ve created, tested, and documented the testing of your new
+    GDPR-ready breach reporting process, you should inform your customers and partners.
+    You want them to know that 1) GDOR is different and 2) you have ensured you comply
+    with GDPR.\n\n*Learn more about GDPR—Understand the [requirements of data breach
+    reporting](https://datica.com/academy/gdpr-data-breach-requirements/)*\n"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6iyNBVdpAIgewyYekqISUG
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:27:29+00:00'
+    :created_at: '2018-01-19T00:18:00+00:00'
+    :id: 6iyNBVdpAIgewyYekqISUG
+  :title: GDPR Fines and Penalties
+  :slug: gdpr-fines-and-penalties
+  :pub_date: !ruby/object:DateTime 2018-01-18 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :summary: 'GDPR compliance is an imperative starting May, 2018 for companies who
+    work with data on EU citizens. Understand the fines and penalties in Article 83. '
+  :lead: If you work with data on EU citizens, complying with GDPR is an imperative
+    starting in May of 2018. Article 58 of GDPR grants supervisory authority the ability
+    to not only to investigate controllers and processors but also to impose fines.
+    The administrative penalties are defined in GDPR Article 83. The fines are in
+    addition to other actions, such as audits and corrective actions, outlined in
+    Article 58.
+  :post: "\n## Article 83 GDPR Fines and Penalties\n\nThe specific GDPR penalty language,
+    and the bulk of the discussion and interest in the Regulation, is in Article 83.
+    There are two specific fines listed in Article 83 - 1) 10,000,000 EUR, or 2% of
+    total worldwide turnover (revenue) and 2) 20,000,000 EUR, or 4% of total worldwide
+    turnover (revenue). The reasons for each of the different fine levels are outlined
+    below.\n\n### Low-Level GDPR Fines of 10,000,000 EUR\n\nFines of 10,000,000 EUR
+    or 2% of revenue can be levied on controllers and processors based on the following
+    terms. \n\n> Infringements of the following provisions shall, by paragraph 2,
+    be subject to administrative fines up to 10,000,000 EUR, or in the case of an
+    undertaking, up to 2% of the total worldwide annual turnover of the preceding
+    financial year, whichever is higher: \n    a)    the obligations of the controller
+    and the processor under Articles 8, 11, 25 to 39 and 42 and 43;\n    b)    the
+    obligations of the certification body pursuant to Articles 42 and 43;\n    c)
+    \   the obligations of the monitoring body pursuant to Article 41(4).”\n\nTo sum
+    up the reasons for the lower-level fines, it is that you didn’t follow the principle
+    of [security by design](https://datica.com/academy/gdpr-for-cloud-service-providers/)
+    and in some way, your security posture resulted in a breach of EU citizen data.\n\n###
+    High-Level GDPR Fines of 20,000,000 EUR\nFines of 20,000,000 EUR or 4% of revenue
+    can be levied on controllers and processors based on the following terms.\n\n>
+    Infringements of the following provisions shall, in accordance with paragraph
+    2, be subject to administrative fines up to 20,000,000 EUR, or in the case of
+    an undertaking, up to 4% of the total worldwide annual turnover of the preceding
+    financial year, whichever is higher:\n    a)    the basic principles for processing,
+    including conditions for consent, pursuant to Articles 5, 6, 7 and 9;\n    b)
+    \   the data subjects' rights pursuant to Articles 12 to 22;\n    c)    the transfers
+    of personal data to a recipient in a third country or an international organisation
+    pursuant to Articles 44 to 49;\n    d)    any obligations pursuant to Member State
+    law adopted under Chapter IX;\n    e)    non-compliance with an order or a temporary
+    or definitive limitation on processing or the suspension of data flows by the
+    supervisory authority pursuant to Article 58(2) or failure to provide access in
+    violation of Article 58(1).”\n\nTo sum up the reasons for the higher-level fines,
+    it is that you didn’t follow the principle of [security by default](https://datica.com/academy/gdpr-for-cloud-service-providers/).
+    This means the policies and procedures you put in place for your compliance program,
+    roughly the principle of data privacy, resulted in a breach of EU citizen data.\n\nThe
+    regulation is clear that the intent of fines, regardless of the amount of the
+    fine or the body imposing the penalty (Member State vs. EU GDPR Supervisor), imposed
+    on controllers and processors is to be “effective, proportionate, and dissuasive”;
+    this specific language is also used in Article 84, referenced below. \n\nArticle
+    83 lays out factors that will be considered in assessing the size of the fine.
+    The factors, and things you can do to minimize your risk of a more substantial
+    fine, are outlined below.\n\n## How to minimize your risk of GDPR fines and penalties\n\n###
+    Work with authorities proactively \n\nAt the very least, you should ensure you
+    meet the [72-hour data breach notification requirement](https://datica.com/academy/gdpr-data-breach-notification-checklist/)
+    for reporting data breaches to authorities. \nMore broadly, you should cooperate
+    and be as transparent as possible with authorities. Security by obscurity does
+    not work with GDPR.\n\n### Follow recommendations by authorities \n\nOr have clear
+    justification and mitigation for why you didn’t follow it. If a GDPR authority
+    recommends a specific plan for your organization or even generally to data controllers
+    and processors, you should evaluate implementing it. If you decide not to, clearly
+    document the reasons why not.\n\n### Build in security by design and default \n\nYou
+    need to have privacy (no authorized access) and security (technical security measures)
+    in your DNA. Security should be a core part of how you design, develop, deliver,
+    and support your products. There should be proof of this posture documented. This
+    goes without saying, but you should also have your actions support your intentions
+    of complying with GDPR.\n\n### Limit your data exposure\n\nOne of the significant
+    factors in determining the amount of the fine is the extent of the precipitating
+    data breach. The scope of the breach applies to both the number of records and
+    the depth of the data. To minimize your risk exposure, there are things you can
+    do to separate data and exposure, so there isn’t one key to the castle.\n\n##
+    Article 84 Member States’ Penalties\n\nAdditionally, in Article 84 Member States
+    are granted the power to implement their penalties for infringements of GDPR.
+    These penalties, which can vary country to country, need to be communicated to
+    the Commission by May 25, 2018. As such, this is an evolving area and the true
+    extent of penalties for violating GDPR is not yet known.\n\nPenalties for violating
+    GDPR and exposing EU citizen data in an unauthorized way are significant. The
+    details are still trickling out and will continue to evolve even after GDPR goes
+    into effect in May 2018, but the message is clear — if you do business in the
+    EU and house data on EU citizens you are exposed to high financial risk.\n\n*Learn
+    more about GDPR — Become familiar with the [GDPR Data Breach Requirements](https://datica.com/academy/gdpr-data-breach-requirements/)*\n"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 2qIYZSmGpOK2cSoMSomSOK
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:18:55+00:00'
+    :created_at: '2018-01-05T23:59:03+00:00'
+    :id: 2qIYZSmGpOK2cSoMSomSOK
+  :title: GDPR for Cloud Service Providers (That's You!)
+  :slug: gdpr-for-cloud-service-providers
+  :pub_date: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: Cloud Service Providers doing business in the EU are Processors under
+    GDPR—it's kind of like being a HIPAA Covered Entity in the U.S. Read more on GDPR
+    Service Providers.
+  :lead: 'General Data Protection Regulation (GDPR) starts and ends with the different
+    definitions of "Controller" and "Processor" and the relationship between the two.
+    Using HIPAA as an analogy to explain: a Controller is like a Covered Entity, a
+    Processor is like a Business Associate, and a Sub-processor is like a Subcontractor.
+
+'
+  :post: "If you are reading this, within GDPR, you are most likely a Processor of
+    some sort. Welcome to the club! This is what Datica is as well because any piece
+    of health IT technology that handles identifiable EU citizen data in a cloud-based
+    modality can be considered a \"cloud service provider\" which means a Processor,
+    which means this article is for you. Let's understand together the obligations
+    Processors (and cloud service providers) have within GDPR.\n\n## GDPR Risk Allocation\n\nMuch
+    like [HIPAA, GDPR](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/) is
+    meant to outline risk allocation between business partners. It's a legal framework
+    for risk, nothing more; as a framework GDPR does have more teeth than HIPAA in
+    regards to potential financial penalties. The dirty secret about HIPAA is that
+    it's nothing more than a set of recommendations, which is why a world of consultants,
+    compliance experts, and legal frameworks exists to try to interpret and define
+    the recommendations. GDPR is no different.\n\nIn terms of risk allocated to the
+    relationship, Controllers assume primary risk, as defined in [Article 24.1](https://www.eugdpr.org/the-regulation.html):\n\n>
+    Taking into account the nature, scope, context and purposes of processing as well
+    as the risks of varying likelihood and severity for the rights and freedoms of
+    natural persons, the controller shall implement appropriate technical and organisational
+    measures to ensure and to be able to demonstrate that processing is performed
+    in accordance with this Regulation. Those measures shall be reviewed and updated
+    where necessary.” \n\nProcessors then assume risk when engaging with the Controller,
+    as defined in Article 28.1:\n\n> [W]here processing is to be carried out on behalf
+    of a controller, the controller shall only use processors providing sufficient
+    guarantees to implement appropriate technical and organisational measures in such
+    a manner that processing will meet the requirements of [GDPR] and ensure the protection
+    of the rights of the data subjects.”\n\nBut most importantly, Article 28 continues
+    to underline the obligations of Processors in section 28.3(f):\n\n> [The Processor
+    is required to] assist the controller in ensuring compliance with the obligations
+    pursuant to Article 32 – 36 taking into account the nature of the processing and
+    the information available to the processor.”\n\nWhen outlining risk, Processors
+    have a lot of obligations. One way to interpret GDPR is that risk automatically
+    flows down the supply chain, Controller to Processor to Sub-processor and so on.
+    You will, by default, gain the obligations to abide by GDPR unless otherwise defined.\n\nThis
+    is an important point: It's up to the Processor to tell the Controller where the
+    line is drawn in the relationship, and not the other way around.\n\nMany of the
+    major potential [GDPR hosting providers](https://hackernoon.com/why-gdpr-compliance-is-difficult-in-the-cloud-9755867a3662)
+    are managing it this way already. AWS famously created their \"Shared Responsibility\"
+    model, in which they outline AWS will own risk associated to compliance _of_ the
+    cloud, like physical data centers, while its customers are responsible for compliance
+    _in_ the cloud, like encryption, disaster recovery, and many more responsibilities.\n\nThe
+    takeaway: If you are handling PHI in the cloud, within GDPR, you as a processor
+    will assume the flow of risk unless you collaborate with your Controller partner
+    to outline what risks you will not take on.\n\n## Data protection by design and
+    by default\n\nProcessors must demonstrate \"data protection by design and by default\"
+    which are terms from GDPR.\n\n**Data protection by design** is explained in Article
+    25.1 as \n\n> taking into account the state of the art, the cost of implementation
+    and the nature, scope, context and purposes of processing as well as the risk
+    of varying likelihood and severity for rights of freedoms of natural persons posed
+    by the processing shall, both at the time of determination of the processing and
+    at the time of processing, implement appropriate technical and organisational
+    measures, such as pseudonymisation which are designed to implement the data protection
+    principles in an effective manner in order to meet the requirements of the GDPR
+    and protect the rights of data subjects.”\n\nTo paraphrase, _data protection by
+    design_ means that the product or service is built on top of an existing compliance
+    and security framework. This is loosely similar to the [HIPAA Security Rule](https://datica.com/academy/the-hipaa-security-rule/).\n\n**Data
+    protection by default** is explained in Article 25.1 as\n\n> The controller shall
+    implement appropriate technical and organisational measures for ensuring that,
+    by default, only personal data which are necessary for each specific purpose of
+    the processing are processed. That obligation applies to the amount of personal
+    data collected, the extent of their processing, the period of their storage and
+    their accessibility. In particular, such measures shall ensure that by default
+    personal data are not made accessible without the individual’s intervention to
+    an indefinite number of natural persons.\"\n\nTo paraphrase, _data protection
+    by default_ means that the product or service has operational controls on top
+    of data access. In HIPAA terms, this is loosely similar to the Privacy Rule.\n\n##
+    The role of HITRUST in GDPR Compliance\n\nThe reason to call out _data protection
+    by design and by default_ for GDPR cloud hosting providers is to highlight the
+    ultimate plan of action. In short, cloud providers need to use existing compliance
+    and security frameworks to demonstrate operational control as it relates to both
+    the technical construction of the product or service and the business processes
+    surrounding the product or service.\n\nThis is very similar to HIPAA, which is
+    where existing frameworks like HITRUST, ISO, SOC 2, etc. can come into play. Demonstrating
+    GDPR compliance as a cloud service provider is important, but there aren't prescriptive
+    ways to do so yet. [HITRUST or ISO certifications](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    can work as a proxy for GDPR compliance for the time being.\n\n*Learn more about
+    GDPR — Discover what you need to know about [GDPR Data Breach Requirements](https://datica.com/academy/gdpr-data-breach-requirements/)*"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 6iyNBVdpAIgewyYekqISUG
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 6Ft7DZOasgag8AgW0qsCQo
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6Ft7DZOasgag8AgW0qsCQo
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:26:57+00:00'
+    :created_at: '2018-01-09T19:23:47+00:00'
+    :id: 6Ft7DZOasgag8AgW0qsCQo
+  :title: What is a Data Breach under GDPR and HIPAA?
+  :slug: what-is-data-breach-gdpr-and-hipaa
+  :pub_date: !ruby/object:DateTime 2018-01-09 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  :summary: What is the definition of a security incident and data breach under HIPAA
+    and GDPR and how do they compare? This article breaks down the key terminology.
+  :lead: We get asked all the time for the meaning of a data breach. It often comes
+    up when people look at a breach vs. a security incident. It gets even muddier
+    when the term “security incident involving ePHI” is brought into the mix. While
+    seemingly nitpicky, understanding the differences between these terms is essential
+    to reduce your risk and to inform your partners and customers. Ambiguity and opacity
+    is a not a good strategy when it comes to compliance and foundational definitions.
+  :post: "\n## What is a security incident?\n\nStarting with a security incident,
+    which is less ambiguous, [NIST defines the term in 800-61](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+    as:\n\n> A computer security incident is a violation or imminent threat of violation
+    of computer security policies, acceptable use policies, or standard security practices.”\n\nHIPAA
+    has a very similar definition in section 164.304:\n \n> \"A security incident
+    as the attempted or successful unauthorized access, use, disclosure, modification,
+    or destruction of information or interference with system operations in an information
+    system.”\n\nGDPR doesn’t explicitly define “security incident” so a safe path
+    is to use the NIST definition if you want to comply with GDPR. GDPR does expand
+    the definition of a “personal data breach,” as you’ll see below, so the distinction
+    between security incident and data breach is less evident under GDPR than under
+    HIPAA.\n\n## What is a HIPAA Data Breach?\n\nThe significant difference between
+    a security incident and a data breach, or personal data breach, is the impact
+    on individual data.\n\nHHS and HIPAA define a breach simply as:\n\n> A breach
+    is, generally, an impermissible use or disclosure under the Privacy Rule that
+    compromises the security or privacy of the protected health information.”\n \nAt
+    Datica, we’ve used the [HIPAA definition for a data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    But GDPR expands on that definition to include not just “impermissible use and
+    disclosure” but “destruction, loss, and alteration” of personal data. As we extend
+    our compliance program to meet the requirements of GDPR, we are adjusting our
+    definition of breach to the more stringent GDPR definition.\n \n## What is a GDPR
+    Data Breach?\n\nGDPR, in the definitions section of the regulation (Article 4),
+    defines a “personal data breach” in the following way:\n \n> Personal data breach
+    means a breach of security leading to the accidental or unlawful destruction,
+    loss, alteration, unauthorized disclosure of, or access to, personal data transmitted,
+    stored or otherwise processed.”\n\n## What's the difference?\n\nThe other difference
+    in data breach between [HIPAA and GDPR](https://datica.com/blog/how-does-gdpr-compare-to-hipaa/)
+    is the actual type of data. HIPAA is only concerned with “protected health information”
+    where GDPR is concerned with “personal data,” a much broader scope. One security
+    strategy employed in the US to mitigate the risk of a data breach is to separate,
+    logically in storage, personally identifiable data and health data. This separation
+    reduces the likelihood of protected health information being breached. Under GDPR,
+    this strategy, while good to employ from a security and exposure perspective,
+    does not mitigate the risk of personal data breach.\n\nThe differences in terminology
+    between these definitions can be subtle. But the impact is significant if you
+    don’t explicitly articulate these terms to your workforce because they are an
+    essential component of an effective monitoring program and to meeting the [GDPR
+    data breach notification requirements](https://datica.com/academy/gdpr-data-breach-requirements)
+    outlined in GDPR Article 33 and 34.\n\n*Learn more about GDPR — Understand the
+    requirements of [GDPR Data Breach](https://datica.com/academy/gdpr-data-breach-requirements)
+    Notifications*"
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  - :id: 2qIYZSmGpOK2cSoMSomSOK
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ

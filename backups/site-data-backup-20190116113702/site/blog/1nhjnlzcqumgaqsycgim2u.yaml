@@ -1,0 +1,106 @@
+---
+:id: 1nHjnlzcQUMGaqsycGIM2U
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T21:32:54+00:00'
+  :created_at: '2016-11-23T21:32:54+00:00'
+  :id: 1nHjnlzcQUMGaqsycGIM2U
+:title: CVE-2014-6271 Shellshock and the Catalyze Platform
+:slug: cve-2014-6271-shellshock-and-the-catalyze-platform
+:pub_date: !ruby/object:DateTime 2014-09-26 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: company
+:author:
+  :id: 3riALtpuXYeIaIGuaq8M4w
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-05-31T17:27:15+00:00'
+    :created_at: '2016-11-23T18:22:26+00:00'
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :fullname: Datica Editorial Team
+  :slug: datica-editorial
+  :person_type: Datica Team
+  :profile_pic:
+    :id: 54LQpVAcVqe4s6WQkwGyEe
+  :email: hello@datica.com
+  :bio_short: We're the Datica Editorial Team.
+  :profile_twitter: daticahealth
+  :profile_linkedin: daticahealth
+  :profile_url: https://datica.com/leadership
+  :location:
+    :lat: 43.07284
+    :lon: -89.38811299999998
+:summary: Catalyze was made aware of a code execution exploit that affects bash, but
+  no systems have been compromised, and a patch is released.
+:blog_lead: '1. Catalyze was made aware of a code execution exploit that affects bash.
+
+'
+:post: "2. No catalyze systems have been compromised.\r\n3. A patch was released,
+  but was found incomplete. A new revised issue was created.\r\n4. Catalyze is deploying
+  the revised patch to all containers and systems.\r\n\r\n#### Overview:\r\n\r\nCatalyze
+  was made aware of the critical code execution exploit \"Shellshock\" [CVE-2014-6271](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271)
+  and [CVE-2014-7169](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169).
+  In accordance with our [policies](https://catalyze.io/policy/#catalyze-breach-policy),
+  we are notifying you of the situation and this correspondence details the steps
+  that Catalyze will be taking. At this time, no systems have been compromised, but
+  we feel that its important to detail the situation.\r\n\r\n#### What is CVE-2014-6271
+  \"ShellShock\":\r\n\r\nFrom [National Vulnerability Database](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271):\r\n\r\n>
+  GNU Bash through 4.3 processes trailing strings after function definitions in the
+  values of environment variables, which allows remote attackers to execute arbitrary
+  code via a crafted environment, as demonstrated by vectors involving the ForceCommand
+  feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server,
+  scripts executed by unspecified DHCP clients, and other situations in which setting
+  the environment occurs across a privilege boundary from Bash execution, aka \"ShellShock.\"
+  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned
+  to cover the vulnerability that is still present after the incorrect fix.\r\n\r\n####
+  What is Bash?\r\n\r\nFrom [Wikipedia](http://en.wikipedia.org/wiki/Bash_\\(Unix_shell\\)):\r\n\r\n>
+  Bash is a Unix shell written by Brian Fox for the GNU Project as a free software
+  replacement for the Bourne shell (sh). Released in 1989, it has been distributed
+  widely as the shell for the GNU operating system and as a default shell on Linux
+  and Mac OS X.\r\n\r\n#### How does this affect you?\r\n\r\nCustomer containers that
+  do not run customer application code are not impacted by this exploit.  By design,
+  the Catalyze Platform does not expose direct access to containers, including ssh
+  or bash.  CGI execution is not allowed.\r\n\r\nIf application code deployed on the
+  platform relies on invoking shell commands or bash scripts please contact us immediately
+  at [support@catalyze.io](mailto:support@catalyze.io) so we can investigate if this
+  further.\r\n\r\n#### How is Catalyze addressing this exploit?\r\n\r\nCanonical has
+  released updates [usn-2363](http://www.ubuntu.com/usn/usn-2351-1/) and [usn-2363-2](http://www.ubuntu.com/usn/usn-2363-2/)
+  for Ubuntu 14.04, 12.04 and 10.04.   These patches upgrade bash to version 4.3-7ubuntu1.3
+  which includes fixes for both [CVE-2014-6271](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271)
+  and [CVE-2014-7169](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169).\r\n\r\nCatalyze
+  engineers are in the process of testing the patch and will deploy the fix to all
+  platform containers and platform hosts.\r\n\r\n#### Further reading on CVE-2014-6271
+  \"Shellshock\"\r\n\r\n- https://securityblog.redhat.com/2014/09/24/bash-specially-crafted-environment-variables-code-injection-attack/\r\n-
+  http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html\r\n- http://seclists.org/oss-sec/2014/q3/650\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

@@ -1,0 +1,14 @@
+---
+:id: 1bafWlcVwYwk26K08K6SIg
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-08-01T22:23:13+00:00'
+  :created_at: '2018-05-10T23:01:39+00:00'
+  :id: 1bafWlcVwYwk26K08K6SIg
+:title: Vulnerability Scanning
+:slug: kubernetes-phi-ready-vulnerability-scanning
+:category: Kubernetes
+:feature_status: Current
+:summary: Vulnerability scanning is performed centrally by Datica on all CKS clusters
+  using Nessus. In addition to Nessus, Falco also plays a major role ensuring vulnerabilities
+  are managed.

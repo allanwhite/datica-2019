@@ -1,0 +1,974 @@
+---
+:id: 743EW7O6qW84osGkC4Qsum
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:43+00:00'
+  :created_at: '2017-01-16T17:41:32+00:00'
+  :id: 743EW7O6qW84osGkC4Qsum
+:title: HL7 201 - The Admission, Discharge, Transfer (ADT) Message
+:slug: hl7-201-the-admission-discharge-transfer-adt-message
+:pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:summary: HL7 ADT message types are the most common HL7 messages. We explain ADT message
+  structure, segments, and event types, including HL7 ADT message examples.
+:lead: 'The ADT message is one of the most common messages in HL7. It covers a lot
+  of use cases such as admissions, cancellation of admits, merging of patient data,
+  etc. This is the reason why there is such a long list of possible events and message
+  types that could be sent. '
+:post: "The full list for the HL7 v2.3.1 is shown below.\n\n|Segment ID | Description|\n|-----------|------------|\n|A01
+  \ | Admit/visit notification|\n|A02  | Transfer a patient|\n|A03  | Discharge/end
+  visit|\n|A04  | Register a patient|\n|A05  | Pre-admit a patient|\n|A06  | Change
+  an outpatient to an inpatient|\n|A07  | Change an inpatient to an outpatient|\n|A08
+  \ | Update patient information|\n|A09  | Patient departing - tracking|\n|A10  |
+  Patient arriving - tracking|\n|A11  | Cancel admit/visit notification|\n|A12  |
+  Cancel transfer|\n|A13  | Cancel discharge/end visit|\n|A14  | Pending admit|\n|A15
+  \ | Pending transfer|\n|A16  | Pending discharge|\n|A17  | Swap patients|\n|A18
+  \ | Merge patient information|\n|A19  | QRY/ADR - Patient query|\n|A20  | Bed status
+  update|\n|A21  | Patient goes on a \"leave of absence\"|\n|A22  | Patient returns
+  from a \"leave of absence\"|\n|A23  | Delete a patient record|\n|A24  | Link patient
+  information|\n|A25  | Cancel pending discharge|\n|A26  | Cancel pending transfer|\n|A27
+  \ | Cancel pending admit|\n|A28  | Add person information|\n|A29  | Delete person
+  information|\n|A30  | Merge person information|\n|A31  | Update person information|\n|A32
+  \ | Cancel patient arriving - tracking|\n|A33  | Cancel patient departing - tracking|\n|A34
+  \ | Merge patient information - patient I|\n|A35  | Merge patient information -
+  account only|\n|A36  | Merge patient information - patient ID and account number|\n|A37
+  \ | Unlink patient information|\n|A38  | Cancel pre-admit|\n|A39  | Merge person
+  - patient ID|\n|A40  | Merge patient - patient identifier list|\n|A41  | Merge account
+  - patient account num|\n|A42  | Merge visit - visit number|\n|A43  | Move patient
+  information - patient identifier list|\n|A44  | Move account information - patient
+  account number|\n|A45  | Move visit information - visit number|\n|A46  | Change
+  patient ID|\n|A47  | Change patient identifier list|\n|A48  | Change alternate patient
+  ID|\n|A49  | Change patient account number|\n|A50  | Change visit number|\n|A51
+  \ | Change alternate visit ID|\n\nIn case you're wondering why we always use the
+  v2.3 or v2.3.1 for examples - it's just that the 2.3 and 2.3.1 standards are the
+  most widely implemented standard accounting for well over 80% of deployments. So
+  if you know these two well, you're in pretty good shape. Additionally, except for
+  v3.0, all subsequent HL7 versions are backwards compatible. What you can expect
+  from later versions is more message types, more segments and more codes - and some
+  being retired, of course.\n\nI've always felt that the best way to learn is by doing.
+  So, we'll start with a message that we want to send and see how we can encode and
+  construct that message in HL7.\n\n### The message to be sent\nAs another side note,
+  the examples we'll use throughout will be inpatient oriented as outpatient HL7 messages
+  are identical in nature and simpler to boot. Let's take the simple case of an admission
+  into a hospital. In the case of an admit - you would need to know the name of the
+  patient and some demographics like date or birth, gender, any next of kin and their
+  info in case there are any significant problems, an identifier like an MRN, where
+  they were admitted into (room, bed), who was the attending physician who signed
+  off on the admit, and the reason for the admit. So the message you would want to
+  perhaps send from an ADT system to say a Lab system could be (in plain English)
+  - \"Patient (John A Appleseed) was admitted on Jan 1, 2013 at 12:23 a.m. by Dr Sidney
+  J. Good (#004777) for surgery. He has been assigned to room 2012, bed 01 on nursing
+  unit 2000.\"\n\nOne thing, we can know immediately looking at the table above that
+  this would be an ADT-A01 message.\n\n### The mandated structure of the ADT-A01 message\n\nAs
+  we discussed in [the earlier HL7 102: Anatomy of an HL7 message post](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/),
+  HL7 recommends / mandates that messages follow a specific structure. For the ADT-A01
+  message type, the structure is as shown in the image below. \n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/iIS9zbOYmsAI6qcuW6sW4/f8b1eb7c079f09cb417590d46889ba23/academy-sample-hl7-message-sequence.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-sample-hl7-message-sequence\" />\n\n(*source
+  - HL7 v2.3 implementation guide*). Looking at the structure, we can guess that the
+  segments we will need are:\n\n- MSH: the message header (required everywhere)\n-
+  EVN: indicating the event that happened (in this case the admission of the patient)\n-
+  PID: the patient identification segment. Note that demographics can be included
+  within the PID segment itself\n- NK1: next of kin (which is always good to know
+  in a hospital context in case something goes wrong)\n- PV1: information about the
+  patient \"visit\" - this is where you would include the physician info and the current
+  location of the patient.\n- Since an image is worth a thousand words, I'll try and
+  illustrate the process using images rather than a lot of words. I'm not going to
+  give you the mapping tables etc. as I'm pretty sure the HL7 licensing agreements
+  might prohibit sharing outside our org.\n\nIt's easily downloadable from the [HL7](http://www.hl7.org)
+  website. One quick tip before we begin - in most HL7 messages the pipe character
+  `|` is called the BAR and it is the field separator and in the case of this message,
+  we're going to use the `^` as a space. So if you see a bunch of pipes together like
+  this `||||||||||` - all that means is that the fields at that point in the sequence
+  were optional or not available. Also remember that segments are separated by a carriage
+  return - which cannot be displayed as any and all viewers will interpret that for
+  display.\n\n#### The MSH segment\nIf you wanted to mail someone an important letter,
+  you need to specify the from and to addresses and you may sign up for delivery confirmation.
+  That corresponds almost exactly to the first and common segment across all HL7 messages
+  - the MSH (message header) segment. The figure below shows the needed fields that
+  need to be populated in an MSH segment and the values filled in for those fields.
+  We've also assumed here that the system sending the update is an Epic ADT system
+  and it's being sent to a Lab system.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/7giNk2Hp4IgmkGEaaoyU0/3439f88cb3a6e62dc208c0ef819deb2c/academy-msh-segment.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-msh-segment\" />\n\nNow, if we lookup the
+  mapping tables, we can easily fill in the MSH segment with information (after coding
+  it appropriately) to get the following HL7 encoded MSH message segment.\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\n```\n\n####
+  The EVN segment\nSimilarly in the case of the EVN segment, the figure below shows
+  the data needed and the data we have.\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/1WjUfO7KaAs66mKkQukuEI/08268698bea9d209874281ce0adfeb60/academy-evn-message-segment.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-evn-message-segment\" />\n\nFollowing the
+  same process of looking up the mapping tables and encoding, gives us this HL7 encoded
+  EVN message segment\n\n```\nEVN|A01|201301011223||\n```\n\n#### The PID segment\nThe
+  PID segment contains more info such as the full name of the patient etc. Which requires
+  the use of a space and newlines. This is where the other control characters come
+  into play, namely the \"^\" symbol. What we need to send, and the data we have,
+  are as follows:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/13G8LaFtVoAiEgSwAo6EAs/f7c91e444124159a1560395f63f157bc/academy-pid-message-segment.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-pid-message-segment\" />\n\nAnd following
+  the process above and encoding the data (in this case for example, \"male\" becomes
+  \"M\"), we get the following encoded segment.\n\n```\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1^DATICA
+  STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\n```\n\n####
+  The NK1 segment\nWhat we need to send and what we have is this:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/2B6z9MvyrKeusy0SmEm4u6/7db8f7be80172f3a3f5b078928e411fa/academy-nk1-message-segment.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-nk1-message-segment\" />\n\nAnd we get this:\n\n```\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT
+  OF KIN\n```\n\n#### The PV1 segment\n\nThis:\n\n<img data-src=\"//images.ctfassets.net/189dvqdsjh46/5heHePcuYEKe8GmEIccGCg/0d73ad3149934718af15f6807579a95a/academy-pv1-message-segment.png?w=760\"
+  class=\"lozad img-crisp\" alt=\"academy-pv1-message-segment\" />\n\nAnd we get this:\n\n```\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\n###
+  Putting it all together\nNow that we've generated the individual segments, we need
+  to put them together. In the earlier section on message structure, you'd have seen
+  the required sequence to be followed. So - we do that and voila! - the full HL7
+  ADT-A01 message (without the carriage returns)\n\n```\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\nEVN|A01|201301011223||\nPID|||MRN12345^5^M11||APPLESEED^JOHN^A^III||19710101|M||C|1
+  DATICA STREET^^MADISON^WI^53005-1020|GL|(414)379-1212|(414)271-3434||S||MRN12345001^2^M10|123456789|987654^NC|\nNK1|1|APPLESEED^BARBARA^J|WIFE||||||NK^NEXT
+  OF KIN\nPV1|1|I|2000^2012^01||||004777^GOOD^SIDNEY^J.|||SUR||||ADM|A0|\n```\n\nPainful,
+  isn't it? Well, the good thing is that there are open source parsers that can do
+  this for you. We'll delve into those and I'll give you as comprehensive a listing
+  of those as I can find with some pro / cons as well. We're also building out hosted
+  versions of HL7 parsers with what we see as key enhancements over what is currently
+  available. Stay tuned for announcements about those.\n\nIf you’re looking to integrate
+  EHR data with your application without becoming an HL7 expert, Datica can help.
+  Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).\n\nLooking
+  for further help on integrating an ADT Registration feed with an EHR? Check out
+  this article on [ADT Integration Help.](http://content.datica.com/adt-registration-integration-help)"
+:related_guide:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:related_entries:
+- :id: AvBgV9bjDEiuCC4o4EsuW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: AvBgV9bjDEiuCC4o4EsuW
+  :title: HL7 102 - Anatomy of an HL7 message
+  :slug: hl7-102-anatomy-of-an-hl7-message
+  :pub_date: !ruby/object:DateTime 2018-03-14 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: This deep dive explains HL7 message types, message structure, message
+    segments, codes, fields and the complete anatomy of an HL7 message.
+  :post: |
+    In the [previous entry](/academy/hl7-101-a-primer/), we gave you a quick introduction to HL7 and its design - message types, segments and code sets. What I've come to also appreciate as I delved deeper into HL7 is that for all its perceived faults, it has more than served its purpose of standardization of communication of clinical and administrative data amongst disparate applications.
+
+    One can argue about problems arising because of the lack of standardization of code sets and cross-enterprise communication, but one also has to appreciate that this standard is a couple of decades old when inter-enterprise communication was not something at the top of anyone's mind. Heck, EHR implementations were rare too. Expecting HL7, which was designed and developed by consensus to address something far more tactical, to also  address the challenges of comprehensive interoperability, is asking a lot of HL7.
+
+    With that said, in this post, we'll delve deeper into HL7 so that you can better understand how an HL7 message is constructed.
+
+    ### The overall structure of an HL7 message
+
+    Think of an HL7 message as an envelope. It contains various segments (pieces of data) which are (usually) patient oriented and triggered based on specific events (admits, lab results, procedures, discharge etc.) and communicate relevant information about that triggered event.
+
+    There are a lot of message types - 76 in v2.3 and 85 in v2.3.1 and even more now. The key ones to remember were also listed in my [previous entry](/academy/hl7-101-a-primer/). An HL7 message is constructed with:
+
+    - **One or more segments**: Segments are re-usable sub-parts of a message which contain the pertinent information related to that message type. So for example, an Admit message would contain information on the patient and her demographics, the reason for admission, the attending physician who signed off on the admit etc. And as you can imagine, patient demographics is reused in a lot of places and is a segment. There are a lot of segments (101 in v2.3 and 111 in v2.3.1) to cover almost any use case you can think of - from financial transactions (DFT) to Bed Status Updates (NPU).
+
+    - **Fields & Code sets**: Each segment consists of one or more fields of data. Since the message needs to be as short as possible, the fields are encoded using standardized codes (provided by HL7 or other bodies) or user defined (ideally only if HL7 doesn't recommend any or you need to communicate more than permitted). Message Header becomes MSH, patient demographics becomes PD1 and Male becomes M. There are lot of additional codes to cover all the various kinds of information that need to be communicated - 1691 codes in v2.3 not including any user defined codes.
+
+    - and **Control characters**: These are the ASCII characters used to separate data elements (|), indicate spaces or new lines (^) and the beginning of the next segment (the CR or carriage return). These are a subset of the control characters but some of the more important ones.
+
+    In order to ensure that the receiving system knows how to parse the incoming message, some rules are laid down in that define
+
+    - **For each message**, the required or optional segments and the number of times a segment could be repeated within. An example from the HL7 v2.3 standard is shown below. (image: samplehl7.png) (*source - HL7 v2.3 implementation guide*)
+
+    - **For each segment**, the sequence (SEQ) in which fields are expected, their length (LEN), the data types (DT), if the fields are required or optional (R/O), if they are repeatable or not and how many times can they be repeated (RP/#) and the table in which the code sets are defined. This is a "mapping table." An example of which is shown below. (image: hl7chart.png) (*source - HL7 v2.3 implementation guide*).
+
+    Both of these rules are used for validation of any inbound message but the code sets are not. You can now see how the HL7 standard could be bastardized:
+
+    - Code set doesn't cover all my needs: So you add one more to the list that HL7 provides. Now your HL7 standard is not quite a standard and cannot be shared with another entity unless they implement your code set as well
+
+    - Field repetitions allowed is insufficient: I want to send an EKG reading but the standard only allows for 50 repetitions of key value pairs. So I dump the rest into the Z segment and shoot it over that way. Now your HL7 message can be processed by any engine **but** the content inside the Z segment now has to be parsed and managed separately.
+
+    A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+    - No brackets around it - **Required**
+    - [] - **Optional**
+    - { } - **Repeating**
+    - [{ }] - **Optional Repeating**
+
+    The ORM message structure is as follows.
+    ```
+    ORM     General Order Message
+    MSH     Message Header
+     [{NTE}]    Notes and Comments (for Header)
+    [
+       PID     Patient Identification
+       [PD1]    Additional Patient Identification
+          [{NTE}]  Notes and Comments (for Patient ID)
+       [PV1    Patient Visit
+        [PV2|]   Patient Visit Additional Information
+        [{IN1   Insurance
+          [IN2]   Insurance Additional Info
+       [IN3]   Insurance Additional Info
+        }]
+        [GT1]   Guarantor
+        [{AL1}]   Allergy
+      ]
+    ]
+     {
+       ORC    Common Order
+      [
+       Order Detail Segment OBR, etc.
+           [{NTE}]  Notes and Comments (for Detail)
+           [{DG1}]  Diagnosis
+           [
+            {
+             OBX   Observation/Result
+                  [{NTE}] Notes and Comments (for Results)
+             }
+           ]
+      ]
+      {[CTI]}   Clinical Trial Identification
+     [BLG]    Billing segment
+     }
+    ```
+
+
+    Hope that gave you a deeper insight into HL7. In the next post, we'll take an actual HL7 message - the ADT - and break it down to help you understand how it's constructed exactly.
+
+    If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 6NFTXJHWo0w860EGKA2EQC
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:39+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 6NFTXJHWo0w860EGKA2EQC
+  :title: HL7 202 - The HL7 ACK (Acknowledgement message)
+  :slug: hl7-202-the-hl7-ack-acknowledgement-message
+  :pub_date: !ruby/object:DateTime 2018-03-15 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing
+    HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.
+  :lead: The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing
+    HL7 communication proceeds smoothly. The concept of an [ACK](http://en.wikipedia.org/wiki/Acknowledgement_(data_networks))
+    is commonly used in many data networks protocols, including TCP, so you are likely
+    familiar with it. Although conceptually simple (receiving system acknowledges
+    receipt for specific message sent from sending system), there are a couple of
+    nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic
+    worthwhile.
+  :post: "## The structure of an ACK message\n\nLet's take a quick look at how an
+    ACK message is created.\n\nLet's say an inbound HL7 ADT (Admit, Discharge, Transfer)
+    message came in with the following MSH (message header).\n\n~~~\nMSH|^~\\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|\n~~~\n\nIf
+    the message was accepted and acknowledged, then the response ACK message (following
+    original mode) will look like this:\n\n~~~\nMSH|^~\\&|LABADT|DH|EPICADT|DH|201301011228||ACK^A01^ACK
+    |HL7ACK00001|P|2.3\nMSA|AA|HL7MSG00001\n~~~\n\nNote the following:\n\n1. The source
+    and destination systems have been switched;\n2. MSA segment contains the \"AA\"
+    value which indicates acceptance; and\n3. MSA segment also contains the ID of
+    the original message.\n\nSeems pretty straightforward but as you will see, the
+    rules utilized to come up with this simple message can be pretty complicated.\n\n##
+    The need for the ACK message\n\nThe need for acknowledgements is best understood
+    when we know that:\n\n1. HL7 is designed around the concept of trigger events
+    - i.e. someone got admitted, a lab test has to be ordered, lab test results have
+    been received, patient has to be rescheduled etc.\n2. Healthcare IT systems are
+    very \"specialized\" - there are systems (often from different vendors) that focus
+    just on ADT (admission, discharges and transfers), practice management (patient
+    scheduling and billing), labs (lab orders, results capture and communication)
+    etc.\n\nSo, if an event happens in one system (patient is admitted), then that
+    event has to be sent to another system (e.g. labs) to communicate information
+    such as internal patient identifiers (otherwise how will the lab know if the incoming
+    order is for a valid patient or not, what identifier to use etc.). Note that these
+    messages are usually unsolicited - i.e. ADT message is sent to all interested
+    systems as soon as it happens without being asked for it. Additionally, as you
+    can imagine, the volumes of messages being received by these systems could get
+    large, hence there is a possibility the message could get dropped. The ACK serves
+    as a confirmation that:\n\n1. the message (specified by an identifier) was received;\n2.
+    the message is valid based on HL7 processing rules (more on this in a minute);
+    and optionally\n3. the message data has been taken into a transient store like
+    a processing queue or permanent store like a database (more on this in a minute
+    as well).\n\n## Types of ACK messages and associated processing rules\n\nAs you
+    can see, the ACK message is **not** like the delivery acknowledgement you get
+    when you send an email or text message - it's not a \"I got it\" message. One
+    can specify whether original or enhanced processing rules are to be applied to
+    the message. Based on this specification, the inbound message is processed differently
+    and a different kind of ACK message is sent back. The ACK message and the associated
+    processing rules are defined based on the MSH (message header) segment content
+    (more details on the MSH segment was discussed in an [earlier post](/academy/hl7-201-the-admission-discharge-transfer-adt-message/)).\n\n###
+    Original mode\n\nOriginal mode processing is indicated if both the 15th and 16th
+    fields of the MSH segment of the inbound message is null or empty.\n\nAny inbound
+    message with an MSH segment indicating original mode processing will be validated
+    for correct syntax and goes through a two step process:\n\n### STEP 1 - Protocol
+    validation\n\nThis is used to to assure that:\n\n1. the value in message type
+    field (MSH - field #9) is one that is acceptable to the receiver i.e. an ADT^A20
+    message may be rejected by a billing system;\n2. the value in version ID field
+    (MSH-12) is acceptable to the receiver i.e. if the systems expects HL7 v2.3.1
+    and the field says v2.6, then, in the immortal words from a famous film \"what
+    we've got here is (a) failure to communicate\";\n3. the value in processing ID
+    (MSH-11) is appropriate for the application process handling the message.\n\nIf
+    any of these checks fail, the protocol software will reject the message with an
+    ACK message containing \"AR\" in the acknowledgment code field (MSA-1). If it
+    doesn't fail, it passes the message to the application.\n\n### STEP 2 - Application
+    validation\n\nThe application validation checks are:\n\n1. if the application
+    processes the message successfully, it will generate the functional response message
+    with a value of AA in acknowledgment code (MSA-1);\n2. or the application will
+    send an error response, with a value of AE in acknowledgment code (MSA-1);\n3.
+    if the application fails to process (reject) the message because of system uptime
+    or other reasons and not for format or validation errors. The response message
+    contains a value of AR in acknowledgment code (MSA-1). The message can sometimes
+    be re-sent later but that is up to the sending system and the implementation to
+    figure out.\n\n## Enhanced mode\n\nEnhanced mode processing is indicated if at
+    least one of the 15th and 16th fields of the MSH segment of the inbound message
+    is not null. Enhanced mode requires that the receiving application take on additional
+    responsibility namely that:\n\n1. the inbound message is received and stored;\n2.
+    message passes syntax validation;\n3. the message type (ADT-A19 can be processed),
+    version is correct (HL7 v2.3.1 and not v2.6 for example) and processing ID is
+    correct - if not a commit reject (CR) message will be sent.\n\nBased on these
+    rules, the receiving system will send\n\n1. a commit accept (CA) if all OK;\n2.
+    a commit reject (CR) as above; or\n3. a commit error (CE) for any other error.\n\n###
+    Custom ACK\n\nWhat is health IT without some customization? Not surprisingly,
+    it is possible to send a Non-HL7/Static String ACK. This is a custom acknowledgement
+    and is simply a text string (rather than an HL7-formatted ACK). These types of
+    ACKs are used when an inbound system is incapable of receiving HL7 formatted messages
+    or creating them.\n\n## Rate limiting with ACK messages\n\nThe HL7 standard defines
+    that the sending systems cannot send another message to a system until it has
+    received an ACK in response. Actually, that is not quite correct (thanks for a
+    reader for pointing this out to us). It is not part of the HL7 specification.
+    It is usually the way the HL7 systems are implemented in *practice* to ensure
+    messages are handled appropriatelt.  This was done, one presumes, to ensure that
+    if messages are rejected due to errors in content, message formats, system downtime
+    etc., they can be corrected either at the source or queued until the destination
+    system comes back up. But as you can immediately see, if the next message won't
+    be sent until an ACK is received, it is possible to slow down the rate of inbound
+    messages by delaying the sending of the ACK message. Since processing of HL7 messages
+    using open source tools have challenges when inbound message rates become high,
+    this is one of the levers that is available to implementers to ensure messages
+    are received and processed appropriately.\n\nOur resident expert on HL7, [Mark
+    Olschesky](/about/mark/) explains this more as follows. Previous to v2.7, the
+    only ACKs that were \"official\" were your classic Original Mode and Enhanced
+    Mode ACKs. There was no way that an upstream system to really know within the
+    standard what you were going to do with the message. As such, the only valid assumption
+    was that \n\n- the message was processed without error upon receiving the ACK
+    or \n- was not processed correctly with a NACK or no ACK. \n\nThis also makes
+    sense logistically as well, i.e. it would be dangerous to send/process an update
+    to a patient record if you weren't able to process the initial event which would
+    seed that patient into your system (or receive an update to a note you didn't
+    have, etc.). Most of HL7's design is linear, and doesn't have much of a concept
+    of eventual consistency. Note that there were always exceptions around this (notably
+    systems which had no capability to respond with an ACK).\n\nIn 2.7, a new field
+    was added to the 15th segment of the MSH segment of the ACK which allows the receiving
+    system to indicate to the sending what it was going to do with the message after
+    it received it. While folks had been doing this tacitly for years beforehand,
+    the intent in design was to accommodate for interface engines which receive a
+    message and then fan it out to a multitude of systems, providing some closure
+    to the sending system as the receiving system cranked along and did its work.
+    This was usually a tacit admonishment in design that the interface engine (and
+    team working on it) was now responsible for troubleshooting vs. the ADT or EHR
+    system which generated the original message type.\n\nNow you know as much as I
+    do about ACKs. Go forth and prosper.\n\nIf you’re looking to integrate EHR data
+    with your application without becoming an HL7 expert, Datica can help. Learn more
+    about Datica Managed Integration Services for HL7 [here](/platform/integration/)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: iUK3rg26hqUEIsiuAIQou
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 6AvOPfecko4wYAqcKM8Imo
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T23:37:28+00:00'
+    :created_at: '2016-11-23T22:18:26+00:00'
+    :id: 6AvOPfecko4wYAqcKM8Imo
+  :title: HL7 ACK/NACK
+  :slug: hl7-ack-nack
+  :pub_date: !ruby/object:DateTime 2015-10-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :categories_blog: healthcare
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: 'HL7 message senders should get an HL7 ACK message in return. This article
+    explains what ACK NACK means and the requirements for ACK and NACK messages. '
+  :blog_lead: "In a two-way communication system that is properly using the HL7 standards,
+    a receiving system will send an HL7 ACK (acknowledgement) message to the sending
+    system to notify that the message was effectively received. In an archetypal HL7
+    environment, the sending system will presume the message was not received up until
+    the delivery of an ACK message is made from the receiving system. By way of explanation,
+    if the receiver does not return the ACK message, the sender may safely assume
+    there is an error and halt message transmissions. \n"
+  :post: "### ACK Message Anatomy\n\nHere is an example of an HL7 ACK message:\n\n```\nMSH|^~\\&|APPLICATION|HOSPITAL|Catalyze|INC|201513112402||ACK|MSGID5183033|P|2.4|\nMSA|AA|MSGID5183033\n```\n\nIt
+    is clear that this message consists of two segments: message header (MSH) and
+    message acknowledgement (MSA). MSH segments indicate what application or facility
+    generated the message, unique ID for send message, and indicates what version
+    of HL7 the message complies with. MSA segments determine what message is being
+    acknowledged and if it was successfully processed and received. Inside an MSA
+    segment are two types of relevant information: acknowledgement code, indicating
+    if the message was successfully processed and received, and message control ID,
+    denoting the unique ID of the acknowledged message. \n\n### Requirements of an
+    ACK message\n\n- Message is in HL7 format.\n- The value ‘AA’ is in MSA-1 (MSA
+    segment, field number 1). ‘AA’ means that the receiving system successfully received
+    the message.\n- The Message Control ID of the last message is in MSA-2 (MSA segment,
+    field number 2). The original Message Control ID is found in MSH-10 (message segment,
+    field number 10).\n\n### Values of MSA-1\n\n- AA - Application Accept (used for
+    ACK)\n- AE - Application Error (used for NACK)\n- AR - Application Reject (used
+    for NACK)\n\nMoreover, if the message was not successfully received, an HL7 NACK
+    (negative acknowledgement) message is sent back to the sending system. A NACK
+    informs the sending system that there was error in message processing.\n\n###
+    Requirements of a NACK message\n\n- Message is in HL7 format.\n- The value ‘AE’
+    or ‘AR’ is in MSA-1 (MSA segment, field number 1). AE is Application Error. AR
+    is Application Reject.\n- The Message Control ID of the last message is in MSA-2
+    (MSA segment, field number 2). The original Message Control ID is found in MSH-10
+    (message segment, field number 10).\n\nIn short, standard HL7 protocol calls for
+    ACKnowledgment protocol. Each time a system receives a message and processes the
+    data, it is expected to send an ACKnowledgment message back to the sending system.
+    The sending system is expected to keep on sending a message until it has received
+    a ACK/NACK message. Without this standard enacted, data could be lost in transmission.\n\nIf
+    you want to read more about HL7, check out some of our [HL7](/academy/hl7-101-a-primer)
+    resources freely available in our [Academy](/academy).\n\n"
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 5743id6JxYsMEwOykuiCQg
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+- :id: 5RqQEl5hpSq2KuyQoYMsIy
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:40+00:00'
+    :created_at: '2017-10-31T17:51:22+00:00'
+    :id: 5RqQEl5hpSq2KuyQoYMsIy
+  :title: Integrating HL7 with a RESTful API
+  :slug: integrating-hl7-with-a-restful-api
+  :pub_date: !ruby/object:DateTime 2018-08-10 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  :summary: RESTful APIs are the backbone of many webservices today. Having the tools
+    to integrate an not-natively-RESTful interface engine with this common standard
+    opens a lot of possibilities. In the healthcare space, queuing the HL7 properly
+    is critical. In this article, we explore ways to do this properly.
+  :lead: "## Why does this matter?\n\nRESTful APIs are the backbone of many webservices
+    today. Having the tools to integrate an not-natively-RESTful interface engine
+    with this common standard opens a lot of possibilities. \n\nThere will be hurdles
+    for implementing tools like these, especially since some of core RESTful requirements
+    are lost, namely: statelessness, cacheability, and code on demand."
+  :post: "## What is a RESTful API?\n\nRepresentational State Transfer (REST) web
+    services are a popular method of providing interoperability between systems.\n\nFrom
+    the [REST API Tutorial](http://www.restapitutorial.com/) guide, there are six
+    constraints:\n\n1. **Uniform interface:**  Resources are uniquely identified in
+    requests by URIs, and the communication is HTLM, XML, or JSON representation of
+    content from the database. When the server returns the representation of the resource
+    to the client, the client holds enough information to modify or delete the resource
+    on the server (security permitting). \n2. **Stateless:**  The state for handling
+    a request is contained within the request itself. This helps with modularity because
+    each request will have all of the information needed by the server to complete
+    the request without relying on information from the server-client session.\n3.
+    **Cacheable:**  Server responses must define themselves as cacheable when appropriate
+    so that clients can reuse information rather than make subsequent requests.\n4.
+    **Client-Server:**  There needs to be a separation between client and server,
+    bridged by the RESTful API. This allows the client and server to be developed
+    independently as long as the API interface remains the same. User interface and
+    user state stays on the client, and data storage stays on the server.\n5. **Layered
+    System:**  Because of the stateless requirements, a client will not be able to
+    tell whether communication is directly with the server or with an intermediate
+    resource. Since a request itself contains all of the necessary information to
+    complete that request, an intermediate resource (e.g. a load balancer) can pass
+    along the request while obfuscating the server-side process from the client.\n6.
+    **Code on demand (optional):**  Servers can pass along some extra tools to the
+    client in the form of applets and client-side scripts. This is not a requirement,
+    but it is a good way to extend the utility of a client application.\n\n## What
+    makes this special?\n\nLong story short, a customer of ours uses the [PubNub](https://www.pubnub.com/)
+    API for their messaging infrastructure. We at Datica use the open-source [Mirth
+    Connect](https://www.mirth.com) interface engine.\n\nMost interface engines do
+    not natively treat messages the same way that RESTful APIs do. Typically, the
+    message content alone is sent to an interface endpoint, which means that the communication
+    is not stateless and depends on the context of the destination knowing where the
+    message is coming from. For the healthcare space, HL7 messages often need to be
+    queued in a particular order, so each message itself cannot be independent or
+    out of order.\n\n### HL7 \n\nHL7 is not inherently designed to mesh well with
+    a RESTful API. PubNub does not preserve message order, since it anticipates each
+    message is stateless. So, the consuming application is responsible for ordering
+    messages based on the control ID or an included datetime. Also, message receipt
+    is not guaranteed, so we rely on the consuming application to respond with a notification
+    of any problems. \n\n### Mirth Connect\n\nWith a typical RESTful integration,
+    you would subscribe and use that side of the response to confirm receipt of the
+    message -- that asynchronous communication doesn't work natively with most interface
+    engines. Mirth Connect operates with the premise that messages will be communicated
+    point to point. Serializing and persisting Java objects for multiple messages
+    is difficult. This means that we end up initializing and destroying a PubNub configuration
+    for each message.\n\nDatica's Mirth Connect interfaces work in a FIFO manner,
+    and the communication is synchronous. For example, posting a message to an HTTPS
+    endpoint relies on a response code before continuing. Because of this, you lose
+    some of the benefit of having a layered system for receiving and sending stateless
+    messages, since everything gets queued up in one line.\n\n## Nuts and bolts\n\n###
+    PubNub Java SDK\n\nPubNub has a variety of SDKs available on their website. We
+    ended up using the [Java SDK v4](https://www.pubnub.com/docs/java-se-java/pubnub-java-sdk).
+    \n\nWe could have written our own code to invoke PubNub endpoints directly, but
+    Mirth Connect has the ability to invoke external Java SDKs! We were able to save
+    a lot of time by leveraging the PubNub-provided SDK.\n\n### Mirth Connect destination\n\nWe
+    built a Java method to import PubNub java libraries and synchronously post to
+    a PubNub URI. This was exported as an executable JAR and then transferred to the
+    container hosting the Mirth Connect instance to be imported as a Mirth code resource.\n\nThis
+    Java class was called from a Mirth Connect JavaScript writer destination, where
+    the API specifics were declared, including:\n\n* Subscriber key\n* Publisher key\n*
+    Cipher key\n* A unique message UUID\n* Message content\n* Channel names\n* And,
+    an error file name for capturing API responses\n\nThese parameters for the PubNub
+    post were combined into the RESTful resource identifier.\n\n<pre>\n\npackage datica.pubnub;\n\nimport
+    java.io.IOException;\nimport java.io.PrintWriter;\nimport java.io.StringWriter;\nimport
+    java.util.Calendar;\nimport org.json.simple.JSONObject;\nimport org.json.simple.parser.JSONParser;\nimport
+    org.json.simple.parser.ParseException;\n\nimport com.pubnub.api.PNConfiguration;\nimport
+    com.pubnub.api.PubNub;\nimport com.pubnub.api.PubNubException;\nimport com.pubnub.api.callbacks.PNCallback;\nimport
+    com.pubnub.api.enums.PNLogVerbosity;\nimport com.pubnub.api.models.consumer.PNPublishResult;\nimport
+    com.pubnub.api.models.consumer.PNStatus;\n\npublic class PubnubPublisherSync {\n\tpublic
+    static String main(String subscribeKey, String publishKey, String cipherKey, String
+    uuId,\n\t\tString json, String channelName, String messageFile) throws PubNubException,
+    ParseException {\n\t\tString output = null;\n\t\tSystem.gc();\n\t\t\n\t\t//read
+    in the file name\n\t\tJSONParser parser = new JSONParser();\n\t\tJSONObject jsonBody
+    = (JSONObject) parser.parse(json);\n\t\tfinal String filename = messageFile;\n\t\t\n\t\t//create
+    pubnub configuration\n\t\tPNConfiguration pnConfiguration = new PNConfiguration();
+    \n\t\tpnConfiguration.setSubscribeKey(subscribeKey);\n\t\tpnConfiguration.setPublishKey(publishKey);\n\t\tpnConfiguration.setCipherKey(cipherKey);\n\t\tpnConfiguration.setUuid(uuId);\n\t\tpnConfiguration.setSecure(true);\n\t\t\n\t\tPubNub
+    pubnub = new PubNub(pnConfiguration); // initialize pubnub\n\t\t\n\t\ttry{\n\t\tPNPublishResult
+    result = pubnub.publish().message(jsonBody).channel(channelName).usePOST(true).sync();\n\t\toutput
+    = result.getTimetoken().toString();\n\t\treturn \"SUCCESS:\"+output;\n\t\t//System.out.println(result.toString());\n\t\t}catch(PubNubException
+    e){\n\t\t\toutput = e.getErrormsg();\n\t\t\treturn \"ERROR:\"+output;\n\t\t}finally{pubnub.destroy();}\n\t}\n}\n\n</pre>\n\n###
+    Getting to the JAR\n\nWithin Mirth Connect, you can import code resources here:
+    \ **Mirth Connect >> Settings >> Directory Settings**. You will first need to
+    make sure that you migrate your executable JAR to the container that the Mirth
+    Connect service lives on.\n\nOnce that code resource is imported, you can call
+    it from your message channel destinations.\n\n<pre>\n\nimportPackage(Packages.datica.pubnub);\n\n//
+    PubNub vars\nvar subscribeKey= new java.lang.String(\"sub-c-123-ABC-456-DEF\");\nvar
+    publishKey=new java.lang.String(\"pub-c-789-GHI-123-JKL\");\nvar cipherKey=new
+    java.lang.String(\"456-MNO-789-PQR\");\nvar uuId = new java.lang.String(\"123-STU-456-VWX\");\nvar
+    pubnubChannel = new java.lang.String(\"789-YZA-123-BCD\");\n\n// Mirth vars\n//var
+    jsonBody= new java.lang.String($('jObj'));\n//var filename = new java.lang.String(\"/foo/\"+$('filename'));\n\n//
+    convert to string and estimate size\nvar jsonString = $('jObj');\nvar jsonLength
+    = jsonString.length();\nchannelMap.put(\"json string length\",jsonLength);\n\n//
+    prep vars for array build\nvar pnUuid = UUIDGenerator.getUUID();\nvar filename
+    = new java.lang.String(\"/foo/\"+pnUuid);\nvar indexCt = 0;\n// split JSON obj
+    into 25K char sections\nvar jsonStringSplit = [];\njsonStringSplit = jsonString.match(/.{1,12500}/g);
+    //12.5k splits\n\n//for error handling\nvar error=true;\n\nfor each (split in
+    jsonStringSplit) {\n\tvar pubNubJson = {};\n\tpubNubJson.id = pnUuid;\n\tpubNubJson.index
+    = indexCt;\n\tpubNubJson.length = jsonStringSplit.length;\n\tpubNubJson.data =
+    split;\n\tchannelMap.put(\"split\"+indexCt,split);\n\tvar jsonBody= new java.lang.String(JSON.stringify(pubNubJson));\n\tindexCt
+    ++;\n\t// publish to PubNub\n\tvar resp = PubnubPublisherSync.main(subscribeKey,
+    publishKey, cipherKey, uuId, jsonBody, pubnubChannel, filename);\n\tvar respString
+    = new java.lang.String(resp);\n\tif (respString.indexOf(\"ERROR\") > -1){throw
+    resp;}\n}\n\n</pre>\n\n## Issues\n\n### Chunkin'\n\nPubNub as a webservice API
+    was designed with some message size limits. HL7 messages, and Datica's JSON message
+    translation of the HL7, can regularly exceed the allowable per-message size limit.\n\nSo,
+    we ended up segmenting our messages into smaller pieces and then wrapping each
+    piece in a JSON wrapper. The wrapper included:\n\n* UUID to identify the source
+    message\n* Number of segments the source message was split into\n* Index of which
+    segment of total number was contained \n* Segmented message content\n\nThis message
+    segmentation can be seen in the above JavaScript Mirth Connect destination code.\n\n###
+    Sync vs Async\n\nWith the Java SDK v4 from PubNub, the `pubnub.publish()` method
+    had both `async()` and `sync()` submethods. We ended up using the sync method,
+    as you can see from the above line in our JAR: `PNPublishResult result = pubnub.publish().message(jsonBody).channel(channelName).usePOST(true).sync()`\n\nThis
+    all comes back to interface engines not functioning like a typical RESTful API.
+    For each concurrent process pushing messages to the API endpoint, we need to wait
+    for a response.\n\n### Destroy\n\nWe ran into a memory leak with our PubNub destination
+    in MirthConnect. The Rhino version of JavaScript calling the Java SDK JAR for
+    PubNub initialized a new PubNub configuration with each message. That, in turn,
+    was not explicitly cleaned up by the JavaScript layer's garbage collector.\n\nSo,
+    our solution was to use the `pubnub.destroy()` method from within the JAR. This
+    explicitly clears the cache of PubNub configuration (another way this deviates
+    from normal RESTful practice)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: iUK3rg26hqUEIsiuAIQou
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: iUK3rg26hqUEIsiuAIQou
+  :title: HL7 203 - The HL7 ORM (Order Entry) message
+  :slug: hl7-203-the-hl7-orm-order-entry-message
+  :pub_date: !ruby/object:DateTime 2018-09-03 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: 'The Order Entry (ORM) message is a common HL7 message type. ORM messages
+    contain information about an order, most commonly radiology or lab orders. '
+  :lead: The Order Entry (ORM) message is one of the most commonly used HL7 message
+    type. ORM messages contain information about an order. This includes placing new
+    orders, canceling existing orders, discontinuation, holding, etc. Orders pertain
+    to either materials (e.g., 1 liter of 0.9% saline) or services (e.g., a blood
+    panel, etc.). Usually this is patient specific. The trigger event for this message
+    is any change to an order i.e. order is created, modified, cancelled, put on hold
+    and so on.
+  :post: "Before we jump into ORM messages, a quick review might be in order. As we've
+    discussed [before](/discover/ehr-integrations/), HL7 has many message types which
+    can be very daunting. It's not only that there are messages but also that there
+    are types of HL7 messages which are geared towards handling specific events. Admission,
+    Discharge, Transfer (ADT) messages are sent when patient's are admitted, discharged
+    or otherwise moved around the hospital. Scheduling (SIU) messages schedule and
+    update appointments in clinics. Order Entry (ORM) messages are sent when orders
+    are placed or edited and Order Result (ORU) messages are sent back with results
+    that correspond to the original ORM message. These are the most common HL7 message
+    types; most other workflows, like updating flowsheets or filing visit notes, use
+    some combination of segments from these message types to accomplish their goals.
+    Since we already covered the ADT message in detail [here](/academy/hl7-201-the-admission-discharge-transfer-adt-message/),
+    we thought we could move onto the Order Entry (ORM) message.\n\nAs mentioned earlier,
+    an order is a request for material or services, usually for a specific patient.
+    These could be anything ranging from medication orders, measuring of vitals, lab
+    tests, specific food / dietary orders, radiology films. These could also be generic
+    orders (not clinical or pertaining to patient) for materials required to keep
+    the hospital running i.e. linens from housekeeping, supplies from central supply
+    etc. If something needs to happen in a hospital or clinic, from printing a requisition
+    to e-prescribing, orders distribute pertinent data from system to system.\n\nORM
+    messages are most commonly used to send Radiology Orders and Lab Orders[1]. Following
+    the standard HL7 message structure, an ORM message is made up of segments and
+    groups of segments, each of which may be required, optional, repeatable, or some
+    combination thereof. A quick note on reading HL7 message examples which seem to
+    contain a bunch of [],{} etc. The general rule is as follows:\n- No brackets around
+    it - **Required**\n- `[]` - **Optional**\n- `{ }` - **Repeating**\n- `[{ }]` -
+    **Optional Repeating**\n\nThe ORM message structure is as follows.\n\n~~~javascript\nORM
+    \    General Order Message\nMSH     Message Header\n [{NTE}]    Notes and Comments
+    (for Header)\n[\n   PID     Patient Identification\n   [PD1]    Additional Patient
+    Identification\n      [{NTE}]  Notes and Comments (for Patient ID)\n   [PV1    Patient
+    Visit\n    [PV2|]   Patient Visit Additional Information\n    [{IN1   Insurance\n
+    \     [IN2]   Insurance Additional Info\n   [IN3]   Insurance Additional Info\n
+    \   }]\n    [GT1]   Guarantor\n    [{AL1}]   Allergy\n  ]\n]\n {\n   ORC    Common
+    Order\n  [\n   Order Detail Segment OBR, etc.\n       [{NTE}]  Notes and Comments
+    (for Detail)\n       [{DG1}]  Diagnosis\n       [\n        {\n         OBX   Observation/Result\n
+    \             [{NTE}] Notes and Comments (for Results)\n         }\n       ]\n
+    \ ]\n  {[CTI]}   Clinical Trial Identification\n [BLG]    Billing segment\n }\n~~~\n{:
+    .prettyprint .lang-js}\n\nA couple of interesting things to note before we work
+    through an example.\n\n- As mentioned earlier, the ORM message can be used to
+    send patient specific orders or just operational orders (like ordering sheets
+    etc.) which is why, the PID segment above is an optional segment. The segment
+    is only required in the case of new orders and only if the new order is related
+    to a particular patient. Only then will / should  the PID segment be included
+    in the message.\n- Note the presence of multiple (optional, repeatable) Diagnosis
+    (DG1) segments. If repeated, the first will be the primary diagnosis.\n- Note
+    the presence of the OBX (Observation) segment as an optional, repeatable segment.
+    The use here is different from its use in the ORU (Observational Report - Unsolicited)
+    message. When used, it carries clinical information that might be needed by the
+    receiving system to interpret the observation that will be made, rather than information
+    about observations and results. So if the consuming system is an Imaging system,
+    then the ID would be set to TCM and and additional context around the order would
+    be sent (for example, CPT code of order with the associated description- 73610^X-RAY
+    ANKLE 3+ VW). Similarly, other ID types allowed include GDT (narrative), Addendum
+    (ADT), Study Notes (TCM), Transcribed Reports (TX).\n\nWith that out of the way,
+    let's take a simple message and see how it gets translated into an HL7 ORM message.\n\nThe
+    message I want to send is: A male, African American patient, John Appleseed, MRN:20891312,
+    SSN:123-45-7890 born on December 1, 1966 and account number of 11480003 needs
+    to have X-Ray of his ankle done. The order is being place by Dr. James Matthews.
+    The exact procedure to be performed is X-RAY ANKLE 3+ VW with the associated CPT
+    code  of 73610. This is based upon a diagnosis of Broken Ankle. Additional information
+    that will need to be sent will include facility, sending and receiving systems,
+    the version of HL7 being used etc.\n\nBased on this information, the segments
+    would be created as follows:\n\n#### MSH - Message Header\nAssuming an all Epic
+    environment i.e. sending and receiving systems are all Epic and order is created
+    at 2014/04/18 at 17:33:14. Version of HL7 being used is v2.3. This would result
+    in a segment that looks like this.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PID - Patient Identification\nSince this message
+    is a patient specific order, it needs all the associated patient info to prevent
+    any confusion and ensure no billing comebacks. This would include the patients
+    identifier, full name, DOB, sex, race, address, phone number(s), account number,
+    SSN and place of birth. Some of these are optional as described in the format
+    specification.\n\n~~~shell\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\n~~~\n{: .prettyprint .lang-shell}\n\nI'll skip
+    the NTE segment and go the next key one.\n\n#### PD1 - Patient Additional demographics\nThis
+    essentially contains the name and ID of primary facility where care is being provided
+    and the name and ID of the provider placing the order resulting in\n\n~~~shell\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### PV1 - Patient Visit\nThis usually contains information
+    on the admission information, attending, referring and consulting, admitting physician
+    IDs and names and so on. I'll just keep it simple and just have the attending
+    physician's info in the sample giving us\n\n~~~shell\nPV1|||^^^CARE HEALTH SYSTEMS^^^^^|||
+    |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### ORC - Common Order\nFinally, we get to the order
+    details. As mentioned before, since this is a patient specific order, it must
+    be a new order.  So, we need to specify that it is a new order (NW), the order
+    number of the originating (placer) system (987654 from EPIC), the order number
+    of the system filling this (for reference - 76543 from EPIC). Additional details
+    that need to be filled in include dates and times of transaction, who created
+    the order, who the ordering provider was, the location IDs (facility, department)
+    and callback information in case something needs to be clarified.\n\n~~~shell\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### Observation Request\nSince the order is being
+    sent to an imaging facility, additional details need to be specified such as the
+    CPT codes and so on. I won't detail this as much here. The key fields required
+    here are the order details (73610^X-RAY ANKLE 3+ VW), ordering provider info (1173^MATTHEWS^JAMES^A^^^)
+    and who the interpreter of the results is going to be (6064^MANSFIELD^JEREMY^^^^).\n~~~\n{:
+    .prettyprint .lang-shell}OBR|1|363463^EPC|1858^EPC|73610^X-RAY ANKLE 3+ VW^^^X-RAY
+    ANKLE \n||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\n~~~\n{:
+    .prettyprint .lang-shell}\n\n#### DG1:  - Diagnosis\nSome basic context needs
+    to be provide so that the billing systems can do their work so diagnosis information
+    is also provided. So in ICD10 (I10), ankle fracture is coded as S82.\n\n~~~shell\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nNow, we string
+    all these together and we get the full HL7 ORM message.\n\n~~~shell\nMSH|^~\\&|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||\nPID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505
+    S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S||
+    11480003|123-45-7890||||^^^WI^^\nPD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^\nPV1|||^^^CARE
+    HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V\nORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||\nOBR|1|363463^EPC|1858^EPC|73610^X-RAY
+    ANKLE 3+ VW^^^X-RAY ANKLE ||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-\n8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|\nDG1||I10|S82^ANKLE
+    FRACTURE^I10|ANKLE FRACTURE||\n~~~\n{: .prettyprint .lang-shell}\n\nIt's not pretty,
+    but it's the way healthcare orders are passed from system to system today, even
+    if it's an all EPIC facility. Thankfully there are services like Datica to help
+    you work with HL7 messages.\n\nIf you're looking to integrate EHR data with your
+    application without becoming an HL7 expert, Datica can help. Learn more about
+    Datica Managed Integration Services for HL7 [here](/discover/ehr-integrations/).\n\nLooking
+    for further help on integrating an ORM (Orders, Procedures) feed with an EHR?
+    Check out [ORM Integration Help](/guide/how-to-integrate-with-hospitals/)."
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

@@ -1,0 +1,14 @@
+---
+:id: 5GUXI1OvOESo6g4eW2Yq2y
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:29+00:00'
+  :created_at: '2018-02-08T22:21:29+00:00'
+  :id: 5GUXI1OvOESo6g4eW2Yq2y
+:title: Bring your own SSL cert
+:slug: bring-your-own-ssl-cert
+:category: Secure Connectivity
+:summary: Configure your own cert with just a few CLI commands
+:desc: In addition to Let’s Encrypt support, Datica also allows users to configure
+  their own custom SSL certificates. With the Datica CLI certs command, users can
+  opt to bring their own SSL certificates to the Platform in just a few simple commands.

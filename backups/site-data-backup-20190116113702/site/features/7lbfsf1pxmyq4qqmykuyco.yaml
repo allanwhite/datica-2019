@@ -1,0 +1,13 @@
+---
+:id: 7lbfSf1pxmYq4QqmykuYCo
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-29T22:13:56+00:00'
+  :created_at: '2018-05-09T21:47:02+00:00'
+  :id: 7lbfSf1pxmYq4QqmykuYCo
+:title: Monitoring
+:slug: phi-ready-monitoring
+:category: Core Compliance
+:feature_status: Current
+:summary: CKS ships with a Prometheus instance to handle cluster monitoring, specifically
+  CoreOS's prometheus-operator, with a Grafana dashboard for visualizing activity.

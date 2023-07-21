@@ -1,0 +1,156 @@
+---
+:id: o6gZiRusG4uaewUYYsyu8
+:_meta:
+  :content_type_id: pressReleases
+  :updated_at: '2018-05-31T17:28:04+00:00'
+  :created_at: '2018-05-31T13:56:15+00:00'
+  :id: o6gZiRusG4uaewUYYsyu8
+:title: Datica Celebrates 5th Anniversary as a Compliance and Security Leader for
+  the Cloud
+:slug: datica-celebrates-5th-anniversary-as-a-cloud-compliance-and-security-leader
+:pub_date: !ruby/object:DateTime 2018-05-31 00:00:00.000000000 Z
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+- :id: 46srurONA4UMuqge4Eek4S
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-02-09T00:57:05+00:00'
+    :created_at: '2018-02-09T00:57:05+00:00'
+    :id: 46srurONA4UMuqge4Eek4S
+  :tag_full: GxP
+  :slug: gxp
+  :description: Good practice guidelines for pharma by the FDA.
+  :body: GxP stands for "Good Practice" and is a set of operational controls for Life
+    Sciences organizations working within the confines of the FDA.
+- :id: 15gxB6GioeIuKGKMSmwiS2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-12-11T19:30:39+00:00'
+    :created_at: '2017-12-11T19:30:39+00:00'
+    :id: 15gxB6GioeIuKGKMSmwiS2
+  :tag_full: GDPR
+  :slug: gdpr
+  :description: General Data Protection Regulation
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+- :id: 6l99pr6R7GIa6uMk4Wo8ui
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-18T20:59:49+00:00'
+    :created_at: '2017-10-18T20:59:49+00:00'
+    :id: 6l99pr6R7GIa6uMk4Wo8ui
+  :tag_full: Digital Health Success Framework
+  :slug: dhsf
+  :description: The Digital Health Success Framework (DHSF) is a simple guide for
+    the makers of digital healthcare products.
+  :body: |-
+    The Digital Health Success Framework (DHSF) is a simple guide for the makers of digital healthcare products.
+
+    The Internet is full of resources to help turn ideas into lean startups or businesses, but things are a little different in the wild wild west of digital health technology. There are considerations in healthcare not found in any other industry, and no one has time to learn them all.
+
+    We’ve simplified the unique complexities to help you get your digital health products from napkin scribble to market adoption with fewer surprises. You will leave with a better understanding of how to manage the challenges ahead.
+  :featured_image:
+    :id: 2q4JydYcuAgSQ6SKmy88US
+  :url: https://datica.com/dhsf/
+:author:
+  :id: 3riALtpuXYeIaIGuaq8M4w
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-05-31T17:27:15+00:00'
+    :created_at: '2016-11-23T18:22:26+00:00'
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :fullname: Datica Editorial Team
+  :slug: datica-editorial
+  :person_type: Datica Team
+  :profile_pic:
+    :id: 54LQpVAcVqe4s6WQkwGyEe
+  :email: hello@datica.com
+  :bio_short: We're the Datica Editorial Team.
+  :profile_twitter: daticahealth
+  :profile_linkedin: daticahealth
+  :profile_url: https://datica.com/leadership
+  :location:
+    :lat: 43.07284
+    :lon: -89.38811299999998
+:cta_ref:
+  :id: 6KOQ7XhaJqCI00oYacessy
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-14T18:18:47+00:00'
+    :created_at: '2017-08-16T22:18:25+00:00'
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :cta_title: Schedule your Datica CKS demo today
+  :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
+    GDPR, and GxP compliant on AWS and Azure.
+  :cta_label: Schedule a demo
+  :cta_url: https://datica.com/demo/
+  :cta_image:
+    :id: 4l2nKsTXwkc2kauya8W6SW
+  :cta_color: dark-alt
+:summary: Company recalls milestones, talks of international expansion, and looks
+  to future innovations.
+:post: "MADISON, WISC. AND SEATTLE (PRWEB) MAY 31, 2018\n\n[Datica](https://datica.com
+  \"Datica\")™ announced today that this month marks the company’s 5th anniversary
+  since carving out a niche market in 2013 when it first addressed compliance and
+  security in the cloud. Today, Datica’s Platform for healthcare continues its evolution
+  in one of the most highly regulated industries in the U.S. and has become an enabler
+  for cloud-based strategies.\n\nLast year, the company launched its first international
+  pod and will be adding more in 2018. Getting in front of the European Union’s General
+  Data Protection Regulation (GDPR) has been a driving force for Datica over the past
+  year and a half. In 2017, the company began a GDPR audit process of its Platform,
+  a move that soon makes the Platform compliant with the regulations of HIPAA, HITRUST,
+  GDPR and GxP.\n\nOther milestones Datica (originally founded under the name Catalyze)
+  has had since its May 2013 launch include: \n\n* Raised $12.5 Million in funding
+  since inception\nFirst to make the [Kubernetes technology](https://datica.com/platform/
+  \"Kubernetes technology\") for deploying containerized workloads HITRUST CSF Certified\n*
+  Selected as a premier healthcare speaker at AWS re:Invent 2017, and featured in
+  the main keynote at the 2018 Microsoft Build conference\n* Pioneered the [Digital
+  Health Success Framework](https://datica.com/dhsf/ \"Digital Health Success Framework\"),
+  leading to industry-wide acclaim, including presenting at Health 2.0 and SXSW\n*
+  Embraced a virtual workforce in 2013, tapping top healthcare technology talent across
+  the nation\n\n“Since 2013, we’ve put an emphasis on supporting customers by controlling
+  growth, and in the first half of 2018 we’ve continued that company focus by spending
+  all available resources on engineering and servicing customers, “ said Travis Good,
+  MD, CEO and chief privacy officer. “When I think back to the start of the company,
+  it’s humbling to see how our customer base has expanded from early-stage startups,
+  then to mature healthcare vendors, and finally to the Fortune 500 mix of enterprise
+  customers. It’s the compliance and security aspects that bring these customers to
+  Datica; it’s core to our mission, so we ensure the Platform remains first and foremost
+  secure.”\n\nAs Datica celebrates the past five years, it’s also a time to look to
+  the future. Though healthcare has, up until now, been a core focus of the company,
+  Datica's newly introduced Cloud Compliance Management System will open a host of
+  new opportunities for organizations to manage the compliant state of their entire
+  enterprises in one actionable view — across multiple clouds and within multiple
+  industries. \"As we expand our partnerships with Microsoft Azure and AWS, and on
+  to Google Cloud, Datica will explore offering end-to-end compliance beyond healthcare,\"
+  said Good."

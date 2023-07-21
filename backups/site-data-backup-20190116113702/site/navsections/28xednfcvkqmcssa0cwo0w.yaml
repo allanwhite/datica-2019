@@ -1,0 +1,22 @@
+---
+:id: 28xeDnFCVKQMCssa0CwO0W
+:_meta:
+  :content_type_id: navSections
+  :updated_at: '2019-01-11T18:46:33+00:00'
+  :created_at: '2019-01-11T18:46:33+00:00'
+  :id: 28xeDnFCVKQMCssa0CwO0W
+:title: Help
+:title_short: Help
+:show_in_top_nav: true
+:section: Help
+:summary: Are you a customer? Get help with Datica products and services.
+:child_data:
+- :url: https://product.datica.com/
+  :desc: Sign in to your dashboard
+  :title: Sign in
+- :url: https://help.datica.com/hc/en-us/
+  :desc: Documentation & Support across all Datica products
+  :title: Documentation & Support
+- :url: https://status.datica.com/
+  :desc: System up time and alerts
+  :title: System Status

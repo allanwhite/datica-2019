@@ -1,0 +1,147 @@
+---
+:id: pKeQtBwTySqmi644Ksymm
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-07T22:06:00+00:00'
+  :created_at: '2016-11-23T22:19:27+00:00'
+  :id: pKeQtBwTySqmi644Ksymm
+:title: Securing Network Access in Healthcare
+:slug: securing-network-access-in-healthcare
+:pub_date: !ruby/object:DateTime 2015-11-23 00:00:00.000000000 Z
+:tags:
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: The cost of data breaches on providers as a whole is estimated to be at
+  an astounding seven billion dollars. Here are a few key points for securing network
+  access.
+:blog_lead: "> The mantra of any good security engineer is: ‘**Security is not a product,
+  but a process**.’ It’s more than designing strong cryptography into a system; it’s
+  designing the entire system such that all security measures, including cryptography,
+  work together. – Bruce Schneier\n"
+:post: |+
+  Healthcare professionals have been tasked with achieving the fine balance between the need to ensure data security and the demand for complete access to information. Though with the incursion of medical and mobile devices – consumer, doctor and hospital – security needs must become top priority. Failure to implement proper access controls in the United States is one of the largest attributors to compromising healthcare organizations’ [patient data](/academy/what-is-protected-health-information-or-phi) security. The cost of data breaches on providers as a whole is estimated to be at an astounding total of seven billion dollars. With a precarious price point like that, here are a few key points into securing network access:
+
+  ### Network Access Control (NAC) Solutions
+
+  In order to ensure quality patient care, providing absolute, immediate network access has become essential, especially in the face of mandated instant communication. With technological upgrades made daily on operating system versions, the risk for data breaches only rises, so an adaptable security solution becomes pertinent. Using a network access control (NAC) solution will allow the capabilities to identify the type of user and connected device, while simultaneously screening for threats such as obsolete antivirus protection. NAC solutions can permit a network wide view of security status across the breadth of equipment and devices; this view is highly valuable to healthcare organizations, especially those working with multiple vendors that comprise their internal infrastructure.
+
+  ### Securing Network Access for Patrons
+
+  A sundry population exists that accesses a healthcare network – visiting physicians, specialists, patient guests, family, etc. – so it is IT’s responsibility to ensure network security while reducing the administrative obligations that accompanies guest management. To do this, IT must secure the network by having each guest user and device be identifiable and only those that are authorized be able to connect. Taking identification further, network access can be restricted by device, department or time of day. This access must be provisioned though and guest management processes must become part of an automated workflow as to minimize the obligation on IT. For example, patrons should be automatically signed off from network access after a predetermined period of inactivity and concurrent logins must be disabled.
+
+  ### For further reading:
+
+  1. [Data Security & Patient Engagement](/blog/data-security-patient-engagement)
+  2. [3 HIPAA Omnibus Rule Essentials for IT/Security](/blog/three-hipaa-omnibus-rule-essentials-for-it-security)
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark
+:related_entries:
+- :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-11-30T23:44:40+00:00'
+    :created_at: '2016-12-20T19:29:41+00:00'
+    :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  :title: Grahame Grieve - the future of healthcare interoperability (part 1)
+  :slug: grahame-grieve-pt1
+  :pub_date: !ruby/object:DateTime 2016-04-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guest:
+    :id: 5ucOd6EBGgs08WcMOIYyqm
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262521749&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: '*The Healthcare Innovators Podcast* is proud to connect you with Grahame
+    Grieve, Product Director of FHIR for HL7. Grahame hails from Melbourne, Australia
+    and has come to be industry known as the "Father of FHIR." Before creating the
+    Fast Healthcare Interoperability Resources, he spent years working with the HL7
+    standards that assist in transferring clinical and administrative data between
+    software applications. Today, we''ll learn a bit more about the background of
+    FHIR and why healthcare subdomains are attracted to the FHIR standard. This is
+    first in a three-part interview series around the FHIR standard and one that will
+    leave you laughing as Grieve shares his favorite answer to what FHIR stands for. '
+  :key_takeaways: |-
+    1. Discover what potential healthcare requirement would force everyone to re-engineer their interfaces
+    2. Learn the architectural advantage of FHIR versus other data exchange standards
+    3. Understand Grahame's thoughts around open-source and its importance
+    4. Discover the unrealized dream for FHIR and why Grahame wants to eventually come back to it
+  :post: |-
+    **On which subdomain is expressing the most Interest:** "The one that is getting the most focus and attraction right now is EHRs. We have projects in multiple countries, particularly in the USA, to provide open EHR access to data. That's primarily the highest profile work that we have going, but everybody's working relatively hard."
+
+    **On the origin of naming FHIR:** "I'm very happy to say it wasn't my idea. Once it became clear that we had a working standard, I just called resources for help because I'm a boring kind of techie geek. I just called it what it was. Then the marketing committee at HL7 looked at it and said, 'if you want this to be a big deal, you've got to give it a funny name, so people can play with the name.' They banged it around and came up with the FHIR name."
+
+    **On a favorite FHIR acronym twist:** "I've heard them all, but there are always new ones, as well as puns on the FHIR as part of the name. There's also a whole series of jokes around what the latest F-H-I-R actually stands for. My personal favorite is: 'Fixing HL7's International Reputation'."
+
+    **On FHIR current pilots: ** "At the moment, we have prototypes and pilot projects in many countries in the world, in many domains. Some are high profile projects; some are under the radar projects. My focus is now on scaling up the community, because that's where our focus needs to be, because we are getting more and more implementations. In the next five years, FHIR will transition from being the next greatest thing to what everybody does, and becoming boring, in fact."
+
+    **On the advantage of FHIR:** "One of the architectural advantages of FHIR versus other healthcare data exchange processes is that we leverage the Web."
+
+    **On high-profile hacks: ** "Given the number of high profile identity hacks we've had this year, and those are only the reported ones, I think that we should stop assuming that there is any security around people's fundamental identification and the same should apply to their health. Instead of regarding that as necessary to secure, I think society will be forced to move to a world where everybody's information is open, and the social consequences aren't there."
+
+    **On open-sourcing FHIR:**
+
+    * "Health information should be free — free to move." " ...giving your information away increases its value."
+    * "If you hold onto it and try to extract money out of its use, you're actually decreasing the value."
+    * "I've become a strident believer in the value of open source for at least the area that we work in. There are a few other specifications providers who are moving away from any form of openness, getting more and more restrictive, insisting that we must pay them or they'll aggressively prosecute. I look at that and say, "I don't know why you would spend so much time decreasing your value."
+
+    **On how much interoperability you need:** "I have a formula: How much interoperability do you need?  The answer is *n* times two, where 'n' is the amount you have."
+
+    ----
+
+    After the interview, [read more about the FHIR standard](https://fhir.catalyze.io/) here, and don't miss parts two and three of our interview series with Grahame.
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo

@@ -1,0 +1,862 @@
+---
+:id: 5vQ4vxtCla0cemy8CCqQmG
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-04-17T16:44:58+00:00'
+  :created_at: '2018-02-13T22:09:52+00:00'
+  :id: 5vQ4vxtCla0cemy8CCqQmG
+:title: Digital Health Apps Could Save the US $7 Billion
+:slug: digital-health-apps-could-save-7-billion
+:pub_date: !ruby/object:DateTime 2018-02-13 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+- :id: muuTw36MCccawe428I8Oa
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-10-04T19:13:41+00:00'
+    :created_at: '2016-10-04T19:13:41+00:00'
+    :id: muuTw36MCccawe428I8Oa
+  :tag_full: Healthcare Costs
+  :slug: healthcare-costs
+  :description: 'Healthcare in America is expensive, and controlling costs is important
+    to all the players. '
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Digital health apps have been accompanied by plenty of hype, but a new report
+  shows that the hype may be justified with $7 billion/year potential.
+:blog_lead: Digital health apps have been around for a few years, and have been accompanied
+  by plenty of hype, but a new report shows that the hype may be justified — not because
+  of innovation, but because such apps have the potential to save the US healthcare
+  system as much as $7 billion annually.
+:post: "A recent [report from the data science firm IQVIA](https://www.iqvia.com/institute/reports/the-growing-value-of-digital-health)
+  examines the impact of digital health apps on the healthcare industry. In the last
+  two years — the time since the last report on the topic from IQVIA — there has been
+  both an increase in the number of apps available, as well as in the amount of evidence
+  supporting the benefits of their use. \n\nThe report includes some noteworthy statistics:\n\n*
+  There are 318,000 health apps and 340 wearable devices available worldwide\n* Since
+  2015, 153,000 new apps have appeared in the Apple Store and Google Play\n* 200 new
+  health apps are added each day\n* 40% of those new apps are related to health condition
+  management/patient care\n* 55% use sensor data\n* 95% of all health apps have fewer
+  than 5000 installs\n* 41 apps have more than 10 million downloads each, and account
+  for nearly half of all health app downloads\n* 25% of physicians actively recommend
+  digital health apps\n* 13% of physicians use remote patient monitoring technologies\n*
+  20% of large health systems are moving from digital health app pilot programs to
+  full-scale rollouts\n\nEach one of those facts could be the topic of a blog post,
+  but the report also addresses another interesting point: the fact that digital health
+  apps can both provide improved patient outcomes and save the health system money.
+  According to the report: \n\n> The use of Digital Health apps in just five patient
+  populations where they have proven reductions in acute care utilization (diabetes
+  prevention, diabetes, asthma, cardiac rehabilitation and pulmonary rehabilitation)
+  would save the U.S. healthcare system $7 billion per year and provide tangible outcomes
+  improvements.\" \n\nIt is noteworthy that, in the statement above, the report is
+  only discussing five specific patient populations — those that have been been investigated
+  in random clinical trials (RCTs) extensively and been proven to reduce the use of
+  acute care facilities. RCTs are considered the gold-standard in clinical investigations.
+  \n\nOne of the most significant points included in the report is the fact that the
+  number of studies investigating digital health apps, especially RCTs, has been accelerating.
+  There were 571 such studies between 2007 and 2017, with 25% of them being published
+  in 2017. \n\nThe evidence provided by scientific investigations is crucial because
+  it demonstrates the [value of digital health apps](https://datica.com/blog/esther-dyson-q-and-a-on-digital-health-and-getting-to-the-end-game/).
+  According to the report:\n\n> Value in healthcare can be defined as the health outcomes
+  created for patients relative to the cost of generating those health outcomes, as
+  well as the extent to which the ‘triple aim’ of improving the patient experience,
+  improving the health of populations, and reducing the per capita costs of healthcare
+  is delivered.”  \n\nThe digital health apps that are available for diabetes prevention,
+  diabetes, [asthma](https://datica.com/customer/propeller/), cardiac rehabilitation,
+  and pulmonary rehabilitation have been tested and shown to reduce the number of
+  times patients must seek acute care. If they were adopted widely, the savings —
+  $7 billion annually — would be significant. \n\nAlthough decisions within specific
+  healthcare systems are generally made one app, or one category, at a time, policymakers
+  consider the value of digital health apps in a more general way, such as the value
+  to the overall health system. And, in the case of Congress, “value” often means
+  cost-savings. \n\nThe report notes that policy initiatives related to technology
+  adoption within the healthcare system are relatively rare, and when they do occur,
+  the driver is usually evidence of significant cost savings. \n\n> Given the acceleration
+  in clinical evidence development in recent years, persuasive cost savings arguments
+  surrounding Digital Health apps may be within reach.” "
+:featured_image:
+  :title: blog-digital-health-saves-7-billion-featured
+  :description: Digital health apps could save the US $7 Billion,  featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/39acSEoGx2aUCwSiuWoQQ2/5a1ff3c004cc666b5d696688d1ececb1/blog-digital-health-saves-7-billion-featured.jpg"
+  :_meta:
+    :updated_at: '2018-02-13T22:08:32+00:00'
+    :created_at: '2018-02-13T22:08:32+00:00'
+    :id: 39acSEoGx2aUCwSiuWoQQ2
+:share_image:
+  :title: blog-digital-health-saves-7-billion-share
+  :description: Digital health apps could save the US $7 Billion,  social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/1Jp8oQrYrqSyUGWCCMMOgM/5c2cf769f0494f4707cb84fe8b679895/blog-digital-health-saves-7-billion-share.jpg"
+  :_meta:
+    :updated_at: '2018-02-13T22:09:16+00:00'
+    :created_at: '2018-02-13T22:09:16+00:00'
+    :id: 1Jp8oQrYrqSyUGWCCMMOgM
+:cta_ref:
+  :id: 2JiJivalm8AwUCAW8aMo8U
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-17T16:32:53+00:00'
+    :created_at: '2018-04-17T16:32:53+00:00'
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :cta_title: Q1 2018 Quarterly Report
+  :cta_desc: 'Spring 2018 Quarterly Innovation Report: Innovation and Impact — Digital
+    Health Transformation'
+  :cta_label: Get it Now
+  :cta_url: https://datica.com/innovation/report-q1-2018-digital-health-transformation/
+  :cta_image:
+    :id: 1kJDCTSp1aqUKwgiks6OKi
+  :cta_color: blue-alt
+:related_entries:
+- :id: 1su0Pi5kqssmUoSUIMmuKU
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-13T20:20:09+00:00'
+    :created_at: '2018-01-30T22:36:34+00:00'
+    :id: 1su0Pi5kqssmUoSUIMmuKU
+  :title: " 2018 Healthcare Trends Part 2: Cash-Pay Practices will Grow"
+  :slug: 2018-trends-cash-pay-practices-will-grow
+  :pub_date: !ruby/object:DateTime 2018-01-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: muuTw36MCccawe428I8Oa
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Whether you call it cash pay, subscription medicine, direct primary care,
+    or concierge medicine, cutting out the payors is 1 of 6 2018 trends Datica predicts.
+  :blog_lead: Where is healthcare going in 2018? In the first article in this series,
+    I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)
+    I predict we’ll see as the government, individuals, and private sector demand
+    change this year. The first of those trends is an increase in cash-pay practices.
+    Whether you call it cash pay, subscription medicine, direct primary care, or concierge
+    medicine, the underlying commonality is cutting out the payors.
+  :post: "What do you do when you get so frustrated with inefficiency and intermediaries
+    in a transaction? If you’re like most consumers today, you’ll find a way to go
+    directly to the supplier — meaning anybody producing a product or service that
+    is of value to customers. There are huge technology leaps being made that have
+    eliminated logistical challenges and enabled suppliers to have new or improved
+    direct access to customers; as you can see below, it’s also created many opportunities
+    for new, very large businesses. \n\nHere’s a short list of direct-to-supplier
+    examples:\n\n* Alibaba allows you to order directly from factories in China. It
+    eliminates retailers. This is typically used for commercial merchandise and equipment.
+    Try it. It’s incredible what you can customize for an order of 1 and have directly
+    shipped to you.\n* Etsy connects small, niche makers to sell directly to customers.
+    It eliminates retailers and opens up huge geographies for makers. Etsy has gotten
+    a lot of bad press lately but that doesn’t change the underlying premise.\n* Patreon
+    enables creators to be sponsored by fans, or patrons, through subscriptions. It
+    provides artists more freedom to pursue their craft with direct support from fans.\n*
+    Stratechery is a subscription technology analysis publication. It eliminates publishers.
+    It’s one person, Ben Thompson, that has built a personal brand outside of traditional
+    publishing channels. There are many such publications but Stratechery is a personal
+    favorite.\n* The Athletic is a subscription local sports publication. It eliminates
+    traditional paper press. It enables local sports writers to provide deeper insight
+    into players and teams through long-form publishing that doesn’t fit well with
+    where traditional newspapers have evolved.\n* Netflix sells on-demand video content
+    directly to consumers. It reduces the demand for cable bundles and, in the process,
+    traditional advertisers. Now, with public market funding, Netflix is building
+    the largest content catalog in the world and selling access to it directly to
+    consumers.\n\n## Healthcare transactions are frustrating for consumers and providers\n\nIf
+    you were to poll people on the most frustrating experiences they’ve had with transactions,
+    I’d wager that healthcare ranks number one. The commercial payor process in healthcare
+    is broken to the core, mostly by design, to create friction that intentionally
+    minimizes payment to providers and reduces the liability of payors. The process
+    sucks for both sides.\n\nConsumers typically have insurance through employers,
+    reducing or eliminating choice. Payors then have networks of approved providers,
+    thereby dictating which providers those consumers are allowed to see, again reducing
+    choice. Then, when consumers go to their provider to get care it’s nearly impossible
+    to have an accurate idea of their responsibility before a service is provided;
+    they only find out much later how much the service cost, how much the payors haggled
+    the price down, what the payor covered, and what amount is left for the individual
+    to pay.\n\nBelieve it or not, the provider side is worse. Payors are heavy handed
+    — to put it mildly — with providers in negotiating payment rates. For example,
+    commercial payors pay providers vastly different rates based on the supply and
+    demand for different specialties in different geographic areas. Payors also drag
+    their feet and take anywhere from 60 days to 6 months after applications are submitted
+    to approve new fully-licensed physicians and add them to their networks. Then,
+    providers submit claims and those claims are either rejected (based on real or
+    not even real mistakes in claim submission and documentation) or paid within some
+    period of time (usually 30 to 90 days). Providers can then dispute rejected claims.
+    This is a lot of work and providers spend lots of money to increase collections
+    and speed the time to collections; simplistically this is “revenue cycle management”
+    and is a multibillion-dollar industry in its own right in healthcare.\n\nWhen
+    something goes wrong, consumers often blame providers; read provider reviews online
+    and you’ll see many of them are complaints about payment. It’s a lot easier to
+    blame the provider, with a face in front of you, vs the payor with it’s oftentimes
+    outsourced call center service options.\n\n## The commercial insurance model of
+    care insulates both providers and patients\n\nOne of the major hurdles in applying
+    free market principles to healthcare in the United States is that, as I laid out
+    above, the parties involved in the healthcare services transaction — the provider
+    and the patient — are insulated from the financial transaction. I’m talking about
+    the commercial insurance model of care that dominates our health system today.
+    In this model, while there is typically some financial exchange with patients
+    paying a deductible and, at times, some amount of patient responsibility at or
+    before care is provided, oftentimes the bulk of payment for healthcare services
+    is done separately, insulating providers and patients. This insulation is true
+    even of providers in small private practices and is especially true for employed
+    physicians who typically track what are called relative value units (RVUs), not
+    collections, that determine their salaries; RVUs are a topic unto themselves and
+    beyond the scope of this post.\n\n## Are cash-pay medical practices the solution?\n\nWhat’s
+    the reaction to this? Cut out the payors. This is what cash-pay medical practices
+    are all about. Whether you call it cash pay, subscription medicine, direct primary
+    care, or concierge medicine, the underlying commonality is cutting out the payors.
+    This is providers and consumer reacting to the frustration and overhead of working
+    with payors. The desirable outcomes are similar for both providers and patients
+    — longer appointments, more timely access to providers (off hours is usually included),
+    and real accountability.\n\nCash-pay medicine has seen a tremendous growth in
+    popularity and will continue to grow as the traditional commercial insurance model
+    of healthcare continues to get worse. [Survey data consistently shows](https://www.forbes.com/sites/brucejapsen/2013/01/30/1-in-10-doctor-practices-flee-medicare-to-concierge-medicine/#4819d6514568)
+    that a high number of providers are interested in switching to concierge medicine.
+    Sadly, the poster children for building networks and scaling cash-pay medicine
+    have not fared well —  [QLiance](https://www.seattletimes.com/business/qliance-closes-after-10-year-effort-at-new-approach-to-basic-medical-care/)
+    and [Turntable Health](https://lasvegasweekly.com/intersection/2017/jan/11/turntable-healths-closure-leaves-downtown-patients/)
+    have struggled and had to shut down. [One Medical](https://www.onemedical.com)
+    has grown more slowly than expected and has had to raise almost $250M in the process.
+    \ Some, like [MedLion](https://medlion.com), are trying to sell subscription medicine,
+    mainly virtual care, through employers.\n\nThe lessons from these companies is
+    not that cash-pay medicine doesn’t work ([here’s data](https://stateofreform.com/news/industry/healthcare-providers/2015/01/qliance-study-shows-monthly-fee-primary-care-model-saves-20-percent-claims/)
+    showing saving from cash pay), it’s that scaling a network of cash-pay medical
+    practices is very hard in today’s healthcare environment. Cash-pay practices that
+    hold old on and remain outside the system will be smaller, more independent practices.
+    That’s the biggest obstacle to cash-pay medicine — converting small practices
+    is hard and perceived as very risky. But, those smaller, independent cash-pay
+    practices are starting to share their stories and insights through online forums.
+    These online forums, like Facebook groups, are reducing the barriers for providers
+    to convert practices to cash pay. I personally know multiple physicians who are
+    planning to convert to cash-pay practices in 2018 and their main source of information
+    is Facebook.\n\nAt the same time, consumers/patients are more open to cash-pay
+    practices. As healthcare delivery and traditional, claims-based payment have become
+    more convoluted, consumers have become more willing to pay directly for higher-level
+    access to their providers. I don’t think a large portion of the public is ready
+    to spend $150-$200/mo. for concierge medicine but I do think a decent proportion
+    is willing to pay $40-70/mo.\n\nAs more providers leave traditional payor based
+    healthcare to open cash-based practices, more consumers are willing to sign up.
+    And, as that happens, we are seeing more digital health technologies built to
+    help cash-based practices — [Hint Health](https://hint.com) manages the back office,
+    [Atlas.MD](https://atlas.md) is a subscription-based practice EHR, and [Spruce
+    Health](https://sprucehealth.com) connects providers directly to patients and
+    allows practices to easily offer new, differentiated services to patients. This
+    is the cycle that will push more cash-pay medicine into healthcare. \n\nCash-pay
+    medicine is not for every provider and not for every consumer. But, it does fit
+    well with a growing number of independent practices that want to remain viable
+    and can’t survive against larger provider networks and health systems. I predict
+    2018 will be the year that cash pay, subscription medicine becomes a real option
+    for both providers and patients.\n\nFollow the healthcare trends series by subscribing
+    to blog updates on the right. Next up, we’ll discuss [post-EHR healthcare](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).
+    \n\n"
+  :featured_image:
+    :id: q4UoSdhIFqiIMwMUyCMqy
+  :share_image:
+    :id: 387RjyARYsIeUica004UYO
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+- :id: 6HGfV9t6zSwAGKcackWSsM
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2018-01-19T19:55:54+00:00'
+    :created_at: '2018-01-19T19:55:54+00:00'
+    :id: 6HGfV9t6zSwAGKcackWSsM
+  :title: 'Richard Milani, MD: How Innovators Can Improve The Clinical Experience
+    For Patients'
+  :slug: richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients
+  :pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guest:
+    :id: 1KKC5L5yba6KA6YgUm6GCe
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/386122031&amp;color=%231055ff&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+  :summary: We didn’t begin seeing the Clinical Transformation Officer role within
+    healthcare in wide numbers until around 2014. Possibly this is due, in part, to
+    the multi-disciplinary domain of digital health becoming widely viewed as providing
+    an avenue for transforming healthcare at the same time. Today’s podcast with Ocshner’s
+    Clinical Transformation Officer Dr. Richard Milani takes even those with limited
+    knowledge of the role and provides context into how this role fits within the
+    ecosystem of healthcare innovation. Datica's Chief Data Officer, Mark Olschesky,
+    sat down with Dr. Milani while in New Orleans to speak at the HL7 Partners in
+    Interoperability Summit, and visited with him to learn more about the innovations
+    that Ocshner is delivering—and how this health system views clinical transformation.
+  :key_takeaways: |-
+    1. Learn what a Clinical Transformation Officer is and more on this unique role in healthcare
+    2. Discover where the greatest cost of care is in the U.S. health system and how Ocshner is addressing it
+    3. Get an inside view of why vendors’ pilot pitches fail and why some succeed
+    4. Hear what has been added to the triple aim to bring it up to the quadruple aim
+  :post: |-
+    ### Dr. Milani responds:
+
+    **On why health systems are adding Clinical Transformation Officers:** "We realize and recognize that we have to transform ourselves in order to be more cost-effective and achieve better quality outcomes — not only the U.S. but across the world.
+
+    Their sole purpose is to be able to ready health systems for the needed transformation that is coming."
+
+    **On value-based care:** "I think that it is the best thing that could happen for people, because at the end of the day you want to see a physician or go to a hospital that's going to deliver high value, high quality, safe care, in the most efficient way possible for you so you can get what you need done, get out safely and not have problems that occur, or repeat hospitalizations for whatever procedure you might have had."
+
+    <p class="float-right-on-medium">
+      <a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875" rel="external" title="Death and Dollars: Solving the Epidemic of Chronic Disease Book" >
+    <img src="//images.contentful.com/189dvqdsjh46/18gLtNi7ywMuKwqcUQaWsw/4ba1221c38110e64e137740f85fc48f0/Death_and_Dollars_-_Milani_Book_cover.jpg?w=300" alt="Death and Dollars - Milani Book" width="150">
+      </a>
+    </p>
+
+    **On the largest constraints for delivery of new innovations:** "The biggest constraints are always going to be culture. We have to appeal to what is best for our customers and in this case patients are our customers; that generally helps things along. But typically the greatest difficulty you will have is culture and moving culture around.
+
+    **On how the Ocshner innovation team works with the IT department:** "We are independent but we are close in terms of not interfering with the day-to-day job that they have to perform, which is to keep the trains running on time. They need to make sure that our EMR is up-to-date, operational, safe, effective, secure and those are critically important functions. We work side by side with them."
+
+    **On the vendor approach that doesn’t align with a health system:** "What doesn't work is if a vendor is just purely just trying to sell their product and they are not interested ultimately in making this frictionless."
+
+    > I see vendors and systems coming together much more collegially than in the past and clearly and has demonstrated the real significant impact of interoperability.
+
+    **On the state of interoperability:** "I see vendors and systems coming together much more collegially than in the past and clearly and has demonstrated the real significant impact of interoperability. Having the information in one location where we can now categorize and do all kinds of things with that information to interact with the patient at the right moment, at the right time, and at the right place is critical for us."
+
+    **On Ocshner’s transformation focus:** "Our mantra has always been the quadruple aim. Anything that we do from an innovation perspective tries to target at least one, if not all the principles of the quadruple aim, which is namely improving the health of the population, improving the quality of the care that we provide, reducing the costs of care for our population and finally, the fourth aim is now — how can we do this while improving the workload on the providers of care."
+
+    **On ideas for clinicians and informaticists working at startups:** "Clearly, for any startup in the healthcare sector, it's going to be difficult for you to be able to sell whatever product you have, unless you have some real-world data and outcomes based on that data. I think it would be very important for any of these small startups to develop relationships with delivery systems to say: We've got this idea. Do you think this has legs? Not only to test it out, but to get advice and feedback. We provide counsel to a lot of small startups. Sometimes the way they imagine healthcare delivery to be is somewhat different than it really is."
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 3IyK2kwMuAaO4iWec8YKQO
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-11-09T18:39:22+00:00'
+    :created_at: '2017-11-08T20:12:56+00:00'
+    :id: 3IyK2kwMuAaO4iWec8YKQO
+  :title: 'Esther Dyson Q&A: On digital health and getting to the end game'
+  :slug: esther-dyson-q-and-a-on-digital-health-and-getting-to-the-end-game
+  :pub_date: !ruby/object:DateTime 2017-11-08 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: Esther Dyson, whose career includes journalist, author, businesswoman,
+    commentator, philanthropist, angel investor, and even backup cosmonaut, sat down
+    for an interview with Datica CEO Travis Good, MD.
+  :blog_lead: "This November, the [Healthcare Innovators Podcast](https://datica.com/podcast/)
+    interviewed a very special industry guest. Due to audio difficulties, we chose
+    to run a transcript of our fascinating conversation. \n\nEsther Dyson has worn
+    many different hats during the course of her career, including journalist, author,
+    businesswoman, commentator, philanthropist, angel investor, and yes, even backup
+    cosmonaut. Esther sat down for an interview with Datica CEO Travis Good, MD. In
+    this interview, she shared some of her thoughts around ways to increase digital
+    health success, the importance of security and privacy for digital health firms,
+    and gave us an update on her nonprofit initiative that selected five American
+    communities to use different measures to cultivate health and invest in the value
+    wellness returns. "
+  :post: "> Don't be afraid to try. Work under the assumption that it will work and
+    if it doesn't work, figure out why. In a startup you are doing things people have
+    never done before.\" - Esther Dyson \n\n## Q & A with Travis Good and Esther Dyson\n\n**Travis
+    Good, MD:** _Esther, you’ve said in the past that as an angel investor you like
+    to focus your investments on disease prevention versus technology around disease
+    treatment. Can you tell us a bit more about that philosophy?_\n\n**Esther Dyson:**
+    In general, you get a better return on keeping things working and investing in
+    capacity than you do in trying to repair things that are broken. To some extent,
+    people sometimes take that for granted. They do general maintenance to their cars
+    and they conduct home maintenance, but often forget when it comes to their own
+    bodies. People generally don't go to the doctor until they are sick and by that
+    time, it is extremely expensive to try and fix the problem. It's expensive not
+    just for you, but also for the healthcare system. It’s also expensive for your
+    employer and you are probably less productive there. For individual investors
+    and for society in general, it makes more sense to keep us healthy. Obviously,
+    a big market exists for fixing people who are broken, but given that I have limited
+    resources, I'd rather try to put the people who are trying to “fix what is broken”
+    out of business by keeping everybody healthy.\n\n> Let’s start with the simple
+    proposition that health is an asset. It might be our most important asset. And
+    like any asset, if we cultivate it we increase the value it returns. We’re not
+    talking about fixes when health is broken; those are important but they happen
+    too late.\n— [Way To WellVille](http://www.wellville.net/about-wellville/)\n\n**Travis:**
+    _I would agree that obviously prevention is the ideal path so that makes sense
+    from an investment standpoint, as well. I want to shift gears to something you
+    founded in 2013. You rebranded the Health Initiative Coordinating Council (HICCup)._\n\n<img
+    class=\"float-right\" title=\"Dyson - WaytoWellville-logo\" src=\"//images.contentful.com/189dvqdsjh46/KIxLr1iDGmiyYAi6cS4mG/d2080c6197ba94f2841c853c77015aac/Dyson_-_WaytoWellville-logo.png?w=400\"
+    width=\"200\">\n\n**Esther:** In 2013, I founded Way to Wellville, which is a
+    nonprofit and it does exactly what we are talking about. The investment pays off
+    but the business model doesn't necessarily pay back to the investor, so that's
+    why [Way to Wellville](http://hitconsultant.net/2015/02/12/esther-dysons-way-to-wellville-challenge/)
+    is a nonprofit. We are trying to show the value of investing in health. Ultimately,
+    governments, communities, and employers will realize there's a huge ROI. In 2014,
+    we selected five communities from among 42 that applied. Now, the Wellville team
+    of five are working with actual communities to help make them healthy. By the
+    end of ten years, we hope to have enough success and visibility that we actually
+    persuade other people to follow our path.\n\n> These are all real places with
+    real people. They are not social experiments; they are not new towns, but just
+    places that have decided they would like a better future for their residents.
+    [Wellville is] helping them build that for themselves.\n\n**Travis:** _My understanding
+    is that the goal with these communities is to see which one could most improve
+    five measures of health and economic vitality over a five year period. That was
+    2014; we are almost in 2018 now. Could you update us on how that's going?_\n\n**Esther:**
+    As I mentioned, we pivoted. It did start out as a contest, but it turned out the
+    communities were not interested in beating one another, they really wanted to
+    collaborate and learn from one another. It also became clear that ten years is
+    a more realistic timeframe. Like any startup, we've morphed. It turns out that
+    getting communities and community leader groups coordinated and organized has
+    a long gestation period. It's very much like a startup; it takes a few years to
+    build your team, try out an NVP, then discover that you need to change everything.
+    We are now much more focused on children and parents and prevention of diabetes.
+    If you can help the parents be better parents, or you change the children's experience
+    positively, that's what's going to pay off best in the long run. \n\nDiscussions
+    now center on [the opioid crisis](https://www.theguardian.com/commentisfree/2017/nov/07/truth-us-opioid-crisis-too-easy-blame-doctors-not-prescriptions);
+    they keep talking about the drugs, but they should also be talking about why people
+    are so vulnerable to these drugs. What makes them unable to resist? Not everybody
+    who takes an opioid suddenly gets addicted, yet a number of people do and that's
+    partly because their childhood was so insecure. It’s very hard if you've grown
+    up not being able to trust the people around you. There's a lot of data on so-called
+    adverse childhood experience that show direct correlation between that and addiction,
+    unemployment, crime and all kinds of social ills. So we are trying to go upstream
+    and address it from the start. \n\n**Travis:** _Are you working with the communities
+    to define those measures and strategies, or are they coming to you?_\n\n**Esther:**
+    We put out a call for applications in 2014. Forty-two communities applied; we
+    picked five. Our role is like a personal trainer, or perhaps a startup coach.
+    It's still the community that has to do the work; it’s their people; it's ultimately
+    their achievement. We might eventually make ourselves unnecessary, but in the
+    meantime, we can give them advice, introduce them to what the other communities
+    are doing, introduce them to vendors and to potential funding sources. Way to
+    Wellness was funded by me and I'd certainly love others to join, but the community
+    projects are funded directly by funders, whether it is Medicaid, or philanthropy
+    or a government grant; it's between those funders and the communities. It's theirs,
+    not ours and we are not looking to be visible or recognized. We are looking for
+    them to take on the responsibility, do the work, make a difference, train their
+    own people and have something to be really proud of.\n\n**Travis:** _It's exciting
+    to hear when people are working with communities, especially some small communities.
+    What happens after that initial 10-year period?_\n\n**Esther:** The goal is to
+    build something sustainable. Instead of, “Oh we have a class for 60 overweight
+    women.” We want to hear, “We have now trained 30 dieticians and nutritional counselors,
+    exercise coaches and they are community members, and they now have jobs and they
+    are keeping those people healthy.”  This is the problem: Just as people get addicted
+    to drugs, ironically, communities and nonprofits often get addicted to pilots.
+    The pilots are great. We often hear, \"This pilot’s going to be really wonderful
+    and we'll have a trial with 30 people.” The pilot works then we often hear \"We've
+    run out of funding and the funders want to do something more innovative.\" We
+    are not trying to do something innovative; we are trying to do something that
+    works and then scale it. \n\nWhen Walmart opens a store, they are not running
+    a pilot to see if the store works. If the store somehow isn't working, they find
+    a new manager, they do more training, but they don't say, \"Oh, the concept of
+    this really doesn't work.\" We are trying to get that kind of accountability.
+    These programs work, if effective people are brought in, screened and trained.
+    People need transportation, as well. There are lots of local challenges that you
+    need to overcome. There's no magic here; there's simply implementation, persistence,
+    and being in it for the long-term, versus \"we'll get some results and then see
+    what happens.\" \n\n**Travis:** _As you were talking through that in terms of
+    building something that is sustainable, real, and can scale, I imagine that's
+    the same thing you would say to some of the companies that you invest in and how
+    they should view pilots._\n\n**Esther:** Yes, very much. Don't be afraid to try.
+    Work under the assumption that it will work and if it doesn't work, figure out
+    why. In a startup you are doing things people have never done before. People have
+    done diabetes prevention programs before. They have trained communities better.
+    What we are not doing is coming to these communities and doing exotic research
+    and turning people into specimens. We are helping them do things that typically
+    don't scale. Instead of doing something that is often different, you are trying
+    to do something new that hasn't been tried before and learn from failing. In our
+    communities, you learn from failing. Maybe we need to train people better or maybe
+    we didn't market this program effectively enough or we need to provide some type
+    of incentive or we need to provide child care so that people can attend the course,
+    because hey, they don't have childcare — what a surprise! It's those kinds of
+    things.\n\n> It's very easy to guarantee someone privacy, but you also need to
+    make their data usable. Many companies are trying to do that, but they don't understand
+    that they need to train users and understand the workflow in hospitals. Many companies
+    think they have a solution, but they don't necessarily know how to actually get
+    it installed and working in the actual healthcare environment.\" -Esther Dyson\n\n**Travis:**
+    _I want to shift gears a little and talk about one of the company that you are
+    invested in, I read something about a merger between Digi.me and Personal. In
+    terms of joining forces, they are looking to address the challenges around enhancing
+    privacy with healthcare data. But at the same time, enabling people to share and
+    potentially combine and analyze data. As you think about your investment there,
+    can you share your thoughts on the importance that must be made by healthcare
+    IT companies on privacy and security?_\n\n**Esther:** Privacy and security are
+    really important but to some extent, there are regular privacy breaches, which
+    is an issue to fix. Privacy and [HIPAA](https://datica.com/discover/hipaa-compliance/)
+    often obstruct good healthcare. What you need for good healthcare is to know more
+    about the person, not just their result on a particular test. Where do they live?
+    What is their income level? In case of opioids, have they applied for drugs at
+    any other place? Do they have multiple sources of supply? It’s not a complicated
+    thing, it's having both security, privacy and effective data sharing. That's what
+    is challenging. It's very easy to guarantee someone privacy, but you also need
+    to make their data usable. Many companies are trying to do that, but they don't
+    understand that they need to train users and understand the workflow in hospitals.
+    Many companies think they have a solution, but they don't necessarily know how
+    to actually get it installed and working in the actual healthcare environment.
+    \n\n**Travis:** _How do you advise companies to help them navigate that path towards
+    implementing the solution and into the workflow of the health system?_\n\n**Esther:**
+    I'm generally pretty skeptical. I was just at the doctor earlier this week and
+    had blood tests. I got the tests back and they were in a PDF. What I'd really
+    like to see is my FitBit data and other personal data, to determine how the blood
+    tests changed over time. What I had was a long list of PDFs from various dates
+    that were completely useless. Part of the problem is that most of these institutions
+    are using large legacy mainframe systems that are incredibly cumbersome. You really
+    start to think: \"Throw this all out and start fresh.\" That's what a number of
+    vendors are doing but of course, it is very hard to replace the huge installs
+    of these systems. \n\nI'm on the board of a company called Wellpass, and invested
+    in quite a few others, including 4D Healthware, Healthcelerate, [HealthLoop](https://datica.com/customer/healthloop/),
+    Vital Score. They all sell into healthcare systems, and need to understand how
+    they work. I don't think a twenty-two year old who just graduated from Stanford
+    can know how to fix the healthcare system. You need to have someone that has actually
+    worked in a hospital or an insurance company on your team. That's not just so
+    you have contacts, but more importantly so that you understand the context, how
+    the system works, how the data actually flows. I went to a continuing medical
+    education conference once; they had this table where they were handing out medical
+    advice for doctors. There was a stack of stapled handouts — twenty-five sheets
+    each, double-sided, so fifty pages per handout. Each page was a spreadsheet about
+    some particular thing the doctor should do with their patient during the patient
+    interview — which of course lasts max fifteen minutes. As a doctor, they are probably
+    spending eight or nine minutes typing and and five minutes actually talking. Now
+    here’s this sheet of fifty things they are supposed to be doing; some of them
+    they’re already doing, and some are only for teenagers and or for women. But you,
+    as a vendor, you have to understand that you are either replacing one of those
+    fifty things, or adding to them. Do you really understand that context? Can you
+    fit into it or make it better with your extra page? Of course, some things are
+    for the administrator, or the nurse discharging patients. But whatever your tool
+    does, how does it make those people’s lives better and easier? \n\nThat's the
+    challenge. Healthcare is a very cumbersome and change-resistant marketplace. The
+    companies that have been the most successful are the ones that are eroding things
+    around the edges. I love this marketplace because it is interesting and important
+    but, if you want to be in this marketplace, you need to understand the challenges.\n\n**Travis:**
+    _As we think of how to augment, expand, extend, or in some way work with the EHR
+    and EHR data — taking that data and transform it into something a bit more meaningful
+    than a CCD or some big PDF — I'm curious what you are finding there._\n\n**Esther:**
+    One company out there called PicnicHealth will take your medical records and automatically
+    parse them as much as they can and then have humans do the rest. They will have
+    people on the phone calling to get your medical documents from all these different
+    vendors or different providers and they will make them all into one piece that
+    is intelligible. That is really an exciting proposition. As I was just talking
+    about my blood draws, I realized I should just call them up and see how they are
+    doing and use the service. \n\nThe challenge, of course, is that there are so
+    many different varieties and layouts. There is an accepted medical vocabulary
+    but there are always little exceptions here and there. A blood value is not something
+    you want to get wrong. For the patient, but also for the doctor, you want to make
+    sure that if you are comparing data from multiple sources, you want to make sure
+    the data is absolutely consistent across all these different sources. It's a challenge
+    and there is both a real danger to people and real liability to companies if they
+    do it wrong. So, it's going to be a slow process. The more standardized things
+    get, the better. Whether you are on a Mac or a PC, we can amazingly have this
+    conversation, across different kinds of computers and it is working, more or less.
+    \n\n**Travis:** _It is interesting to see how different companies are approaching
+    that challenge, both from a consumer standpoint and from FHIR and direct-to-consumer
+    enablement authorization of data._\n\n**Esther:** At one end, somebody like [Apple
+    and HealthKit](https://datica.com/blog/what-does-healthkit-mean-for-healthcare/)
+    is really fostering that. It’s possible; consider how it happened in banking,
+    with Intuit. They had this tool Quicken that would let individual bank customers
+    interact with their bank portals. Intuit started by reverse-engineering the interfaces
+    of a couple of big banks - probably Citibank and BankAmerica (I’m not sure) -
+    so users of those banks could download their own data and manage it for themselves,
+    even consolidating data from multiple accounts. At first, the banks were very
+    resistant but after the first two or three were done, and the customers started
+    engaging more with their banks, the other banks noticed. They started saying,
+    \"Wow, they are not losing their customers; in fact, those banks are getting even
+    more buy-in from their customers. We want this, too.\" They went to Intuit and
+    said, \"Please do an API [application program interface] for us.” Suddenly the
+    dynamics had changed. Intuit came back and said, “If you want to hook up your
+    banks to us, then you have to do the work, but sure, we'd be glad to let you address
+    our customer base.” With luck, that's what's going to happen in healthcare. There
+    are going to be a lot of vendors now that are interested in working with HealthKit
+    and other intermediaries. You are beginning to get this widespread recognition
+    that, of course, individuals should be able to see their Fitbit data matched against
+    their RunKeeper data and someday matched against blood draws and all the other
+    stuff.\n\n**Travis:** _I want to follow up on something else you said. There's
+    been a ton of investment in the digital healthcare space over the last five to
+    ten years. You mentioned about having someone with experience on the actual care
+    side. Can you share two or three consistent success threads that help take a startup
+    from a seed investment up through multiple series, from A to B to C?_\n\n**Esther:**
+    Basically it all comes down to the team. You need to know something; you need
+    to work together effectively; but then you need to be willing to learn and change
+    into it; be agile and be humble and all this kind stuff. It's really the attitude
+    of “I love what I'm doing, I'm learning from what I'm doing and I'm responding
+    to what I'm learning.” Then, it helps if you have a good idea and you are working
+    with interesting problems. There are lots of specifics to health or healthcare
+    but the fundamental things that make startups successful are pretty much the same.
+    \n\n**Travis:** _Curious on team, and investing in team, as you look at presentations
+    and pitch decks, do you have an opinion on an ideal team or an ideal mix of people
+    on a team that you like to see and you like to invest in._\n\n**Esther:** Very
+    clearly, it doesn't consist of the three best people in the world, it consists
+    of the best team of three or four, or whatever. A lot of people miss one out of
+    the three or four, but you need someone with medical industry knowledge and connections;
+    you need someone with technical capacity to build what you need; you need someone
+    who understands, whether it is the consumer or the healthcare system that you
+    are selling into; but, you also need someone who understands the user proposition,
+    especially in healthcare where often the payer is not the same as the user. The
+    payer may be the insurance company or the individual, but it may be that the payer
+    is the hospital, but the user is a doctor or a nurse. \n\nIt goes back to the
+    old software industry, where there was this wonderful set of companies called
+    value-added resellers (VARs). They would take the product and go find a corporate
+    customer. They would train the IT department and help IT install the software.
+    Then they would train the users — the employees making phone calls or doing accounting
+    or customer support. The VARs understood it was their problem to make the buyers
+    — and the buyers’ employees — like the product. Without VARs, the software vendors'
+    customers would usually pilot the software and think it was great, but then they
+    would buy it and find out they couldn't get their employees to use it. The vendor
+    got the money the first few times and started getting bad references for the product.\n\nI
+    think we need a better understanding of the role of VARs (or whatever you want
+    to call them these days) in the healthcare market. Whether it’s a third-party
+    VAR or your own sales support, you need someone who understands how the hospital
+    works, or how the insurance company works to insert their product into the workflow
+    and actually make it useful and make the end-user customer say, \"Oh my gosh,
+    this makes my job so much easier. I can do referrals automatically instead of
+    having to handwrite something on a piece of paper and give it to my nurse and
+    she puts it on my desk and it gets lost and I don't get the referral back and
+    forth with the other doctors.\" And, of course, the patient doesn't get the benefit
+    of going to see the dermatologist.\n\n**Travis:** _Before we conclude the interview,
+    Esther, I wanted to ensure we covered everything on the Way to Wellville so that
+    we didn’t miss anything there._\n\n**Esther:** Well, I did want to mention [the
+    five Wellville communities](http://www.wellville.net/wellville-5/), just in case
+    in case anybody listening either lives in one of them or is nearby. The Wellville
+    partner in Muskegon County, Michigan, which is the one that I work with most closely,
+    is called [1 in 21](http://www.wellville.net/wellville-5/muskegon-michigan/).
+    The Wellville partner in Spartanburg, South Carolina, is called [Spartanburg’s
+    Way to Wellville](http://www.wellville.net/wellville-5/spartanburg-south-carolina/).
+    There's [Hope Rising](http://www.wellville.net/wellville-5/lake-county-california/)
+    in Lake County, California, which is just north of Silicon Valley. There's [Way
+    to Wellville: Clatsop County](http://www.wellville.net/wellville-5/clatsop-county-oregon/),
+    northwest of Portland, Oregon. And there's the [Triple Aim Collaborative](http://www.wellville.net/wellville-5/north-hartford-connecticut/)
+    in North Hartford, Connecticut. These are all real places with real people. They
+    are not social experiments; they are not new towns, but just places that have
+    decided they would like a better future for their residents. We are helping them
+    build that for themselves. You can find us at [wellville.net](http://www.wellville.net).\n\n**Travis:**
+    _Wonderful. Thank you for joining us today, Esther._\n\n**Esther:** Likewise,
+    it was great. Thank you very much. \n\n<div class=\"callout callout--gray-light
+    lead\" markdown=\"1\">\n\nIn December, the Healthcare Innovators Podcast will
+    hold its first in-person interview down in New Orleans at Ochsner Health System.
+    Our guest will be Chief Clinical Transformation Officer [Richard Milani, MD](https://news.ochsner.org/executive-leadership/richard-v-milani-md-facc-faha/)
+    who will sit down with Datica’s Chief Data Officer Mark Olschesky to discuss more
+    on digital health.\n\n</div>"
+  :featured_image:
+    :id: 3JZaSOCgsE6Ai0maKSokKQ
+  :share_image:
+    :id: 4AFwb8MG2s6cMaMcmA2GGg
+  :featured_person:
+    :id: VMlb1WqZyuOyWqKEASuks
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :related_entries:
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 3Fc24uTlqweogKgSaiymOM
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

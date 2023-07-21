@@ -1,0 +1,125 @@
+---
+:id: 3C9AXh8NhCKwKUAwI4I2m
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-16T22:51:12+00:00'
+  :created_at: '2016-11-23T06:51:37+00:00'
+  :id: 3C9AXh8NhCKwKUAwI4I2m
+:title: Changing Reimbursement Means New Opportunities
+:slug: changing-reimbursement-means-new-opportunities
+:pub_date: !ruby/object:DateTime 2014-04-09 00:00:00.000000000 Z
+:tags:
+- :id: 4TyZlvypiw6yMeuGG8W4mu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:11:18+00:00'
+    :created_at: '2016-11-23T01:11:18+00:00'
+    :id: 4TyZlvypiw6yMeuGG8W4mu
+  :tag_full: mHealth
+  :slug: mhealth
+  :description: '"Mobile health" is a general term for the use of mobile phones and
+    other wireless technology in medical care. The most common application of mHealth
+    is the use of mobile phones and communication devices to educate consumers about
+    preventive health care services.'
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'Mobile health, or mHealth, isn''t a panacea, but it is a catalyst for new
+  processes, workflows, data collections, and ultimately care, whether that''s self
+  care or clinician-provided care. '
+:blog_lead: 'Health technology is hot. Entrepreneurs are flocking to it and it''s
+  becoming a lot more attractive to [investors](http://rockhealth.com/2014/01/2013-digital-health-funding-report/).
+  A big area of interest, one we are betting on as well, is the power of mobile technology
+  to reshape all aspects of healthcare. Mobile health, or mHealth, isn''t a panacea,
+  but it is a catalyst for new processes, workflows, data collections, and ultimately
+  care, whether that''s self care or clinician-provided care. When we say "mHealth",
+  we''re speaking to more than apps but also sensors, messaging services, and other
+  connected devices.
+
+'
+:post: |+
+  What are the hurdles for mobile health? It's healthcare, a highly regulated industry with payment complexity that's hard to fathom. Lots of people, and [studies](http://www.brookings.edu/~/media/research/files/reports/2014/03/12%20mhealth%20china%20united%20states%20health%20care/mhealth_finalx.pdf), cite payment reimbursement as a major hurdle. Healthcare today is still largely based on delivering care, getting people in the door, and poking and prodding; that's what keeps the lights on today. Here's a simple example - getting people to send you a pain score through SMS or a mobile app isn't reimbursable directly (there aren't billings codes or modifiers for billing codes for these things). It's a lot harder to make a convincing ROI argument for mHealth apps and services without reimbursement.
+
+  But there are several changes coming to healthcare, some of which are already here but not at scale, that make mHealth more attractive with a more clear ROI. Triple Tree has a good [post](http://www.triple-tree.com/blog/2014/04/08/four-cms-initiatives-that-may-reshape-hospital-reimbursement/) on four major CMS initiatives that are changing reimbursement.
+
+  * **Readmission Prevention** - simply put, if a patient sent home (discharged) from a hospital with a certain condition returns to the hospital (and is admitted) within 30 days then that's a readmission. If rates of readmission for certain conditions are high enough, compared to other hospitals, then the lower performing hospitals, ironically the ones that are probably in more financially precarious positions, will have reimbursements reduced. Right now it's only 30 days but readmission rates go up considerably at the 60 day, 6 month, and 12 month marks, and organizations eventually will be taking a financial hit on all of those as they take on more risk in payer contracts and as participants in ACOs.
+
+  * **Hospital Acquired Conditions** - if a patient, while in the hospital, gets a new condition (like an infection), then that is "hospital acquired". Patients in hospitals are extremely vulnerable, and hospitals are disgusting places from an infectious disease perspective, so hospitals need to get much better at proactively addressing major problems like patient position rotation (laying in bed creates bed sores) and hand hygiene. Like readmissions, this is based on aggregate and relative performance.
+
+  * **Value-Based Purchasing** - this is a fun one because it's both a carrot and a stick. Hospitals are compared to other hospitals based on clinical, mortality, and patient experience / satisfaction. Depending on how they score, they can have reimbursements increased or decreased. This is so broad is very hard to tackle other than with large scale, org-wide initiatives. It touches on a lot more than just technology, or just certain conditions.
+
+  * **Bundled Payments** - this is my favorite from a point of entry perspective if I was a mobile health developer. Hospitals agree to take capitated, or bundled payments (a set amount), for certain conditions. This is great for a hospital because it can choose a certain procedure, and focus efforts on doing that really, really well. If it can reduce the cost for that procedure, the payment for that procedure stays the same and the hospital keeps that delta.
+
+  All 4 areas above represent great target opportunities for new technology, and much of that new technology will be mobile, or at least have a mobile component. As the author of the Triple Tree post concluded - "Companies positioned to support hospitals in these new endeavors will find increased interest and engagement from the provider community." We couldn't agree more.
+
+  Mobile health has huge potential but also large challenges to overcome. These reimbursement changes solve, either directly or indirectly, one of the major challenges related to selling and scaling mobile health, and we're excited to see companies having success supporting hospitals with initiatives in these areas.
+
+  Datica is supporting some of these companies, both with technology as well as with overcoming compliance hurdles when they sell to hospitals. To learn more about how we can help you, email [us](mailto:hello@datica.com) today.
+
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light

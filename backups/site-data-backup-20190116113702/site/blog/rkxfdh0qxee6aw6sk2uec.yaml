@@ -1,0 +1,510 @@
+---
+:id: rKxfdh0qxEe6AW6sK2Uec
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T01:17:11+00:00'
+  :created_at: '2016-11-23T22:19:27+00:00'
+  :id: rKxfdh0qxEe6AW6sK2Uec
+:title: 'VUE15 Recap: Voalte, Uber & more'
+:slug: vue15-recap-voalte-uber
+:pub_date: !ruby/object:DateTime 2015-11-16 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'Datica sponsored the VUE15 event, which took place in Sarasota, FL, and
+  moderated a panel on lessons learned in mobile health and the path forward. '
+:blog_lead: "This week was the first [Voalte User Experience (VUE)](http://www.voalte.com/vue15/)
+  conference. Datica sponsored the event, which took place in Sarasota, FL, and moderated
+  a panel on lessons learned in mobile health and the path forward. We were happy
+  to be included in the event and to support it; we’re also very excited to be working
+  with Voalte. \n"
+:post: "Overall, it was a great learning and collaborative experience. In talking
+  with [Trey Lauderdale](http://www.voalte.com/about-us/trey-lauderdale/), Voalte
+  founder and CEO, prior to the event, I asked him why Voalte decided to do a user
+  meeting this year for the first time and not in previous years. He told me Voalte
+  wanted to assure they had enough customers and experiences to put together a two-day
+  event filled with high quality content. Voalte wanted attendees to walk away feeling
+  like they got real value out of attending the event. Voalte succeeded in that goal,
+  and did it with typical Voalte personality, and a lot of pink scrubs and [Gator](http://www.ufl.edu/)
+  references. It was a refreshing experience to be a part of such an intimate, collaborative
+  event.\n\nFor those that don’t know Voalte, you likely will soon. \n\nThey provide
+  a healthcare communications platform that integrates text, voice, alarm management,
+  and a slew of other features to facilitate clinical communications, improve efficiencies,
+  and ultimately improve the safety and care of patients. Some statistics about Voalte
+  from the conference:\n\n- Voalte has signed over 150 healthcare facilities;\n- Voalte
+  has delivered over 165 million text messages;\n- Voalte has delivered over 250 million
+  automated messages from things like bed alarms;\n- Voalte has raised over $60M dollars
+  in venture funding to support its growth;\n- Voalte has 4 products - Voalte Platform
+  (new), Voalte Me, Voalte One, and now Voalte Story.\n\nVoalte has a [new partnership
+  with Uber](http://www.prnewswire.com/news-releases/voalte-uber-smh-unite-to-help-address-patient-transportation-challenges-300177760.html)
+  to improve attendance at follow-up appointments for discharged patients. Voalte
+  Platform is an inevitable and powerful evolution for Voalte. It’s a completely new
+  technology that is built from the ground up to be flexible and open. It exposes
+  much of the functionality of Voalte via API and SDK, empowering customers and partners
+  to customize and extend Voalte as they see fit. This openness is something that
+  will enable much of what customers talked about as things they want to see in Voalte.\n\nWhat’s
+  particularly interesting about Voalte is where it sits in the clinical landscape.
+  As many have said, including us at datica, the EHR today is the hub of clinical
+  data and workflows. But, as many also have said, care is largely about communication
+  and EHRs were not built for communication, they were built for documentation and
+  to serve as the clinical database. As [EHRs like Epic](https://datica.com/blog/integrating-with-epic-or-any-ehr/)
+  release mobile tools like Rover for nursing workflows and Cerner releases its own
+  apps for particular workflows, we’re going to see a lot of deep app-linking. But,
+  I also think Voalte’s rich communication functionality, tied to its [openness via
+  API](https://datica.com/blog/open-apis-solve-lack-of-ehr-interoperability/), makes
+  it the likely candidate to be the communications layer for clinical care. And that
+  communication layer now doesn’t have to be outside the EHR, but can be integrated
+  into the mobile and desktop EHR workflows.\n\nThe event wasn’t just about Voalte.
+  One of the more interesting topics discussed was alarm management and alarm fatigue.
+  Voalte integrates alarms to deliver them to users via the Voalte apps. A topic of
+  several sessions at VUE was managing the number and delivery of alarms. Organizations
+  presented data on different departments and different types of alarms. Several healthcare
+  organizations had modified alarming rules and criteria to reduce the number of alarms
+  while maintaining the safety of patients. It’s impressive how they have been able
+  to achieve this. A major theme was coming together as a group to publish evidence-based
+  standards for alarm criteria, something that hasn’t happened yet.\n\nIt was interesting
+  to hear people from places like University of Iowa, UCSF, Sarasota Memorial Hospital,
+  and Tampa General Hospital talk about what their goals are for enhancements and
+  additions to the Voalte experience for users. Some of the things mentioned several
+  times were integration with EHR mobile apps for clinical workflows, integration
+  with clinician and call schedules, and integration of more clinical data from the
+  EHR to add context and value to communications.\n\nOne topic, which is emerging
+  as a topic at several organizations leveraging Voalte Me instead of pagers, was
+  a need for clinicians to be able to disconnect. With pages, clinicians could only
+  carry them when on call. With clinical communications via personal smartphones,
+  this is not possible. What’s funny is we’re dealing with the same issues at Datica
+  with our use of Slack. We have coverage schedules for off-hours issues and downtime,
+  but not everybody is on call all the time. The problem is people sometimes get mentioned
+  in the middle of the night for things that, to put it mildly, are not emergencies.
+  I think the topics of message and chat etiquette are active areas not just for Voalte,
+  but for all organizations moving away from email and to messaging tools.\n\nKudos
+  to Voalte for the hard work that went into putting together a great first user conference.
+  I’m sure after the success of this week, and the growth plans for Voalte, this will
+  not be the last VUE event. We look forward to our continued collaboration with Voalte
+  and support for future VUE events.\n\n"
+:cta_ref:
+  :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-01-19T21:45:28+00:00'
+    :created_at: '2017-03-28T23:55:41+00:00'
+    :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :cta_title: Healthcare Innovators Podcast
+  :cta_desc: How are innovators transforming healthcare? Datica explores this in a
+    new series of interviews with the industry's top thinkers and doers. Follow along
+    with us as we uncover insights to catalyzing change in healthcare.
+  :cta_label: Listen to the podcast
+  :cta_url: https://datica.com/podcast
+  :cta_image:
+    :id: ib5cl395L2yikSwyIEigK
+  :cta_color: dark-alt
+:related_entries:
+- :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:27:26+00:00'
+    :created_at: '2017-02-21T18:53:42+00:00'
+    :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :title: Connected Health Today and in the Future
+  :slug: connected-health-today-and-in-the-future
+  :pub_date: !ruby/object:DateTime 2017-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 3rO97bU0piC0CI0eOg6ksI
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  - :id: 2HUEayZgHmGoSYuAw4qcKO
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Healthcare's version of the Internet of Things is often referred to as
+    connected health. Explore Dr. Joe Kvedar's view on the state of connected health.
+  :blog_lead: The healthcare industry’s version of the Internet of Things (IOT) is
+    very often referred to as the [Internet of Health Things](https://datica.com/blog/the-health-internet-of-things-iot/)
+    or, more commonly, connected health. When most people talk about connected health,
+    they’re referring to the devices, wearables, apps, and other tools that track
+    an individual’s activity or aspects of their health. However, connected health
+    is much more than just a set of devices. As connected health becomes a reality
+    in today’s world, a new model of healthcare delivery is evolving with innovative
+    strategies to move care from the hospital or doctor’s office into the day-to-day
+    lives of people.
+  :post: "\nIn a recent Datica Healthcare Innovators Podcast, [Datica interviewed
+    Joe Kvedar, MD](https://datica.com/innovation/joseph-kvedar), Vice President,
+    Connected Health with Partners HealthCare. Last year, he wrote [“The Internet
+    of Healthy Things,”](http://theinternetofhealthythings.com/) which is packed with
+    real-world information that will help entrepreneurs, innovators, and investors
+    drive the disruption of healthcare delivery. Dr. Kvedar has long been a proponent
+    of personalization in healthcare and is known as one of the greatest HIT influencers
+    in our generation.\n\n>\"There are still some technology problems to be solved.
+    Chief among them is the ability to normalize the data from all of these wearable
+    sensors so that it makes sense.\" -Joe Kvedar, MD\n\n##The connected health journey\nSome
+    aspects of connected health are in play already today and we’re only likely a
+    few years away from reaping the full benefits of this connected health journey.
+    Dr. Kvedar described that journey unfolding in three major phases:\n\n1. **The
+    future is here today in terms of technology.** The majority of the technology
+    is ready for this connected, internet of healthy things world, but some roadblocks
+    prevent clinical providers from leveraging some of this new information. Dr. Kvedar
+    offers, “There are still some technology problems to be solved. Chief among them
+    is the ability to normalize the data from all of these wearable sensors so that
+    it makes sense.” With wearable technology such as a Fitbit, for example, we can
+    already measure steps and calories, but does that tell us a useful story? Dr.
+    Kvedar explains, “They don’t tell a story because no one has been able to translate
+    that data into something that is normalized. So that's a gap.”\n2. **Data analysis
+    will become more personal.** The second step in the connected health journey involves
+    the ability to take all those data feeds and analyze them effectively. “One thing
+    that is most exciting about those data feeds is that they do represent a unique
+    digital fingerprint for each of us, because we do those things all uniquely, whether
+    it is the way we travel with our phones, or our step counts.” Dr. Kvedar says.
+    “The next technical challenge is to be able to harness all of that data and create
+    a unique profile.”\n3. **Business engagement.** The final part of the connected
+    health journey is the engagement with the consumer to propel action, for example,
+    motivating them to make a healthier choice. This third level is just starting
+    to happen today despite both technical and business model hurdles, although Dr.
+    Kvedar says the business model hurdles are starting to break down. “For instance,
+    United Health Group now offers 100,000 insured people a smart wearable device.
+    If they achieve three kinds of fitness goals during a day, as measured by that
+    wearable device, they get $4.00 added into their health savings account.” \n\nSome
+    parts of the healthcare industry seem to embrace the connected health journey
+    faster than others. “Companies like Walgreens are embracing this idea of taking
+    in wearables’ data and giving consumers something back in return. They are all
+    seeing improved outcomes as a result,” comments Dr. Kvedar. On the other end of
+    the adoption scale are doctors and hospitals. “Docs and hospitals are used to
+    making a living by taking care of sick people and we haven't quite figured out
+    how to reward clinicians for keeping people well or how to reward hospitals for
+    keeping people out of hospitals.” Those business model challenges are happily
+    being worked on,” Kvedar explains.\n \n##Roadblocks to interoperability \nEven
+    though the technology is just about there to enable connected health for consumers,
+    there are still major industry changes that need to occur in the area of interoperability.
+    \ Dr. Kvedar described these biggest impediments to interoperability:\n \n- **Proprietary
+    technology.** Interoperability doesn’t seem to be in anybody’s financial best
+    interests. Take a look at technology vendors, for example. “If you are an IT vendor,
+    almost all of them, up and down the stack, whether it's  telecom all the way down
+    to database, or even hardware, all of them want to bring you in and upsell you
+    new things. They can only upsell you if they build barriers to others entering
+    their space, and that means that they are doing something proprietary to keep
+    you as a customer,” explains Dr. Kvedar.\n- **Fear of losing patients.** On the
+    hospital side of things, resistance to interoperability is primarily driven by
+    the fear of losing patients to competitive hospitals. Dr. Kvedar comments, “From
+    a pure business perspective, why would my hospital want to make it easy for patients
+    to take their data to another hospital and get their care done there? To implement
+    interoperability costs a lot of money. If there's no revenue reward or efficiency
+    award on the business side, why would you do it?” Dr. Kvedar sees one possible
+    way hospitals might get on board with interoperability. “The only way I could
+    conceive of having interoperability become the norm is to have a demand from government
+    purchasers that if you are going to be a government contract, you have to have
+    a certain set of open standards. I don’t know if that will happen under a Trump
+    administration, but they certainly are signaling that they wouldn't view the world
+    that way. So, I don't see it happening soon, unfortunately.”\n \n##Wearables and
+    chronic illness management prevention\nWith the data available to consumers wearing
+    health technology devices, the potential exists for not only managing chronic
+    illnesses but also helping to prevent them. Dr. Kvedar cites two important considerations:\n\n-
+    **Wearables provide a feedback loop.** “I like to talk about conditions that don't
+    result in symptoms, like high blood pressure, high blood sugar, high cholesterol,
+    visceral fat — all of those which portend bad outcomes down the line and don't
+    really, on a day-to-day basis, make you feel particularly poorly. In that context,
+    you can think about connected health as feedback loops and motivation.” Wearables
+    provide feedback loops since they are giving you data about your life. With a
+    Fitbit, for example, if you haven’t hit your step goal for the day, you may be
+    motivated to walk on a treadmill in the evening.\n- **Raw numbers don’t always
+    motivate a lifestyle change.** The other part of making feedback useable is motivation.
+    “It turns out there's a bit of paradox at play. A big part of our population doesn’t
+    care about numbers. They care about other things. So if you are not a quantitative
+    person, or you are not particularly motivated to change whatever the feedback
+    loop is sending your way, it quickly becomes background noise,” Dr. Kvedar explains.
+    That could be why the market for wearables is seeing a decline in activity.\n\nHe
+    continues, “The good news is that there's a crop of devices coming out now in
+    the wearables space that give insights rather than just numbers. One of them is
+    the Spire device that tracks respiration but doesn't tell you your respiratory
+    rate; it tells you whether you’ve been focused or stressed because we breathe
+    differently under different conditions.” We may see a rebound in the wearables
+    market as data becomes more meaningful to people with insights rather than just
+    numbers.\n \n##How does all this data into a clinician’s workflow?\nClinicians
+    today are inundated with data, most of it today within the EHR. Clinicians spend
+    too much time clicking, finding, charting, and checking boxes to document the
+    in-person encounters or manage a workflow. It’s hard to imagine connected health
+    data fitting within the clinician's already data-heavy process. Dr. Kvedar suggests
+    this particular journey will unfold in two steps: \n \n1. **The current state:**
+    Innovation practices exist but are not mainstream. Dr. Kvedar sees connected health
+    in play today, but primarily in medical homes. “We have quite a few examples of
+    that in our system, where we are heavily at risk and a lot of our primary care
+    practices are patient centers or medical homes as part of our population health
+    management structure. In those practices, there is someone whose responsibility
+    is the burden of hypertension, just for instance. We will provide that person
+    with a home monitoring for hypertension toolset for the patients that are either
+    difficult to control or newly diagnosed. In any given practice it is not enough
+    of a burden if this one person, typically a nurse and sometimes a pharmacist,
+    is assigned the burden of data. It isn’t high enough that they can't afford to
+    get their work done. They check in a couple of times a week and the software flags
+    the patients that are out of parameter and makes it a little bit easier to sort
+    through. Then they involve a doctor if it is a medication change or something
+    that really needs a doctor's input.”\n2. **The future state commands an AI layer.**
+    \ Most industries today are already using intelligent analysis software and data
+    science that creates meaning and actionable information from a vast state of data.
+    Dr. Kvedar describes how this might take shape in healthcare. “We are really at
+    the beginning of a new era. Let's say someone has high blood pressure and you've
+    been tracking their blood pressure for the last two months. We should be able
+    to give you a dashboard view that shows what blood pressures are normal when they
+    go up, why they go up. Do they go up at night? Do they go up during the day? Do
+    they go up after a meal? That would give you some real insight into how to care
+    for that patient.”\n\nDr. Kvedar cautions that seeing this all become a reality
+    with physicians is dependent on solving more than just the problems of data overload
+    and dashboards. Here are two other important dependencies to be aware of.\n\n>\"If
+    you call it decision support, maybe you can sell it. Artificial Intelligence sounds
+    scary.\" - Dr. Kvedar\n\n- **The timing of value-based reimbursement.** “We sort
+    of had a rhythm going under the Obama Administration. Will that change? Not sure.
+    Medicare has produced a plan that 50% of payments by two years from now will be
+    value-based. So they seem to be on that curve. Many plans are now doing this but
+    the rate is to be determined. As that happens, the reason we did medical home
+    across our system is because of value-based payments and it makes much more sense
+    in that context.”\n- **Physician resistance to the idea of AI.** “On the one hand,
+    we do this in the EMR with decision support. So if you call it decision support,
+    maybe you can sell it. Artificial Intelligence sounds scary. It sounds like you
+    are trying to take my job away from me, so I think it is how you frame it. And,
+    of course, there's the liability issue that goes along with that and how you convince
+    docs into a state where they are not afraid they are going to get sued because
+    there was a data point that they didn't see that didn't go right in the algorithm.”
+    \n\n##How far off is the future? \nDr. Kvedar concludes, “The pieces of connected
+    health are here today, but we still have to put them together. Some of that will
+    be technical. A lot of it will be business model. Some of it is even societal.”\n\nMake
+    sure to listen to the [complete podcast interview with Dr. Kvedar](https://datica.com/innovation/joseph-kvedar/)
+    for many more insights about connected health, including a look at telemedicine
+    and artificial intelligence."
+  :featured_image:
+    :id: 2k2LHgR8XaqKusSaUeeE0y
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: Vrmu0Devw2EqI4CmK8eWc
+  - :id: 5NH1yU9I1UaG6CEE62UM2o
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 3kabC1VofumgW6owKmIkqG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:03+00:00'
+    :created_at: '2017-02-24T22:33:57+00:00'
+    :id: 3kabC1VofumgW6owKmIkqG
+  :title: 'Reflections on HIMSS 2017: Same Same, but Different'
+  :slug: reflections-on-himss-2017-same-same-but-different
+  :pub_date: !ruby/object:DateTime 2017-02-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The buzz at HIMSS 2017: analytics, machine learning, AI, cyber-security,
+    patient-centered care, and open data were a few themes we saw this year.'
+  :blog_lead: "[HIMSS 2017](http://www.himssconference.org/) is done. It’s time for
+    the outpouring of commentaries on the event. And, amazingly, it’s already time
+    to be thinking about next year if you’re an exhibitor. I realize the big companies
+    do this but, at Datica, we too are planning and already booked our booth for next
+    year. Thankfully we got a good booth space on the top floor and not in the basement
+    (Vegas needs 2 levels to support HIMSS whereas Orlando only needs one massive
+    level)."
+  :post: "\n## Major Themes\n\nYou could have predicted these going into the event
+    based on the sessions and promotional material.\n\n- **Analytics / machine learning
+    / AI**. If I was to only pick one theme this year, this would be it. From Watson
+    to Health Catalyst to the population health offerings of pretty much every EHR
+    vendor, some form of analytics was woven into everything this year. Like patient
+    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    is seen as a major part of the future of care. Analytics does hold amazing potential
+    but, like patient engagement, health systems need to develop strategies for how
+    and where to use analytics if they are going to be successful. Analytics for analytics
+    sake won’t help. Understanding the problems to solve or questions to answer with
+    analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
+    health data goes digital, and more and more digital health data is generated by
+    sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
+    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    Cybersecurity is an essential part of digital health, just like cloud is an essential
+    part of digital health. This should be a recurring theme of HIMSS as the next
+    10 years are going to be defined by healthcare moving data between new technologies
+    and between new partnerships.\n- **Patient-centered care**. This is the one I
+    wasn’t sure if I should include because I feel like some variation of this has
+    been a recurring theme. I guess being a constant theme still makes it a theme.
+    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    maybe because it has been a constant theme, is starting to mature. Services need
+    to be centered on patients, and many of those services will be technology driven.
+    The reason for services need to be patient-centered is 1) that’s what patients
+    expect today and 2) that is what providers, payors, and life sciences need to
+    do to compete for patients, members, and customers. I think we’ve swung back from
+    the days when we thought B2C, or going direct to consumer, would work across most
+    patient populations. Groups like Healthgrades still own a lot of consumer health
+    traffic but integrating those consumer tools with providers and more formal care
+    is also a part of patient centricity. \n- **Open data**. This one definitely isn’t
+    new. I remember hearing [Todd Park beating the drum about *data liberación*](http://healthstandards.com/blog/2015/06/23/data-liberacion/)
+    back in 2011. It only took three more years for most EHR vendors to start to get
+    behind a new standard called FHIR and another three or so years, until today,
+    when EHRs are ready to expose data via FHIR. I’m bullish on FHIR as a potential
+    data standard but highly skeptical of FHIR as a path to open data and innovation.
+    We have projects like Argonaut driving towards new ways to use FHIR so we’ll have
+    to wait and see how those develop. The overwhelming sentiment around open data
+    is that access to data, ideally in a trusted and consistent bi-directional way,
+    is the only way to build the technology ecosystem that’s needed to put patients
+    at the center of care and start to drive towards the [triple aim].\n\n## Same
+    same, but different\n\nThere’s a saying I first heard in Thailand and use from
+    time to time - [*same same but different*](https://en.wikipedia.org/wiki/Tinglish).
+    I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
+    back, looking at HIMSS as a whole, it felt like we had simply transported all
+    the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
+    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    happened. The Athena party happened. Lots of bankers parties with better food
+    and drink options. Uber didn’t work well. Restaurants were full all the time.
+    Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
+    like HIMSS.\n\nBut then, in other ways, it felt very different from previous years.
+    The impression I got, on a consistent basis, is that people are burned out on
+    the status quo. People are tired of HIMSS being the same year after year. People
+    are tired of \"doing things to check boxes\", a reference to buying EHRs to get
+    money from Meaningful Use, and \"want to really start making things happen\".
+    These quotes are from people at large health systems, people in the same roles
+    that would have said something like \"Epic is going to do that\" when asked about
+    patient engagement or population health or pretty much anything health IT just
+    a few years ago. These are decision makers at the core of the health IT industry
+    and not just startups and investors. The tide has very clearly turned in the industry.\n\nThis
+    is exciting! It will take time to see how quickly this sea change practically
+    takes hold and we start to see more and more digital health technologies adopted
+    and scaled at health systems. But, the process is starting and big systems are
+    developing strategies and processes for the next 3-5 years. And, maybe the most
+    shocking part, especially compared to several years ago, is that health systems
+    are looking outside their EHR vendors for the future of health IT.\n\n*Want to
+    learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
+    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    podcast series.*\n\n\n"
+  :featured_image:
+    :id: 6l7x9mycV2K66sSeIUYaIW
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+- :id: laQiWFJ2X6W0wUIiYYS0q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:49:25+00:00'
+    :created_at: '2017-03-02T20:55:47+00:00'
+    :id: laQiWFJ2X6W0wUIiYYS0q
+  :title: Visions of the Future of Digital Health at HIMSS 2017
+  :slug: visions-of-the-future-of-digital-health-at-himss-2017
+  :pub_date: !ruby/object:DateTime 2017-03-02 00:00:00.000000000 Z
+  :tags:
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :categories_blog: healthcare
+  :author:
+    :id: 7aMAu7W6K4M8S0eCuIyCCM
+  :summary: 'Casey Bryson shares visions of healthcare''s digital future from HIMSS
+    2017, including applications that scale and integrate with EHRs at lightning speed. '
+  :blog_lead: "I am a visionary. I do not consider myself an entrepreneur. The team
+    that surrounds me, my colleagues at Datica and our company advisors, build my
+    entrepreneurial skills with each day that passes. \n "
+  :post: "At [HIMSS 2017](http://www.himssconference.org/), I surrounded myself with
+    visionaries. I met with leaders of technology companies and healthcare providers.
+    We shared our visions for the future of our industry and our conversations fuel
+    how we build and execute our strategies. Most discussions focused on the forces
+    pushing our industry to adopt SaaS solutions for digital health that improve patient
+    outcomes, deliver excellent customer service, and create new models of care. The
+    future vision includes applications that scale and integrate with EHRs at lightning
+    speed. One quote I overheard said it best:\n\n> “We will be able to snap solutions
+    on and off quickly to prove the concept and to find speed to value.”\n \nAs I
+    reflect on my time on the exhibit hall floor at HIMSS it is clear that our industry’s
+    digital culture is hyper-focused on the speed of innovation. For these visionaries,
+    the future is very close. For other visionaries that don't share this focus, the
+    future may be a frightening place.\n \nI got my start in HIT by installing [Health
+    Information Management (HIM) software](https://en.wikipedia.org/wiki/Health_information_management).
+    I worked with HIM professionals across the country to define, produce, and protect
+    the sanctity of the legal medical record. As I had a break in my schedule I decided
+    to pop into an educational session led by an HIM director who I had met in my
+    previous life. The topic was information governance; an enterprise, top-down approach
+    to hard cost savings tied to managing information as a critical asset. [As AHIMA
+    states](http://www.ahima.org/topics/infogovernance/igbasics), \n\n> “IG serves
+    the dual purpose of optimizing the ability to extract clinical and business value
+    from healthcare information while simultaneously meeting compliance needs and
+    mitigating risk.”  \n\n## My vision for the future has been enhanced\n \nThe future
+    of digital health must include information governance. It starts with process
+    and a line of questioning but many questions should be eliminated by a standard
+    approach by information technology. \n\n- What does this application do? \n- Does
+    it integrate with my EHR? \n- Does the vendor manage patient identity or encounter/contact
+    moves?\n- How do I process data corrections? \n- How do I limit the risk of e-discovery?
+    \n- Is this data part of our Legal Medical Record or Designated Record Set? \n-
+    How will I manage all of these questions as the speed of digital health and departmental
+    applications become more of a reality?\n\nThe core of Datica’s mission is to help
+    our clients do what they do, better, by eliminating barriers to digital adoption.
+    If your desire is speed to value, IT and HIM have to work in harmony.\n \nMy vision
+    for the future of digital health includes IT systems being armed with a partner
+    to manage backups, encryption, patient identity, data retention policies, and
+    focus on data integration from the need to drive workflow and to support the production
+    of the record. \n\nI may not be an entrepreneur historically but my team has taught
+    me that you have to focus on your core competencies to arrive at greatness, otherwise,
+    you will end up being mediocre at everything. If you’d like to discuss health
+    information management as we move toward a digital environment, drop me a line
+    at Casey@datica.com\n \n*Datica provides a HIPAA compliant and HITRUST certified
+    platform for application hosting, development, and data storage and integration.
+    Watch our video below to learn more about how we partner with health systems and
+    hospitals.*\n\n---\n\n_Video: Listen to Casey Bryson describe Datica's Strategic
+    Services._\n\n[![Strategic-Services-Q&A-video-poster-casey](//images.contentful.com/189dvqdsjh46/3INcKQNu9OAY2UkYGEegWO/8eea3c41c34d505fb6d86e91c3416da9/Strategic-Services-Q_A-video-poster-casey.jpg)](https://datica.com/strategic-services/
+    \"Strategic Services\")"
+  :featured_image:
+    :id: 3mCOCvSpVYyU2GcSOAwU6c
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 3kabC1VofumgW6owKmIkqG
+  - :id: 3lTZSm4ETCQOAuCg22g8Wk
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+:discovery_topic:
+  :id: 2GT6S0aIrCA46qmAySAYM0

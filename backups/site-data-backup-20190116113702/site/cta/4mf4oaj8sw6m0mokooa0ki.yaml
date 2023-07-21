@@ -1,0 +1,57 @@
+---
+:id: 4Mf4oAJ8sw6m0mokOOa0Ki
+:_meta:
+  :content_type_id: cta
+  :updated_at: '2018-10-04T19:35:20+00:00'
+  :created_at: '2017-12-05T23:19:37+00:00'
+  :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+:cta_title: 'Webinar: Open-source Mirth Connect and Transformations'
+:cta_desc: Get a tour of Datica’s new open-source HL7 APIs and their HIPAA-compliant
+  capabilities with Mark Olschesky, Datica's Chief Data Officer. Join us 12pm CST,
+  December 15th.
+:cta_label: Sign up for the webinar today
+:cta_url: https://datica.com/webinars/one-click-install-mirth-connect-and-open-source-mirth-transformations/
+:cta_image:
+  :title: webinar-hitrust-aws
+  :description: cta, large
+  :url: "//images.ctfassets.net/189dvqdsjh46/3jGpClpcZWOuGagMw68QWO/6df7ebe262a7b560f15e3e354dcdcb0d/datica-webinar-share.jpg"
+  :_meta:
+    :updated_at: '2018-02-26T20:28:36+00:00'
+    :created_at: '2017-12-05T21:38:31+00:00'
+    :id: 3jGpClpcZWOuGagMw68QWO
+:related_event:
+  :id: O5XY3cExskYckGGkIYyY0
+  :_meta:
+    :content_type_id: webinars
+    :updated_at: '2018-07-11T19:59:36+00:00'
+    :created_at: '2018-07-11T06:24:09+00:00'
+    :id: O5XY3cExskYckGGkIYyY0
+  :title: One-Click-Install Mirth Connect and Open Source Mirth Transformations
+  :slug: one-click-install-mirth-connect-and-open-source-mirth-transformations
+  :event_date: !ruby/object:DateTime 2017-11-17 13:00:00.000000000 -07:00
+  :summary: In this session, Mark gave an overview of our history and a demonstration
+    of how to set up Mirth on the Platform.
+  :subhead: The future of integration is open.
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  :lead: In November, Datica launched [One-Click-Install Mirth Connect](https://datica.com/platform/integration),
+    along with our new open source [Mirth Transforms](https://github.com/daticahealth/Mirth-Transforms).
+  :desc: |-
+    The full announcement is available [here](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/).
+
+    This is a shift in how we offer integration because it better aligns with the needs of digital health companies. You want open standards, you want ease of use, you want compliance and security, but most importantly, you want successful EHR integrations. OCI Mirth Connect gets you there.
+
+    In this session, Mark gave an overview of our history and a demonstration of how to set up Mirth on the Platform. The recording is available here:
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :related_form:
+    :id: oEcUsMRA1qsKmeKGgK6GI
+  :video_embed:
+    :id: 5VTf6JBb5SWqu2iqecU2sG
+  :image_thumb:
+    :id: 6H0Gdxtr2M2M4o64aUk6oO
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:cta_color: dark

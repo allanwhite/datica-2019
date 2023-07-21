@@ -1,0 +1,452 @@
+---
+:id: 3AN7lFFj5u8k2OSEiqkoAq
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-10-31T19:33:59+00:00'
+  :created_at: '2018-05-11T19:28:48+00:00'
+  :id: 3AN7lFFj5u8k2OSEiqkoAq
+:title: 'What We''re Building: Datica''s Public Product Strategy and Roadmap'
+:slug: what-were-building-daticas-public-product-roadmap
+:pub_date: !ruby/object:DateTime 2018-05-11 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 7FkInYPmxiG4QsiM60COos
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-18T18:53:21+00:00'
+    :created_at: '2016-11-22T20:16:18+00:00'
+    :id: 7FkInYPmxiG4QsiM60COos
+  :tag_full: Tutorials
+  :slug: tutorials
+  :description: How-to's and tutorials. For more information on using our products
+    and services, see our Resources section.
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+:categories_blog: company
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:summary: 'Transparency is the heart of Datica. With that said, we announced Datica’s
+  public product strategy & roadmap. This document will serve as the window into Platform
+  product development. '
+:blog_lead: "Working with any organization requires a certain level of trust. Even
+  something as mundane as purchasing groceries requires trust — trust in that what
+  you are promising to give me is in fact aligned with my expectations.\n\n"
+:post: "\nWe believe trust is earned with transparency. Since the founding of the
+  company in 2013, transparency has been a central cultural tenant. It’s why we [open
+  sourced our internal company policies](https://datica.com/open-source/policies/),
+  which have been adopted by hundreds of organizations to accelerate their path to
+  compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
+  as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and why
+  we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
+  [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+  and so on. Transparency is how we, as a technology community, can better understand
+  the complexity of security and compliance.\n\nThe trust that Datica's customers
+  instill in us goes far beyond a simple exchange of goods. We are not only securing
+  the world's most sensitive data, but providing a service to users that proves, beyond
+  a reasonable doubt, that we maintain the highest level of compliance in doing so.
+  In order to continue building on that trust, and delivering products and services
+  that support that mission, there is a necessity for more transparency. In this first
+  effort to provide increased transparency around what we are doing and why, we are
+  publishing our first public product strategy and roadmap.\n\n## Why?\n\nIf you’re
+  a Datica customer, or you’re considering becoming one, you will rely on us to provide
+  a product that is critical in running your business. Here is what you can expect.\n\n###
+  Developer operations\n\nThe Platform is a fully automated continuous compliance
+  management tool for the cloud. The cloud, and the shared responsibility inherit
+  within, fundamentally change the compliance and data liability landscape. Regardless
+  of the support, management, or compliance structure your organization chooses to
+  use, at various levels, you will rely on Datica to provide cloud security and compliance
+  services. Our goal is to get compliance out of the way so you can focus on using
+  the cloud tools you want to use.\n\n### Visibility into liability and privacy agreements\n\nThe
+  cloud is opaque when it comes to liability and data privacy. At Datica, we strive
+  to bring transparency to your cloud operations and your data liability radius. This
+  is especially important in the case of a data breach, security incident, or audit.\n\n###
+  Compliance and security\n\nAbove all the rest is compliance and security. Our customers
+  rely on us to provide the highest level of compliance with our HITRUST CSF certification,
+  SOC2 Type 1 and 2, and full GDPR audit (more coming soon). Additionally, they’re
+  trusting us to secure their cloud environments and ensure data protection at all
+  costs.\n\nGiven how much our customers rely on us to do, they need to be a part
+  of the conversation. They need to have full transparency of what we are building.
+  That is not to say we’ve been developing the Platform in a vacuum. We work one-on-one
+  with users on a daily basis. We’re constantly taking feedback and building that
+  back into the product. However, we’ve not always been as transparent as we could
+  have been when it comes to the current set of product initiatives. We’re hoping
+  to change that with the public product strategy and roadmap (ex: “Hey, I see you're
+  working on an update to your vulnerability scanning component, feature X would be
+  really nice...”, etc.). Our goal is to give the market a full view of what we’re
+  doing and why we’re doing it. \n\nCloud technology and the companies running the
+  underlying infrastructure are moving at an incredible speed. By making our roadmap
+  and strategy transparent, our hope is to gauge ourselves against this speed and
+  adapt accordingly. Datica is a compliance and security company. The mechanisms by
+  which we deliver those two value propositions will and should change with time.\n\n>
+  Datica’s mission is to empower organizations around the world to take their preferred
+  tools, use them in a cloud setting, and then provide and maintain the highest standards
+  of security and compliance around those tools. \n\n## The Risk\n\nOften when companies
+  are first starting out they view their value as a secret. What they’re doing and
+  how they’re doing it is seen as magic sauce. They want to harbor that magic. As
+  companies grow and mature, they tend to learn that the magic is in execution, not
+  the intellectual property or ideas. At Datica, we’ve assembled the best team of
+  security, cloud, and compliance experts to execute on designing and delivering the
+  most secure and compliant Platform for the cloud. We have no secrets to keep.\n\nWith
+  that said, I’m proud to announce [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+  This document will serve as the window into Platform product development. To get
+  the most out of this effort, we need to hear from you. Please send us your feedback,
+  feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
+:featured_image:
+  :title: road in the forest - easton-oliver-617180-unsplash
+  :description: roadmap, roads, nature
+  :url: "//images.ctfassets.net/189dvqdsjh46/1iqz7Kvr88m8uq8Qsiu2w/7c210f06c640327751bc72029b4f16d0/easton-oliver-617180-unsplash.jpg"
+  :_meta:
+    :updated_at: '2018-05-11T18:38:38+00:00'
+    :created_at: '2018-05-11T18:38:38+00:00'
+    :id: 1iqz7Kvr88m8uq8Qsiu2w
+:share_image:
+  :title: blog-roadmap-share
+  :description: roadmap, roads
+  :url: "//images.ctfassets.net/189dvqdsjh46/7jqEEY0z5Kq6aU0Q0iWQKc/1c40e5dc080fe9e793164f2e58be5b87/blog-roadmap-share.jpg"
+  :_meta:
+    :updated_at: '2018-05-11T18:45:20+00:00'
+    :created_at: '2018-05-11T18:45:20+00:00'
+    :id: 7jqEEY0z5Kq6aU0Q0iWQKc
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 5A8wMf6ck8seomyq2g6i0k
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:48:15+00:00'
+    :created_at: '2018-05-11T00:31:59+00:00'
+    :id: 5A8wMf6ck8seomyq2g6i0k
+  :title: Datica Unveils New Healthcare Customer, Access HealthNet
+  :slug: datica-unveils-new-customer-access-healthnet
+  :pub_date: !ruby/object:DateTime 2018-05-10 00:00:00.000000000 Z
+  :tags:
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: Datica and Access HealthNet announced a working collaboration this week.
+    AHN will be using the Datica Platform to deliver EMR interoperability and security
+    to their healthcare bundling platform customers, which will streamline healthcare
+    data exchange for hospital and medical billing
+  :blog_lead: We remain humbled by the wide variety of healthcare customers that reach
+    out to us every day. Many of you have come to Datica through recommendations from
+    some of our earliest customers, like [Zipnosis](https://www.zipnosis.com/) and
+    [HealthLoop](https://www.healthloop.com/). Others of you have heard our company
+    thought leaders, like [Travis Good](https://datica.com/about/travis/), [Mark Olschesky](https://datica.com/about/mark/)
+    and [Kris Gösser](https://datica.com/about/kris-gosser/) share knowledge about
+    compliance, security, and [digital health success](https://datica.com/dhsf/) at
+    conferences nationwide. A few have perused our website to learn more about HITRUST,
+    Kubernetes and [GDPR](https://datica.com/discover/gdpr/). While others have learned
+    about Datica through the Wisconsin healthcare corridor grapevine.
+  :post: "\nAt Datica, we especially enjoy partnering with other Wisconsin healthcare
+    technology companies. By supporting other Midwest firms with shared knowledge
+    we’ve gained over the past five years in business, we ultimately can help accelerate
+    the innovation healthcare needs today, while taking immense pride that many of
+    those innovations are originating in the Badger State and branching out from coast
+    to coast. \n\n## Why customers choose Datica\n\nDatica and [Access HealthNet](https://www.accesshealthnet.com)
+    (AHN) announced just such a working collaboration this week. AHN will be using
+    the Datica Platform to deliver EMR interoperability and security to their healthcare
+    bundling platform customers, which will streamline healthcare data exchange for
+    hospital and medical billing.\n \nIn this week’s [press release](http://www.prweb.com/releases/2018/05/prweb15473825.htm),
+    AHN’s Chairman and CEO Eric Haberichter stated that the partnership would exponentially
+    propel their company forward. “Our vision of being fully interoperable with all
+    major hospital and medical billing systems will become a reality much more rapidly
+    with this partnership.”\n \nYes, Datica makes a stellar and flexible platform
+    for building healthcare applications in a compliant and secure manner, and we
+    are quite proud of that. However, our greatest pride comes when we can point to
+    a new and innovative technology, like the one AHN has built, knowing that the
+    Datica Platform helped scale such an innovation’s success in healthcare. \n\n##
+    Success squared\n \nMariel Margaret Hamm-Garciaparra, also known as former soccer
+    star Mia Hamm, is often attributed as saying, “Success breeds success.” At Datica,
+    we think less about creation and breeding, and more about containerization, so
+    we instead say, “Success builds success.” It’s a small verbal nuance, but it fits
+    well within our box.\n \nIn addition to Ms. Hamm’s immense wisdom and skill, she
+    also advised those she met to, “Celebrate what you’ve accomplished, but raise
+    the bar a little higher each time you succeed.” Daticans take that advice to heart
+    when we help another customer accomplish their company goals faster. \n \n###
+    Join the Datica + Kubernetes Webinar Tuesday\n\nLearn more about the Datica Platform
+    and how we make Kubernetes secure and compliant for healthcare applications by
+    joining our webinar next week, [Kubernetes and Healthcare Compliance](https://content.datica.com/kubernetes-datica-2018-05-15),
+    Tuesday May 15th at 11:00 AM CDT. \n\n\n"
+  :featured_image:
+    :id: XaFaSmvtO60QesQwKaIYM
+  :share_image:
+    :id: 4TefN8qHigmcSquu6oYs4y
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5743id6JxYsMEwOykuiCQg
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: cpAnqOqKgo8KMc0KcaOAm
+- :id: 4AznnGBn9SEs6kAyyuCmIW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-06T21:05:25+00:00'
+    :created_at: '2017-11-16T17:05:36+00:00'
+    :id: 4AznnGBn9SEs6kAyyuCmIW
+  :title: Announcing one-click installations of Mirth Connect and Open-Source Connectors
+  :slug: announcing-one-click-installations-of-mirth-connect-and-open-source
+  :pub_date: !ruby/object:DateTime 2017-11-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: platform
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: Today we are launching one-click installations of Mirth Connect combined
+    with Open-Source Connectors for the Datica Platform.
+  :blog_lead: Today we are launching one-click installations of [Mirth Connect](https://www.mirth.com/)
+    combined with Open-Source Connectors. It is the next evolution of how we help
+    solve the problem of healthcare data integration. The switch to a more open solution
+    is a testament to our enduring commitment to helping customers with integration
+    in the best way possible.
+  :post: "> Healthcare developers can get started on new projects faster, and benefit
+    from three years of learning. We aim to empower the developer community to solve
+    the problem of integration themselves with tools that are open, reliable, compliant,
+    and secure.\n\nThe launch is based on consistent feedback that customers need
+    more flexibility, more control over their integration environments, better pricing
+    at scale, and future-proofing for things like [FHIR](/academy/introduction-to-fhir/)
+    and the Epic App Orchard and Cerner Code.\n\nDatica has been doing healthcare
+    integration since October 2014, going through a [few iterations in pricing and
+    packaging](/blog/announcing-self-service-and-free-trials/). Regardless of the
+    iteration, our pragmatic, partnership approach remained consistent and accomplished
+    a lot. In three years we built a team of experts to deliver on integrations and
+    delivered over 150 live integrations into healthcare organizations, with many
+    more in process. Historically it was a SaaS-based pricing model where customers
+    paid a fixed fee per month per interface, per site or even an annual license to
+    purchase site-based delivery. We did integration work in every major vertical:
+    vendors, life sciences, healthcare organizations, and payers.\n\nTimes have changed
+    since 2014 in the integration world. The cloud has gone from a taboo term in digital
+    health to the default place to build 99% of new healthcare applications. FHIR
+    has gone from a glimmer in [Grahame Grieve's](/innovation/grahame-grieve-pt1/)
+    eye into an API platform that will soon be made available from most of the big
+    EHRs. A new wave of digital health developers believe in openness first, even
+    at hospitals as they look to commercialize IP in a digital format. There was no
+    way to predict this would happen so fast (at least in healthcare, three years
+    seems fast) but we are here now.\n\nOver the last three years, we learned the
+    best way to help our customers was to teach them this point: there is no silver
+    bullet to integration **but it is a problem you can solve with the right tools**.
+    \n\nThat's why we are releasing the ability to deploy Mirth Connect with \"one-click\"
+    into your [Datica environment](/platform/). You gain the expertise we've built
+    on running reliable and available integration capabilities in one-click, deployed
+    directly into your compliant environment on the Datica platform. Mirth, which
+    is an open-source platform itself, is a great tool for software developers to
+    use for integration. This is why we've written up documentation based on the hundreds
+    of integrations that we've done which can teach you quickly how to [get started
+    on using Mirth](https://datica.zendesk.com/hc/en-us/sections/115001535023-Mirth-Getting-Started).\n\n##
+    Open-Source Mirth Connectors\n\nWe also [open-sourced our code](https://github.com/daticahealth/Mirth-Transforms)
+    for transforming data from HL7 to JSON. This is a major evolution for digital
+    health teams. We do not believe in locking customers into proprietary APIs, so
+    we have published everything we've learned at the transformation layer, with many
+    more scripts to come. It's all in an effort to help you gain more transparency
+    and confidence with [EHR integration](/discover/ehr-integrations/).\n\nThese connectors
+    are a series of libraries that can be plugged into your Mirth Connect environment
+    which immediately enable HL7 feeds for consumption by a restful API. We will be
+    continuing to open-source content as we create it, including transformers to other
+    data types like those for [Open mHealth](http://www.openmhealth.org/) and [Office
+    365 Cards](https://docs.microsoft.com/en-us/outlook/actionable-messages/actionable-messages-via-connectors).
+    The only major limitations behind what we aim to open-source will be transforms
+    which are based on vendor-specific connections or data models which we can't expose
+    due to legal reasons (e.g. Epic Interconnect XML data models).\n\n## Integration
+    Environment Details\n\nTake note: the integration environment is much more than
+    just Mirth. Each environment has a bundle of tools important to successful integration:\n\n*
+    Highly Available (HA) configuration of Mirth instances. HA operations of Mirth
+    are not trivial. We make it easy, instantly.\n* HA configuration of Postgres.
+    A supplemental database is important for initial message ingestion, and must support
+    a similar HA nature for continuous connection.\n* Load balancers.\n* Network monitoring
+    and usage alerts. Understanding the traffic usage is important for audit purposes.
+    Additional alerting is important for ongoing management of a connection.\n* VPN
+    Management. Remember, you do not integrate with Epic, you integrate with a specific
+    site's version of Epic. Therefore you'll need a VPN for every integration you
+    plan to make. Our VPN tooling makes it easy, combined with our expertise in how
+    to ensure they stay connected 24/7.\n\nThe integration environment is available
+    in both the [Standard and Professional plans](/pricing). The environment is not
+    available for free trials (yet), but will be soon. Along with this update, we
+    have now made VPN management available in the Standard plan as well, so people
+    can get started with EHR integration for as low as $1,150/mo.\n\nWe're often asked
+    how much throughput a typical environment can handle. The answer is _a lot_. A
+    single environment with no modifications can handle as many as fifty site integrations.
+    If customers need to scale throughput, they simply scale RAM. If you have any
+    additional questions, [please reach out](/services/#cta). We're happy to chat.\n\n##
+    Pricing Updates\n\nOne thing you may notice is that we do not bundle the integration
+    environment with professional services under the name of \"Managed Integration\"
+    anymore.\n\nOur customers that have greater challenges or unique needs can now
+    purchase both separately since services are now optional.\n\nThis means digital
+    health teams can get all the integration tooling they need — along with HITRUST
+    CSF Certified, HIPAA compliant, secure infrastructure housed under one [Business
+    Associate Agreement](/blog/3-common-misconceptions-about-business-associate-agreements/)
+    — for as little as $1,150/mo.\n\nThe other exciting news about Datica's pricing
+    is that this scales much better for you. It's pricing that is truly aligned with
+    your success.\n\n## The Future of Integration Is Open\n\nThis is a shift in how
+    we offer integration because it better aligns with the needs of digital health
+    companies. You want open standards, you want ease of use, you want compliance
+    and security, but most importantly, you want successful EHR integrations. This
+    new option gives that to you with a single click.\n\nHealthcare developers can
+    get started on new projects faster, and benefit from three years of learning.
+    We aim to empower the developer community to solve the problem of integration
+    themselves with tools that are open, reliable, compliant, and secure.\n\nFor moments
+    where projects seem too difficult, [our integration services team](/services)
+    will be ready to jump in and help you with that lift. We see a world in which
+    all of our customers can eventually own their own integrations and we want to
+    provide the easiest path for customers to be able to manage that themselves. [Reach
+    out](/services/#cta) if you have any questions, we'd love to help you out.\n"
+  :featured_image:
+    :id: 6JRShb9r5S2kgakoeM0EME
+  :share_image:
+    :id: 5XLvUOemeAIQyEMss2uW6I
+  :cta_ref:
+    :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+  :related_entries:
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 6CB2jwUkdaQ2aUG884qQSS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 515m1QVsxW0EKCYo0MEiaS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2019-01-10T23:50:19+00:00'
+    :created_at: '2017-09-07T17:28:21+00:00'
+    :id: 515m1QVsxW0EKCYo0MEiaS
+  :title: Lifting A Fork for Open Source
+  :slug: lifting-a-fork-for-open-source
+  :pub_date: !ruby/object:DateTime 2017-09-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: This Q&A with Datica's Chief Data Officer, Mark Olschesky, explores what
+    it means that Datica just passed 200 forks of our open-source policies.
+  :blog_lead: |-
+    A week ago, Chief Data Officer [Mark Olschesky](https://datica.com/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
+
+    > When you come to a fork in the road, take it!
+  :post: "As with many technical terms, the word “fork” obviously had more than one
+    meaning. The mention of this particular company achievement, along with its oddly
+    referenced name suddenly had my non-technical mind driving for answers. I needed
+    to uncover not only what a “fork” was, but also why having 200 of them came with
+    so many “thumbs up” and “clapping hand” emoticons. The discovery called for a
+    quick Q&A with none other than torchbearer himself, [Mark Olschesky](/about/mark/).
+    \n\n#### Q: Just what is a “fork” in technical terms?\n\n**Mark:**  A fork is
+    a term for duplicating a code or document repository. It’s not required. Someone
+    could simply download the source from the repository without us knowing at all.
+    In the open-source world, “forks” and “stars” are a common way to track the success
+    of a project. We use [GitHub to host our policies](https://github.com/catalyzeio/policies/);
+    there, you can track all changes made to the policies by reviewing forks made
+    by our customers.\n\n#### Q: Participating in open-source projects has been strategic
+    for Datica, can you tell me more about its importance to the company?\n\n**Mark:**
+    When the company was founded in 2013, the industry had its share of duplicitous
+    vendors peddling “HIPAA-compliant” solutions for hosting and application development.
+    Turns out that many of those solutions were far from compliant. As a company that,
+    1) wanted to do more to make compliance in the cloud easier and, 2) was not the
+    first HIPAA-compliant vendor, the company needed to go the extra mile to prove
+    our compliance and differentiate the company from the rest of the market beyond
+    base market copy.\n\n#### Q: How did that differentiation begin?\n\n**Mark:**
+    During Datica’s first HITRUST audit, CEO Travis Good, MD saw the potential for
+    sharing what we’d learned with the entire industry via open-source policies. He
+    then made the following strategic decisions:\n\n- Datica should publish our policies
+    in a way that allows them to be easily tracked over time (GitHub).\n- We should
+    open-source the policies to both engender goodwill with the developer community
+    and to also demonstrate the lengths that Datica goes for its customers versus
+    other “HIPAA-compliant” vendors. \n- Provide a way for other companies with existing
+    infrastructure or that didn’t want to host with Datica to fork those policies
+    and make them their own. As such, we would show different flavors of how to demonstrate
+    compliance with different application stacks or organizational differences.\n\n####
+    Q: How does forking of our open-source policies help healthcare in general?\n\n**Mark:**
+    As a company, Datica does not manage all the parts of HIPAA. For example, we don’t
+    employ clinicians or have software that performs medical decision-making or automated
+    outreach to patients. As such, it’s hard for our policies to be the definitive
+    guide for “what it means to be HIPAA compliant.”\n\n#### Q: That sounds counterintuitive
+    to the ultimate goal of HIPAA compliance. Can you explain how forks play into
+    that?\n\n**Mark:** By looking at forks, you can see what other customers have
+    done. Most commonly, you can see companies with different Business Associate Agreements
+    (BAAs). You’ll also see some major material differences through the forks. \n\n####
+    Q: Can you give me a good example of a fork?\n\n**Mark:** One is Bind. As an insurer/broker
+    (and therefore likely a [Covered Entity](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    their policies will differ from Datica’s as a cloud infrastructure/tooling provider.
+    Bind’s willingness to share what they’ve done could help other insurers or brokers
+    with their path to build and demonstrate compliance. That can save everyone time
+    and money. That savings allows organizations to work on the real problems in healthcare.\n\n####
+    Q: When the 200th fork came in from the Chief Technology Officer of a care coordination
+    platform, you shared this good news with the entire company. Why was this an important
+    achievement?\n\n**Mark:** Many open-source projects don’t receive much attention,
+    so it’s great to see that Datica’s open-sourced policies are one of the more popular
+    open source projects in healthcare compliance. The Linux Foundation took a similar
+    approach a year later in [publishing their policies](https://github.com/lfit/itpol).
+    Datica is proud to be one of the earlier innovators in a space that facilitates
+    transparency in best practices by publishing those policies. As a company we strive
+    to constantly do what’s best for our customers, but also the industry as a whole.\n"
+  :featured_image:
+    :id: 1965rZnwPkaUM2CY8SUKak
+  :share_image:
+    :id: 65w5CGxURO0882K08I0A26
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5S8LbWARFKIogwQ2Mmcg80
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 1tg5P46GikgUYoSqsYUcSY
+  - :id: 1ITEzHLxx2QIaK4YagEecK
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4

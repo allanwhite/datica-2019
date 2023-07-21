@@ -1,0 +1,303 @@
+---
+:id: 2rq7PvKutGgOKK24648iQS
+:_meta:
+  :content_type_id: person
+  :updated_at: '2018-05-30T15:22:40+00:00'
+  :created_at: '2018-01-23T19:29:32+00:00'
+  :id: 2rq7PvKutGgOKK24648iQS
+:fullname: Scott Smith
+:slug: scott-smith
+:person_type: Datica Alumni
+:role: Business Development Representative
+:profile_pic:
+  :title: Scott smith profile photo (temp)
+  :description: datica team, sales, avatar, profile
+  :url: "//images.ctfassets.net/189dvqdsjh46/33luDyMVcQWGKIE8kO8oGs/d4b62af77e9b69fd059b217207678049/Scott_smith_profile_photo__temp_.jpg"
+  :_meta:
+    :updated_at: '2018-01-23T19:28:41+00:00'
+    :created_at: '2018-01-23T19:28:25+00:00'
+    :id: 33luDyMVcQWGKIE8kO8oGs
+:email: scott.smith@datica.com
+:bio_short: Scott is a Datica's business development representative.
+:profile_twitter: scott-smith
+:profile_linkedin: scott-smith-14994633
+:location:
+  :lat: 43.0730517
+  :lon: -89.40123019999999
+:related_events:
+- :id: 73JtGvLZ7Os6UGg8MeGc6o
+  :_meta:
+    :content_type_id: events
+    :updated_at: '2018-01-15T18:11:31+00:00'
+    :created_at: '2018-01-11T21:46:05+00:00'
+    :id: 73JtGvLZ7Os6UGg8MeGc6o
+  :title: HealthXL 2018 Global Gathering—Pittsburgh
+  :slug: healthxl18-global-gathering-pittsburgh
+  :date_start: !ruby/object:DateTime 2018-02-08 00:00:00.000000000 -06:00
+  :hide_after_date: !ruby/object:DateTime 2018-07-30 00:00:00.000000000 Z
+  :event_tags:
+  - Conferences
+  - Presentations
+  :event_logo:
+    :id: 6sEGPgFLlmWUegSg8a6SOw
+  :summary: Showcasing innovation on a global platform
+  :event_desc: "Join Datica's Chief Data Officer, VP of Sales, & VP of Sales Operations
+    in Pittsburgh, Feb. 8 at Health XL's Global Gathering, that will showcase digital
+    innovation on a global platform. \n\n[Contact our sales team](mailto:sales@datica.com)
+    to book a 1:1 meeting with one of our team members before the event. Meet to see
+    how Datica can help with your global digital health expansions or problems.\n\n[Click
+    here to register for HealthXL](https://ti.to/healthxl/healthxl-global-gathering-in-pittsburgh)."
+  :tags:
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :event_location:
+    :lat: 40.4731025
+    :lon: -79.96497139999997
+- :id: 4KvT7vI2XCmA44gmce88OU
+  :_meta:
+    :content_type_id: events
+    :updated_at: '2018-01-05T20:29:13+00:00'
+    :created_at: '2018-01-05T00:12:43+00:00'
+    :id: 4KvT7vI2XCmA44gmce88OU
+  :title: Connected Health Conference
+  :slug: connected-health-conference
+  :date_start: !ruby/object:DateTime 2017-10-25 00:00:00.000000000 -08:00
+  :event_tags:
+  - Conferences
+  :is_featured: false
+  :summary: Datica Chief Data Officer Mark Olschesky attended this conference to meet
+    with industry leaders on interoperability and EHR integration.
+  :event_desc: Datica Chief Data Officer Mark Olschesky attended this conference to
+    meet with industry leaders on interoperability and EHR integration.
+  :event_related_people:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 4uSb92YnFS66Wim4ogciEg
+  :_meta:
+    :content_type_id: events
+    :updated_at: '2018-01-05T20:33:05+00:00'
+    :created_at: '2018-01-05T00:28:52+00:00'
+    :id: 4uSb92YnFS66Wim4ogciEg
+  :title: HealthXL - Global Gathering
+  :slug: healthxl-global-gathering
+  :date_start: !ruby/object:DateTime 2017-04-04 00:00:00.000000000 -08:00
+  :event_tags:
+  - Conferences
+  - Presentations
+  :summary: CEO Travis Good attended this event to join in the dicussion on varying
+    topics like Alternative Care Delivery Models, Connected Health, Patient Engagement,
+    and Payer Solutions.
+  :event_desc: CEO Travis Good attended this event to join in the dicussion on varying
+    topics like Alternative Care Delivery Models, Connected Health, Patient Engagement,
+    and Payer Solutions.
+  :event_related_people:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :event_location:
+    :lat: 32.9006146
+    :lon: -117.23500089999999
+:schedule_widget: |2-
+   <div class="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/scott-smith?embed=true"></div><script
+    type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+:related_content:
+- :id: 6HGfV9t6zSwAGKcackWSsM
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2018-01-19T19:55:54+00:00'
+    :created_at: '2018-01-19T19:55:54+00:00'
+    :id: 6HGfV9t6zSwAGKcackWSsM
+  :title: 'Richard Milani, MD: How Innovators Can Improve The Clinical Experience
+    For Patients'
+  :slug: richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients
+  :pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guest:
+    :id: 1KKC5L5yba6KA6YgUm6GCe
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/386122031&amp;color=%231055ff&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+  :summary: We didn’t begin seeing the Clinical Transformation Officer role within
+    healthcare in wide numbers until around 2014. Possibly this is due, in part, to
+    the multi-disciplinary domain of digital health becoming widely viewed as providing
+    an avenue for transforming healthcare at the same time. Today’s podcast with Ocshner’s
+    Clinical Transformation Officer Dr. Richard Milani takes even those with limited
+    knowledge of the role and provides context into how this role fits within the
+    ecosystem of healthcare innovation. Datica's Chief Data Officer, Mark Olschesky,
+    sat down with Dr. Milani while in New Orleans to speak at the HL7 Partners in
+    Interoperability Summit, and visited with him to learn more about the innovations
+    that Ocshner is delivering—and how this health system views clinical transformation.
+  :key_takeaways: |-
+    1. Learn what a Clinical Transformation Officer is and more on this unique role in healthcare
+    2. Discover where the greatest cost of care is in the U.S. health system and how Ocshner is addressing it
+    3. Get an inside view of why vendors’ pilot pitches fail and why some succeed
+    4. Hear what has been added to the triple aim to bring it up to the quadruple aim
+  :post: |-
+    ### Dr. Milani responds:
+
+    **On why health systems are adding Clinical Transformation Officers:** "We realize and recognize that we have to transform ourselves in order to be more cost-effective and achieve better quality outcomes — not only the U.S. but across the world.
+
+    Their sole purpose is to be able to ready health systems for the needed transformation that is coming."
+
+    **On value-based care:** "I think that it is the best thing that could happen for people, because at the end of the day you want to see a physician or go to a hospital that's going to deliver high value, high quality, safe care, in the most efficient way possible for you so you can get what you need done, get out safely and not have problems that occur, or repeat hospitalizations for whatever procedure you might have had."
+
+    <p class="float-right-on-medium">
+      <a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875" rel="external" title="Death and Dollars: Solving the Epidemic of Chronic Disease Book" >
+    <img src="//images.contentful.com/189dvqdsjh46/18gLtNi7ywMuKwqcUQaWsw/4ba1221c38110e64e137740f85fc48f0/Death_and_Dollars_-_Milani_Book_cover.jpg?w=300" alt="Death and Dollars - Milani Book" width="150">
+      </a>
+    </p>
+
+    **On the largest constraints for delivery of new innovations:** "The biggest constraints are always going to be culture. We have to appeal to what is best for our customers and in this case patients are our customers; that generally helps things along. But typically the greatest difficulty you will have is culture and moving culture around.
+
+    **On how the Ocshner innovation team works with the IT department:** "We are independent but we are close in terms of not interfering with the day-to-day job that they have to perform, which is to keep the trains running on time. They need to make sure that our EMR is up-to-date, operational, safe, effective, secure and those are critically important functions. We work side by side with them."
+
+    **On the vendor approach that doesn’t align with a health system:** "What doesn't work is if a vendor is just purely just trying to sell their product and they are not interested ultimately in making this frictionless."
+
+    > I see vendors and systems coming together much more collegially than in the past and clearly and has demonstrated the real significant impact of interoperability.
+
+    **On the state of interoperability:** "I see vendors and systems coming together much more collegially than in the past and clearly and has demonstrated the real significant impact of interoperability. Having the information in one location where we can now categorize and do all kinds of things with that information to interact with the patient at the right moment, at the right time, and at the right place is critical for us."
+
+    **On Ocshner’s transformation focus:** "Our mantra has always been the quadruple aim. Anything that we do from an innovation perspective tries to target at least one, if not all the principles of the quadruple aim, which is namely improving the health of the population, improving the quality of the care that we provide, reducing the costs of care for our population and finally, the fourth aim is now — how can we do this while improving the workload on the providers of care."
+
+    **On ideas for clinicians and informaticists working at startups:** "Clearly, for any startup in the healthcare sector, it's going to be difficult for you to be able to sell whatever product you have, unless you have some real-world data and outcomes based on that data. I think it would be very important for any of these small startups to develop relationships with delivery systems to say: We've got this idea. Do you think this has legs? Not only to test it out, but to get advice and feedback. We provide counsel to a lot of small startups. Sometimes the way they imagine healthcare delivery to be is somewhat different than it really is."
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 313HeqZWucCuCqO2Y8wgYS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:10:01+00:00'
+    :created_at: '2018-01-11T19:21:01+00:00'
+    :id: 313HeqZWucCuCqO2Y8wgYS
+  :title: 10 Most-Read Articles of 2017
+  :slug: 10-most-read-articles-of-2017
+  :pub_date: !ruby/object:DateTime 2018-01-10 00:00:00.000000000 Z
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: What was healthcare reading to stay on top of their technology game in
+    2017? Our top 10 blogs show cloud and compliance as top of mind for many of you.
+  :blog_lead: 'What were healthcare developers and leaders reading to stay on top
+    of their technology game in 2017? If the following list of top articles from the
+    Datica blog is any indication, cloud and compliance were top of mind for many
+    of you. '
+  :post: "\n## The Hot List — What you read last year\n\n**[3 Common Misconceptions
+    about Business Associate Agreements](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/):**
+    \nThe HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA
+    and entities that have to follow the HIPAA security and privacy rules. The main
+    categories are clearinghouses, covered entities (CEs), and business associates.
+    The further down the line the subcontractor gets from the covered entity, the
+    more confusion there is about who really is a business associate and who needs
+    to sign a business associate agreement.\n*[Continue Reading](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)*\n\n**[2017
+    Healthcare Trends Part 1: The Rise of Patient as Consumer](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/):**
+    \nThere’s often a buzz of recap news stories at the end of each year followed
+    by a flurry of predictions posts for the coming new year. We’ve done this before
+    in a few different ways at Datica. The prediction posts are usually specific and
+    often wrong in that specificity. For 2017 I’m going to do things differently.
+    Over the course of the next few weeks, I’ll present four high-level trends that
+    follow the broad directional shifts driving healthcare in 2017 and beyond. These
+    overarching trends are creating turmoil and uncertainty, new problems across all
+    sectors of the industry, and opportunities for new solutions to help address uncertainty
+    and new problems.  \n*[Continue Reading](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/)*\n\n**[2017
+    Healthcare Trends Part 3: The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/):**
+    \nThis 3rd part of the 2017 healthcare trends series looks at problems with EHRs,
+    raising the question of whether their peak value has already passed. Meaningful
+    Use (MU) is dead but it succeeded wildly in increasingly the adoption of EHRs.
+    In fact, MU was so successful that physicians have become the most overtrained
+    and overpriced data entry workers in our economy. All of this data entry has been
+    at the expense of patient care as evidenced by the time and attention given to
+    record keeping and not spending time with patients. To be clear, there are benefits
+    to EHRs in terms of standardizing documenting, analytics, and billing.  \n*[Continue
+    Reading](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)*\n\n**[Cloudflare,
+    Data Breaches, and the HIPAA Conduit Exemption](https://datica.com/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/):**
+    \nBy now you’ve likely heard of the CloudFlare parser bug that caused CloudFlare’s
+    CDN network to leak sensitive data across unrelated requests. Depending on who
+    you ask this is either an unfortunate bug, a serious problem, or a historic event.
+    \n\nAt Datica we often get asked about how content distribution networks (CDNs)
+    relate to maintaining HIPAA compliance. Are you allowed to use them in a web application?
+    If so, what are the restrictions? What are the issues you have to be wary of?
+    As it turns out there’s a specific part of HIPAA legislation that relates strongly
+    to these questions. \n*[Continue Reading](https://datica.com/blog/cloudflare-data-breaches-and-the-hipaa-conduit-exemption/)*\n\n**[FHIR
+    is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/):**
+    \nI recently traveled to Duke University to both attend and present at the 2nd
+    HL7 FHIR Applications Roundtable. This topped my must-attend 2017 events list
+    after I attended the first event last fall in Boston. Here’s what I learned, saw,
+    and enjoyed at the applications roundtable. \n*[Continue Reading](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)*\n\n**[SaaS,
+    PaaS, IaaS—What’s the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/):**
+    \nIn a recent research report, Datica uncovered interesting trends in digital
+    health, including healthcare cloud trends. One of the interesting trends we discovered
+    was that, within healthcare, the definition of cloud is no longer only scoped
+    to SaaS any longer as it had been in the recent past. In fact, healthcare companies
+    are turning to cloud infrastructure services to help manage costs and increasing
+    complexities.  \n\nIn 2017, 75% of hospital CIOs plan to use IaaS services within
+    the next year — up from just 15.3% in 2014. In light of this trend, we thought
+    it a good time to once again define the three service delivery models prevalent
+    in healthcare companies today. \n*[Continue Reading](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)*\n\n**[The
+    Accelerating Migration to the Healthcare Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/):**
+    \nI saw an article recently titled, “Hospital datacenters: Extinct in 5 years?”
+    that made my jaw drop just a bit. The race to the cloud is unquestionably taking
+    place in just about every other industry. More than half of the CIOs polled at
+    last year’s Gartner Symposium IT Expo are moving away from a captive data center
+    environment and working toward a cloud-first strategy. \n\nThe healthcare industry
+    is notoriously the laggard in that migration and, up until now, healthcare’s race
+    to the cloud has looked more like a slow walk. So, five years may be a bit ambitious.
+    Even so, the healthcare cloud migration is gaining steam among hospitals and health
+    systems today. In fact, healthcare cloud spending is expected to rise nearly threefold,
+    from $3.73 billion in 2015 to $9.48 billion by 2020. \n\nIn this article, we explore
+    the state of cloud computing in healthcare today, the benefits of cloud computing
+    in the healthcare industry, and HIPAA cloud compliant hosting. \n*[Continue Reading](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)*\n\n**[Announcing
+    One-click Installations of Mirth Connect and Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/):**
+    \nToday we are launching one-click installations of Mirth Connect combined with
+    Open-Source Connectors. It is the next evolution of how we help solve the problem
+    of healthcare data integration. The switch to a more open solution is a testament
+    to our enduring commitment to helping customers with integration in the best way
+    possible. Healthcare developers can get started on new projects faster, and benefit
+    from three years of learning. \n\nWe aim to empower the developer community to
+    solve the problem of integration themselves with tools that are open, reliable,
+    compliant, and secure. The launch is based on consistent feedback that customers
+    need more flexibility, more control over their integration environments, better
+    pricing at scale, and future-proofing for things like FHIR and the Epic App Orchard
+    and Cerner Code. \n*[Continue Reading](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)*\n\n**[5
+    Steps to HITRUST Certification](https://datica.com/blog/5-steps-to-hitrust-csf-certification/):**
+    \n“If I’m being honest, I’d tell that the process we went through to achieve HITRUST
+    CSF Certification was incredibly painful. It was time consuming and resource intensive
+    beyond our wildest expectations. Personally, as the Datica Privacy Officer and
+    point person for HITRUST, I was taxed beyond anything I expected,” said Dr. Travis
+    Good, Co-founder, CEO, and Chief Privacy Officer of Datica. \n\nComplying with
+    HIPAA and proving it are two different things. Datica is HIPAA compliant. We can
+    point you to the documentation we’ve created to show how we comply with all the
+    various HIPAA rules. But, ultimately, because there is no true HIPAA certification,
+    the only way to prove HIPAA compliance is to go through 3rd party audits as we
+    have at Datica. Our customers leverage those audits to prove the infrastructure
+    they use is HIPAA compliant. Basically, we do all this work to make proving compliance
+    easier for our customers. \n*[Continue Reading](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)*\n\n**[Opportunities
+    for Digital Health Vendors in the Pharmaceutical Industry](https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma/):**
+    \nNaomi Fried, PhD is a highly experienced thought leader in healthcare innovation
+    and digital health, with many years of innovation experience. Most recently, as
+    Biogen’s first VP of Innovation, Medical Information, and External Partnerships,
+    she led five functions that catalyzed innovation to support patients and healthcare
+    professionals. She developed the strategy for and led the “innovation beyond the
+    molecule” program to deliver non-pharmacological value to patients and providers.
+    In our July, 2017 podcast \n\nDr. Travis Good interviewed Dr. Fried, resulting
+    in a lively chat about the differences between the way pharma and hospital systems
+    innovate, as well as the advantages digital health vendors can tap when working
+    with pharma. Here were a few key takeaways from the podcast. \n*[Continue Reading](https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma/)*\n"
+  :featured_image:
+    :id: 1djWQ10ry2O0KcqumsuyMk
+  :share_image:
+    :id: 6xuShzFG6sSeEKc8MAgwy4
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1RprfyzKKEmY4Yyqea0UKW
+  - :id: 1nDvHfyz8gkWCKuiuE4G2I
+  - :id: 6hcZMUL5qoc0SyssOiUMCi

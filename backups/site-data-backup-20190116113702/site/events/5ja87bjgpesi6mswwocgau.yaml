@@ -1,0 +1,72 @@
+---
+:id: 5ja87bJGPeSI6MSwwoCGau
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-10-11T22:29:36+00:00'
+  :created_at: '2018-10-04T23:21:21+00:00'
+  :id: 5ja87bJGPeSI6MSwwoCGau
+:title: 'Cloud Native PDX: Compliance and Configurations'
+:slug: cloud-native-pdx-meetup
+:date_start: !ruby/object:DateTime 2018-10-11 18:00:00.000000000 -07:00
+:event_tags:
+- Meetups
+- Presentations
+:is_featured: true
+:event_logo:
+  :title: cncf-logo-horizontal
+  :description: Cloud native computing foundation - horizontal logo
+  :url: "//images.ctfassets.net/189dvqdsjh46/hw9in24gVMik6iCGui2GM/ecd88fe3da63f45ee061c5848bec42c4/cncf-logo-horizontal.svg"
+  :_meta:
+    :updated_at: '2018-05-04T01:05:12+00:00'
+    :created_at: '2018-05-04T01:05:12+00:00'
+    :id: hw9in24gVMik6iCGui2GM
+:summary: 'As one of three presentations at the October meetup of the CNPDX group,
+  Ryan Rich of Datica will present, "Achieving HIPAA & GDPR compliance on Kubernetes." '
+:event_desc: |-
+  As one of three presentations at the October meetup of the [CNPDX group](https://www.meetup.com/Cloud-Native-PDX), Ryan Rich, Datica Chief Product Officer, will present on "Achieving HIPAA & GDPR compliance on Kubernetes." The meetup starts at 6:00pm at [New Relic](https://goo.gl/maps/qHQXpPMaWbw).
+
+  Achieving compliance is more than just installing a logging stack and implementing a few monitoring alerts. In this talk, Ryan will discuss the intricacies of achieving compliance in the cloud and how Kubernetes and the CNCF ecosystem play a part.
+:event_related_people:
+- :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:tags:
+  :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+:event_location:
+  :lat: 45.5221871
+  :lon: -122.67629119999998

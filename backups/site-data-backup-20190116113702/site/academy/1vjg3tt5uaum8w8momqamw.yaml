@@ -1,0 +1,751 @@
+---
+:id: 1Vjg3Tt5UAum8W8MoMQAmw
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-11-08T00:58:08+00:00'
+  :created_at: '2018-11-08T00:45:34+00:00'
+  :id: 1Vjg3Tt5UAum8W8MoMQAmw
+:title: 'Maturity Model Level Zero: Picking a Compliance DNA'
+:slug: maturity-level-zero-picking-compliance-dna
+:pub_date: !ruby/object:DateTime 2018-11-07 00:00:00.000000000 Z
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:summary: In starting a compliance program, there is work to be done before you get
+  to level one of the maturity model. We call this level zero.
+:lead: Using [the maturity model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/)
+  to [build](https://datica.com/academy/steps-to-climbing-maturity-model/) your compliance
+  program is a great strategy. It will walk you through the necessary steps to ensure
+  you build the foundation before trying to stand up the walls or put on the roof.
+:post: "\nThe challenge, especially if you’re just getting started with developing
+  a compliance program, is that there is work that needs to be done [before you get
+  to level one](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/)
+  of the maturity model. We call this pre-maturity model work level zero.\n\n## What
+  is your compliance DNA?\n\nChoosing your compliance DNA might be easy. It could
+  be as simple as saying we work in this one industry, say finance or healthcare or
+  education, and we only plan to operate in the United States, Europe, or Canada.
+  Increasingly, though, the connected world, powered by the cloud and mobile, is breaking
+  down barriers between geographies. It’s also common to operate a business across
+  multiple industries.\n\nIf this is the case with your business, there is a good
+  chance you will have to comply with multiple compliance regimes. It’s important
+  to build your compliance DNA on a framework built to crosswalk to relevant regimes
+  to avoid doing a lot of redundant work and data entry for your audits and customer
+  security reviews. [Recent data from CHIME](https://chimecentral.org/wp-content/uploads/2018/10/Healthcares-Most-Wired%E2%80%94National-Trends-2018-FINAL.pdf)
+  shows that NIST is the compliance framework of choice for enterprises, with HITRUST
+  showing up as an emerging favorite. \n\n![Screen Shot 2018-11-07 at 4.04.13 PM](//images.ctfassets.net/189dvqdsjh46/2r9YfloevWae8GEWyiei6E/92c53e359e8a07bab6a13f632c0ace9e/Screen_Shot_2018-11-07_at_4.04.13_PM.png)\n\n##
+  Our path to a compliance DNA at Datica\n\nOur focus at Datica has always been in
+  healthcare. As a business, we chose an industry vertical and decided to go deep
+  in that vertical, removing blockers in getting healthcare data onto the cloud. What’s
+  interesting is that we have expanded beyond healthcare compliance regimes as some
+  of our healthcare customers have brought us with them to new geographic areas where
+  compliance with things like GDPR is now required.\n\nLooking back to 2013, when
+  [Datica (formerly Catalyze)](https://datica.com/press-release/catalyze-rebrands-as-datica-solidifies-its-unique-mark-on-healthcare/)
+  was founded, the world of privacy and compliance was very different. [HITRUST](https://datica.com/discover/hitrust/)
+  was starting to pick up steam but was still very early and not yet required by any
+  covered entities. [GDPR](https://datica.com/discover/gdpr/) was not yet a thing,
+  either in definition or implementation. The [HIPAA Omnibus rule](https://datica.com/discover/hipaa-compliance/),
+  which created the category of entities called subcontractors, was written but not
+  yet implemented. And the concerns around privacy of personal data, highlighted in
+  all of the recent news and debate about social media and, in particular, Facebook
+  were not on the radar of politicians or the general public; Apple did not promote
+  privacy as a differentiator at that time.\n\nCompliance was a company-wide and product
+  focus for us from day one. Being in healthcare, we initially chose HIPAA as our
+  anchoring compliance framework. We did this because we focused on 1) healthcare
+  and 2) the US market. Our first audit was a HIPAA audit.\n\nEven at the time our
+  company was founded, we knew we wanted to go beyond HIPAA so we planned to do a
+  HITRUST assessment and seek a HITRUST Certification. We completed that assessment
+  within the first year of the company and have been actively involved with HITRUST
+  ever since. HITRUST has been very good for us and has clear ROI, both [internally](https://datica.com/blog/the-internal-roi-of-hitrust/)
+  as well as [externally](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/).\n\n>
+  HITRUST is our compliance DNA at Datica. Having that DNA has enabled us to develop
+  a cadence for our audits and a clear guiding set of requirements at all times for
+  all of our employees. \n\nBecause of the nature of HITRUST, and it’s pre-built crosswalks
+  to multiple compliance regimes such as [SOC](https://datica.com/academy/soc-2-type-ii-compliance-for-cloud-computing/)
+  or GDPR and frameworks  such as NIST or PCI, we have been able to leverage our HITRUST
+  work, both entries into the HITRUST CSF and our assessor, to complete audits for
+  GDPR and complete our SOC 2 Type 1 and Type 2.\n\n## Doing it again\n\nThe truth
+  is we did not develop our compliance program at Datica with the maturity model as
+  our stepwise approach. In 2013, we developed our compliance program for healthcare
+  and for HITRUST. We have since matured in our thinking about compliance and, despite
+  being successful with HITRUST and with our compliance program over the last 5+ years,
+  we would be more intentional if we were doing it again from scratch.\n\nIf we were
+  starting over, one clear intention would be to build our program explicitly along
+  the levels outlined in the maturity model. And we would start with level zero —
+  an evaluation of the types of customers and, by extension, data and geographies,
+  in which we plan to operate. From there, we would know the compliance regimes to
+  which we would need to comply and choose an anchoring regime, or a compliance DNA,
+  that we would ultimately have to crosswalk to all the relevant regimes.\n\n## Take
+  the first step\n\nThe nice thing about a level zero approach is you can get started
+  yourself, without any outside help and with minimal web searching skills. You should
+  have an understanding of your target customers/users and the types of data you and
+  your products will access. From there, you should be able to get a sense of the
+  compliance regulations to which you will need to comply, and it’s a short step from
+  that point to developing a short list of compliance frameworks that could work as
+  your compliance DNA. If you want to learn more about compliance frameworks, regulations,
+  controls, rules, and regimes, [start here](https://datica.com/blog/we-wrote-a-book-complete-cloud-compliance/).\n\nAt
+  some point, you will need to find more experienced resources to help put policies
+  and procedures into place and to start to work your way up the levels of the maturity
+  mode; but that is not a day zero problem to solve.\n"
+:related_guide:
+  :id: v3Inn3xhHaskmq4ywwmkI
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-08-17T20:05:55+00:00'
+    :created_at: '2018-08-16T23:11:42+00:00'
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :title: HIPAA / HITRUST Self Assessment Guide
+  :slug: hipaa-hitrust-self-assessment-guide
+  :summary: 'This lightweight self-assessment worksheet illuminates the cloud requirements
+    of HIPAA that you need to plan for in your own digital health product. '
+  :subhead: Are you sure your product is HIPAA compliant?
+  :tags:
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 2gE9oPn2yUGEQEoGKEASUQ
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: This HIPAA worksheet is meant to illuminate the cloud requirements of HIPAA
+    that you need to plan for in your own digital health product.
+  :authors:
+  - :id: 3azwOe9v3O4YSuyU0gsuo6
+  :guide_text: "What does \"HIPAA Compliant\" really mean? Frequently it is just a
+    marketing label that some companies bestow upon themselves and not really an attestation
+    of compliance. That's risky.\n\nThis worksheet is meant to illuminate the cloud
+    requirements of HIPAA that you need to plan for in your own digital health product.
+    A more comprehensive risk assessment, such as the HITRUST CSF Self-Assessment,
+    is also necessary. Use this checklist to understand what compliance controls are
+    needed, and assess your compliant state at several cloud layers:\n\n- __The Physical
+    Layer__ \n- __The Operating System and Application Layers__ \n- __The Administrative
+    Layer__\n\nOnce you've completed this checklist you'll have a much better understanding
+    of what it will take to be HIPAA compliant in the cloud."
+  :related_form:
+    :id: 1Jp8dA5yw8ceCEuIy4csq6
+  :form_id: 25a134fd-6903-40bf-acfd-7f5c6b478e92
+  :icon: hipaa-hitrust-self-assessment-guide
+  :bg_image:
+    :id: 2ynfPi2vdaUWY6yAkGu4c2
+  :image_thumb:
+    :id: QFttAsn4qqmuw2oC628kI
+  :share_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: ZKRvGjgJqeGcuMciIOgS
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2019-01-07T17:33:50+00:00'
+    :created_at: '2018-10-31T21:39:52+00:00'
+    :id: ZKRvGjgJqeGcuMciIOgS
+  :title: Steps to Climbing the Maturity Model
+  :slug: steps-to-climbing-maturity-model
+  :pub_date: !ruby/object:DateTime 2018-10-31 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :summary: 'Getting started with compliance on the cloud is easiest if you have a
+    stepwise approach like the 5-level maturity model outlined in this post. '
+  :lead: At Datica, we get asked frequently how to start down the path of setting
+    up a compliance program for the cloud or adjusting a non-cloud compliance program
+    to the cloud. Based on our experience, we wrote a [book](https://www.completecloudcompliance.com/)
+    with ways to get started on the cloud all the way to best practices for cloud
+    compliance programs.
+  :post: |2
+
+    Getting started with compliance on the cloud is easiest if you have a stepwise approach. Conveniently, there is a model made for this. It’s called the [maturity model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/). The maturity model can be followed along a five-level framework, outlined later in this post. The goal is to start with the basics and work your way to a more mature compliance program and state. Of note, the later levels of the maturity model are hard to achieve in their totality. The maturity model is a framework to continually improve and optimize your compliance program.
+
+    ## Maturity Model Stages
+
+    Below are the 5 levels of the maturity model.
+
+    1. __Policy__. Informed by privacy, these are the overarching, highest level policies for the handling of data and technology.
+    2. __Procedure__. These translate the policies from level one above into actionable steps that can be followed.
+    3. __Implementation__. These are the specific technical manifestations, or technical configurations, for the procedures above.
+    4. __Measurement__. Once implemented, the configurations need to be measured on a continual basis to ensure continued alignment with procedures.
+    5. __Management__. As gaps or anomalies are identified through measurement, procedures and resources need to be available to address them.
+
+
+    <div class="row bg-white collapse pad group align-middle align-justify">
+      <div class="columns small-12 medium-6">
+        <figure>
+          <img class="" alt="maturity model diagram w. continuum" src="//images.ctfassets.net/189dvqdsjh46/4d7HgAMBriyoAOCYm0MGKg/538c5a18f98fa79bfe61a95265d451d4/maturity_model_diagram_w._continuum.png?w=640" />
+          <figcaption>Fig. 1: Capability Maturity Model. The first stage, Privacy, is the most basic, with last stage achieving more complete compliance.</figcaption>
+        </figure>
+      </div>
+      <div class="columns small-12 medium-5">
+        <h4>What is a Control?</h4>
+        <p>Example: <code>"Users shall only be provided with access to
+        internal and external network services that
+        they have been specifically authorized to use.
+        Authentication and authorization mechanisms
+        shall be applied for users and equipment."</code></p>
+        <p>Each piece of technology needs to go through a similar process.</p>
+        <p>This is an example <strong>Capability Maturity Model</strong> that some frameworks use to understand the maturity of controls.</p>
+
+      </div>
+    </div>
+
+    ## Design Phase - Levels 1 through 3
+
+    The design phase technically includes the first three levels of the maturity model. Starting with building out a set of overarching policies. These policies need to be specific to an organization but there are general structures and even [free templates](http://catalyzeio.github.io/policies/) available to help you get started.
+
+    Considering the changing nature of technology and cloud technology, in particular, policies still need to be generic enough to be consistent despite the changes. These policies flow to slightly more dynamic procedures that outline the ways that people and tools follow policies. Procedures are then implemented into specific configurations. Below is an example to make this more concrete.
+
+    Let’s assume, as an organization and to meet the compliance requirements for the data and/or geographies relevant to you, you need to monitor access to your data (this is something you should do regardless of compliance requirements). You create a policy that states that you log all access to data and provide automated tooling for detecting anomalies or high-risk events. You then create 1-n procedures for how you collect, store, and review those logs and events. Then, you implement your technology (servers, applications, network devices, cloud services, etc) to gather the relevant data and move it to the appropriate storage location as defined by your procedures. In addition to automated tooling, you will likely also have some manual process of reviewing logs.
+
+    If that’s all done, you’ve successfully climbed the maturity ladder through level three. You need to do this for each control and requirement so it is not a trivial amount of work. That said, this structure can be used over and over again.
+
+    ## Operationalize - Levels 4 and 5
+
+    Operationalizing your compliance program, from a maturity model point of view, encompasses measurement and management. It is rare for organizations to achieve 100% success, or scoring in the context of HITRUST, for levels four or five. Depending on the risk profile and scale of your organization, you can be HITRUST Certified without passing, or at least passing completely and for all controls, on levels four and five.
+
+    Once you implement your technology inline with your procedures which, in turn, tie up to your policies, you need ways to measure your controls to detect anomalies for investigation. There should be an expected state — your implementations — that you measure against. You then need resources, both human and capital, and procedures to manage any detected anomalies.
+
+    While you can be HITRUST Certified without passing completely on levels four and five, these levels are becoming increasingly important. The reason for their importance is the nature of the cloud. The cloud opens up configurations to non-admin and non-ops users, such as software developers. The cloud also changes the available tooling and configurations for [abstracted services](https://datica.com/blog/compliance-is-a-team-sport/) on a constantly dynamic basis. Measuring and managing your compliance program on the cloud is imperative to identify implementation anomalies and reduce your risk.
+
+    Extending the example from above on monitoring access to data, let’s start with the assumption that the technical tools and processes have been put in place to create, store, and analyze an event/log pipeline. The next step, level four (measurement), means you should be tracking to ensure the tools and data are flowing as expected and any manual processes, like reviews of logs, are being done. There is some automation in this process to detect data flow; this automation should be tested on a regular basis to ensure it is working. In the case of Datica, we also use a manual process to monitor manual event review activity; this involves reviewing activity in [Jira](https://www.atlassian.com/software/jira).
+
+    Extending into level five (management), there should be resources dedicated to addressing anomalies and gaps identified by measurement. This includes both staff and budget (dollars) set aside for compliance-related work.
+
+    ## Don’t do it all at once
+
+    The example above about monitoring access to data is trivial but speaks to what needs to be done over and over again for each control. The most important thing, because this can become daunting fast, is to just get started. And the maturity model gives a clear stepwise approach on where and how you can get started. Start at level zero by determining the compliance regimes to which you need to comply. Then develop policies (level one), either using an [open source template](https://datica.com/open-source/policies/), from scratch or engage with a third-party consultant to help in the process. Then move to level two and on from there.
+
+    Don’t worry about the higher levels until you’ve ironed out each level beneath them. Developing a compliance program is a journey and you need to take the first step to get to your end goal. The unique thing about the compliance journey *on the cloud* is that the path continually changes despite the destination being a static target.
+  :related_guide:
+    :id: v3Inn3xhHaskmq4ywwmkI
+  :related_entries:
+  - :id: 4wjw4vEf6gCkgCA0mIQgO0
+  - :id: 4oWg09ti2Aos2Ima6GWiqg
+  - :id: UTYZcJYtm86gqicwYkgOc
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :cta_ref:
+    :id: 36zZKUG51CaoweqoOGWYae
+- :id: UTYZcJYtm86gqicwYkgOc
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-24T19:34:20+00:00'
+    :created_at: '2018-10-24T19:16:12+00:00'
+    :id: UTYZcJYtm86gqicwYkgOc
+  :title: Artifacts and Why They Matter for Compliance
+  :slug: artifacts-matter-for-compliance
+  :pub_date: !ruby/object:DateTime 2018-10-24 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :summary: With all the attention on compliance and the need for compliance artifacts,
+    or evidence, to be successful, it’s helpful to understand more about artifacts.
+  :lead: "Artifact has been used both as a historical/cultural reference and technology
+    term. But it seems to be gaining traction in the world of cloud as a term du jour.
+    [Azure uses it to describe software packages](https://azure.microsoft.com/en-us/services/devops/artifacts/)
+    that can be shared and ensure consistency for teams. [Google uses the term similarly
+    for builds](https://cloud.google.com/cloud-build/docs/configuring-builds/build-test-deploy-artifacts).
+    And AWS recently launched [AWS Artifact](https://aws.amazon.com/artifact/), a
+    portal for customers to gain access to AWS compliance reports. \n"
+  :post: "\nThe AWS use for the term artifact for its new portal is the most relevant
+    for this guide. In this guide, we walk through the importance of compliance artifacts
+    for an effective compliance program. Compliance artifacts are often synonymous
+    with compliance evidence. Using this definition, this is a simple topic. But compliance
+    artifacts in the context of the cloud are anything but simple. In today's world
+    of cloud services, managed services, and APIs, the breadth of artifacts is massive.
+    This article also touches on data artifacts that are being shed, often unknowingly,
+    by cloud services and can contain protected data that needs to be handled as all
+    other protected information is handled.\n\n## Introduction to Evidence\n\nWhen
+    it comes to compliance, a [compliance maturity model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/)
+    is a good place to start to appreciate the value of evidence. While privacy defines
+    the high-level policies for the management of data and technology, and security
+    is the implementation of those privacy-driven policies, compliance is the effective
+    measurement of the entire compliance program, from policies through secure implementation.
+    Measurement is all about documentation, ideally on an ongoing basis, in support
+    of a functioning compliance program and the following of compliance policies.\n\nHopefully,
+    compliance is not seen as a checkbox within your organization. When compliance
+    is seen as a roadblock or something that is bolted on after the fact, evidence
+    is generated and stored for an auditor. It is not seen as having value and it
+    is not used internally to monitor and improve compliance posture. Evidence should
+    be used to [constantly internally monitor](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/)
+    your compliance posture and ensure proactive identification of gaps, threats,
+    and risks that can then be mitigated. A mature compliance program does not simply
+    implement secure technology configurations and internal processes, it actively
+    manages those configurations and implementations to proactively identify and resolve
+    gaps, find areas for improvement, and, something we’ve seen at Datica, identify
+    where there might be human resource gaps.\n\nCompared to the post-cloud world
+    of today, technology choices and workflows were previously limited. Similarly,
+    in a pre-cloud world, compliance evidence was more confined. Today, the cloud
+    opens up a new world of compliance evidence in the form of both manually generated
+    artifacts (most cloud providers can generate certain data and reports on demand)
+    and automatically generated artifacts (APIs, logs, event streams, etc). The compliance-relevant
+    artifacts generated by cloud services are not well understood or appreciated,
+    either by the users of the cloud or by auditors and assessors.\n\n## Examples
+    of Compliance Artifacts\n\nWith all the attention on compliance and the need for
+    compliance artifacts, or evidence, to be successful, it’s helpful to see common
+    examples. The list below is an example list from Datica. It is certainly not exhaustive
+    and there are different tools to accomplish the same things.\n\n- __Jira Tickets__.
+    We are heavy [Atlassian users](https://www.atlassian.com/) at Datica. In addition
+    to general company documentation, we use Confluence for documenting and change
+    control for our procedures. When it comes to artifacts, we leverage Jira tickets
+    and projects to ensure we document how we follow procedures and provide a historical
+    record, with all interactions of users, for all compliance related tasks. We use
+    templating in Jira to minimize variability in compliance procedure workflows.
+    Jira provides good integrity to ensure logging of activities on tickets.\n  -
+    __Event Reviews__. We have certain regular review activities we do per our policies.
+    These are scheduled at some cadence from weekly to monthly up to annually. The
+    most common examples are things like reviewing logs, vulnerability scan, virus
+    scans, system inventory, etc. \n  - __Deployment Tickets__. We do security reviews
+    as a part of our deployment ticket process. This aligns our operations with our
+    configuration management policies and provides a separation of duties between
+    security (reviewers) and operations.\n- __Workstation Configurations__. We standardize
+    on MacOS machines at Datica and use [Jamf](https://www.jamf.com/) to manage those
+    machines remotely and ensure hardened configurations are in use. Jamf reports
+    are reviewed and logged in Jira but the actual report is also an artifact.\n-
+    __Support Tickets__. Some of the events that are triggered by our scans are relevant
+    to our customers and, in those cases, we sometimes use Zendesk to communicate
+    with them. This means we’ve had to use Zendesk tickets at times for compliance
+    artifacts.\n- __Cloud Configurations__. One of the new risk vectors with the cloud
+    is configuring managed services from cloud service providers to comply with our
+    compliance policies. This is very much an emerging area, one we go deep into in
+    our [new book on cloud compliance](https://completecloudcompliance.com). The challenge
+    is not simply setting parameters correctly for cloud services (things like encryption
+    and open ports and backups) but also ensuring those configurations don’t change.
+    The configuration themselves would ideally be snapshotted to create a historical
+    record of evidence. Some of this can be done today with APIs but much of it is
+    still manual and bespoke for each cloud service and each cloud provider.\n- __Events__.
+    We document our event reviews in Jira, as stated above, but the content of the
+    events themselves are also artifacts. For logging, we leverage the [ELK stack](https://logz.io/learn/complete-guide-elk-stack/)
+    for immediate, shorter-term log storage and access. By policy, we move log data
+    to [AWS S3](https://aws.amazon.com/s3/) and retain that data for at least a year.\n-
+    __System Inventory__. Doing a system inventory is a lot more difficult on the
+    cloud, especially if you have a fleet of hundreds or thousands of instances and
+    leverage managed services (like S3 above). In the good old days of data centers
+    and purchased hardware, tracking sheets with serial numbers were the norm. Today,
+    with virtualization, managed cloud services, and the on-demand nature of the cloud,
+    system inventories are harder and harder grok, especially if you need accurate
+    historical records. At Datica, we focus on retaining our monthly inventory, based
+    on a mix of sources including cloud billing information.\n- __Network Diagrams__.
+    This can also be more challenging on the cloud given the nature of virtualization
+    and abstraction. We manage a lot of different cloud accounts and environments
+    at Datica and typically try to enforce a standard network architecture across
+    all of them. This network architecture is what we maintain and it is validated
+    by our system inventory.\n- __People Operations__. Compliance is not just about
+    technology. Some of the content that would historically be a part of an employee
+    file also contains relevant compliance artifacts.\n  - __Employment Agreements__.
+    Not all employment agreements are relevant for our compliance program and our
+    HITRUST Certification, but some, like our IP agreements, are relevant and we have
+    to provide them during our audits.\n  - __Background Checks on Personnel__. We
+    conduct background checks on all new employees. We persist these reports as artifacts
+    for future reference.\n  - __Security Training__. HIPAA, and most other compliance
+    regimes, require regular security training. In reality, given the nature and value
+    of digital data today and the role all companies play as stewards of that data,
+    security training should be done at every organization, ideally tailored to the
+    specific organization. At Datica, we require annual training and we document using
+    G Suite (from Google). We also provide [open source HIPAA training](https://training.datica.com)
+    if you’re looking for starter content for your own organization.\n- __Patch Testing__.
+    Despite the adoption of the cloud and abstracted services from cloud providers
+    (some levels of abstraction include the OS and software packages so patching falls
+    on cloud providers), unpatched software is and remains one of the most relevant
+    threat vectors. Patchers should be tested before going out to production systems
+    and this patch testing should be documented, along with the ultimate patch information
+    metadata when the patch is actually installed into production. Jira is a good
+    tool for this as well.\n- __SLAs__. We have SLAs with the various cloud service
+    providers (CSPs). As a part of our [HITRUST Certification](https://datica.com/compliance),
+    we are required to assess the performance of CSPs against their stated and committed
+    service levels. We do this on an annual basis and we document it using Jira tickets.\n-
+    __Risk Assessments__. Risk assessment, and risk generally, should be the driving
+    force behind many compliance and security decisions. Full risk assessments should
+    be done at least annually while mini-risk assessments, those that evaluate significant,
+    and sometimes even small, changes to your technology and compliance program should
+    be done on an ad hoc basis as needed. At Datica, we leverage a risk assessment
+    template in a Google Sheet that is based on NIST standards for risk assessments.\n\n##
+    How to Use Artifacts\n\nArtifacts should be used to 1) internally monitor and
+    measure the performance of your compliance program and 2) externally validate
+    your compliance program for auditors and other third parties. In both uses, organization
+    and regular pruning of your compliance artifacts are essential (pruning doesn’t
+    mean deleting).\n\nThe major challenge we’ve experienced at Datica is compliance
+    artifact overload and consistent organization, especially with personnel changes
+    (growth and departures). Your compliance program, and the associated evidence,
+    should not be tied to any one individual and should outlast your team. This is
+    easier said than done.\n\nAs you can see above, there are a lot of different forms
+    of artifacts from the documentation of reviews (we use Jira for this) to logs
+    to scans to SLAs to personnel files and more. We’ve tried multiple times to consolidate
+    our tooling but, in the end, we still have a mix of Jira, Zendesk, AWS S3, ELK
+    (on CSP), and G Suite. This highlights the volume and variety of compliance artifacts
+    for a modern cloud company and the associated challenge of organizing those artifacts.
+    We still use regular manual grooming to ensure things are in the right places.\n\nSince
+    we’ve been unable to consolidate all of our artifacts into one tool, the key is
+    to document, ideally within the procedures themselves, where each type of compliance
+    artifact is stored and to ideally ensure there is a separation between those that
+    create/store the artifacts and those that access/organize/prune the artifacts.\n\n##
+    A Caveat of Securing Artifacts (and risks)\n\nBackups, APIs, logs, scans, tickets
+    and more can and do create a lot of data exhaust. This data exhaust can be in
+    the content itself or in the metadata associated with the artifacts. This data
+    exhaust can contain PHI (logs are the easiest example to imagine this being the
+    case) and, as such, needs to be secured and treated like any of PHI to which you
+    are responsible. That means BAAs should be in place with any relevant tools/tech
+    that are storing compliance artifacts and other protections, per your organizations’
+    policies, should be implemented.\n\n## Starting is the Hardest Part\n\nEffectively
+    capturing and managing compliance artifacts is not fun. And it’s not easy today
+    as most organizations use a mix of service providers for various aspects of their
+    technology. But it’s necessary to effectively move up the [compliance maturity
+    model](https://datica.com/academy/how-to-optimize-your-compliance-posture-with-a-maturity-model/)
+    \ and being a trusted party in today’s world where trust is an essential asset.\n"
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: 4wjw4vEf6gCkgCA0mIQgO0
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 4wjw4vEf6gCkgCA0mIQgO0
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2019-01-07T17:33:32+00:00'
+    :created_at: '2018-10-09T22:43:25+00:00'
+    :id: 4wjw4vEf6gCkgCA0mIQgO0
+  :title: How to Optimize your Compliance Posture with a Maturity Model
+  :slug: how-to-optimize-your-compliance-posture-with-a-maturity-model
+  :pub_date: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :summary: In this guide, we will walk you through the reasoning, structure, and
+    ways to leverage a maturity model, such as the HITRUST maturity model, to optimize
+    your compliance posture.
+  :lead: Many people view compliance as a checkbox or something you just have to do
+    in order to operate within a certain geographic or vertical market. While privacy,
+    compliance, and security are not the same things, none of them are simple bolt-ons
+    or checkboxes. Another common misconception is that doing security right means
+    you are compliant. This is simply untrue and represents a historic view of compliance
+    as a liability instead of as an asset to be used for competitive advantage.
+  :post: "\nCompliance is not binary but when you think about it as a checkbox or
+    afterthought you end up framing it in that way. The nuance of compliance is represented
+    well in the maturity model now commonly used in practice for evaluating compliance
+    programs and requirements. Maturity models take different forms. At Datica, we
+    leverage HITRUST for our compliance program so use the HITRUST-specific flavor
+    of maturity model, which in turn is based on the [NIST Program Review for Information
+    Security Management Assistance (PRISMA)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7358.pdf)
+    methodology. In this guide, we will walk you through the reasoning, structure,
+    and ways to leverage a maturity model to optimize your compliance posture.\n\n##
+    The Purpose of the Maturity Model\n\nThe PRISMA framework was created by NIST
+    to support the vast array of information technology and information security requirements
+    of federal agencies. In this mandate, it has flexibility and extensibility built
+    into the maturity model. This flexible structure is highly aligned with the needs
+    of a compliance maturity model for the cloud as the cloud has a huge array of
+    different technology implementations and use cases. Additionally, as we will see
+    with the actual scoring of maturity models, the thresholds can be set differently
+    based on the risk to specific organizations and information system environments.\n\n##
+    Structure of the Maturity Model\n\nThe PRISMA model, and similarly the HITRUST
+    maturity model, have five distinct maturity levels. For the purposes of this guide,
+    we will focus on the [HITRUST maturity model](https://hitrustalliance.net/documents/csf_rmf_related/RiskAnalysisGuide.pdf)
+    from this point on, which again is a modified version of the PRISMA with the first
+    three maturity levels being the same. HITRUST, in its own words, buckets levels
+    one through three as “design effectiveness” and levels four and five our as “operational
+    effectiveness”.\n\nThe HITRUST maturity levels are outlined below with summary
+    points.\n\n1. __Policy.__ These are the high-level policy and standard documents
+    that outline the goals and define the overarching compliance program within an
+    organization. HITRUST clearly states that these include “shall” and “will” statements,
+    clearly articulating, in writing, the formal goals of an organization. The starting
+    point for policies is often a mix of internal data privacy needs and external
+    compliance regimes to which the organizations must attest and ultimately comply.
+    \ These should be made easily accessible to all employees and contractors.\n2.
+    __Procedures.__ Procedures define the ways in which policies are to be carried
+    out or implemented as well as the specific teams and individuals that are responsible
+    for them. In the simplest form, procedures outline how an organization follows
+    its own policies. This can be an extremely detailed and difficult step but is
+    essential to tying policies, above, to implementation, below, in a consistent
+    and defensible way.\n3. __Implementation.__ This is the actual implementation
+    of the controls (settings, configurations, etc) that are defined by procedures
+    and mandated by policies. Once implemented, and ideally required by procedures,
+    these implementations should have some initial testing performed to ensure baselines
+    have been achieved.\n4. __Measurement.__ Ongoing, not one and done, testing of
+    all three of the above maturity levels is required to successfully achieve this
+    level. These are self-assessments performed internally within an organization.
+    Baseline metrics or KPIs for policies, procedures, and implementations should
+    be defined and tracked over time. Threats are dynamic, more now than ever with
+    the pace of technology and the cloud, so those need to be continually assessed
+    as well. In some respects, this maturity level is an ongoing risk assessment or
+    a set of mini risk assessments.\n5. __Management.__ From our experience, “Managed”,
+    as a maturity level, is the least well understood; it’s also rarely achieved or
+    fully achieved, by organizations going through a HITRUST assessment. Managed is
+    tied to Measured above in that it is assessing how an organization responds to
+    the outcomes, or measures, of control testing. An example is when testing detects
+    anomalies. In those cases, do organizations have processes and procedures that
+    are followed to assess the root cause of the anomalies and then address or make
+    changes as to ensure alignment with policies and procedures. One key activity
+    in this level is setting metric goals and then assessing and responding to those
+    over time.\n\n## Privacy, Security, and Compliance\n\nThere is a tight interplay
+    between privacy, security, and compliance. Oftentimes there is confusion on the
+    boundaries of each. Leveraging the maturity model is an easy way to differentiate,
+    albeit with some gray area remaining, between these increasingly important functions.
+    At Datica, we take this approach and leverage it to break down the maturity model
+    to assess our privacy, compliance, and security independently.\n\nWe view Privacy
+    as largely residing at the Policy level, with some input from Compliance in terms
+    of external frameworks and requirements (like GDPR in Europe). Procedures are
+    coupled tightly with Implementation and both align with the functions of Security.
+    The last two levels, Measurement and Management, fit with the functions of Compliance
+    to continually assess, certify, and document necessary compliance artifacts and
+    corrective action plans.\n\n\n<div class=\"row bg-white collapse pad group align-middle
+    align-justify\">\n  <div class=\"columns small-12 medium-6\">\n    <figure>\n
+    \     <img class=\"\" alt=\"maturity model diagram w. continuum\" src=\"//images.ctfassets.net/189dvqdsjh46/4d7HgAMBriyoAOCYm0MGKg/538c5a18f98fa79bfe61a95265d451d4/maturity_model_diagram_w._continuum.png?w=640\"
+    />\n      <figcaption>Fig. 1: Capability Maturity Model. The first stage, Privacy,
+    is the most basic, with last stage achieving more complete compliance.</figcaption>\n
+    \   </figure>\n  </div>\n  <div class=\"columns small-12 medium-5\">\n    <h4>What
+    is a Control?</h4>\n    <p>Example: <code>\"Users shall only be provided with
+    access to\n    internal and external network services that\n    they have been
+    specifically authorized to use.\n    Authentication and authorization mechanisms\n
+    \   shall be applied for users and equipment.\"</code></p>\n    <p>Each piece
+    of technology needs to go through a similar process.</p>\n    <p>This is an example
+    <strong>Capability Maturity Model</strong> that some frameworks use to understand
+    the maturity of controls.</p>\n  </div>\n</div>\n\n## How HITRUST Scores the Model\n\nScoring
+    of the maturity model is complex and beyond the scope of this article. At a high
+    level, each control, of which there can be hundreds, is assessed against the maturity
+    model. The maturity model is not applied to an organization as a whole, but to
+    each specific HITRUST control. For each control, each maturity level is rated
+    as: \n\n* Non-Compliant (0%),\n* Somewhat Compliant (25%),\n* Partially Compliant
+    (50%),\n* Mostly Compliant (75%), or \n* Fully Compliant (100%). \n\nThe percentage
+    is supposed to coincide with a rough numerical equivalent. When completing a HITRUST
+    assessment, there is a rating for each maturity level for each control. If you
+    have 50 relevant HITRUST controls, you have 250 maturity ratings (50 x 5). These
+    ratings are verified by 3rd party assessors and ultimately certified by HITRUST.
+    These ratings are then used to calculate an overall rating, which determines if
+    you pass or fail the assessment.\n\n## How to use the Maturity Model\n\nThe maturity
+    model is an excellent framework to build, maintain, and optimize a full stack
+    compliance program; in HITRUST terms, it can be used to both “design” and “operationalize”
+    your compliance program. _Full stack_ in this context means _full stack maturity_,
+    or successfully demonstrating compliance across all levels of the maturity model.
+    In practical terms, even using the maturity model as a guide, there is not a time
+    when you are “fully compliant” and can sit back and relax. Compliance needs to
+    be ongoing and proactive, and the maturity model is a framework that can be leveraged
+    to do that over time and to meet the myriad of new technologies, partnerships,
+    data, and compliance tools.\n\nAt Datica, we leverage the [HITRUST maturity model](https://datica.com/compliance/).
+    We used it to ensure consistency from policies, or privacy, through implementation,
+    or security, to management, or compliance. We even classify the technology tools
+    we use into the levels of the maturity model they help to address. An example
+    of this would is the logging mechanism we use fits into implementation, the events
+    we log into procedures and policies, and the documentation of log review into
+    measurement and management. We have had successful outcomes, and eased our external
+    audit burden, by aligning and mapping our privacy, security, and compliance posture
+    to a maturity model.\n\n\n\n\n"
+  :related_guide:
+    :id: 1t0tIH6KWIyWAAk6iS2Se2
+  :related_entries:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  - :id: 43dQoBKc9OuQuyw8k2SmKO
+  - :id: 1s1UlhAhkAwwewk20ugYsW
+  - :id: 4STmWUVa5WwkaWyi2UYG8U
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light

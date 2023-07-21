@@ -1,0 +1,156 @@
+---
+:id: 7jU8hy3PvaOamoC26yga8q
+:_meta:
+  :content_type_id: reports
+  :updated_at: '2018-07-23T23:26:58+00:00'
+  :created_at: '2018-07-23T22:20:21+00:00'
+  :id: 7jU8hy3PvaOamoC26yga8q
+:title: Privacy and Big Technology
+:slug: report-q2-2018-privacy-big-technology
+:pub_date: !ruby/object:DateTime 2018-07-23 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+- :id: 15gxB6GioeIuKGKMSmwiS2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-12-11T19:30:39+00:00'
+    :created_at: '2017-12-11T19:30:39+00:00'
+    :id: 15gxB6GioeIuKGKMSmwiS2
+  :tag_full: GDPR
+  :slug: gdpr
+  :description: General Data Protection Regulation
+:summary: Healthcare is grappling with GDPR, new privacy rules in California, and
+  more aggressive healthcare industry efforts by the technology titans of Microsoft
+  and Amazon. This newest Datica Quarterly Report explores the issues.
+:subhead: Summer 2018 Quarterly Report
+:lead: "This Summer, 2018 issue of the Datica Quarterly Report was an exciting package
+  to put together. As we have done in previous reports, we have curated some of the
+  more insightful articles and commentary from publications around the web.\n\nCertainly,
+  there’s a lot of privacy and cloud security news out there. We think it’s timely
+  as the Healthcare industry grapples with GDPR, new privacy legislation in California
+  and, seemingly, more aggressive healthcare industry efforts by the technology titans
+  of Microsoft and Amazon. \n"
+:desc: |-
+  ### In this issue
+  {: .headline-3 .spaced-out}
+
+  - What the media are saying about the newest privacy legislation – GDPR and the California Consumer Privacy Act
+  - The media's take on how the titans of technology, Amazon and Microsoft, are making big moves into healthcare
+  - Industry buzz on innovation and cloud security from Cognizant, Deloitte, and Evident.io
+:authors:
+- :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:form_id: privacy-and-big-technology
+:icon: privacy-and-big-technology
+:bg_image:
+  :title: 2018-q3-report-bg-large
+  :description: Summer 2018 Datica Quarterly Report image header
+  :url: "//images.ctfassets.net/189dvqdsjh46/5i86f3BdReW2iIqaQoy0oa/7712c6e4769d00a4a7488f1b4b5ccd83/2018-q3-report-bg-large.jpg"
+  :_meta:
+    :updated_at: '2018-07-23T23:25:52+00:00'
+    :created_at: '2018-07-23T22:04:08+00:00'
+    :id: 5i86f3BdReW2iIqaQoy0oa
+:image_thumb:
+  :title: 2018-q3-report-thumb
+  :description: Summer 2018 Datica Quarterly Report thumbnail image
+  :url: "//images.ctfassets.net/189dvqdsjh46/6Dv0iHhfTqgO2U6cImua4/629ec8fe02abc9268f277ad70d31f8f0/2018-q3-report-thumb.png"
+  :_meta:
+    :updated_at: '2018-07-23T23:36:15+00:00'
+    :created_at: '2018-07-23T22:04:08+00:00'
+    :id: 6Dv0iHhfTqgO2U6cImua4
+:share_image:
+  :title: 2018-q3-report-share
+  :description: Summer 2018 Datica Quarterly Report social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/Ozi16LLjSECiCWywQCUOs/de7f3a857d063022d19f8d419d4dcee2/2018-q3-report-share.jpg"
+  :_meta:
+    :updated_at: '2018-07-23T23:26:42+00:00'
+    :created_at: '2018-07-23T22:04:08+00:00'
+    :id: Ozi16LLjSECiCWywQCUOs
+:related_form:
+  :id: 2DgIfigCQAEaWCkWKCyaYI
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:06+00:00'
+    :created_at: '2018-07-23T22:19:43+00:00'
+    :id: 2DgIfigCQAEaWCkWKCyaYI
+  :title: Quarterly Innovation Report - Q2 2018
+  :slug: quarterly-innovation-report-q2-2018
+  :desc: Privacy and Big Technology | Spring 2018 Quarterly Report
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"5f698045-82c4-4d80-9aea-690841601e52\",\n
+    \ target: \"#hsFormContainer\",\n  onFormSubmit: function($form) {\n  window.dataLayer
+    = window.dataLayer || [];\n  window.dataLayer.push({\n                    'event'
+    : 'GAEvent',     \n                    'eventCategory' : 'Innovation',\n                    'eventAction'
+    : 'Form Submission',\n                    'eventLabel' : 'Quarterly Report - Q1
+    2018',\n                    'eventValue' : '2'\n                    });\n                  },\n
+    \ css: \"\"\n});\n</script>"

@@ -1,0 +1,133 @@
+---
+:id: CU5z5uKxNeUA6o0qKwQuC
+:_meta:
+  :content_type_id: services
+  :updated_at: '2018-07-10T16:07:59+00:00'
+  :created_at: '2017-11-10T22:44:53+00:00'
+  :id: CU5z5uKxNeUA6o0qKwQuC
+:title: Consulting & Solutions Architecting
+:slug: consulting
+:sort_order: 3
+:icon:
+  :title: icon-consulting-compass
+  :description: icons, compass, circle, svg
+  :url: "//images.ctfassets.net/189dvqdsjh46/5MzX5F4mm4cWuCg0GsIi6o/0e0c202106f5f9f7bfd83d7a42f8bded/icon-consulting-compass.svg"
+  :_meta:
+    :updated_at: '2017-11-10T22:44:44+00:00'
+    :created_at: '2017-11-10T22:44:44+00:00'
+    :id: 5MzX5F4mm4cWuCg0GsIi6o
+:description: "Our initial consultation is free, but the Datica experts can help in
+  many ways on the road to [digital health success](/dhsf). \n\nDatica can help enterprise
+  teams move legacy applications into modern platforms-as-a-service. __Solutions Architecting__
+  from Datica takes on this challenge for you. Our team of cloud engineers will containerize
+  and configure a customers application to run smoothly on the [Datica Platform](/platform)."
+:body: "#### Initial Investigation\n\nTo begin the solutions architecture process,
+  a Datica cloud engineer conducts an initial investigation to fully understand the
+  business requirements. We generate a scope of work and estimated timeframe. \n\n####
+  Architecture Diagramming\n\nA Datica cloud engineer generates architecture diagrams
+  to visualize the work required.\n\n#### Development\n\nDatica cloud engineers do
+  whatever is needed to port or create the application: containerizing applications,
+  configuration, code engineering, and more. You may work with Datica sales associates,
+  business analysts, our product team, or other engineers."
+:expert_people:
+- :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+- :id: rVZcG8ORWKg8o4EIuqQ8a
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-10-31T03:11:34+00:00'
+    :created_at: '2018-02-19T20:40:25+00:00'
+    :id: rVZcG8ORWKg8o4EIuqQ8a
+  :fullname: Christopher Gerg
+  :slug: christopher-gerg
+  :person_type: Datica Alumni
+  :role: Chief Security Officer
+  :profile_pic:
+    :id: gKMODezw2WQ8sy8246u4K
+  :email: christopher@datica.com
+  :bio_short: Christopher Gerg leads the security and compliance teams at Datica in
+    his role as Chief Security Officer.
+  :bio: "With more than 15 years of information security experience, Gerg most recently
+    served as CEO and Principal Consultant at Gauntlet Consulting, LLC. Prior to that,
+    HealthGrades tapped Gerg as its Chief Information Security Officer and VP of Infrastructure
+    & Engineering. He has experience in the hosting, managed security services, e-commerce,
+    healthcare, financial, and payment card industries and has worked as a Systems
+    Administrator, Network Engineer, Penetration Tester, Information Security Architect,
+    VP of Information Technology, Director and Chief Information Security Officer.
+    Gerg was a past member of the Network Security Team for the 2000 Republican National
+    Convention and is also an author of the O’Reilley Media book “Managing Network
+    Security with Snort and IDS Tools.”\n\nWhile an expert in the theoretical aspects
+    of information security best practice, he is also experienced in the practical
+    aspects of building a secure technical environment – and working with the boardroom
+    to promote executive understanding and support. "
+  :profile_linkedin: christopher-gerg-8aa0a66a
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:related_customer:
+- :id: 1ezDRhHypCEOA44eYWI6M8
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-11-28T22:11:08+00:00'
+    :created_at: '2017-01-30T17:51:05+00:00'
+    :id: 1ezDRhHypCEOA44eYWI6M8
+  :company_name: Hurley Medical Center
+  :slug: hurley-medical-center
+  :customer_logos:
+  - :id: 5arheXiseQiKIwq2KAukQQ
+  :fullname: Dr. Michael Roebuck
+  :role: CMIO
+  :profile_pic:
+    :id: 5OFA1wUZqgKWMKOU2C0IEO
+  :customer_quote:
+    :id: 566EA4HZFumwUQQ6asKQYw
+  :profile_twitter: HurleyMedical
+  :profile_linkedin: hurley-medical-center
+  :customer_story_short: Founded in 1908, Hurley is a 443 bed public, non-profit,
+    teaching medical center located in Flint, Michigan.
+- :id: 5m6Q7xi6M8Qkuq2iMCIc6i
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-03-24T20:58:43+00:00'
+    :created_at: '2017-01-13T19:50:15+00:00'
+    :id: 5m6Q7xi6M8Qkuq2iMCIc6i
+  :company_name: Department of Veterans Affairs
+  :slug: veterans-affairs
+  :customer_logos:
+  - :id: 3S68s3zk0EwaQEIQwmiuwK
+  - :id: wzXTBGjFba0k28IUE0isi
+  :related_products:
+  - :id: 2fzMqf6H3W28sIImkqygQw
+  - :id: 2p7qUhPv76qwuE82uYKi0C
+  :customer_story_short: Datica has helped the Department of Veterans Affairs with
+    many internal projects, such as patient engagement.
+  :case_study:
+    :id: 79P9teP27Y2okIig8Cw4wi

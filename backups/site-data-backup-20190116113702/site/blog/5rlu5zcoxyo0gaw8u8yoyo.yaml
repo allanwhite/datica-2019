@@ -1,0 +1,826 @@
+---
+:id: 5rlU5ZCOXYo0gAw8u8YOYO
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T23:36:35+00:00'
+  :created_at: '2018-01-16T01:34:50+00:00'
+  :id: 5rlU5ZCOXYo0gAw8u8YOYO
+:title: 6 Healthcare Trends to Watch in 2018
+:slug: 6-healthcare-trends-to-watch-in-2018
+:pub_date: !ruby/object:DateTime 2018-01-15 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Government, individuals, and private sector will continue a push for change
+  in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.
+:blog_lead: It’s 2018, and the world looks much different [than it did a year ago](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/).
+  Go [back even further](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+  and the differences are even more stark. No place is that more evident than in healthcare.
+  As the largest industry in the world, healthcare has  weathered the most significant
+  political waves of the last fifteen years. As the costs of healthcare increased
+  unchecked, politicians took notice.
+:post: "\nIn our pseudo free-market health system, where a considerable portion of
+  costs are covered with public funds, and where the largest public payor initiates
+  changes that are then emulated by commercial payors and, likewise, where government
+  entities heavily regulate healthcare’s techniques and technologies, politicians
+  have intervened to force changes. With healthcare being a major topic of the last
+  several elections and a top priority for President Obama during one of his two terms
+  (as it was for President Clinton, though his primary initiatives in healthcare didn’t
+  pass), it’s no surprise that the current administration also would like to impart
+  change. [President Trump is now working to alter](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
+  some of what the Obama administration put into place. This move creates more uncertainty
+  and requires change. I think everyone agrees on a defined set of goals for the industry,
+  known as the triple aim (better outcomes, lower costs, improved experience), but
+  the path to achieving those goals is wildly variable depending on your political
+  position.\n\nUnfortunately these required changes have placed the industry in turmoil.
+  In an effort to modernize its technology, EHRs have been forced between providers
+  and patients to ensure better, more consistent data collection. Ideally, this move
+  should reduce medical errors and redundant tests, however, the government missed
+  a massive opportunity here when it spent north of $40B on incentives to increase
+  digitization of medical records — EHR software that wasn’t built to reduce medical
+  errors, unnecessary tests or even improve clinician communication or data sharing
+  across providers that would ensure continuity of care. At the same time, government
+  financial incentives prompted a change to healthcare services to ensure quality.
+  Yet, most of these quality initiatives didn’t go far enough and consequently increased
+  data reporting burdens for clinicians. Meanwhile, payments for the majority of healthcare
+  services have been reduced, squeezing provider margins and changing the rules for
+  how providers are paid.\n \nHealthcare hasn’t improved for consumers. During appointments,
+  providers struggle to connect because they have screens, not patients, in front
+  of them. Insurance coverage has gotten worse; choices have been reduced and the
+  complexity of bills and payor communications to consumers more complex. How much
+  worse have things become? I have an MD, MBA, and MS. I run a healthcare company
+  with ~50 employees and have been writing and speaking on healthcare and healthcare
+  technology for ten years. My wife and many of my friends are practicing physicians;
+  some are my physicians. Yet, I woefully struggle to understand my medical bills,
+  choices in providers, and generally how to navigate our broken system. \n\nWhere
+  does that leave healthcare going into 2018? I’d argue that healthcare, if anything,
+  is worse today than it was a year ago. The government, individuals, and private
+  sector will certainly continue pushing for more changes in 2018. Given that, I predict
+  we’ll see a few major healthcare trends as we move through the new year.\n\n## Subscription
+  / direct pay / cash-based practices \n\nConsumers, with minimal choice in healthcare,
+  find it difficult to speak with their wallets or their feet. Similarly, providers
+  have even fewer options. It's no wonder that subscription medicine and cash-based
+  medical practices are growing in popularity for both providers and patients (more
+  on that below). These care models align incentives and are transparent. Geared towards
+  those who have the ability to pay extra for better services, today, the majority
+  of these care models bank on the pocketbooks of the middle to upper class. However,
+  [emerging data sets](https://www.heritage.org/health-care-reform/report/direct-primary-care-innovative-alternative-conventional-health-insurance)
+  show the success of this model is also possible for underserved populations, as
+  well. Learn more about what I think will happen with [cash-pay practices in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/).\n
+  \ \n## Post-EHR healthcare \n\nThe gravy train of meaningful use (MU) is over. The
+  effect of MU was a significant, artificial, driver of adoption for a few EHRs. Today,
+  digital health records are the standard. As we move through 2018, keep an eye on
+  EHRs and how they justify their ROI once massive capital expenditures are written
+  down. Likewise, you’ll want to consider how clinicians adjust to this brave new
+  world. Read more about my [2018 predictions for the post-EHR world](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\n##
+  Clinicians as developers\n\nThe EHR wave of health IT left out clinicians. EHR and
+  IT vendors drove those early technology decisions. Now, with software eating the
+  world, clinicians are acting like software developers and corporate innovators in
+  helping to design and, in some cases, build new technology and technology-enabled
+  services for their colleagues and their patients. [Read more of my thoughts on clinicians
+  as developers.](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)\n\n##
+  The real cloud\n\n[HIMSS 2018](http://www.himssconference.org/), the largest health
+  technology conference on the planet, will for the first time see the behemoth booths
+  of EHR vendors challenged by the equally massive booths of public cloud service
+  providers like Amazon, Microsoft, and Google. This is the canary in the coalmine
+  moment for healthcare, not just for the adoption of the real cloud over simple virtualization,
+  but also in the fragmentation of infrastructure and services managed by third parties
+  for healthcare delivery organizations. [Learn more about the real cloud in healthcare.](https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n\n##
+  Beyond digital health hype\n\nDigital health has been hyped for a long time as a
+  savior for healthcare. Unfortunately, healthcare is not that simple and no savior
+  exists to untangle us from our current mess of a system. Technology, for technology’s
+  sake, is not going to fix healthcare. While we’ve witnessed incredible enthusiasm
+  around new technologies disrupting healthcare, we’re also now seeing some public
+  failures, like the recent [acquisition/fire sale of Practice Fusion](http://www.healthcareitnews.com/news/allscripts-buys-practice-fusion-100-million),
+  or the [Castlight Health initial public offering hype](https://www.usatoday.com/story/money/markets/2014/03/14/castlight-health-ipo/6411725/)
+  and valuation assumptions compared to the market reality of today. Similar to EHRs,
+  digital health now must prove it’s worth if it’s going to have sticking power. [Find
+  out more about getting beyond the digital hype.](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n\n##
+  Blockchain to the rescue \n\nSpeaking of hype, [blockchain has made its way into
+  healthcare](https://www.forbes.com/sites/bernardmarr/2017/11/29/this-is-why-blockchains-will-transform-healthcare/#2560e48f1ebe).
+  Smart contracts, immutability, and a clear audit trail — hallmarks of blockchain
+  technology — hold much promise for healthcare data and exchange. The problem is
+  that technology, especially when it comes to data sharing and interoperability in
+  healthcare, is not the dominant roadblock. Layering in new technology, like blockchain,
+  leaves the fundamental organizational and political problems unsolved.\n\nI’ll focus
+  on each of these trends in subsequent posts, distilling all of these healthcare
+  trends down into one larger narrative: post-EHR healthcare is finally ready and
+  incented to start making the necessary changes that will align with the triple aim.
+  Massive organizations will vie for their place in this new healthcare world; some
+  will win and others won’t. The winners will be the providers AND the patients.\n"
+:featured_image:
+  :title: blog-6-healthcare-trends-2018-featured
+  :description: 6 healthcare trends to watch in 2018 image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4Jy6Q7twdqk8AMssewYKIa/8570ba7c80cd7a010df60b12c7c46ed2/blog-6-healthcare-trends-2018-featured.jpg"
+  :_meta:
+    :updated_at: '2018-01-16T01:14:46+00:00'
+    :created_at: '2018-01-16T01:14:46+00:00'
+    :id: 4Jy6Q7twdqk8AMssewYKIa
+:share_image:
+  :title: blog-6-healthcare-trends-2018-share
+  :description: 5 Healthcare Trends to Watch in 2018 share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/2RBIZfT40wkGOqiqqy46gk/0a800bc2e3baebd940efa3f6cdd4d4bd/blog-6-healthcare-trends-2018-share.jpg"
+  :_meta:
+    :updated_at: '2018-01-16T01:15:54+00:00'
+    :created_at: '2018-01-16T01:15:54+00:00'
+    :id: 2RBIZfT40wkGOqiqqy46gk
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 1su0Pi5kqssmUoSUIMmuKU
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-13T20:20:09+00:00'
+    :created_at: '2018-01-30T22:36:34+00:00'
+    :id: 1su0Pi5kqssmUoSUIMmuKU
+  :title: " 2018 Healthcare Trends Part 2: Cash-Pay Practices will Grow"
+  :slug: 2018-trends-cash-pay-practices-will-grow
+  :pub_date: !ruby/object:DateTime 2018-01-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: muuTw36MCccawe428I8Oa
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Whether you call it cash pay, subscription medicine, direct primary care,
+    or concierge medicine, cutting out the payors is 1 of 6 2018 trends Datica predicts.
+  :blog_lead: Where is healthcare going in 2018? In the first article in this series,
+    I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)
+    I predict we’ll see as the government, individuals, and private sector demand
+    change this year. The first of those trends is an increase in cash-pay practices.
+    Whether you call it cash pay, subscription medicine, direct primary care, or concierge
+    medicine, the underlying commonality is cutting out the payors.
+  :post: "What do you do when you get so frustrated with inefficiency and intermediaries
+    in a transaction? If you’re like most consumers today, you’ll find a way to go
+    directly to the supplier — meaning anybody producing a product or service that
+    is of value to customers. There are huge technology leaps being made that have
+    eliminated logistical challenges and enabled suppliers to have new or improved
+    direct access to customers; as you can see below, it’s also created many opportunities
+    for new, very large businesses. \n\nHere’s a short list of direct-to-supplier
+    examples:\n\n* Alibaba allows you to order directly from factories in China. It
+    eliminates retailers. This is typically used for commercial merchandise and equipment.
+    Try it. It’s incredible what you can customize for an order of 1 and have directly
+    shipped to you.\n* Etsy connects small, niche makers to sell directly to customers.
+    It eliminates retailers and opens up huge geographies for makers. Etsy has gotten
+    a lot of bad press lately but that doesn’t change the underlying premise.\n* Patreon
+    enables creators to be sponsored by fans, or patrons, through subscriptions. It
+    provides artists more freedom to pursue their craft with direct support from fans.\n*
+    Stratechery is a subscription technology analysis publication. It eliminates publishers.
+    It’s one person, Ben Thompson, that has built a personal brand outside of traditional
+    publishing channels. There are many such publications but Stratechery is a personal
+    favorite.\n* The Athletic is a subscription local sports publication. It eliminates
+    traditional paper press. It enables local sports writers to provide deeper insight
+    into players and teams through long-form publishing that doesn’t fit well with
+    where traditional newspapers have evolved.\n* Netflix sells on-demand video content
+    directly to consumers. It reduces the demand for cable bundles and, in the process,
+    traditional advertisers. Now, with public market funding, Netflix is building
+    the largest content catalog in the world and selling access to it directly to
+    consumers.\n\n## Healthcare transactions are frustrating for consumers and providers\n\nIf
+    you were to poll people on the most frustrating experiences they’ve had with transactions,
+    I’d wager that healthcare ranks number one. The commercial payor process in healthcare
+    is broken to the core, mostly by design, to create friction that intentionally
+    minimizes payment to providers and reduces the liability of payors. The process
+    sucks for both sides.\n\nConsumers typically have insurance through employers,
+    reducing or eliminating choice. Payors then have networks of approved providers,
+    thereby dictating which providers those consumers are allowed to see, again reducing
+    choice. Then, when consumers go to their provider to get care it’s nearly impossible
+    to have an accurate idea of their responsibility before a service is provided;
+    they only find out much later how much the service cost, how much the payors haggled
+    the price down, what the payor covered, and what amount is left for the individual
+    to pay.\n\nBelieve it or not, the provider side is worse. Payors are heavy handed
+    — to put it mildly — with providers in negotiating payment rates. For example,
+    commercial payors pay providers vastly different rates based on the supply and
+    demand for different specialties in different geographic areas. Payors also drag
+    their feet and take anywhere from 60 days to 6 months after applications are submitted
+    to approve new fully-licensed physicians and add them to their networks. Then,
+    providers submit claims and those claims are either rejected (based on real or
+    not even real mistakes in claim submission and documentation) or paid within some
+    period of time (usually 30 to 90 days). Providers can then dispute rejected claims.
+    This is a lot of work and providers spend lots of money to increase collections
+    and speed the time to collections; simplistically this is “revenue cycle management”
+    and is a multibillion-dollar industry in its own right in healthcare.\n\nWhen
+    something goes wrong, consumers often blame providers; read provider reviews online
+    and you’ll see many of them are complaints about payment. It’s a lot easier to
+    blame the provider, with a face in front of you, vs the payor with it’s oftentimes
+    outsourced call center service options.\n\n## The commercial insurance model of
+    care insulates both providers and patients\n\nOne of the major hurdles in applying
+    free market principles to healthcare in the United States is that, as I laid out
+    above, the parties involved in the healthcare services transaction — the provider
+    and the patient — are insulated from the financial transaction. I’m talking about
+    the commercial insurance model of care that dominates our health system today.
+    In this model, while there is typically some financial exchange with patients
+    paying a deductible and, at times, some amount of patient responsibility at or
+    before care is provided, oftentimes the bulk of payment for healthcare services
+    is done separately, insulating providers and patients. This insulation is true
+    even of providers in small private practices and is especially true for employed
+    physicians who typically track what are called relative value units (RVUs), not
+    collections, that determine their salaries; RVUs are a topic unto themselves and
+    beyond the scope of this post.\n\n## Are cash-pay medical practices the solution?\n\nWhat’s
+    the reaction to this? Cut out the payors. This is what cash-pay medical practices
+    are all about. Whether you call it cash pay, subscription medicine, direct primary
+    care, or concierge medicine, the underlying commonality is cutting out the payors.
+    This is providers and consumer reacting to the frustration and overhead of working
+    with payors. The desirable outcomes are similar for both providers and patients
+    — longer appointments, more timely access to providers (off hours is usually included),
+    and real accountability.\n\nCash-pay medicine has seen a tremendous growth in
+    popularity and will continue to grow as the traditional commercial insurance model
+    of healthcare continues to get worse. [Survey data consistently shows](https://www.forbes.com/sites/brucejapsen/2013/01/30/1-in-10-doctor-practices-flee-medicare-to-concierge-medicine/#4819d6514568)
+    that a high number of providers are interested in switching to concierge medicine.
+    Sadly, the poster children for building networks and scaling cash-pay medicine
+    have not fared well —  [QLiance](https://www.seattletimes.com/business/qliance-closes-after-10-year-effort-at-new-approach-to-basic-medical-care/)
+    and [Turntable Health](https://lasvegasweekly.com/intersection/2017/jan/11/turntable-healths-closure-leaves-downtown-patients/)
+    have struggled and had to shut down. [One Medical](https://www.onemedical.com)
+    has grown more slowly than expected and has had to raise almost $250M in the process.
+    \ Some, like [MedLion](https://medlion.com), are trying to sell subscription medicine,
+    mainly virtual care, through employers.\n\nThe lessons from these companies is
+    not that cash-pay medicine doesn’t work ([here’s data](https://stateofreform.com/news/industry/healthcare-providers/2015/01/qliance-study-shows-monthly-fee-primary-care-model-saves-20-percent-claims/)
+    showing saving from cash pay), it’s that scaling a network of cash-pay medical
+    practices is very hard in today’s healthcare environment. Cash-pay practices that
+    hold old on and remain outside the system will be smaller, more independent practices.
+    That’s the biggest obstacle to cash-pay medicine — converting small practices
+    is hard and perceived as very risky. But, those smaller, independent cash-pay
+    practices are starting to share their stories and insights through online forums.
+    These online forums, like Facebook groups, are reducing the barriers for providers
+    to convert practices to cash pay. I personally know multiple physicians who are
+    planning to convert to cash-pay practices in 2018 and their main source of information
+    is Facebook.\n\nAt the same time, consumers/patients are more open to cash-pay
+    practices. As healthcare delivery and traditional, claims-based payment have become
+    more convoluted, consumers have become more willing to pay directly for higher-level
+    access to their providers. I don’t think a large portion of the public is ready
+    to spend $150-$200/mo. for concierge medicine but I do think a decent proportion
+    is willing to pay $40-70/mo.\n\nAs more providers leave traditional payor based
+    healthcare to open cash-based practices, more consumers are willing to sign up.
+    And, as that happens, we are seeing more digital health technologies built to
+    help cash-based practices — [Hint Health](https://hint.com) manages the back office,
+    [Atlas.MD](https://atlas.md) is a subscription-based practice EHR, and [Spruce
+    Health](https://sprucehealth.com) connects providers directly to patients and
+    allows practices to easily offer new, differentiated services to patients. This
+    is the cycle that will push more cash-pay medicine into healthcare. \n\nCash-pay
+    medicine is not for every provider and not for every consumer. But, it does fit
+    well with a growing number of independent practices that want to remain viable
+    and can’t survive against larger provider networks and health systems. I predict
+    2018 will be the year that cash pay, subscription medicine becomes a real option
+    for both providers and patients.\n\nFollow the healthcare trends series by subscribing
+    to blog updates on the right. Next up, we’ll discuss [post-EHR healthcare](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).
+    \n\n"
+  :featured_image:
+    :id: q4UoSdhIFqiIMwMUyCMqy
+  :share_image:
+    :id: 387RjyARYsIeUica004UYO
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+- :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:44:33+00:00'
+    :created_at: '2018-02-21T19:05:15+00:00'
+    :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :title: '2018 Healthcare Trends Part 3: 6 Predictions for the Post-EHR World'
+  :slug: 2018-trends-6-predictions-post-ehr-world
+  :pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD,
+    CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world. '
+  :blog_lead: "Sadly, the biggest winners in our post-health reform world (post-HITECH
+    and ACA) are neither patients nor providers; the big winners are electronic health
+    record (EHR) companies and the cottage industry of consultants and services who
+    support them. This isn’t an indictment of EHRs, though I don’t think EHRs have
+    delivered on the promise of the triple aim. It’s merely a sad observation of the
+    outcome of billions of dollars spent to improve healthcare. Regardless, we are
+    here in 2018, and EHRs play a central role in the daily lives of providers and,
+    by extension, patients.\n\nIn this third part of our [2018 Healthcare Trends](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)
+    series, I offer predictions of what we can expect to see in a post-EHR world. "
+  :post: "\nToday, EHRs are in use by [95+% of eligible providers](https://dashboard.healthit.gov/quickstats/pages/FIG-Hospital-Progress-to-Meaningful-Use-by-size-practice-setting-area-type.php).
+    With that massive adoption, EHRs, at least the meaningful use certified EHRs deemed
+    by the government worthy of carrot and stick adoption incentives, play two foundational
+    roles in healthcare today.\n\n1. **EHRs are the hub of patient data.** They collect
+    and store both subjective information and objective data from devices. They store
+    reports and other kinds of file attachments. They store discrete data.\n2. **EHRs
+    are the hub of clinical workflow.** Though EHRs are designed for general workflows,
+    they don’t provide the tailored fit clinicians actually need forcing them to have
+    to adapt their workflows to EHRs and not the other way around as it should be.
+    Orders, messages, referrals, you name it. If providers are not entering or looking
+    for data in the EHR, they are using the EHR to accomplish a task.\n\nThese two
+    roles are foundational to building solutions, technology, or technology-enabled
+    processes on top of the EHR; there are exceptions to this rule but, increasingly,
+    even these exceptions are being forced to integrate. This changes everything,
+    especially for those innovators in healthcare that are trying to develop solutions
+    for providers and patients. But, almost as importantly, it forces EHRs to now
+    either a) build new solutions themselves, b) support new 3rd party solutions,
+    or c) risk replacement by newer EHRs that do either a or b. This process isn’t
+    happening overnight, but it is happening.\n\nHealthcare technology tends to cycle
+    every 15 years or so between best-of-breed solutions and all-in-one platforms.
+    Today’s EHRs are at the tail end of a 15-year cycle that has seen their adoption
+    grow massively as healthcare providers have implemented one of a few EHR options
+    as platforms. Now, we are starting to cycle back to best-of-breed solutions as
+    it has become abundantly clear that monolithic EHRs cannot develop solutions fast
+    enough to meet the demands of the market. One platform cannot do everything. And
+    EHRs, at least the major ones, are trying a mix of the a and b strategy above
+    to hold their place as the central healthcare IT software.\n\n## EHRs still control
+    access to patient data\n\nEHRs still control access to data and clinician workflows
+    and have used that control to slow down adoption of new digital health solutions.
+    EHRs have developed proprietary programs, or app stores/orchards/ programs, in
+    attempts to support, whether that support is real or perceived, 3rd party solutions
+    — Epic has App Orchard, Cerner has Cerner Cares, Allscripts has the Allscripts
+    Developer Program, and Athena has More Disruption Please (there are more examples,
+    but these are the big four). While programs from Athena and Allscripts are mature
+    at this point, the emerging programs from Epic and Cerner have been slow to take
+    off at best or failing at achieving any meaningful adoption at worst. The reasons
+    for their slow take off or failure are partially technology-related (the app stores
+    are proprietary) and partially business-model related (Apple can take 30% of app
+    store partner revenue because Apple is the primary driver of revenue whereas EHRs
+    are trying to collect 30% of revenue as a tax merely to integrate with them.)
+    The $15-20K EHR integration price tag we grew to loathe is now a 30% tax on partner
+    revenue.\n\nAt the same time EHRs try to support 3rd party applications, they
+    are trying to build their own solutions to shut out digital health products. Every
+    EHR now has a data warehousing solution, most have a population health tool, and
+    many have telemedicine offerings. Similarly to Microsoft’s strategy of using its
+    Windows and Office customer base to sell Azure cloud services, EHRs are trying
+    to sell their own new products. The problem is none of the major EHRs are as savvy,
+    either technically or business-wise, as Microsoft.\n\n## The Slow Burn of FHIR\n\nConcurrently,
+    many major EHRs are supporting FHIR as a standard way to access EHR data. Some
+    of that support may be vaporware, but most EHRs are at least announcing [FHIR
+    capabilities](https://datica.com/guide/fhir/). FHIR has been in discussions for
+    several years and, despite a lot of broad-based support, is moving painfully slowly
+    towards adoption and actual implementation. Yes, the big four may support reading
+    data from their EHRs via FHIR, but there is very little a real application can
+    do by only reading data from the EHR. At times, the slow pace of FHIR adoption
+    seems intentional by the many incumbents supporting it. Despite that, a recent
+    survey found that health system CIOs consider FHIR to be the technology with the
+    [most promise in 2018](https://www.healthcare-informatics.com/news-item/interoperability/cios-see-fhir-potential-game-changer-and-blockchain-overhyped-survey),
+    meaning FHIR is here to stay.\n\n## Is Replacing EHRs the Path Forward?\n\nIf
+    EHRs are failing to support 3rd-party solutions and failing to develop and sell
+    their own digital health products fast enough, does that leave option C — replacing
+    EHRs — as the only path forward? \n\nNot exactly. \n\nAs both the hub of data
+    and hub of clinical workflow, EHRs are extremely entrenched today. The vast majority
+    of health system IT department resources are dedicated to supporting EHRs, so
+    there are strange incentive conflicts. And, FHIR has been highly effective at
+    buying EHRs more time.\n\nAs I said before, this process is not happening overnight,
+    but it is happening. More industry leaders are [speaking out against EHRs](http://www.modernhealthcare.com/article/20180122/NEWS/180129979)
+    and the rampant blocking of innovation so needed in healthcare. EHRs can only
+    buy so much time. What I think we are going to see over the next 3-5 years, a
+    time that also coincides with when a lot of health systems will have written down
+    the heavy upfront capital expense of EHRs, is EHRs becoming less and less a clinical
+    workflow tool and more and more a clinical encounter documentation tool and one
+    source, not the primary hub, of clinical data.\n\nThere are two parts to that
+    prediction. The first just means that we’re going to see purpose-built tools for
+    specific workflows. We already see that today with clinical communication tools
+    like [Voalte](http://www.voalte.com/) that are making the lives of nurses easier
+    by enabling them to use a fast, mobile, purpose-built platform for their workflows
+    and communications. The second is piggybacking on the inevitable march toward
+    continuous and complete patient data. EHR data today is episodic. Clinical data
+    tomorrow will include episodic EHR data but also remote monitoring data, social
+    data, genetic data, and always-on sensor data. The EHR data will be one part of
+    a much larger puzzle. I think the EHRs of today, the large ones I mention in this
+    post, have too much technical debt to move fast enough to serve as the hub of
+    clinical data tomorrow. They are saddled with their history.\n\n## 6 Predictions
+    about EHRs in 2018\n\nPredictions are easy when you don’t have specific timelines.
+    So what do I think we’ll see with EHRs and clinical data in 2018?\n\n1. **More
+    direct patient access to EHR data.** There was already a major announcement of
+    [Apple enabling its customers to access Epic and Cerner data](https://www.healthdatamanagement.com/news/apple-health-app-effort-to-engage-consumers-by-sharing-ehr-info).\n2.
+    **More available production FHIR services.** Most of these will be couched as
+    pilots or beta, but progress is progress. FHIR will also be used for direct patient
+    access to data.\n3. **Social determinants of health matter…a lot.** Everybody
+    always cites studies that show WHO data of high US healthcare spending with resultant
+    lousy health outcomes. This is true. And sad. But it’s not the whole story. In
+    the US, we spend far less on social programs and services than most countries
+    that beat our health outcomes. The result is a health system that doubles as a
+    social safety net, with all costs incurred by the health system. Social data and
+    care based on that data will be a major shift in 2018, and I think most of that
+    will happen outside the EHR, at least regarding data sources and storage.\n4.
+    **Demand for data access by EHR customers.** One of the challenges when integrating
+    with an EHR is that the default answer is usually “no”. There is invariably friction
+    to overcome and it is up to the health system to overcome this friction. I think
+    2018 we will see a lot less acceptance of “no” and more pushing for EHRs to open
+    up access to data, whether that data is exposed via FHIR or HL7 v2.x or a proprietary
+    API middle layer like that provided by Sansoro Health.\n5. **Mega-mergers require
+    new strategies around data sharing from unwilling players.** Large-scale mergers
+    like Dignity/CHI and Providence-St. Joseph’s/Ascension will show vendors willing
+    to demonstrate a more willing ability to play nice so that they don’t lose market
+    share as hundreds of hospital sites are brought under one IT umbrella for the
+    sake of efficiency. Epic has already shown some cards around this with their [Come
+    Together/Happy Together/Working Together](https://www.epic.com/epic/post/3222)
+    trio, but it’s hard to say if it’ll stave off mega losses in the usual hospital
+    merger shakeup where two EHR vendors enter and only [one leaves](https://www.fiercehealthcare.com/ehr/advocate-health-care-aurora-healthcare-epic-ehr-merger-care-coordination).\n6.
+    **More ambulatory EHR providers bite the dust.** Now that the dust of Meaningful
+    Use has settled, more companies are beginning to evaluate if they want to stay
+    at the EHR table. With Allscripts acquiring both McKesson’s EHR suite and Practice
+    Fusion (at a loss), anticipating more contraction in the EHR space as disinterested
+    players try to divest assets while they are still holding water (GE Centricity,
+    Greenway) seems like a safe bet. \n\nIf you enjoyed this post, you might want
+    to take a look at my first [2018 trend deep dive into how cash-pay practices will
+    grow](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/). \n"
+  :featured_image:
+    :id: 4Tm8DN5A08U02UiMCiWgoU
+  :share_image:
+    :id: 4u6llwzbvikEookEgoCOCG
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 6tWeZJKa0Eo4qQOwESca0q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:44:09+00:00'
+    :created_at: '2018-03-02T17:34:13+00:00'
+    :id: 6tWeZJKa0Eo4qQOwESca0q
+  :title: '2018 Healthcare Trends Part 4: Clinicians as Developers'
+  :slug: 2018-healthcare-trends-part-4-clinicians-as-developers
+  :pub_date: !ruby/object:DateTime 2018-03-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: In this fourth part of our 2018 Healthcare Trends series, Travis Good,
+    MD explores what we can expect to see as clinicians broaden their skillsets into
+    digital health.
+  :blog_lead: |
+    Clinicians, in particular physicians, have always played a significant role in healthcare. Some call it an outsized role with an outsized voice; but, the last 20 years have seen a significant decline in physician autonomy as payors have stepped in to more closely oversee and dictate, via reimbursements, how clinicians practice and provide care while more and more health system has employed physicians and taken them out of independent practices. These are just the trends. There are market forces creating and sustaining these trends.
+
+    In this fourth part of our [2018 Healthcare Trends](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/) series, I explore what we can expect to see as clinicians broaden their skillsets into digital health.
+  :post: "\nOne huge recent trend is the implementation of EHRs. Today, clinicians
+    spend more time in the EHR than any other activity; this [study](https://www.sciencedirect.com/science/article/pii/S0735675713004051)
+    found ER doctors spent 44% of their time on data entry and only 28% on direct
+    patient care. Doctors have been forced, again for various good and bad reasons,
+    to document data in a certain way and a certain format. The EHR adoption of the
+    last 15 years has been driven by non-clinical forces.\n\nToday, we see new trends
+    in technology beyond the EHR. New digital health technology is being [developed
+    and adopted](https://datica.com/blog/digital-health-apps-could-save-7-billion/)
+    for everything from clinical communications to telemedicine. With this increased
+    technology fragmentation, as opposed to the [monolithic EHR era](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
+    we are in a time of letting 1,000 flowers bloom. And clinicians are taking the
+    opportunity to influence, build, and deliver these new digital health solutions.\n\n##
+    Physicians as makers of digital health products\n\nDoctors, individually and as
+    a group, are an interesting group. Painting with a very broad brush, doctors as
+    a group are hard-working self-starters who believe they can do a lot of things
+    well. They are also intimately knowledgeable about healthcare delivery, having
+    spent thousands of hours in clinical settings in training and practice. Considering
+    that, it’s not surprising to see more and more physicians designing and sometimes
+    building digital health technologies.\n\nWhat’s fascinating is that this trend
+    of clinicians as developers is in stark contrast in so many ways to the EHR proliferation
+    era we are now exiting. While EHRs were developed to enable workflows, most clinicians
+    conformed to the workflows of the EHR, not the other way around; EHRs can be customized
+    to clinician workflows, but they rarely are in practice. Now, what we’re seeing
+    is more and more clinicians developing technology to meet their own bespoke, or
+    customized, workflows. That’s why it’s 1000s of blooming flowers of new clinician-designed
+    and built digital health technologies.\n\nYes, some clinicians are attempting
+    to build sizeable digital health business meant to scale, but that’s not who I’m
+    talking about in this post. I’m talking about clinicians, typically academic or
+    independent practice, developing solutions for their day to day. There are often
+    plans to commercialize and scale these bespoke solutions, but this is challenging
+    because of the customized nature of the solutions.\n\n## Risks and Challenges
+    for Clinicians\n\nDespite the potential upside of digital health bringing efficiencies
+    to clinician practices by automating or improving workflows, there are risks and
+    challenges inherent to this approach, especially for health systems and academic
+    medical centers. At Datica, we see this time and time again as health systems
+    grapple to inventory all of the tools being built and used. This is the struggle
+    of [shadow IT](https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives/).\n\nThe
+    reason this is happening is that clinicians have digital health technologies they
+    want to build, or have already developed. They want to put these technologies
+    to use in their practices. And, often, the traditional IT channels are too slow
+    or don’t have the physician or human resources available. Today, more than ever
+    before, there are no barriers to deploying and managing your own IT resources,
+    so that is typically what clinicians do.\n\nAs this becomes more widespread, and
+    it’s already pretty common, we’re going to see more and more health systems develop
+    strategies to enable clinicians as developers. The solution is likely not through
+    traditional IT, at least unless traditional IT embraces cloud and new paradigms
+    of technology delivery. What’s more likely is that formal innovation or digital
+    strategies will develop that balance the needs of clinician developers with the
+    needs of health systems to know what technologies are being used in their organization
+    and where their patient data is flowing.\n\nI Invite you to also take a look at
+    the first two trends we’ve already explored in this series: How [cash-pay practices
+    will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/)
+    and my [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/)
+    And don’t forget to subscribe to the blog to the right to have the rest of the
+    trends we’ll explore delivered right to your inbox. \n"
+  :featured_image:
+    :id: ojguDBJoaG2eaYe2GIAmy
+  :share_image:
+    :id: 7Gvq7fVTzycQKokQYG0m24
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 4RxNckwHOwm4KcSo6eS0km
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:43:46+00:00'
+    :created_at: '2018-03-06T19:44:13+00:00'
+    :id: 4RxNckwHOwm4KcSo6eS0km
+  :title: '2018 Healthcare Trends Part 5: The Real Cloud Comes to Healthcare'
+  :slug: 2018-trends-pt-5-real-cloud-comes-to-healthcare
+  :pub_date: !ruby/object:DateTime 2018-03-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The “real cloud” in healthcare is not virtualization. We are talking
+    about the public cloud and the public cloud providers Amazon, Microsoft, and Google. '
+  :blog_lead: |-
+    Information technology groups at healthcare organizations spend a [colossal chunk](https://www.beckershospitalreview.com/healthcare-information-technology/electronic-health-records-the-good-the-bad-and-the-ugly.html) of their time supporting and “optimizing” EHRs. And, with many of the largest EHR vendors, health system IT does it in-house using their own data centers. In addition to EHRs, hospital IT also has hundreds of smaller, often less essential technologies, that require care and feeding. Couple that with the needs to integrate applications and you quickly see why healthcare IT has such a huge backlog.
+
+    At the same time, a significant strategic priority for healthcare organizations is assessing the cloud, developing a cloud strategy, and implementing that strategy. Most organizations are at some stage in this process. Many are still pre-implementation of a cloud strategy. But, it’s coming. And the health IT backlog is not conducive to the massive amount of work required to start moving technology to the cloud.
+  :post: "\nWhat I mean by the cloud or the “real cloud” in my initial [2018 Healthcare
+    Trends post](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/), is
+    not virtualization. What I mean is the [public cloud](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
+    and the public cloud providers Amazon, Microsoft, and Google. The public cloud
+    is not Epic hosting in Verona, with a data center that is managed and operated
+    by Epic, or Cerner hosting in Kansas City, with a data center that is managed
+    and operated by Cerner; those are private clouds dedicated to a specific application
+    and purpose. The public cloud is different.\n\nThe public cloud is a powerful
+    public utility and a force that will transform healthcare, not just healthcare
+    IT. It is almost infinitely scalable with a growing laundry list of services and
+    features that can be activated and accessed on demand. And, with new security
+    features, it is now finally ready for prime time, meaning only that it is ready
+    for healthcare organizations to develop and implement cloud strategies. The public
+    cloud will enable many things for healthcare organizations.\n\n## The public cloud
+    will:\n\n1. Get healthcare organizations out of the data center and infrastructure
+    business, allowing focus on providing care, better services, and better products
+    (meds and devices)\n2. Massively improve disaster recovery, aiding in meeting
+    compliance requirements\n3. Accelerate innovation, enabling faster response and
+    adaptation to market changes\n4. Improve and ease access to health data both for
+    providers and patients\n5. Enhance visibility into security and compliance\n6.
+    Enable new partnerships and integrations.\n\nDespite the scale and challenges
+    of moving to the cloud, the cloud is coming to healthcare, and it’s coming faster
+    than most people think. Look no further than HIMSS 2018 and the newly enlarged
+    presence of major cloud providers Amazon Web Services (AWS), Google Cloud Platform
+    (GCP), and Microsoft Azure. Healthcare on the cloud is strategic for every cloud
+    provider. The challenge for these three behemoths is being in healthcare at the
+    right time. These cloud providers are at HIMSS in 2018 because now is the right
+    time, not because 2018 will be the year all healthcare organizations will move
+    all their technology to the cloud; but, 2018 and 2019 will be the years most healthcare
+    organizations start to implement a cloud strategy that will take years to execute.
+    Microsoft, Amazon, and Google can’t miss those opportunities.\n\nI was listening
+    to a [Software Engineering Daily](https://softwareengineeringdaily.com/2018/02/13/box-kubernetes-migration-with-sam-ghods/)
+    podcast last week featuring one of the founders of [Box](https://www.box.com/home).
+    The podcast focused on how Box has embraced the public cloud and why they have
+    chosen to leverage Kubernetes. It’s a fascinating listen. One of the takeaways
+    that map to the cloud trend in health IT is around how moving to the cloud is
+    never one and done, even if you only have one large, monolithic application (in
+    the case of the podcast, the one application was Box).\n\n## Hybrid cloud for
+    3-5 more years\n\nDuring the next 3-5 years, we’re going to see a hybrid approach
+    to the cloud for health IT where there is a mix of cloud applications and ground-based,
+    or on-premise applications. This necessitates a new integration strategy to ensure
+    secure and reliable connectivity between cloud and existing ground applications,
+    not just integration between legacy applications and new applications; ground
+    applications are typically legacy applications. This hybrid cloud strategy also
+    necessitates management of multiple forms of technology infrastructure, cloud,
+    and ground or on-premise.\n\n## Legacy applications either killed off or re-architected
+    for public cloud\n\nAs healthcare organizations implement and start to scale their
+    cloud strategies, more ground-based applications will move to the public cloud.
+    Some set of these legacy applications, likely the last to move to the cloud, will
+    be migrated as they are currently architected; that, or they’ll be sunsetted and
+    killed off before they are migrated. Many more of these legacy ground applications
+    will be re-architected as a part of the migration process. The reason to re-architect
+    legacy applications is to:\n\n1) fully take advantage of the cloud (auto-scaling,
+    auto-healing, redundancy, portability, etc.) and\n2) prevent lock-in with a specific
+    cloud provider. \n\nWhile AWS, Azure, and GCP offer great cloud services and resources,
+    healthcare organizations will want optionality and to avoid lock-in with cloud
+    providers APIs and the specific flavor of services (containers, serverless, etc.).
+    This re-architecture process will be a crucial part of the cloud strategy for
+    healthcare organizations.\n\n## Public cloud requires new skillsets\n\nThe public
+    cloud does require a unique skill set and should usher in a new paradigm (containers,
+    security, serverless, DBaaS, etc.) for healthcare technologies. Hiring resources
+    with the necessary skillsets are challenging to say the least. It’s challenging
+    if you’re in Seattle or Boston. It’s nearly impossible if you’re in a rural location
+    like many healthcare organizations. Access to the right skillsets to leverage
+    public cloud will improve over time but health systems should, and likely will,
+    leverage third parties that specialize in cloud computing; these third parties
+    have matured along with the public cloud.\n\n## Security and compliance — a big
+    challenge\n\nOne particularly outsized challenge associated with the cloud is
+    security and compliance. The cloud has distinct advantages over the current, on-premise
+    model but it also has the perceptive challenge of giving up the keys to the castle
+    to a cloud provider. This perceptive challenge can and will be overcome, but it
+    requires changes to the way healthcare organizations manage risk for their data
+    and how they align that risk with liability from cloud providers acting as stewards
+    of their data. Transparency, both legally in the form of [BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)
+    and [data processing agreements](https://datica.com/discover/gdpr/) and technically
+    in the form of security dashboards, have never been more critical.\n\n\nIn leveraging
+    third parties, both cloud providers for infrastructure and cloud specialists for
+    migration, security, and compliance, healthcare IT and healthcare compliance will
+    transform themselves. What those groups look like in a post-cloud world is hard
+    to say, but it’s clear they will have to change to embrace this brave new world.
+    This will not happen overnight.\n\nA lot of the above are impacts that will be
+    felt long-term and not necessarily in 2018. But, as healthcare organizations begin
+    their [journey to the cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/),
+    some starting that journey at HIMSS this year, they need to consider all of this.
+    Cloud strategies should be all-encompassing but also should be revisited on some
+    regular period as the pace of the cloud does not show any signs of slowing down.\n\nI
+    Invite you to also take a look at the first three trends we’ve already explored
+    in this series: How [cash-pay practices will grow in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/),
+    [6 predictions for a post-EHR world.](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/),
+    and [Clinicians as Developers](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)
+    And don’t forget to subscribe to the blog to the right to have the rest of the
+    trends we’ll explore delivered right to your inbox. \n\n\n"
+  :featured_image:
+    :id: 4MNhBVh0ZaKKWM2IsgIgWw
+  :share_image:
+    :id: 3WOYUfm0paQSCyaE4iYaUi
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:49:54+00:00'
+    :created_at: '2018-04-13T20:15:21+00:00'
+    :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :title: '2018 Healthcare Trends Part 6: Beyond Digital Health Hype'
+  :slug: 2018-healthcare-trends-6-beyond-digital-health-hype
+  :pub_date: !ruby/object:DateTime 2018-04-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Where is healthcare going in 2018? In this sixth piece of the Datica Healthcare
+    Trends series, we explore the fifth trend — moving beyond the digital health hype.
+  :blog_lead: "Where is healthcare going in 2018? In the first article of Datica’s
+    2018 Healthcare Trends series, I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/).
+    I predict volatility as the government, individuals, and private sector demand
+    change this year. In this sixth piece of the series, I explore the fifth trend
+    — moving beyond the digital health hype.\n\nOver the last ten years, digital health
+    has been met with much ballyhoo and corresponding investment. Even the “digital
+    health” term has become broad and beyond its original intent. It’s helpful to
+    define the term before diving into its evolution and current state. According
+    to Wikipedia, [the digital health discipline is described](https://en.wikipedia.org/wiki/Digital_health)
+    in the following way — “The discipline involves the use of information and communication
+    technologies to help address the health problems and challenges faced by patients.” "
+  :post: "\nThat’s broad. Very broad. \n\nDigital health is somewhat  synonymous with
+    “healthcare technology,” with one caveat — healthcare technology is inclusive
+    of electronic health records (EHRs) and I personally don’t group EHRs in with
+    the broader digital health term.\n\nLike other verticals and in many consumer
+    products, digital health has followed a similar trend. We saw initial hype around
+    mobility, connectivity and consumerization of healthcare. While those trends are
+    still relevant, healthcare, as yet has not been disrupted or upgraded to the same
+    extent as industries like banking, retail, and even education. Those who have
+    been in healthcare for a while have read a multitude of stories touting new companies
+    and technologies that were destined to disrupt healthcare. All of those, except
+    a select few, have failed. \n\nHere are a few of the obstacles digital health
+    companies must overcome.\n\n## Scrutiny of technology spend is way up and proof
+    is the antidote\n\nIn 2018, healthcare technology has finally [moved past the
+    EHR era](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/). EHRs
+    are now ubiquitous in healthcare organizations. As we all learned at HIMSS18,
+    the good old days of Meaningful Use are over. However, one lingering consequence
+    of Meaningful Use was an increase of the percentage of technology spend in most
+    health systems budgets. That increased spend is now being scrutinized, and digital
+    health must demonstrate solid proof of efficacy to overcome that scrutiny and
+    succeed.\n\nIn the [Digital Health Success Framework (DHSF)](https://datica.com/dhsf/)
+    Datica outlined the major challenges that digital health developers must traverse.
+    Now, more than ever, digital health products need associated proof to overcome
+    buyer and customer skepticism. The proof can broadly fall into the following buckets
+    — lowering costs, improving care (especially in at-risk settings), and improving
+    the care experience.\n\n## VCs invest in scalable technologies, but healthcare
+    is siloed and localized \n\nVenture capital compounds the challenges of digital
+    health. Building and scaling new technology products to meet venture capital demands
+    falls out of alignment with selling and implementing demands of digital health
+    within the enterprise. The localized nature of healthcare exacerbates the problem.
+    Even for some larger systems that still buy technology at local or regional levels,
+    one must wonder if most digital health technologies aren’t meant to be venture
+    scale. That’s not necessarily a bad thing.\n\nSome digital health companies have
+    found success with a focus on localization. Those companies have discovered that
+    while you may not be able to change the way care is delivered for millions of
+    people you can, however, do that in one city. Scale in healthcare doesn’t have
+    to be geographically global. Scaling to thousands of health systems is daunting,
+    since many are finding ways to solve their problems without waiting for a well-funded
+    digital health startup to save the day. \n\nOver the past year, I’ve talked to
+    multiple investors who say they see many digital health companies solving the
+    same problems with similar solutions, and all at similar stages ($1 - $2 million
+    in annual revenue and 2-5 customers in the same geography). Who gets funded and
+    how do they scale with anything resembling efficiency?\n\nEHRs don’t help the
+    problem of scaling. Without a centralized clinical data repository; thousands
+    of EHR silos exist all over the U.S. Selling to one Epic hospital is selling to
+    one Epic hospital. You must go through the same extended implementation for each
+    new hospital, with all the associated built-in pushback.\n\n## Proof and scale
+    are necessary, but are they even possible?\n\nWhere does that leave us? Is there
+    a way to 1) prove the ROI of a digital health product, and 2) scale that success
+    quickly? I’m not sure. The system seems to be set up to prevent that from happening.
+    The biggest companies I know that are strategically focused on getting into digital
+    health, and these are some of the biggest companies in the world, are playing
+    a very long game. Those companies know that success, at least regarding scale,
+    is going to take many, many years. And they have the money and patience to play
+    it out.\n\nThese companies are targeting providers because they are seen as the
+    key to healthcare as the actual place of the transaction — care delivered and
+    care received. Life sciences are sometimes seen as a faster path to success, but
+    there are only so many life sciences companies and the investments those companies
+    are making in digital health, and their strategies for digital health, are similarly
+    long game strategies that involve being closer to care delivery.\n\nDespite the
+    doom and gloom of the last few paragraphs, digital health will have a significant
+    impact on healthcare. The question is timing. Regardless of the when, the how
+    is clear — digital health needs to be able to prove it’s worth to get into the
+    hands of patients and providers.\n\n"
+  :featured_image:
+    :id: 6H0Gdxtr2M2M4o64aUk6oO
+  :share_image:
+    :id: 5S8QJAbsQwmA06aAu6qM4Y
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km

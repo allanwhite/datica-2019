@@ -1,0 +1,107 @@
+---
+:id: 1EDvmtF3xO40iImSmq24mA
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-04T23:51:02+00:00'
+  :created_at: '2016-11-23T22:18:27+00:00'
+  :id: 1EDvmtF3xO40iImSmq24mA
+:title: Planning for Innovation in 2016
+:slug: planning-for-innovation-in-2016
+:pub_date: !ruby/object:DateTime 2015-09-17 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: 'Healthcare is ready—and in need—for [innovation](/innovation). Most innovation
+  stems from academia, allowing data scientists, economists and medical professionals
+  to collaborate more openly than in contrast to a corporate setting, but fresh ideas
+  come from private sectors of healthcare as well. As workflow pressures increase,
+  healthcare system executives are faced with a challenging decision of continuing
+  to focus on regulatory burdens, security threats, and changing reimbursement models
+  or to allocate the time and resources necessary for effective innovation amongst
+  the myriad of mandated organizational projects.
+
+'
+:blog_lead: 'Healthcare is ready—and in need—for [innovation](/innovation). Most innovation
+  stems from academia, allowing data scientists, economists and medical professionals
+  to collaborate more openly than in contrast to a corporate setting, but fresh ideas
+  come from private sectors of healthcare as well. As workflow pressures increase,
+  healthcare system executives are faced with a challenging decision of continuing
+  to focus on regulatory burdens, security threats, and changing reimbursement models
+  or to allocate the time and resources necessary for effective innovation amongst
+  the myriad of mandated organizational projects.
+
+'
+:post: "As healthcare systems switch gears towards innovation, leadership must ask
+  themselves what is needed to enhance productivity, create generalized tools, and
+  reduce niche systems within their organization. With 2016 rapidly approaching, here
+  are a few desired innovations:\n\n- The ability to deploy secure, enterprise class
+  texting that is fault indulgent, role-based messaging, maintains delegation when
+  unavailable and completely audible.\n- Closed loop transactions with the utmost
+  secure coupling among organizations required by interoperability use cases. [FHIR](/academy/introduction-to-fhir)
+  could be the solution to achieve this.\n- Increasingly more important, patient generated
+  healthcare data, objective and subjective, from middleware like Apple HealthKit
+  will need to be incorporated into patient records.\n- A solution that will allow
+  easy access for patients to access their personal records instead of utilizing the
+  SSLVPN web-based access while still protecting PHI and maintaining [HIPAA compliance](/academy/proving-hipaa-compliance).
+  \n- A collaboration space, such as Facebook, Twitter, or LinkedIn, for sharing ideas,
+  messages and files among peers that will support a healthcare organization workflow.
+  \n\nInnovation can be bought or built. Healthcare enterprises will need to hone
+  in on their innovation programs while also utilizing vendors and service providers
+  simultaneously. Don’t let your organization fail to see the value in change when
+  you are faced with the crossroads of monotony and innovation. \n\nWhat would you
+  like to see change in healthcare in 2016? Any thoughts you would like to share about
+  innovation in healthcare? [Tweet us](https://twitter.com/daticahealth)! And if you
+  really want a deeper understanding of what healthcare needs, check out what some
+  of the most innovative healthcare industry leaders have to say in our annual [Healthcare
+  Innovation Series Report](/innovation/2015) that covers 7 Big Ideas in healthcare.\n\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

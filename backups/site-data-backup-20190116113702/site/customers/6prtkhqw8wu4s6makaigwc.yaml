@@ -1,0 +1,95 @@
+---
+:id: 6prTKHqw8wu4S6maKaiGWC
+:_meta:
+  :content_type_id: customers
+  :updated_at: '2017-11-28T22:03:08+00:00'
+  :created_at: '2017-01-05T22:09:41+00:00'
+  :id: 6prTKHqw8wu4S6maKaiGWC
+:company_name: Healthloop
+:slug: healthloop
+:customer_logos:
+- :title: healthloop-logo-w
+  :description: customer, logos, white
+  :url: "//images.ctfassets.net/189dvqdsjh46/2vny6i7las8IyE2u8GEQyM/71415729600b4da4358236ecb22add1c/healthloop-logo-w.png"
+  :_meta:
+    :updated_at: '2017-01-05T22:08:08+00:00'
+    :created_at: '2017-01-05T22:08:08+00:00'
+    :id: 2vny6i7las8IyE2u8GEQyM
+- :title: healthloop-logo
+  :description: customers, logos
+  :url: "//images.ctfassets.net/189dvqdsjh46/1eX1wMMZfgaookY02YwCGO/19fa35cb1216166030d4f84e3c19ba2b/healthloop-logo.png"
+  :_meta:
+    :updated_at: '2017-01-05T21:51:36+00:00'
+    :created_at: '2017-01-05T21:51:36+00:00'
+    :id: 1eX1wMMZfgaookY02YwCGO
+:fullname: Mayank Thanawala
+:role: Chief Technology Officer
+:profile_pic:
+  :title: Mayank Thanawala
+  :description: HealthLoop's CTO, customer, portrait, avatar
+  :url: "//images.ctfassets.net/189dvqdsjh46/3MFChiuZUcUC8eoYaaOIoK/183b59fba0ac0f05675ef7cf777fa20c/headshot-healthloop.jpg"
+  :_meta:
+    :updated_at: '2017-01-05T21:47:36+00:00'
+    :created_at: '2017-01-05T21:47:36+00:00'
+    :id: 3MFChiuZUcUC8eoYaaOIoK
+:customer_quote:
+  :id: 51Gn3zGjqMgy6CIwSaoC6g
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-01-06T18:11:44+00:00'
+    :created_at: '2017-01-05T21:45:06+00:00'
+    :id: 51Gn3zGjqMgy6CIwSaoC6g
+  :quote_title: Thanawala on exposure and risk
+  :quote_type: customer
+  :quote_body: Many vendors and cloud companies tout compliance, but since HIPAA regulations
+    do not provide specific standards, health systems have to spend a lot of time
+    evaluating the level of standards being met. A HIPAA-compliant vendor that only
+    minimally meets standards could be a huge exposure risk.
+  :customer:
+    :id: 6prTKHqw8wu4S6maKaiGWC
+:profile_twitter: healthloop
+:related_products:
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+:customer_story_short: HealthLoop is a technology platform that engages patients at
+  home before their admission and after discharge to guide, educate and assess the
+  status of their recovery.
+:case_study:
+  :id: 1ZEnvDT50IIs8GIIComea6
+  :_meta:
+    :content_type_id: caseStudy
+    :updated_at: '2018-08-29T01:02:34+00:00'
+    :created_at: '2017-01-13T05:32:19+00:00'
+    :id: 1ZEnvDT50IIs8GIIComea6
+  :case_study_title: See how HealthLoop saves operational costs with Datica
+  :slug: healthloop
+  :featured: true
+  :tags:
+  - :id: 2p7qUhPv76qwuE82uYKi0C
+  :customer:
+    :id: 6prTKHqw8wu4S6maKaiGWC
+  :related_form:
+    :id: 2MZ3U8JrQsS0MMQeoWioYS
+  :form_id: d7a96012-0b9b-4392-aa93-01109ec5b4f0
+  :media_object: <script src="//fast.wistia.com/embed/medias/wrrh0oc5c3.jsonp" async></script><script
+    src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding"
+    style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"
+    style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed
+    wistia_async_wrrh0oc5c3 popover=true popoverAnimateThumbnail=true videoFoam=true"
+    style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+  :customer_quote:
+    :id: 3fySlYCa5yuGi0SU2w28qK
+  :value_prop: Datica helps customers reduce cost and complexity
+  :body: |-
+    #### In this case study, you will learn:
+
+    * How HealthLoop saved over $132,000 annually.
+    * The value in zero lock-in services.
+    * Datica's commitment to scalability, communication, and responsibility.

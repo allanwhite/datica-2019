@@ -1,0 +1,116 @@
+---
+:id: 6ExSUpaONauEesKuCYmWy2
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T21:34:05+00:00'
+  :created_at: '2016-11-23T22:18:28+00:00'
+  :id: 6ExSUpaONauEesKuCYmWy2
+:title: Difficulties of Clinically Testing Health Apps
+:slug: difficulties-of-clinically-testing-health-apps
+:pub_date: !ruby/object:DateTime 2015-10-06 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: There are nearly 70,000 digital health apps available on your mobile device
+  right now. Would it shock you to discover that there is no clinical validation to
+  back up most of them? Would it deter you from downloading them knowing they were
+  created by developers exploiting the healthy lifestyle trends in America? Hopefully,
+  like myself, your answer is yes.
+:blog_lead: 'There are nearly 70,000 digital health apps available on your mobile
+  device right now. Would it shock you to discover that there is no [clinical validation](http://www.ofnisystems.com/clinical-data-validation/)
+  to back up most of them? Would it deter you from downloading them knowing they were
+  created by developers exploiting the healthy lifestyle trends in America? Hopefully,
+  like myself, your answer is yes.
+
+'
+:post: "Though as easy as it would be to disparage these developers, they are not
+  necessarily the culprit. Upon recognizing multiple disparities in the creation,
+  invention, and utilization of mobile health apps, a lack of clinical infrastructure
+  can be discerned. And without a base research framework, developers cannot easily
+  access patients and their data, leading to the notable lack of validation to potential
+  disruptive solutions. \n\nWhat most developers fail to recognize though is that
+  healthcare technology is different because it involves patients. This means a necessity
+  to comply with human research stipulations, data confidentiality, security, and
+  privacy sanctions exists. Even greater than market validation, proper healthcare
+  business requires proven, repeatable results. \n\nHere are two reasons your app
+  may be struggling with clinical validation:\n\n### 1. Understanding IRBs\n\nAn IRB,
+  [institutional review board](http://www.hhs.gov/ohrp/assurances/irb/), is a council
+  formed with the intent to approve, review, and monitor behavioral and biomedical
+  human research. Responsibility for overseeing all research conducted on human subjects
+  lies with this board. Without proper knowledge of IRBs and how they work, achieving
+  clinical validation is going to a difficult venture.\n\n### 2. Cost of Clinical
+  Trials\n\nClinical trials are expensive and the costs of these trials fall into
+  two buckets: patient care and research. Patient care costs will include everything
+  from laboratory tests to health insurance; whereas research costs are those conducive
+  to conducting the trial. The main differentiator is who is responsible for these
+  costs. Patient care costs usually are the responsibility of the patient who is most
+  likely covered by a third-party health plan, but research costs are not the patient’s
+  responsibility and will become the liability of the trial sponsor.\n\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

@@ -1,0 +1,124 @@
+---
+:id: 3ck1vZ2UEMYiM4auCYsaMw
+:_meta:
+  :content_type_id: services
+  :updated_at: '2018-03-05T17:44:36+00:00'
+  :created_at: '2017-11-11T21:02:01+00:00'
+  :id: 3ck1vZ2UEMYiM4auCYsaMw
+:title: Data Migration
+:slug: data-migration
+:sort_order: 5
+:icon:
+  :title: icon-cubes-data
+  :description: svg, icon, data
+  :url: "//images.ctfassets.net/189dvqdsjh46/3ndgal68CkcCMye4s0ucsA/fcbec30a17deb6e218dd338b3ce00d17/icon-cubes-data.svg"
+  :_meta:
+    :updated_at: '2017-11-11T21:01:07+00:00'
+    :created_at: '2017-11-11T21:00:26+00:00'
+    :id: 3ndgal68CkcCMye4s0ucsA
+:description: Legacy databases are a common stumbling block to liberating your apps
+  and services. Datica is here to help your team migrate your data to the modern cloud,
+  via the [Datica Platform](/platform).
+:expert_people:
+- :id: 1VYM30kxZCuOWQMigQoIuo
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:42:35+00:00'
+    :created_at: '2017-11-16T17:30:18+00:00'
+    :id: 1VYM30kxZCuOWQMigQoIuo
+  :fullname: Chuck McKenzie
+  :slug: chuck-mckenzie
+  :person_type: Datica Directors
+  :role: Director of Managed Infrastructure, Engineering
+  :profile_pic:
+    :id: 4p2d7k9ZBu6A8mQC0s6S00
+  :email: chuck@datica.com
+  :bio_short: 'As Datica’s Director of Support, Chuck leads the entire engineering
+    support team that addresses customer technical issues and requests. '
+  :bio: Chuck joined Datica in early 2017 and quickly rose through the ranks to assume
+    the company’s Support Director role. He previously worked as Director of Systems
+    Administration for Shoutlet, which was subsequently acquired by Spredfast. Chuck
+    graduated in 2009 with a computer science degree from University of Wisconsin
+    – Madison.
+  :location:
+    :lat: 43.0592056
+    :lon: -89.4008958
+- :id: 3ZvS124zfO42SSumk0KMwe
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:41:18+00:00'
+    :created_at: '2017-12-22T18:29:33+00:00'
+    :id: 3ZvS124zfO42SSumk0KMwe
+  :fullname: Adam Beach
+  :slug: adam-beach
+  :person_type: Datica Directors
+  :role: Director of Cloud Operations, Engineering
+  :profile_pic:
+    :id: 2HrDikX2BGwMcqOMQGeGYE
+  :email: abeach@datica.com
+  :bio_short: 'As Director of Cloud Engineering Adam manages a team of engineers that
+    keep the Datica Platform running smoothly. '
+  :bio: 'Adam joined Datica in 2015 and immediately became an invaluable contributor.
+    His calm demeanor and unmatched work ethic have made him the go-to person for
+    wrangling complicated projects like tricky VPN problems or helping to solve customer
+    challenges on the Datica platform. Before Datica, Adam worked for TDS Telecommunications
+    Corp in Madison and prior to that, spent more than 12 years at Weather Central,
+    working in an IT Support role. Graduating from Herzing College in 2000, Adam holds
+    a B.S. degree in Electronics and Computer Technology. '
+  :location:
+    :lat: 43.0592056
+    :lon: -89.4008958
+- :id: rVZcG8ORWKg8o4EIuqQ8a
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-10-31T03:11:34+00:00'
+    :created_at: '2018-02-19T20:40:25+00:00'
+    :id: rVZcG8ORWKg8o4EIuqQ8a
+  :fullname: Christopher Gerg
+  :slug: christopher-gerg
+  :person_type: Datica Alumni
+  :role: Chief Security Officer
+  :profile_pic:
+    :id: gKMODezw2WQ8sy8246u4K
+  :email: christopher@datica.com
+  :bio_short: Christopher Gerg leads the security and compliance teams at Datica in
+    his role as Chief Security Officer.
+  :bio: "With more than 15 years of information security experience, Gerg most recently
+    served as CEO and Principal Consultant at Gauntlet Consulting, LLC. Prior to that,
+    HealthGrades tapped Gerg as its Chief Information Security Officer and VP of Infrastructure
+    & Engineering. He has experience in the hosting, managed security services, e-commerce,
+    healthcare, financial, and payment card industries and has worked as a Systems
+    Administrator, Network Engineer, Penetration Tester, Information Security Architect,
+    VP of Information Technology, Director and Chief Information Security Officer.
+    Gerg was a past member of the Network Security Team for the 2000 Republican National
+    Convention and is also an author of the O’Reilley Media book “Managing Network
+    Security with Snort and IDS Tools.”\n\nWhile an expert in the theoretical aspects
+    of information security best practice, he is also experienced in the practical
+    aspects of building a secure technical environment – and working with the boardroom
+    to promote executive understanding and support. "
+  :profile_linkedin: christopher-gerg-8aa0a66a
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:related_customer:
+- :id: 66BznN8Y482iSswswQAice
+  :_meta:
+    :content_type_id: customers
+    :updated_at: '2017-11-28T22:12:35+00:00'
+    :created_at: '2017-01-30T17:46:44+00:00'
+    :id: 66BznN8Y482iSswswQAice
+  :company_name: University of Kansas Hospital
+  :slug: university-of-kansas-hospital
+  :customer_logos:
+  - :id: rTSVIOV21wk2kU2iyUMYu
+  :fullname: Dr. Gregory Ator
+  :role: CMIO
+  :profile_pic:
+    :id: 7rIGE2x6zSQqqK0CsKaoQ
+  :customer_quote:
+    :id: Y1SJiOGUaysQKC0qYE4cQ
+  :profile_twitter: university-of-kansas-hospital
+  :profile_linkedin: university-of-kansas-hospital
+  :customer_story_short: KU Med is a nonprofit, academic medical center located in
+    Kansas City, Kansas. It is the region's only nationally verified Level I Trauma
+    Center.

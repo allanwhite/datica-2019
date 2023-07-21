@@ -1,0 +1,565 @@
+---
+:id: 79e4rnBGHC2YgmKqu8QuwA
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-12-12T19:29:59+00:00'
+  :created_at: '2017-09-05T20:48:13+00:00'
+  :id: 79e4rnBGHC2YgmKqu8QuwA
+:title: If It's Possible, We Can Integrate It
+:slug: if-its-possible-we-can-integrate-it
+:pub_date: !ruby/object:DateTime 2017-09-05 00:00:00.000000000 Z
+:tags:
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+- :id: qgckjVVwLQiyQcKsiyS6c
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-11T21:45:15+00:00'
+    :created_at: '2017-01-11T21:45:15+00:00'
+    :id: qgckjVVwLQiyQcKsiyS6c
+  :tag_full: EHR
+  :slug: ehr
+  :description: Electronic Health Records
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: There's much a digital health company needs to know about EHR integrations.
+  Here are 4 essential questions digital health teams should ask their customers.
+:blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+  We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
+  We''ve done this work with big organizations and vendors to small FQHCs and niche
+  EHR vendors. As a result of all this integration experience, we now have a pretty
+  good grasp on the intricacies of how integration works. We can reasonably estimate
+  how long it takes us to do a project and how that varies with different types of
+  vendors. '
+:post: "> What you must learn is that these rules are no different than rules of a
+  computer system. Some of them can be bent, others can be broken.\" -- Morpheus,
+  The Matrix\n\nHowever, despite our progress, there are still hundreds of systems
+  that we have not integrated with. In the ambulatory setting alone, there are more
+  than 650 technologies certified for Meaningful Use Stage 2. While working with the
+  top 30 already gives us a leg up and covers a majority of the industry, it's not
+  uncommon for us to hear about a new piece of HIT technology that our customers and
+  prospects are looking to integrate with. \n\nDespite your perceptions of us as an
+  integration services team, we don't have any secret super powers to solve problems
+  with interoperability. Our solution, as simple as it may sound, is just being the
+  best at our specialized skill set as we can be. This means:\n\n- Writing interfaces
+  and transforming data to programmer-friendly formats using Mirth, an open-source
+  interface engine. \n- Setting up VPNs when needed on open-source Strongswan appliances.\n-
+  Having a team of experts in health data and project management on hand to analyze
+  project needs. \n- Everything hosted on the HITRUST-certified Datica Platform, staffed
+  by a team of ops, security, and compliance experts. \n\nWhile we may know about
+  obscure technologies that power integrations at a given EHR vendor, our process
+  is likely similar to anyone else's when kicking off a project. As such, it's worth
+  noting that **some projects may be impossible to complete** due to external constraints.
+  Turns out that data blocking in healthcare is really a thing. So, if Datica is not
+  helping you in your pre-sales process with customers, it's up to you to ask all
+  the necessary questions to ensure that you will be able to successfully integrate
+  your application with the EHR and site in question. \n\n## Four essential questions
+  digital health teams should ask their customers\n\n### 1) Can your EHR support my
+  digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
+  alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most common
+  data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+  and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
+  are standards, this doesn't mean all EHRs support exchanging data through these
+  formats. In fact, some EHRs have no integration capabilities at all. Make sure the
+  EHR supports the data standards that you need. Particularly, make sure the EHR supports
+  the data standards in the method you need them. For example, if you need CCDs *pushed*
+  to you at the end of a visit vs. *pulling* them proactively, you will want to ensure
+  the EHR has the capability to manage that process. There is a very real possibility
+  here that the EHR may have no suitable integration technology, which may limit your
+  data integration possibilities to flat-file style extracts or may require manual
+  data entry to power your application.\n\nIt's worth noting that there are some integrations
+  [that seem simple but are really complex](https://xkcd.com/1425/). For example,
+  while it would seem obvious that any EHR could expose provider availability to schedule
+  appointments, this is actually rare functionality. It's *easy* to know what appointments
+  are scheduled/canceled but it's *hard* to know when you can schedule an appointment.
+  Just because there are no appointments from 12:00-2:00 doesn't mean the provider
+  isn't doing hospital rounds or research. As such, what may have been an easy API
+  query on Allscripts, Epic, and Athena turns into a nightmare of stored procedure
+  R&D and database access requirements with smaller EHRs. This is why it's good to
+  have experts on hand to help you understand the rules of the road and to match integration
+  expectations to reality. \n\n\n### 2) Do you have the internal or external resources
+  to perform the integration work?\n\nSmaller organizations may have an EHR with HL7,
+  CDA, or API integration capabilities, however, they might not have the personnel
+  to configure their instance to do that integration. It's not uncommon to find a
+  nurse or clinic administrator who is also the EHR administrator. While they may
+  be able to manage their provider's schedules or handle some claims, setting up an
+  interface or API may be foreign to them. This can be a blocker for a project. \n\nDatica
+  cannot directly assist with a backend EHR build. This is usually for one of these
+  reasons:\n\n- The EHR vendor would require us to sign an agreement that had some
+  kind of non-compete clause to it. \n- The EHR vendor will not grant us access to
+  their systems. \n- We simply lack the expertise in 650 EHRs. \n\nAs such, if the
+  organization needs assistance with an internal EHR build, it's out of the scope
+  of our standard integration services. While we may be able to refer the organization
+  to other consultants or vendors who can assist with this EHR build, additional scope
+  and cost considerations would be included.\n\n### 3) Can you commit to getting work
+  done within reasonable timelines?\n\nThe top KPI for a fast, successful installation
+  is an agreed upon project plan with assigned task owners and due dates. At larger
+  orgs, the only task owners are typically the EHR integrators (Datica) and organizational
+  IT. However, in some integrations, there may be dependencies on vendors to perform
+  some pieces of setup. This is particularly true if the org is not licensed for a
+  given interface yet or if the EHR vendor hosts the organization's EHR instance.
+  \n\nNot to sell you a horror story but, sometimes, these timelines can be brutal.
+  While many projects go live within a month of kickoff, we've also seen projects
+  span a year due to EHR vendors dragging their feet on either contracting or infrastructure
+  deployments. Other than badgering effectively, unless your customer's organization
+  can push their EHR vendor to move faster, it's hard to make the process any faster
+  than it is. If your integrated product must be live by a certain point to reach
+  contractual obligations to your customer, make sure your customer has the means
+  to get that system live by that point. \n\n### 4) Who will validate clinical content
+  and logic facilitated through integrations?\n\nYour application may want to segment
+  patients based on certain clinical attributes sent in the payload of the HL7 or
+  CDA message. For example, you may want your application to send an alert when a
+  patient with diabetes is admitted to the hospital. The question, of course, is how
+  do you define patients with diabetes? Will they be manually defined by clinicians
+  or will you be trying to define them by diagnoses from the admission, in their problem
+  list, or by other clinical attributes like High A1C or being prescribed insulin?\n\nWhile
+  we can apply some logic to segment patients in our interface engine, we do not have
+  clinical informaticists on hand to dictate or validate logic that we would create
+  at your behest. The integration engine may not be the best place to have that application
+  logic and you may consider those mappings and analysis to be IP of your company.
+  You may decide that an organization purchasing your digital health product can validate
+  your clinical content (Epic did this) or we are happy to refer you to informatics
+  consultants who are qualified to assist you.\n\n## Evaluate the Integration's TCO\n\nWith
+  these additional parameters, you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+  your digital health product. If you need to hire a niche EHR consultant to build
+  an interface on the EHR itself and it costs $5k, can you pass that along to your
+  customer or extract that value within your product? If not, you may debate the merits
+  of deploying your product in a standalone fashion or adjusting the terms of your
+  deal for your customer. If you're new to this, we can help. All [Datica Platform](https://datica.com/platform/)
+  customers can engage with Datica for pre-sales support to define implementation
+  strategies and to determine feasibility and ease of integration at a given site.
+  \n"
+:featured_image:
+  :title: Integration questions header
+  :description: '4 questions to ask before integrations '
+  :url: "//images.ctfassets.net/189dvqdsjh46/3A5PaEiOYgA6cOO8gA8Ay4/82fa229c1bdcd58d69c53b4a90f75ad7/hans-peter-gauster-252751.jpg"
+  :_meta:
+    :updated_at: '2017-09-05T19:53:32+00:00'
+    :created_at: '2017-09-05T19:53:32+00:00'
+    :id: 3A5PaEiOYgA6cOO8gA8Ay4
+:share_image:
+  :title: If its possible we can integrate it
+  :description: If its possible we can integrate it share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4CZYOKYKlyyE6eOieO2o6w/815fb6fe1167c125d85118084170a479/If_its_possible_we_can_integrate_it.002.jpeg"
+  :_meta:
+    :updated_at: '2017-09-05T19:59:51+00:00'
+    :created_at: '2017-09-05T19:59:51+00:00'
+    :id: 4CZYOKYKlyyE6eOieO2o6w
+:cta_ref:
+  :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-15T21:39:13+00:00'
+    :created_at: '2017-05-27T01:25:44+00:00'
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :cta_title: Get the TCO Guide to Healthcare Integrations
+  :cta_desc: 'This comprehensive guide to computing Total Cost of Ownership (TCO)
+    of healthcare integrations is for anyone involved in EHR integrations who needs
+    to thoroughly understand all the project costs.  Use this guide to help with build
+    vs. buy decisions.
+
+'
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-integrations/
+  :cta_image:
+    :id: 55cqBx5A4ESeeQS8SA0GGY
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 3FD2e0iJbi2MqAgMESoAgy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:45:22+00:00'
+    :created_at: '2017-03-28T16:24:31+00:00'
+    :id: 3FD2e0iJbi2MqAgMESoAgy
+  :title: FHIR Fuels Transformation at Hospitals
+  :slug: fhir-fuels-transformation-at-hospitals
+  :pub_date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'For the first time in twenty years, hospitals, vendors, and even payers
+    and life sciences providers agree on something: FHIR is the way forward.'
+  :blog_lead: The hype about [FHIR (Fast Healthcare Interoperability Resources)](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)
+    has spread like, well, wildfire. The healthcare industry is often targeted by
+    new, sexy technologies that sound great on the surface but often have few practical
+    implementations. FHIR is NOT one of those technologies. In fact, FHIR has many
+    practical use cases and benefits. More importantly, for the first time in twenty
+    years, healthcare organizations, vendors, and even payers and life sciences providers
+    agree this is the path forward for modern integration. This prevalent support
+    is speeding FHIR’s adoption and feedback loop on improvement. Datica’s newest
+    guide, [What Health Systems can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/),
+    takes a candid look at the factors fueling open-data transformation at hospitals
+    and health systems. Here are a few highlights from the guide.
+  :post: "\n## EHR’s aren’t cutting it. \n\nHospitals, in particular, are looking
+    for technology solutions that are complementary to their EHRs. EHR vendors have
+    accomplished what they set out to do – digitize paper health records in order
+    to improve accessibility of information. Patients’ healthcare data is now centrally
+    stored and can be viewed across disciplines within an organization. Those EHR
+    implementations laid the information technology groundwork that would become the
+    fabric of a healthcare transformation movement. As Datica’s co-founder Travis
+    Good wrote in a recent blog post on the [Rise and the Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/\n),
+    the EHR and data consolidation are just the foundation for organizational transformation.
+    \n\nToday, hospital CIOs and CMIOs are feeling pressured to improve interoperability
+    with other organizations, eliminate data blocking, and embrace value-based care.
+    And, as they realize the limitations of EHRs, they are increasingly looking for
+    solutions from workflow-specific vendors that solve needs their EHR vendors do
+    not, reach different markets than their EHR vendors, and more rapidly deploy new
+    solutions than the EHRs’ on-premise architecture allows.  \n\nThe key to unlocking
+    this organizational transformation is making the data in the EHR accessible. The
+    industry has been focused on interoperability for the reason that being able to
+    access the aggregated data is the only way to move from documentation tools to
+    innovative care delivery models. An open data standard, such as FHIR, and a single
+    implementation of the standard [in a centralized data hub](https://datica.com/managed-integration/)
+    is the most efficient way to move the needle on data accessibility. \n\n\n## Patients
+    expect transparency.\n\nPatients aren’t as captive of an audience as they once
+    were. They expect connectivity and transparency in their healthcare experience
+    because of their experience in other industries. \n\nIt’s easy to forget that
+    patients are consumers in every other area of their lives. The [consumerization](http://www.gartner.com/it-glossary/consumerization)
+    of the retail, travel, banking – and almost every industry except healthcare –
+    has changed patient expectations. Consider what [Rocket Mortgage](https://www.forbes.com/sites/tomgroenfeldt/2017/03/14/banks-the-department-stores-of-finance/#27a5be8c6958)
+    did to eliminate the complexity and the burden to the consumer when securing a
+    mortgage. Now, getting a mortgage is self-service, pre-approval comes in minutes,
+    and clear, transparent information is provided. \n\nThis type of innovation is
+    what people have come to expect and want from everything – even healthcare.\n\n\n##
+    Government mandates aren’t the reason for the revolution.\n\nCertainly, APIs are
+    going to be required under legislation to increase third-party access to data.
+    \ We’ve seen references to API in [Meaningful Use](https://datica.com/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
+    [MIPS/MACRA](https://datica.com/academy/macra-and-mips-explanation/), and [21st
+    Century Cures legislation](https://datica.com/blog/21st-century-cures-act-passes-in-the-house-of-representatives/).
+    The United States government typically targets strategies that are working well
+    in leading organizations and then incentivizes or penalizes the rest of the healthcare
+    providers to play catch up. Good examples to illustrate this point are e-prescribing
+    and PQRS and/or Meaningful Use. Even so, government mandates are not the impetus
+    for technology revolutions in healthcare. \n\nSo why are the frontrunners focused
+    on API adoption? What are they hoping to gain in terms of health system operations
+    and culture?\n \nWe invite you to download Datica’s newest guide, [What Health
+    Systems can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/),
+    to get the answers to these big questions. The guide unveils what FHIR enables
+    in health systems, not from a technology perspective, but from an operational
+    improvement perspective.\n\n"
+  :featured_image:
+    :id: 4dz99s788UCkcgY4G2KGsK
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2wDfIlF1QY2e6u88acqkMY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:25:27+00:00'
+    :created_at: '2017-02-03T00:26:38+00:00'
+    :id: 2wDfIlF1QY2e6u88acqkMY
+  :title: 4 Integration Factors DocbookMD Considered
+  :slug: 4-integration-factors-docbookmd-considered
+  :pub_date: !ruby/object:DateTime 2016-02-11 00:00:00.000000000 Z
+  :categories_blog: company
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: Prior to DocbookMD® HIPAA-secure communication didn't exist. Datica was
+    not only able to centralize integration for DocbookMD but also save them $360K.
+  :blog_lead: |-
+    Doctors need HIPAA-secure communication if they are to share [critical patient information][1] and collaborate with medical colleagues. That's what rural primary care doctor [Tracey Haas, MD][2] discovered as she practiced in an area that didn't even have a cardiologist or orthopedic surgeon. HIPAA regulations tied her hands whenever she looked at a patient EKG or X-ray and needed a real-time expert opinion from another doctor, like her husband, orthopedic surgeon [Dr. Tim Gueramy][3]. Prior to the start of [DocbookMD®][4], a secure way to communicate physician-to-physician didn't exist, so doctors, including Haas and Gueramy struggled to provide immediate and efficient care to patients.
+
+    [1]: https://datica.com/academy/what-is-protected-health-information-or-phi/
+    [2]: https://www.linkedin.com/in/tracey-haas-do-mph-23ba5054
+    [3]: https://www.linkedin.com/in/tim-gueramy-a702311a
+    [4]: https://datica.com/customer/docbookmd/
+  :post: |-
+    **When the first [iPhone®][5] came out in 2007, [_sans_][6][ camera][6], apps or app store, Haas and Gueramy began talking to other doctors to build the first use cases for DocbookMD, which went from directory app upon its launch in 2009 to communication app and finally to today's iteration -- a critical collaboration platform.**
+
+    Healthcare has a cornocopia of information in a multitude of forms: patient records, medical images, prescriptions, patient bills, insurance claims and data research. Healthcare organizations not only must securely store data but they are mandated to process and cater to this data using a variety of data management and process solutions. If that isn't enough, healthcare providers are also required to have this data available on demand and through boundaries, whilst simultaenously focusing on the core principles of patient care delivery. DocbookMD needed a partner in order to comply with these industry necessities.
+
+    In dealing with an early-stage company, companies often get a mixed bag with performance. However, Haas said that Datica exceeded expectations with zero problems, which has created a positive experience for everyone, especially engineering. Gueramy states that four factors played into the company's decision to go with the [Datica cohesive approach to integration][7] versus building a solution themselves:
+
+    1. **The Datica business model** — "It's cloud-based and exactly like our business model."
+    2. **Enabled DocbookMD to scale **—"That was a big one!"
+    3. **Allowed the company a way to capture what future costs were going to be** \-- "That provided a way to charge our customers more appropriately and keep our costs down."
+    4. **Datica being physician-based** — "That was huge."
+
+    Want to know more about how Datica was not only able to centralize integration for DocbookMD but also save them $360K? Read how in our [Docbook MD Case Study][8], available now.
+
+    Have questions? Tell us what you need to know and our team of experts will be your sherpa. We believe in an improved healthcare and will do whatever it takes to make that a reality. Reach out to us [directly][9], [tweet us][10] or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+    [5]: http://www.apple.com/iphone/
+    [6]: http://www.sansmirror.com/
+    [7]: https://datica.com/managed-integration/
+    [8]: https://datica.com/customer/docbookmd/
+    [9]: mailto:hello@datica.com
+    [10]: https://twitter.com/daticahealth
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:57:08+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :title: Does Healthcare IT Put the Cart Before the Horse?
+  :slug: does-healthcare-it-put-the-cart-before-the-horse
+  :pub_date: !ruby/object:DateTime 2016-10-03 00:00:00.000000000 Z
+  :tags:
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Industry focus on patient outcomes has never been higher yet some healthcare
+    innovators are focused on technology first and outcomes second. Wonder why?
+  :blog_lead: 'Industry focus on patient outcomes has never been higher. Key healthcare
+    stakeholders, from payers, providers, vendors and others, all indicate that this
+    focus will surely escalate. The emphasis may appear new, but as early as 1998,
+    the [_Journal of of General Internal Medicine_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1496942/)
+    began covering the patient outcomes movement. Considering this surge in interest,
+    you may be wondering why some healthcare innovators are focusing on technology
+    first and outcomes second.
+
+'
+  :post: "In a rush to get a healthcare technology to market and a paying client on
+    the books, vendors often sidestep this important piece to the solution. As a result,
+    many health systems across the country are being sold new technologies that don't
+    address patient outcomes first. Clinicians wonder why. In a recent [_Healthcare
+    Innovators Podcast_][2], Ida Sim, MD, who is a primary care physician, informatics
+    researcher, entrepreneur and Professor of Medicine at the University of California,
+    San Francisco, shared her thoughts on technology implementation as it relates
+    to patient outcomes. \"The place to start is not to have a great app or sensor,
+    [nor] how to get as many people to use it for as long as possible,\" says Sim.
+    Instead, she explains, \"Outcomes are generated jointly by the healthcare system
+    and the patients themselves, so that's the place to start.\" This approach transcends
+    wearables and applications; it can also be applied to larger technologies, such
+    as electronic medical records (EMRs). \n\nIn some ways, starting with the technology
+    is counterintuitive. Few organizations effectively manage patients outside of
+    traditional episodes. Datica CEO and Chief Privacy Officer, [Travis Good, MD](https://datica.com/about/travis/)
+    gave his perspective on the subject recently. \"The healthcare providers, focused
+    most on patient outcomes, like Denver Health, have had the management of patients
+    in their DNA long before applying any technology to achieve efficiencies.\" \n\n##
+    Effective Technology is Outcome-Based\n\nFor healthcare innovators, starting with
+    patient outcomes first promises to provide technical solutions that dramatically
+    impact patients and the industry as a whole. Some development organizations are
+    already taking this approach and that's exciting to watch.\n\nWorking at Datica
+    gives us an in-the-trenches view of impactful industry technologies that address
+    patient outcomes first. Madison-based [healthfinch][3], for example, needed EMR
+    integrations for implementing its automated prescription refill solutions within
+    a hospital system. Healthfinch started with the specific population need, then
+    crafted a technology solution with patient outcomes at the heart of that solution.
+    This story, and others from health vendors working on patient outcome-first technologies,
+    can be found in the [Datica customer][4] stories. \n\nAre you developing technologies
+    focused first on patient outcomes? Datica can help you scrutinize that process,
+    which will ultimately provide the most value for clinicians and the hospitals
+    for whom they work. That technology approach leads to long-term success and product
+    viability for customers.\n\n\n[2]: /innovation/ida-sim-md/\n[3]: http://healthfinch.com\n[4]:
+    https://datica.com/proof/\n[5]: mailto:hello@datica.com"
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 2P8wKtHIIwy8UseMUiqIMm
+  - :id: 3WnOXmTmVaSEkIoQMGqYqS
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

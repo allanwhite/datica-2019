@@ -1,0 +1,561 @@
+---
+:id: 2uVitrbH7qy2OyeGwcGEO2
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-31T19:32:20+00:00'
+  :created_at: '2017-01-16T17:41:31+00:00'
+  :id: 2uVitrbH7qy2OyeGwcGEO2
+:title: HIPAA and Multi Tenancy
+:slug: hipaa-and-multi-tenancy
+:pub_date: !ruby/object:DateTime 2018-01-12 00:00:00.000000000 Z
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:summary: What exactly is multi tenant cloud and does Datica Compliant Cloud offer
+  a multi tenant environment?
+:lead: Datica provides HIPAA compliant and HITRUST CSF Certified hosting and integration
+  solutions for a variety of customers. These HIPAA and HITRUST audits have been performed
+  by a national third party [(*Coalfire*)](https://coalfire.com). In the case of HITRUST,
+  we have been through additional scrutiny in the context by the certifying authority,
+  namely [HITRUST](https://hitrustalliance.net).
+:post: |2+
+
+  As we continue to grow our customer base, we get asked about Datica being a multi-tenant solution and the supposed security challenges that could perhaps arise because of that. We felt that it made sense for us to write up this "position paper" on multi-tenancy and security. Our hope is that this post will clarify our security posture and provide others with a few pointers on better security practices.
+
+  ## The cloud by definition is multi-tenant
+
+  One of the first things to note is that in the modern cloud computing world, **everything** is multi-tenant. All the IaaS providers you use such as Google, MSFT, AWS and Rackspace are multi-tenant. All the SaaS companies that you know and use, such as Salesforce, Intuit and Stripe are multi-tenant. But before we discuss how multi-tenancy and security are not orthogonal, it would be worthwhile to explain tenancy in the cloud context so that we are all on the same page.
+
+  In cloud computing, tenancy generally refers to how the platform (PaaS or Platform as a Service) and underlying infrastructure (IaaS) are shared among different customers. Before we explore this further, let's setup an analogy. Let's setup an apartment building with multiple rental units (tenants). The building itself can be compared to an IaaS (bricks, mortar etc.). The building comes with property management i.e. shared water pump, utilities management (electricity, sewage, garbage collection and so on) and maintenance. Property management can be considered equivalent to a Platform as a Service (Datica Compliant Cloud) i.e. a service that takes care of the details so that the renter (tenant) doesn't have to. Given that analogy, let's dig a bit deeper.
+
+  ### A multi-tenant cloud is where all customers share the same cloud infrastructure. This does not mean that customers can see each other’s data.
+
+  Going back to the analogy, it is the property management organization's responsibility to ensure that Jane Appleseed's key for apartment 101 does not allow her access to apartment 102. She only has access to her occupancy. But she only has one garage door opener with a code specific to her but managed centrally. Similarly, it is the Platform's (Datica Compliant Cloud's) role to ensure that a tenant only has access to their environment (apartment) and associated services (rooms and garage).
+
+
+  ### Shared infrastructure automatically places a greater emphasis on security. Access to the multi-tenant environment is strictly controlled and customers get a view of **only** their data.
+
+  In the analogy, this requirement forces the property management group (PaaS provider) to plan for separate mailbox keys, tracking users of those keys, correlating keys with the occupants of the apartment, having a doorman to prevent the random pizza guy from entering the building and so on. Living in a building with a doorman is much more secure than an automated buzz-someone-in system. This is what Datica Compliant Cloud manages and maintains on an ongoing basis. We also hire external penetration testers on an annual basis, scan our networks weekly, perform penetration tests internally on a quarterly basis and track possible security breaches as part of our service.
+
+  ### The benefit of a multi-tenant model is that the provider can **maintain** a shared infrastructure for all customers.
+
+  Customers benefit from always being on the latest version of all underlying software - the OS (operating system), the databases, webservers, etc. In the unlikely event that one of our customers learns about a problem before we do, we can immediately take action and ensure that the appropriate fixes get put into place quickly for all our customers. When it’s time to upgrade Datica Compliant Cloud, all of our customers are upgraded at the same time and share the same experience. In the analogy, if property management decides to replace the aging solar panels with more performant ones, all of your tenants get the benefits at the same time. Maintenance is a significant cost not only to the service provider but also to the customer so the easier and cheaper it is, the better off all parties will be. Or in other words...
+
+  > The key to performance is elegance, not battalions of special cases. — Jon Bentley and Doug McIlroy
+
+  For example, Salesforce.com, at the relatively high end of the multi-tenancy spectrum, has 72,500 customers who are supported by 8 to 12 multi-tenant instances (meaning IaaS/PaaS instances) in a 1:5000 ratio. Said differently, each multi-tenant instance supports 5,000 tenants who share the same database schema. Intacct, a financial systems SaaS provider in the middle of the spectrum, has more than 2,500 customers who share 10 instances in a 1:250 ratio. [Source](http://www.computerworld.com/article/2517005/data-center/multi-tenancy-in-the-cloud--why-it-matters.html)
+
+  At Datica, we go several steps more to ensure our customers security and isolation.
+
+  - AppArmor profiles: ensure that containers are isolated as much as the underlying operating system allows.
+  - Encryption in-transit: ensures that even **within** your environment, all network traffic is encrypted with customer specific keys
+  - Encryption at-rest: enforces all volumes are encrypted
+  - Customer specific app, database (and cache): are specific to each customer and never shared.
+  - Dedicated logging  and monitoring for each customer: to reduce your costs while ensuring your environment remains compliant.
+  - Dedicated networking: to assure isolation of all traffic on a per customer basis.
+
+  This is essentially no different from you managing your own set of containers on a IaaS provider. At Datica, our goal is to simplify infrastructure and compliance so that you can focus on your application features and your customers.
+
+:related_guide:
+  :id: 1L20oQXl3G2cKSm4gg2wuc
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:41+00:00'
+    :created_at: '2017-06-20T21:34:40+00:00'
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :title: HIPAA Compliance at the Application Level Guide
+  :slug: application-hipaa-compliance
+  :summary: HIPAA compliance at the application level is different than the infrastructure
+    level. This comprehensive guide explains HIPAA considerations for digital health
+    applications.
+  :subhead: A guide written by HIPAA compliance technical experts
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :desc: When a digital health product stores, processes, or transmits PHI, HIPAA
+    asserts rules for how it should handle a multitude of security, privacy, and policy
+    procedures, called “controls”. Demonstrating that your company and your digital
+    health product meet all those controls is how you can call yourself compliant.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :guide_text: "HIPAA controls can be conceptually organized into three levels: infrastructure,
+    application, and company. This guide dives into all the under-the-hood considerations
+    you must manage at the application level to ensure your application meets the
+    security requirements required for healthcare data. \n\nFollowing this guidance
+    will enable you to get through an audit process and help you more successfully
+    engage with healthcare customers.\n\nThe HIPAA Compliance at the Application Level
+    guide includes information and checklists for:\n\n* Your responsibility for HIPAA
+    \n* Understanding your application's usage including access, credentials & provisioning,
+    ACLs, and usage audits\n* Alignment with customer processes and needs, including
+    business continuity, training & support, data onboarding and backload, collecting
+    user and outcomes data, and upgrading the app\n* Proving compliance"
+  :related_form:
+    :id: 1ITZgYKnMoaSQSacM0cQ4m
+  :form_id: ad91c94e-b298-4416-88fe-1548367689f2
+  :bg_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:related_entries:
+- :id: SMDqjNdTaKCGU60Ow6eYu
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:42+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: SMDqjNdTaKCGU60Ow6eYu
+  :title: HIPAA Data Retention Requirements
+  :slug: hipaa-data-retention-requirements
+  :pub_date: !ruby/object:DateTime 2018-07-23 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: HIPAA requires that business associates and covered entities retain multiple
+    types of data for at least six years. Learn what data you need to retain.
+  :post: |
+    HIPAA requires that business associates and covered entities retain the following for at least six years from creation date or last effective date, whichever happens to be later.
+
+    - A written or electronic record of a designation of an organization as a CE (e.g., health plan, affiliated covered entity, etc.) or BA.
+    - Information security and privacy policies and procedures implemented to comply with HIPAA.
+    - All documented settings, activities and assessments required by HIPAA.
+    - All data use agreements and other forms supporting HIPAA compliance.
+    - All signed authorizations and, where applicable, written acknowledgments of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgments.
+    - The Notice of Privacy Practices for entities that must provide them.
+    - Designated record sets that are subject to access by individuals.
+    - Documentation of the titles of the persons or offices responsible for HIPAA compliance, including not only those with over-all responsibility for compliance, but also those responsible for receiving and processing requests for amendments by individuals, and those responsible for receiving and processing requests for an accounting by individuals.
+    - Accounting of disclosures of protected health information (PHI).
+
+    In addition to understanding what HIPAA requires for retention, covered entities and business associates must also know their other legal requirements for retention, from state, federal, international and contractual requirements. For example, Connecticut state law requires that medical records, some of which go beyond HIPAA’s definition of PHI, be maintained for 7 years.
+  :related_guide:
+    :id: 1L20oQXl3G2cKSm4gg2wuc
+  :related_entries:
+  - :id: 3JRgbNv5QcuO2ouAcUOaiI
+  - :id: 1eK0941hX4icwGkikGCKQg
+  - :id: 3WgGJvG40EGu0sAOA4SQe2
+  - :id: 1cDUJOfihS6CamYeuSG2KW
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 4yuVlN4hWw0wgM6SOaae0G
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:34:32+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: 4yuVlN4hWw0wgM6SOaae0G
+  :title: The Who and How of HIPAA Enforcement
+  :slug: the-who-and-how-of-hipaa-enforcement
+  :pub_date: !ruby/object:DateTime 2017-07-20 00:00:00.000000000 Z
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :summary: 'Learn about HIPAA enforcement, including who is responsible for enforcing
+    HIPAA violations and compliance, and the fines for violating HIPAA. '
+  :lead: When people talk or write about HIPAA, it's always presumed that there's
+    an enforcement aspect, though enforcement is rarely explicitly discussed.
+  :post: |
+    As much as people and organizations value the privacy and security of the personal health information of their customers (patients, members, users/consumers), the fear of HIPAA violation fines and other penalties are the major drivers of compliance and security efforts. Penalties, whether fines or otherwise, are quantifiable and expose organizations to very real financial risk if proper controls, both tech and policy, aren't put into place and followed.
+
+    HHS sets the rules for HIPAA, and enforcement is carried out by The Office of Civil Rights (OCR) within HHS. OCR is tasked with the responsibility of investigating complaints. Based on an investigation, the OCR determines if the covered entity or the business associate of a covered entity was in compliance with the HIPAA security and privacy rule. The investigation branches at whether an organization is in violation of HIPAA rules or not. If the organization is not in violation, the findings are documented and the case is closed. HIPAA is not always prescriptive, and has terms like "reasonable," so there is some interpretation and gray area at this stage.
+
+    In a recent report by the OCR, the HIPAA Security Rule accounted for the majority, or 60%, of violations, followed by HIPAA Privacy Rule violations and then HIPAA Breach Notification violations. That recent report also cited a lack of complete or accurate risk assessments as a widespread problem, with up to two thirds of entities lacking full and timely risk assessments. Risk assessments are incredibly valuable and should inform much of your security and privacy posture as an organization.
+
+    If the OCR finds an organization to be in violation, the following actions may take place:
+
+    * Voluntary compliance;
+    * Corrective action; and/or
+    * Resolution agreement.
+
+    There are monetary penalties associated with HIPAA violations, and the amounts of such violations were raised considerably last year as part of the HIPAA Omnibus Rule included in the HITECH act. The current financial penalties are listed below.
+
+    (image: penalties.png)
+
+    Previous to these new rules, the fine associated with each HIPAA violation was capped at $25,000. This number is now $1.5 million per violation.
+
+    In certain extreme HIPAA cases, individuals can be exposed to criminal risk as well. When criminal action is involved with HIPAA, the OCR hands the case off to The Department of Justice. Individuals are at risk of HIPAA enforcement and penalties if they "knowingly" obtain, disclose, or use PHI "in violation" of HIPAA rules. You can read a very detailed, legal opinion on what [constitutes](http://www.justice.gov/olc/hipaa_final.htm) legal vs civil in the case of HIPAA. There is a lengthy discussion of the terms "knowingly" and "in violation" in that document, which is why we put them in quotes.
+
+    It's not always clear who enforces HIPAA compliance and violations. The HIPAA privacy rule is enforced by the OCR, the Department of Justice to a lesser extent, and, recently, the FCC has waded into HIPAA enforcement for the privacy of health data through its mandate to protect consumers. The financial penalties from the FCC are lower than those from the OCR; but, the FCC has the power to require annual privacy audits, as it has done with companies like Google and Facebook, and these audits, over time, have the potential to be very expensive for companies. This move by the FCC is new, and still making its way through the courts, so it's still uncertain how the FCC will fit with HIPAA enforcement.
+  :related_guide:
+    :id: 6evss0t4I0IC2cQasg0K2O
+  :related_entries:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 6iyNBVdpAIgewyYekqISUG
+  - :id: E1VA55CiNq2Ioa4wm2y4Q
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+- :id: 6hcZMUL5qoc0SyssOiUMCi
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:48:55+00:00'
+    :created_at: '2017-11-29T21:35:56+00:00'
+    :id: 6hcZMUL5qoc0SyssOiUMCi
+  :title: AWS Fargate and HIPAA Compliant Containers
+  :slug: aws-fargate-and-hipaa-compliant-containers
+  :pub_date: !ruby/object:DateTime 2017-11-29 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Day 3 of re:Invent kicked off with AWS CEO, Andy Jassy, announcing Fargate
+    among a slew of new AWS services. Can you tell we''re excited about Fargate?
+
+'
+  :blog_lead: The third day of AWS re:Invent was kicked off this morning with Andy
+    Jassy, CEO of Amazon Web Services, announcing a slew of [new AWS services](https://aws.amazon.com/new/reinvent/).
+    One such service that has us excited is Fargate.
+  :post: "As Randall Hunt put it in a [company blog post](https://aws.amazon.com/blogs/aws/aws-fargate/)
+    announcing the new service: \n\n> AWS Fargate is an easy way to deploy your containers
+    on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual
+    machine you get a container. It’s a technology that allows you to use containers
+    as a fundamental compute primitive without having to manage the underlying instances.\"\n\nWe've
+    seen an incredible increase in container adoption over the last couple of years.
+    Datica has been a huge proponent of containerization technology since our founding.
+    We use Docker in production on a daily basis to deliver HIPAA compliant environments
+    to thousands of users. We even built our own orchestration layer in 2014, one
+    year before [Kubernetes 1.0](https://cloudplatform.googleblog.com/2015/07/Kubernetes-V1-Released.html)
+    was released. To say we're bought into the concept of containers would be a massive
+    understatement.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\"
+    dir=\"ltr\">No longer any need to manage servers and clusters for your containers
+    - AWS Fargate - Run ECS and EKS without managing servers <a href=\"https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw\">#reInvent</a>
+    <a href=\"https://t.co/oPsXdvrSAL\">https://t.co/oPsXdvrSAL</a> <a href=\"https://t.co/lZnS558CXV\">pic.twitter.com/lZnS558CXV</a></p>&mdash;
+    AWS re:Invent (@AWSreInvent) <a href=\"https://twitter.com/AWSreInvent/status/935910336212844544?ref_src=twsrc%5Etfw\">November
+    29, 2017</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\"
+    charset=\"utf-8\"></script>\n\nIt's because of our long history of containerization
+    support that we're excited about AWS Fargate. However, that excitement isn't without
+    reservation. As is the case with most new technology, compliance and security
+    pose great barriers to adoption. We're deeply aware of these barriers at Datica.
+    [The Datica Platform](https://datica.com/platform/) was designed to address the
+    complexities of compliance and security specific to the healthcare industry. The
+    fact is, understanding compliance is difficult enough. That difficulty is exasperated
+    exponentially when it comes time to not only implement that understanding through
+    policy, but prove compliance beyond a reasonable doubt to auditors.\n\nOur primary
+    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    Because we [sign a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    with both AWS and our customers, we cannot guarantee full-stack compliance against
+    a service that is not scoped within the BAA that we sign with AWS. This means
+    our customers in the healthcare industry cannot take advantage of such a service.\n\nLuckily,
+    we've been working on a Docker-based deployment feature for the better part of
+    the last quarter. By working directly with our customers on improving our deployment
+    process, we're approaching a limited release of Datica BYOD (bring your own docker).
+    BYOD will give users the ability to deploy docker containers directly on the platform.
+    No longer will deployments be restricted to the `git push` model. In the future—once
+    it becomes HIPAA eligible—we plan to take complete advantage of AWS Fargate. Until
+    then, we're confident BYOD will provide an excellent deployment experience for
+    our customers.\n\nBYOD will be released into limited availability in December,
+    2017. We're selectively working with existing customers to test these new features.
+    If you're interested in participating, please reach out to me at [ryan@datica.com](mailto:ryan@datica.com),
+    and if you're at AWS re:Invent stop by booth #519 to chat with us about Fargate
+    and containerization!\n\n\n"
+  :featured_image:
+    :id: 1girbRNRDi0Kg6WmQWskUU
+  :share_image:
+    :id: DLgFmRN1BYimUEiemkGik
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 4QDw13xznycmAwm26KSgGU
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 3VMljZKhTquyQC46sao4mA
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:33:59+00:00'
+    :created_at: '2018-05-11T19:28:48+00:00'
+    :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :title: 'What We''re Building: Datica''s Public Product Strategy and Roadmap'
+  :slug: what-were-building-daticas-public-product-roadmap
+  :pub_date: !ruby/object:DateTime 2018-05-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 7FkInYPmxiG4QsiM60COos
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: company
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Transparency is the heart of Datica. With that said, we announced Datica’s
+    public product strategy & roadmap. This document will serve as the window into
+    Platform product development. '
+  :blog_lead: "Working with any organization requires a certain level of trust. Even
+    something as mundane as purchasing groceries requires trust — trust in that what
+    you are promising to give me is in fact aligned with my expectations.\n\n"
+  :post: "\nWe believe trust is earned with transparency. Since the founding of the
+    company in 2013, transparency has been a central cultural tenant. It’s why we
+    [open sourced our internal company policies](https://datica.com/open-source/policies/),
+    which have been adopted by hundreds of organizations to accelerate their path
+    to compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
+    as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and
+    why we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
+    [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+    and so on. Transparency is how we, as a technology community, can better understand
+    the complexity of security and compliance.\n\nThe trust that Datica's customers
+    instill in us goes far beyond a simple exchange of goods. We are not only securing
+    the world's most sensitive data, but providing a service to users that proves,
+    beyond a reasonable doubt, that we maintain the highest level of compliance in
+    doing so. In order to continue building on that trust, and delivering products
+    and services that support that mission, there is a necessity for more transparency.
+    In this first effort to provide increased transparency around what we are doing
+    and why, we are publishing our first public product strategy and roadmap.\n\n##
+    Why?\n\nIf you’re a Datica customer, or you’re considering becoming one, you will
+    rely on us to provide a product that is critical in running your business. Here
+    is what you can expect.\n\n### Developer operations\n\nThe Platform is a fully
+    automated continuous compliance management tool for the cloud. The cloud, and
+    the shared responsibility inherit within, fundamentally change the compliance
+    and data liability landscape. Regardless of the support, management, or compliance
+    structure your organization chooses to use, at various levels, you will rely on
+    Datica to provide cloud security and compliance services. Our goal is to get compliance
+    out of the way so you can focus on using the cloud tools you want to use.\n\n###
+    Visibility into liability and privacy agreements\n\nThe cloud is opaque when it
+    comes to liability and data privacy. At Datica, we strive to bring transparency
+    to your cloud operations and your data liability radius. This is especially important
+    in the case of a data breach, security incident, or audit.\n\n### Compliance and
+    security\n\nAbove all the rest is compliance and security. Our customers rely
+    on us to provide the highest level of compliance with our HITRUST CSF certification,
+    SOC2 Type 1 and 2, and full GDPR audit (more coming soon). Additionally, they’re
+    trusting us to secure their cloud environments and ensure data protection at all
+    costs.\n\nGiven how much our customers rely on us to do, they need to be a part
+    of the conversation. They need to have full transparency of what we are building.
+    That is not to say we’ve been developing the Platform in a vacuum. We work one-on-one
+    with users on a daily basis. We’re constantly taking feedback and building that
+    back into the product. However, we’ve not always been as transparent as we could
+    have been when it comes to the current set of product initiatives. We’re hoping
+    to change that with the public product strategy and roadmap (ex: “Hey, I see you're
+    working on an update to your vulnerability scanning component, feature X would
+    be really nice...”, etc.). Our goal is to give the market a full view of what
+    we’re doing and why we’re doing it. \n\nCloud technology and the companies running
+    the underlying infrastructure are moving at an incredible speed. By making our
+    roadmap and strategy transparent, our hope is to gauge ourselves against this
+    speed and adapt accordingly. Datica is a compliance and security company. The
+    mechanisms by which we deliver those two value propositions will and should change
+    with time.\n\n> Datica’s mission is to empower organizations around the world
+    to take their preferred tools, use them in a cloud setting, and then provide and
+    maintain the highest standards of security and compliance around those tools.
+    \n\n## The Risk\n\nOften when companies are first starting out they view their
+    value as a secret. What they’re doing and how they’re doing it is seen as magic
+    sauce. They want to harbor that magic. As companies grow and mature, they tend
+    to learn that the magic is in execution, not the intellectual property or ideas.
+    At Datica, we’ve assembled the best team of security, cloud, and compliance experts
+    to execute on designing and delivering the most secure and compliant Platform
+    for the cloud. We have no secrets to keep.\n\nWith that said, I’m proud to announce
+    [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+    This document will serve as the window into Platform product development. To get
+    the most out of this effort, we need to hear from you. Please send us your feedback,
+    feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
+  :featured_image:
+    :id: 1iqz7Kvr88m8uq8Qsiu2w
+  :share_image:
+    :id: 7jqEEY0z5Kq6aU0Q0iWQKc
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5A8wMf6ck8seomyq2g6i0k
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C
+:cta_ref:
+  :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-19T19:31:53+00:00'
+    :created_at: '2017-10-19T23:51:37+00:00'
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :cta_title: Get the TCO Guide to Compliance in the Cloud
+  :cta_desc: "In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica to measure and manage the total cost of ownership
+    to achieve compliance in the cloud. \n"
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/
+  :cta_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt

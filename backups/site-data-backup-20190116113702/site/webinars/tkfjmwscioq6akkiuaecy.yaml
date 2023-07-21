@@ -1,0 +1,155 @@
+---
+:id: TKFjMwScIoQ6AKKIUAecy
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2018-09-28T17:01:03+00:00'
+  :created_at: '2018-09-12T16:56:47+00:00'
+  :id: TKFjMwScIoQ6AKKIUAecy
+:title: What Really is Compliance?
+:slug: what-really-is-compliance
+:event_date: !ruby/object:DateTime 2018-09-26 13:00:00.000000000 -05:00
+:summary: 'A presentation from the second chapter of the forthcoming book, "Complete
+  Cloud Compliance: How Regulated Industries De-risk the Cloud and Kickstart Transformation."'
+:subhead: An explanation of global compliance in the era of pervasive cloud computing
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:lead: 'This informative webinar will break down what it truly means to achieve compliance
+  in today''s cloud-based world. The content of this webinar is extracted from a chapter
+  in a timely new book, _[Complete Cloud Compliance: How Regulated Industries De-risk
+  the Cloud and Kickstart Transformation](https://completecloudcompliance.com)_, co-authored
+  by Datica''s CEO Travis Good, MD and CMO Kris Gosser.'
+:desc: |-
+  ### In this webinar, you will learn:
+
+  1. A primer on the roles and interplay of privacy, security, and compliance
+  2. How compliance works in the U.S. and globally
+  3. How HIPAA works - a compliance use case
+  4. HITRUST and how frameworks make compliance comprehensible
+:authors:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: 1FWCOUtcwU0AiWuMOyoemg
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-10-10T00:04:16+00:00'
+    :created_at: '2018-09-11T21:42:04+00:00'
+    :id: 1FWCOUtcwU0AiWuMOyoemg
+  :title: Webinar - What Really is Compliance
+  :slug: webinar-what-really-is-compliance
+  :desc: Registration form for 9/26/2018 webinar archive
+  :custom_form: |-
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        portalId: "1695915",
+        formId: "da7532c4-4b3e-4e82-99dd-9a1e5394e47b",
+        css: "",
+        target: '#hsFormContainer',
+        onFormSubmit: function ($form) {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            'event': 'GAEvent',
+            'eventCategory': 'Webinar',
+            'eventAction': 'Form Submission',
+            'eventLabel': 'What Really IS Compliance',
+            'eventValue': '2'
+          });
+        }
+      });
+    </script>
+:video_embed:
+  :id: 2IjzMivZGwi8Q8kw84gwOu
+  :_meta:
+    :content_type_id: videos
+    :updated_at: '2018-09-28T16:59:56+00:00'
+    :created_at: '2018-09-27T16:54:43+00:00'
+    :id: 2IjzMivZGwi8Q8kw84gwOu
+  :title: 'Webinar - What Really is Compliance? '
+  :slug: webinar-what-really-is-compliance
+  :custom_form: <script src="https://fast.wistia.com/embed/medias/nbyjbvc48d.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_nbyjbvc48d videoFoam=true" style="height:100%;position:relative;width:100%"><div
+    class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/nbyjbvc48d/swatch"
+    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;"
+    /></div></div></div></div>
+  :poster_image:
+    :id: 4ohpysZptSKS0qOS622ck0
+  :wistia_id: nbyjbvc48d
+  :bg_image:
+    :id: 3NJ2vVLcHCKcMSkGGumaMe
+:image_thumb:
+  :title: webinar-c3-promo-bg
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/3NJ2vVLcHCKcMSkGGumaMe/da2d3979ca7e9430451a489b7bc266a4/webinar-c3-promo-bg.png"
+  :_meta:
+    :updated_at: '2018-09-14T23:13:34+00:00'
+    :created_at: '2018-09-14T23:13:34+00:00'
+    :id: 3NJ2vVLcHCKcMSkGGumaMe
+:share_image:
+  :title: webinar-c3-promo-lg
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/17oXoxIfaUwkYo0AewMoqE/ba9ed5dbf6ebca26bd2b829ae030cccb/webinar-c3-promo-lg.jpg"
+  :_meta:
+    :updated_at: '2018-09-14T23:13:34+00:00'
+    :created_at: '2018-09-14T23:13:34+00:00'
+    :id: 17oXoxIfaUwkYo0AewMoqE

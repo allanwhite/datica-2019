@@ -1,0 +1,505 @@
+---
+:id: 3GERVZIxMQeEiw6cISm6Mo
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-04-17T16:42:42+00:00'
+  :created_at: '2018-03-10T00:07:31+00:00'
+  :id: 3GERVZIxMQeEiw6cISm6Mo
+:title: 'Mapping Digital Health: An Interview with Ethan Bechtel, Co-Founder and CEO
+  of OhMD'
+:slug: mapping-digital-health-dr-ethan-bechtel-ohmd
+:pub_date: !ruby/object:DateTime 2018-03-10 00:00:00.000000000 Z
+:tags:
+- :id: 37RKASu9Ty828g2acWwSAI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-18T20:59:13+00:00'
+    :created_at: '2017-10-18T20:59:00+00:00'
+    :id: 37RKASu9Ty828g2acWwSAI
+  :tag_full: Mapping Digital Health
+  :slug: mapping-digital-health-series
+  :description: An article series on “Mapping the Digital Health Landscape”
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: "As we continue our Mapping Digital Health interview series, we chatted
+  with Ethan Bechtel, Co-Founder and CEO of OhMD about the hurdles and maturity of
+  the digital health industry. \n"
+:blog_lead: "As we continue our [Mapping Digital Health interview series](https://datica.com/blog/mapping-digital-health-an-interview-with-john-moore-ceo-and-founder-twine/),
+  we chatted with Ethan Bechtel, Co-Founder and CEO of [OhMD](http://www.ohmd.com/)
+  about the hurdles and maturity of the digital health industry. \n"
+:post: "> It seems like the biggest hurdle we need to overcome is interoperability
+  of patient health data. Health data is very siloed which makes innovation more challenging
+  than it has to be.”\n\n## What does OhMD do?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6HUZm57CQoYguIkYem86I2/9d7e09792875c064b46067258cd07dec/OhMD.png?w=300\"
+  width=\"150\" class=\"float-right\" alt=\"OhMD\">\n\nMy company is OhMD. My brother
+  Nate and I co-founded it a few years back to try to address communication problems
+  in healthcare that hadn’t been solved. It’s a secure texting solution that addresses
+  two major pain points. We started with patient communication. How do we replace
+  the voicemails and phone tag and general lack of access that patients have to their
+  doctors and care teams? The other pain point is around physician to physician or
+  provider to provider communications. We set out to build a consumer-grade, HIPAA
+  compliant texting app that improves efficiency for providers. We really took a very
+  consumer tech approach to solving this problem and really focus on user experience
+  and eliminating friction. We’re building a big user base of providers and staff
+  that need OhMD to efficiently get through the day. As far as patients go, we believe
+  access and communication is a critical component of healthcare. With a simple mechanism
+  to communicate with patients between visits, we are measurably improving outcomes.\n\n##
+  Where is digital health at on its own industry maturity curve? \n\nI have my own
+  unique perspective on where we're at based on where I've been in my career. I've
+  spent the last 13 years of my life doing electronic health record implementation
+  consulting, interface writing, integrations, and building custom solutions for some
+  of the biggest health systems in the country. Everyone involved in implementing
+  EHRs was doing it with the understanding that we would of being able to use this
+  data to really improve outcomes, and ultimately make doctors more efficient at the
+  same time. We are just on the cusp of starting to actually do that, so I would say
+  that to me, we're really just beginning of the second phase of health IT in that
+  we can actually use the data that help us improve patient outcomes. Up until now,
+  it's really just been about implementing software, digitizing the data, and the
+  really exciting stuff is where we go from here. How do we automate processes? How
+  do we improve outcomes? And how do we do all that while making providers more efficient?
+  That's the good stuff.\n\n## What are the biggest hurdles, do you think, to real
+  transformation? \n\nIt seems like the biggest hurdle we need to overcome is interoperability
+  of patient health data. Health data is very siloed which makes innovation more challenging
+  than it has to be. The good news is that we're starting to see the big consumer
+  tech companies focus on the interoperability problem. Apple is already showing how
+  they can put the patient in charge of their own data by delivering it to their iPhone.
+  We're just starting to address the real crux of the interoperability problem, trying
+  to put together solutions that allow data to move more seamlessly. I really think
+  that's the biggest barrier to making really impactful change in health care is figuring
+  out how to move data efficiently. \n\n## What are the innovations you're most excited
+  about, other than what your company does?\n\nI think there's a huge opportunity
+  to use technology to help doctors address the things that they spend a lot of time
+  doing that aren't seeing patients. Something like two-thirds of a doctor's time
+  are spent doing administrative tasks or documenting patient visits. Google is even
+  starting to use machine learning to try to predict when you’re going to get sick.
+  Leveraging artificial intelligent, automation, and machine learning to address administrative
+  work and simple clinical cases so that doctors can focus on complicated cases and
+  really spend more time with patients is the stuff that really excites me. \n\nSubscribe
+  to the Datica blog on the right to get the continued _Mapping Digital Health_ series
+  and all the important digital health news delivered right to your inbox. "
+:featured_image:
+  :title: blog-mapping-digital-health-ohmd-featured
+  :description: Mapping digital health OhMD featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/39eCJ302BqiMqWOQq44kuA/11de1a3e568887363b629df04b8ffa40/blog-mapping-digital-health-ohmd-featured.jpg"
+  :_meta:
+    :updated_at: '2018-03-10T00:01:12+00:00'
+    :created_at: '2018-03-10T00:01:12+00:00'
+    :id: 39eCJ302BqiMqWOQq44kuA
+:share_image:
+  :title: Mapping-digital-health-ohmd-share
+  :description: Mapping Digital Health OhMD Share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/5P4mIQ24RGOYueGeuQm8Gg/559caa8f6ba87a620c1a7b27173bc5b6/Mapping-digital-health-ohmd-share.jpg"
+  :_meta:
+    :updated_at: '2018-03-10T00:01:50+00:00'
+    :created_at: '2018-03-10T00:01:50+00:00'
+    :id: 5P4mIQ24RGOYueGeuQm8Gg
+:cta_ref:
+  :id: 2JiJivalm8AwUCAW8aMo8U
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-17T16:32:53+00:00'
+    :created_at: '2018-04-17T16:32:53+00:00'
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :cta_title: Q1 2018 Quarterly Report
+  :cta_desc: 'Spring 2018 Quarterly Innovation Report: Innovation and Impact — Digital
+    Health Transformation'
+  :cta_label: Get it Now
+  :cta_url: https://datica.com/innovation/report-q1-2018-digital-health-transformation/
+  :cta_image:
+    :id: 1kJDCTSp1aqUKwgiks6OKi
+  :cta_color: blue-alt
+:related_entries:
+- :id: 6Io0k0U4wwqEkSeggyqqSq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-11-20T22:36:19+00:00'
+    :created_at: '2017-11-20T22:13:47+00:00'
+    :id: 6Io0k0U4wwqEkSeggyqqSq
+  :title: 'Mapping Digital Health: An interview with John Moore, CEO and Founder Twine
+    Health'
+  :slug: mapping-digital-health-an-interview-with-john-moore-ceo-and-founder-twine
+  :pub_date: !ruby/object:DateTime 2017-11-20 00:00:00.000000000 Z
+  :tags:
+  - :id: 37RKASu9Ty828g2acWwSAI
+  - :id: 3rO97bU0piC0CI0eOg6ksI
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: What does a breakdancing eye surgeon have to say about patient engagement?
+    Find out in the 3rd issue of “Mapping Digital Health” with Dr. John Moore of Twine
+    Health.
+  :blog_lead: What does a breakdancing eye surgeon have to say about healthcare today?
+    As the third in our [Mapping Digital Health](/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat/)
+    series of interviews, we asked [Dr. John Moore](https://www.twinehealth.com/john-moore),
+    CEO and Founder of Twine Health, about the status of patient engagement in healthcare.
+    Moore’s entrepreneurial career had an unusual start when, as an undergrad at Boston
+    University, he founded a breakdancing club. As he completed medical school and
+    trained to become a specialized eye surgeon, he recognized a major break in communication
+    between patients and their doctors once they left their doctor’s offices. Moore
+    founded [Twine Health](https://www.twinehealth.com) in order to create technology
+    that really reaches patients.
+  :post: |-
+    > Not surprisingly, when people are put into the driver's seat in their care, supported by doctors, nurses, health coaches, and others, their outcomes dramatically improve and the satisfaction of all parties soars.”
+
+    ## Q&A with Dr. John Moore
+
+    ### What kind of impact is patient engagement making in healthcare?
+
+    The term patient engagement has become quite diluted over the past decade such that, lately, it typically refers simply to sending out e-mail appointment reminders and surveys and getting patients to sign up for patient portals to get them to do what their clinicians say. In this respect, the impact is relatively slim. At the same time, there is a transformative approach growing that we prefer to call "health activation," which is incredibly exciting and is proving to have a larger impact every day. The likes of Omada Health, [Propeller Health](/customer/propeller/), [HealthLoop](/customer/healthloop/), Twine Health, and others are working on solutions to help people truly collaborate with their care teams and to become activated in their own health behavior change. Not surprisingly, when people are put into the driver's seat in their care, supported by doctors, nurses, health coaches, and others, their outcomes dramatically improve and the satisfaction of all parties soars. There is still a long way to go to scale this phenomenon, but this progress makes it an exciting time to be in healthcare.
+
+    <figure class="">
+    <img src="//images.contentful.com/189dvqdsjh46/Ivxr5VKwUMMKYo0ACgi4O/dd08692298c1d78de7108487911e4f0f/_DSC4423_copy2.jpg?fit=crop&w=1200&h=600" alt="John Moore, Twine Health - Breakdancing">
+    <figcaption>Dr. Moore attended Boston University, where he studied biomedical engineering and also founded the BU breakdancing club.</figcaption>
+    </figure>
+
+    ### Is the "consumerization of patient care" making patient engagement easier? better?
+
+    There is no doubt that freeing care from the shackles of our current fee-for-service insurance payment system makes empowering people to participate more deeply in their care easier and better. When doctors only get paid to see people in the office and hurry them through, there isn't much space for collaboration. A great example of the consumerization of care is the direct primary care movement in this county. Clinicians, especially in primary and preventative care, are fed up with the broken payment model and its unbearable administrative burden. And people are fed up with co-pays, deductibles, and terrible customer service. They are turning to direct primary care, a subscription-based model of primary care that brings the consumer directly to the clinician without insurance processes and other barriers. These practices get back to the basics of healthy therapeutic relationships and, by being unfettered from archaic payment models, they are free to adopt new workflows and technologies to further enhance the experience and to optimize health activation.
+
+    In parallel with this consumerization effort, it is incredibly important to consider the world of workplace health that is paving the path ahead of consumerization and is about to boom. Self-insured employers, which make up more than 70% of those companies with greater than 500 employees, are tired of seeing rising healthcare cost by relying on the mainstream healthcare system. They are contracting with a new breed of healthcare providers that are building on-site primary care clinics and bringing health coaches to the office and to employee smart phones. While it might take consumers a while to start paying out of pocket for healthcare services, their employers are ready to pay the bill for them because this new breed of healthcare providers is proving that people love the convenience of their services and that they can dramatically decrease employer overall healthcare costs by improving prevention and chronic disease care.
+
+    ### How important are the roles of advisors in building a digital health company?
+
+    One of the biggest challenges in building a digital health company lies in finding the right product-market fit. Healthcare is incredibly complex, risk-averse, and sometimes perverse in its incentives in that healthcare pays providers for services, whether or not they help a patient’s outcomes. Having advisors that understand these complexities is incredibly valuable. They can help you to minimize missteps on your way to finding a product-market fit that makes your company successful while allowing you to maintain dedication to the patient experience and outcomes.
+  :featured_image:
+    :id: 62902SlDZCSsICKoOSuoA8
+  :share_image:
+    :id: 6DFUXQ9fZmiYEGwYuYYgII
+  :featured_person:
+    :id: 1z6xnZfJSoMaGMySEguYqw
+  :cta_ref:
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :related_entries:
+  - :id: 2eK7zMSuSccEuAGiUMWyCC
+  - :id: 6AjFyGm6YMOI8em8mYywsS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2eK7zMSuSccEuAGiUMWyCC
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:46:16+00:00'
+    :created_at: '2017-10-18T17:57:42+00:00'
+    :id: 2eK7zMSuSccEuAGiUMWyCC
+  :title: 'Mapping Digital Health: An interview with Strata Health Executive VP Peter
+    Smith'
+  :slug: mapping-digital-health-interview-with-strata-health-vp-peter-smith
+  :pub_date: !ruby/object:DateTime 2017-10-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 37RKASu9Ty828g2acWwSAI
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'This second interview of our “Mapping the Digital Health Landscape” series,
+    highlights innovation at Strata Health in the U.S. and beyond. '
+  :blog_lead: This second interview of our “Mapping the Digital Health Landscape”
+    series, highlights the digital health innovation of Strata Health within the United
+    States, and beyond. Operational in North America, the UK, France, and Australia,
+    Strata Health is a privately held Canadian corporation of professionals with empathy
+    for those who need care and intense respect for those who devote themselves to
+    caring for others.
+  :post: "_[Peter Smith](https://stratahealth.com/about-us/executive-team/), Executive
+    Vice President Canada for Strata Health, shares his insights into digital health
+    innovation across the globe. Working with healthcare practitioners, clinicians,
+    IT specialists and administrators, [Strata Health](https://stratahealth.com/)
+    pioneered the development of powerful software tools that have revolutionized
+    patient flow, benefiting patients, caregivers and system efficiencies alike. Their
+    proprietary intelligent referral technology has positive effects right through
+    the care system from better matching of patients to specialists all the way to
+    reducing paperwork._ \n\n## Q & A with Peter Smith\n\n### You operate in multiple
+    countries with the U.S. being the most recent, whereas the typical digital health
+    product is U.S.-centric. Do you see a big difference between the application or
+    the success of digital health in the U.S. versus the rest of the world?\n\nBroadly
+    speaking the application of digital health in the U.S. is more advanced than the
+    rest of the world. This is due to the level of investment, the size of the population,
+    and the amount of profit in the U.S. health market. There are also many other
+    countries and innovation hotspots in the world but the U.S. generally attracts
+    the most investment into digital health. But when you look at specific areas of
+    digital health you can find examples where the U.S. lags behind the rest of the
+    modern world. For example, using digital health tools and technology to improve
+    the overall efficiency and cost of the health system is not that prevalent yet
+    in the U.S. market. This is, at least in part, due to the fact that the U.S. market
+    is for-profit private healthcare, which can create different incentives than you
+    see in countries where the healthcare system is public. In countries with government
+    paid (public) healthcare, those government bodies are driven to make the entire
+    healthcare system as efficient as possible.\n\n### What's the biggest challenge
+    holding back digital health innovation within the U.S. market?\n\nThere are many
+    silos within the U.S. health market, and these silos most often operate as for-profit
+    enterprises. This means each of these silos is looking to innovate when it makes
+    economic sense for that silo, but not necessarily economic sense for the system,
+    and not necessarily better care for the patient.\n\nThe U.S. is learning from
+    the public health systems in the world. Examples are the creation of Accountable
+    Care Organizations (which make providers jointly accountable for the health of
+    their patients), and the concept of episode-based bundled payments (where providers
+    are paid a fixed fee for a particular diagnosis or procedure, but no more if complications
+    arise). The U.S. needs to review the interactions a patient makes with the various
+    parts of the U.S. health system during a episodic journey, and then evaluate if
+    the system is creating the right incentives for providers to perform in the best
+    interest of the system and the patient, while still being a private enterprise.\n\n###
+    Do you find the interest in digital health from C-suites to be the same in all
+    the countries you operate in? Or different?\n\nGenerally speaking, yes there is
+    equal interest in digital health from C-suites in Canada, U.S., U.K., Scotland,
+    France, and Australia.\n\n### What’s Strata's greatest success story?\n\nThe health
+    and social care teams across Cumbria are set to further roll out their Strata
+    Health air traffic control system to manage patient transitions across the whole
+    of the region. NHS Cumbria Partnership Foundation Trust, University Hospitals
+    of Morecambe Bay NHS Foundation Trust, and Cumbria County Council have to date
+    automated the process of health and social care referrals across the region, enabling
+    transparent and consistent patient transitions supporting the patient journey
+    while eradicating paper in the process. \n\n\n"
+  :featured_image:
+    :id: 1LRf2n2yHO8U6Co6kKCwOG
+  :share_image:
+    :id: 5nKMiu8KdyQ4yIKKO2wYUu
+  :featured_person:
+    :id: 4Y4mjy6P4I0ciwMW4e0A20
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 6AjFyGm6YMOI8em8mYywsS
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 56FWqktehq8SYmSis2ckQW
+- :id: 6AjFyGm6YMOI8em8mYywsS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:47:48+00:00'
+    :created_at: '2017-09-18T16:45:07+00:00'
+    :id: 6AjFyGm6YMOI8em8mYywsS
+  :title: 'Mapping Digital Health: An interview with C-SATS co-founder Derek Streat'
+  :slug: mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat
+  :pub_date: !ruby/object:DateTime 2017-09-19 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 37RKASu9Ty828g2acWwSAI
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Datica is excited every day about the emerging digital health landscape.
+    We know there are many other entrepreneurs who, like us, use technology to help
+    healthcare organizations better serve their patients. That is why we created an
+    ongoing series called “Mapping the Digital Health Landscape,” highlighting the
+    great work pursued by fellow digital health innovators.
+  :blog_lead: Datica is excited every day about the emerging digital health landscape.
+    We know there are many other entrepreneurs who, like us, use technology to help
+    healthcare organizations better serve their patients. That is why we have created
+    the ongoing series called “Mapping the Digital Health Landscape,” highlighting
+    the great work pursued by fellow digital health innovators.
+  :post: "_Our first interview is with Seattle-based [C-SATS](https://www.csats.com),
+    Inc., a venture-backed healthcare technology company on a mission to empower the
+    nation’s 16 million healthcare workers and institutions to assess and improve
+    their performance continuously, accurately and objectively._\n\n_Based on technology
+    developed at the University of Washington by a team of surgeons, engineers and
+    biostatisticians, C-SATS’ performance management system utilizes a unique combination
+    of distributed experts and other reviewers available 24/7 from the Internet to
+    assess healthcare professionals’ technical performance with accuracy equivalent
+    to current gold standards…but at 80+% savings in cost and time to results._\n\n\n_We
+    spoke with Derek Streat, C-SATS Co-founder and CEO._\n\n### When you think about
+    digital health innovation for the healthcare industry and its institutions, what
+    stage or part of the cycle are we in? \n\n<div class=\"person-card--vertical float-right-on-medium\">\n
+    \   <img class=\"avatar circle\" src=\"//images.contentful.com/189dvqdsjh46/2BF7cmdlRYYuOeguewIwUE/d88c8e111b8e4efedd7cee80666807a6/ZT4A0459-LinkedIn_72_dpi.jpg?f=face&fit=thumb&w=250&q=45\"
+    alt=\"Derek Streat, Co-founder and CEO, C-SATS\">\n    <div class=\"person-card--caption\">\n
+    \       <div class=\"person-name\">Derek Streat</div>\n        <div class=\"person-title\">Co-founder
+    and CEO, C-SATS</div>\n    </div>\n</div>\n\nWe’re still very early. Only within
+    the last five years has the healthcare industry gotten around to thinking purposefully
+    about patient experience. In most other industries, it’s standard operating procedure
+    to surprise and delight your customers. We’re early with respect to technology
+    enablement and platforms as well. The [electronic health records](https://datica.com/discover/ehr-integrations/)
+    and other systems that house the immense data generated about patients are still
+    largely proprietary and closed. [Interoperability](https://datica.com/dhsf/#integration-understand-technology-landscape)
+    is still a significant barrier to things like well-coordinated care, even within
+    a single institution, because the systems are fundamentally built to stay closed
+    and preserve legacy monopolies.  \n\n### Why doesn’t digital health innovation
+    take hold faster in the healthcare industry?\n\nOne reason is the entrenched,
+    closed-technology systems and infrastructure, making switching costs very high.
+    A heightened sensitivity to privacy, security, compliance, and regulation erects
+    barriers and costs as well. Health systems don’t just throw a new application
+    in front of patients, and for good reason: the stakes are incredibly high. And
+    if you're more risk averse, you’ll move slower. Finally, the economic models in
+    healthcare are sufficiently broken that startups, often the source of scrappy
+    innovation in other industries, have a harder time. That’s because those receiving
+    value (patients) are disconnected from those who pay for it (think insurance).
+    If it’s difficult to get paid for your product or service, and you’re a small
+    startup, it’s tough to find the runway necessary to nurture true innovation.\n\n###
+    Aside from the work of C-SATS, is there a digital health innovation you are most
+    excited about?\n\nI’m most excited about the promise to bring [trust](http://www.csats.com/data-security/)
+    to healthcare. I believe trust is the key because it leads to respect, understanding,
+    and action among all stakeholders, from providers to health systems to patients.
+    Trust will come through highly actionable insights derived from three areas: growing
+    data sets, such as precision medicine; open systems to keep all parties informed
+    of patient needs and care, for example, interoperable, cloud-based EMRs; and continuous
+    monitoring and feedback loops to ensure excellent work, which is our business
+    at C-SATS."
+  :featured_image:
+    :id: 4MraG8xj0AaAY6UqMscU2a
+  :share_image:
+    :id: 4d68bB2dHyUCce40MCa8sY
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 2eK7zMSuSccEuAGiUMWyCC
+  - :id: 3GERVZIxMQeEiw6cISm6Mo
+  - :id: GdeMOwfvEco4SYoggyWKw
+  - :id: 6Io0k0U4wwqEkSeggyqqSq
+- :id: GdeMOwfvEco4SYoggyWKw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-06T22:17:03+00:00'
+    :created_at: '2018-04-06T22:17:03+00:00'
+    :id: GdeMOwfvEco4SYoggyWKw
+  :title: 'Mapping Digital Health: An interview with Validic CEO and Co-Founder Drew
+    Schiller'
+  :slug: mapping-digital-health-validic-drew-schiller
+  :pub_date: !ruby/object:DateTime 2018-04-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 37RKASu9Ty828g2acWwSAI
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Datica continues to explore the emerging digital health landscape in our
+    Mapping the Digital Health Landscape blog series with an interview with Drew Schiller,
+    CEO & Co-Founder of Validic.
+  :blog_lead: "Datica continues to explore the topics relevant to the emerging digital
+    health landscape in our [Mapping the Digital Health Landscape blog series](https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat/)
+    where we interview other entrepreneurs who, like us, use technology to help healthcare
+    organizations better serve their patients. \n\nThis week’s interview is with Drew
+    Schiller, CEO & Co-Founder of [Validic](https://validic.com/), makers of a sophisticated
+    health data platform whose mission is to “improve the quality of human life by
+    building technology that makes personal data actionable.” Since 2010, Validic
+    has connected millions of people around the world with their healthcare and wellness
+    programs. "
+  :post: "\n> Our expectations over the last 10 to 15 years have completely changed
+    in terms of how we actually interface with the digital world around us.”\n\n\n##
+    Q & A with Drew Schiller\n\n### When you think of digital health, what comes to
+    mind? \n\nThe definition can be pretty wide-ranging and all-encompassing. Personally,
+    when I think of digital health, I see it through the lens of the consumerization
+    of health. It speaks to the consumerization of how healthcare is accessed by patients,
+    but it's also the consumerization of how healthcare providers and practitioners
+    interface with technology. It’s important to remember that practitioners are also
+    daily consumers of technology. And so, our expectations over the last 10 to 15
+    years have completely changed in terms of how we actually interface with the digital
+    world around us. \n\nThink back to 20 years ago when the paradigm of listening
+    to music was to go to the record store and buy a piece of plastic, then put that
+    piece of plastic into a player that was designed specifically to play that thing.
+    Even though it was digital music, it was very analog in terms of how that process
+    actually worked. \n\nWhereas today, when you want to listen to music, all you
+    have to do is Google it, listen on YouTube, or even ask your Amazon Echo to play
+    the song. It's all at your fingertips. Any piece of music that you want to listen
+    to in the world right now is readily accessible to you. I think that's the general
+    expectation people have for how they interface with technology in general, right?
+    When you want to speak with somebody — one of your friends, for example — you
+    can text,  call, FaceTime, message them on Facebook, or tweet at them. You can
+    use myriad different messaging tools in order to reach out to peers or friends.
+    \n\nI think we're seeing a similar expectation — that consumer expectation of
+    always being connected, always on, with multi-faceted domains for communication
+    — being applied to healthcare, which is still today a very static industry focused
+    on singular channels that are embedded in the system. And, that's why digital
+    health is a concept that's so disruptive. I mean, we’re going from electronic
+    health record systems that were designed to be digital filing cabinets, with improved
+    billing and some improved data aggregation services, to a world where patients
+    are expecting to not only be able to pay their hospital bills from their phone,
+    but to schedule appointments, reach out to their doctors, and be educated on a
+    condition. In addition, we also have new expectations around how our data is used
+    in all aspects of our lives. \n\n### So how will we measure that digital health
+    is improving people's lives and making people more healthy, or making people recover
+    faster?\n\nWe're already starting to see measurable improvements. What we're missing
+    is the integration of technical and operational components in such a way that
+    clinicians and care managers can interface with the data the way they expect as
+    digital consumers. For clinicians and care managers, this means the data are in
+    their workflow in a way that's seamless and expected. Oftentimes in healthcare,
+    we forget the care team members themselves are consumers of this data. It's not
+    just the patients that are consumers. So, we need to develop technology and user
+    experiences for both sides that enable patients and care managers to take the
+    data, make meaning of it, and take action on it. \n\n### How do changing demographics
+    impact digital health progress?\n\nAs digital natives enter high school and college,
+    millennials begin to age, and baby boomers approach retirement, healthcare is
+    shifting toward having a more technologically-savvy consumer base. That is universally
+    true. I don't think it's specific to any one particular age profile. I mean, I
+    just FaceTimed with my 87-year-old grandparents on my grandfather's iPhone the
+    other day. My grandmother refuses to touch an iPhone. She says that she's kind
+    of a little bit of a technophobe. She does do email pretty well, but she's a little
+    bit of a technophobe. \n\nBut my grandfather, he's a technophile, right? I mean,
+    they're both 87, and he's totally fine with  FaceTime; he loves it, he gets it,
+    he texts. So, I think it's a little bit individualistic as well. One truth that
+    is often lost in healthcare is that technology is not supposed to be a burden.
+    Think about the internal combustion engine of a car. If it was more of a pain
+    to drive a car than it was to ride a horse, we never would have shifted toward
+    pretty much exclusively driving cars, right? If it was easier to continue using
+    a typewriter than it was to use a computer, we would have never switched to using
+    computers. And early on, it was easier to use a typewriter than a computer, right?
+    \n \nWe need to make digital health technology so easy to use and so seamless
+    in terms of how we interface with it in our daily lives, that it's easier than
+    any alternative. We should be able to do this pretty easily by applying very simple,
+    straight-forward design thinking to how we implement and integrate the technology.
+    \n\n### What are the hurdles that we still have to navigate?\n\nCandidly, one
+    of the biggest hurdles is the payment models inside healthcare.\n\nFundamentally
+    speaking, the folks who are actually paying for healthcare are not directly the
+    patients or the providers. It's generally the employers who are paying on behalf
+    of the patients, or it's the payers who are operating as the third-party benefit
+    administrators.\n\nWith some of the new payment mechanisms, like alternative payment
+    models (APMs), we're starting to see providers take on more risk. Because they
+    have financial incentives and are actually seeing improved outcomes, we're going
+    to see providers put in place streamlined, efficient, easy to use, and well-communicative
+    technology.\n\n### What is digital health going to look like five or ten years
+    from now? \n\nSome of the core principles will remain the same; we will still
+    have a largely decentralized healthcare system that is slightly more consolidated
+    but still varied across the country. In other words, we'll still have thousands
+    of health systems, dozens of payers, dozens of pharmaceutical companies, and a
+    siloed electronic health record system. I think all those things will still probably
+    be true in ten years, but I think the big difference will be the data. There will
+    be incentives for each of those stakeholders to make the patient experience such
+    that data will flow much more efficiently within those systems.  \n\nIn other
+    words, a patient within a particular provider network will have a more holistic
+    and cohesive experience with their provider. Communication will be easier. Data,
+    whether it's their wearable or sensors on their phone or from devices that they're
+    using in the home, will be able to flow freely between disparate systems. And,
+    there won't be a marked difference between data that I'm collecting on my blood
+    pressure monitor at home or my wearable on my wrist, versus data that is collected
+    from the blood pressure cuff when I'm in the doctor for my annual physical.  \n\nThe
+    sharing of data is going to be vastly improved. Any data that I collect pertaining
+    to my health, whether it's psychological data, phenotypic data, potentially environmental
+    data, as well as medical data, lab data, etc., will all go into a centralized
+    repository where my clinicians and physicians can access it at the ready. This
+    is the future of healthcare. \n\n"
+  :featured_image:
+    :id: 2Tvtl6Wfiwmu2Qg0oYoWEO
+  :share_image:
+    :id: 5LdYdgX8YwIygGSsAQOKYQ
+  :featured_person:
+    :id: znPytfluXm8EaU0qaiKK0
+  :cta_ref:
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :related_entries:
+  - :id: 3GERVZIxMQeEiw6cISm6Mo
+  - :id: 6Io0k0U4wwqEkSeggyqqSq
+  - :id: 2eK7zMSuSccEuAGiUMWyCC
+  - :id: 6AjFyGm6YMOI8em8mYywsS

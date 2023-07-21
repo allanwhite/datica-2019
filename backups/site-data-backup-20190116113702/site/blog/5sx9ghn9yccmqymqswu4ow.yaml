@@ -1,0 +1,288 @@
+---
+:id: 5sx9GhN9YccMQYmqSWU4OW
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-21T19:57:58+00:00'
+  :created_at: '2017-02-03T00:27:29+00:00'
+  :id: 5sx9GhN9YccMQYmqSWU4OW
+:title: 'Health 2.0 Recap: Day 3'
+:slug: health-2.0-recap-day-3
+:pub_date: !ruby/object:DateTime 2016-09-28 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: Day three of Health 2.0 is a wrap, meaning we saw more demos and observed
+  the last few panel discussions of the conference.
+:blog_lead: Day Three is a wrap, meaning we saw more demos and observed the last few
+  panel discussions of the conference.
+:post: "## Diversity of care\n\nOne of the more powerful themes that sets up a tentpole
+  topic for 2017 is the diversity of types of care. It's now obvious there are several
+  different types of care. Health 2.0 explained it like such:\n\n* Healthy patients
+  are lighter touch\n* Chronically Ill patients require maintained focus\n* Acutely
+  Ill patients are at risk and a priority\n* Healthy patients on the verge of becoming
+  Chronically Ill are concerns and should be monitored\n* Chronically Ill patients
+  on the verge of becoming Acutely Ill are a danger\n* Meanwhile Acutely Ill can come
+  back to Chronically Ill through certain care\n* And Acutely Ill can go back to being
+  Healthy patients\n\nWhew, a lot of bullet points. What does it mean?\n\nSimply this:
+  We are starting to understand better than ever as technologists where Digital Health
+  products and services belong along the continuum of care.\n\nBut more importantly
+  the opposite is true, too. _One size does not fit all._ Diversity of patients combined
+  with diversity of care situations means healthcare requires a diversity of products
+  and innovations.\n\nThe bummer, as we heard all week, is this also means physicians
+  and health system decision makers (CIOs, et al) are inundated with too many solutions,
+  too many options, too many things to divert focus.\n\nWhat will be interesting is
+  where this diversity point and the over-burden point meet. That feels where real
+  progress will be made.\n\n## Is it time for Health 3.0?\n\nJonathan Bush, CEO of
+  [athenahealth][1], provided the biggest spark of the conference, in the only way
+  he can. He took Health 2.0 to task. \"Health 2.0 needs to die along with the old
+  concept of interoperability,\" was the shocking call out. \n\nWait, what? It was
+  actually quite powerful. Jonathan's point was \"health 2.0\" as a concept is tied
+  to \"digital health\" as a patient-centric, empathic focus on technological innovation,
+  which is totally cool, but we have largely convinced everyone of the importance,
+  so now we should build on top of that and focus on what's next. We need to move
+  onto \"health 3.0\" with bigger ideas. His positioning of \"what's next\" is a new
+  concept of interoperability. No longer should we consider \"interoperability\" as
+  the drudgery of connecting unique, replica systems everybody maintains on their
+  own. Instead it should be \"networked health\" of authoritative yet connected datasets.\n\nIt's
+  compelling, and my paragraph doesn't do the justice of Jonathan's hour-long delivery,
+  which was rousing.\n\nWe share a similar view (though still consider data central
+  to the future of healthcare, obviously). In a way, the path towards interoperability
+  is more about connections and networks, and less about data. You could say the more
+  healthcare is networked, the better the data will get, anyways.\n\n## Focus on the
+  patient\n\nLastly, we should call out the importance of the patient in all of this.
+  It was a popular topic throughout most panels, and the majority of all demos the
+  entire day focused on the patient. It's important to never forget.\n\nA quote from
+  Darren Dworkin, CIO of Ceders-Sinai, was exceedingly insightful. He said, \"Where
+  our digital health experiments have failed are when new innovations thin the patient-clinician
+  relationship too much. We can't get ahead of our skis too much. It's ultimately
+  about the patient-clinician relationship.\"\n\nThis is a fine point to end the conference.
+  While we are here to improve patient outcomes at lower costs (a favorite mantra
+  of HCO executives), all of healthcare is ultimately two-sided. You have the patient
+  but you'll always have the clinician too. Technology needs to not only improve the
+  life of the clinician, but the relationship between the two.\n\n[1]: http://athenahealth.com"
+:cta_ref:
+  :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-01-19T21:45:28+00:00'
+    :created_at: '2017-03-28T23:55:41+00:00'
+    :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :cta_title: Healthcare Innovators Podcast
+  :cta_desc: How are innovators transforming healthcare? Datica explores this in a
+    new series of interviews with the industry's top thinkers and doers. Follow along
+    with us as we uncover insights to catalyzing change in healthcare.
+  :cta_label: Listen to the podcast
+  :cta_url: https://datica.com/podcast
+  :cta_image:
+    :id: ib5cl395L2yikSwyIEigK
+  :cta_color: dark-alt
+:related_entries:
+- :id: 59dcNlxeq4yoUWeYMaMUEs
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T18:16:36+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 59dcNlxeq4yoUWeYMaMUEs
+  :title: 'Health 2.0 Recap: Day 1'
+  :slug: health-2.0-recap-day-1
+  :pub_date: !ruby/object:DateTime 2016-09-26 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'Day One of Health 2.0 featured the annual Traction startup pitch panel
+    which told a unified story and compelling insight worth sharing. '
+  :blog_lead: |-
+    Day One of Health 2.0 featured the annual Traction startup pitch session. Many interesting companies presented, from [biome.io][1] to [strollhealth.com][2]. The panel prior had compelling insight worth sharing. The group of investors told a unified story across several key conversation topics:
+
+    [1]: http://biome.io/
+    [2]: http://strollhealth.com/
+  :post: "* Digital Health is in the \"Trough\" of the Gartner hype cycle. There was
+    a lot of promise, now under delivery, but eventually will get to the Plateau of
+    Maturity. They are hopeful, but it needs to be said that Digital Health is not
+    accomplishing what it promised.\n* A focus on ROI with a partnership-based relationship
+    is the key to gaining tractions for Digital Health. \n* They see a lot of unintentional
+    exits in the next year due to underperforming by Digital Health startups. \n*
+    So many ideas are \"cute\" and addressing the over-served \"FitBit\" population,
+    and not enough ideas are tackling the hard problems in other populations, like
+    the elderly or social safety nets.\nThe rest of the day consisted of a few themes.
+    \ \n\n## Blockchain\n\nThe first was all about Blockchain—a radical concept responsible
+    for Bitcoin and innovations in FinTech—that is now starting to creep over into
+    healthcare. \n\nMany proponents of the Blockchain claim hefty promises.  \n\n*
+    It will be the catalyst to finally eliminate paper usage.\n* It will de-risk fraud.\n*
+    It will be the endgame for identity management.\n* It will be invisible and thus
+    the new CPU to all future cloud computation.\nAt the Blockchain panel, skeptics—from
+    Taariq Lewis of [Serica][3] present on the panel, to a gentleman asking questions
+    during the Q&A—asked thoughtful questions. Taariq isn't sure the Blockchain is
+    the right technology for identity because it wasn't designed to work that way.
+    He's also wary anytime mentions \"smart contracts\" because they aren't always
+    what they appear to be. And once a \"smart contract\" is created, it doesn't end,
+    much like a bot. A questioner at the end wondered if current approaches to the
+    Blockchain in healthcare are the \"Friendster of Healthcare Blockchain technology\",
+    in that it helps create awareness but ultimately gets a lot of early things wrong.\n\nTime
+    will tell how real Blockchain really is in healthcare, but a major takeaway on
+    Day One is the hype wave is cresting at its highest peak.\n\nAfter the panel,
+    I overheard an older gentleman telling someone else, \"I went to this because
+    I had heard about this blockchain thing but have no idea how it works or what
+    it even is.\"\n\nInterest piqued, I stopped and asked him a few brief questions.
+    Turns out this fellow worked for an HCO, and was investigating whether new blockchain
+    concepts could help their technology strategy.\n\n\"I'm not sure exactly how I
+    would use the concept of a blockchain today, but the idea sounds cool,\" he told
+    me. \"I worry that it's being billed as the savior for so many different problems,
+    like identity management to revenue cycle management to eliminating fraud.\"\n\nThis
+    is the insight worth considering with Blockchain. It most definitely will have
+    a major influence in healthcare. Somehow, someday. But the technology is still
+    immature, and the concept so new and foreign to almost all decision makers within
+    healthcare, that it is inappropriately being billed as the fix-all for every problem
+    healthcare faces. This risks the technology over-promising and under-delivering.
+    \ \n\n## The Unacceptables\n\nThe second half of the day was more nuanced. It
+    was a collection of presentations, panels, and discussions around what was dubbed
+    \"The Unacceptables\" by Health 2.0.\n\nA few years ago, they put forth \"The
+    Unmentionables.\" These were topics such as stress and exercise which affected
+    health, but were rarely considered or quantified by providers and payers alike.\n\nIn
+    a declaration of victory, Health 2.0 moved on from The Unmentionables and is now
+    putting scope around The Unacceptables. These are topics such as diversity, violence,
+    and other topics holding healthcare innovation back.\n\nTo Health 2.0's credit,
+    they facilitated several different types of conversations around the idea, beyond
+    just workshops and Lunch & Learns. Harvery Fineberg, president of Gordon and Betty
+    Moore Foundation, gave a rousing speech on designing systems to better healthcare.
+    We welcome the foundation's attention.   \n\n## Digital Snake Oil\n\nDr. James
+    Madara conducted a one-on-one to discuss partnerships with MATTER and his role
+    with Health 2.0's SMART initiative.\n\nThe topic mirrored similar threads throughout
+    the day. Digital Health has not succeeded at delivering on the promises given
+    a few years ago, but the benefits it can deliver are very real, and very important.\n\nIt's
+    up to healthcare broadly, and decision makers specifically, to treat relationships
+    more like a partnerships, and work together towards implementing the changes needed
+    to improve the system as a whole.\n\n[3]: https://sericatrading.com/"
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :related_entries:
+  - :id: 4WmHjwQDGoU8yU6qkwQcmy
+  - :id: 5sx9GhN9YccMQYmqSWU4OW
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 4WmHjwQDGoU8yU6qkwQcmy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:57:31+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 4WmHjwQDGoU8yU6qkwQcmy
+  :title: 'Health 2.0 Recap: Day 2'
+  :slug: health-2.0-recap-day-2
+  :pub_date: !ruby/object:DateTime 2016-09-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Day Two of Health 2.0 featured a diverse set of topics. There was more
+    to see than the Datica crew could cover, so here are just a few key observations.
+  :blog_lead: Day Two of Health 2.0 featured a diverse set of topics. The conference
+    deserves credit for the breadth of session options. There was more to see than
+    the Datica crew could cover, so we'll focus on just a few key observations.
+  :post: |-
+    ## Physician Health
+
+    Perhaps one of the more underrated phenomena in healthcare is physician burnout. There isn't nearly enough attention paid to the topic compared to its national prevalence and deep negative impact on overall patient care. In many ways, an unfair majority of innovations and new technologies are focused on the patient, and not enough are focused on the humans caring for the patient, so to speak.
+
+    Day One featured almost zero discussion on the topic, but Day Two started off with several mentions and then escalated to a consistent theme on both the main stage and in breakout sessions.
+
+    In short, clinicians, and physicians specifically, are frustrated. They are burnt out.
+
+    "Physicians spend 2 hours typing to every 1 hour seeing patients," said [Jesse Ehrenfeld][1] of the AMA on stage.
+
+    We then heard over and over how unhappy the provider cohort is with the state of technology and the burden new technology is putting on them.
+
+    This is a big deal.
+
+    ## What is the future of "interoperability"?
+
+    The day brought several presentations from different organizations discussing the very thing Day One participants begged to have: better collaboration and partnership. (In fact, that message was echoed again: Walgreens and the U.S. Government both said on stage they view collaboration among organizations as the single biggest key to their growth objectives.)
+
+    We saw APIs talk about silver bullets, and that being the path towards interoperability.
+
+    We saw PHRs talk about the importance and magic of putting data into patients' hands via mobile apps, and that being an example of interoperability.
+
+    We saw Blockchain—again.
+
+    We saw new sources of data, or different data types, and that being a new angle on interoperability.
+
+    We then saw apps who get data into the hands of doctors via tablets as a breakthrough in interoperability, but didn't really discuss how they get the data, just that they display the data.
+
+    Here's the thing: What we didn't have was voices from Epic, Cerner, eCW, or McKesson talking about how they would make data access via their EHRs easier. We didn't hear how providers and payers have little to no incentive—still, even with value-based payments looming—to share their data. And we didn't have a conversation around the politics it takes to complete simple integrations, which are the building blocks of interoperability.
+
+    We're not sure Health 2.0 can really tell you what the future of interoperability is. In many ways, it's an idyllic vision, and should be what we are all striving towards. But in many other ways, the conference seems to skirt talking about the real issues that make interoperability tough. Issues that are dirty, muddy, boring, not fun, serious, multi-faceted, and take forever.
+
+    ## Interfaces (UX/UI) are really maturing
+
+    There were many impressive demos throughout the entire day. People are working on truly novel ideas that look gorgeous, even if interoperability is still a challenge!
+
+    A big take away is the maturity in application interfaces. Things are really getting good.
+
+    By far the best demo of the entire conference was from [Human Longevity][2]. Not only was their gene sequence search tool mind-blowing, but it was so obvious their interface—a simple search box!—is the eventual endgame for data discovery. Think about it: Digital Natives (could also be said as "Millennial Doctors") are already accustomed to a simple search box. They already know how to slice and dice via an input mechanism. This has been discussed at length in other industries where "bots" and "chat interfaces" are exploding in popularity. It's a thing. A hierarchical taxonomy for the navigation of an EHR is so...pre-Google. Eventually getting to the point of powerful search, layered with bots and true machine learning, is the future. Like the _real_ future, one that is adopted by clinicians.
+
+    Other interfaces were impressive, too. Demos featuring voice technology, especially Amazon's Alexa, were fantastic. We thought [WELL Health][3] had an elegant and impressive app UI that could be adopted instantly by the target user base.
+
+    If there is one thing healthcare _can_ learn from it's industry siblings, is that true, differentiating innovation can happen at the human interface layer. Google, Slack, Apple, and others have taught us this. The other compelling insight is interface innovations are often the easiest new technologies to absorb. There is no reason why search, "feeds and speeds", or voice inputs can't be a true wedge.
+
+    [1]: http://drjesse.com/
+    [2]: http://www.humanlongevity.com/
+    [3]: https://wellapp.com/
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 5sx9GhN9YccMQYmqSWU4OW
+  - :id: 59dcNlxeq4yoUWeYMaMUEs
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+:discovery_topic:
+  :id: 2GT6S0aIrCA46qmAySAYM0

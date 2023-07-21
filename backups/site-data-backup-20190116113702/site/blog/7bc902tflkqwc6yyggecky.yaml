@@ -1,0 +1,651 @@
+---
+:id: 7BC902tFlKQwC6YygGECKY
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-08-29T04:47:44+00:00'
+  :created_at: '2017-04-11T17:12:26+00:00'
+  :id: 7BC902tFlKQwC6YygGECKY
+:title: The Accelerating Migration to the Healthcare Cloud
+:slug: accelerating-migration-to-the-healthcare-cloud
+:pub_date: !ruby/object:DateTime 2017-04-11 00:00:00.000000000 Z
+:tags:
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: In this article, we explore the migration to cloud computing in healthcare,
+  the benefits of cloud computing in healthcare, and HIPAA cloud compliant hosting.
+:blog_lead: "I saw an article recently titled, [“Hospital datacenters: Extinct in
+  5 years?”](http://www.healthcareitnews.com/news/hospital-datacenters-extinct-5-years)
+  that made my jaw drop just a bit. The race to the cloud is unquestionably taking
+  place in just about every other industry. More than half of the CIOs polled at last
+  year’s Gartner Symposium IT Expo are moving away from a captive data center environment
+  and working toward a cloud-first strategy. \n\nThe healthcare industry is notoriously
+  the laggard in that migration and, up until now, healthcare’s race to the cloud
+  has looked more like a slow walk. So, five years may be a bit ambitious.\n\nEven
+  so, the healthcare cloud migration is gaining steam among hospitals and health systems
+  today. In fact, healthcare cloud spending is expected to rise nearly threefold,
+  from $3.73 billion in 2015 to [$9.48 billion by 2020](http://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/).\n\nIn
+  this article, we explore the state of cloud computing in healthcare today, the benefits
+  of cloud computing in the healthcare industry, and HIPAA cloud compliant hosting.
+  \n"
+:post: "![Cloud spending in healthcare on the rise](//images.contentful.com/189dvqdsjh46/59j42nAkjKawoAK60kCyEY/da74cb1359d706ad4d1b2b039e3f6f43/blog-cloud-spending-in-healthcare-_2x.png)\n\n##
+  The State of Cloud Computing in Healthcare Today\n\n> “These are the two transformational
+  changes in healthcare — value pressure and the digitization of healthcare. So when
+  you ask me what I’m obsessing about today in my role running a fairly large unit
+  at UCSF, it’s the value pressure. We have to figure out ways to provide better,
+  safer, and more satisfying care at a lower cost… The value pressure is real and
+  causing important changes in the way we think about our work and organize ourselves.”
+  — Robert Wachter, MD, Professor, Department of Medicine at USCF, from the [Datica
+  Healthcare Innovators Podcast](https://datica.com/innovation/robert-wachter-md/)\n\nCIOs
+  and CMIOs across the healthcare ecosystem are feeling pressured to modernize quickly
+  while keeping costs low. To follow are some of the key pressures driving accelerated
+  migration to cloud computing.\n\n## Value to The Business\nAcross all industries,
+  migration to the cloud is often a business decision to remain competitive by funding
+  innovation. CIOs today are partnering with business department owners to help them
+  find ways to shift funds into the things that really matter both to them and to
+  the business strategy as a whole. \n\nCloud usage at hospitals and health systems
+  is often centered around managing business applications to achieve those financial
+  efficiencies. It is not as simple looking at the costs of running those applications
+  on-premise, in the cloud, or on hybrid infrastructure. The conversation between
+  healthcare CIOs and their business leaders has to focus on how much value it brings
+  to the business as a whole. \n\n### The Benefits of Cloud Computing to Healthcare
+  as a Business\nThe cloud makes it possible to hold more information and also do
+  it a lower cost. This allows even the [smallest hospitals access to the kind of
+  storage](http://www.cloudcomputing-news.net/news/2016/jul/28/six-key-benefits-cloud-computing-healthcare-industry/)
+  that allows them to provide the most value, without a hefty price tag. Shifting
+  to the cloud and decommissioning old servers means healthcare IT departments can
+  shift that money to fund innovation projects in the organization. \n\n## Value to
+  Patients\nHealthcare today is rapidly shifting from a volume-based, fee-for-service
+  model, to the newer value-based model outlined by the Affordable Care Act (ACA).
+  In the value-based care world, providers are graded based on the value to the patient
+  as opposed to the volume of services. \n\nTo explain the difference further, the
+  fee-for-service model, which has been the standard for a long time, rewarded physicians
+  and hospitals for filling beds and conducting numerous tests and treatments. On
+  the other hand, the newer, value-based care model rewards providers on cost-effectiveness
+  and clinical case outcomes. This change requires rapid innovation that only cloud
+  computing can cost-effectively provide.\n\nIn addition to those changes in payment
+  models, patients’ perceptions of value are quickly changing. To understand this,
+  it’s crucial to think of patients as consumers, [and those consumers are adapting
+  to offloading nearly every aspect of their lives into the cloud](http://www.cloud-council.org/deliverables/CSCC-Impact-of-Cloud-Computing-on-Healthcare.pdf).
+  Our dependency on instant access to everything, from news, answers, and financial
+  records to our social interactions, has changed our expectations in all areas of
+  our lives. \n\nAlong with this digitalization, consumers are taking control of their
+  own data in innovative ways as apps track, store, and analyze personal data on everything
+  from our heart rate to our credit score trends. From a consumer point of view, expectations
+  in data availability are seamless from one part of their lives to the next. They
+  not only expect to be able to access all of their own healthcare data, just as they
+  do with their bank data, but they expect to be able to provide the data they’re
+  generating with wearables and apps back to healthcare providers. \n\n### The Benefits
+  of Healthcare Cloud Computing to Patient Value\nCloud computing enables hospitals
+  and health systems to face the challenge of delivering more patient value. It provides
+  them with a connected environment to exchange data with their patients. It also
+  provides the means to handle the massive amounts of data that are growing exponentially
+  in a cost-efficient manner. On-premise infrastructure costs are high and data scalability
+  is more feasible in the cloud.\n\n## Interoperability\nInteroperability, both internally
+  and externally, is a growing pressure on healthcare CMIOs and CIOs. Not only is
+  there a need to easily exchange data between internal departments, for example,
+  between an EHR and billing system, but there is also an increasing demand from consumers
+  and the industry as a whole to be able to make patient data exchangeable with other
+  organizations. \n\n### The Benefits of Cloud Computing to Interoperability\nCloud
+  computing as an IT platform facilitates information sharing across the healthcare
+  ecosystem, enabling cross-industry services and making internal data exchange faster
+  and more cost-effective.\n\n## Demands for Faster Innovation\n> “It’s very similar
+  economics to road building. It’s the creation of infrastructure that enables exchange
+  to happen. Everybody’s interested in a cheaper way to get from A to B. But not everybody’s
+  interested in what is required to create a cheaper way to get from A to B.” — Grahame
+  Grieve, Director, Healthcare Intersections, from the [Datica Healthcare Innovators
+  Podcast](https://datica.com/innovation/grahame-grieve-pt3/) \n\nHealthcare consumerism
+  is an underlying trend that ultimately makes cloud adoption essential to provider
+  success. Healthcare organizations need to make very quick decisions about integrations
+  and new technology. Their innovation centers require a quick, affordable, and secure
+  platform to rapidly test while maintaining the confidentiality of patient information.
+  That platform needs to be scalable as the size and quantity of data sets grow exponentially.
+  It also needs to be interoperable for internal and external collaboration.\n\nThese
+  [innovation demands](https://www.cloudcomputing-news.net/news/2016/jun/27/why-healthcare-industrys-move-cloud-computing-accelerating/)
+  are driving an acceleration of cloud computing in healthcare today. \n\n### Benefits
+  of Cloud Computing for Innovation \nAs hospitals transform to modern, digital enterprises
+  and value-based payment models, they need to find innovative ways to quickly test
+  and evaluate integrations and technology options. Cloud platforms allow for the
+  agility and speed to innovate while lowering the barriers to innovation. \n\n##
+  HIPAA Compliant Cloud Hosting\n> “Healthcare is undergoing massive technological
+  transformation. Datica's approach to HIPAA compliance means Microsoft Azure customers
+  can utilize trusted solutions to privacy and data security which meet the highest
+  levels of healthcare standards. We're excited to offer a HITRUST CSF Certified platform
+  such as Datica in the Azure ecosystem.” — Nicole Herskowitz, Senior Director Product
+  Marketing, Microsoft Azure, Microsoft Corp.\n\nHealthcare data management includes
+  strict requirements for security, confidentiality, privacy, traceability of access,
+  reversibility of data, and long-term preservation. As hospitals and health systems
+  race to quickly test and decide on ideas and applications that include everything
+  from patient health applications to AI, they need a HIPAA compliant cloud hosting
+  platform to build or test those applications upon. Datica leads the industry with
+  the first, most complete HIPAA compliant cloud infrastructure. [Datica Compliant
+  Cloud](https://datica.com/compliant-cloud/) is HITRUST CSF Certified on AWS, Microsoft
+  Azure, IBM SoftLayer, and Rackspace, achieving the highest industry privacy and
+  security standards across infrastructure providers.\n\n## Cloud Computing Benefits
+  Healthcare\nThe challenges healthcare enterprises face persist and the benefits
+  of cloud computing to help them face these challenges are too compelling to ignore.
+  Cloud computing allows healthcare enterprises to access improved technology at lower
+  initial capital expenditures than physical environments. As healthcare organizations
+  enter the race to migrate to the cloud, the barriers for innovation and modernization
+  become lower, information sharing becomes possible, and the value-based transformation
+  can actually take place.\n"
+:featured_image:
+  :title: 04-10-17 Accelerating Migration to cloud - bg
+  :description: featured, background, blog
+  :url: "//images.ctfassets.net/189dvqdsjh46/6O4SBR24hi6UoWCGqy64cc/41ade28f6161735f4e23c53fa5ad48e0/04-10-17_Accelerating_Migration_to_cloud_-_bg.jpg"
+  :_meta:
+    :updated_at: '2017-08-29T04:43:53+00:00'
+    :created_at: '2017-08-29T04:43:53+00:00'
+    :id: 6O4SBR24hi6UoWCGqy64cc
+:share_image:
+  :title: 04-10-17 Accelerating Migration to cloud - featured (blue-purple)
+  :description: social, share, blog
+  :url: "//images.ctfassets.net/189dvqdsjh46/1em5YLgkP4YYwEaowaWAqQ/9cbb65a4663c9bd52a2bbd5b1830c3ab/04-10-17_Accelerating_Migration_to_cloud_-_featured__blue-purple_.jpg"
+  :_meta:
+    :updated_at: '2017-08-29T04:42:58+00:00'
+    :created_at: '2017-04-11T16:57:39+00:00'
+    :id: 1em5YLgkP4YYwEaowaWAqQ
+:cta_ref:
+  :id: wJ0lHvmWOsOcq80IWIKAW
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2016-08-18T23:08:11+00:00'
+    :id: wJ0lHvmWOsOcq80IWIKAW
+  :cta_title: The digital health platform that catalyzes innovation
+  :cta_desc: Compliance in the cloud is a solved problem—we solved it. Innovative
+    teams across healthcare, from hospitals to digital health startups, from life
+    science groups to insurance companies, all trust Datica to reduce the risks of
+    healthcare in the cloud.
+  :cta_label: Schedule a conversation to learn more
+  :cta_url: https://datica.com/contact
+  :cta_svg_icon:
+    :id: 1hdrxQ2nyq46wkgAswoeCu
+  :cta_icon: "/public/icons/brand/icon-large-hands-circle.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 1tTTpzANBugAQQuQCIaUmy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:01:50+00:00'
+    :created_at: '2017-02-03T00:26:18+00:00'
+    :id: 1tTTpzANBugAQQuQCIaUmy
+  :title: 'HHS Guidance on HIPAA Compliance in the Cloud: What You Need to Know'
+  :slug: hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know
+  :pub_date: !ruby/object:DateTime 2016-11-30 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HHS released its official Guidance on HIPAA & Cloud Computing last month.
+    The guidance answers some lingering questions that people seem to ask.
+  :blog_lead: |-
+    HHS released it's official [Guidance on HIPAA & Cloud Computing][1] last month. The guidance answers some lingering questions that people seem to ask. In some ways, it's HHS playing catchup to the industry. The cloud, while still early in terms of adoption in healthcare, is already heavily used for creating, receiving, maintaining, and transmitting ePHI. Look no further than [athenahealth][2], one of the largest EHR providers, for an example of a lot of ePHI in the cloud. Storing or moving data around different cloud-based services is becoming more and more commonplace.
+
+    [1]: http://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing/index.html
+    [2]: http://www.athenahealth.com/
+  :post: |
+    > A lack of transparency results in distrust and a deep sense of insecurity. - Dalai Lama
+
+    Personally, I think HHS could and should play a more active and significant role in trends like cloud computing. I acknowledge it's hard to keep up with pace of technology in healthcare but there's still more HHS could do to engage with those leading these technical charges. That said, it's good to have official guidance from HHS.
+
+    Yesterday I jointly conducted a webinar with [Coalfire][3]. Today I will recap some of the highlights, and pull out the salient points from the guidance and summarized them below. (_Note: CSP stands for cloud service provider._)
+
+    * **Lacking encryption keys doesn't prevent you from being liable under HIPAA.** From the guidance, _This is true even if the CSP processes or stores only encrypted ePHI and lacks an encryption key for the data. Lacking an encryption key does not exempt a CSP from business associate status and obligations under the HIPAA Rules._ This has been a claim by some CSPs and this is one of the most clear and relevant aspects of the HHS guidance. The claim by some CSPs is that, by not having the keys to decrypt ePHI, they are not a subcontractor or business associate. HHS says they are because they still store receive and maintain, even if that ePHI is encrypted and the CSP does not have the key to decrypt it. CSPs that fall into this bucket at considered _no-view services_ by HSS.
+    * **But lacking keys does change obligations.** From the guidance, _In particular, where only the customer controls who is able to view the ePHI maintained by the CSP, certain access controls, such as authentication or unique user identification, may be the responsibility of the customer, while others, such as encryption, may be the responsibility of the CSP business associate._ This is the first I've seen HHS acknowledge—implicitly, at least—the concept of compliance inheritance for HIPAA. At Datica, we [pioneered][4] the concept of inheritance and still feel strongly that compliance inheritance is the best path to securing data, reducing risk of breach, and complying with HIPAA, in a cloud-based world.
+    * **Lacking keys it could change breach reporting.** From the guidance, _If the ePHI that has been breached is encrypted consistent with the HIPAA standards set forth in 45 CFR § 164.402(2) and HHS' Guidance [13](#) the incident falls within the breach "safe harbor" and the CSP business associate is not required to report the incident to its customer._ This is significant as it changes breach reporting requirements for no-view CSPs, and breach reporting is a big part of HIPAA and a big part of what covered entities want to understand about their business associates and partners.
+    * **All types of cloud configurations are ok for HIPAA.** From the guidance, _…while a covered entity or business associate may use cloud-based services of any configuration (public, hybrid, private, etc.), [3](#) provided it enters into a BAA with the CSP, the type of cloud configuration to be used may affect the risk analysis and risk management plans of all parties and the resultant provisions of the BAA._ NIST [defines][5] different cloud deployment models. The most common are public and private, or some mix of those two that NIST defines as hybrid. Organizations can comply with HIPAA using any deployment model but there are different risks associated with each and it is the job of the covered entity and business associate to properly assess the risk when selecting the proper deployment model. I would have preferred HHS go further and call out [single-tenant and multi-tenant in regards to HIPAA and cloud][6].
+    * **SLAs need to align with BAAs.** From the guidance, _If a covered entity or business associate enters into a SLA with a CSP, it should ensure that the terms of the SLA are consistent with the BAA and the HIPAA Rules._ This is something that many business associates don't do but should. The core of this guidance is that the SLA from a CSP should ensure that access to ePHI is not restricted due to excessive downtime.
+    * **Security and breach reporting should be very specifically defined.** From the guidance, _The Security Rule, however, is flexible and does not prescribe the level of detail, frequency, or format of reports of security incidents, which may be worked out between the parties to the business associate agreement (BAA)._ With ePHI moving between CSPs (think APIs and [Blank-as-a-Service][7]), it's imperative that each party knows what it is responsible for reporting. Reporting is essential to investigating and shutting off breaches.
+    * **Cloud service providers do not need to store ePHI for some period of time.** From the guidance, _No, the HIPAA Rules generally do not require a business associate to maintain electronic protected health information (ePHI) beyond the time it provides services to a covered entity or business associate._ This [not news][8] to us but it something that is frequently misunderstood about HIPAA so it's good that HHS called this out for CSPs.
+    * **It's ok to use servers outside the USA.** From the guidance, _Yes, provided the covered entity (or business associate) enters into a business associate agreement (BAA) with the CSP and otherwise complies with the applicable requirements of the HIPAA Rules._ This surprised me a little. Not because I don't agree with HHS but because I have a hard time imagining the use case for this. We have global customers, particularly in the life sciences arena, who need global deployments. In those cases, we deploy separate apps and databases across different regions depending on where end users reside. All customers we have that work with US citizens are deployed in US data centers.
+    * **Documentation of security practices is not required from cloud service providers.** From the guidance, _The HIPAA Rules do not expressly require that a CSP provide documentation of its security practices to or otherwise allow a customer to audit its security practices._ This type of documentation, while not required, may still be needed by covered entities and business associates based on the their determination of risk.
+
+    ## What was not in the guidance?
+
+    I think a few things were missing and that HHS didn't go far enough.
+
+    1. **Define compliance inheritance.** I think HHS could go further here. HITRUST is a [good example][9] by incorporating the concept of inheritance into the CSF. Inheriting aspects of HIPAA is a core part of cloud deployments and should be addressed by HHS.
+    2. **Address questions about multi-tenancy.** This is probably the most frequent question when it comes to ePHI + cloud. It would have been good to have official guidance as a part of the cloud guidance from HHS.
+    3. **Start moving towards a universal, readable BAA.** The BAA [template][10] that HSS has on it's site, while useful in its generalizability, is too broad. There are things we know about the cloud and one of them, related to inheritance above, is that different parties can own different obligations. Creating a universal BAA, even if HHS is just the convener of industry leaders, would go a long way to helping healthcare move to the cloud in a safe way.
+
+    Healthcare, and it's data and applications, are slowly but surely embracing the cloud. The recent guidance from HHS has gotten a lot of attention. Hopefully this summary was helpful. If you have any other questions, reach out to us at [hello@datica.com][11].
+
+
+    [3]: https://www.coalfire.com/
+    [4]: https://policy.datica.com/#compliance-inheritance
+    [5]: http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+    [6]: https://datica.com/academy/hipaa-and-multi-tenancy/
+    [7]: https://datica.com/blog/inheritance-and-ownership-of-compliance-risk/
+    [8]: https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/
+    [9]: https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/
+    [10]: http://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
+    [11]: mailto:hello@datica.com
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 6wHERSJEycWCyaOGMQeu44
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3FD2e0iJbi2MqAgMESoAgy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:45:22+00:00'
+    :created_at: '2017-03-28T16:24:31+00:00'
+    :id: 3FD2e0iJbi2MqAgMESoAgy
+  :title: FHIR Fuels Transformation at Hospitals
+  :slug: fhir-fuels-transformation-at-hospitals
+  :pub_date: !ruby/object:DateTime 2017-03-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'For the first time in twenty years, hospitals, vendors, and even payers
+    and life sciences providers agree on something: FHIR is the way forward.'
+  :blog_lead: The hype about [FHIR (Fast Healthcare Interoperability Resources)](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)
+    has spread like, well, wildfire. The healthcare industry is often targeted by
+    new, sexy technologies that sound great on the surface but often have few practical
+    implementations. FHIR is NOT one of those technologies. In fact, FHIR has many
+    practical use cases and benefits. More importantly, for the first time in twenty
+    years, healthcare organizations, vendors, and even payers and life sciences providers
+    agree this is the path forward for modern integration. This prevalent support
+    is speeding FHIR’s adoption and feedback loop on improvement. Datica’s newest
+    guide, [What Health Systems can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/),
+    takes a candid look at the factors fueling open-data transformation at hospitals
+    and health systems. Here are a few highlights from the guide.
+  :post: "\n## EHR’s aren’t cutting it. \n\nHospitals, in particular, are looking
+    for technology solutions that are complementary to their EHRs. EHR vendors have
+    accomplished what they set out to do – digitize paper health records in order
+    to improve accessibility of information. Patients’ healthcare data is now centrally
+    stored and can be viewed across disciplines within an organization. Those EHR
+    implementations laid the information technology groundwork that would become the
+    fabric of a healthcare transformation movement. As Datica’s co-founder Travis
+    Good wrote in a recent blog post on the [Rise and the Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/\n),
+    the EHR and data consolidation are just the foundation for organizational transformation.
+    \n\nToday, hospital CIOs and CMIOs are feeling pressured to improve interoperability
+    with other organizations, eliminate data blocking, and embrace value-based care.
+    And, as they realize the limitations of EHRs, they are increasingly looking for
+    solutions from workflow-specific vendors that solve needs their EHR vendors do
+    not, reach different markets than their EHR vendors, and more rapidly deploy new
+    solutions than the EHRs’ on-premise architecture allows.  \n\nThe key to unlocking
+    this organizational transformation is making the data in the EHR accessible. The
+    industry has been focused on interoperability for the reason that being able to
+    access the aggregated data is the only way to move from documentation tools to
+    innovative care delivery models. An open data standard, such as FHIR, and a single
+    implementation of the standard [in a centralized data hub](https://datica.com/managed-integration/)
+    is the most efficient way to move the needle on data accessibility. \n\n\n## Patients
+    expect transparency.\n\nPatients aren’t as captive of an audience as they once
+    were. They expect connectivity and transparency in their healthcare experience
+    because of their experience in other industries. \n\nIt’s easy to forget that
+    patients are consumers in every other area of their lives. The [consumerization](http://www.gartner.com/it-glossary/consumerization)
+    of the retail, travel, banking – and almost every industry except healthcare –
+    has changed patient expectations. Consider what [Rocket Mortgage](https://www.forbes.com/sites/tomgroenfeldt/2017/03/14/banks-the-department-stores-of-finance/#27a5be8c6958)
+    did to eliminate the complexity and the burden to the consumer when securing a
+    mortgage. Now, getting a mortgage is self-service, pre-approval comes in minutes,
+    and clear, transparent information is provided. \n\nThis type of innovation is
+    what people have come to expect and want from everything – even healthcare.\n\n\n##
+    Government mandates aren’t the reason for the revolution.\n\nCertainly, APIs are
+    going to be required under legislation to increase third-party access to data.
+    \ We’ve seen references to API in [Meaningful Use](https://datica.com/blog/false-claims-meaningful-use-and-hipaa-compliance-what-s-the-connection/),
+    [MIPS/MACRA](https://datica.com/academy/macra-and-mips-explanation/), and [21st
+    Century Cures legislation](https://datica.com/blog/21st-century-cures-act-passes-in-the-house-of-representatives/).
+    The United States government typically targets strategies that are working well
+    in leading organizations and then incentivizes or penalizes the rest of the healthcare
+    providers to play catch up. Good examples to illustrate this point are e-prescribing
+    and PQRS and/or Meaningful Use. Even so, government mandates are not the impetus
+    for technology revolutions in healthcare. \n\nSo why are the frontrunners focused
+    on API adoption? What are they hoping to gain in terms of health system operations
+    and culture?\n \nWe invite you to download Datica’s newest guide, [What Health
+    Systems can Gain from FHIR Adoption](https://datica.com/guide/fhir-for-health-systems/),
+    to get the answers to these big questions. The guide unveils what FHIR enables
+    in health systems, not from a technology perspective, but from an operational
+    improvement perspective.\n\n"
+  :featured_image:
+    :id: 4dz99s788UCkcgY4G2KGsK
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 68QZK7pKWAgqYKwsGSGuI2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-20T22:24:42+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 68QZK7pKWAgqYKwsGSGuI2
+  :title: The CMIO Role in the Era of Value-Based Care
+  :slug: the-cmio-role-in-the-era-of-value-based-care
+  :pub_date: !ruby/object:DateTime 2017-01-23 00:00:00.000000000 Z
+  :tags:
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Chief Medical Information Officer is an evolving role in the executive
+    suite. Learn about the CMIO job from Luis Saldana, M.D., CMIO of Texas Health
+    Resources.
+  :blog_lead: Most people are familiar with the role a CIO plays in a health system
+    but the mention of a CMIO would likely elicit questioning looks or shoulder shrugs
+    from many. As one of the newest members of the healthcare executive suite, the
+    Chief Medical Information/Informatics Officer (CMIO) has a complex job description
+    that's evolving in parallel to the shift from volume-based to value-based care.
+  :post: "\n> \"With digitalization of healthcare the job goes far beyond EHR. All
+    the systems that touch that platform, or even touch our clinicians, are things
+    that the CMIO can have influence over.\" *Luis Saldana, MD*\n\nAs we begin 2017,
+    healthcare organizations nationwide will be tapping their CMIOs to provide strategies
+    around MACRA, MIPS, physician satisfaction, and more. We recently chatted about
+    [the evolving role of the hospital CMIO][2] with Luis Saldana, MD, Chief Medical
+    Information Officer, and Medical Director of Clinical Decision Support at Texas
+    Health Resources, one of the largest faith-based, nonprofit healthcare delivery
+    systems in the United States.\n\n## The ever-changing role of the CMIO \n\nAt
+    Texas Health Resources (THR), the reason the CMIO job was added was the same reason
+    many hospitals added a CMIO in the age of [Meaningful Use][4] – to drive the system-wide
+    push toward electronic health record (EHR) implementation. That multi-year implementation
+    project was a huge success at THR as measured by its 95% physician satisfaction
+    rating and its [HIMSS Davies Award][5] win.\n\nThough the core EHR platform was
+    the initial reason the CMIO role was created, Dr. Saldana continues to evolve
+    the job definition of a CMIO. \"With digitalization of healthcare, the job goes
+    far beyond EHR. All the systems that touch that platform, or even touch our clinicians,
+    are things that the CMIO can have influence over,\" said Dr. Saldana.\n\n_**Related:**
+    Listen to the [complete podcast][2] to hear in Dr. Saldana's own words what the
+    CMIO job is like._\n\n## Life in the post-EHR era\n\nNow that Texas Health Resources
+    has implemented the EHR as its core clinical platform, the organization has moved
+    past stabilization, through a few cycles of workflow optimization, and right into
+    the thick of the volume-based to value-based care transformation broadly taking
+    place today. The CMIO's role is shifting right alongside that transformation.\n\nThe
+    roadmap going forward is driven by three major things: healthcare regulation,
+    defining success as a healthcare organization, and effectively engaging physicians
+    in workflow optimization cycles. \"True optimization is about improving the workflows,\"
+    Dr. Saldana explained. \"That means rolling up your sleeves and digging into specific
+    and individual workflows and really optimizing those.\"\n\nTo do that effectively,
+    THR has found the need to continually engage physicians in the optimization process.
+    \"That entails workflow mapping and going back and redesigning care or redesigning
+    the workflow, then doing some usability testing, getting buy-in, and then implementing
+    that again. In fact, optimization is always a reimplementation of certain workflows,
+    so you are just digging in a little bit deeper,\" said Dr. Saldana.\n\n## It takes
+    a village\n\nOne of the key characteristics of an effective CMIO is the ability
+    to collaborate with many different people, both inside and outside the organization.
+    Dr. Saldana relies on a network of colleagues, vendors, and peers to explore how
+    others solve similar problems. \"I take every opportunity when I go to HIMSS,
+    CHIME, or other forums to really connect with the people that I know are leaders
+    in different areas.\" He also relies on industry organizations, like the American
+    Medical Informatics Association® ([AMIA][6]), to get ideas and answers. I think
+    it is important for a CMIO to get out there and not just stay cloistered within
+    healthcare, but really be out there,\" Dr. Saldana added.\n\n## Bringing 2017
+    into focus\n\nThere's a paradigm shift taking place in healthcare today and CMIOs
+    are emerging as direct decision-makers or champions for some of the newer technologies
+    around the EHR, for example, platforms for bundled payments and new digital health
+    solutions. \"If we are successful at creating the platform that engages our patients
+    and our providers and delivers the best care for them, that's the ultimate goal,\"
+    said Dr. Saldana.\n\nHere are some of the key things Dr. Saldana is thinking about
+    as CMIO in 2017:\n\n* **MACRA.** Just as they did with Meaningful Use, THR is
+    planning to create a steering committee with multi-area representatives from both
+    the technology and clinical sides of the fence. Dr. Saldana has this to say about
+    MACRA, \"If you've done Meaningful Use well, you will be well prepared for [MACRA][7].
+    It's going to be how you organize as to whether you are successful or not.\"\n*
+    **Cybersecurity.** As is true in most healthcare organizations today, minimizing
+    risk continues to be a top concern at THR.\n* **New EMR workflows for patient
+    engagement.** In 2017, THR is thinking about what is necessary to provide patients
+    with access to their data.\n* **Improving value.** A big part of improving value
+    is reducing costs and looking at how the EMR can do that. Dr. Saldana said, \"The
+    point of ordering is always seen as the first place you can have an impact. Ordering
+    for imaging, lab ordering, medications — all of those will be critical for us
+    as we decide what the MACRA program will look like at THR.\"\n* **Investigating
+    cognitive technologies and AI.** Technology advancements THR is looking into are
+    in the areas of cognitive technologies, artificial intelligence, and machine learning.\n\n##
+    Staying focused through it all – putting physicians first\n\nAfter spending thirty
+    years as an emergency physician, Dr. Saldana serves as a representative voice
+    of physicians in his organization. \"You see emergency physicians get into informatics
+    since there are a lot of parallels with emergency medicine and informatics in
+    terms of the process.\"\n\nPhysician burnout can be avoided by having someone
+    like the CMIO be the sounding board for those physicians. Dr. Saldana says a big
+    part of his job is vetting new technology ideas through the eyes of a physician,
+    looking specifically at whether or not that new technology will make them more
+    efficient and effective, and if they have the change readiness to take on the
+    burden of change.\n\nDr. Saldana concludes, \"The CMIO role is the bridge between
+    the clinical and the technical. I think one of the things that we see now is that
+    we are in a constant state of change in healthcare, which is obviously disconcerting.
+    Having both the organizational and clinical barometers is important for a CMIO.
+    Then you can be the voice on both sides to say whether something is good for an
+    organization or not in terms of technologies.\"\n\n_Datica explores innovation
+    in healthcare through a series of interviews with the industry's top thinkers
+    and doers. Follow along with us as we uncover insights to catalyzing change in
+    healthcare by [subscribing to the innovation podcasts.][8]_\n\n[2]: https://datica.com/innovation/luis-saldana/\n[4]:
+    https://datica.com/blog/2014-predictions-meaningful-use-continues-to-challenge-it-departments/\n[5]:
+    http://www.himss.org/texas-health-resources-davies-enterpriseorganizational-award\n[6]:
+    https://www.amia.org/\n[7]: https://datica.com/academy/macra-and-mips-explanation/\n[8]:
+    https://datica.com/innovation/"
+  :featured_person:
+    :id: 1ABOdrZEHaWS0qiAquqKmE
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :related_entries:
+  - :id: 3lTZSm4ETCQOAuCg22g8Wk
+  - :id: K697OmGcEgiMmYQKQA2am
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

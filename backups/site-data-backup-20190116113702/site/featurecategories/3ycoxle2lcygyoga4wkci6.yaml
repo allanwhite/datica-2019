@@ -1,0 +1,54 @@
+---
+:id: 3ycOXLe2LCygYoga4wkCI6
+:_meta:
+  :content_type_id: featureCategories
+  :updated_at: '2018-07-31T20:22:18+00:00'
+  :created_at: '2018-07-29T22:03:54+00:00'
+  :id: 3ycOXLe2LCygYoga4wkCI6
+:title: Security & Compliance Services
+:desc: Datica is the industry leader for compliance on the cloud. We provide our CKS
+  customers a suite of professional services that ensure their success on the cloud.
+:related_features:
+- :id: 2SOE6c0y1OKA8oq6yGokc6
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-08-01T22:56:50+00:00'
+    :created_at: '2018-07-29T22:13:55+00:00'
+    :id: 2SOE6c0y1OKA8oq6yGokc6
+  :title: Cloud Native Security Consulting
+  :slug: kubernetes-training
+  :category: Kubernetes
+  :feature_status: Current
+  :summary: Datica provides services to maximize your success with using Kubernetes
+    in your cloud account, including specific training on the security and compliance
+    implications of Kubernetes, containers, and microservices.
+- :id: 4ux0Ogi7gcGWIcAkOAU4k6
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-07-29T22:13:55+00:00'
+    :created_at: '2018-07-29T22:13:55+00:00'
+    :id: 4ux0Ogi7gcGWIcAkOAU4k6
+  :title: Cloud Compliance Onramp
+  :slug: cloud-compliance-onramp
+  :category: Services
+  :feature_status: Current
+  :summary: We work closely with CKS customers to help them adapt their security and
+    compliance policies to the cloud and CKS, as well help them make informed decisions
+    about the non-CKS cloud services they want to leverage for their cloud workloads.
+- :id: 21RgTZJY5uk60ymY46iM2Y
+  :_meta:
+    :content_type_id: features
+    :updated_at: '2018-07-29T22:13:55+00:00'
+    :created_at: '2018-07-29T22:13:55+00:00'
+    :id: 21RgTZJY5uk60ymY46iM2Y
+  :title: Cloud Compliance Training
+  :slug: cloud-compliance-training
+  :category: Services
+  :feature_status: Current
+  :summary: Configuring, deploying, and managing cloud workloads requires new thinking,
+    and new training and education. Datica offers cloud training services tailored
+    to your organization and users, be they operators, compliance officers, or software
+    developers.
+:sort_order: 2
+:icon_slug: icon-hosting
+:slug: security-and-compliance-services

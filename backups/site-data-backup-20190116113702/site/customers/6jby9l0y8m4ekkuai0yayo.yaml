@@ -1,0 +1,92 @@
+---
+:id: 6JBy9l0Y8M4eKkuai0YAYo
+:_meta:
+  :content_type_id: customers
+  :updated_at: '2017-11-28T21:59:20+00:00'
+  :created_at: '2016-08-19T18:33:43+00:00'
+  :id: 6JBy9l0Y8M4eKkuai0YAYo
+:company_name: DocBookMD
+:slug: docbookmd
+:customer_logos:
+- :title: docbookmd-logo
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/3F6JfnA6k0UqEsUCMASaA4/24666e43c50b1712f823640c11622bae/docbookmd-logo.png"
+  :_meta:
+    :updated_at: '2017-01-13T19:23:37+00:00'
+    :created_at: '2017-01-13T19:23:37+00:00'
+    :id: 3F6JfnA6k0UqEsUCMASaA4
+- :title: docbookmd-logo-w
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/X9ggZ9EZeSwSAc2c2MgUW/2064e4252980aaa854ad94f27806fcec/docbookmd-logo-w.png"
+  :_meta:
+    :updated_at: '2017-01-13T19:23:25+00:00'
+    :created_at: '2017-01-13T19:23:25+00:00'
+    :id: X9ggZ9EZeSwSAc2c2MgUW
+:fullname: Tim Gueramy, MD
+:role: Cofounder and CEO
+:profile_pic:
+  :title: Portrait, Tim Gueramy, MD - Docbook
+  :description: customers, portraits, avatar
+  :url: "//images.ctfassets.net/189dvqdsjh46/1RjxQrWFOoKU4gIw2wW028/ad8d9ed95059d337d609857532c4bca0/Tim_Gueramy.jpg"
+  :_meta:
+    :updated_at: '2017-10-18T21:09:44+00:00'
+    :created_at: '2016-08-19T18:32:53+00:00'
+    :id: 1RjxQrWFOoKU4gIw2wW028
+:customer_quote:
+  :id: 5SYOmqPXjOSs244G06EssQ
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-02-03T03:28:46+00:00'
+    :created_at: '2016-08-19T18:34:19+00:00'
+    :id: 5SYOmqPXjOSs244G06EssQ
+  :quote_title: Tim Gueramy on scale
+  :quote_type: customer
+  :quote_body: At some point, we realized, it’s not worth it to do ourselves; we should
+    just scale with Datica.
+  :customer:
+    :id: 6JBy9l0Y8M4eKkuai0YAYo
+:profile_twitter: docbookmd
+:profile_linkedin: docbookmd
+:related_products:
+- :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+:customer_story_short: Designed by and for physicians, DocbookMD is a HIPAA-secure
+  messaging application for mobile devices and the web. Datica helped solve integration
+  challenges.
+:case_study:
+  :id: 6B3IJ0krXG2Ogesy4kyqaK
+  :_meta:
+    :content_type_id: caseStudy
+    :updated_at: '2018-08-28T17:51:14+00:00'
+    :created_at: '2016-08-19T18:58:09+00:00'
+    :id: 6B3IJ0krXG2Ogesy4kyqaK
+  :case_study_title: DocbookMD Saves $360K and Puts Integration at the Center of its
+    Critical Collaboration Platform
+  :slug: docbook-case-study
+  :tags:
+  - :id: 2N5tHYYAG40GgW2wKoAGka
+  :customer:
+    :id: 6JBy9l0Y8M4eKkuai0YAYo
+  :related_form:
+    :id: 4MzkHylggwIOYkqyqQAs6A
+  :form_id: 1c0479a1-20be-49e9-a121-68f573c58def
+  :customer_quote:
+    :id: 5SYOmqPXjOSs244G06EssQ
+  :related_product:
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :body: |-
+    Datica shares an opinion and vision about physician-oriented integrations that resonates with growth stage companies, like Austin-based DocbookMD. This case study explains how we took the upfront burden of engineering costs off a fast growing healthcare IT company and made systems integrations a core component of the company’s critical collaboration platform for physician communication.
+
+    #### In this case study you’ll discover:
+
+    * Four reasons why DocbookMD saw Datica as the cohesive answer to integrations
+    * The savings in upfront engineering costs DocbookMD obtained
+    * How DocbookMD made systems integration the center of its value proposition

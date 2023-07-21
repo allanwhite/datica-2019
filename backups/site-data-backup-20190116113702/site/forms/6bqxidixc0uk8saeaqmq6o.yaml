@@ -1,0 +1,20 @@
+---
+:id: 6BQxIDIXC0uK8SaeAqMq6O
+:_meta:
+  :content_type_id: forms
+  :updated_at: '2018-09-28T20:01:36+00:00'
+  :created_at: '2018-09-28T20:01:36+00:00'
+  :id: 6BQxIDIXC0uK8SaeAqMq6O
+:title: CCMS Managed Services Survey C
+:slug: ccms-managed-services-survey-c
+:desc: CCMS Survey that has checkboxes for AWS, Azure, & GCP and dependent fields
+  for all eligible managed services
+:custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+  src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+  type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+  \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"64876d62-52c5-413d-a2fb-dcd101606d5d\",\n
+  \ css: \"\",\n  target: '#hsFormContainer',\n  onFormSubmit: function($form) {\n
+  \   window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n                      'event'
+  : 'GAEvent',     \n                      'eventCategory' : 'Survey',\n                      'eventAction'
+  : 'Form Submission',\n                      'eventLabel' : 'CCMS Services Survey',\n
+  \                     'eventValue' : '5'\n                      });\n                    }\n});\n</script>\n"

@@ -1,0 +1,15 @@
+---
+:id: 27EX1yYFiYUM8aWq8IKcGO
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:29+00:00'
+  :created_at: '2018-02-08T22:21:29+00:00'
+  :id: 27EX1yYFiYUM8aWq8IKcGO
+:title: Code Releases + Rollbacks
+:slug: code-releases-rollbacks
+:category: Services
+:summary: Manage current releases and rollback to previous releases
+:desc: The Platform provides users with release management functionality. Each push
+  to the platform is logged as a release. This allows users to rollback and tag releases
+  accordingly. Code Release and Rollback functionality is available to all Platform
+  customers, both Hosted and Licensed.

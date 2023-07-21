@@ -1,0 +1,74 @@
+---
+:id: qPwQe06R6CkG84uC0Gqcs
+:_meta:
+  :content_type_id: navSections
+  :updated_at: '2019-01-16T19:10:39+00:00'
+  :created_at: '2019-01-11T18:46:28+00:00'
+  :id: qPwQe06R6CkG84uC0Gqcs
+:title: EHR Integration
+:title_short: Integration
+:show_in_top_nav: true
+:section: Integration
+:summary: Datica's approach to integration takes the stress and frustration of complex
+  healthcare data integration problems—and lets you focus on your products.
+:section_promo:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:child_data:
+- :url: "/compliant-managed-integration/"
+  :desc: The complete toolset to handle compliant, scalable, secure data exchange
+    with any EHR or clinical system.
+  :icon: cmi-logo-w
+  :title: Compliant Managed Integration
+  :nav_main: true
+  :title_short: Datica CMI
+- :url: "/compliant-managed-integration#services"
+  :desc: Expert guidance and project services.
+  :icon: icon-consulting-compass
+  :title: Integration Services + CMI
+  :nav_main: true
+  :title_short: Integration Services
+:section_link_label: Get help with integration
+:section_link_uri: "/ehr-integration/"

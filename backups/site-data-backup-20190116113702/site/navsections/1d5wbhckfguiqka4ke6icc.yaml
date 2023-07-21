@@ -1,0 +1,80 @@
+---
+:id: 1d5wbHCKFGuiQka4kE6Icc
+:_meta:
+  :content_type_id: navSections
+  :updated_at: '2019-01-16T19:11:05+00:00'
+  :created_at: '2019-01-11T18:46:28+00:00'
+  :id: 1d5wbHCKFGuiQka4kE6Icc
+:title: Cloud Compliance
+:title_short: Compliance
+:section: Compliance
+:summary: We're the experts at understanding the exact policies and procedures required
+  to turn HIPAA-eligible services on the public cloud into architectures that can
+  pass a HITRUST CSF assessment.
+:section_promo:
+  :id: 2niXNAQR924CwM0YcOeo0C
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-31T23:55:43+00:00'
+    :created_at: '2017-10-06T19:59:13+00:00'
+    :id: 2niXNAQR924CwM0YcOeo0C
+  :title: Total Cost of Ownership of Compliance in the Cloud
+  :slug: total-cost-of-ownership-of-cloud-compliance
+  :summary: In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica on how to measure and manage the total cost of ownership
+    to achieve compliance in the cloud.
+  :subhead: The new 2018 guide to the total cost of healthcare compliance
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :desc: Measure and manage the total cost of ownership of cloud compliance.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 2B98PdoITGQAYwcWk2muY4
+  :guide_text: "There’s much to know about both compliance and cloud management and
+    that knowledge requires a significant investment in time, education, personnel,
+    and money. This guide will help makers of digital health products make informed
+    decisions about whether to “build” cloud compliance themselves, or “buy” it in
+    the form of the Datica Compliant Kubernetes Service.\n\nThis TCO guide explains
+    the considerations of compliance and cloud management in healthcare and offers
+    a framework to understand the activities, resources, and cost estimates for each
+    of those considerations. These estimates are based on our extensive experience
+    working with multiple third-party auditors and multiple cloud infrastructure providers
+    (like AWS and Azure).\n\nWhat's inside:\n\n- Understanding compliance in the cloud
+    \n- Flying solo on AWS or Azure is primitive\n- The importance of proving compliance
+    with HITRUST \n- The total cost of ownership framework and estimates\n- TCO summary"
+  :related_form:
+    :id: 5CQGDgTQVU8uAeY4cAg28S
+  :form_id: 31f9bd13-23b1-4bbb-8ec0-fdfaf0552494
+  :bg_image:
+    :id: 19G8ntoDREkcgMwA6mKQme
+  :image_thumb:
+    :id: 2yyrhvg12wySaoSgyQ6C6G
+  :share_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:child_data:
+- :url: "/compliant-kubernetes-service/"
+  :desc: Datica is a complete, enterprise cloud-native solution for regulated industries.
+  :icon: cks-logo-w
+  :title: Compliant Kubernetes Service
+  :nav_main: true
+  :title_short: Datica CKS
+- :url: "/compliant-platform-as-a-service/"
+  :desc: The Compliant Cloud Platform Perfectly Designed for Early-Stage Applications.
+  :icon: cpaas-logo-w
+  :title: Compliant Platform-as-a-Service
+  :nav_main: true
+  :title_short: Datica CPaaS
+- :url: "/cloud-compliance-management-system/"
+  :desc: The first-ever tool to guarantee compliance assurance of managed cloud-native
+    services.
+  :icon: ccms-logo-w
+  :title: Cloud Compliance Management System
+  :nav_main: true
+  :title_short: Datica CCMS
+:section_link_label: Find the right compliance solution for you
+:section_link_uri: "/cloud-compliance/"

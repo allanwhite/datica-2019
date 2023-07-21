@@ -1,0 +1,114 @@
+---
+:id: 4Z0S58Q4JqsMuqmKUoUMEQ
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T21:37:50+00:00'
+  :created_at: '2016-11-23T21:37:50+00:00'
+  :id: 4Z0S58Q4JqsMuqmKUoUMEQ
+:title: BAA isn't a Checkbox for HIPAA Compliance
+:slug: baa-isn-t-a-checkbox-for-hipaa-compliance
+:pub_date: !ruby/object:DateTime 2015-01-13 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: While HIPAA compliant is a loaded term, simply signing a BAA in no way makes
+  you compliant.
+:blog_lead: 'We get asked a lot about business associate agreements (BAAs). As you
+  can see from the content on our blog [here](https://catalyze.io/blog/if-a-vendor-won-t-sign-a-baa-they-aren-t-hipaa-compliant),
+  [here](https://catalyze.io/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement),
+  and [here](https://catalyze.io/blog/the-importance-of-business-associate-agreements),
+  as well as our Learn entry [here](https://catalyze.io/learn/business-associate-agreements),
+  we lay out the specific HIPAA rules for BAAs. We do this because BAAs are one of
+  the most misunderstood and misinterpreted aspects of HIPAA. To be clear, BAAs are
+  required to be signed by business associates (most of our customers) and subcontracts
+  ([business associates of a business associate](https://catalyze.io/learn/hipaa-subcontractors-and-baas)).
+  BAAs can''t be avoided, whether you cleanly fit into a bucket of customers or technologies
+  defined by HHS (you store, transmit, and/or process PHI) or your hospital and payer
+  customers determine you have to follow HIPAA (even if you don''t think so).
+
+'
+:post: |+
+  A major issue with BAAs is the perception that, as a tech vendor, signing a BAA with your "compliant" hosting provider makes you HIPAA compliant. ("Compliant" is in quotes because we've seen a rash of hosting providers claim HIPAA compliance when they are far from it. Presently there is no penalty for marketing yourself as HIPAA compliant—the real punishment comes financially to its customers when it's too late.)
+
+  While **HIPAA compliant** is a loaded term, simply signing a BAA in no way makes you compliant. [Complying with HIPAA](https://hipaa.catalyze.io/) requires many things, and signing BAAs is only one of them.
+
+  We recently had a call with members of the HHS and OCR privacy group about the absence of a clear BAA template, which results in a deluge of varying formats. The variation coupled with the practice of large "compliant" hosting providers [gating their BAAs behind NDAs](https://catalyze.io/blog/the-importance-of-business-associate-agreements), makes it exceptionally hard to grasp the purpose and state of BAAs.
+
+  Large "compliant" hosting providers know all of this, and clearly outline the obligations for themselves and their customers in BAAs. We always encourage prospective customers to read BAAs from all vendors they are considering, [including Catalyze](https://policy.catalyze.io/#catalyze-hipaa-business-associate-agreement-baa), and pay very close attention to their outlined obligations. Oftentimes the obligations put on tech vendors by hosting providers are hard to meet because they require resources to configure and secure hosting environments. Therein lies the irony of the *BAA as a checkbox for compliance perception*; tech vendors sometimes don't meet all their obligations in those BAAs and when that happens those BAAs aren't even in effect, despite tech vendors paying the increased cost associated with "compliant" hosting.
+
+  We debated about our BAA approach early on at Catalyze, but eventually settled on three key points.
+
+  1. Be fully transparent.
+  2. Provide as much research- and experience-backed content as possible to create an educational dialog around BAAs.
+  3. Take the interpretation and guess work out of BAAs by taking on all of the technology obligations under HIPAA other than application level security (which we don't have insight into for our customers).
+
+  We're proud of where we landed with our BAA, and, while simply signing a BAA with us doesn't make you completely HIPAA compliant, it does relieve much of your technological and legal burden so you can focus on changing healthcare for the better.
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

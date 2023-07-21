@@ -1,0 +1,110 @@
+---
+:id: 3voUVWrg0U28iI66OmyQuI
+:_meta:
+  :content_type_id: customers
+  :updated_at: '2017-11-28T22:01:43+00:00'
+  :created_at: '2017-01-12T20:25:20+00:00'
+  :id: 3voUVWrg0U28iI66OmyQuI
+:company_name: Zipnosis
+:slug: zipnosis
+:customer_logos:
+- :title: zipnosis-logo-w
+  :description: customers, logos
+  :url: "//images.ctfassets.net/189dvqdsjh46/3ONzbRNwrusKMEisQw8Caw/442afb8553da7b68c3e94bfc4386e094/zipnosis-logo-w.png"
+  :_meta:
+    :updated_at: '2017-01-12T20:22:41+00:00'
+    :created_at: '2017-01-12T20:22:41+00:00'
+    :id: 3ONzbRNwrusKMEisQw8Caw
+- :title: zipnosis-logo
+  :description: customers, logos
+  :url: "//images.ctfassets.net/189dvqdsjh46/3lGiUujngcwywk2gUusooM/6cb0918a71ca0dd453db65091351863c/zipnosis-logo.png"
+  :_meta:
+    :updated_at: '2017-01-12T20:23:37+00:00'
+    :created_at: '2017-01-12T20:23:37+00:00'
+    :id: 3lGiUujngcwywk2gUusooM
+:fullname: Derek Rockwell
+:role: Director of Engineering
+:profile_pic:
+  :title: headshot-zipnosis-derek
+  :description: customers, photos, avatars, zipnosis, derek rockwell
+  :url: "//images.ctfassets.net/189dvqdsjh46/Uuti4AJjGMMGke8ISeiU4/7813910ce2de835f33fc7c6f56283a33/Derek_Rockwell__Zipnosis.jpg"
+  :_meta:
+    :updated_at: '2017-10-18T21:09:59+00:00'
+    :created_at: '2017-01-12T20:25:00+00:00'
+    :id: Uuti4AJjGMMGke8ISeiU4
+:customer_quote:
+  :id: 3yxpYEcFHGE0Gi8IOA8wUK
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-02-03T03:29:32+00:00'
+    :created_at: '2017-01-12T20:17:42+00:00'
+    :id: 3yxpYEcFHGE0Gi8IOA8wUK
+  :quote_title: Derek Rockwell on AWS
+  :quote_type: customer
+  :quote_body: Healthcare IT developers leverage the collaboration of AWS and its
+    AWS Partner Network (APN) partners like Datica, so the unique compliance needs
+    of the industry are addressed and supported. We have been using AWS for five years,
+    been working with Datica for three years, and the relationship has allowed us
+    to further consolidate, secure, and optimize our infrastructure — giving us a
+    significant edge.
+  :customer:
+    :id: 3voUVWrg0U28iI66OmyQuI
+  :source: Derek Rockwell, Zipnosis’ Director of Engineering
+:profile_twitter: zipnosis
+:related_products:
+- :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+:customer_story_short: Zipnosis offers health systems a white-labeled virtual care
+  platform, treating patients through video, telephone & adaptive online interviews.
+:case_study:
+  :id: 1fTv743SrscUQsiIIouscM
+  :_meta:
+    :content_type_id: caseStudy
+    :updated_at: '2018-04-10T19:35:39+00:00'
+    :created_at: '2017-01-13T05:00:56+00:00'
+    :id: 1fTv743SrscUQsiIIouscM
+  :case_study_title: 'Zipnosis: Scalable, compliant integration with any EHR'
+  :slug: zipnosis
+  :featured: true
+  :tags:
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :customer:
+    :id: 3voUVWrg0U28iI66OmyQuI
+  :related_form:
+    :id: 6Faxt3rvcQoOyQ088c8U0Y
+  :form_id: b63fe1cd-b6da-405d-8df8-e76b9611b125
+  :media_object: <script src="//fast.wistia.com/embed/medias/yohv4fptk4.jsonp" async></script><script
+    src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding"
+    style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"
+    style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed
+    wistia_async_yohv4fptk4 popover=true popoverAnimateThumbnail=true videoFoam=true"
+    style="display:inline-block;height:100%;width:100%"> </span></div></div>
+  :customer_quote:
+    :id: 3iCzSfvduMUwQmMUccGW0y
+  :related_product:
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :value_prop: Datica helps customers scale
+  :body: |-
+    #### In this case study, you will learn:
+
+    * How Zipnosis saves 150 man hours per HL7 integration.
+    * Why Datica's dedication to service is a defining differentiation.
+    * __"Scalable, robust, and HIPAA compliant"__ — How the Datica platform best met three core criteria when evaluating several infrastructure providers.

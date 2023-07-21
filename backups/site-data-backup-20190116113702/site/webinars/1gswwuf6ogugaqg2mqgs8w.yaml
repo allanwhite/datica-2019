@@ -1,0 +1,190 @@
+---
+:id: 1gSWwUF6oguGAqG2MqGs8w
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2018-10-29T22:19:22+00:00'
+  :created_at: '2018-06-20T18:28:53+00:00'
+  :id: 1gSWwUF6oguGAqG2MqGs8w
+:title: Kubernetes and Healthcare Compliance
+:slug: kubernetes-and-healthcare-compliance
+:event_date: !ruby/object:DateTime 2018-05-15 13:00:00.000000000 -06:00
+:summary: Learn how Datica enables healthcare compliance and security with our next-generation
+  Kubernetes platform to manage healthcare compliance on top of AWS and Microsoft
+  Azure.
+:subhead: 'Kubernetes + Datica: A Perfect Match to Fuel Growth of Digital Health'
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+:lead: Kubernetes®, the open source container orchestration tool, came out of Google
+  several years ago and has gained traction amazingly fast. Digital health developers
+  have perked up their ears and have been eager to jump on the trend, but without
+  compromising compliance and security. Now, Datica makes that possible with our next-generation
+  Kubernetes platform to manage healthcare compliance on top of AWS and Microsoft
+  Azure.
+:desc: |-
+  ### In this webinar, you will learn:
+
+  1. Find out how you can use Kubernetes with Datica to easily deploy containerized healthcare workloads and guarantee a continuously compliant state.
+  2. Learn how the Datica Kubernetes Platform works with your AWS or Azure cloud account.
+  3. Understand how the new Datica Cloud Compliance Management System (CCMS) gives you visibility and complete control over the compliant state of your technology per HIPAA, HITRUST, GxP, GDPR, and SOC 2 requirements.
+  4. See how enterprises can now manage the compliant state of multiple Kubernetes clusters across a multi-cloud environment with the Datica CCMS.
+:authors:
+- :id: rVZcG8ORWKg8o4EIuqQ8a
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-10-31T03:11:34+00:00'
+    :created_at: '2018-02-19T20:40:25+00:00'
+    :id: rVZcG8ORWKg8o4EIuqQ8a
+  :fullname: Christopher Gerg
+  :slug: christopher-gerg
+  :person_type: Datica Alumni
+  :role: Chief Security Officer
+  :profile_pic:
+    :id: gKMODezw2WQ8sy8246u4K
+  :email: christopher@datica.com
+  :bio_short: Christopher Gerg leads the security and compliance teams at Datica in
+    his role as Chief Security Officer.
+  :bio: "With more than 15 years of information security experience, Gerg most recently
+    served as CEO and Principal Consultant at Gauntlet Consulting, LLC. Prior to that,
+    HealthGrades tapped Gerg as its Chief Information Security Officer and VP of Infrastructure
+    & Engineering. He has experience in the hosting, managed security services, e-commerce,
+    healthcare, financial, and payment card industries and has worked as a Systems
+    Administrator, Network Engineer, Penetration Tester, Information Security Architect,
+    VP of Information Technology, Director and Chief Information Security Officer.
+    Gerg was a past member of the Network Security Team for the 2000 Republican National
+    Convention and is also an author of the O’Reilley Media book “Managing Network
+    Security with Snort and IDS Tools.”\n\nWhile an expert in the theoretical aspects
+    of information security best practice, he is also experienced in the practical
+    aspects of building a secure technical environment – and working with the boardroom
+    to promote executive understanding and support. "
+  :profile_linkedin: christopher-gerg-8aa0a66a
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: 6xBZiyYkfusIQCcAuaCOkI
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2018-08-27T04:54:05+00:00'
+    :created_at: '2018-07-02T23:12:16+00:00'
+    :id: 6xBZiyYkfusIQCcAuaCOkI
+  :title: Webinar - Kubernetes and Healthcare Compliance
+  :slug: webinar-kubernetes-and-healthcare-compliance
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"9a3bb387-324f-4b3c-910d-1e9c90142814\",\n
+    \ target: \"#hsFormContainer\",\n  css: \"\",\n  onFormSubmit: function($form)
+    {\n    window.dataLayer = window.dataLayer || [];\n    window.dataLayer.push({\n
+    \                     'event' : 'GAEvent',     \n                      'eventCategory'
+    : 'Webinar',\n                      'eventAction' : 'Form Submission',\n                      'eventLabel'
+    : 'Kubernetes and Healthcare Compliance',\n                      'eventValue'
+    : '2'\n                      });\n                    }\n});\n</script>"
+:video_embed:
+  :id: 2SkBcGDkTCueg8ca4mKcso
+  :_meta:
+    :content_type_id: videos
+    :updated_at: '2018-07-10T22:17:52+00:00'
+    :created_at: '2018-07-10T22:17:52+00:00'
+    :id: 2SkBcGDkTCueg8ca4mKcso
+  :title: Kubernetes and Healthcare Compliance webinar
+  :slug: kubernetes-and-healthcare-compliance-webinar
+  :custom_form: <script src="https://fast.wistia.com/embed/medias/y7dm4io7gc.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_y7dm4io7gc videoFoam=true" style="height:100%;position:relative;width:100%"><div
+    class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/y7dm4io7gc/swatch"
+    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;"
+    /></div></div></div></div>
+  :wistia_id: y7dm4io7gc
+  :bg_image:
+    :id: 6TlD2byq2IGg24oM04I2aM
+:image_thumb:
+  :title: webinar bg - leaf, maroon
+  :description: background, bg, leaf, texture, dark
+  :url: "//images.ctfassets.net/189dvqdsjh46/55i8F0QfygcMwAwyUEWoug/8a1254b14cd2b239dbf1f1d178459115/webinar_bg_-_leaf__maroon.jpg"
+  :_meta:
+    :updated_at: '2017-12-05T21:58:54+00:00'
+    :created_at: '2017-12-05T21:58:54+00:00'
+    :id: 55i8F0QfygcMwAwyUEWoug
+:share_image:
+  :title: webinar-Kubernetes-cta
+  :description: Kubernetes and Compliance
+  :url: "//images.ctfassets.net/189dvqdsjh46/ekSZOA01i0U0Ks8YqQqqY/cf9e98978778ac7b36fd94a927911d58/webinar-Kubernetes-cta.jpg"
+  :_meta:
+    :updated_at: '2018-05-21T18:47:26+00:00'
+    :created_at: '2018-05-11T19:15:25+00:00'
+    :id: ekSZOA01i0U0Ks8YqQqqY
+:cta_ref:
+  :id: O1KP7bmXwOqCu0C4AMwkO
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-14T22:20:25+00:00'
+    :created_at: '2017-05-21T20:33:38+00:00'
+    :id: O1KP7bmXwOqCu0C4AMwkO
+  :cta_title: Get the HIPAA Guide
+  :cta_desc: This comprehensive guide will walk you through important HIPAA compliance
+    definitions and concepts. You will emerge armed with a basic understanding to
+    HIPAA’s purpose and rules, your obligations, and ways to address compliance.
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/hipaa/
+  :cta_svg_icon:
+    :id: 6KJhSKH6MMmkMuguysWMgu
+  :cta_icon: "/public/icons/brand/icon-large-resource-compliance-blue.svg"
+  :cta_color: blue-alt

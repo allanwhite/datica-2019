@@ -1,0 +1,901 @@
+---
+:id: 1wWbjWNWOQygO2EaESEOeq
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:40+00:00'
+  :created_at: '2017-01-16T17:41:30+00:00'
+  :id: 1wWbjWNWOQygO2EaESEOeq
+:title: 'The FHIR Resource Object: The Core Building Block'
+:slug: the-fhir-resource-object-the-core-building-block
+:pub_date: !ruby/object:DateTime 2018-05-17 00:00:00.000000000 Z
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+- :id: 4WpqU1En6MsqmCEWweeCmO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:23:44+00:00'
+    :created_at: '2016-09-29T19:23:44+00:00'
+    :id: 4WpqU1En6MsqmCEWweeCmO
+  :tag_full: FHIR
+  :slug: fhir
+  :description: FHIR is the latest standard to be developed under the HL7 organization.
+    Pronounced 'Fire' , FHIR stands for Fast Healthcare Interoperability Resources.
+    I think it's the most interesting standard to have come out of HL7 since the original
+    HL7 protocol.
+  :url: https://www.hl7.org/fhir/
+:summary: To understand FHIR, you must understand the FHIR Resource Object. This entry
+  will help explain its origins and intent with links to help.
+:lead: To understand FHIR, you must understand the Resource object. This entry will
+  help explain its origins and intent, then provide links to expand your understanding.
+:post: "First, a quote from the [FHIR website](http://www.hl7.org/fhir/):\n\n> FHIR
+  solutions are built from a set of modular components called \"Resources\". These
+  resources can easily be assembled into working systems that solve real world clinical
+  and administrative problems at a fraction of the price of existing alternatives.
+  FHIR is suitable for use in a wide variety of contexts – mobile phone apps, cloud
+  communications, EHR-based data sharing, server communication in large institutional
+  healthcare providers, and much more.\n\nAt the core of FHIR's design is the concept
+  of a Resource. Resources are essentially a structured model of a JSON or XML object.
+  There are various resource categories, namely:\n\n#### Clinical Resources\nModels
+  that describe clinical objects such as Medications, Diagnostics, Observations or
+  other General objects.\n\n#### Administrative Resources\nModels that outline how
+  clinical resources are attributed (Attribution), or are described (Entities), or
+  are used to support workflows (Workflow).\n\n#### Infrastructure Resources\nModels
+  that pertain to carrying specific data payloads such as documents, message headers
+  specifying source and destinations, and more. Critically, there are four key model
+  types described in this category:\n\n* **Composition** — Allows combination of multiple
+  resources into a single, complex and more descriptive object.\n* **Query** — Defines
+  a structure for requesting data elements via querying and an associated structure
+  for returning responses.\n* **Profiles** — Intended to be a self-descriptive way
+  to define what models and extensions are supported by the specific implementation
+  and the associated models. Also where model extensions can be specified to extend
+  other models to support specific needs.\n* **Value Sets** — Addresses one of the
+  biggest challenges in healthcare. Different health systems use different value sets
+  and the challenge with interoperability has exacerbated because of the differences.
+  This model allows each implementation to specify the value sets in use to assure
+  semantic interoperability.\n\nPutting these various models together allows for the
+  creation of most any clinical condition.\n\n## Structure of any Resource\n\nAll
+  resources follow a standard model with content and associated extensions being the
+  only thing that changes from resource to resource, meaning while a Patient Resource
+  and a Medication Resource both have the same general overall structure, the content
+  within each describing the resource will be different and specific to that resource.\n\nThe
+  general structure of any resource is as follows:\n\n1. **Resource Type** — Identifies
+  the specific resource model i.e. Patient, Medications, Allergies, etc.\n2. **Human
+  Readable summary section** — An XHTML section that provides a human readable version
+  of the content within the message. Can be considered as a backup as well as a verification
+  section.\n3. **Identifier section** — A unique identifier URL for each resource
+  identifying to be of a specific type e.g. Patient.\n4. **Extension section** — Allows
+  for the definition of any extensions that might be required to support specific
+  clinical workflows e.g. clinical trial applicability. Can be inserted in any of
+  sections to cover specific use cases and workflow needs.\n5. **Contained Resources**
+  — Other resources used in identification and transaction processing e.g. message
+  header and the data object corresponding to the type identified earlier or images
+  associated with the patient such as an avatar.\n6. **Resource content** — The core
+  content of the resource. In the case of a patient, it contains all relevant details
+  about that patient such as name, address, phone, guardian or other contact info
+  and so on. Each resource has a defined data model.\n7. **Tags** — Typical tagging
+  paradigm you're used to. For example, Security labels which can include ACLs, workflow
+  specific functions, etc. This one is still murky, however, and should be considered
+  under development.\n\nLet's take a sample Resource Object and work our way through
+  it. We'll lay out the individual sections and describe them, then finally put it
+  all together in real syntax to see what the complete resource will look like.\n\nWe'll
+  begin with an example Patient Resource.\n\n### Resource Type\n\nEvery resource will
+  start with its name. Given the Patient example, it will start with:\n\n~~~javascript\n\"resourceType\":
+  \"Patient\"\n~~~\n{: .prettyprint .lang-js}\n\nThis sets the context of the data
+  exchange and allows for appropriate parsing and other rules to be invoked.\n\n###
+  Human Readable Summary\n\nEvery resource has an associated tabular description of
+  the contents of the message, thus making it human readable. The contents of this
+  section are in XHTML format and will include all the `\\n` (next line) characters.
+  A sample human readable summary included in a patient message could look like this:\n\n~~~javascript\n
+  \ \"text\": {\n      \"status\": \"generated\",\n      \"div\": \"<div>\n    <table>
+  \\n\n      <tbody> \\n\n        <tr> \\n\n          <td>Name</td>  \\n\n          <td>John
+  Samuel <b>Appleseed</b> (\"John\")</td>  \\n\n        </tr>  \\n\n        <tr>  \\n\n
+  \         <td>Address</td> \\n\n          <td>1231 Evergreen Ave, #30, San Francisco,
+  CA 90002</td>  \\n\n        </tr>  \\n\n        <tr> \\n\n          <td>Contacts</td>
+  \\n\n          <td>Home: unknown. Work: (203) 5555 6473, Name: Bénédicte du Marché.
+  Relationship: Partner. Phone: +33 (237) 998327</td> \\n\n        </tr> \\n\n        <tr>
+  \\n\n          <td>Gender</td> \\n\n          <td>Male</td> \\n\n        </tr> \\n\n
+  \       <tr> \\n\n          <td>Birthdate</td> \\n\n          <td>1974-12-25</td>
+  \\n\n        </tr> \\n\n        <tr> \\n\n          <td>Marital Status</td> \\n\n
+  \         <td>Married</td> \\n\n        </tr> \\n\n        <tr> \\n\n          <td>Multiple
+  Birth Count</td> \\n\n          <td>3</td> \\n\n        </tr>  \\n\n        <tr>
+  \\n\n          <td>Id</td> \\n\n          <td>MRN: 12345 (Acme Healthcare)</td>
+  \\n\n        </tr> \\n\n      </tbody> \\n\n    </table> \\n\n</div>\"\n    }\n~~~\n{:
+  .prettyprint .lang-js}\n\nWhich could be easily parsed and made readable. In this
+  case, the parsed / rendered content would look like this:\n\n<table>\n    <tbody>\n
+  \     <tr>\n        <td>Name</td>\n        <td>John Samuel <b>Appleseed</b> (\"John\")</td>\n
+  \     </tr>\n      <tr>\n        <td>Address</td>\n        <td>1231 Evergreen Ave,
+  #30, San Francisco, CA 90002</td>\n      </tr>\n      <tr>\n        <td>Contacts</td>\n
+  \       <td>Home: unknown. Work: (203) 5555 6473, Name: Bénédicte du Marché. Relationship:
+  Partner. Phone: +33 (237) 998327</td>\n      </tr>\n      <tr>\n        <td>Gender</td>\n
+  \       <td>Male</td>\n      </tr>\n      <tr>\n        <td>Birthdate</td>\n        <td>1974-12-25</td>\n
+  \     </tr>\n      <tr>\n        <td>Marital Status</td>\n        <td>Married</td>\n
+  \     </tr>\n      <tr>\n        <td>Multiple Birth Count</td>\n        <td>3</td>\n
+  \     </tr>\n      <tr>\n        <td>Id</td>\n        <td>MRN: 12345 (Acme Healthcare)</td>\n
+  \     </tr>\n    </tbody>\n </table>\n\nThe intent of this section is borrowed from
+  the HL7 spec. The human readable version of the FHIR content serves two purposes:\n\n1.
+  Testing from a developer perspective is simplified as the developer now knows exactly
+  what the message / transaction is *supposed* to communicate.\n2. Overcoming errors
+  in processing so even if the message gets garbled in processing, the human readable
+  version is always available as a fallback for clinicians and others performing care.\n\nNote
+  that this narrative element in a resource is **not** mandatory. If you have do put
+  one in, it **shall** reflect all the content needed for a human to understand the
+  essential clinical and business information otherwise encoded within the resource.
+  Note also that this generally will be difficult to generate. Epic, for example,
+  has chosen to [drop this section](http://open.epic.com/Clinical/FHIR?whereTo=patient)
+  from their spec for the time being. We expect a similar trend across various EHRs
+  so practical deployments can (for the time being) safely skip this.\n\n## Identifier
+  section\n\nIn FHIR, every object is expected to have its own URI (universal resource
+  identifier). All this implies is that every patient, in our context, will have their
+  own URI, and potentially URL, with a unique identifier. Identifiers could include
+  SSN (social security numbers), MRNs (medical record numbers), and any number of
+  others. Multiple identifiers can be specified since it is defined as an array. In
+  our context, this would look like the following.\n\n~~~javascript\n\"identifier\":
+  [\n    {\n      \"use\": \"usual\",\n      \"label\": \"MRN\",\n      \"system\":
+  \"urn:oid:1.2.36.146.595.217.0.1\",\n      \"value\": \"12345\",\n      \"period\":
+  {\n        \"start\": \"2001-05-06\"\n      },\n      \"assigner\": {\n        \"display\":
+  \"Acme Healthcare\"\n      }\n    }\n  ]\n\n~~~\n{: .prettyprint .lang-js}\n\n##
+  Extensions\n\nThis is healthcare after all. There are a million use cases that you
+  can think of that requires \"slightly\" different definitions that what is already
+  provided. Not to mention that since FHIR is supposed to be a **universal** standard,
+  all of these must be taken into account as well. Hence the need for extensions.\n\nExtensions
+  can be tacked on to any Resource Object as long as they follow a specified format.
+  The general format specified is as follows:\n\n~~~javascript\n\"name\" : {\n  \"extension:
+  [\n    {\n      \"url\" : \"https://{{url.defining.extension-profile.com/id}}\",\n
+  \     \"valueCode\" : \"{{value}}\"\n     }]\n  \"text\": \"{{human readable value
+  - this is optional}}\"/>\n}\n~~~\n{: .prettyprint .lang-js}\n\nLet's take a couple
+  of use cases.\n\n### Marital Status\n\n~~~javascript\n\"_maritalStatus\": {\"extension\":
+  [{\n      \"valueCode\": \"Common-law\",\n      \"url\": \"http://fhir-endpoint.someorg.com/fhir/version1.0/marriage-extension#cl\"\n
+  \ }]}\n~~~\n{: .prettyprint .lang-js}\n\n### Clinical Trials\n\nHere's another extremely
+  relevant example of a patient resource where you can see an extension specific to
+  a clinical trial, including data elements such as trial status, profile with the
+  trial status code, date, and the physician recording the results of the study.\n\n~~~javascript\n
+  \ \"resource-type\" : \"Patient\",\n  \"extension\" : [\n    {\n      \"url\" :
+  \"http://fhir-endpoint.someorg.com/fhir/version1.0/Profile/clinical-trails#trial-status\",\n
+  \     \"extension\" : [\n        {\n          \"url\" : \"http://fhir-endpoint.someorg.com/fhir/version1.0/Profile/clinical-trails#trial-status#trial-status-code\",\n
+  \         \"valueCode\" : \"Started\"\n        },\n        {\n          \"url\"
+  : \"http://fhir-endpoint.someorg.com/fhir/version1.0/Profile/clinical-trails#trial-status#trial-status-date\",\n
+  \         \"valueDate\" : \"2015-02-26\"\n        },\n        {\n          \"url\"
+  : \"http://fhir-endpoint.someorg.com/fhir/version1.0/Profile/clinical-trails#trial-status#trial-status-who\",\n
+  \         \"valueResource\" : {\n            \"reference\" : \"Practitioner/f6dbc2f3-d054-4dd7-84c1-5e675f8e50d7\"\n
+  \         }\n        }\n     ]\n   }\n  ],\n  // ... other data for patient...\n~~~\n{:
+  .prettyprint .lang-js}\n\n## Contained Resources\n\nSince FHIR is a request-based
+  format, contained resources are a way to minimize the number of calls to address
+  use cases where specific data elements need to be served up every time a request
+  is made to a particular resource. An example would be if a patient avatar picture
+  needs to be served up anytime a patient resource is returned. Note that this assumed
+  that the request is valid and the request is authenticated and authorized before
+  the response is served.\n\nIn this specific scenario, if the patient avatar image
+  always has to be sent along with any patient resource request, then it would look
+  something like this:\n\n~~~javascript\n  \"contained\": [\n      {\n          \"resourceType\":
+  \"Binary\",\n          \"id\": \"pic1\",\n          \"contentType\": \"image/gif\",\n
+  \         \"content\": \"R0lGODlhEwARAPcAAAAAAAAA/+9aAO+1AP/WAP/[long encoded image]...jNEiaNMKAAAA7\"\n
+  \     },\n      {\n          \"resourceType\": \"Organization\",\n          \"id\":
+  \"org3141\",\n          \"text\": {\n              \"status\": \"generated\",\n
+  \             \"div\": \"<div>\\n      <p>Good Health Clinic<\\/p>\\n    <\\/div>\"\n
+  \         },\n          \"identifier\": [{\n              \"system\": \"urn:ietf:rfc:3986\",\n
+  \             \"value\": \"2.16.840.1.113883.19.5\"\n          }],\n          \"name\":
+  \"Good Health Clinic\"\n      }\n  ]\n~~~\n{: .prettyprint .lang-js}\n\n## Resource
+  Content\n\nThe meat of the FHIR message. Every resource has a model associated with
+  it that is different based upon the resource type in question. As you can imagine,
+  in the context of a patient, the kind of information that needs to be shared includes
+  date of birth, contact information, next of kin, address info etc. The sample below
+  is pretty self explanatory.\n\n~~~javascript\n  \"extension\":\n        {\n            \"url\":
+  \"http://hl7.org/fhir/example-do-not-use#Patient.avatar\",\n            \"valueResource\":
+  {\n                \"reference\": \"#pic1\",\n                \"display\": \"Duck
+  image\"\n            },\n        },\n  \"name\": [\n    {\n      \"use\": \"official\",\n
+  \     \"family\": [\n        \"Chalmers\"\n      ],\n      \"given\": [\n        \"Peter\",\n
+  \       \"James\"\n      ]\n    },\n    {\n      \"use\": \"usual\",\n      \"given\":
+  [\n        \"Jim\"\n      ]\n    }\n  ],\n  \"telecom\": [\n    {\n      \"use\":
+  \"home\"\n    },\n    {\n      \"system\": \"phone\",\n      \"value\": \"(203)
+  5555 6473\",\n      \"use\": \"work\"\n    }\n  ],\n  \"gender\": {\n    \"coding\":
+  [\n      {\n        \"system\": \"http://hl7.org/fhir/v3/AdministrativeGender\",\n
+  \       \"code\": \"M\",\n        \"display\": \"Male\"\n      }\n    ]\n  },\n
+  \ \"birthDate\": \"1974-12-25\",\n  \"deceasedBoolean\": false,\n  \"address\":
+  [\n    {\n      \"use\": \"home\",\n      \"line\": [\n        \"Evergreen Ave,
+  #30\"\n      ],\n      \"city\": \"San Francisco\",\n      \"state\": \"CA\",\n
+  \     \"zip\": \"90002\"\n    }\n  ],\n  \"_maritalStatus\": {\"extension\": [{\n
+  \     \"valueCode\": \"ASKU\",\n      \"url\": \"http://hl7.org/fhir/Profileiso-21090#nullFlavor\"\n
+  \ }]},\n  \"multipleBirthInteger\": 3,\n  \"contained\": [\n      {\n          \"resourceType\":
+  \"Binary\",\n          \"id\": \"pic1\",\n          \"contentType\": \"image/gif\",\n
+  \         \"content\": \"R0lGODlhEwARAPcAAAAAAAAA/+9aAO+1AP/[long encoded image]aNMKAAAA7\"\n
+  \     },\n      {\n          \"resourceType\": \"Organization\",\n          \"id\":
+  \"org3141\",\n          \"text\": {\n              \"status\": \"generated\",\n
+  \             \"div\": \"<div>\\n      <p>Good Health Clinic<\\/p>\\n    <\\/div>\"\n
+  \         },\n          \"identifier\": [{\n              \"system\": \"urn:ietf:rfc:3986\",\n
+  \             \"value\": \"2.16.840.1.113883.19.5\"\n          }],\n          \"name\":
+  \"Good Health Clinic\"\n      }\n  ],\n  \"contact\": [\n    {\n      \"relationship\":
+  [\n        {\n          \"coding\": [\n            {\n              \"system\":
+  \"http://hl7.org/fhir/patient-contact-relationship\",\n              \"code\": \"partner\"\n
+  \           }\n          ]\n        }\n      ],\n      \"name\": {\n        \"family\":
+  [\n          \"du\",\n          \"Marché\"\n        ],\n        \"_family\": [\n
+  \         {\n            \"extension\": [\n              {\n                \"url\":
+  \"http://hl7.org/fhir/Profile/iso-21090#qualifier\",\n                \"valueCode\":
+  \"VV\"\n              }\n            ]\n          },\n          null\n        ],\n
+  \       \"given\": [\n          \"Bénédicte\"\n        ]\n      },\n      \"telecom\":
+  [\n        {\n          \"system\": \"phone\",\n          \"value\": \"+33 (237)
+  998327\"\n        }\n      ]\n    }\n  ],\n  \"managingOrganization\": {\n    \"reference\":
+  \"Organization/1\"\n  },\n  \"active\": true\n~~~\n{: .prettyprint .lang-js}\n\nThere
+  are other elements of a resource such as tags, metadata, etc., which aren't quite
+  as well defined.\n\nPiecing together our discussion thus far, here's what the final
+  Patient Resource showing the above sections will look like in aggregate.\n\n~~~javascript\n{\n
+  \ \"resourceType\": \"Patient\",\n  \"text\": {\n    \"status\": \"generated\",\n
+  \   \"div\": \"<div>\\n\n    <table>\\n <tbody>\\n <tr>\\n\n    \t<td>Name</td>\\n
+  <td>John Samuel <b>Appleseed</b> (\"John\")</td>\\n\n    </tr>\\n <tr>\\n <td>Address</td>\\n\n
+  \   <td>Evergreen Ave, #30, San Francisco, CA 90002 </td>\\n </tr>\\n <tr>\\n\n
+  \   <td>Contacts</td>\\n <td>Home: unknown. Work: (203) 5555 6473</td>\\n\n</tr>\\n
+  <tr>\\n <td>Id</td>\\n\n<td>MRN: 12345 (Acme Healthcare)</td>\\n </tr>\\n\n</tbody>\\n
+  </table>\\n </div>\"\n  },\n  \"identifier\": [\n    {\n      \"use\": \"usual\",\n
+  \     \"label\": \"MRN\",\n      \"system\": \"urn:oid:1.2.36.146.595.217.0.1\",\n
+  \     \"value\": \"12345\",\n      \"period\": {\n        \"start\": \"2001-05-06\"\n
+  \     },\n      \"assigner\": {\n        \"display\": \"Acme Healthcare\"\n      }\n
+  \   }\n  ],\n  \"extension\": [\n        {\n            \"url\": \"http://hl7.org/fhir/example-do-not-use#Patient.avatar\",\n
+  \           \"valueResource\": {\n                \"reference\": \"#pic1\",\n                \"display\":
+  \"Duck image\"\n            }\n        },\n  \"name\": [\n    {\n      \"use\":
+  \"official\",\n      \"family\": [\n        \"Chalmers\"\n      ],\n      \"given\":
+  [\n        \"Peter\",\n        \"James\"\n      ]\n    },\n    {\n      \"use\":
+  \"usual\",\n      \"given\": [\n        \"Jim\"\n      ]\n    }\n  ],\n  \"telecom\":
+  [\n    {\n      \"use\": \"home\"\n    },\n    {\n      \"system\": \"phone\",\n
+  \     \"value\": \"(203) 5555 6473\",\n      \"use\": \"work\"\n    }\n  ],\n  \"gender\":
+  {\n    \"coding\": [\n      {\n        \"system\": \"http://hl7.org/fhir/v3/AdministrativeGender\",\n
+  \       \"code\": \"M\",\n        \"display\": \"Male\"\n      }\n    ]\n  },\n
+  \ \"birthDate\": \"1974-12-25\",\n  \"deceasedBoolean\": false,\n  \"address\":
+  [\n    {\n      \"use\": \"home\",\n      \"line\": [\n        \"Evergreen Ave,
+  #30\"\n      ],\n      \"city\": \"San Francisco\",\n      \"state\": \"CA\",\n
+  \     \"zip\": \"90002\"\n    }\n  ],\n  \"_maritalStatus\": {\"extension\": [{\n
+  \     \"valueCode\": \"ASKU\",\n      \"url\": \"http://hl7.org/fhir/Profileiso-21090#nullFlavor\"\n
+  \ }]},\n  \"multipleBirthInteger\": 3,\n  \"contained\": [\n      {\n          \"resourceType\":
+  \"Binary\",\n          \"id\": \"pic1\",\n          \"contentType\": \"image/gif\",\n
+  \         \"content\": \"R0lGODlhEwARAPcAAAAAAAAA/+9aAO+1AP/WA/...[long binary string]MKAAAA7\"\n
+  \     },\n      {\n          \"resourceType\": \"Organization\",\n          \"id\":
+  \"org3141\",\n          \"text\": {\n              \"status\": \"generated\",\n
+  \             \"div\": \"<div>\\n      <p>Good Health Clinic<\\/p>\\n    <\\/div>\"\n
+  \         },\n          \"identifier\": [{\n              \"system\": \"urn:ietf:rfc:3986\",\n
+  \             \"value\": \"2.16.840.1.113883.19.5\"\n          }],\n          \"name\":
+  \"Good Health Clinic\"\n      }\n  ],\n  \"contact\": [\n    {\n      \"relationship\":
+  [\n        {\n          \"coding\": [\n            {\n              \"system\":
+  \"http://hl7.org/fhir/patient-contact-relationship\",\n              \"code\": \"partner\"\n
+  \           }\n          ]\n        }\n      ],\n      \"name\": {\n        \"family\":
+  [\n          \"du\",\n          \"Marché\"\n        ],\n        \"_family\": [\n
+  \         {\n            \"extension\": [\n              {\n                \"url\":
+  \"http://hl7.org/fhir/Profile/iso-21090#qualifier\",\n                \"valueCode\":
+  \"VV\"\n              }\n            ]\n          },\n          null\n        ],\n
+  \       \"given\": [\n          \"Bénédicte\"\n        ]\n      },\n      \"telecom\":
+  [\n        {\n          \"system\": \"phone\",\n          \"value\": \"+33 (237)
+  998327\"\n        }\n      ]\n    }\n  ],\n  \"managingOrganization\": {\n    \"reference\":
+  \"Organization/1\"\n  },\n  \"active\": true\n}\n\n~~~\n{: .prettyprint .lang-js}\n\n##
+  Summary\n\nSome FHIR resources are still undefined and open to comment, such as
+  Financial models, which will fall under the Administrative category of Resources.
+  The above sections delve in a little bit more detail on the overall resource model
+  and its constituent parts.\n\nEvery resource consists of the following:\n\n* **Identifier
+  section** — A unique identifier URL for each resource identifying the resource to
+  be of a specific type e.g. patient. It is a required component.\n* **Human Readable
+  summary section** — An XHTML section that provides a human readable version of the
+  content within the message. This can be considered as a backup as well as a verification
+  section. It can be skipped unless you can ensure all data contained in the message
+  is also represented here. It is an optional component.\n* **Extension section**
+  — Allows for the definition of any extensions that might be required to support
+  specific clinical workflows e.g. clinical trial applicability. This can be inserted
+  in any of the sections to cover specific use cases and workflow needs. This is required
+  if resources include data elements / objects that are not part of the core FHIR
+  models.\n* **Contained Resources** — Other resources used in identification and
+  transaction processing e.g. message header and the data object corresponding to
+  the type identified earlier, such as images, that always need to be returned as
+  part of the resource request. This is an optional element.\n* **Metadata** — Such
+  as version number of the resource. This is an optional element.\n* **Resource content**
+  — The core content of the resource. In the case of a patient, all relevant details
+  about that patient such as name, address, phone, guardian or other contact info
+  and so on. Each resource has a defined data model. This is a required element (otherwise
+  why bother?).\n* **Tags** — Such as security labels which can include ACLs, workflow
+  specific functions, etc. This is optional. It is also under design.\n\nWhile the
+  FHIR spec is stabilizing, no doubt additions and subtractions are on the horizon.
+  Stay tuned for updates.\n"
+:related_guide:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:related_entries:
+- :id: 3lJNN0q4FWgqoYWGGWKGUg
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:40+00:00'
+    :created_at: '2017-01-16T17:41:29+00:00'
+    :id: 3lJNN0q4FWgqoYWGGWKGUg
+  :title: Introduction to FHIR
+  :slug: introduction-to-fhir
+  :pub_date: !ruby/object:DateTime 2018-05-16 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :summary: 'The FHIR acronym stands for Fast Healthcare Interoperability Resources.
+    FHIR is a new open sourced interoperability standard of the HL7 organization. '
+  :lead: FHIR (Fast Healthcare Interoperability Resources) is a new and emerging standard
+    being developed under the auspices of the [Health Language 7](https://hl7.org)
+    (HL7) organization. [(View a primer on HL7.)](https://catalyze.io/learn/hl7-101-a-primer)
+    Pronounced as 'Fire', it was initially developed by [Graham Grieve](http://www.healthintersections.com.au/),
+    who insisted FHIR be open sourced. At its core, FHIR is intended to be **the**
+    next generation of healthcare interoperability. It tries to combine the best features
+    of HL7 Version 2 and Version 3, in which Grieve was significantly involved.
+  :post: |2-
+
+    ### Why FHIR?
+
+    The current state-of-the-art in healthcare integration and interoperability is based on HL7, and is a serious mess. Organizations today spend upwards of $5000 to $10,000 per HL7 interface, not to mention serious licensing fees to implement and use integration engines. All of which raise the interesting question of, "Wait, if they are all based on a standard, why do I need an integration engine?" For two reasons:
+
+    1. HL7 is a standard but it is not an **open** standard. You need to be a member of the HL7 organization and pay  fees before using the content in any commercial fashion.
+    2. HL7 is an ancient standard: [Wikipedia](http://en.wikipedia.org/wiki/Health_Level_7) notes that it was developed in the late 80s when a lot of things we take for granted now didn't exist - mobile numbers, emails, NPI (national provider identifiers), APIs...
+
+    What resulted was a lot of "I'll just do it **this** way", causing an explosion of HL7 variants. This, in turn, led to the need for interface engines where additional logic needs to be coded to accommodate those *"this-way"* variants and other healthcare specific use cases. That led to the bigger problem that integration and logic is now embedded into the data transformation process. Change your source system (upgrade, replace, etc.) and your integration falls apart. Need more data than you're currently getting, well, it's back to the integration engine again. Oh, by the way, there is no concept of CI / CD (continuous integration, continuous deployment) in the context of integration engines. Often developers make changes in production directly, which is also why healthcare institutions are very cautious about providing access to systems sending data to any external system, no matter the value. And for good reason, as you can imagine.
+
+    #### A better, more modern approach to integration and interoperability
+
+    FHIR has an ambitious goal. Integration capabilities should be built into the EHR itself along with the other aspects of authentication and security. Over time, this will eliminate the need for expensive integration projects and licenses. Additionally, the use of modern concepts such as [RESTful APIs](http://en.wikipedia.org/wiki/Representational_state_transfer) and accompanying documentation will make it much easier for developers and applications to quickly connect and get the data needed. From a design perspective, the general principle is that since healthcare is complicated, creating a standard set of models which are transactional in nature (like HL7) has been shown to be problematic. Therefore, creating core models (like patients, for example), having standardized data models around those core elements, and ensuring that most, if not all, use cases can be addressed by allowing requests to be **composed** as needed.
+
+    Given the above, FHIR does offer many improvements over existing standards:
+
+    - **It's open source**: This is a big deal and the first effort in making healthcare integration more transparent and accessible. Putting it out in the open has created a significant community including developers, vendors and enterprises.
+    - **RESTful**: REST-based design brings a significant amount of benefit, namely that an API that adheres to the principles of REST does not require the client to know anything about the structure of the API. Rather, the server needs to provide whatever information the client needs to interact with the service.
+    - **Extensible**: Extensibility under the RESTful context ensures that additions can be easily tacked on to cover specific use cases without impacting the core models.
+    - **Composable**: Composability ensures that almost any request can be cobbled together using core models or resources and associated extensions.
+    - **Good documentation**: Uniquely driven by the RESTful API approach, which enforces good documentation as a byproduct. A playable version of the FHIR APIs would be a nice to have and is something that we, at Datica, intend to provide as part of this documentation.
+    - **Support for modern web standards**: XML, JSON, HTTP, Atom, OAuth, REST - these are the underlying technologies that FHIR leverages. These are battle tested and have been proven at scale and under significant security requirements.
+
+    #### Flexibility without modifying underlying systems or integration engines
+
+    As described earlier, various healthcare workflows (e.g. z-segments in HL7) that forced extensions of standards is one of the biggest challenges with older integrations. Underlying systems required code changes to generate specific datasets and additional work on the integration engine to support the data processing. All this made it very cumbersome to create and manage integrations with any changes in the underlying source systems (e.g. upgrades etc.), causing a significant amount of rework.
+
+    FHIR addresses this by:
+
+    - **Focusing on ease of implementation**: Implementation is very different from most standards where the focus is typically more on coverage and data models. FHIR is interesting because the focus has been on ease of implementation from the beginning, including backwards compatibility. Multiple implementation libraries have also been provided in Java and .NET, among others, along with many examples to kick-start development. The website claims "multiple developers had simple interfaces working in a single day", which is unheard of in healthcare.
+    - **Easy extensibility**: FHIR solves extensibility challenges by defining a simple framework for extending and adapting the existing resources. All systems, no matter how they are developed, can easily read these extensions and extension definitions can be retrieved using the same framework as retrieving other resources.
+    - **Human readability**: HL7 3.0 had a concept of a human readable version of the document / data being shared to ensure that developers or clinicians could still read the source data to eliminate any potential of misconfiguration or coding errors. FHIR borrows this concept as well. Every resource carries a human-readable text representation using html as a fallback display option. This is particularly important for complex clinical information where many systems take a simple textual/document based approach.
+
+    ### Advantages over existing standards, e.g. HL7
+
+    - **Pipe delimited vs. JSON, XML...**: No further discussion is required. This approach makes it more easily usable, understandable and testable.
+    - **Security**: HL7 as a protocol doesn't have security and authentication built into it. To be fair, HL7 was always meant to enable intra-system communication, like between lab systems and an EHR. All of which were within a health system's firewalls. Therefore authentication wasn't really needed. The evolution of healthcare has made care delivery more dispersed, which is why HL7 is beginning to show it's gaps. FHIR leverages (or is in the process of defining) modern https based authentication and authorization capabilities such as OAuth, which are prevalent in the modern web and have been battle tested over the years.
+    - **Flexible and composable**: The FHIR design allows developers to combine requests to create any interface or extend resources (with associated definition) and "tack" them onto pre-defined resource models. [(More on the Resource Object here.)](https://catalyze.io/learn/the-fhir-resource-object-the-core-building-block) No coding up the underlying systems or touching interface engines required.
+
+    ### Status and challenges
+
+    FHIR is still a work in progress. It does have a few advantages.
+
+    #### Significant industry support
+
+    Individual developers and other organizations have contributed sample implementations, like [HAPI-FHIR](http://jamesagnew.github.io/hapi-fhir/) and many more. Plus a significant group of enterprises have come together under the auspices of HL7 with the moniker of "Argonaut Project". This group includes EHR vendors and health systems such as
+    - athenahealth
+    - Beth Israel Deaconess Medical Center
+    - Cerner
+    - Epic
+    - Intermountain Healthcare
+    - Mayo Clinic
+    - Meditech
+    - McKesson
+    - Partners HealthCare System
+    - SMART at the Boston Children’s Hospital Informatics Program
+    - The Advisory Board Company
+
+    #### It's a work in progress
+
+    Despite significant industry support, it is unlikely widespread implementations of FHIR will be seen until the 2016-2017 timeframe because definitions and specifications are still in progress, implementations are still underway and more EHR software changes are likely required.
+
+    #### Security is still an open item
+
+    Security with FHIR is incomplete. Authentication before Authorization or vice versa? Conformance and associated profiles per link? Is there to be an API route to call to verify that? Is that route open to everyone?
+
+    #### Not real-time
+
+    Currently the biggest gap, FHIR is not a real-time protocol. In contrast, HL7 was always a real-time protocol. If someone was admitted to the hospital, all relevant parties were notified immediately via ADT.
+
+    FHIR is currently still a request based protocol. You ask if you need to know something such as _"Was this person admitted to the hospital?"_, which makes sense from a patient app perspective, but not so much from a workflow perspective. Webhooks are optional additions, but begs the question _"Why can't we just FHIR enable HL7?"_ The Datica answer is, _"Yes, indeed. It should."_
+
+    #### Granular resource model can become request intensive
+
+    ADT (and other HL7) messages were crafted with care to support hospital and ancillary system workflows. The flexibility and composability (described in the advantages section above) come at a cost. To get all the data that one normally expects from an ADT message would require a "bundle" of FHIR resources. This could get complicated and request-intensive quickly.
+
+    ### Summary
+
+    Overall, FHIR has a lot going for it. There are gaps but they are neither unexpected nor insurmountable. Stay tuned for updates as the FHIR standard evolves.
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 1t2mQms18kgiecSMeSeCCW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:40+00:00'
+    :created_at: '2017-01-16T17:41:29+00:00'
+    :id: 1t2mQms18kgiecSMeSeCCW
+  :title: Recommended FHIR API Implementation Principles
+  :slug: recommended-fhir-api-implementation-principles
+  :pub_date: !ruby/object:DateTime 2018-05-17 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :summary: The FHIR standard is based on API routes but what should the API route
+    look like? Learn general design principles and guidelines to build RESTful APIs.
+  :post: |-
+    FHIR is based on API routes. What should the API route look like? The only legitimate link that a quick Google search produces is the Open Epic link. If you haven't already, I strongly recommend that you sign up [here](http://open.epic.com/).
+
+    Epic has (for now, I'm sure, as they explore the new FHIR world) chosen to define the API structure as below:
+
+    ```
+    https://{domain}/{fhir-version}/api/{resourcesName}/{resourceId}
+    ```
+
+    This is not their intended production route as it does not address potential issues. Perhaps a good way to arrive at what the final API route might look like, it is worthwhile to list out the data needed to be communicated in the API route and the associated impact on the design of the API route itself. Here is the list of possible parameters:
+
+    - The health system / EHR: This is the domain itself. For example, this would translate to {{domain}} *viz* daticahealth.com
+    - The environment (prod / dev / ...):
+    - The FHIR version
+    - The partner (or should this be better done via an API key?)
+
+    ```
+    https://{domain}/fhir/{fhir_version}/{environment}/
+    ```
+
+    That will be root or the [base] of all FHIR queries. Additional criteria/parameters will be added on as needed to retrieve the data of interest. For example,
+
+    - The resource
+    - The resource ID
+
+    In which case, the `{resourcesName}/{resourceId}` will be tacked on to the end of the root to give us
+
+    ```
+    [base]/{resourcesName}/{resourceId}
+    ```
+
+    ### General API design principles
+
+    Here are a few design principles that we have adopted based on REST best practices.
+
+    #### 1. Consistency in naming of routes
+
+    Note that we always use the plural form in the API route. This is just a standard way of denoting it. All resource names in the route will always be in the plural and the specific ID will always be in the singular.
+
+    ```
+    [base]/{resourcesName}/{resourceId}
+    ```
+
+    and with a specific example for the patients resource:
+
+    ```
+    [base]/patients/patientID
+    ```
+
+    #### 2. Consistency in "VERBS" and "NOUNS"
+
+    In general, there are three sets of routes or "verbs" per "noun" or resource. They all follow the following pattern:
+
+    ##### Actions for POST : /resourcesName/resourceId
+
+    [(Read more about the Resource Object.)](https://catalyze.io/learn/the-fhir-resource-object-the-core-building-block)
+
+    This route will allow you to create and get all resources specific to that user.
+
+    ```
+    POST /patients
+    ```
+    with the associated body will create a patient object. This will also create an internally generated `patientId` and a `createdAt` timestamp. Similarly,
+
+    ```
+    POST /patients/6cdf30cc-e81a-4c21-894f-497c5d9ac222/allergies
+    ```
+
+    with the associated body will create an allergy object specific to userID `6cdf30cc-e81a-4c21-894f-497c5d9ac222`. This will also create an internally generated `allergyId` and a `createdAt` timestamp.
+
+    **It is important to note that POST actions are unlikely to be supported out of the gate in FHIR implementations but are included in here for completeness.**
+
+
+    ##### Actions for GET: /resourcesName/resourceId or :/resourcesName?params=value
+
+    This route will allow either a specific resource to be returned or based on the parameters supplied, a list of resources. The only caveat is likely to be a patient specific query where the parameters will be restricted: i.e. only a specific set of parameters will be allowed so prevent random searches along the lines of *give me all patients who's last name is Smith*. We will delve into this more detail when we look at the patient specific route details in a subsequent section.
+
+    ```
+    GET /allergies/051d8c27-b0c4-432d-a75d-1070fd877206
+    ```
+
+    will return a body with the specific allergy details. In the context of a patient, it is likely that the request being sent must include a minimum set of parameters to return a specific patient rather than a general query as mentioned earlier. A patient query (GET) will look like this:
+
+    ```
+    GET /patients?lastName=Smith&gender=male&mrn=88776656
+    ```
+
+    which will return a patient resource with associated details as long as there is a specific match. If there is no match, then an empty body will be returned or ideally, would not even trigger a response. This is a potentially useful security precaution to ensure that even null responses do not communicate any information.
+
+
+    ##### Actions for PUT and DELETE: /resourcesName/resourceId
+
+    This route will allow you to modify or delete specific resource objects.
+
+    ```
+    PUT /allergies/051d8c27-b0c4-432d-a75d-1070fd877206
+    ```
+
+    with the associated body will update the allergy object with ID `051d8c27-b0c4-432d-a75d-1070fd877206`
+
+    Since allergies always pertain to a unique patient, the same route could be called as
+
+    ```
+    PUT /patients/6cdf30cc-e81a-4c21-894f-497c5d9ac222/allergies/051d8c27-b0c4-432d-a75d-1070fd877206
+    ```
+
+    Similarly for DELETE,
+
+    ```
+    DELETE /allergies/051d8c27-b0c4-432d-a75d-1070fd877206
+    ```
+
+    with an empty body will delete the allergy object with ID `051d8c27-b0c4-432d-a75d-1070fd877206` and the equivalent patient oriented route being
+
+    ```
+    DELETE /patients/6cdf30cc-e81a-4c21-894f-497c5d9ac222/allergies/051d8c27-b0c4-432d-a75d-1070fd877206
+    ```
+
+    Since the allergyId is a unique number, the patientId is overkill but is in there to simplify / rationalize the structure and number of routes you need to remember.
+
+    **Again, it is important to note that PUT and DELETE actions are unlikely to be supported out of the gate in FHIR implementations but are included in here for completeness.**
+
+    #### 3. Limiting which fields are returned by the API
+
+    You won't always need the full representation of a resource. The ability select and chose returned fields allows you to minimize network traffic and speed up usage of the API. Therefore, we use a fields query parameter that takes a comma separated list of fields to include. For example,
+
+    ```
+    GET /patients/2f036fb2-80eb-47ee-9d17-b21790f61663?fields=id,name,updatedAt&status=active
+    ```
+
+    would retrieve just enough information to display a sorted listing of allergies for that specific patient (the `-` sign sorts results in reverse chronological order).
+
+    #### 4. APIs are rate limited
+
+    To prevent abuse, it is standard practice to add some sort of rate limiting to an API. [RFC 6585](http://tools.ietf.org/html/rfc6585) introduced a HTTP status code [429 Too Many Requests](http://tools.ietf.org/html/rfc6585#section-4) to accommodate this. However, it can be very useful to notify you of your  limits before you actually hit it.
+
+    This is an area that currently lacks standards but has a number of popular conventions using HTTP response headers.
+    At a minimum, include the following headers (using Twitter's naming conventions because headers typically don't have mid-word capitalization):
+
+    ```
+    X-Rate-Limit-Limit - The number of allowed requests in the current period
+    X-Rate-Limit-Remaining - The number of remaining requests in the current period
+    X-Rate-Limit-Reset - The number of seconds left in the current period
+    ```
+
+    #### 5. Caching - verify on https
+
+    HTTP provides a built-in caching framework. All you have to do is include some additional outbound response headers and do a little validation when you receive some inbound request headers.
+    There are 2 approaches: [ETag](http://en.wikipedia.org/wiki/HTTP_ETag) and [Last-Modified](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.29).
+
+    - **ETag**: When generating a request, include an HTTP header ETag containing a hash or checksum of the representation. This value should change whenever the output representation changes. Now, if an inbound HTTP requests contains an If-None-Match header with a matching ETag value, the API should return a 304 Not Modified status code instead of the output representation of the resource.
+    - **Last-Modified**: This basically works like to ETag, except that it uses timestamps. The response header Last-Modified contains a timestamp in [RFC 1123](http://www.ietf.org/rfc/rfc1123.txt) format which is validated against If-Modified-Since. Note that the HTTP spec has had [3 different acceptable date formats](http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3) and the server should be prepared to accept any one of them.
+
+    #### 6. Errors
+
+    Just like an HTML error page shows a useful error message to a visitor, an API should provide a useful error message in a known consumable format. The representation of an error should be no
+    different than the representation of any resource, just with its own set of fields. The API should always return sensible HTTP status codes.
+
+    API errors typically break down into 2 types:
+
+    - **400 series** status codes for client issues &
+    - **500 series** status codes for server issues.
+
+    The API standardizes that all 400 series errors come with consumable JSON error representation. If possible (i.e. if load balancers & reverse proxies can create custom error bodies),
+    this should extend to 500 series status codes.
+
+    A JSON error body should provide a few things for the developer a useful error message, like a unique error code that can be looked up for more details in the docs, and possibly a detailed description. JSON output representation for something like this would look like:
+
+    ```
+        {
+          "code" : 1234,
+          "message" : "Something bad happened :(",
+          "description" : "More details about the error here"
+        }
+    ```
+
+    ##### HTTP status codes
+
+    HTTP defines a bunch of meaningful status codes that can be returned from your API. These can be leveraged to help the API consumers route their responses accordingly.
+
+    * `200 OK` - Response to a successful GET, PUT, PATCH or DELETE. Can also be used for a POST that doesn't result in a creation.
+    * `201 Created` - (Not applicable). Response to a POST that results in a creation. Should be combined with a Location header pointing to the location of the new resource
+    * `204 No Content` - Response to a successful request that won't be returning a body (like a DELETE request)
+    * `304 Not Modified` - Used when HTTP caching headers are in play
+    * `400 Bad Request` - The request is malformed, such as if the body does not parse
+    * `401 Unauthorized` - When no or invalid authentication details are provided. Also useful to trigger an auth popup if the API is used from a browser
+    * `403 Forbidden` - When authentication succeeded but authenticated user doesn't have access to the resource
+    * `404 Not Found` - When a non-existent resource is requested
+    * `405 Method Not Allowed` - When an HTTP method is being requested that isn't allowed for the authenticated user
+    * `410 Gone` - Indicates that the resource at this end point is no longer available. Useful as a blanket response for old API versions
+    * `415 Unsupported Media Type` - If incorrect content type was provided as part of the request
+    * `422 Unprocessable Entity` - Used for validation errors
+    * `429 Too Many Requests` - When a request is rejected due to rate limiting
+
+    #### 7. Result filtering, sorting and searching
+
+    It's best to keep the base resource URLs as lean as possible. Complex result filters, sorting requirements and advanced searching (when restricted to a single type of resource) can all be easily implemented as query parameters on top of the base URL. Let's look at these in more detail:
+
+    - **Filtering**: Use a unique query parameter for each field that implements filtering. For example, when requesting a list of allergies from the /allergies endpoint, you may want to limit these to only those in the `active` state. This could be accomplished with a request like GET /allergies?status=active. Here, status is a query parameter that implements a filter.
+    - **Sorting**: Similar to filtering, a generic parameter sort can be used to describe sorting rules. We accommodate complex sorting requirements by letting the sort parameter take in a list of comma separated fields, each with a possible unary negative to imply descending sort order. For example `GET /allergies?sort=-severity` should retrieve a list of allergies in descending order of severity. Similarly, `GET /allergies?sort=-severity,created_at` should retrieve a list of allergies in descending order of severity. Within a specific severity, older allergies are ordered first.
+    - **Searching**: When full text search is used as a mechanism of retrieving resource instances for a specific type of resource, it can be exposed on the API as a query parameter on the resource's endpoint. Let's say `q`. Search queries will be passed straight to the search engine and API output will be in the same format as a normal list result.
+
+    Combining these together, we can build queries like:
+
+    - Retrieve all users with recently updated allergies: `GET /allergies?sort=-updatedAt`
+    - Retrieve all users with recently updated active allergies: `GET /allergies?status=active&sort=-updatedAt`
+    - Retrieve the set of users with highest severity active allergies mentioning the word 'pollen': `GET /allergies?q=pollen&status=active&sort=-severity,createdAt`
+
+    #### 8. Using Contained Resources (Expansion)
+
+    You can use expansion to retrieve particular details about resources in the same response you get when you request a list of users, for instance in a search. This is a perfect example of a contained resource. By using expansion, you avoid the process of retrieving the list and then making additional calls to retrieve details about each item in the list. This is more efficient and helps you avoid running up against the limits of your quota.
+
+    Patients play a central role in many of the responses returned by resources. For example, queries such as allergy searches, medications all return patient-centric responses. You can expand the patient response format so you can access details about each patient without having to make additional patient resource queries on the individual patients in the response. For example, you can query for patients that match some criteria and at the same time ask the Datica API to extend its response format so that it includes additional details about each patient other than those in the default response format.
+
+    ### Summary
+
+    These are the general design principles that we have followed at Datica. These are guidelines based on our experience building RESTful APIs and gathered from multiple other sources. The key underlying principles being consistency and adherence with HTTP standards.
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

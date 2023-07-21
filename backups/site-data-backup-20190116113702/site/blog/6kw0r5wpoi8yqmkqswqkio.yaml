@@ -1,0 +1,522 @@
+---
+:id: 6Kw0r5WpoI8yQMKQswQKiO
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-02-15T17:11:47+00:00'
+  :created_at: '2018-02-15T17:11:01+00:00'
+  :id: 6Kw0r5WpoI8yQMKQswQKiO
+:title: What Exactly is a Digital Health Application?
+:slug: what-exactly-is-a-digital-health-application
+:pub_date: !ruby/object:DateTime 2018-02-15 00:00:00.000000000 Z
+:tags:
+- :id: 4TyZlvypiw6yMeuGG8W4mu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:11:18+00:00'
+    :created_at: '2016-11-23T01:11:18+00:00'
+    :id: 4TyZlvypiw6yMeuGG8W4mu
+  :tag_full: mHealth
+  :slug: mhealth
+  :description: '"Mobile health" is a general term for the use of mobile phones and
+    other wireless technology in medical care. The most common application of mHealth
+    is the use of mobile phones and communication devices to educate consumers about
+    preventive health care services.'
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'Are digital health apps consumer-facing, or used in a clinical setting?
+  How are they improving patient outcomes? How are digital health apps integrated
+  into clinicians’ workflows? '
+:blog_lead: "Digital health is something of a buzzword in the industry right now,
+  but evidence is emerging that digital health apps have the potential to both improve
+  patient outcomes and [save money across the healthcare system](https://datica.com/blog/digital-health-apps-could-save-7-billion/).
+  \n\n"
+:post: "## What is a Digital Health Application? \n\nMobile health, or mHealth, is
+  a type of digital health and is used within the larger context of what the World
+  Health Organization (WHO) describes as electronic health. Apps, of course, are designed
+  to be used with mobile devices.\n\nOne of the largest barriers for health organizations
+  to adopting mHealth in past has been the issue of [changing reimbursement models](https://datica.com/blog/changing-reimbursement-means-new-opportunities/).
+  Healthcare has been a fee-for-service business — essentially providers earned money
+  when people needed care — but now policymakers are shifting to a value-based system.
+  In a value-based system, keeping patients healthy will result in more earnings.
+  \n\nPopulation health, care for chronic conditions, reducing hospital readmissions,
+  and other methods of keeping people well are more important in a value-based care
+  system than in a fee-for-service system. Digital health apps can enhance value-based
+  care through things like appointment reminders, patient monitoring for those with
+  chronic conditions, and various other functions that can improve the overall health
+  of a given community or patient population. \n\nAre digital health apps consumer-facing,
+  or used in a clinical setting? How are they improving patient outcomes? How are
+  digital health apps integrated into clinicians’ workflows? \n\n## 11 Types of Digital
+  Health Tools\n\nData firm IQVIA lists 11 specific categories of digital health tools
+  in their report [The Growing Value of Digital Healthcare](: \n\n1. Consumer Mobile
+  Apps\n2. Consumer Wearables\n3. Connected Biometric Sensors\n4. Smartphone Cameras\n5.
+  Clinical Trial Patient Information Collection Tools\n6. In-Home Connected Virtual
+  Assistants\n7. Telemedicine and Virtual Physician Visits\n8. Personal Health Records\n9.
+  Web-based Interactive Programs\n10. Text Messaging or Email\n11. Health System Disease
+  Management Apps\n\nIn the IQVIA definition, digital health is mHealth. \n\n> The
+  term is used throughout this report as meaning the use of connected mobile devices
+  — including, but not limited to, mobile phones, tablets, consumer wearables, connected
+  biosensors, and in-home virtual assistants — to improve health.”  \n\nNo set definition
+  has been settled on for mHealth, but many are quite similar. \n\n## What Defines
+  mHealth? \n\nThere are a few [different definitions for mhealth](http://www.himss.org/definitions-mhealth)
+  in use, but nearly all of them agree that mobile health includes a variety of apps
+  and devices. Here’s a small selection of definitions for mHealth by various organizations:
+  \ \n\n* Foundation of the National Institutes of Health (FNIH): “mHealth is ‘the
+  delivery of healthcare services via mobile communication devices’” \n* The mHealth
+  Alliance: “mHealth stands for mobile-based or mobile-enhance solutions that deliver
+  health. The ubiquity of mobile devices in the developed or developing world presents
+  the opportunity to improve health outcomes through the delivery of innovative medical
+  and health services with information and communication technologies to the farthest
+  reaches of the globe.” \n* WHO: “Mobile Health (mHealth) is an area of electronic
+  health (eHealth) and it is the provision of health services and information via
+  mobile technologies such as mobile phones and Personal Digital Assistants (PDAs).”
+  \n\n## Examples of companies innovating in the mHealth space\n\nThe Datica Platform
+  serves as the compliance and data foundation for hundreds of customers developing
+  breakthrough apps in the mHealth space. Here are just a few examples of our customers
+  who are mHealth innovators.\n\n### CareMessage\n\n[CareMessage](https://datica.com/customer/caremessage/#spotlight)
+  technology allows for automated appointment reminders for some of the most at-risk
+  patient populations. The technology takes three critical factors into account: the
+  patient’s precondition symptoms, their language preferences, and how they want to
+  receive messages. \n\nAutomated appointment reminders for those who use the so-called
+  safety net of the American healthcare system reduces the cost of missed appointments,
+  improves patient/provider relationships, and improves health literacy. \n\n### Purple
+  Binder\n\nDesigned to help hospital social workers find the resources their clients
+  need, [Purple Binder](https://datica.com/customer/purple-binder/#spotlight) seeks
+  to bridge the gap between social and economic services and healthcare services.
+  They are currently working to build a messaging portal that will allow the hospitals
+  and social services organizations connect when patients are referred. \n\n### healthfinch\n\nWhile
+  many problems in the healthcare system involve patient services, some of them center
+  around healthcare providers. For example, physician burnout is a huge problem, and
+  one reason for it is ever-increasing burden of clerical work. [Healthfinch](https://datica.com/customer/healthfinch/)
+  automates some of the mundane and repeatable tasks that physicians often sacrifice
+  time that would otherwise be spent with patients to complete. "
+:featured_image:
+  :title: blog-what-exactly-is-digital-health-app-featured
+  :description: What exactly is a digital health application featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/1DqsNWzu2gm2QEUioKc28U/11b9d8025e9047f43e991cb8677de7ff/blog-what-exactly-is-digital-health-app-featured.jpg"
+  :_meta:
+    :updated_at: '2018-02-15T00:17:39+00:00'
+    :created_at: '2018-02-15T00:17:39+00:00'
+    :id: 1DqsNWzu2gm2QEUioKc28U
+:share_image:
+  :title: blog-what-is-digital-health-application-share
+  :description: What exactly is a digital health application share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/5TRsuVswsosAAIasua04iY/940a731769c9514f97b2344a3625872d/blog-what-is-digital-health-application-share.jpg"
+  :_meta:
+    :updated_at: '2018-02-15T00:18:17+00:00'
+    :created_at: '2018-02-15T00:18:17+00:00'
+    :id: 5TRsuVswsosAAIasua04iY
+:cta_ref:
+  :id: 1RjrCwRgq4eOaS8cG60my4
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-11-22T04:21:39+00:00'
+    :created_at: '2017-11-09T01:17:27+00:00'
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :cta_title: Get the DHSF eBook
+  :cta_desc: This downloadable version of the Digital Health Success Framework (DHSF)
+    is a simple guide for the makers of digital healthcare products.
+  :cta_label: Get the eBook
+  :cta_url: https://datica.com/guide/digital-health-success-framework-ebook/
+  :cta_image:
+    :id: 4sQIg0ID7ywgK2S8SKSmyo
+  :cta_svg_icon:
+    :id: NWVKb7XE6QU8uE6s4WiEI
+  :cta_color: blue-alt
+:related_entries:
+- :id: 5vQ4vxtCla0cemy8CCqQmG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:44:58+00:00'
+    :created_at: '2018-02-13T22:09:52+00:00'
+    :id: 5vQ4vxtCla0cemy8CCqQmG
+  :title: Digital Health Apps Could Save the US $7 Billion
+  :slug: digital-health-apps-could-save-7-billion
+  :pub_date: !ruby/object:DateTime 2018-02-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: muuTw36MCccawe428I8Oa
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Digital health apps have been accompanied by plenty of hype, but a new
+    report shows that the hype may be justified with $7 billion/year potential.
+  :blog_lead: Digital health apps have been around for a few years, and have been
+    accompanied by plenty of hype, but a new report shows that the hype may be justified
+    — not because of innovation, but because such apps have the potential to save
+    the US healthcare system as much as $7 billion annually.
+  :post: "A recent [report from the data science firm IQVIA](https://www.iqvia.com/institute/reports/the-growing-value-of-digital-health)
+    examines the impact of digital health apps on the healthcare industry. In the
+    last two years — the time since the last report on the topic from IQVIA — there
+    has been both an increase in the number of apps available, as well as in the amount
+    of evidence supporting the benefits of their use. \n\nThe report includes some
+    noteworthy statistics:\n\n* There are 318,000 health apps and 340 wearable devices
+    available worldwide\n* Since 2015, 153,000 new apps have appeared in the Apple
+    Store and Google Play\n* 200 new health apps are added each day\n* 40% of those
+    new apps are related to health condition management/patient care\n* 55% use sensor
+    data\n* 95% of all health apps have fewer than 5000 installs\n* 41 apps have more
+    than 10 million downloads each, and account for nearly half of all health app
+    downloads\n* 25% of physicians actively recommend digital health apps\n* 13% of
+    physicians use remote patient monitoring technologies\n* 20% of large health systems
+    are moving from digital health app pilot programs to full-scale rollouts\n\nEach
+    one of those facts could be the topic of a blog post, but the report also addresses
+    another interesting point: the fact that digital health apps can both provide
+    improved patient outcomes and save the health system money. According to the report:
+    \n\n> The use of Digital Health apps in just five patient populations where they
+    have proven reductions in acute care utilization (diabetes prevention, diabetes,
+    asthma, cardiac rehabilitation and pulmonary rehabilitation) would save the U.S.
+    healthcare system $7 billion per year and provide tangible outcomes improvements.\"
+    \n\nIt is noteworthy that, in the statement above, the report is only discussing
+    five specific patient populations — those that have been been investigated in
+    random clinical trials (RCTs) extensively and been proven to reduce the use of
+    acute care facilities. RCTs are considered the gold-standard in clinical investigations.
+    \n\nOne of the most significant points included in the report is the fact that
+    the number of studies investigating digital health apps, especially RCTs, has
+    been accelerating. There were 571 such studies between 2007 and 2017, with 25%
+    of them being published in 2017. \n\nThe evidence provided by scientific investigations
+    is crucial because it demonstrates the [value of digital health apps](https://datica.com/blog/esther-dyson-q-and-a-on-digital-health-and-getting-to-the-end-game/).
+    According to the report:\n\n> Value in healthcare can be defined as the health
+    outcomes created for patients relative to the cost of generating those health
+    outcomes, as well as the extent to which the ‘triple aim’ of improving the patient
+    experience, improving the health of populations, and reducing the per capita costs
+    of healthcare is delivered.”  \n\nThe digital health apps that are available for
+    diabetes prevention, diabetes, [asthma](https://datica.com/customer/propeller/),
+    cardiac rehabilitation, and pulmonary rehabilitation have been tested and shown
+    to reduce the number of times patients must seek acute care. If they were adopted
+    widely, the savings — $7 billion annually — would be significant. \n\nAlthough
+    decisions within specific healthcare systems are generally made one app, or one
+    category, at a time, policymakers consider the value of digital health apps in
+    a more general way, such as the value to the overall health system. And, in the
+    case of Congress, “value” often means cost-savings. \n\nThe report notes that
+    policy initiatives related to technology adoption within the healthcare system
+    are relatively rare, and when they do occur, the driver is usually evidence of
+    significant cost savings. \n\n> Given the acceleration in clinical evidence development
+    in recent years, persuasive cost savings arguments surrounding Digital Health
+    apps may be within reach.” "
+  :featured_image:
+    :id: 39acSEoGx2aUCwSiuWoQQ2
+  :share_image:
+    :id: 1Jp8oQrYrqSyUGWCCMMOgM
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6HGfV9t6zSwAGKcackWSsM
+  - :id: 3IyK2kwMuAaO4iWec8YKQO
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 3Fc24uTlqweogKgSaiymOM
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-11T13:42:20+00:00'
+    :created_at: '2017-07-28T22:04:28+00:00'
+    :id: 3Fc24uTlqweogKgSaiymOM
+  :title: Opportunities for Digital Health Vendors in the Pharmaceutical Industry
+  :slug: opportunities-for-digital-health-vendors-in-pharma
+  :pub_date: !ruby/object:DateTime 2017-07-31 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 538OyakPcc0eKKiyeccEwC
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Dr. Naomi Fried shared her ideas on the differences in innovation between
+    pharma and hospitals, and opportunities for digital health vendors in pharma.
+  :blog_lead: "Naomi Fried, PhD is a highly experienced thought leader in healthcare
+    innovation and digital health, with many years of innovation experience. Most
+    recently, as Biogen’s first VP of Innovation, Medical Information, and External
+    Partnerships, she led five functions that catalyzed innovation to support patients
+    and healthcare professionals. She developed the strategy for and led the “innovation
+    beyond the molecule” program to deliver non-pharmacological value to patients
+    and providers. \n\nIn our [July, 2017 podcast](https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/)
+    Travis Good, MD interviewed Dr. Fried, resulting in a lively chat about the differences
+    between the way pharma and hospital systems innovate, as well as the advantages
+    digital health vendors can tap when working with pharma. Here were a few key takeaways
+    from the podcast. "
+  :post: "\n> A whole world of opportunity exists for startups to bring new digital
+    ideas into the market. Digital health vendors should be seeking out pharma for
+    expertise and advice and working with providers to get to patient populations
+    and to bring these new ideas forward to us. - Dr. Naomi Fried, Founder and CEO,
+    [Health Innovation Strategies](http://www.healthinnovationstrategies.com/)\n\n##
+    Pharma companies are slower to innovate than hospitals \n\nInnovation centers
+    are prevalent throughout today’s healthcare ecosystem. But when innovation at
+    Pharma companies is compared to innovation at hospitals and large health systems,
+    hospitals cross the finish line first. “When it comes to testing and implementing
+    patient-facing innovations, particularly new digital health tools, I think providers
+    generally move more quickly,” says Fried. “They are closer to the patient, with
+    fewer regulatory barriers to navigate around. So they tend to be more likely to
+    jump in and try things. I’d say when it comes to [digital health innovation](https://datica.com/innovation/)
+    for patients, hospitals are probably actually a bit ahead of pharma.”\n\n## Digital
+    health vendors and pharma should partner\n\nInnovation in the pharmaceutical industry
+    is fueled by both internal development and the external development taking place
+    in digital health startups across the globe. The fastest path to innovation is
+    in the partnerships being developed between the two. “Digital health companies
+    usually have specialized domain knowledge,” Fried comments. “Tech-savvy, entrepreneurial
+    startups tend to have a consumer bent and are better at developing user experiences
+    and consumer-oriented solutions than large pharma companies.”\n\n> Digital health
+    startups generally move more quickly and often develop products in months rather
+    than years, and they can also make changes quickly and respond to feedback they
+    get.\n\nOn the flip side of the coin, pharma companies can help [digital health
+    vendors](https://datica.com/dhsf/) get past some of the healthcare-specific hurdles
+    to get their products to market faster. Fried explains, “Digital health startups
+    can leverage and learn from pharma's well-established processes around healthcare
+    industry-specific details. Those include things like CPT coding and thinking about
+    payer reimbursement. They don't have to reinvent the wheel or invest heavily in
+    developing regulatory expertise but really can look to a pharma partner who can
+    help them leapfrog to where they are going.”\n\n“Where startups lack the infrastructure
+    needed to reach customers and have trouble scaling up, this is something that
+    pharmaceutical companies have done well. So I think that teaming up with pharmaceutical
+    companies and tapping their extensive marketing infrastructures and distribution
+    channels can really help digital startups get traction, much faster than they
+    could if they were on their own.”\n\n## The three biggest opportunities for digital
+    health products\n\nDr. Fried describes three areas within digital health patient
+    care that improve value and have the potential to reduce costs.\n\n### 1. Medication
+    adherence\n\nMedication adherence has a big effect on outcomes and is supported
+    and driven by digital tools. “When patients are more compliant in taking their
+    medications, the stakeholders — doctors, pharmaceutical companies, and payers
+    — all benefit. I think medication adherence is one of the Holy Grails in healthcare.
+    Getting patients to take their medications at the right time, with the right dosage
+    for a condition can really save costs and improve patient outcomes,” explains
+    Fried.\n\n### 2. Digital diagnosis and prediction\n\nA cost savings to the system
+    and better outcomes for the patients make diagnosis and prediction technology
+    a winning opportunity for digital health vendors to explore.  Fried explains by
+    example, “Prophylactically taking medication that will avoid an asthma attack
+    may mean a patient takes more drugs at a certain time. But the net result is a
+    lower cost for the overall episode or even no episode at all, avoiding expenses
+    like a trip to the emergency department.”\n\n### 3. Digiceuticals\n\nThese are
+    digital therapies that treat a patient for a condition in addition to, or instead
+    of, a traditional pharmaceutical solution. Fried says, “They can either be complementary
+    to medication or they may even have the potential to substitute for medication.
+    An example of a complementary digiceutical would be a pain management app that
+    goes along with pain medication that a patient might take after surgery. This
+    could result in the patient needing less medication or healing more quickly. An
+    example of a substitute digiceutical is a treatment for attention deficit hyperactivity
+    disorder (ADHD). Kids could use these apps rather than taking a medication.”\n\n>
+    I think digiceuticals will clearly drive improved outcomes and lower the cost
+    of healthcare with digital health solutions that bring value in addition to medication.
+    I think that the complementary and synergistic effects of digital health with
+    medications are a net-win for patients, for pharma, and also for the payers.\n\nTune
+    in for the entire podcast, [Naomi Fried, PhD — How Digital Health Companies Can
+    Help Pharma Innovate Faster](https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate)
+    and don’t forget to subscribe to our podcast series to catch them all. \n\n\n"
+  :featured_image:
+    :id: 1mrrYIz0QMuo28oos4ECiU
+  :share_image:
+    :id: 22qK8QU8Y4qUyI2yUCSMw6
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 1ZZE1irrCgIgGgiaqsOykI
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:27:26+00:00'
+    :created_at: '2017-02-21T18:53:42+00:00'
+    :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :title: Connected Health Today and in the Future
+  :slug: connected-health-today-and-in-the-future
+  :pub_date: !ruby/object:DateTime 2017-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 3rO97bU0piC0CI0eOg6ksI
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  - :id: 2HUEayZgHmGoSYuAw4qcKO
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Healthcare's version of the Internet of Things is often referred to as
+    connected health. Explore Dr. Joe Kvedar's view on the state of connected health.
+  :blog_lead: The healthcare industry’s version of the Internet of Things (IOT) is
+    very often referred to as the [Internet of Health Things](https://datica.com/blog/the-health-internet-of-things-iot/)
+    or, more commonly, connected health. When most people talk about connected health,
+    they’re referring to the devices, wearables, apps, and other tools that track
+    an individual’s activity or aspects of their health. However, connected health
+    is much more than just a set of devices. As connected health becomes a reality
+    in today’s world, a new model of healthcare delivery is evolving with innovative
+    strategies to move care from the hospital or doctor’s office into the day-to-day
+    lives of people.
+  :post: "\nIn a recent Datica Healthcare Innovators Podcast, [Datica interviewed
+    Joe Kvedar, MD](https://datica.com/innovation/joseph-kvedar), Vice President,
+    Connected Health with Partners HealthCare. Last year, he wrote [“The Internet
+    of Healthy Things,”](http://theinternetofhealthythings.com/) which is packed with
+    real-world information that will help entrepreneurs, innovators, and investors
+    drive the disruption of healthcare delivery. Dr. Kvedar has long been a proponent
+    of personalization in healthcare and is known as one of the greatest HIT influencers
+    in our generation.\n\n>\"There are still some technology problems to be solved.
+    Chief among them is the ability to normalize the data from all of these wearable
+    sensors so that it makes sense.\" -Joe Kvedar, MD\n\n##The connected health journey\nSome
+    aspects of connected health are in play already today and we’re only likely a
+    few years away from reaping the full benefits of this connected health journey.
+    Dr. Kvedar described that journey unfolding in three major phases:\n\n1. **The
+    future is here today in terms of technology.** The majority of the technology
+    is ready for this connected, internet of healthy things world, but some roadblocks
+    prevent clinical providers from leveraging some of this new information. Dr. Kvedar
+    offers, “There are still some technology problems to be solved. Chief among them
+    is the ability to normalize the data from all of these wearable sensors so that
+    it makes sense.” With wearable technology such as a Fitbit, for example, we can
+    already measure steps and calories, but does that tell us a useful story? Dr.
+    Kvedar explains, “They don’t tell a story because no one has been able to translate
+    that data into something that is normalized. So that's a gap.”\n2. **Data analysis
+    will become more personal.** The second step in the connected health journey involves
+    the ability to take all those data feeds and analyze them effectively. “One thing
+    that is most exciting about those data feeds is that they do represent a unique
+    digital fingerprint for each of us, because we do those things all uniquely, whether
+    it is the way we travel with our phones, or our step counts.” Dr. Kvedar says.
+    “The next technical challenge is to be able to harness all of that data and create
+    a unique profile.”\n3. **Business engagement.** The final part of the connected
+    health journey is the engagement with the consumer to propel action, for example,
+    motivating them to make a healthier choice. This third level is just starting
+    to happen today despite both technical and business model hurdles, although Dr.
+    Kvedar says the business model hurdles are starting to break down. “For instance,
+    United Health Group now offers 100,000 insured people a smart wearable device.
+    If they achieve three kinds of fitness goals during a day, as measured by that
+    wearable device, they get $4.00 added into their health savings account.” \n\nSome
+    parts of the healthcare industry seem to embrace the connected health journey
+    faster than others. “Companies like Walgreens are embracing this idea of taking
+    in wearables’ data and giving consumers something back in return. They are all
+    seeing improved outcomes as a result,” comments Dr. Kvedar. On the other end of
+    the adoption scale are doctors and hospitals. “Docs and hospitals are used to
+    making a living by taking care of sick people and we haven't quite figured out
+    how to reward clinicians for keeping people well or how to reward hospitals for
+    keeping people out of hospitals.” Those business model challenges are happily
+    being worked on,” Kvedar explains.\n \n##Roadblocks to interoperability \nEven
+    though the technology is just about there to enable connected health for consumers,
+    there are still major industry changes that need to occur in the area of interoperability.
+    \ Dr. Kvedar described these biggest impediments to interoperability:\n \n- **Proprietary
+    technology.** Interoperability doesn’t seem to be in anybody’s financial best
+    interests. Take a look at technology vendors, for example. “If you are an IT vendor,
+    almost all of them, up and down the stack, whether it's  telecom all the way down
+    to database, or even hardware, all of them want to bring you in and upsell you
+    new things. They can only upsell you if they build barriers to others entering
+    their space, and that means that they are doing something proprietary to keep
+    you as a customer,” explains Dr. Kvedar.\n- **Fear of losing patients.** On the
+    hospital side of things, resistance to interoperability is primarily driven by
+    the fear of losing patients to competitive hospitals. Dr. Kvedar comments, “From
+    a pure business perspective, why would my hospital want to make it easy for patients
+    to take their data to another hospital and get their care done there? To implement
+    interoperability costs a lot of money. If there's no revenue reward or efficiency
+    award on the business side, why would you do it?” Dr. Kvedar sees one possible
+    way hospitals might get on board with interoperability. “The only way I could
+    conceive of having interoperability become the norm is to have a demand from government
+    purchasers that if you are going to be a government contract, you have to have
+    a certain set of open standards. I don’t know if that will happen under a Trump
+    administration, but they certainly are signaling that they wouldn't view the world
+    that way. So, I don't see it happening soon, unfortunately.”\n \n##Wearables and
+    chronic illness management prevention\nWith the data available to consumers wearing
+    health technology devices, the potential exists for not only managing chronic
+    illnesses but also helping to prevent them. Dr. Kvedar cites two important considerations:\n\n-
+    **Wearables provide a feedback loop.** “I like to talk about conditions that don't
+    result in symptoms, like high blood pressure, high blood sugar, high cholesterol,
+    visceral fat — all of those which portend bad outcomes down the line and don't
+    really, on a day-to-day basis, make you feel particularly poorly. In that context,
+    you can think about connected health as feedback loops and motivation.” Wearables
+    provide feedback loops since they are giving you data about your life. With a
+    Fitbit, for example, if you haven’t hit your step goal for the day, you may be
+    motivated to walk on a treadmill in the evening.\n- **Raw numbers don’t always
+    motivate a lifestyle change.** The other part of making feedback useable is motivation.
+    “It turns out there's a bit of paradox at play. A big part of our population doesn’t
+    care about numbers. They care about other things. So if you are not a quantitative
+    person, or you are not particularly motivated to change whatever the feedback
+    loop is sending your way, it quickly becomes background noise,” Dr. Kvedar explains.
+    That could be why the market for wearables is seeing a decline in activity.\n\nHe
+    continues, “The good news is that there's a crop of devices coming out now in
+    the wearables space that give insights rather than just numbers. One of them is
+    the Spire device that tracks respiration but doesn't tell you your respiratory
+    rate; it tells you whether you’ve been focused or stressed because we breathe
+    differently under different conditions.” We may see a rebound in the wearables
+    market as data becomes more meaningful to people with insights rather than just
+    numbers.\n \n##How does all this data into a clinician’s workflow?\nClinicians
+    today are inundated with data, most of it today within the EHR. Clinicians spend
+    too much time clicking, finding, charting, and checking boxes to document the
+    in-person encounters or manage a workflow. It’s hard to imagine connected health
+    data fitting within the clinician's already data-heavy process. Dr. Kvedar suggests
+    this particular journey will unfold in two steps: \n \n1. **The current state:**
+    Innovation practices exist but are not mainstream. Dr. Kvedar sees connected health
+    in play today, but primarily in medical homes. “We have quite a few examples of
+    that in our system, where we are heavily at risk and a lot of our primary care
+    practices are patient centers or medical homes as part of our population health
+    management structure. In those practices, there is someone whose responsibility
+    is the burden of hypertension, just for instance. We will provide that person
+    with a home monitoring for hypertension toolset for the patients that are either
+    difficult to control or newly diagnosed. In any given practice it is not enough
+    of a burden if this one person, typically a nurse and sometimes a pharmacist,
+    is assigned the burden of data. It isn’t high enough that they can't afford to
+    get their work done. They check in a couple of times a week and the software flags
+    the patients that are out of parameter and makes it a little bit easier to sort
+    through. Then they involve a doctor if it is a medication change or something
+    that really needs a doctor's input.”\n2. **The future state commands an AI layer.**
+    \ Most industries today are already using intelligent analysis software and data
+    science that creates meaning and actionable information from a vast state of data.
+    Dr. Kvedar describes how this might take shape in healthcare. “We are really at
+    the beginning of a new era. Let's say someone has high blood pressure and you've
+    been tracking their blood pressure for the last two months. We should be able
+    to give you a dashboard view that shows what blood pressures are normal when they
+    go up, why they go up. Do they go up at night? Do they go up during the day? Do
+    they go up after a meal? That would give you some real insight into how to care
+    for that patient.”\n\nDr. Kvedar cautions that seeing this all become a reality
+    with physicians is dependent on solving more than just the problems of data overload
+    and dashboards. Here are two other important dependencies to be aware of.\n\n>\"If
+    you call it decision support, maybe you can sell it. Artificial Intelligence sounds
+    scary.\" - Dr. Kvedar\n\n- **The timing of value-based reimbursement.** “We sort
+    of had a rhythm going under the Obama Administration. Will that change? Not sure.
+    Medicare has produced a plan that 50% of payments by two years from now will be
+    value-based. So they seem to be on that curve. Many plans are now doing this but
+    the rate is to be determined. As that happens, the reason we did medical home
+    across our system is because of value-based payments and it makes much more sense
+    in that context.”\n- **Physician resistance to the idea of AI.** “On the one hand,
+    we do this in the EMR with decision support. So if you call it decision support,
+    maybe you can sell it. Artificial Intelligence sounds scary. It sounds like you
+    are trying to take my job away from me, so I think it is how you frame it. And,
+    of course, there's the liability issue that goes along with that and how you convince
+    docs into a state where they are not afraid they are going to get sued because
+    there was a data point that they didn't see that didn't go right in the algorithm.”
+    \n\n##How far off is the future? \nDr. Kvedar concludes, “The pieces of connected
+    health are here today, but we still have to put them together. Some of that will
+    be technical. A lot of it will be business model. Some of it is even societal.”\n\nMake
+    sure to listen to the [complete podcast interview with Dr. Kvedar](https://datica.com/innovation/joseph-kvedar/)
+    for many more insights about connected health, including a look at telemedicine
+    and artificial intelligence."
+  :featured_image:
+    :id: 2k2LHgR8XaqKusSaUeeE0y
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: Vrmu0Devw2EqI4CmK8eWc
+  - :id: 5NH1yU9I1UaG6CEE62UM2o
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0

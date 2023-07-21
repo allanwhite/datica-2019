@@ -1,0 +1,105 @@
+---
+:id: 5XqrYj8bm0G8kGmMCCaYcA
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T22:39:21+00:00'
+  :created_at: '2016-11-23T22:18:33+00:00'
+  :id: 5XqrYj8bm0G8kGmMCCaYcA
+:title: Datica's Success as a HIPAA Compliant Business Associate
+:slug: daticas-success-as-a-hipaa-compliant-business-associate
+:pub_date: !ruby/object:DateTime 2015-07-22 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Nowadays in the healthcare industry everyone must be aware of their roles
+  in regards to data privacy and security because accountability risk from consumers,
+  moderators, officials, covered entities, and their business associates is higher
+  than ever before. Business associates, due to the HIPAA Final Rule, are now being
+  audited and held liable for enforcing and following privacy HIPAA regulations.
+:blog_lead: 'Nowadays in the healthcare industry everyone must be aware of their roles
+  in regards to data privacy and security because accountability risk from consumers,
+  moderators, officials, covered entities, and their business associates is higher
+  than ever before. Business associates, due to the HIPAA Final Rule, are now being
+  audited and held liable for enforcing and following privacy HIPAA regulations.
+
+'
+:post: "The Department of Health and Human Services’ Office for Civil Rights is conducting
+  these audits and, according to recent reports, business associates affected by a
+  data breach face average fine costs of $1 million. You read that correctly but let
+  me repeat to ensure clarity. Average of $1 million. With that said, no matter if
+  your business is massive or minor or how far segmented you feel from direct patient
+  care, responsibilities must be clarified on how to handle protected health information
+  (PHI) so you do not face these fines.\n\nBusiness associates have governed regulations
+  for the Privacy, Security, and Breach Notification Rules of HIPAA and the HITECH
+  Act. A [Business Associate Agreement](/academy/business-associate-agreements) states
+  and clarifies work with your covered entity, especially in regards to the Breach
+  Notification Rule (timeframe, context, and financial liability responsibilities).
+  And, as of last year, all covered entities are mandated to have these agreements
+  between their business associates and those business associates with their subcontractors,
+  and this will be one of the core criteria that auditors will be looking for in healthcare
+  organizations over the coming years.\n\n### So what does Datica do well as a business
+  associate and subcontractor?\nHIPAA requires three different safeguards for PHI
+  to be enacted, in addition to the business associate agreements. We feel we have
+  mastered these core safeguards as a business associate so our covered entities never
+  have to fear a breach on our ends. \n\n#### 1. Administrative\nThese safeguards
+  are inclusive of performing a risk analysis to understand what PHI you have, how
+  it is utilized, where it is vulnerable, and what potential impacts could be if exposed.
+  Policies and procedures should be founded from this risk analysis.\n\n#### 2. Technical\nThese
+  are integrated into your internal IT procedures and systems. These are inclusive
+  of ones that you have outsourced to vendors.\n\n#### 3. Physical\nThese will limit
+  access to PHI and data storage areas to solely authorized workers on a necessity
+  basis.\n\nIf you are a new or small organization, as many are, you most likely are
+  not a HIPAA expert or have one on your staff. In our opinion, the best place to
+  start is by performing a risk analysis and determine your weak points and concentrate
+  your efforts to cover those critical areas.\n\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

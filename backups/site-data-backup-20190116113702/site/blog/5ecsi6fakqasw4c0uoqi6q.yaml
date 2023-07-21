@@ -1,0 +1,641 @@
+---
+:id: 5EcsI6fAKQAsw4C0UoqI6Q
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-07-13T02:24:09+00:00'
+  :created_at: '2018-07-13T02:09:42+00:00'
+  :id: 5EcsI6fAKQAsw4C0UoqI6Q
+:title: Learn what it takes to be compliant on the cloud with our free self assessment
+:slug: take-compliance-self-assessment
+:pub_date: !ruby/object:DateTime 2018-07-12 00:00:00.000000000 Z
+:tags:
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 61YbI1qz4cwUkYse66ykMm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-03-20T22:23:27+00:00'
+    :created_at: '2017-04-08T01:14:13+00:00'
+    :id: 61YbI1qz4cwUkYse66ykMm
+  :tag_full: Cloud Computing
+  :slug: cloud-computing
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: The biggest barrier to a successful cloud compliance program is simply the
+  complexity of understanding everything. This new compliance self-assessment worksheet
+  will help.
+:blog_lead: 'We are asked daily questions around what it takes to be compliant on
+  the cloud. Sometimes it''s simple, like how long to retain PHI data for disaster
+  recovery (answer: it depends, but probably 90 days). Sometimes it''s complex, like
+  if the emergent serverless computing paradigm meets the requirements of global compliance
+  regimes (answer: it depends, but pull up a chair).'
+:post: |2
+
+  Consistently, the biggest barrier to a successful cloud compliance program is simply the complexity of understanding everything. This is really hard! But not because it's hard to understand, only hard to absorb all the information.
+
+  In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica.com/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica.com/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
+
+  ## The assessment is pretty straightforward:
+
+  * It is cut up into the three broadest layers of cloud technology with which we can advise—the physical layer, the operating system layer, and the administrative layer. Consider these the main layers to think about abstracted cloud services.
+  * Within the layers, we itemized general considerations, like network encryption or access control lists. The items are somewhere between the granularity of an official risk management framework and an understated bulleted list. Broad enough to not cause your eyes to bleed from the legalese, but concise enough to accurately describe the consideration.
+  * Along with the item we offer a quick binary assessment, to which a simple Yes or No answer will guide you to understanding if you have more research to do.
+
+  For those who are not experts, and are trying to wrap their head around what it takes to be compliant on the cloud, will find the tool useful. Let us know what you think!
+
+  Get the [HIPAA & HITRUST Compliance Self Assesssment Worksheet here](https://content.datica.com/hipaa-hitrust-self-assessment).
+:featured_image:
+  :title: blog-self-assessment-featured
+  :description: Self assessment article featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/2ynfPi2vdaUWY6yAkGu4c2/77cba49e134d5a8ab17805ea1de66fe2/blog-self-assessment-featured.jpg"
+  :_meta:
+    :updated_at: '2018-07-13T02:15:53+00:00'
+    :created_at: '2018-07-13T02:15:53+00:00'
+    :id: 2ynfPi2vdaUWY6yAkGu4c2
+:share_image:
+  :title: blog-self-assessment-share
+  :description: Self assessment article share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/2GR4lRzHtKSMWgcGEwAy0u/ed4c9314b9ea42b496f97db7731d36be/blog-self-assessment-share.jpg"
+  :_meta:
+    :updated_at: '2018-07-13T02:16:23+00:00'
+    :created_at: '2018-07-13T02:16:23+00:00'
+    :id: 2GR4lRzHtKSMWgcGEwAy0u
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 4JnlCCI6bmImGWMeygEUQw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2019-01-10T23:15:32+00:00'
+    :created_at: '2018-07-02T22:23:10+00:00'
+    :id: 4JnlCCI6bmImGWMeygEUQw
+  :title: 'Best Practices are Best Practices: How Datica Handles Global Compliance'
+  :slug: best-practices-are-best-practices-how-datica-handles-global-compliance
+  :pub_date: !ruby/object:DateTime 2018-07-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 46srurONA4UMuqge4Eek4S
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'Datica''s ability to serve international compliance regimes stems from
+    a philosophy exemplified by HITRUST: one framework, many regimes. Read about our
+    global compliance posture.'
+  :blog_lead: 'Datica''s compliance roots start in healthcare with HIPAA, a regulatory
+    framework found in one of the most conservative industries in the world. For much
+    of our early years, we were healthcare-only, consistently providing the best [HIPAA
+    compliance](https://datica.com/discover/hipaa-compliance/) management option on
+    top of the public cloud.
+
+'
+  :post: |2
+
+    ## Best practices are best practices
+
+    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica.com/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
+
+    The nearly year-long exercise was a catalyst for our compliance team to innovate on how we could be bigger than just GDPR. We took a look at compliance holistically, and globally, to come up with a strategy that will allow us to better serve customers across industries and geographies.
+
+    The result is simplified with a phrase we use internally: _Best Practices are Best Practices_.
+
+    ## The Datica global compliance roadmap
+
+    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica.com/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
+
+    HITRUST has done a great job of aiming for big goals. With version 9.1 of the CSF, we believe there are few better options for the most stringent and comprehensive compliance auditing framework on the cloud. The HITRUST CSF is our DNA framework.
+
+    By using HITRUST, we will crosswalk the CSF to other geographies and compliance regimes, thus accelerating our ability to support compliance attestations in those areas. Certainly unique considerations will exist in respective geographies before we can officially support compliant deployments of the Datica Platform in a country, but the CSF will get us almost all the way there in all cases.
+
+    As has been the drumbeat since [Datica's founding in 2013](https://datica.com/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
+
+    <img class="lozad group" data-src="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=600" data-srcset="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=800 1000w, //images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png 1200w" alt="global compliance stance table" />
+
+    The table is simple:
+
+    * We list geographies and certain regimes that matter in those geographies.
+    * One column states if that regime is currently supported by the platform.
+    * Another column states if we have plans to support it someday.
+    * And lastly, for those we plan to support, we give a broad estimation to when the HITRUST crosswalk will be done along with any additional specific requirements for the respective regime.
+
+    This table will be updated a lot throughout 2018 as we test our compliance posture against new regimes.
+
+    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica.com/cloud-compliance/global/) page of our website.
+
+    In short, we plan to take HITRUST global to both geographies and regimes that we haven't previously supported. We want to be the best compliance management option for cloud native applications across the world.
+  :featured_image:
+    :id: 6M3Zvt8WlOUsY4mSAAIESk
+  :share_image:
+    :id: QNFeeoIWceYQI0Ko8gI8O
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 6hcZMUL5qoc0SyssOiUMCi
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:48:55+00:00'
+    :created_at: '2017-11-29T21:35:56+00:00'
+    :id: 6hcZMUL5qoc0SyssOiUMCi
+  :title: AWS Fargate and HIPAA Compliant Containers
+  :slug: aws-fargate-and-hipaa-compliant-containers
+  :pub_date: !ruby/object:DateTime 2017-11-29 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Day 3 of re:Invent kicked off with AWS CEO, Andy Jassy, announcing Fargate
+    among a slew of new AWS services. Can you tell we''re excited about Fargate?
+
+'
+  :blog_lead: The third day of AWS re:Invent was kicked off this morning with Andy
+    Jassy, CEO of Amazon Web Services, announcing a slew of [new AWS services](https://aws.amazon.com/new/reinvent/).
+    One such service that has us excited is Fargate.
+  :post: "As Randall Hunt put it in a [company blog post](https://aws.amazon.com/blogs/aws/aws-fargate/)
+    announcing the new service: \n\n> AWS Fargate is an easy way to deploy your containers
+    on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual
+    machine you get a container. It’s a technology that allows you to use containers
+    as a fundamental compute primitive without having to manage the underlying instances.\"\n\nWe've
+    seen an incredible increase in container adoption over the last couple of years.
+    Datica has been a huge proponent of containerization technology since our founding.
+    We use Docker in production on a daily basis to deliver HIPAA compliant environments
+    to thousands of users. We even built our own orchestration layer in 2014, one
+    year before [Kubernetes 1.0](https://cloudplatform.googleblog.com/2015/07/Kubernetes-V1-Released.html)
+    was released. To say we're bought into the concept of containers would be a massive
+    understatement.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\"
+    dir=\"ltr\">No longer any need to manage servers and clusters for your containers
+    - AWS Fargate - Run ECS and EKS without managing servers <a href=\"https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw\">#reInvent</a>
+    <a href=\"https://t.co/oPsXdvrSAL\">https://t.co/oPsXdvrSAL</a> <a href=\"https://t.co/lZnS558CXV\">pic.twitter.com/lZnS558CXV</a></p>&mdash;
+    AWS re:Invent (@AWSreInvent) <a href=\"https://twitter.com/AWSreInvent/status/935910336212844544?ref_src=twsrc%5Etfw\">November
+    29, 2017</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\"
+    charset=\"utf-8\"></script>\n\nIt's because of our long history of containerization
+    support that we're excited about AWS Fargate. However, that excitement isn't without
+    reservation. As is the case with most new technology, compliance and security
+    pose great barriers to adoption. We're deeply aware of these barriers at Datica.
+    [The Datica Platform](https://datica.com/platform/) was designed to address the
+    complexities of compliance and security specific to the healthcare industry. The
+    fact is, understanding compliance is difficult enough. That difficulty is exasperated
+    exponentially when it comes time to not only implement that understanding through
+    policy, but prove compliance beyond a reasonable doubt to auditors.\n\nOur primary
+    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    Because we [sign a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    with both AWS and our customers, we cannot guarantee full-stack compliance against
+    a service that is not scoped within the BAA that we sign with AWS. This means
+    our customers in the healthcare industry cannot take advantage of such a service.\n\nLuckily,
+    we've been working on a Docker-based deployment feature for the better part of
+    the last quarter. By working directly with our customers on improving our deployment
+    process, we're approaching a limited release of Datica BYOD (bring your own docker).
+    BYOD will give users the ability to deploy docker containers directly on the platform.
+    No longer will deployments be restricted to the `git push` model. In the future—once
+    it becomes HIPAA eligible—we plan to take complete advantage of AWS Fargate. Until
+    then, we're confident BYOD will provide an excellent deployment experience for
+    our customers.\n\nBYOD will be released into limited availability in December,
+    2017. We're selectively working with existing customers to test these new features.
+    If you're interested in participating, please reach out to me at [ryan@datica.com](mailto:ryan@datica.com),
+    and if you're at AWS re:Invent stop by booth #519 to chat with us about Fargate
+    and containerization!\n\n\n"
+  :featured_image:
+    :id: 1girbRNRDi0Kg6WmQWskUU
+  :share_image:
+    :id: DLgFmRN1BYimUEiemkGik
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 4QDw13xznycmAwm26KSgGU
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 3VMljZKhTquyQC46sao4mA
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:08:42+00:00'
+    :created_at: '2016-11-23T06:51:35+00:00'
+    :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :title: What does it take to be a 100% HIPAA compliant cloud company?
+  :slug: what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company
+  :pub_date: !ruby/object:DateTime 2017-07-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Datica has spent extensive time and money on security and organizational
+    policies and procedures specifically to comply with HIPAA and share with our customers.
+  :blog_lead: The short answer to that question is, not surprisingly, **it takes A
+    LOT of time, energy, and money to be 100% HIPAA compliant**. At Datica, we're
+    focused on security and HIPAA compliance. It's a differentiator and we aren't
+    reaching when we say *[It's in our DNA](https://datica.com/platform/compliance/)*,
+    referring to HIPAA compliance. Because of that focus, we have a lot of [resources
+    for compliance](https://datica.com/discover/hipaa-compliance/). That translates
+    to a lot of time and money on security and organizational policies and procedures
+    specifically to comply with HIPAA.
+  :post: "\nWe recently completed our 3rd external [HITRUST audit](https://datica.com/blog/5-steps-to-hitrust-csf-certification/)
+    along with an internal SOC 2 audit. The HITRUST audits were performed by [Coalfire
+    Systems](https://datica.com/platform/compliance/), a large national 3rd party
+    auditor. The results of that audit and assessment can be boiled down to this badge
+    that our customers can post to their own websites.\n\n<a href=\"https://datica.com/platform/compliance?utm_source=customerbadge\"><img
+    class=\"float-right\" title=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"
+    src=\"https://datica.com/public/img/customer-badges/datica-compliance-badge-dark-@2x.png\"
+    width=\"220\" alt=\"HIPAA Compliant HITRUST CSF Infrastructure by Datica\"></a>\n\nThe
+    truth is it took a lot of time and effort to get here, and we learned way more
+    about HIPAA and security than we ever expected. We did not outsource any of our
+    compliance work because it is core to what we do. All of our policies and procedures
+    are written, reviewed, and maintained in house, just like our code; policies are
+    reviewed, using a similar pull request process that we use for our code review,
+    as well as by external auditors, but our policies are owned wholly by Datica.
+    Below are some high level things we've learned.\n\n## Information security \n\nThis,
+    and policies below, are the most obvious parts of HIPAA. Our technology is built
+    from the ground up to be secure and expose data only when access is specifically
+    granted, never by default. Starting with a minimum access standard is hard when
+    you are trying to build a flexible cloud platform for developers but we think
+    we've accomplished combining simplicity, security, and flexibility.\n\nAs part
+    of Datica’s risk management program, we review the SOC 2 reports of AWS, Azure,
+    Rackspace, and all other suppliers of services that involve ePHI. In turn, our
+    customers should evaluate us as part of their program by reviewing Datica's compliance
+    documents, specifically the HITRUST and SOC 2 reports. These reports confirm our
+    risk management program as outlined in the [Risk Management section](https://policy.datica.com/#4.-risk-management-policy)
+    of our compliance policy.\n\nThere are countless innovative and powerful things
+    we do to maintain the integrity, privacy, and security of data on Datica and we
+    make it a point to [open-source](https://github.com/daticahealth) those with our
+    customers and the cloud community as a whole.\n\n## Policies \n\nSpeaking of policies,
+    we have a lot of policies and I don't think we fully expected to spend so much
+    time developing and refining them. The last time I checked we had about 26,000
+    words worth of policies, including our BAA. You can look at our [policies here](https://policy.datica.com).\n\nAll
+    of our policies are written in Markdown and we use Github for version control.
+    Our [policies are open sourced](https://github.com/daticahealth) in hopes that
+    others can use them to simplify their lives.\n\n## Procedures for HIPAA compliance\n\nPolicies
+    are the easy part compared to procedures. Policies dictate the procedures that
+    are required to adhere to those policies. Procedures are the processes that define
+    specifically how we operate at Datica. Procedures can make for tedious work, especially
+    when it comes to HIPAA compliance where documentation is essential at pretty much
+    all everything. We did not anticipate how many procedures we'd need to put into
+    place but we've been creative in their application and it's let us remain agile
+    within a highly regulated industry.\n\n## Forms and tracking for HIPAA\n\nTightly
+    tied to procedures above are the number of forms and the amount of tracking that
+    we do. As an example, when you create a policy for [system access](https://policy.datica.com/#system-access-policy),
+    you need a way to track requests and access grants to various systems and data.
+    This is one of many examples, including changes to our infrastructure, firewall
+    rules, etc. We lean heavily on JIRA Issues and tracking for this, and find them
+    to be very effective. When we were going through our HIPAA audits and our HITRUST
+    audit, this was a very easy way for us to show evidence of following policies
+    and procedures.\n\n## HIPAA Training \n\nPart of the HIPAA requirements are that
+    all workforce members (employees and contractors) have training on HIPAA. We looked
+    at the available training options and felt that the majority were created for
+    covered entities, people that handle paper records, and people that work with
+    patients. We decided those had zero value to our employees so we wrote our own
+    [HIPAA introductory training](https://training.datica.com). All new employees
+    at Datica complete this training. We also do regular demonstrations that cover
+    topics related to security, privacy, and health industry trends for all Datica
+    team members.\n\n## BAAs for new technologies\n\nAt Datica we don't have ready
+    access to any ePHI, but we do store sensitive information and support our customers
+    with their applications. As such, we made the decision early on to either own
+    and manage systems that store sensitive information or work with companies that
+    will sign BAAs with us. \n\nWe took all of these steps, dedication all of these
+    resources, and spent all of these resources because operating as a business associate,
+    with all organization and admin requirements met, sets us apart from everybody
+    else in the compliant infrastructure business. We don't just sign business associate
+    agreements (BAAs) and secure our infrastructure, we comply with HIPAA to the full
+    extent of the rules. It gives us additional insight into our customers' needs
+    and keeps us intimately close to the problem we are solving. It is also extremely
+    valuable to our customers when they work with compliance offices and point to
+    our audit reports and [guides](https://datica.com/academy/).\n\nWhen you decide
+    to go down the path of hosting your application in a HIPAA compliant cloud, we
+    encourage you to spend time digging deeper than sales and into how the offerings
+    and organizations available to you differ in approaches to HIPAA, and which are
+    really solving your problem vs selling you a [checkbox for a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements).
+    If you have a question about about compliance at Datica, please [email us](mailto:hello@datica.com)
+    and we'll be happy to tell you everything we've learned and why we're so proactive
+    about compliance and transparency.\n"
+  :featured_image:
+    :id: 3jP6hT3epWGiUm2sMYisWs
+  :share_image:
+    :id: 69NetSGxNeYSgEc2s20MYW
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

@@ -1,0 +1,476 @@
+---
+:id: laQiWFJ2X6W0wUIiYYS0q
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-04-17T16:49:25+00:00'
+  :created_at: '2017-03-02T20:55:47+00:00'
+  :id: laQiWFJ2X6W0wUIiYYS0q
+:title: Visions of the Future of Digital Health at HIMSS 2017
+:slug: visions-of-the-future-of-digital-health-at-himss-2017
+:pub_date: !ruby/object:DateTime 2017-03-02 00:00:00.000000000 Z
+:tags:
+- :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-01-27T22:19:21+00:00'
+    :created_at: '2017-01-27T22:19:21+00:00'
+    :id: Ume5Bm00iAqQQ0s4E2Gs2
+  :tag_full: CMIO
+  :slug: cmio
+  :description: Chief Medical Information Officer
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+:categories_blog: healthcare
+:author:
+  :id: 7aMAu7W6K4M8S0eCuIyCCM
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-06-14T20:46:07+00:00'
+    :created_at: '2016-08-15T23:04:20+00:00'
+    :id: 7aMAu7W6K4M8S0eCuIyCCM
+  :fullname: Casey Bryson
+  :slug: casey
+  :person_type: Datica Alumni
+  :role: Chief Strategy Officer
+  :profile_pic:
+    :id: 1BTpFkuL6sWISSyiUukICo
+  :featured_image:
+    :id: s4tflKJc2WW6Gy22iwUg0
+  :email: casey@catalyze.io
+  :bio_short: |-
+    In his role at Datica, Casey helps organizations meet the demand of healthcare transformation through innovation and collaboration. Prior to joining Datica, Casey worked at Epic Systems for 10 years and managed active implementation projects for healthcare systems moving to Epic. When Epic began offering software hosting, he transferred to the Hosting team to organize, lead, and manage the effort. Casey oversaw the on-boarding process for all customers and managed the timeline-critical projects to support those customers including network circuit provisioning, HIPAA and SOC2 compliance, the creation of a network operations centers, hardware sizing and deployment, and the deployment of all Epic and third party software within the data centers.
+
+    He holds a B.S. in Business Administration with an emphasis in Marketing and Economics from University of Missouri.
+  :bio: |-
+    In his role at Datica, Casey helps organizations meet the demand of healthcare transformation through innovation and collaboration. Prior to joining Datica, Casey worked at Epic Systems for 10 years and managed active implementation projects for healthcare systems moving to Epic. When Epic began offering software hosting, he transferred to the Hosting team to organize, lead, and manage the effort. Casey oversaw the on-boarding process for all customers and managed the timeline-critical projects to support those customers including network circuit provisioning, HIPAA and SOC2 compliance, the creation of a network operations centers, hardware sizing and deployment, and the deployment of all Epic and third party software within the data centers.
+
+    He holds a B.S. in Business Administration with an emphasis in Marketing and Economics from University of Missouri.
+  :profile_linkedin: caseybrysoninnovates
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: 'Casey Bryson shares visions of healthcare''s digital future from HIMSS
+  2017, including applications that scale and integrate with EHRs at lightning speed. '
+:blog_lead: "I am a visionary. I do not consider myself an entrepreneur. The team
+  that surrounds me, my colleagues at Datica and our company advisors, build my entrepreneurial
+  skills with each day that passes. \n "
+:post: "At [HIMSS 2017](http://www.himssconference.org/), I surrounded myself with
+  visionaries. I met with leaders of technology companies and healthcare providers.
+  We shared our visions for the future of our industry and our conversations fuel
+  how we build and execute our strategies. Most discussions focused on the forces
+  pushing our industry to adopt SaaS solutions for digital health that improve patient
+  outcomes, deliver excellent customer service, and create new models of care. The
+  future vision includes applications that scale and integrate with EHRs at lightning
+  speed. One quote I overheard said it best:\n\n> “We will be able to snap solutions
+  on and off quickly to prove the concept and to find speed to value.”\n \nAs I reflect
+  on my time on the exhibit hall floor at HIMSS it is clear that our industry’s digital
+  culture is hyper-focused on the speed of innovation. For these visionaries, the
+  future is very close. For other visionaries that don't share this focus, the future
+  may be a frightening place.\n \nI got my start in HIT by installing [Health Information
+  Management (HIM) software](https://en.wikipedia.org/wiki/Health_information_management).
+  I worked with HIM professionals across the country to define, produce, and protect
+  the sanctity of the legal medical record. As I had a break in my schedule I decided
+  to pop into an educational session led by an HIM director who I had met in my previous
+  life. The topic was information governance; an enterprise, top-down approach to
+  hard cost savings tied to managing information as a critical asset. [As AHIMA states](http://www.ahima.org/topics/infogovernance/igbasics),
+  \n\n> “IG serves the dual purpose of optimizing the ability to extract clinical
+  and business value from healthcare information while simultaneously meeting compliance
+  needs and mitigating risk.”  \n\n## My vision for the future has been enhanced\n
+  \nThe future of digital health must include information governance. It starts with
+  process and a line of questioning but many questions should be eliminated by a standard
+  approach by information technology. \n\n- What does this application do? \n- Does
+  it integrate with my EHR? \n- Does the vendor manage patient identity or encounter/contact
+  moves?\n- How do I process data corrections? \n- How do I limit the risk of e-discovery?
+  \n- Is this data part of our Legal Medical Record or Designated Record Set? \n-
+  How will I manage all of these questions as the speed of digital health and departmental
+  applications become more of a reality?\n\nThe core of Datica’s mission is to help
+  our clients do what they do, better, by eliminating barriers to digital adoption.
+  If your desire is speed to value, IT and HIM have to work in harmony.\n \nMy vision
+  for the future of digital health includes IT systems being armed with a partner
+  to manage backups, encryption, patient identity, data retention policies, and focus
+  on data integration from the need to drive workflow and to support the production
+  of the record. \n\nI may not be an entrepreneur historically but my team has taught
+  me that you have to focus on your core competencies to arrive at greatness, otherwise,
+  you will end up being mediocre at everything. If you’d like to discuss health information
+  management as we move toward a digital environment, drop me a line at Casey@datica.com\n
+  \n*Datica provides a HIPAA compliant and HITRUST certified platform for application
+  hosting, development, and data storage and integration. Watch our video below to
+  learn more about how we partner with health systems and hospitals.*\n\n---\n\n_Video:
+  Listen to Casey Bryson describe Datica's Strategic Services._\n\n[![Strategic-Services-Q&A-video-poster-casey](//images.contentful.com/189dvqdsjh46/3INcKQNu9OAY2UkYGEegWO/8eea3c41c34d505fb6d86e91c3416da9/Strategic-Services-Q_A-video-poster-casey.jpg)](https://datica.com/strategic-services/
+  \"Strategic Services\")"
+:featured_image:
+  :title: blog-casey-on-himss17-poster-@2x
+  :description: blog, poster, featured, casey, people, himss, future
+  :url: "//images.ctfassets.net/189dvqdsjh46/3mCOCvSpVYyU2GcSOAwU6c/4c3fb7181c5cbc80166dff28728b5e1f/blog-casey-on-himss17-poster-_2x.jpg"
+  :_meta:
+    :updated_at: '2017-03-02T20:22:59+00:00'
+    :created_at: '2017-03-02T20:22:59+00:00'
+    :id: 3mCOCvSpVYyU2GcSOAwU6c
+:cta_ref:
+  :id: 64Hk6hz0aW2iik2IS8UqCK
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2017-05-10T00:39:12+00:00'
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :cta_title: 'The Heart of Medicine: Transformation Through Technology'
+  :cta_desc: 'Get your copy of the Spring 2017 Quarterly Report for a host of expansive,
+    useful, and leading-edge insights from our industry and world. '
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/heart-of-medicine-report-spring-2017/
+  :cta_image:
+    :id: 5bJ5SbDF9umaQsUGmIKyCa
+  :cta_color: gray-light
+:related_entries:
+- :id: 3kabC1VofumgW6owKmIkqG
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:03+00:00'
+    :created_at: '2017-02-24T22:33:57+00:00'
+    :id: 3kabC1VofumgW6owKmIkqG
+  :title: 'Reflections on HIMSS 2017: Same Same, but Different'
+  :slug: reflections-on-himss-2017-same-same-but-different
+  :pub_date: !ruby/object:DateTime 2017-02-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The buzz at HIMSS 2017: analytics, machine learning, AI, cyber-security,
+    patient-centered care, and open data were a few themes we saw this year.'
+  :blog_lead: "[HIMSS 2017](http://www.himssconference.org/) is done. It’s time for
+    the outpouring of commentaries on the event. And, amazingly, it’s already time
+    to be thinking about next year if you’re an exhibitor. I realize the big companies
+    do this but, at Datica, we too are planning and already booked our booth for next
+    year. Thankfully we got a good booth space on the top floor and not in the basement
+    (Vegas needs 2 levels to support HIMSS whereas Orlando only needs one massive
+    level)."
+  :post: "\n## Major Themes\n\nYou could have predicted these going into the event
+    based on the sessions and promotional material.\n\n- **Analytics / machine learning
+    / AI**. If I was to only pick one theme this year, this would be it. From Watson
+    to Health Catalyst to the population health offerings of pretty much every EHR
+    vendor, some form of analytics was woven into everything this year. Like patient
+    engagement, a recurring HIMSS theme, [data analytics](https://datica.com/blog/3-benefits-of-accessible-big-data-analytics/)
+    is seen as a major part of the future of care. Analytics does hold amazing potential
+    but, like patient engagement, health systems need to develop strategies for how
+    and where to use analytics if they are going to be successful. Analytics for analytics
+    sake won’t help. Understanding the problems to solve or questions to answer with
+    analytics is the key first step.\n- **Cybersecurity**. As more and more traditional
+    health data goes digital, and more and more digital health data is generated by
+    sensors and apps, cybersecurity is becoming a bigger topic. More health data flowing
+    into more places means more financial risk of a [data breach](https://datica.com/academy/hipaa-and-data-breaches/).
+    Cybersecurity is an essential part of digital health, just like cloud is an essential
+    part of digital health. This should be a recurring theme of HIMSS as the next
+    10 years are going to be defined by healthcare moving data between new technologies
+    and between new partnerships.\n- **Patient-centered care**. This is the one I
+    wasn’t sure if I should include because I feel like some variation of this has
+    been a recurring theme. I guess being a constant theme still makes it a theme.
+    The idea of [patient centricity](https://datica.com/blog/the-cmio-role-in-the-era-of-value-based-care/),
+    maybe because it has been a constant theme, is starting to mature. Services need
+    to be centered on patients, and many of those services will be technology driven.
+    The reason for services need to be patient-centered is 1) that’s what patients
+    expect today and 2) that is what providers, payors, and life sciences need to
+    do to compete for patients, members, and customers. I think we’ve swung back from
+    the days when we thought B2C, or going direct to consumer, would work across most
+    patient populations. Groups like Healthgrades still own a lot of consumer health
+    traffic but integrating those consumer tools with providers and more formal care
+    is also a part of patient centricity. \n- **Open data**. This one definitely isn’t
+    new. I remember hearing [Todd Park beating the drum about *data liberación*](http://healthstandards.com/blog/2015/06/23/data-liberacion/)
+    back in 2011. It only took three more years for most EHR vendors to start to get
+    behind a new standard called FHIR and another three or so years, until today,
+    when EHRs are ready to expose data via FHIR. I’m bullish on FHIR as a potential
+    data standard but highly skeptical of FHIR as a path to open data and innovation.
+    We have projects like Argonaut driving towards new ways to use FHIR so we’ll have
+    to wait and see how those develop. The overwhelming sentiment around open data
+    is that access to data, ideally in a trusted and consistent bi-directional way,
+    is the only way to build the technology ecosystem that’s needed to put patients
+    at the center of care and start to drive towards the [triple aim].\n\n## Same
+    same, but different\n\nThere’s a saying I first heard in Thailand and use from
+    time to time - [*same same but different*](https://en.wikipedia.org/wiki/Tinglish).
+    I think it pretty accurately describes my impression of HIMSS 2017.\n\nStepping
+    back, looking at HIMSS as a whole, it felt like we had simply transported all
+    the infrastructure and logistics from Vegas in 2016 to Orlando in 2017. It didn’t
+    really feel too [much different from HIMSS 2015](https://datica.com/blog/himss-2015-recap/),
+    for that matter. [HIStalkapalooza](https://datica.com/blog/visit-the-datica-vip-area-at-histalkapalooza-2017/)
+    happened. The Athena party happened. Lots of bankers parties with better food
+    and drink options. Uber didn’t work well. Restaurants were full all the time.
+    Epic, Cerner, Athena and a few others still had the largest booths. Yeah, it felt
+    like HIMSS.\n\nBut then, in other ways, it felt very different from previous years.
+    The impression I got, on a consistent basis, is that people are burned out on
+    the status quo. People are tired of HIMSS being the same year after year. People
+    are tired of \"doing things to check boxes\", a reference to buying EHRs to get
+    money from Meaningful Use, and \"want to really start making things happen\".
+    These quotes are from people at large health systems, people in the same roles
+    that would have said something like \"Epic is going to do that\" when asked about
+    patient engagement or population health or pretty much anything health IT just
+    a few years ago. These are decision makers at the core of the health IT industry
+    and not just startups and investors. The tide has very clearly turned in the industry.\n\nThis
+    is exciting! It will take time to see how quickly this sea change practically
+    takes hold and we start to see more and more digital health technologies adopted
+    and scaled at health systems. But, the process is starting and big systems are
+    developing strategies and processes for the next 3-5 years. And, maybe the most
+    shocking part, especially compared to several years ago, is that health systems
+    are looking outside their EHR vendors for the future of health IT.\n\n*Want to
+    learn more about the trends in healthcare? Take a look at the [7 Biggest Ideas
+    ebook](https://datica.com/innovation/2015/) for inspirations from our innovators
+    podcast series.*\n\n\n"
+  :featured_image:
+    :id: 6l7x9mycV2K66sSeIUYaIW
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+- :id: 3lTZSm4ETCQOAuCg22g8Wk
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-02-16T17:20:17+00:00'
+    :created_at: '2017-01-27T22:09:48+00:00'
+    :id: 3lTZSm4ETCQOAuCg22g8Wk
+  :title: 'Luis Saldana, MD: on the Evolving Role of the Hospital CMIO in 2017'
+  :slug: luis-saldana
+  :pub_date: !ruby/object:DateTime 2017-01-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 2fj1jK1yC0CQuAUIQYIaeo
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :guest:
+    :id: 1ABOdrZEHaWS0qiAquqKmE
+  :soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303056955&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  :summary: The role of the hospital chief medical information officer (CMIO) is evolving.
+    As we begin 2017, healthcare organizations nationwide will be tapping their CMIOs
+    to provide strategies around MACRA, MIPS, physician satisfaction and more. In
+    this latest podcast, Texas Health Resources CMIO Luis Saldana, MD shares his top
+    priorities for 2017 and how those will affect the overall healthcare delivery
+    for his organization. Dr. Saldana expands on the CMIO role and how it is expanding.
+  :key_takeaways: |-
+    1. Learn about the CMIO role and how it differs from the CIO within a healthcare organization.
+    2. Discover ways to gauge physician satisfaction
+    3. Hear how THR has tapped colleagues for workflow knowledge around the EHR
+    4. Explore the steps THR is taking in their post-EHR journey to optimize their investment
+  :post: |-
+    **On the CMIO role at Texas Health Resources (THR):** “While [the] EHR platform was our initial impetus for hiring a CMIO, we've seen that with digitalization of healthcare that it goes far beyond that. All the systems that touch that platform, or even touch our clinicians are all things that our Chief Medical Information Officer can have influence over.”
+
+    **On gauging physician satisfaction with the EHR:**  “One of the reasons we were successful is that we went into our electronic health record journey and were thorough about measurement. With that, one of those metrics included physician satisfaction, so annually we survey our physicians, and survey them around satisfaction with informatics.”
+
+    **On optimizing the EHR:** “When we started we didn't fully enable the system for its full impact and functionality. We often have to go back to do that and work closely with our vendor and with other organizations to say: How did you do this? I think we don't have the best answers on all of the optimization, but we have a wealth of connections and a lot of folks that have done good things in different areas.”
+
+    **On how THR approaches MACRA and MIPS:**  “We treat this much like we treated Meaningful Use in terms of looking at it as “this is a quality program.” It needs to have multi area representation. It's not all technology; it's not all clinical. It really involves collaboration, so for that, we put together a steering team and we will probably do the exact same thing for MACRA, as well.”
+    “A big part of this is if you've done Meaningful Use well, you will be well prepared for MACRA. It's [determined by] how you organize as to whether you are successful or not.”
+
+    **On whether the CMIO role is more clinical or technical:**  “I'd say it is bridge between the clinical and the technical. I think one of the things that we see now is that we are in a constant state of change in healthcare, which is obviously disconcerting.”
+
+    **On the CMIO role as a gatekeeper:** “I think there are a million great ideas for technologies but we have to look at it and say, ‘How are our clinicians going to use this technology? Is this something that is going to make them more effective, efficient? Or, is it something that they're going to have to deal with a tremendous amount of change and that's just going to overburden them and we don't need to go there at this point.’”
+
+    “They may not have the change readiness to take that on. It may be a great idea, a great technology; that's important. Having the organizational, clinical barometer is important for a CMIO. Then you can be the voice on both sides to say whether something is good for our organization or not, in terms of technologies.”
+
+    **On the top 2017 priorities for the CMIO role:** “If we are successful at doing the things in terms of creating the platform that engages our patients and our providers, and deliver the best care for them, that's the ultimate goal.”
+- :id: 6nHPQ99C1y068q2kuE6gWC
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-07T22:44:15+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 6nHPQ99C1y068q2kuE6gWC
+  :title: '2017 Healthcare Trends Part 1: The Rise of Patient as Consumer'
+  :slug: 2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer
+  :pub_date: !ruby/object:DateTime 2017-01-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: This is the 1st of a 4-part series about high-level healthcare trends
+    creating turmoil and uncertainty along with new opportunities in 2017 and beyond.
+  :blog_lead: "There's often a buzz of recap news stories at the end of each year
+    followed by a flurry of predictions posts for the coming new year. We've done
+    this [before](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+    in a few different ways at Datica. The prediction posts are usually specific and
+    often wrong in that specificity. For 2017 I'm going to do things differently.\n\n"
+  :post: |
+    Over the course of the next few weeks, I'll present four high-level trends that follow the broad directional shifts driving healthcare in 2017 and beyond. These overarching trends are creating turmoil and uncertainty, new problems across all sectors of the industry, and opportunities for new solutions to help address uncertainty and new problems. Here's the 2017 healthcare trend #1.
+
+    ## Walgreens, payors, life sciences, subscription medicine and the rise of the patient as consumer
+
+    > "Businesses are no longer the sole creator of a brand; it is co-created by consumers through shared experiences and defined by the results of online searches and conversations." - Brian Solis
+
+    One of the major shifts that has come to healthcare is the patient is at the center of the ecosystem. This has come about for a few reasons, namely due to societal and cultural shifts driving changing expectations but also because patients are feeling the burden of the costs of care more and more. [Shifts in technology](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud/) are underlying some of these shifts as well and certainly are enabling models of care where patients have more ownership.
+
+    The reasons for the change are less important than the impact of the change on the industry and patients/consumers. Healthcare, a multi-trillion dollar industry, is experiencing a paradigm shift and the main user, the end user, is now the patient/consumer. This means the consumer is the new target and the [choke point][3] to massive aspects of the most massive industry in the world. Look no further than the myriad of initiatives from all the major sectors trying to "win" the consumer.
+
+    * **Life sciences companies** are transforming themselves from makers of therapeutics to care management platforms that are complemented by therapeutics. This is an incredible change but one that is being taken because, like direct-to-consumer products, life sciences companies need to have a direct relationship with the end-user to effectively market and retain them as lifetime customers with very targeted marketing and promotion. Life sciences companies are well resourced and motivated to make this change, and will be spending more than any other segment to win the end user and deliver care management platforms.
+    * **Retail pharmacies**, most specifically Walgreens and CVS, have been [expanding][4] their care delivery services, becoming more than simple drug dispensaries. Retail pharmacies now offer both chronic and acute care, preventative medicine (vaccines most specifically), and even telemedicine. Pharmacies are well placed, having 10s of 1000s of physical locations across the country, to be a larger and larger part of the way consumer access the healthcare system. Walgreens is even rolling out Epic as its EHR; despite being a strange choice for a retail clinic, Epic helps Walgreens integrate data to and from other Epic customers.
+    * **Payors**, the largest ones in particular – United, Cambia, Blues, etc. – are expanding the tools they offer members to be more than simple data access and payment tools. Large insurance companies are building and testing apps for specific conditions and cohorts of members, wanting to flip the perception of payors in consumers' minds to more than payment tools managed by their employers. [Oscar][5] is a good example of a payor that doesn't act like a traditional payor.
+    * **Subscription medicine** is here to stay, whether you call it [direct primary care (DPC)][6] or concierge. Concierge and DPC, interestingly, are the providers' response to this trend. Subscription medicine is about a direct relationship between providers and patients, without messy payors and administrative overhead between them. And subscription medicine is going to grow by leaps and bounds over the next 10 years. Consumers will seek to get back the personal side of medicine, something that is increasingly getting lost, and providers will seek the same direct, personal connections without the mess of working with payors. In terms of models of care, subscription medicine is the [best example of aligned incentives][7].
+
+    There are a few things to note about the examples above. First, noticeably absent from the list are hospitals and health systems. It's not that health systems don't see these changes and growing threats, it's that [they are just too slow][8], and too poorly setup, to change. And, with the growth of consumer-based initiatives by all of the above, the erosion of the relationship between provider and patient is only accelerating the displacement of providers and the validity of the argument against MDs as PCPs and providers; it's a vicious cycle and providers are the major losers.
+
+    The second thing to note is that this is a winner take all situation. Consumers, the group notorious for downloading then never using health apps, will not use multiple care management platforms from their drug company, insurance company, and local pharmacy. They prefer to use one platform for everything,  just as they now use the one app from their bank or an aggregator like Mint instead of using multiple apps from each specific financial institution they interact with. There's a lot of money for the winner. This is high stakes.
+
+    So where does that leave health systems? From the list above, almost everything is focused on chronic care. Health systems, and MDs as providers, will continue to own high acuity care and the exceptional specialization that is now required for that care. The real risk is that whichever segment wins the consumer will control, either through human providers or AI-assisted clinical decision support, when patients are sent to providers and which providers they are sent to for high acuity care.
+
+    This shift offers huge opportunities for care management technologies with the right partners. Some sectors and companies will build everything in-house while others will look to buy products and platforms. The companies that succeed will offer ready-to-implement systems with a mix of technology and services. In order for any of the above groups to succeed, the focus on consumers and end users has to be a super strategic initiative, not just about buying an app or platform but a complete suite of solutions and aligning the business at the highest level to accomplish the goals.
+
+    Next week, for the [second part of this series](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/),  I'll share "_Trump and Putting the Genie Back in the Bottle;"_ a look at another huge influence on healthcare in 2017 and beyond. Be sure to follow this series by subscribing to our blog updates below. Also, make sure to catch [part three](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/, and [part four](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) of the series.
+
+
+    [3]: https://datica.com/blog/dimensions-of-big-data-for-healthcare/
+    [4]: http://www.forbes.com/sites/greatspeculations/2015/08/28/walgreens-steps-up-retail-clinic-expansion-as-demand-for-convenient-care-grows/#54753a247020
+    [5]: https://www.hioscar.com/
+    [6]: http://www.dpcare.org/about1-ccz5
+    [7]: http://medicaleconomics.modernmedicine.com/medical-economics/news/direct-primary-care-may-become-norm
+    [8]: http://www.healthcare-informatics.com/news-item/payment/aha-cms-simplify-cardiac-bundled-payment-model-slow-pace-change
+  :featured_image:
+    :id: 2CQw8gCeJKUQmMAoQIGwac
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 4WnlBigexyMs8SSkG2IQGc
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:53:24+00:00'
+    :created_at: '2018-04-17T16:33:19+00:00'
+    :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :title: 'HIMSS 2018 Recap — Invasion of the major tech providers '
+  :slug: himss18-recap-invasion-major-tech-providers
+  :pub_date: !ruby/object:DateTime 2018-04-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: HIMSS 2018 saw the presence of three of the largest cloud technology companies
+    in the world, Amazon (AWS), Microsoft (Azure), and Google (Google Cloud) flex
+    their muscles. In addition to a strong cloud showing, the event itself is evidence
+    that innovation is now a part of the healthcare bloodstream.
+  :blog_lead: "For the last several quarters, we have brought you unique perspectives
+    on disparate [topics affecting innovation in healthcare](https://datica.com/innovation/).
+    In Datica’s Spring 2018 Innovation report, we highlight and reinforce what we
+    know to be true and what many of you are experiencing: the digital health transformation
+    is happening now and is grounded in innovation. Its sources might surprise you.
+    \ \n\nIn addition to surveying news, stories, and industry reports, the quarterly
+    report provides our takeaways on the recent HiMSS conference which we’ve extracted
+    below. Make sure to get the [Spring Innovation Report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+    for a complete look at the state of Innovation in Healthcare. "
+  :post: "<img alt=\"himss-2018-logo\" src=\"//images.ctfassets.net/189dvqdsjh46/BejYKjLiuWuE0iEK6WQIM/521488e52b97804bab49f7dd0a1994e2/himss-2018-logo.png?w=240\"
+    width=\"120\" class=\"float-left-on-medium\" />\n\nHIMSS 2018 saw the presence
+    of three of the largest tech companies in the world flex their muscles. The event
+    itself is evidence that innovation is now a part of the healthcare bloodstream.\n\n##
+    The 3 largest tech companies flex their muscles at HIMSS\n\n### Microsoft showcased
+    Azure at HIMSS\n\nDue to their rich health IT history, Microsoft has engaged with
+    HIMSS in the past, but the company’s positioning in 2018 is noteworthy. A through
+    line across its booth facilities, its engagements, and in 1:1 conversations was
+    a focus on modernizing health IT via intelligent solutions. Artificial Intelligence
+    (AI) certainly had a presence, but it was grounded in usable tools like Office
+    365 and Microsoft Teams. Any cloud reference had less to do with Azure itself
+    and more to do with Microsoft solutions on the cloud. \n\n### AWS went big HIMSS\n\nFor
+    the first time in its history, AWS went big with an impressive HIMSS booth. This
+    major physical presence is the only major one in healthcare outside of their own
+    re:Invent conference. AWS had a mix of solution architecture Q&A, presentations
+    from its broad partner ecosystem, and demonstrations of healthcare-specific cloud
+    solutions available on AWS. Its 2018 presence showed AWS cares about being active
+    in health IT and [AWS has a strong story to tell](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
+    with both new digital health companies and enterprise health IT. \n\n### Google
+    went all out at HIMSS\n\nBut then we have Google. It also spent big — much bigger
+    than Microsoft or AWS. Google had a major booth, but also several keynotes and
+    high profile sessions that all must have cost enormous amounts in sponsorships.
+    Of the three, it’s easy to see through total spend and coverage that Google is
+    making the biggest bet that its cloud offerings can help healthcare. The only
+    problem is understanding the actionable theme Google had in mind. Is it looking
+    to help hospitals migrate old systems to Google’s cloud? Is it trying to get AI
+    adopted in enterprises? The most consistent message centered on helping smaller
+    startups succeed, which is then curious why Google would spend so much money getting
+    in front of hospital CIOs. \n\nThe aggregate observation is big tech is looking
+    to spend big dollars to land a big presence with this big event. All are here
+    to stay this time. \n\n## Healthcare innovation was everywhere at HIMSS18\n\n###
+    Certain innovations are now mature \n\nFrom the presence of the booths, the coverage
+    within sessions, and the chatter amongst attendees, two major areas of innovation
+    have finally made it: telehealth and population health. \nThose who follow healthcare
+    know these two areas aren’t new, per se. But that’s not the point. The key observation
+    from HIMSS18 is that, in the aggregate, all companies have “made it.” Their spend
+    was enormous, their booths packed, their messages grand, and their sessions well
+    attended. For upwards of a decade, we’ve talked about the eventuality of both
+    telehealth and population health. Well, HIMSS18 proved to us that the companies
+    that figured out the models have finally crested the mountain in that long journey,
+    and are now part of the health IT regulars. \n\n### The startups are mostly focused
+    on AI \n\nMost early-stage companies were predominantly downstairs in the startup
+    hub, but some were upstairs as well. Regardless of the location, a clear and obvious
+    trend prevailed: Artificial Intelligence. AI is coming to healthcare. When it
+    arrives, we aren’t certain. Much like telehealth, its timing will likely be tied
+    to payment structures and when healthcare systems are allowed to receive reimbursement
+    for its use. But the sheer volume of AI-focused business, products, and tools
+    staggered attendees and it felt inevitable that AI will disrupt healthcare in
+    some capacity. Our guess is that many net-new products will be deployed over the
+    next two years, will show demonstrative impact, and then after that a larger watershed,
+    will happen similarly to what we saw with telehealth and population health. \n\n###
+    Net-new innovation is more popular on the cloud than migrating old systems \n\nLastly,
+    we saw the [healthcare cloud](https://datica.com/discover/healthcare-cloud/) as
+    a mixed bag at HIMSS18. Conversation after conversation indicated a resistance
+    to migrating old systems to the cloud. Ultimately, CIOs aren’t interested in the
+    downside — higher hidden costs than the cloud vendor space indicates, high probability
+    of downtime or failure of fragile systems during migration, and general unease
+    with understanding risks and liabilities yet on the cloud. \n\nDatica ran a CHIME
+    focus group with 18 hospital and health system CIOs. Across the board, their sentiment
+    remained the same. Migration of existing systems just isn’t a priority. \nOn the
+    flip side, much innovation is happening with new projects. These innovations can
+    either be in the form of digital health products CIOs are purchasing, or as internal
+    projects led by innovation groups. The cloud is not universally bad in the eyes
+    of hospital CIOs. In fact, all 18 voiced the priority of cloud-first innovations
+    when evaluating new tools or solutions. \nThis dichotomy became one of the more
+    interesting observations from HIMSS18. You might also want to take a look at the
+    thorough recap and analysis of that [CHIME focus group here](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
+    More internal innovation is happening than many realize \n\nOne interesting thread
+    throughout the entire conference hinged on the consistency of internal innovation
+    being a focus. More conversations led to CIOs or innovation directors looking
+    to internal resources for solving a specific problem at their system as opposed
+    to buying a new product. \n\nIt’s not just centered with innovation groups, either.
+    We were shocked to hear stories of how some institutions are completely rethinking
+    innovation from the ground up, giving smaller teams more democracy in those innovations.
+    The head of dermatology might be working on her own sanctioned project to innovate
+    on a problem. The chief nursing officer might have the job of marshalling a skunkworks
+    team to build a new tool for nurses. And so on. It’s happening across the country.
+    \n\nIt’s great to see such innovation products constantly entering the health
+    IT space. The level of sophistication in just the last few years has jumped considerably
+    and will likely continue it’s rapid improvement through the coming years. \n\n\n"
+  :featured_image:
+    :id: 55u4pIR3ccKgmwkeMe0QeC
+  :share_image:
+    :id: 1YqHB3bahC62aOKSEiQcUq
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  - :id: 3VMljZKhTquyQC46sao4mA
+  - :id: 5dGSCeOP8cICkwSiWYqgWk
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4

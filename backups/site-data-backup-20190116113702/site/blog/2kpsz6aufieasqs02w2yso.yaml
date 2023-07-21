@@ -1,0 +1,321 @@
+---
+:id: 2KpsZ6AuFiEasQS02W2Yso
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T22:47:00+00:00'
+  :created_at: '2016-11-23T21:57:55+00:00'
+  :id: 2KpsZ6AuFiEasQS02W2Yso
+:title: HIMSS 2015 Recap
+:slug: himss-2015-recap
+:pub_date: !ruby/object:DateTime 2015-04-21 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: HIMSS 2015 was the conference for connecting with anybody in health tech,
+  be they vendors, enterprises, government officials, consultants, or investors.
+:blog_lead: 'Our team is still recovering from HIMSS. Each year the event gets larger
+  (I read attendance was just north of 40,000 this year) and longer (starting on Saturday
+  this year and running until Thursday). It''s an exhausting event but also **the**
+  conference for connecting with anybody in health tech, be they vendors, enterprises,
+  government officials, consultants, or investors.
+
+'
+:post: |+
+  I think this is my 6th HIMSS and each year I'm shocked by the size of the exhibitor hall. The floor seems to go on forever. What's most surprising is not the over-the-top mega booths for major vendors like Microsoft, Optum, and Epic, but the endless sea of booths with names and logos you don't know. It speaks to the size of the healthcare technology market. If you pay attention, you quickly see seemingly "small" niches in healthcare can create large companies.
+
+  It's always hard to summarize HIMSS. It's like summarizing the industry generally. With that grain of salt, a few of the things we noticed consistently coming up are listed below.
+
+  ### Care Coordination
+
+  I think this term was on 50% of booths. Care coordination is definitely a buzzword right now, and rightfully so as care becomes more team-based and handoffs become even more important. As we see new partnership models begin to emerge to share risk in care for patients (providers + payers + retail pharmacy, or some combination thereof), care coordination is essential to reducing cost and ultimately sharing in the savings (the business model for risk-based care). Care coordination, in addition to encompassing handoffs between traditional practice settings, also applies to handoffs with new and emerging types of virtual care.
+
+  ### Interoperability
+
+  Like care coordination, this is a topic that gets prime time at HIMSS. In fact, there's an entire section of the exhibit floor called the Interoperability Showcase. That's not new. What was new was how many people were discussing *FHIR as the future of data exchange*. I heard FHIR on panels in discussions with multiple vendors. Last year in Orlando I remember talking to Dave McCallie, MD, about the FHIR work Cerner was doing and some of the pilots they had started with a very, very small number of apps. That was about it. What's interesting about FHIR, and the timing the groundswell, is FHIR's most powerful application is likely in patient access to data, an area that took [significantly reduced steps back](https://s3.amazonaws.com/public-inspection.federalregister.gov/2015-08514.pdf) last week with the ONC proposed changes to Meaningful Use Stage 2. Meaningful Use was a big topic at HIMSS, as it has been for the past several years, but it's not worth calling out here.
+
+  ### Data Security
+
+  I don't remember there being an entire section of the floor dedicated to data security last year. Maybe there was and I missed it. But, I think all of the recent press about Anthem and CHS breaches has brought data security and HIPAA compliance to top of mind for most vendors and enterprises. As more digital health data is created and shared, the focus on data security is only going to grow in the coming years.
+
+  ### Watson + Apple
+
+  This was the [big announcement](http://www.forbes.com/sites/benkepes/2015/04/16/more-watson-goodness-ibm-announces-health-focused-vertical/) everybody was talking about at HIMSS. There's been a lot of speculation about Watson in healthcare but this is much more concrete than anything prior. With two acquisitions by IBM as part of the announcement (Phytel and Explorys) and partners like Apple, with its ResearchKit, and Johnson & Johnson, it was a story that was hard not to discuss. It's still very early in the life of Watson in healthcare but we'll be watching how it mashes up and uses the data from these new sources.
+
+  ### Startups
+
+  Compared to the Startup Showcase from last year, it felt like the startup section of HIMSS this year was bigger but also much harder to find on the exhibit floor. This year it was buried at the back of the north side of the hall and several people I met had a hard time finding it. The good news, at least compared to last year, is several of the companies, Datica included, have outgrown the startup pavilion.
+
+  Maybe it's just our lens, but we're very excited about the trends we saw. As a company that offers a platform and tools specifically for data security and interoperability, and works with a lot of startups, we couldn't be happier at the overwhelming validation of the needs of the industry.
+
+  In terms of location, and having now been to all of the 4 venues that have been deemed large enough to host HIMSS (Chicago, New Orleans, Las Vegas, and Orlando), Chicago is by far the best. We may have lucked out with the weather, which is always a curve ball in Chicago, but the comparative ease of finding lodging, transportation (Uber surge pricing was in effect all week I think), and restaurants makes Chicago a better place for a conference this size. Next year the conference is in Las Vegas. We'll see you there.
+
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 4igZ8DM9ugaIQeIIEouY4c
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:50:32+00:00'
+    :created_at: '2018-04-04T16:56:56+00:00'
+    :id: 4igZ8DM9ugaIQeIIEouY4c
+  :title: Healthcare CIOs say Lift and Shift to the Cloud not on their Radar
+  :slug: healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar
+  :pub_date: !ruby/object:DateTime 2018-04-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: A couple weeks ago at HIMSS, we hosted a CHIME focus group with about
+    20 CIOs representing a broad swath of the provider market. The purpose of the
+    conversation was to gauge readiness, strategies, and maturity of the cloud in
+    healthcare.
+  :blog_lead: A couple weeks ago at HIMSS, we hosted a [CHIME](https://chimecentral.org)
+    focus group with about twenty CIOs. The group CIOs represented public and private
+    healthcare organizations, children’s and specialty hospitals, academic centers,
+    and large integrated networks from across the country. It’s safe to say it was
+    a broad swath of the provider market. The purpose of the conversation was not
+    to try to sell Datica. Our goal was to have a discussion to gauge readiness, strategies,
+    and maturity of the [cloud in healthcare](https://datica.com/discover/healthcare-cloud/),
+    specifically the public cloud (AWS, Azure, and Google).
+  :post: |-
+    Despite the diversity of organizations represented, the feedback and discussion with the focus group CIOs demonstrated consistency of high-level thinking about the cloud for healthcare delivery organizations. We’re sharing our findings from the session because we fundamentally believe transparency in healthcare technology and healthcare on the cloud benefits the entire industry, including Datica. Below are the topics we covered and the salient points we took away.
+
+    ## What is the cloud?
+
+    This garnered a lot of interesting responses like “a new way to spend money” and “x as a service”. It’s definitely something CIOs are looking at and, in some use cases, using; but, the universal sentiment was that the cloud isn’t going to solve immediate problems facing CIOs. Another interesting insight was that the cloud was seen as a new way to spend money. In the near-to-medium term, as healthcare organizations work directly with cloud service providers or through partners and business associates that are using the cloud, healthcare organizations are going to be managing both on-premise technology as well as spending on cloud. One quote I wrote down was “you can’t justify the move to the cloud for ROI alone”. One CIO mentioned vendors misrepresent the cloud when they pitch it as a cost savings to CIOs with his comment, “cloud providers have to make a margin”.
+
+    ## What are the major roadblocks to the cloud?
+
+    The major roadblocks to the cloud elucidated were competing priorities, security (more on that later), and human capital. Given the consensus of the cloud having a questionable ROI, or a long-term ROI at best, it makes sense that it’s not high on the priority list for CIOs when the majority of their resources are still dedicated to the care and feeding of EHRs. Additionally, we’ve discovered in other conversations that the human capital CIOs do have aren’t cloud, devops, or dev sec ops experts. One other point of feedback was a loss of control associated with a lack of support when moving to the cloud.
+
+    ## How are you using the cloud today?
+
+    With the exception of a couple CIOs mainly representing ancillary service providers, the major use of cloud today were things I’d classify as pet projects, or non-core IT projects. The cloud was being used in innovation, research, and by partners/vendors/business associates. The great cloud migration, or the lift and shift story, is definitely not happening at scale any time soon.
+
+    ## How are you solving security and compliance on the cloud?
+
+    There was not a consensus on how healthcare enterprises are solving the challenges of security and compliance on the cloud. Every CIO acknowledged the importance of security but it is definitely something organizations seem to still be figuring out. There were challenges around cloud security that most of the CIOs acknowledged were not solved problems.
+
+    ## How are you validating 3rd party security on the cloud?
+
+    This was an interesting one. I’ve always speculated that there is no way for healthcare organizations to effectively assess the security of their vendors when it comes to the cloud. Healthcare security and compliance groups don’t have the resources and cannot dedicate the time to verify everything from vendor policies and procedures to technical configurations. In the world of cloud, this challenge is compounded by the number and dynamic nature of available cloud services. Because of this, I’ve thought [HITRUST](https://datica.com/discover/hitrust/) would succeed as a proxy for bespoke security reviews. To some extent it has and most CIOs at our focus group were considering or already going down the path of HITRUST. But, the universal sentiment we got was that health systems felt they had to be able to do their own security reviews of 3rd parties. They viewed the risk as only partially tied to financial risk of data breach. The major concern we heard was reputation damage to the org and potential scale of a breach on the cloud.
+
+    ## Is Shadow IT a concern at your organization?
+
+    Based on feedback we’d gotten during many of our [Healthcare Innovators](https://datica.com/innovation/) podcasts, we published a report last year on [Shadow IT in Healthcare](https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives/). We know Shadow IT is an important topic for healthcare provider organizations but we wanted to have an open-ended dialog to assess it’s visibility at the CIO level. Almost every CIO in the room expressed concern about Shadow IT at their organization. It seemed like a problem many CIOs had thought about. Some of the major culprits cited werre medical residents. There wasn’t consensus, but one area that emerged is the need for a bimodal IT offering — one for traditional, or core IT, and one for Shadow IT.  One interesting sidebar of this discussion concerned what to do about Shadow IT. The consensus seemed to be that stopping it isn’t an option given increasing knowledge of the Shadow IT community and the lower cost and complexity of cloud development.  It was suggested that a credentialing process be created to establish education requirements, acceptable tools and usage, reporting, etc.  This idea would require a lot of development to be viable, but it has interesting implications.
+
+    We gained a lot of value from the discussion and we hope the CIOs who participated felt it was a good use of their time.
+  :featured_image:
+    :id: 6efYkXbnpKKGmkCASO8OsC
+  :share_image:
+    :id: 6BsgBtSvza8euyEYEeqQY2
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 3VMljZKhTquyQC46sao4mA
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:53:24+00:00'
+    :created_at: '2018-04-17T16:33:19+00:00'
+    :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :title: 'HIMSS 2018 Recap — Invasion of the major tech providers '
+  :slug: himss18-recap-invasion-major-tech-providers
+  :pub_date: !ruby/object:DateTime 2018-04-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: HIMSS 2018 saw the presence of three of the largest cloud technology companies
+    in the world, Amazon (AWS), Microsoft (Azure), and Google (Google Cloud) flex
+    their muscles. In addition to a strong cloud showing, the event itself is evidence
+    that innovation is now a part of the healthcare bloodstream.
+  :blog_lead: "For the last several quarters, we have brought you unique perspectives
+    on disparate [topics affecting innovation in healthcare](https://datica.com/innovation/).
+    In Datica’s Spring 2018 Innovation report, we highlight and reinforce what we
+    know to be true and what many of you are experiencing: the digital health transformation
+    is happening now and is grounded in innovation. Its sources might surprise you.
+    \ \n\nIn addition to surveying news, stories, and industry reports, the quarterly
+    report provides our takeaways on the recent HiMSS conference which we’ve extracted
+    below. Make sure to get the [Spring Innovation Report](https://datica.com/innovation/report-q1-2018-digital-health-transformation/)
+    for a complete look at the state of Innovation in Healthcare. "
+  :post: "<img alt=\"himss-2018-logo\" src=\"//images.ctfassets.net/189dvqdsjh46/BejYKjLiuWuE0iEK6WQIM/521488e52b97804bab49f7dd0a1994e2/himss-2018-logo.png?w=240\"
+    width=\"120\" class=\"float-left-on-medium\" />\n\nHIMSS 2018 saw the presence
+    of three of the largest tech companies in the world flex their muscles. The event
+    itself is evidence that innovation is now a part of the healthcare bloodstream.\n\n##
+    The 3 largest tech companies flex their muscles at HIMSS\n\n### Microsoft showcased
+    Azure at HIMSS\n\nDue to their rich health IT history, Microsoft has engaged with
+    HIMSS in the past, but the company’s positioning in 2018 is noteworthy. A through
+    line across its booth facilities, its engagements, and in 1:1 conversations was
+    a focus on modernizing health IT via intelligent solutions. Artificial Intelligence
+    (AI) certainly had a presence, but it was grounded in usable tools like Office
+    365 and Microsoft Teams. Any cloud reference had less to do with Azure itself
+    and more to do with Microsoft solutions on the cloud. \n\n### AWS went big HIMSS\n\nFor
+    the first time in its history, AWS went big with an impressive HIMSS booth. This
+    major physical presence is the only major one in healthcare outside of their own
+    re:Invent conference. AWS had a mix of solution architecture Q&A, presentations
+    from its broad partner ecosystem, and demonstrations of healthcare-specific cloud
+    solutions available on AWS. Its 2018 presence showed AWS cares about being active
+    in health IT and [AWS has a strong story to tell](https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18/)
+    with both new digital health companies and enterprise health IT. \n\n### Google
+    went all out at HIMSS\n\nBut then we have Google. It also spent big — much bigger
+    than Microsoft or AWS. Google had a major booth, but also several keynotes and
+    high profile sessions that all must have cost enormous amounts in sponsorships.
+    Of the three, it’s easy to see through total spend and coverage that Google is
+    making the biggest bet that its cloud offerings can help healthcare. The only
+    problem is understanding the actionable theme Google had in mind. Is it looking
+    to help hospitals migrate old systems to Google’s cloud? Is it trying to get AI
+    adopted in enterprises? The most consistent message centered on helping smaller
+    startups succeed, which is then curious why Google would spend so much money getting
+    in front of hospital CIOs. \n\nThe aggregate observation is big tech is looking
+    to spend big dollars to land a big presence with this big event. All are here
+    to stay this time. \n\n## Healthcare innovation was everywhere at HIMSS18\n\n###
+    Certain innovations are now mature \n\nFrom the presence of the booths, the coverage
+    within sessions, and the chatter amongst attendees, two major areas of innovation
+    have finally made it: telehealth and population health. \nThose who follow healthcare
+    know these two areas aren’t new, per se. But that’s not the point. The key observation
+    from HIMSS18 is that, in the aggregate, all companies have “made it.” Their spend
+    was enormous, their booths packed, their messages grand, and their sessions well
+    attended. For upwards of a decade, we’ve talked about the eventuality of both
+    telehealth and population health. Well, HIMSS18 proved to us that the companies
+    that figured out the models have finally crested the mountain in that long journey,
+    and are now part of the health IT regulars. \n\n### The startups are mostly focused
+    on AI \n\nMost early-stage companies were predominantly downstairs in the startup
+    hub, but some were upstairs as well. Regardless of the location, a clear and obvious
+    trend prevailed: Artificial Intelligence. AI is coming to healthcare. When it
+    arrives, we aren’t certain. Much like telehealth, its timing will likely be tied
+    to payment structures and when healthcare systems are allowed to receive reimbursement
+    for its use. But the sheer volume of AI-focused business, products, and tools
+    staggered attendees and it felt inevitable that AI will disrupt healthcare in
+    some capacity. Our guess is that many net-new products will be deployed over the
+    next two years, will show demonstrative impact, and then after that a larger watershed,
+    will happen similarly to what we saw with telehealth and population health. \n\n###
+    Net-new innovation is more popular on the cloud than migrating old systems \n\nLastly,
+    we saw the [healthcare cloud](https://datica.com/discover/healthcare-cloud/) as
+    a mixed bag at HIMSS18. Conversation after conversation indicated a resistance
+    to migrating old systems to the cloud. Ultimately, CIOs aren’t interested in the
+    downside — higher hidden costs than the cloud vendor space indicates, high probability
+    of downtime or failure of fragile systems during migration, and general unease
+    with understanding risks and liabilities yet on the cloud. \n\nDatica ran a CHIME
+    focus group with 18 hospital and health system CIOs. Across the board, their sentiment
+    remained the same. Migration of existing systems just isn’t a priority. \nOn the
+    flip side, much innovation is happening with new projects. These innovations can
+    either be in the form of digital health products CIOs are purchasing, or as internal
+    projects led by innovation groups. The cloud is not universally bad in the eyes
+    of hospital CIOs. In fact, all 18 voiced the priority of cloud-first innovations
+    when evaluating new tools or solutions. \nThis dichotomy became one of the more
+    interesting observations from HIMSS18. You might also want to take a look at the
+    thorough recap and analysis of that [CHIME focus group here](https://datica.com/blog/healthcare-cios-say-lift-and-shift-to-cloud-not-on-radar/).\n\n###
+    More internal innovation is happening than many realize \n\nOne interesting thread
+    throughout the entire conference hinged on the consistency of internal innovation
+    being a focus. More conversations led to CIOs or innovation directors looking
+    to internal resources for solving a specific problem at their system as opposed
+    to buying a new product. \n\nIt’s not just centered with innovation groups, either.
+    We were shocked to hear stories of how some institutions are completely rethinking
+    innovation from the ground up, giving smaller teams more democracy in those innovations.
+    The head of dermatology might be working on her own sanctioned project to innovate
+    on a problem. The chief nursing officer might have the job of marshalling a skunkworks
+    team to build a new tool for nurses. And so on. It’s happening across the country.
+    \n\nIt’s great to see such innovation products constantly entering the health
+    IT space. The level of sophistication in just the last few years has jumped considerably
+    and will likely continue it’s rapid improvement through the coming years. \n\n\n"
+  :featured_image:
+    :id: 55u4pIR3ccKgmwkeMe0QeC
+  :share_image:
+    :id: 1YqHB3bahC62aOKSEiQcUq
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  - :id: 3VMljZKhTquyQC46sao4mA
+  - :id: 5dGSCeOP8cICkwSiWYqgWk
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4

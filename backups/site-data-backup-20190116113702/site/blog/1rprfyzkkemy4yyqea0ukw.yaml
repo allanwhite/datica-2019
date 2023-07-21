@@ -1,0 +1,556 @@
+---
+:id: 1RprfyzKKEmY4Yyqea0UKW
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:52:23+00:00'
+  :created_at: '2017-12-13T16:47:09+00:00'
+  :id: 1RprfyzKKEmY4Yyqea0UKW
+:title: 'Q4 Industry Report: Shadow IT''s positives and negatives within healthcare'
+:slug: q4-industry-report-shadow-its-positives-and-negatives-within-healthcare
+:pub_date: !ruby/object:DateTime 2017-12-13 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'Datica''s Winter 2017 quarterly industry report examines the paradox of
+  shadow IT in healthcare. Is it a security threat or enabler for innovation? '
+:blog_lead: "[The Winter installment of Datica's quarterly industry report is now
+  available](https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives).
+  The report examines shadow IT as both a growing security threat to health IT, but
+  also as a unique and unrivaled enabler for innovation when managed appropriately.
+  Shadow IT as a topic is quite the paradox—this report tries to help make sense of
+  it."
+:post: "The changes in one year between 2017's AWS re:Invent conference and this year's
+  edition were stark. We [blogged](https://datica.com/blog/aws-fargate-and-hipaa-compliant-containers/)
+  about [some](https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/)
+  of our [observations](https://datica.com/blog/re-invent-day-2-looking-toward-the-future/).
+  In certain ways, the topic of shadow IT was a polarizing conversation throughout
+  the conference. On the one hand, most vendors at the conference were promoting tools
+  to control costs, security, and compliance of AWS so as to curb factions of shadow
+  IT development. But on the other hand, David Deas, Corporate Director of Innovation
+  and Knowledge Analytics at Methodist Le Bonheur Healthcare in Memphis, [got up on
+  stage and talked about how HIPAA compliant and HITRUST certified versions of \"shadow
+  IT\" became a defining enabler for his institutions initiatives](https://www.youtube.com/watch?v=oju3cVT5YBo).\n\nIt's
+  that dichotomy we've heard throughout 2017 and chose to examine in Q4's report.\n\nReaders
+  will find a timely, in-depth summary of AWS re:Invent 2017 from the point of view
+  of health IT.\n\nWe scoured what the industry has to say, and extracted the most
+  important points of information for readers. We also went to see what the analysts
+  are saying.\n\nAs with the [Spring report's](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)
+  op-ed from [Dr. John Halamka, CIO of Beth Israel Deaconess Medical Center](http://geekdoctor.blogspot.com/),
+  we were graced with Sue Schade's point of view in this report. \n\nFew people have
+  had to grapple with the challenges of shadow IT like Sue throughout her career.
+  Back in 2015, [we interviewed Sue](https://datica.com/innovation/sue-schade/) for
+  our Healthcare Innovators series (since then has been converted to a [podcast](https://datica.com/podcast/)
+  format). She shared stories and gave solid advice about managing shadow IT in her
+  role as CIO of Hospital and Health Centers at Michigan Medicine at the time. We
+  are thrilled she was willing to give insight to the topic.\n\nWe hope you enjoy.
+  Thanks for reading!"
+:featured_image:
+  :title: q4-large-background-reflections
+  :description: large, bg, featured
+  :url: "//images.ctfassets.net/189dvqdsjh46/53wqveD0jKwwiUE0sMcuqK/990af1a8158a3379f68b6e40bcf88405/q4-large-background-reflections.jpg"
+  :_meta:
+    :updated_at: '2017-12-13T17:52:17+00:00'
+    :created_at: '2017-12-13T06:10:23+00:00'
+    :id: 53wqveD0jKwwiUE0sMcuqK
+:share_image:
+  :title: report-q4-shadow-it-figure-cta
+  :description: report, cta, shadow, figure
+  :url: "//images.ctfassets.net/189dvqdsjh46/1RqULZW0pukwaICqG8KOGU/7f5be6c5e909d76da62b235de6437ac4/report-q4-shadow-it-figure-cta.jpg"
+  :_meta:
+    :updated_at: '2017-12-13T06:06:03+00:00'
+    :created_at: '2017-12-13T06:06:03+00:00'
+    :id: 1RqULZW0pukwaICqG8KOGU
+:cta_ref:
+  :id: 2JiJivalm8AwUCAW8aMo8U
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-17T16:32:53+00:00'
+    :created_at: '2018-04-17T16:32:53+00:00'
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :cta_title: Q1 2018 Quarterly Report
+  :cta_desc: 'Spring 2018 Quarterly Innovation Report: Innovation and Impact — Digital
+    Health Transformation'
+  :cta_label: Get it Now
+  :cta_url: https://datica.com/innovation/report-q1-2018-digital-health-transformation/
+  :cta_image:
+    :id: 1kJDCTSp1aqUKwgiks6OKi
+  :cta_color: blue-alt
+:related_entries:
+- :id: 4rlKh6oBpKAGGWI0cWQiA
+  :_meta:
+    :content_type_id: podcastEntry
+    :updated_at: '2017-12-12T19:18:36+00:00'
+    :created_at: '2016-12-20T22:14:14+00:00'
+    :id: 4rlKh6oBpKAGGWI0cWQiA
+  :title: Sue Schade, CIO at University of Michigan Hospitals and Health Centers
+  :slug: sue-schade
+  :pub_date: !ruby/object:DateTime 2015-06-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 5bAjhalUeA0KYuiMueickm
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :guest:
+    :id: 4DBuvGOAxyY4Ocw000cAQg
+  :soundcloud_embed: <iframe src="//fast.wistia.net/embed/iframe/r6ji1tdd5u" allowtransparency="true"
+    frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen
+    mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500"
+    height="312"></iframe>
+  :summary: Sue Schade, who recently was awarded [CIO of the Year by CHIME and HIMSS](http://www.beckershospitalreview.com/healthcare-information-technology/u-of-michigan-s-sue-schade-named-cio-of-the-year-by-chime.html),
+    joined us to talk about her experience with previously bringing new frameworks
+    and programs into Brigham and Women's in Boston and what innovation looks like
+    in her new post as CIO at University of Michigan Hospitals and Health Centers.
+    We capped it off with some wonderful insight for startups looking to bring innovation
+    into hospitals.
+  :key_takeaways: |-
+    1. In order to sell into a hospital, your solution _must_ solve a real, important problem within the system. Entrepreneurs: start there!
+    2. Looking at core metrics with a balanced perspective allows you to spot innovation insight in more areas.
+    3. Mobile computing is one of the hottest and most important areas for change and innovation within a healthcare setting.
+    4. As an external vendor, the sooner you become engaged with the CIO in a meaningful way, the sooner your solution can be deployed across a health system.
+  :post: |-
+    <iframe src="//fast.wistia.net/embed/iframe/h1beja9s0q" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** Thank you, Sue, so much for joining us today. Looking forward to our conversation. First and foremost, besides thanking you for joining us, I wanted to congratulate you on getting CIO of the Year.
+
+    **Ms. Schade:** Thank you.
+
+    **Datica:** Hopefully you have been getting a lot of congratulations. It's a pretty big honor. There are people, there are a lot of good CIOs, and so it's a pretty big honor, so congratulations on that.
+
+    **Ms. Schade:** Thank you very much.
+
+    **Datica:** I don't think it's an easy honor to get either.
+
+    **Ms. Schade:** Right. [Laughter]
+
+    **Datica:** I kind of wanted to dig in a little bit, you know, the CIO of the Year, and your experience as a CIO. What does it mean to you to be an effective CIO, to be somebody who can be in a place to get an honor like that?
+
+    **Ms. Schade:** Great question, and I have been asked that question in some of the other interviews I've done. Let me comment that there's both a personal component and a professional component.
+
+    From a personal perspective, I have a husband of many, many, many years and two grown daughters, and I think they're both very proud of my accomplishments and also know how hard I have worked over the many years that I have been in this field, which is in the range of 30. And it's great, especially in raising young women, to be a role model for them and watching them grow in their careers is part of what I do as their role model, as a mother, and as a professional woman.
+
+    From a professional perspective, being honored by my peers is a true honor. And I know that I join an impressive group of leaders over the years. I think I am the 26th CIO of the Year. That's how long they've been doing it. And I will say that I am the 4th woman in those 26 years, so hope to see many more women receiving this kind of an honor in the coming years as there are more and more women in the ranks of healthcare CIOs.
+
+    **Datica:** From our own perspective, we hire a lot of developers and engineers and there are challenges with rounding out our team to be more representative, and so that's actually a challenge for us still. But I think having role models, people that they can see, so it's not 26 men that have gotten the award, that there's a little bit of blending, I think, is a great thing. Those types of examples are more of what we need. So, additional kudos.
+
+    **Ms. Schade:** Thank you. Well, and that actually is something I've been talking more about lately, in terms blogging, is the need to encourage more women to go into technology, because the numbers just aren't there, and to find ways to encourage them and support them as they grow in their careers. I know people helped me along the way, and I'm committed to helping the next generation of HIT leaders to grow and develop.
+
+    <iframe src="//fast.wistia.net/embed/iframe/dap6sh4ihq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** Shifting gears just slightly, and looking back at some of your previous experience, you were at Brigham and Women's right before going to Michigan. Is that right?
+
+    **Ms. Schade:** Correct. I was there for almost 13 years as their CIO.
+
+    **Datica:** Wow. That's a good amount of time. When you were there you implemented or used the Balanced Scorecard Initiative. We've read about Balanced Scorecard. I'd like to get a better sense from you, hands-on experience, why you felt like that was an effective tool to Brigham and Women's, and why you feel like it's an effective thing to use within healthcare organizations.
+
+    **Ms. Schade:** Sure. First off, just the Balanced Scorecard, to frame it, is a framework, conceptual framework, not a specific tool, and that framework says that there are four key components. One is finance. But too often, we think only finance, and what's the bottom line, and what's the revenue and the cost look like. One is your customers, or your patients, in our case. One is your operational effectiveness and quality. And the fourth one is employees, so what you are doing to grow your own employees and develop them.
+
+    When you look at something from that balanced perspective, you're really looking at metrics in all those areas and how they interact. It was a framework that had been adopted by many of the Fortune 500 companies as of the early 2000's, and it was relatively new for healthcare. We had a champion leader within Brigham and Women's who said it's time for us to do this. He and I partnered, made it happen, and ended up being a showcase site within healthcare for our initiative over the years. We used a particular vendor's analytics, dashboard kind of product to implement it, but it's a concept framework that you can do with various tools.
+
+    **Datica:** Interesting. As you became the case study in Boston and now as you transition to Michigan, do you see that, or are you maybe not whole hog using that framework but potentially integrating aspects of that as you start to think more broadly than maybe just finance driving decisions?
+
+    **Ms. Schade:** Yes. In fact, at University of Michigan Health System right now we are talking about a framework that includes—make sure I get it right—safety, quality, delivery, finance, and people. So there's five components, and we're looking at what are the major initiatives, you know, the definition of each of those, the major initiatives in each of those, and then what the metrics are. So there's a similarity there. It's something that we're working through at this point.
+
+    **Datica:** That framework didn't really exist before you were at Michigan? It's something that's in development now?
+
+    **Ms. Schade:** It's in development now, but I can't take credit for bringing it. I've been here two and a half years, and I think whenever you move leadership levels from one organization to the next, you want to bring some of the best ideas and best practices from the organization that you are at into your new organization, and, certainly, I tried to do that in this case as well as in other examples. But it's a combination of that input along with where this organization is at and some other leaders here, recognizing the need that we need to do that.
+
+    <iframe src="//fast.wistia.net/embed/iframe/h81ahcudvd" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** With this framework that you're developing at Michigan, I wanted to ask some questions around in new solutions, new innovative products or service lines, or whatever form they might take. It may be technology-enabled, it may just be new services out in the community.
+
+    When you look at new innovation initiatives proposed at Michigan, do you funnel all those through that framework to look at how you would assess something like that? Is that how you would assess it?
+
+    **Ms. Schade:** No. I can't say that those two match up at this point. What I just described is very much a framework we were starting to roll out within the clinical care delivery component of the health system, and, in all honesty, much of the innovation that's going on is more coming out of the medical school and the research side. I think we need to probably do a much better job of marrying those two up, to be quite honest with you, but we have lots of examples in terms of our research area and our faculty where we're looking at various innovations that we can talk more about.
+
+    **Datica:** When you talk about marrying up, you're talking about innovations or new research-based things coming out of the medical school or the research area and having those then translate into actual clinical delivery?
+
+    **Ms. Schade:** Yes. As well as looking at those innovations through that lens in terms of how could they improve safety care. Could they improve quality of care? How could they improve the timeliness of delivery of care? I will give you an example that one of the things that has been going on for the past several months is a group that has been looking at disruptive innovation in care at home.
+
+    I won't be able to quote it exactly right, but there were three key metrics that they were charged with trying to improve. One of them being the admission rates, for example. Just very recently, in fact, I have the 100-plus page report and set of recommendations from them was sent to me on the weekend, I've been able to read the executive summary but not really wade into it yet.
+
+    Its extensive set of recommendations and ideas that they have, it was a faculty-based group on how we can do things differently in terms of care outside our four walls, within the home, to affect some key metrics right now, which is something that all healthcare organizations really are going to be going through as you look at less inpatient care, more ambulatory, more care in different care settings.
+
+    <iframe src="//fast.wistia.net/embed/iframe/j7mj96ady4" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** That makes a lot of sense. I had a follow up on that, but I was curious, too: You talked about different care settings, and you talked about providing home care. Are there other broad bucket areas of innovation that you see coming out of the medical school or that were being research driven at Michigan?
+
+    **Ms. Schade:** Certainly mobile. And that's a really broad statement, but mobile apps for clinicians, mobile apps for patients. I mean, you think about it in your own life... In fact, this was one of the blogs I wrote in a December timeframe. I think it was maybe the timing relative to the announcement of the CIO award and the combination of the fact that I had a really catchy title on this book blog called "Great Textpectations". It got a whole lot of views.
+
+    What I talked about was when we were back in Boston over the holidays to see family. We spent time in a hospital with his brother, who had surgery, and in and out of the hospital every day. I talked about how technology is everywhere—you're getting an Uber to get somewhere, you've got an iPad put in front of you when you're in a restaurant to order off the menu. It's just, as consumers, technology is everywhere. We've come to expect it.
+
+    But when you walk into a hospital, some of that grinds to a halt. There's so many examples that you could apply in terms of how to make that access and process easy or more friendly for the patient as well as the clinicians if you think about various apps and particularly mobile apps.
+
+    **Datica:** I would agree. Beyond mobile, which, as you framed it, is a very broad bucket, and in home care, which we touched on, are there some other areas that you see emerging?
+
+    **Ms. Schade:** Yeah. We have a big initiative right now in one of our centers called, the acronym is MCIRCC, M-C-I-R-C-C. It's Michigan—always think of M as Michigan—Michigan Center for Integrative Research in Critical Care. This is an effort to capture clinical data off monitoring equipment on the patient and be able to predict potential complications or patient crashing, etc.
+
+    I'm not going to do justice to it not being a clinician, but it's a very leading-edge area for us, and we're looking to partner with different vendors, third party vendors, some of whom have visual integration tools in terms of bringing all that information together for the clinician, in another case, companies that do work with sensor devices. Just another broad area in terms of innovation here.
+
+    <iframe src="//fast.wistia.net/embed/iframe/713co94jj9" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** Technology seems to be a component of every discussion we have in some way, shape, or form. Looking internally at innovation or new initiatives, how do you see your role in IT supporting that?
+
+    **Ms. Schade:** Let me give you an anecdote from my time at Brigham and then comment more generally here. At Brigham several years ago, we recognized that there was a huge backlog, if you will, of ideas for innovations that were never going to get to the top of the priority list when you look at standard IT budgets. We were able to get some funding separate from the CEOs funds, separate from the IT operating budget and capital budget to establish a program.
+
+    We called it Health Innovation Program, I think, Brigham Health Innovation Program, or HIP. We had a twice a year cycle, we had a very formal process for submitting applications, evaluating them, and scoring them in deciding which ones we would fund. It was up to $100,000 per project that we were willing to fund, and then what we expected for those projects to come back in and present the results and a decision then to be made as to whether or not it's something that we should invest through the normal budget to scale, to full house, or is it something that was a good idea but not something that we were going to pursue.
+
+    We did that program at Brigham while I was there. It was relatively successful. We don't have a program, that was through IT, we don't have a program like that here through IT. As I said, I think much of the innovation is being driven through the medical school and the faculty and the researchers. My role as the CIO, I have responsibility for the clinical care delivery, the hospitals and health centers. I don't have responsibility for the medical school and the research and education component. There's a separate IT department that manages that or supports that.
+
+    I work very closely with those faculty as they are coming up with new projects, because they know that, ultimately, if they're going to scale, if they're going to run on the infrastructure, if they're going to integrate with our core systems, they've got to be talking to my staff and to me.
+
+    The sooner that we can be in those discussions and help guide them and raise some of the issues that they're going to need to be concerned about, the better. As opposed to hearing that it's done, it's ready to go, can you just plug us in, or can you just roll it out whole house. I don't want to be the obstacle at that point, so I want to partner and know about it up front and help them as much as I can.
+
+    I think one other thing I would comment on about sometimes a barrier around innovation, I already said in the anecdote about Brigham is, those aren't going to get to the top of the list and compete with the other core stuff you have to do. You have to have separate mechanisms, separate funding.
+
+    What we found at Brigham was a challenge, is once those projects were approved, those innovation proposals were approved, then we'd have to get people to work on them, and we had to pull people from our staff who were working on the core project. Then we ended up with a resource issue. If we said you can use some of those funds to hire contract health to get it done, if, in fact, that innovation needed to integrate with our core systems, it still came back to needing our core IT staff.
+
+    Those are just some of the challenges I think you face in trying to implement innovation programs. Ideally, what you want is it to be part of what you do and not a separate thing over here, like who's got good ideas, go to work on them. It needs to be part of the fiber of what you do. But I don't know too many organizations that have really accomplished that.
+
+    **Datica:** I think you're right. It's really hard in healthcare with significant IT budgets, but there's also significant IT needs. We hear commonly that there's just not room in the IT budget for X number of years or months or whatever. It's interesting and it's novel.
+
+    <iframe src="//fast.wistia.net/embed/iframe/cx9ibt3hec" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** Shifting gears slightly, stepping outside of internal innovation and your experience at Brigham and Michigan, we work with a lot of smaller companies building new platforms for bundled payments, or telemedicine, whatever it might be.
+
+    As a small IT company—not an Epic, right, not the big ones that we all know and love—but being a smaller organization, how do they go about selling to a clinical champion? Then, two, going through the IT integration process, security, compliance, all those pieces?
+
+    **Ms. Schade:** How to do that and how to be successful?
+
+    **Datica:** Yes.
+
+    **Ms. Schade:** I think one thing that's critical is that they have a unique solution and that it's solving a real problem. To me, it's never technology for technology's sake. At the point that we understand that solution is solving X problem, and, yes, we, in fact, here at University of Michigan, do have X problem, we maybe didn't think we needed to address it yet, but here's an opportunity to do so—then I can be all ears.
+
+    I think what's important is that they have a way to either sit on top of what, in a very kind of noninvasive way, are core systems and infrastructure, or they have clear integration path. That it does need to be, for example, any new product that needs to be integrated into our EHR, which happens to be Epic, that they've done it before, they have a way to do it, you know, so on and so forth, or that it really sits on top and maybe can have integration in a future phase.
+
+    Back to what I said about the need to partner with those who are looking at innovation now within the organization. Startup companies probably come in all sorts of places within the organization. They're not calling the CIO going, _You know, we've got a product and we need to talk to you_. They're probably making inroads and getting people excited. Then I might hear about it, or my staff might hear about it down the road.
+
+    My advice to those companies is the sooner you have engaged either directly the CIO, or had the folks that you are talking to in that organization, make sure that the CIO is aware and engaged, the better. Or IT will be in react mode and can, you know, put up some obstacles and slow it down.
+
+    **Datica:** In a lot of ways, they're the same thing you're describing internally, like being involved as early as possible?
+
+    **Ms. Schade:** Right.
+
+    **Datica:** And to not be the road block. That's not necessarily what you want to be, but you need to understand that there's also a lot of considerations for you.
+
+    **Ms. Schade:** Right. I talk about keeping the trains running, doing the core, day-to-day production, getting the systems in and keeping them running. I can't think of a CIO in the country that I know that only wants to be doing that. I think all of us want to be helping our organization fully leverage technology to solve real business problems and moving things forward. Don't view IT as that _big, bad, oh, they're going to stop us_, but as partners.
+
+    <iframe src="//fast.wistia.net/embed/iframe/d5autqzdp3" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="500" height="312"></iframe>
+
+    **Datica:** We're just about out of time. Was there anything else you wanted to add, Sue?
+
+    **Ms. Schade:** Just to talk a little bit more about advice to startups, because I know that was one of the questions that you asked. When I start talking to any of those organizations, I want to know who their leaders are, who their founders are. I want to have a sense of how viable they are. Before I talk too seriously, I want to know they have capital backing.
+
+    They need to find ways to understand healthcare, because I think you'd probably see a lot of good technologies from other industries coming in that could be applied to healthcare, so they need help sometimes understanding healthcare, which is important. I think they also need to understand that, especially an academic organization may be extremely complex. It might move slower than they want, but to have the patience to work with the organization if they're going to be successful.
+
+    **Datica:** You're in a resource-constrained area, right?
+
+    **Ms. Schade:** Right. Solve real problems that need to be solved. And we have plenty of problems to solve, don't get me wrong.
+
+    **Datica:** I was going to say there's a good number to work on, so. All right. Fantastic. Greatly appreciate your time. This has been wonderful.
+
+    **Ms. Schade:** Good. Fun to do. Thank you.
+
+    **Datica:** Okay. Thank you so much, Sue.
+    __
+- :id: 1A5n62oXE0SW8sewOkGoso
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:47:43+00:00'
+    :created_at: '2017-11-28T00:47:59+00:00'
+    :id: 1A5n62oXE0SW8sewOkGoso
+  :title: 'How a major Health System got onto AWS: Recapping the featured session
+    today at AWS re:Invent'
+  :slug: how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today
+  :pub_date: !ruby/object:DateTime 2017-11-27 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Adam Leko and David Deas discussed how the Datica Platform helped Methodist
+    Le Bonheur (MLH) health system get onto AWS through removing the burden of DevOps
+    and security in a HITRUST CSF Certified way.
+  :blog_lead: |-
+    David Deas and Memphis Le Bonheur (MLH) have a mandate to improve patient care, improve the lives of clinicians, and save the organization money in the process.
+
+    As a 20+ year veteran of healthcare and a computer scientist by trade, David knows a thing or two about how to get work done within the confines of healthcare's regulations or internal IT politics. He was the leader in implementing Cerner at MLH in the 90s. Now, in his role as head of innovation at MLH, he's charged with faster-paced objectives where speed-to-market is imperative.
+
+    Internal IT has been less than helpful. On stage today, David spoke about the "Ticket Hell" he has to go through to provision any technical resources for his team.
+  :post: |-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oju3cVT5YBo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+    Internal IT will only ever budget the necessary compute cores and hard drives needed for what has been forecasted a year out. When fast-paced projects come online, it is always "robbing Peter to pay Paul," as David described.
+
+    ![Datica-MLH-ReInvent-Process](//images.contentful.com/189dvqdsjh46/3Thp03koXKiWaA8qaa8Wq4/53073df4e6feeb9acdea9b28d276de7a/Datica-MLH-ReInvent.005.jpeg?w=1200)
+
+    The cloud is a perfect solution for his team. Unfortunately, he faced a compounding resource problem: None of his team members were DevOps or security experts, and he would never be granted authority to hire for this skillset since it would become a "shadow IT" risk to the security group.
+
+    In stepped Datica.
+
+    As a [HITRUST CSF Certified](https://datica.com/platform/compliance/) platform, any issues with trusting an external partner were immediately calmed. "Everyone at MLH put their weapons away and instead started to talk about how to solve problems," David said on stage to the audience.
+
+    Datica helped David become a partner to the internal IT and internal security teams. "When I heard that Datica would take direct calls from my security group, I knew I found a partner who could help me be successful," he added.
+
+    Because of how Datica removes the DevOps and DevSecOps burdens associated with putting workloads on the cloud, he didn't need to hire new staff members. His team of developers can spin up new containers and environments in a matter of minutes vs. months. They've already shipped more projects in 2017 while using Datica than they ever thought was  possible.
+
+    ![AWS Datica 1](//images.contentful.com/189dvqdsjh46/5WvSbb3tUkkuwEaAQU6y6c/277750e586335f9f46bb63381fd7154f/AWS_Datica_1.jpg?w=1600)
+
+    The session then turned to [Adam Leko, Datica's CTO & CISO](https://datica.com/leadership/). Adam dived into the technical specifics of how the platform worked.
+
+    After speaking to the technology we orchestrate in order to achieve HITRUST credibility, Adam spoke to the AWS primitives we enable. Of the 57 AWS Services, 27 are under their Business Associate Agreement. Almost all of the 27 are enabled via the Datica Platform. Adam spoke to the different services, like EC2, VPCs, and so on, but especially how those services are configured within an [enhanced shared responsibility model](https://datica.com/discover/aws-hipaa/).
+
+    <figure>
+    <script src="https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_08ebxufc4q seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+    <figcaption>Datica Shared Responsibility Model</figcaption>
+    </figure>
+
+    From there Adam shared the typical deployment model MLH's team uses to push their workloads to the Datica Platform and subsequently AWS.
+
+    The session was greeted with a positive response. For those who came up after the session was over, thank you for your questions and feedback. For those we weren't able to talk to before the room was closed, you can find us at booth #519. We have team members here all week who can help answer any compliance or security questions on AWS.
+  :featured_image:
+    :id: Zv6PIqpXYOkogIsC6ISmG
+  :share_image:
+    :id: 3XM12hYvtuswY2IQsS62U2
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 4QDw13xznycmAwm26KSgGU
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 3VMljZKhTquyQC46sao4mA
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 1xWyIu23sMAEAYA4sC2qk2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-09-29T16:55:40+00:00'
+    :created_at: '2017-09-28T22:02:32+00:00'
+    :id: 1xWyIu23sMAEAYA4sC2qk2
+  :title: 'Public vs. Private Cloud Computing Examined: Our Latest Quarterly Industry
+    Report'
+  :slug: public-vs-private-cloud-computing-examined-our-latest-quarterly-industry
+  :pub_date: !ruby/object:DateTime 2017-09-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Our latest industry report takes a look at various opinions and definitions
+    on public vs. private cloud computing within healthcare.
+  :blog_lead: 'Last quarter, we published our first industry report titled [The Heart
+    of Medicine: Transformation Through Technology](https://datica.com/innovation/heart-of-medicine-report-spring-2017/).
+    The report took a look at how sentiments have changed the last few years around
+    the topic of "cloud" within enterprise healthcare. Measuring the changes between
+    a 2014 HIMSS study and their 2017 version showed that certain use cases on the
+    cloud have not just taken off, but are commonplace—a good sign for the progress
+    of digital health.'
+  :post: |-
+    Each quarter we will bring a similar report focused on a key topic related to healthcare technology. The shape of a report can take many forms. One quarter might be an extensive data study while another quarter might be an aggregation of industry views. Regardless of the style of report, the intent remains the same: Inform the digital health market with insights that can help them be successful. _There is no strategy without intelligence._
+
+    Today we are happy to share our latest report titled [Public and Private Cloud Computing within Healthcare](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/). The premise of this report is simple: the debate between Public vs. Private cloud models is ongoing, yet many digital health companies we speak with aren't exactly sure their definitions, nor which model might be a fit for them. The [cloud](https://datica.com/discover/healthcare-cloud/) is expansive and complex. This report is meant to help breakdown the differences between the two, and source industry insights related to what is a good fit for healthcare.
+
+    Feedback is always welcome. Let us know what you think on Twitter at @daticahealth!
+  :featured_image:
+    :id: 7yUgq2CbIsUwMcAam02mG0
+  :share_image:
+    :id: 3OtctYqALCei8CmiwMsMEW
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :related_entries:
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

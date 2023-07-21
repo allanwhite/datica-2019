@@ -1,0 +1,371 @@
+---
+:id: 5RmUCIVYrKeyOqOC2E6iW0
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-06-09T23:54:08+00:00'
+  :created_at: '2016-11-23T21:32:53+00:00'
+  :id: 5RmUCIVYrKeyOqOC2E6iW0
+:title: Configuration Management (Part 2) - Commanding your minions with Salt
+:slug: configuration-management-2-commanding-your-minions-with-salt
+:pub_date: !ruby/object:DateTime 2014-11-03 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3riALtpuXYeIaIGuaq8M4w
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-05-31T17:27:15+00:00'
+    :created_at: '2016-11-23T18:22:26+00:00'
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :fullname: Datica Editorial Team
+  :slug: datica-editorial
+  :person_type: Datica Team
+  :profile_pic:
+    :id: 54LQpVAcVqe4s6WQkwGyEe
+  :email: hello@datica.com
+  :bio_short: We're the Datica Editorial Team.
+  :profile_twitter: daticahealth
+  :profile_linkedin: daticahealth
+  :profile_url: https://datica.com/leadership
+  :location:
+    :lat: 43.07284
+    :lon: -89.38811299999998
+:summary: With all of those minions running around, it can be like herding cats.
+:blog_lead: 'So you''re a DevOps engineer or, should I say, master of all things infrastructure
+  related in your kingdom. You have many minions at your beck and call. Some may bring  your
+  mail, others may serve as the interface to your kingdom from the outside world.
+  Still others might store the data for your secret proven cheese recipe.
+
+'
+:post: |
+  With all of those minions running around, it can be like herding cats. Some running from village to village doing as they please, and others needing a lot of hand-holding just to get that one task you give them daily done.
+
+  What ever is a master to do?
+
+  ### Enter Salt
+
+  >   … it’s - it’s a cookbook!
+
+  >   — Pat, *To Serve Man (The Twilight Zone)*
+
+  That's right, [you've heard me mention it before](https://datica.com/blog/configuration-management-on-the-catalyze-docker-paas/), Salt! Salt is great for configuring and managing your minions, and hey, it even refers to them as minions! The rest of this post assumes a basic knowledge of Salt, so check that out first if you are unclear about any of this.
+
+  At it's simplest, Salt consists of a master (hey that's you!) and one or more minions. There are several other components that can be used as well, a couple of which we will discuss later in this article and in Part 2. At this point it's probably a good idea to have a working salt-master up as well.
+
+  Setup and configuration of Salt is covered in a lot of places, but the [official documentation](http://docs.saltstack.com/en/latest/) site has a great comprehensive list of Salt resources to get you started.
+
+  ### What if my kingdom is in The Cloud?
+
+  >   Start where you are. Use what you have. Do what you can.
+
+  >   — Arthur Ashe
+
+  If your kingdom is in the cloud like mine is, Salt can help streamline this as well through the use of Salt-Cloud. Salt-Cloud allows you to describe all of your environments in an easy to read YAML format and make sure what you have in production matches what you've described in your YAML file.
+
+  There are three important parts to Salt-Cloud.
+
+  1. Provider configuration: This provides the configuration for your service providers. This includes things like your username, API key and other data salt-cloud will need to spawn your minions.
+  2. Profile configuration: This provides the configuration specific to your minions on they respective service providers. This includes things like flavor type, size and other configuration data.
+  3. YAML map files: This ties in the above with any additional configuration information you may want to set and describes your environment.
+
+  ### How does all of this even work?
+
+  >   If you’re an employer, you want to hire an employee who’ll do their job, not do your bidding.
+
+  >   — Jeffrey Jones
+
+  Good question. I'll walk you through it!
+
+  First we need to configure the provider information. You'll need an account with one of the supported cloud providers like [Rackspace](http://www.rackspace.com), [Digital Ocean](http://www.digitalocean.com) or [Amazon Web Services](http://aws.amazon.com). Once you sign up with one (or more) you will need to create a configuration for them in the `/etc/salt/cloud.profiles.d` directory on your salt master. Basic information on configuration can be found [here](http://salt-cloud.readthedocs.org/en/latest/#getting-started), but I'll give you a couple of slightly more advanced configuration example that use HIPAA compliant cloud resources called Rackspace RackConnect.
+
+  First the provider configuration. That would go in: `/etc/salt/cloud.profiles.d/rackspace_rackconnect.conf`
+
+  ```html
+  rackspace_rackconnect:
+    minion:
+      master: salt-master.example.com
+
+    identity_url: 'https://identity.api.rackspacecloud.com/v2.0/tokens'
+    compute_name: cloudServersOpenStack
+    protocol: ipv4
+    compute_region: IAD
+    user: yourraxusername
+    tenant: 123456
+    apikey: 7c04a8eb935b4894a3da0974f2b3a7c8
+    provider: openstack
+    ssh_key_file: /root/.ssh/id_dsa
+    ssh_key_name: salt-master
+    rackconnect: True
+  ```
+
+  Most of the above is common to the general compute cloud at Rackspace but the most important directive above is "rackconnect". This tells salt-cloud that your minions are to be placed in RackConnect account. Configuration of RackConnect itself is outside the scope of this document.
+
+  Next we need to configure the server profiles to use. I'll give you two examples. They would go in:`/etc/salt/cloud.providers.d/rackspace_rackconnect.conf`
+
+  ```
+  app_server_2GB:
+    provider: rackspace_rackconnect
+    image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM)
+    size: 2 GB Performance
+    networks:
+      - 00000000-0000-0000-0000-000000000000
+      - 11111111-1111-1111-1111-111111111111
+      - 2545865d-ff80-4da9-b620-0a792db2956e
+      - 13a71be5-e8f2-4484-93de-0e3d363ed951
+
+  db_server_2GB:
+    provider: rackspace_rackconnect
+    image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM)
+    size: 2 GB Performance
+    networks:
+      - 00000000-0000-0000-0000-000000000000
+      - 11111111-1111-1111-1111-111111111111
+      - 13a71be5-e8f2-4484-93de-0e3d363ed951
+  ```
+
+  I'll explain some of the above configuration.
+
+  The "provider" value maps to the name of the provider as entered into the profile configuration above.
+
+  The "image" and "size" refer directly to the full names of those directives as configured at Rackspace. You can use either the name or ID of these attributes, which you can get from the nova command line client.
+
+  The other important part for RackConnect is the "networks" list attribute. All RackConnect CloudServers must have the "00000000-0000-0000-0000-000000000000" (Public Internet) and "11111111-1111-1111-1111-111111111111" (ServiceNet) interfaces defined.
+
+  The above example assumes a virtualized version of a traditional 2-tiered network topology. The "2545865d..." network is my application network and the "13a71be5..." network is my database network. I use the ServiceNet network as my management network and the public network doesn't do anything, but is required to be present for RackConnect. It doesn't actually ping from the outside world.
+
+  And finally the fun part. The map files! I'll give you a simple example of a generic HA configuration with two application servers and two database servers. In the next post in this series on configuration management, I'll cover some more advanced configuration of these servers, but this will get them going for now. You will create a map file in the maps directory. You can name it whatever you'd like, but it's helpful to name it after the infrastructure you will be creating. For example example.map: `/etc/salt/cloud.maps.d/example.map`
+
+  ```
+  app_server_2GB:
+    - app1.example.com:
+        grains:
+          role: app
+    - app2.example.com:
+        grains:
+          role: app
+  db_server_2GB:
+    - db1.example.com:
+        grains:
+          role: postgresql
+    - db2.example.com:
+        grains:
+          role: postgresql
+  ```
+
+  The map file is pretty easy to understand and is pretty extensible. You'll note the instance/server profiles we listed in the profile configuration. Along with the hostname, I've included a list of "grains" for each server, in this case, a role. Grains can help in looking up servers later or identifying them to salt. For example, if I have a ton of these environments, I can get a list of all servers who's role is "app" or I can use that designation to have salt install nginx or some other application server software.
+
+  ### Putting it all together
+
+  >   Boom, baby!
+
+  >   — Kuzco (David Spade), The Emperor's New Groove
+
+  Now that we have everything configured we simply use salt-cloud to set it all up for us! That is the easiest part of all of this.
+
+  ```
+  cd /etc/salt/cloud.maps.d
+  salt-cloud -m example.map -P
+  ```
+
+  That's it! Really quick, the "-m" flag specifies the map file, and the "-P" flag makes salt-cloud run in parallel so it sets up all 4 servers at the same time. If you want salt-cloud to provision one at a time you can leave off the "-P".
+
+  You can now sit back and watch salt-cloud setup your minions for you! In the next post, I'll show you some more about how to customize this process, but as of now you have 4 new servers and they're all automatically managed through salt!
+
+  ### In conclusion
+
+  >   So in one leap we had gone from being a friendly society to something almost professional.
+
+  >   — Sir Neville Marriner
+
+  It's important to note that many of these configuration directives are portable between providers, profiles and the map files. In other words, you can make a lot of these configurations happen at any level in the stack. That's useful if say, for example, you have multiple providers. You can set a "grains" list at the provider level that indicates to salt that servers on Amazon, for example, need to have their hostnames reconfigured and the ones on Rackspace don't. If you run a big flat network topology, for example, you can put the "networks" list at the provider level as well, or move it into the map file if you have a bunch of different networks. Really quite flexible!
+
+  I'll cover these topics and more in the next post in the series, so stay tuned and happy mastering!
+:cta_ref:
+  :id: 28kGtqwD2oym6k8cUgksiQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-15T21:56:25+00:00'
+    :created_at: '2016-08-15T20:57:41+00:00'
+    :id: 28kGtqwD2oym6k8cUgksiQ
+  :cta_title: Contact Us Today
+  :cta_desc: 'Get in touch today to set your enterprise on the road to compliant hosting.  '
+  :cta_label: Contact us
+  :cta_url: https://datica.com/contact/
+  :cta_image:
+    :id: 2TCuBiWHHGCUiCccym8uye
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: blue-alt
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

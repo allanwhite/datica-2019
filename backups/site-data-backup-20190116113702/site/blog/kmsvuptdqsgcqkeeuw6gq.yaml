@@ -1,0 +1,138 @@
+---
+:id: KMSvUpTdQsGCqkeeuw6GQ
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-05-31T19:21:13+00:00'
+  :created_at: '2016-11-23T06:51:37+00:00'
+  :id: KMSvUpTdQsGCqkeeuw6GQ
+:title: Down the road to HITRUST
+:slug: down-the-road-to-hitrust
+:pub_date: !ruby/object:DateTime 2014-04-08 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'One of the major problems with "HIPAA Compliance" is that the rules that
+  make up HIPAA are more like recommendations than specific rules. Because of this,
+  an emerging standard is starting to gain acceptance: HITRUST.'
+:blog_lead: 'Catalyze is focused on compliance, specifically compliant hosting and
+  backend services. Hopefully that''s obvious or we''re doing very badly with marketing
+  and messaging. We typically don''t add "HIPAA" in front of "compliance" because
+  we think of compliance more broadly and there is a stigma in the healthcare industry
+  attached to "HIPAA Compliance". But, our technology and organizational structure
+  was built with information security at its core, and aspects of HIPAA have driven
+  our policies - especially as it relates to training and educating our team members
+  about the privacy and security of ePHI.
+
+'
+:post: |+
+  One of the major problems with "HIPAA Compliance" is that the rules that make up HIPAA are more like recommendations than specific rules. Most of them are very high level, and do not necessarily map to specific requirements. That leaves much up to interpretation. Because of this, an emerging standard, backed by some very big names in healthcare (United, CVS, McKesson, and more), is starting to gain acceptance. This new standard is called HITRUST. HITRUST was created to harmonize "the requirements of existing standards and regulations, including federal (HIPAA, HITECH), third party (PCI, COBIT) and government (NIST, FTC)". It raises the audit bar considerably but, at the same time, establishes a formal certification for healthcare technology security.
+
+  HITRUST has created what it calls the [Common Security Framework (CSF)](http://www.hitrustalliance.net/commonsecurityframework/), which is a dynamic set of requirements. We think of it as a more prescriptive version of the HIPAA rules, but it's really much more than that. I say dynamic because it is updated periodically, and certifications are mapped to specific versions of the CSF. Formal HITRUST CSF Certification, with the validation of an approved auditor, lasts for 2 years. Smaller vendors can also self assess themselves against the CSF.
+
+  We're excited to share that we've officially kicked off our HITRUST audit. Audits are hard to get excited about, but this is one we've been looking forward to for a while. The HITRUST audit is much more involved than our HIPAA assessment. It starts with us independently completing the CSF online, which is a good amount of work, then going over all of it with our independent auditors, then doing our on site audit and penetration testing, then submitting everything to HITRUST for certification. Organizations can self assess themselves against the CSF but, since we're compliance partners for our customers, we are going do the full audit to get to full certification.
+
+  This takes time, but it's something we are committed to and something we feel is important for us and our customers. In talking to customers and prospects, they see value in our approach both to technology and to compliance more broadly. Technology is only one part of us providing compliant hosting and services to our customers. We feel that HITRUST CSF Certification will be an additional benefit to our customers and to our customers' customers.
+
+  There are several additional things falling out of this process, all of which will help us as an organization. We'll be writing more about this, but we've changed the way that we do version control, as well as share publicly, our organizational and information security policies with customers and partners. We've also created a better risk assessment process and breach notification strategy. More on these in later posts. If you have any questions about HITRUST, please email [compliance@catalyze.io](mailto:compliance@catalyze.io).
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

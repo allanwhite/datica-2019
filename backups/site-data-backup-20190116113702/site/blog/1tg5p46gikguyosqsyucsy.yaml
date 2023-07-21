@@ -1,0 +1,846 @@
+---
+:id: 1tg5P46GikgUYoSqsYUcSY
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-28T03:09:51+00:00'
+  :created_at: '2018-07-02T17:24:15+00:00'
+  :id: 1tg5P46GikgUYoSqsYUcSY
+:title: Datica’s gone native — cloud native!
+:slug: datica's-gone-native-cloud-native
+:pub_date: !ruby/object:DateTime 2018-06-29 00:00:00.000000000 Z
+:tags:
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: We've taken our commitment to open source and Kubernetes a step further
+  by becoming a silver member of the Cloud Native Computing Foundation (CNCF).
+:blog_lead: As any of the 200+ people who have already forked Datica’s open source
+  compliance policies can attest, we’ve always been a big believer in the value and
+  spirit of open source. Last year our open source commitment evolved to include [Open
+  Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+  to help solve the problem of healthcare data integration. Most recently, the open
+  source project [Kubernetes&reg;](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/)
+  became the fundamental technical management layer for Datica. To take this commitment
+  even further, we’re thrilled to announce we’ve become one of the newest silver members
+  of the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF), home of
+  Kubernetes.
+:post: "  \nSince 2015, Kubernetes has become the industry standard for container
+  management, lending the best tools for workload deployment on public clouds. In
+  addition to being cross-cloud compatible and open source, the CNCF Kubernetes project
+  and community have grown at a tremendous pace. In fact, the [CNCF announced Datica
+  as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
+  last week, bringing the membership level to 236 companies. What really makes [Kubernetes
+  a viable option](https://datica.com/blog/kubernetes-vs-paas/) is not the core project
+  itself, but the community of tools and add-ons that surround it.\n\nWe’re excited
+  for what the future holds in this open-source-fueled era of rapid development and
+  are particular excited to step into this future in partnership with the CNCF to
+  collaborate with other Kubernetes developers who are trying to build secure and
+  compliant products. \n\nTake a look at the [press release announcing our CNCF membership](https://datica.com/press-release/datica-joins-the-cloud-native-computing-foundation/)
+  for more details.\n\n\n"
+:featured_image:
+  :title: blog-cncf-featured
+  :description: Datica's gone native featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4rUKbhbssoiy84e4MaSMYs/a7a4279dd546c26a838ec83772d7b822/sunrise_-_ross-van-der-wal-224852-unsplash.jpg"
+  :_meta:
+    :updated_at: '2018-08-28T03:09:32+00:00'
+    :created_at: '2018-07-02T17:20:02+00:00'
+    :id: 4rUKbhbssoiy84e4MaSMYs
+:share_image:
+  :title: blog-cncf-share
+  :description: Datica's gone native social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4BA2icKqCskuuGQOQw8yEA/867b1755d40ef046a99ed08f7a24ee20/blog-cncf-share.jpg"
+  :_meta:
+    :updated_at: '2018-08-28T03:09:03+00:00'
+    :created_at: '2018-07-02T17:20:54+00:00'
+    :id: 4BA2icKqCskuuGQOQw8yEA
+:cta_ref:
+  :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-19T19:31:53+00:00'
+    :created_at: '2017-10-19T23:51:37+00:00'
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :cta_title: Get the TCO Guide to Compliance in the Cloud
+  :cta_desc: "In this guide are tested formulas and directional advice from the compliance
+    and cloud experts at Datica to measure and manage the total cost of ownership
+    to achieve compliance in the cloud. \n"
+  :cta_label: Get the Guide
+  :cta_url: https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/
+  :cta_image:
+    :id: 2NJsEVFGicIMoissY4IUUW
+  :cta_svg_icon:
+    :id: 7pn2kUUoFyqsqYSMAwgAUS
+  :cta_icon: "/public/icons/datica-icons/icons-products/icon-managed-integration.svg"
+  :cta_color: blue-alt
+:related_entries:
+- :id: 1ITEzHLxx2QIaK4YagEecK
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:32:59+00:00'
+    :created_at: '2018-06-21T23:38:52+00:00'
+    :id: 1ITEzHLxx2QIaK4YagEecK
+  :title: Kubernetes vs. PaaS
+  :slug: kubernetes-vs-paas
+  :pub_date: !ruby/object:DateTime 2018-06-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: If you're new to container orchestration and more familiar with a fully
+    managed platform-as-a-service (PaaS), Kubernetes can seem complex. Learn the differences
+    and tradeoffs.
+  :blog_lead: Kubernetes® is dominating in 2018. If you're not already thinking about
+    Kubernetes or at least containerization, then you're behind. Fortunately, containers
+    and cloud native architectures have never been more accessible or easier to get
+    started with. From infrastructure providers like AWS and Azure offering their
+    own [versions of managed Kubernetes](https://sysdig.com/blog/ecs-fargate-eks-kubernetes-aws-compared/),
+    to organizations like Cloud Foundry offering [Kubernetes services](https://www.cloudfoundry.org/container-runtime/),
+    the world is shifting toward containers.
+  :post: "\nIf you're working inside of a regulated industry, like healthcare or finance,
+    these tools may seem out of reach. The compliance requirements and security restrictions
+    of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
+    to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
+    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    Our customers are asking for it, it’s the future of managing workloads born in
+    the cloud, and Datica is already the most robust solution for compliance management
+    on the planet. \n\nIf you're new to container orchestration and more familiar
+    with a fully managed platform, like Heroku or Datica's legacy product, Kubernetes
+    can seem complex. The goal of this article is to compare Kubernetes with a traditional
+    PaaS, discuss the differences, and examine the tradeoffs.\n\n> Now that the world
+    has sufficiently been eaten by software, applications and tools have become ever
+    larger and more complex.\n\n## What is a PaaS?\n\nA Platform as a Service, or
+    a PaaS is intended to create a layer of abstraction on top of cloud service providers
+    (or in some cases data centers and bare metal) so the end user can focus on deploying,
+    managing, and scaling their applications and data. Without going into the [history
+    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    it's easy to think about it as a way of automating many of the repetitive, lower-level
+    tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
+    known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
+    and [Pivotal Cloud Foundry](https://pivotal.io/platform). These systems work when
+    developers make minimal configuration changes to their application's code and
+    then simply \"push\" their code to the cloud. The PaaS will then make an attempt
+    to understand the code, install the required dependencies, containerize the application,
+    and then serve it up. These providers then have a UI layer for managing resources,
+    networking, access, and more.\n\n## The benefits of a PaaS\n\nBeing able to directly
+    push your code to the cloud and have it running is a tremendous benefit over the
+    old days of standing up a server, installing an operating system (and then patching
+    it each time there's a vulnerability), getting nginx configured properly, and
+    much more. With a PaaS, developers can focus on delivering value via their product,
+    not building IT infrastructure.\n\nIn addition to being able to simply push your
+    code and have it running, many of these PaaS providers also couple database managed
+    services as part of their Platform.\n\n## The pitfalls of a PaaS\n\nThe ease of
+    use for a PaaS comes at the cost of flexibility. Want to install custom software
+    on an instance? Nope. Want to ssh into an instance to investigate an issue that
+    isn't appearing in the logs? Nope. Want to do anything beyond a simple Ruby, Python,
+    or Node app? Good luck.\n\nA PaaS serves a very specific purpose — to help small
+    teams with simple applications run those in the cloud without the DevOps overhead
+    of managing a fleet of instances on AWS or Azure.\n\nThe primary reason why so
+    many PaaS providers have failed to make substantial headway in the enterprise
+    space is because the model is so restrictive. For an organization managing hundreds
+    of applications with petabytes of data, it makes more sense to build out a team
+    that can manage all of it instead of making substantial changes to your business
+    in order to fit a square peg into a round hole.\n\n## Enter Kubernetes and containers\n\nNow
+    that the world has sufficiently been eaten by software, applications and tools
+    have become ever larger and more complex. A small organization that just three
+    years ago could have survived on Heroku is now growing at a pace that prohibits
+    them from continuing to use a restrictive PaaS. Maybe they're exploring machine
+    learning or want a data warehouse. Whatever the case, they've outgrown the PaaS
+    model. Now they need to move to something more flexible: Kubernetes.\n\nSince
+    the invention of containers, and specifically with the popularity of Docker, organizations
+    have been figuring out easier ways to orchestrate containers — that is, how to
+    get them running, connected and served up in the cloud. In a way, orchestration
+    is the primary function of a PaaS. Because containers are relatively trivial to
+    build (and in most cases the build process can be automated, ex: [Gitkube](https://gitkube.sh/))
+    the focus in the container space has been on orchestration.\n\n## The benefits
+    of containers\n\nThe benefits of containers over virtual machines has been discussed
+    to no end on the internet. I won't go into detail here, but simply put — with
+    containers, developers can port their applications from machine to machine whether
+    that's running it locally on a Mac, on a server in AWS or on a droplet on Digital
+    Ocean. A container is a container and it can run anywhere. Compare this to the
+    complexity of managing an entire fleet  VM, each with its own OS. With containers
+    there’s only one operating system to manage, even with hundreds of containers.\n\n##
+    Why Kubernetes\n\nKubernetes and containers have many of the same benefits. They
+    can both run anywhere and they both function the same whether they're running
+    on AWS, Azure, GCP, or in the locked closet down the hall. Kubernetes is open
+    source, financially backed by hundreds of organizations, and is managed by the
+    [Cloud Native Computing Foundation](https://www.cncf.io/). In addition to being
+    cross-cloud compatible and open source, Kubernetes has also shown tremendous growth
+    in the last year.\n\nIf you’re coming from a PaaS you’ll no doubt have concerns
+    around the ease of use and lack of automated DevOps support in Kubernetes. When
+    I first explored Kubernetes in late 2014 I walked away feeling like it was too
+    complicated and didn’t fit Datica’s customer use case. In 2018 it’s a different
+    story.\n\nSince Kubernetes officially hit 1.0 in 2015, the community and project
+    have grown at a tremendous pace. What really makes Kubernetes a viable option
+    is not the core project itself, but the community of tools and add-ons that surround
+    it. Kubernetes isn’t a PaaS, it’s a foundation on which to build a PaaS.\n\nThink
+    of Kubernetes and the cloud native community as a set of building blocks. With
+    these building blocks you can construct any number of different solutions. No
+    longer are you held back or restricted by PaaS providers. \n\n## Which to choose\n\nThe
+    decision to choose Kubernetes over a PaaS (or vice versa) is going to depend on
+    your business, technology, market, team, and several other factors. Having said
+    that, even if you currently have a simple application with a relatively smaller
+    user base, you’re likely going to scale and change rapidly. Preparing for the
+    future by moving to containers now is going to save you time and money when it
+    becomes critical later on.\n"
+  :featured_image:
+    :id: 3r6k88ycnCQQScWqwmicEQ
+  :share_image:
+    :id: 3XcPzlSFHWkUQWUqyOisq0
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 6hcZMUL5qoc0SyssOiUMCi
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:48:55+00:00'
+    :created_at: '2017-11-29T21:35:56+00:00'
+    :id: 6hcZMUL5qoc0SyssOiUMCi
+  :title: AWS Fargate and HIPAA Compliant Containers
+  :slug: aws-fargate-and-hipaa-compliant-containers
+  :pub_date: !ruby/object:DateTime 2017-11-29 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Day 3 of re:Invent kicked off with AWS CEO, Andy Jassy, announcing Fargate
+    among a slew of new AWS services. Can you tell we''re excited about Fargate?
+
+'
+  :blog_lead: The third day of AWS re:Invent was kicked off this morning with Andy
+    Jassy, CEO of Amazon Web Services, announcing a slew of [new AWS services](https://aws.amazon.com/new/reinvent/).
+    One such service that has us excited is Fargate.
+  :post: "As Randall Hunt put it in a [company blog post](https://aws.amazon.com/blogs/aws/aws-fargate/)
+    announcing the new service: \n\n> AWS Fargate is an easy way to deploy your containers
+    on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual
+    machine you get a container. It’s a technology that allows you to use containers
+    as a fundamental compute primitive without having to manage the underlying instances.\"\n\nWe've
+    seen an incredible increase in container adoption over the last couple of years.
+    Datica has been a huge proponent of containerization technology since our founding.
+    We use Docker in production on a daily basis to deliver HIPAA compliant environments
+    to thousands of users. We even built our own orchestration layer in 2014, one
+    year before [Kubernetes 1.0](https://cloudplatform.googleblog.com/2015/07/Kubernetes-V1-Released.html)
+    was released. To say we're bought into the concept of containers would be a massive
+    understatement.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\"
+    dir=\"ltr\">No longer any need to manage servers and clusters for your containers
+    - AWS Fargate - Run ECS and EKS without managing servers <a href=\"https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw\">#reInvent</a>
+    <a href=\"https://t.co/oPsXdvrSAL\">https://t.co/oPsXdvrSAL</a> <a href=\"https://t.co/lZnS558CXV\">pic.twitter.com/lZnS558CXV</a></p>&mdash;
+    AWS re:Invent (@AWSreInvent) <a href=\"https://twitter.com/AWSreInvent/status/935910336212844544?ref_src=twsrc%5Etfw\">November
+    29, 2017</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\"
+    charset=\"utf-8\"></script>\n\nIt's because of our long history of containerization
+    support that we're excited about AWS Fargate. However, that excitement isn't without
+    reservation. As is the case with most new technology, compliance and security
+    pose great barriers to adoption. We're deeply aware of these barriers at Datica.
+    [The Datica Platform](https://datica.com/platform/) was designed to address the
+    complexities of compliance and security specific to the healthcare industry. The
+    fact is, understanding compliance is difficult enough. That difficulty is exasperated
+    exponentially when it comes time to not only implement that understanding through
+    policy, but prove compliance beyond a reasonable doubt to auditors.\n\nOur primary
+    reservation with Fargate is that it currently is not eligible for [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    Because we [sign a BAA](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/)
+    with both AWS and our customers, we cannot guarantee full-stack compliance against
+    a service that is not scoped within the BAA that we sign with AWS. This means
+    our customers in the healthcare industry cannot take advantage of such a service.\n\nLuckily,
+    we've been working on a Docker-based deployment feature for the better part of
+    the last quarter. By working directly with our customers on improving our deployment
+    process, we're approaching a limited release of Datica BYOD (bring your own docker).
+    BYOD will give users the ability to deploy docker containers directly on the platform.
+    No longer will deployments be restricted to the `git push` model. In the future—once
+    it becomes HIPAA eligible—we plan to take complete advantage of AWS Fargate. Until
+    then, we're confident BYOD will provide an excellent deployment experience for
+    our customers.\n\nBYOD will be released into limited availability in December,
+    2017. We're selectively working with existing customers to test these new features.
+    If you're interested in participating, please reach out to me at [ryan@datica.com](mailto:ryan@datica.com),
+    and if you're at AWS re:Invent stop by booth #519 to chat with us about Fargate
+    and containerization!\n\n\n"
+  :featured_image:
+    :id: 1girbRNRDi0Kg6WmQWskUU
+  :share_image:
+    :id: DLgFmRN1BYimUEiemkGik
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: 4QDw13xznycmAwm26KSgGU
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 3VMljZKhTquyQC46sao4mA
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:33:59+00:00'
+    :created_at: '2018-05-11T19:28:48+00:00'
+    :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :title: 'What We''re Building: Datica''s Public Product Strategy and Roadmap'
+  :slug: what-were-building-daticas-public-product-roadmap
+  :pub_date: !ruby/object:DateTime 2018-05-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 7FkInYPmxiG4QsiM60COos
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: company
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Transparency is the heart of Datica. With that said, we announced Datica’s
+    public product strategy & roadmap. This document will serve as the window into
+    Platform product development. '
+  :blog_lead: "Working with any organization requires a certain level of trust. Even
+    something as mundane as purchasing groceries requires trust — trust in that what
+    you are promising to give me is in fact aligned with my expectations.\n\n"
+  :post: "\nWe believe trust is earned with transparency. Since the founding of the
+    company in 2013, transparency has been a central cultural tenant. It’s why we
+    [open sourced our internal company policies](https://datica.com/open-source/policies/),
+    which have been adopted by hundreds of organizations to accelerate their path
+    to compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
+    as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and
+    why we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
+    [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+    and so on. Transparency is how we, as a technology community, can better understand
+    the complexity of security and compliance.\n\nThe trust that Datica's customers
+    instill in us goes far beyond a simple exchange of goods. We are not only securing
+    the world's most sensitive data, but providing a service to users that proves,
+    beyond a reasonable doubt, that we maintain the highest level of compliance in
+    doing so. In order to continue building on that trust, and delivering products
+    and services that support that mission, there is a necessity for more transparency.
+    In this first effort to provide increased transparency around what we are doing
+    and why, we are publishing our first public product strategy and roadmap.\n\n##
+    Why?\n\nIf you’re a Datica customer, or you’re considering becoming one, you will
+    rely on us to provide a product that is critical in running your business. Here
+    is what you can expect.\n\n### Developer operations\n\nThe Platform is a fully
+    automated continuous compliance management tool for the cloud. The cloud, and
+    the shared responsibility inherit within, fundamentally change the compliance
+    and data liability landscape. Regardless of the support, management, or compliance
+    structure your organization chooses to use, at various levels, you will rely on
+    Datica to provide cloud security and compliance services. Our goal is to get compliance
+    out of the way so you can focus on using the cloud tools you want to use.\n\n###
+    Visibility into liability and privacy agreements\n\nThe cloud is opaque when it
+    comes to liability and data privacy. At Datica, we strive to bring transparency
+    to your cloud operations and your data liability radius. This is especially important
+    in the case of a data breach, security incident, or audit.\n\n### Compliance and
+    security\n\nAbove all the rest is compliance and security. Our customers rely
+    on us to provide the highest level of compliance with our HITRUST CSF certification,
+    SOC2 Type 1 and 2, and full GDPR audit (more coming soon). Additionally, they’re
+    trusting us to secure their cloud environments and ensure data protection at all
+    costs.\n\nGiven how much our customers rely on us to do, they need to be a part
+    of the conversation. They need to have full transparency of what we are building.
+    That is not to say we’ve been developing the Platform in a vacuum. We work one-on-one
+    with users on a daily basis. We’re constantly taking feedback and building that
+    back into the product. However, we’ve not always been as transparent as we could
+    have been when it comes to the current set of product initiatives. We’re hoping
+    to change that with the public product strategy and roadmap (ex: “Hey, I see you're
+    working on an update to your vulnerability scanning component, feature X would
+    be really nice...”, etc.). Our goal is to give the market a full view of what
+    we’re doing and why we’re doing it. \n\nCloud technology and the companies running
+    the underlying infrastructure are moving at an incredible speed. By making our
+    roadmap and strategy transparent, our hope is to gauge ourselves against this
+    speed and adapt accordingly. Datica is a compliance and security company. The
+    mechanisms by which we deliver those two value propositions will and should change
+    with time.\n\n> Datica’s mission is to empower organizations around the world
+    to take their preferred tools, use them in a cloud setting, and then provide and
+    maintain the highest standards of security and compliance around those tools.
+    \n\n## The Risk\n\nOften when companies are first starting out they view their
+    value as a secret. What they’re doing and how they’re doing it is seen as magic
+    sauce. They want to harbor that magic. As companies grow and mature, they tend
+    to learn that the magic is in execution, not the intellectual property or ideas.
+    At Datica, we’ve assembled the best team of security, cloud, and compliance experts
+    to execute on designing and delivering the most secure and compliant Platform
+    for the cloud. We have no secrets to keep.\n\nWith that said, I’m proud to announce
+    [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+    This document will serve as the window into Platform product development. To get
+    the most out of this effort, we need to hear from you. Please send us your feedback,
+    feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
+  :featured_image:
+    :id: 1iqz7Kvr88m8uq8Qsiu2w
+  :share_image:
+    :id: 7jqEEY0z5Kq6aU0Q0iWQKc
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5A8wMf6ck8seomyq2g6i0k
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+- :id: 4AznnGBn9SEs6kAyyuCmIW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-06T21:05:25+00:00'
+    :created_at: '2017-11-16T17:05:36+00:00'
+    :id: 4AznnGBn9SEs6kAyyuCmIW
+  :title: Announcing one-click installations of Mirth Connect and Open-Source Connectors
+  :slug: announcing-one-click-installations-of-mirth-connect-and-open-source
+  :pub_date: !ruby/object:DateTime 2017-11-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: platform
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: Today we are launching one-click installations of Mirth Connect combined
+    with Open-Source Connectors for the Datica Platform.
+  :blog_lead: Today we are launching one-click installations of [Mirth Connect](https://www.mirth.com/)
+    combined with Open-Source Connectors. It is the next evolution of how we help
+    solve the problem of healthcare data integration. The switch to a more open solution
+    is a testament to our enduring commitment to helping customers with integration
+    in the best way possible.
+  :post: "> Healthcare developers can get started on new projects faster, and benefit
+    from three years of learning. We aim to empower the developer community to solve
+    the problem of integration themselves with tools that are open, reliable, compliant,
+    and secure.\n\nThe launch is based on consistent feedback that customers need
+    more flexibility, more control over their integration environments, better pricing
+    at scale, and future-proofing for things like [FHIR](/academy/introduction-to-fhir/)
+    and the Epic App Orchard and Cerner Code.\n\nDatica has been doing healthcare
+    integration since October 2014, going through a [few iterations in pricing and
+    packaging](/blog/announcing-self-service-and-free-trials/). Regardless of the
+    iteration, our pragmatic, partnership approach remained consistent and accomplished
+    a lot. In three years we built a team of experts to deliver on integrations and
+    delivered over 150 live integrations into healthcare organizations, with many
+    more in process. Historically it was a SaaS-based pricing model where customers
+    paid a fixed fee per month per interface, per site or even an annual license to
+    purchase site-based delivery. We did integration work in every major vertical:
+    vendors, life sciences, healthcare organizations, and payers.\n\nTimes have changed
+    since 2014 in the integration world. The cloud has gone from a taboo term in digital
+    health to the default place to build 99% of new healthcare applications. FHIR
+    has gone from a glimmer in [Grahame Grieve's](/innovation/grahame-grieve-pt1/)
+    eye into an API platform that will soon be made available from most of the big
+    EHRs. A new wave of digital health developers believe in openness first, even
+    at hospitals as they look to commercialize IP in a digital format. There was no
+    way to predict this would happen so fast (at least in healthcare, three years
+    seems fast) but we are here now.\n\nOver the last three years, we learned the
+    best way to help our customers was to teach them this point: there is no silver
+    bullet to integration **but it is a problem you can solve with the right tools**.
+    \n\nThat's why we are releasing the ability to deploy Mirth Connect with \"one-click\"
+    into your [Datica environment](/platform/). You gain the expertise we've built
+    on running reliable and available integration capabilities in one-click, deployed
+    directly into your compliant environment on the Datica platform. Mirth, which
+    is an open-source platform itself, is a great tool for software developers to
+    use for integration. This is why we've written up documentation based on the hundreds
+    of integrations that we've done which can teach you quickly how to [get started
+    on using Mirth](https://datica.zendesk.com/hc/en-us/sections/115001535023-Mirth-Getting-Started).\n\n##
+    Open-Source Mirth Connectors\n\nWe also [open-sourced our code](https://github.com/daticahealth/Mirth-Transforms)
+    for transforming data from HL7 to JSON. This is a major evolution for digital
+    health teams. We do not believe in locking customers into proprietary APIs, so
+    we have published everything we've learned at the transformation layer, with many
+    more scripts to come. It's all in an effort to help you gain more transparency
+    and confidence with [EHR integration](/discover/ehr-integrations/).\n\nThese connectors
+    are a series of libraries that can be plugged into your Mirth Connect environment
+    which immediately enable HL7 feeds for consumption by a restful API. We will be
+    continuing to open-source content as we create it, including transformers to other
+    data types like those for [Open mHealth](http://www.openmhealth.org/) and [Office
+    365 Cards](https://docs.microsoft.com/en-us/outlook/actionable-messages/actionable-messages-via-connectors).
+    The only major limitations behind what we aim to open-source will be transforms
+    which are based on vendor-specific connections or data models which we can't expose
+    due to legal reasons (e.g. Epic Interconnect XML data models).\n\n## Integration
+    Environment Details\n\nTake note: the integration environment is much more than
+    just Mirth. Each environment has a bundle of tools important to successful integration:\n\n*
+    Highly Available (HA) configuration of Mirth instances. HA operations of Mirth
+    are not trivial. We make it easy, instantly.\n* HA configuration of Postgres.
+    A supplemental database is important for initial message ingestion, and must support
+    a similar HA nature for continuous connection.\n* Load balancers.\n* Network monitoring
+    and usage alerts. Understanding the traffic usage is important for audit purposes.
+    Additional alerting is important for ongoing management of a connection.\n* VPN
+    Management. Remember, you do not integrate with Epic, you integrate with a specific
+    site's version of Epic. Therefore you'll need a VPN for every integration you
+    plan to make. Our VPN tooling makes it easy, combined with our expertise in how
+    to ensure they stay connected 24/7.\n\nThe integration environment is available
+    in both the [Standard and Professional plans](/pricing). The environment is not
+    available for free trials (yet), but will be soon. Along with this update, we
+    have now made VPN management available in the Standard plan as well, so people
+    can get started with EHR integration for as low as $1,150/mo.\n\nWe're often asked
+    how much throughput a typical environment can handle. The answer is _a lot_. A
+    single environment with no modifications can handle as many as fifty site integrations.
+    If customers need to scale throughput, they simply scale RAM. If you have any
+    additional questions, [please reach out](/services/#cta). We're happy to chat.\n\n##
+    Pricing Updates\n\nOne thing you may notice is that we do not bundle the integration
+    environment with professional services under the name of \"Managed Integration\"
+    anymore.\n\nOur customers that have greater challenges or unique needs can now
+    purchase both separately since services are now optional.\n\nThis means digital
+    health teams can get all the integration tooling they need — along with HITRUST
+    CSF Certified, HIPAA compliant, secure infrastructure housed under one [Business
+    Associate Agreement](/blog/3-common-misconceptions-about-business-associate-agreements/)
+    — for as little as $1,150/mo.\n\nThe other exciting news about Datica's pricing
+    is that this scales much better for you. It's pricing that is truly aligned with
+    your success.\n\n## The Future of Integration Is Open\n\nThis is a shift in how
+    we offer integration because it better aligns with the needs of digital health
+    companies. You want open standards, you want ease of use, you want compliance
+    and security, but most importantly, you want successful EHR integrations. This
+    new option gives that to you with a single click.\n\nHealthcare developers can
+    get started on new projects faster, and benefit from three years of learning.
+    We aim to empower the developer community to solve the problem of integration
+    themselves with tools that are open, reliable, compliant, and secure.\n\nFor moments
+    where projects seem too difficult, [our integration services team](/services)
+    will be ready to jump in and help you with that lift. We see a world in which
+    all of our customers can eventually own their own integrations and we want to
+    provide the easiest path for customers to be able to manage that themselves. [Reach
+    out](/services/#cta) if you have any questions, we'd love to help you out.\n"
+  :featured_image:
+    :id: 6JRShb9r5S2kgakoeM0EME
+  :share_image:
+    :id: 5XLvUOemeAIQyEMss2uW6I
+  :cta_ref:
+    :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+  :related_entries:
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 6CB2jwUkdaQ2aUG884qQSS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 515m1QVsxW0EKCYo0MEiaS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2019-01-10T23:50:19+00:00'
+    :created_at: '2017-09-07T17:28:21+00:00'
+    :id: 515m1QVsxW0EKCYo0MEiaS
+  :title: Lifting A Fork for Open Source
+  :slug: lifting-a-fork-for-open-source
+  :pub_date: !ruby/object:DateTime 2017-09-07 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: healthcare
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: This Q&A with Datica's Chief Data Officer, Mark Olschesky, explores what
+    it means that Datica just passed 200 forks of our open-source policies.
+  :blog_lead: |-
+    A week ago, Chief Data Officer [Mark Olschesky](https://datica.com/about/mark/) used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:
+
+    > When you come to a fork in the road, take it!
+  :post: "As with many technical terms, the word “fork” obviously had more than one
+    meaning. The mention of this particular company achievement, along with its oddly
+    referenced name suddenly had my non-technical mind driving for answers. I needed
+    to uncover not only what a “fork” was, but also why having 200 of them came with
+    so many “thumbs up” and “clapping hand” emoticons. The discovery called for a
+    quick Q&A with none other than torchbearer himself, [Mark Olschesky](/about/mark/).
+    \n\n#### Q: Just what is a “fork” in technical terms?\n\n**Mark:**  A fork is
+    a term for duplicating a code or document repository. It’s not required. Someone
+    could simply download the source from the repository without us knowing at all.
+    In the open-source world, “forks” and “stars” are a common way to track the success
+    of a project. We use [GitHub to host our policies](https://github.com/catalyzeio/policies/);
+    there, you can track all changes made to the policies by reviewing forks made
+    by our customers.\n\n#### Q: Participating in open-source projects has been strategic
+    for Datica, can you tell me more about its importance to the company?\n\n**Mark:**
+    When the company was founded in 2013, the industry had its share of duplicitous
+    vendors peddling “HIPAA-compliant” solutions for hosting and application development.
+    Turns out that many of those solutions were far from compliant. As a company that,
+    1) wanted to do more to make compliance in the cloud easier and, 2) was not the
+    first HIPAA-compliant vendor, the company needed to go the extra mile to prove
+    our compliance and differentiate the company from the rest of the market beyond
+    base market copy.\n\n#### Q: How did that differentiation begin?\n\n**Mark:**
+    During Datica’s first HITRUST audit, CEO Travis Good, MD saw the potential for
+    sharing what we’d learned with the entire industry via open-source policies. He
+    then made the following strategic decisions:\n\n- Datica should publish our policies
+    in a way that allows them to be easily tracked over time (GitHub).\n- We should
+    open-source the policies to both engender goodwill with the developer community
+    and to also demonstrate the lengths that Datica goes for its customers versus
+    other “HIPAA-compliant” vendors. \n- Provide a way for other companies with existing
+    infrastructure or that didn’t want to host with Datica to fork those policies
+    and make them their own. As such, we would show different flavors of how to demonstrate
+    compliance with different application stacks or organizational differences.\n\n####
+    Q: How does forking of our open-source policies help healthcare in general?\n\n**Mark:**
+    As a company, Datica does not manage all the parts of HIPAA. For example, we don’t
+    employ clinicians or have software that performs medical decision-making or automated
+    outreach to patients. As such, it’s hard for our policies to be the definitive
+    guide for “what it means to be HIPAA compliant.”\n\n#### Q: That sounds counterintuitive
+    to the ultimate goal of HIPAA compliance. Can you explain how forks play into
+    that?\n\n**Mark:** By looking at forks, you can see what other customers have
+    done. Most commonly, you can see companies with different Business Associate Agreements
+    (BAAs). You’ll also see some major material differences through the forks. \n\n####
+    Q: Can you give me a good example of a fork?\n\n**Mark:** One is Bind. As an insurer/broker
+    (and therefore likely a [Covered Entity](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    their policies will differ from Datica’s as a cloud infrastructure/tooling provider.
+    Bind’s willingness to share what they’ve done could help other insurers or brokers
+    with their path to build and demonstrate compliance. That can save everyone time
+    and money. That savings allows organizations to work on the real problems in healthcare.\n\n####
+    Q: When the 200th fork came in from the Chief Technology Officer of a care coordination
+    platform, you shared this good news with the entire company. Why was this an important
+    achievement?\n\n**Mark:** Many open-source projects don’t receive much attention,
+    so it’s great to see that Datica’s open-sourced policies are one of the more popular
+    open source projects in healthcare compliance. The Linux Foundation took a similar
+    approach a year later in [publishing their policies](https://github.com/lfit/itpol).
+    Datica is proud to be one of the earlier innovators in a space that facilitates
+    transparency in best practices by publishing those policies. As a company we strive
+    to constantly do what’s best for our customers, but also the industry as a whole.\n"
+  :featured_image:
+    :id: 1965rZnwPkaUM2CY8SUKak
+  :share_image:
+    :id: 65w5CGxURO0882K08I0A26
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5S8LbWARFKIogwQ2Mmcg80
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 1tg5P46GikgUYoSqsYUcSY
+  - :id: 1ITEzHLxx2QIaK4YagEecK
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 35taSEV8ZqKSQKSiwUyQU4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-05-25T19:43:52+00:00'
+    :created_at: '2017-10-20T03:38:03+00:00'
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+  :title: HIPAA Compliance on AWS
+  :slug: aws-hipaa
+  :topic_tag:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :summary: Understand how AWS and Datica fit together for healthcare products to
+    deploy HIPAA compliant workloads in the easiest, most economical, and fastest
+    way possible.
+  :featured_image:
+    :id: 3gflDVmPuoecamYsY6OOSI
+  :lead: "Amazon Web Services (AWS) + Datica are a match made in HIPAA compliance
+    heaven. Developers can deploy application workloads to their Datica environment
+    instead of directly to AWS to eliminate the burden of compliance. With the Datica
+    Platform, you get all the great benefits of AWS as the foundation our platform,
+    plus Datica automates all DevOps and DevSecOps requirements on the cloud. With
+    AWS + Datica, developers can deploy AWS services & workloads in minutes that are
+    fully in compliance with HIPAA and HITRUST. \n\nThis resource page is meant to
+    help you understand how AWS and Datica work together for makers of digital health
+    products to deploy HIPAA compliant workloads in the easiest, most economical,
+    and fastest way possible."
+  :body: "## What is AWS?\n\n<img src=\"//images.contentful.com/189dvqdsjh46/6jIaQReY80cKKGiCAIUcO8/1bc13adfdccc6214ec207f49120a32b0/aws-logo.png\"
+    width=\"200\" class=\"float-right-on-medium\" alt=\"Amazon Web Services (AWS)\">\n\nAmazon
+    Web Services (AWS), like Microsoft Azure, Google Cloud, or IBM Softlayer, provides
+    infrastructure-as-a-service (IaaS) in the form of a Public Cloud. In a Public
+    Cloud, the data centers are owned and managed by the cloud provider but are made
+    available through a shared service model to the general public or industry groups.\n\nHealthcare
+    developers often prefer public clouds like AWS since pay-as-you-go pricing models
+    provide economies of scale and the same levels of security and compliance can
+    be achieved today as on private clouds. \n\n## How does the Datica Platform work
+    with AWS?\n\nAWS is an Infrastructure as a Service (IaaS) offering. Datica is
+    a Platform as a Service (PaaS) company and Datica is an APN Healthcare Partner
+    of Amazon AWS. Our PaaS requires an IaaS, and we use AWS by default at all [levels
+    of our platform](https://datica.com/pricing/). At the enterprise-level, the Datica
+    Platform is also available on multiple clouds including Microsoft Azure, Rackspace,
+    or IBM SoftLayer. When it comes down to it, we basically make AWS easier to use
+    for the healthcare developer market. It’s less expensive, less time-intensive,
+    less risky, and a better experience to use Datica to reap the benefits of AWS
+    than for makers of digital health applications to deploy on AWS directly.\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/djywh7kkgd.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_djywh7kkgd videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div
+    class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity
+    200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/djywh7kkgd/swatch\"
+    style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\"
+    onload=\"this.parentNode.style.opacity=1;\" /></div></div></div></div>\n\n###
+    Datica supports three types of AWS customers:\n\n1. Those who just want to use
+    a multi-tenant cloud. These organizations are Datica customers and are on Datica’s
+    AWS account.\n2. Those who need dedicated resources like VMs. These organizations
+    are Datica customers and are on Datica’s AWS account.\n3. Those who already have
+    their own AWS Account and want to install some of Datica’s technology on it, which
+    we call “On-Account” customers. These organizations have both Datica and AWS accounts.\n\n##
+    Is AWS HIPAA Compliant?\n\nBeing compliant with the U.S. Health Insurance Portability
+    and Accountability Act (HIPAA) is not easily defined. So, is AWS HIPAA compliant?
+    Yes! But, to be clear, just because AWS is HIPAA compliant and your application
+    runs on AWS doesn’t mean that you are HIPAA compliant too. Here’s where it gets
+    complicated. AWS is HIPAA compliant exactly to the extent they are required to
+    be at the infrastructure level and as spelled out in their [Business Associate
+    Agreement (BAA)](https://datica.com/academy/business-associate-agreements/). \n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Resources\n\n* [Understanding Business Associate Agreement](https://datica.com/academy/business-associate-agreements/)\n*
+    [Datica HIPAA Mappings](https://hipaa.datica.com)\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\nYou’re
+    not building infrastructure though, you are building an application and that adds
+    greatly to the list of HIPAA controls that apply to you. In other words, the specific
+    subset of the hundreds of HIPAA controls that apply to your company and product
+    is a different subset than those that apply to AWS. To be deemed HIPAA compliant,
+    and prove that with a HITRUST Certification, you only need to comply with the
+    subset of controls that apply in your case.  \n\nThose additional controls vary
+    depending on your specific case but, generally, include additional infrastructure-level
+    controls, application-level controls and controls at the company level. AWS has
+    what they call a shared responsibility model which means when you build your application
+    directly on top of AWS, you have to take it the other 90% of the way toward HIPAA
+    compliance. \n\nDatica’s platform includes AWS and takes you the rest of the way
+    down the path toward full HIPAA compliance at the infrastructure level, and further
+    down the path toward compliance at the company and application levels so you can
+    focus on the functionality of your application and not on compliance. With Datica,
+    you get a compliant platform for deploying and managing critical healthcare applications
+    in the cloud.\n\n## Does HIPAA Matter on AWS?\n\nHIPAA kicks in when a digital
+    health product handles Protected Health Information (PHI). There are several [different
+    categories of PHI](https://datica.com/dhsf/#compliance-does-hipaa-matter), like
+    someone’s name, home address, or phone number. When a digital health product stores,
+    processes, or transmits PHI, HIPAA asserts rules as to how it should handle a
+    multitude of security, privacy, and policy procedures, called “controls”. In HIPAA
+    terms, there are physical, technical, and administrative \"safeguards\". Datica
+    manages the physical and technical safeguards of HIPAA at the infrastructure-level,
+    leaving you to the administrative HIPAA safeguards, which are almost always custom
+    to your organization, and a few remaining technical safeguards within your [application
+    code](https://datica.com/guide/application-hipaa-compliance/) itself. Thus, Datica
+    provides more than two-thirds of what it takes to be HIPAA compliant. Demonstrating
+    that a company and its digital health product meets all those controls is how
+    it can call itself compliant. \n\n## Understanding AWS Primitives\n\nAWS offers
+    about 53 different services, or cloud primitives, to provide a great amount of
+    flexibility in order to make it possible for any AWS healthcare developer to bundle
+    what they need for their application’s infrastructure. Some well-known examples
+    of these services are Amazon EC2, Amazon S3, and Amazon RDS. We bundle a subset
+    of those 53 primitives (a majority of the 37 that are [HIPAA-eligible services](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/)
+    like CloudTrail (for logging) and S3 (for object storage) together into the Datica
+    Platform to address the specific use case of building, maintaining, and running
+    a cloud-based digital health application that creates, receives, maintains, or
+    transmits PHI in a HIPAA compliant manner. \n\n### Services Included in the Datica
+    Platform\n\n![How the datica platform works@2x](//images.contentful.com/189dvqdsjh46/1PDK1PG3dyEIsyWIewYqc8/46057be71944e1972176559bec9e8134/How_the_datica_platform_works_2x.png)\n\n##
+    What is the AWS Shared Responsibility Model?\n\nHere’s a high-level summary: The
+    AWS shared responsibility model grants excellent security for the security OF
+    the cloud but customers (you) are still responsible for security IN the cloud.
+    That means, if you were to deploy your application right on AWS instead of the
+    Datica Platform, you’d be responsible for setting up and maintaining everything
+    beyond the basic cloud infrastructure — and that includes not only the work and
+    expense to do that but also the risks of security for everything else. \n\nThe
+    cloud infrastructure that AWS is responsible for includes the hardware, software,
+    networking, and facilities that run AWS Cloud services.\n\n- Security in the cloud
+    (i.e. the customer’s responsibilities) is dependent on the exact application being
+    developed and which cloud services are being used by the customer. In general,
+    AWS customers are responsible for security, including HIPAA compliance, on all
+    of the following:\n- Client-side data encryption & Data Integrity Authentication\n-
+    Server-side encryption (file system and/or data)\n- Network traffic protection
+    (encryption, integrity, identity)\n- Operating System, network, and firewall configuration\n-
+    Platform, applications, identity, and access management\n- Customer Data\n\nCustomers
+    of Datica benefit from the fact that our BAA extends the security coverage of
+    AWS HIPAA Compliance to pick up responsibility where AWS leaves off. Another way
+    to think of it is that AWS takes your infrastructure about 10% of the way toward
+    HIPAA Compliance, while if you use the Datica Platform, Datica's [HIPAA mappings](https://hipaa.datica.com)
+    take you much further toward 100% compliance. That means you not only eliminate
+    the need for the labor, expense, or time of all of the above, but you also pass
+    the risk of security onto Datica for everything our much more extensive BAA covers.
+    \n\n### Datica’s version of the AWS Shared Responsibility Agreement\n\n<script
+    src=\"https://fast.wistia.com/embed/medias/ie7r75wzct.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding
+    group\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_ie7r75wzct seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>\n\n##
+    Why the Datica Platform on AWS is the Best Option\n\nWhen making the decision
+    on whether to build out the requisite infrastructure for your application yourself
+    vs. buying the pre-built Datica Platform that already includes AWS, here are the
+    major points to keep in mind:\n\n* Building all of this yourself is possible,
+    and setting up the individual primitives is, in fact, not the hard part. Ensuring
+    compliance while orchestrating the DevOps between all the components in an ongoing
+    and compliant basis with each and every deployment IS the hard part. Datica does
+    that for you.\n* It’s important to understand this key point: AWS’s shared responsibility
+    model grants excellent security for the security OF the cloud but customers (you)
+    are still responsible for security IN the cloud. Choosing the Datica Platform
+    means Datica picks up that responsibility and the burden of risk where AWS leaves
+    off.\n* Making each cloud primitive service HIPAA compliant might be straightforward
+    but not if you plan to employ any modern environment paradigms — namely containerization
+    and orchestration via Docker or Kubernetes — that require an added level of development
+    and maintenance that isn’t achieved by simply making a single primitive compliant.\n\n###
+    Typical Healthcare Deployment Process Comparison on AWS Directly vs. Datica\n\n[![Datica
+    workflow diagram AWS](//images.contentful.com/189dvqdsjh46/3mxh8k3ZGwiUQce862ga2Q/1e86d891b61168f5f20c0814c8e74da0/Datica_workflow_diagram_AWS_2x.png)](https://assets.contentful.com/189dvqdsjh46/4Qokvx5TskWwCWwGQk0wM/8304e9c351e19a1eb9eb8790f6d269a3/Datica_workflow_diagram.pdf)\n\nIf
+    you build everything yourself, you also shoulder the risk. In contrast, Datica’s
+    BAA takes on all of the infrastructure-level risk. \nMake life easier with a single
+    [BAA from Datica](https://policy.datica.com/#23.-datica-hipaa-business-associate-agreement-(\"baa\")).
+    \n\nAligning Business Associate Agreements amongst all technology partners is
+    a full-time job. You sign one BAA with Datica to cover the entirety of compliance
+    in the cloud, including AWS HIPAA compliance."
+  :related_blog:
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  :related_academy:
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

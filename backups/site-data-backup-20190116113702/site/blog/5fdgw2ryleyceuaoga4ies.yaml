@@ -1,0 +1,506 @@
+---
+:id: 5FDGW2RyLeyCeuaogA4iEs
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-07-19T00:03:02+00:00'
+  :created_at: '2016-11-23T22:18:35+00:00'
+  :id: 5FDGW2RyLeyCeuaogA4iEs
+:title: 'Assessment Series: HIPAA Security Assessment'
+:slug: hipaa-security-assessment
+:pub_date: !ruby/object:DateTime 2015-06-16 00:00:00.000000000 Z
+:tags:
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'In this second entry of our Assessment Series we explore what a HIPAA Risk
+  Assessment is and why it is crucial handling PHI.
+
+'
+:blog_lead: 'In this second entry of our [Assessment Series](https://datica.com/blog/hipaa-compliance-assessment/)
+  we explore what a HIPAA Risk Assessment is and why it is crucial in ensuring the
+  safe-handling of [protected health information (PHI)](https://datica.com/academy/what-is-protected-health-information-or-phi/)
+  with the growing dependency on information technology in the Healthcare Industry
+  and the implementation of electronic medical records (EMR).
+
+'
+:post: "Back in February of 2009 the [HITECH (Health Information Technology for Economic
+  and Clinical Health)](https://datica.com/blog/data-security-patient-engagement/)
+  Act was passed as an element of the American Recovery and Reinvestment Act to fortify
+  the privacy and safety of PHI by including provisions to the HIPAA Standards. Among
+  the stipulations in HITECH was the [HIPAA Security Rule](https://datica.com/discover/hipaa-compliance/)
+  which has requirements organized into three classifications, and within each classification
+  are 18 standards and 36 implementation specifications that are categorized as “Required”
+  or “Addressable”. The **Required** specifications are crucial and necessities to
+  be implemented; whereas, **Addressable** specifications are meant for scalable consideration
+  based on individual and entity needs and best practices. \n\n## The Three Classifications
+  \n\n## 1. Administrative Safeguards\nThese constitute more than half of the HIPAA
+  Security Assessment requirements. As with all three standards, compliance will mandate
+  an evaluation of the security controls in place already, a precise and in-depth
+  analysis, and a succession of documented solutions derived from a multitude of factors
+  unique to each covered body.\n\nThese safeguards are broken down as follows:\n\n###
+  Standard: Security Management Process\nThe intent is to create the administrative
+  processes and operations that a covered body will utilize to enact the security
+  program in its environment.\n\n#### Implementation Specifications\n1. Risk Analysis
+  (Required)\n2. Risk Management (Required)\n3. Sanction Policy (Required)\n4. Information
+  System Activity Review (Required)\n\n### Standard: Assigned Security Responsibility\nThe
+  goal is to recognize who will hold responsibility for ensuring that the covered
+  body abides by the HIPAA Security Rule. There are no implementation standards for
+  this standard.\n\n### Standard: Workforce Security\nThe objective is to identify
+  each workforce member that necessitates access to ePHI and their need, time of need,
+  and how they are going to control access to the information. \n\n#### Implementation
+  Specifications\n1. Authorization and/or Supervision (Addressable)\n2. Workforce
+  Clearance Procedure (Addressable)\n3. Termination Procedures (Addressable)\n\n###
+  Standard: Information Access Management\nMeant to restrict access to solely persons
+  with a need for specified ePHI.\n\n#### Implementation Specifications\n1. Isolating
+  Health Care Clearinghouse Functions (Required)\n2. Access Authorization (Addressable)\n3.
+  Access Establishment and Modification (Addressable)\n\n### Standard: Security Awareness
+  and Training\nTraining for all new and current members of the entity’s staff is
+  mandated by the Security Rule.\n\n#### Implementation Specifications\n1. Security
+  Reminders (Addressable)\n2. Protection from Malicious Software (Addressable)\n3.
+  Log-in Monitoring (Addressable)\n4. Password Monitoring (Addressable)\n\n### Standard:
+  Security Incident Procedures\nImplemented to call attention to security occurrences
+  within the covered body’s environment. \n\n#### Implementation Specifications\n1.
+  Response and Reporting\n\n### Standard: Contingency Plan\nNecessitates to plan and
+  establish strategies for retrieving access to ePHI if an entity where to experience
+  a crisis or occurrence that disrupts urgent business operations.\n\n#### Implementation
+  Specifications\n1. Data Backup Plan (Required)\n2. Disaster Recovery Plan (Required)\n3.
+  Emergency Mode Operation Plan (Required)\n4. Testing and Revision Procedures (Addressable)\n5.
+  Applications and Data Criticality Analysis (Addressable)\n\n### Standard: Evaluation\nRequires
+  entities to create a process to review and maintain standard security measures to
+  comply with The Security Rule. There are no implementation specifications for this
+  standard.\n\n### Standard: Business Associate Contracts and Other Arrangements\nStates
+  that covered bodies are required to sign a contract or other agreement that meet
+  the definition of a “business associate.” This standard has no implementation specifications.\n\n##
+  2. Physical Safeguards\nThese safeguards are meant to evaluate and implement all
+  physical access to ePHI.\n\nThese are broken down as follows within a HIPAA Security
+  Assessment:\n\n### Standard: Facility Access Controls\nEnacted to limit the access
+  to the electronic information systems where ePHI is housed.\n\n#### Implementation
+  Specifications\n1. Contingency Operations (Addressable)\n2. Facility Security Plan
+  (Addressable)\n3. Access Control and Validation Procedures (Addressable)\n4. Maintenance
+  Records (Addressable)\n\n### Standard: Workstation Use\nRequires that entities clarify
+  the proper uses to be done by electronic computing devices. There are no implementation
+  specifications for this standard. \n\n### Standard: Workstation Security\nAddresses
+  the operations and procedures for how workstations should be utilized and secured
+  from unauthorized persons. There are no implementation specifications for this standard.
+  \n\n### Standard: Device and Media Controls\nThis covers the correct handling of
+  electronic media including removal, receipt, backup, storage, reuse, disposal, and
+  responsibility. \n\n#### Implementation Specifications\n1. Disposal (Required)\n2.
+  Media Re-Use (Required)\n3. Accountability (Addressable)\n4. Data Backup and Storage
+  (Addressable)\n\n## 3. Technical Safeguards\nA covered body is mandated to determine
+  the security protocol and specified technologies that are appropriate for implementing
+  in its organization while complying with these safeguards which are broken down
+  according to the HIPAA Security Assessment as follows:\n\n### Standard: Access Control\nRequired
+  to provide/restrict persons with the access necessary for the information systems,
+  applications, programs, or files associated with ePHI.\n\n#### Implementation Specifications\n1.
+  Unique User Identification (Required)\n2. Emergency Access Procedure (Required)\n3.
+  Automatic Logoff (Addressable)\n4. Encryption and Decryption (Addressable)\n\n###
+  Standard: Audit Controls\nThis standard is meant to be useful for the records and
+  examinations of information system activity, particularly in a security violation.This
+  standard has no implementation specifications.\n\n### Standard: Integrity\nThis
+  standard requires that policies and processes are implemented to protect ePHI from
+  being altered or destroyed.\n\n#### Implementation Specifications\n1. Mechanism
+  to Authenticate Electronic Protected Health Information(Addressable)\n\n### Standard:
+  Person or Entity Authentication\nThis standard confirms that a person is who they
+  are claiming to be before being granted the access to ePHI. This standard has no
+  implementation specifications.\n\n### Standard: Transmission Security\nThis standard
+  is utilized to guard against those who are not granted permissions to ePHI that
+  is being communicated over electronic means.\n\n#### Implementation Specifications\n1.
+  Integrity Controls (Addressable)\n2. Encryption (Addressable)\n\nIn summary, when
+  doing your own HIPAA Security Assessment, keep in mind that this applies to all
+  media types including oral, paper, and electronic while simultaneously considering
+  integrity, confidentiality, and availability. There are many HIPAA Security Assessment
+  tools and services that have been released but no one is more highly regarded in
+  this space than Datica as a [HIPAA compliance authority](https://datica.com/discover/hipaa-compliance/).
+  \n\nDid you miss our first post in the HIPAA Assessment Series? Check it out [here](https://datica.com/blog/hipaa-compliance-assessment/)!"
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu
+:related_entries:
+- :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-13T02:24:09+00:00'
+    :created_at: '2018-07-13T02:09:42+00:00'
+    :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :title: Learn what it takes to be compliant on the cloud with our free self assessment
+  :slug: take-compliance-self-assessment
+  :pub_date: !ruby/object:DateTime 2018-07-12 00:00:00.000000000 Z
+  :tags:
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: The biggest barrier to a successful cloud compliance program is simply
+    the complexity of understanding everything. This new compliance self-assessment
+    worksheet will help.
+  :blog_lead: 'We are asked daily questions around what it takes to be compliant on
+    the cloud. Sometimes it''s simple, like how long to retain PHI data for disaster
+    recovery (answer: it depends, but probably 90 days). Sometimes it''s complex,
+    like if the emergent serverless computing paradigm meets the requirements of global
+    compliance regimes (answer: it depends, but pull up a chair).'
+  :post: |2
+
+    Consistently, the biggest barrier to a successful cloud compliance program is simply the complexity of understanding everything. This is really hard! But not because it's hard to understand, only hard to absorb all the information.
+
+    In order to help those assessing their own compliance posture on a public cloud like [AWS](https://datica.com/discover/aws-hipaa/), Azure, Google Cloud, or IBM, we crafted a [lightweight self assessment](https://content.datica.com/hipaa-hitrust-self-assessment). We say lightweight because by no means is it a comprehensive risk assessment tool—you should stick to something like a self assessment with the [HITRUST CSF v9.1](https://datica.com/blog/hitrust-csf-certification-round-3/). Instead, it is purposefully designed to condense all the controls into an easy to understand list. Brevity was the focus but in the Datica way of transparent content and helpful guidance. You can download it free today.
+
+    ## The assessment is pretty straightforward:
+
+    * It is cut up into the three broadest layers of cloud technology with which we can advise—the physical layer, the operating system layer, and the administrative layer. Consider these the main layers to think about abstracted cloud services.
+    * Within the layers, we itemized general considerations, like network encryption or access control lists. The items are somewhere between the granularity of an official risk management framework and an understated bulleted list. Broad enough to not cause your eyes to bleed from the legalese, but concise enough to accurately describe the consideration.
+    * Along with the item we offer a quick binary assessment, to which a simple Yes or No answer will guide you to understanding if you have more research to do.
+
+    For those who are not experts, and are trying to wrap their head around what it takes to be compliant on the cloud, will find the tool useful. Let us know what you think!
+
+    Get the [HIPAA & HITRUST Compliance Self Assesssment Worksheet here](https://content.datica.com/hipaa-hitrust-self-assessment).
+  :featured_image:
+    :id: 2ynfPi2vdaUWY6yAkGu4c2
+  :share_image:
+    :id: 2GR4lRzHtKSMWgcGEwAy0u
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 4JnlCCI6bmImGWMeygEUQw
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 5SQZCCvmSsC4sqMq2AwuwS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:04:52+00:00'
+    :created_at: '2016-11-23T22:18:35+00:00'
+    :id: 5SQZCCvmSsC4sqMq2AwuwS
+  :title: 'Assessment Series: HIPAA Risk Assessment'
+  :slug: hipaa-risk-assessment
+  :pub_date: !ruby/object:DateTime 2015-06-09 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'All organizations that are responsible for PHI are mandated to conduct
+    a HIPAA risk assessment as the first step toward attaining true HIPAA compliance.
+
+'
+  :blog_lead: 'All organizations that are responsible for PHI, which includes hosting
+    providers like [Datica](https://datica.com/), are mandated to conduct a HIPAA
+    risk assessment as the first step toward integrating preventatives stipulated
+    in the [HIPAA Security Rule](https://datica.com/academy/the-hipaa-security-rule/)
+    by The Department of Health and Human Services, and ultimately attaining true
+    HIPAA compliance.
+
+'
+  :post: "### So what does a HIPAA Risk Assessment require?\n\nThe Department of Health
+    and Human Services has defined nine necessary constituents of a HIPAA risk assessment
+    that all healthcare and healthcare-related organizations that store or share ePHI
+    must include in their assessment document:\n\n1. Assessment Scope - Inclusive
+    of any and all potential risks and susceptibilities to the privacy, procurability,
+    and morality of ePHI. Organizations should be inclusive of electronic media that
+    is utilized such as portable devices, networks, and desktops. If there are multiple
+    sites, it is important to include the network security between them in the scope;
+    this includes your hosting terms with third-parties or business associates.\n\n2.
+    Data Reserve - Where is the data being stored, collected, conserved or transmitted?
+    \n\n3. Specify and Record Latent Risks and Susceptibilities - Predicting future
+    HIPAA violations can really help your organization rapidly and effectively find
+    a resolution.\n\n4. Evaluate Existing Security Measures - This will include any
+    encryption, two-factor authentication, and all other security methods that your
+    HIPAA hosting provider has put in effect.\n \n5. Evaluate the Feasibility of a
+    Risk Occurring - In association with #3, this will accurately estimate the possibility
+    of an ePHI breach.\n\n6. Evaluate the Impact a Risk Occurrence Could Have - Assess
+    how many people could be affected and the level of PHI that could be exposed,
+    inclusive of health information and billing information. \n\n7. Assess the Level
+    of Risk - The Department of Human and Health Services recommends taking #5 and
+    #6 to establish the level of risk. When documenting these risk levels, accompany
+    with them a list of actions that would be performed in a mitigative response.\n\n8.
+    Prepare Documentation - There are no parameters around documentation formatting
+    but the assessment must be in writing.\n\n9. Regular Reviews and Updates to HIPAA
+    Risk Assessment - It is crucial that the assessment is ever ongoing. It is recommended
+    that a new assessment is taken whenever new processes, technologies, or operations
+    are introduced into an organization. \n\nCurious how we at Datica do our HIPAA
+    Risk Assessment? \n\nCheck out our [Datica HIPAA Docs](https://hipaa.datica.com/#catalyze-hipaa-compliance)
+    for further detail on how we ensure HIPAA compliance.\n\n"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 3UmybvA5440k0Ueay8MW6E
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:06:04+00:00'
+    :created_at: '2016-11-23T22:18:34+00:00'
+    :id: 3UmybvA5440k0Ueay8MW6E
+  :title: 'Assessment Series: HIPAA Compliance Assessment'
+  :slug: hipaa-compliance-assessment
+  :pub_date: !ruby/object:DateTime 2015-06-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'The HIPAA Compliance Assessment was created to help meet the objectives
+    of HIPAA while also providing insights into possibilities for streamlining processes
+    and lowering costs.
+
+'
+  :blog_lead: 'HIPAA compliance is an ongoing challenge for healthcare enterprises,
+    so the HIPAA Compliance Assessment was created to help meet the objectives of
+    HIPAA while also providing insights into possibilities for streamlining processes
+    and lowering costs.
+
+'
+  :post: "With regulations that remain ongoing, convoluted, and potentially counter-intuitive,
+    achieving [HIPAA compliance](https://datica.com/discover/hipaa-compliance/) at
+    federally required measures is becoming more difficult in healthcare. Enterprise
+    executive liability stipulates an ongoing effort for assessment to create a first-class
+    compliance strategy. In the most minimum context, HIPAA has created complexities
+    to the health insurance systemization that was already inundated with federal
+    mandates. For example:\n\n* All departments and serviceable groups that deal with
+    PHI will be observed with scrutiny for HIPAA compliance.\n* Policies in relation
+    to HIPAA compliance must be written and documented, but employees are required
+    to be trained on them whilst also having an expounded privacy officer accountable
+    for managing the enterprise's HIPAA compliance.\n* Noncompliance penalties have
+    not been fully systematized but risk of press coverage and detrimental consumer
+    perceptions cannot be overlooked. \n\nThe required HIPAA Compliance Assessment
+    is intentioned to be brief, concise, and extensive. A complete assessment will
+    include these measures:\n\n* Recognize state of readiness for all facets of HIPAA
+    - privacy, security, and transactional\n* Ascertain areas of preeminent risk\n*
+    Facilitate ongoing regulatory compliance\n* Offer insights into efficiency and
+    fiscally effective initiatives \n\nMiss the other two entries in the Assessment
+    Series? Check out the [HIPAA Risk Assessment](https://datica.com/blog/hipaa-risk-assessment/)
+    and the [HIPAA Security Assessment](https://datica.com/blog/hipaa-security-assessment/)
+    as well.\n\n"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

@@ -1,0 +1,14 @@
+---
+:id: 5zzu06RG7ui0mEM0YGC8qM
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-19T16:29:59+00:00'
+  :created_at: '2018-05-10T23:09:20+00:00'
+  :id: 5zzu06RG7ui0mEM0YGC8qM
+:title: CKS - Scale Workers
+:slug: datikube-scaling-workers
+:category: Kubernetes
+:feature_status: Future
+:summary: This functionality gives users the option to scale individual worker nodes
+  (odd sizing).
+:desc: Scaling workers is a core function of managing infrastructure.

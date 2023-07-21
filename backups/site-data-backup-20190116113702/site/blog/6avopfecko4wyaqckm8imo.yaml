@@ -1,0 +1,363 @@
+---
+:id: 6AvOPfecko4wYAqcKM8Imo
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T23:37:28+00:00'
+  :created_at: '2016-11-23T22:18:26+00:00'
+  :id: 6AvOPfecko4wYAqcKM8Imo
+:title: HL7 ACK/NACK
+:slug: hl7-ack-nack
+:pub_date: !ruby/object:DateTime 2015-10-07 00:00:00.000000000 Z
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:categories_blog: healthcare
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:summary: 'HL7 message senders should get an HL7 ACK message in return. This article
+  explains what ACK NACK means and the requirements for ACK and NACK messages. '
+:blog_lead: "In a two-way communication system that is properly using the HL7 standards,
+  a receiving system will send an HL7 ACK (acknowledgement) message to the sending
+  system to notify that the message was effectively received. In an archetypal HL7
+  environment, the sending system will presume the message was not received up until
+  the delivery of an ACK message is made from the receiving system. By way of explanation,
+  if the receiver does not return the ACK message, the sender may safely assume there
+  is an error and halt message transmissions. \n"
+:post: "### ACK Message Anatomy\n\nHere is an example of an HL7 ACK message:\n\n```\nMSH|^~\\&|APPLICATION|HOSPITAL|Catalyze|INC|201513112402||ACK|MSGID5183033|P|2.4|\nMSA|AA|MSGID5183033\n```\n\nIt
+  is clear that this message consists of two segments: message header (MSH) and message
+  acknowledgement (MSA). MSH segments indicate what application or facility generated
+  the message, unique ID for send message, and indicates what version of HL7 the message
+  complies with. MSA segments determine what message is being acknowledged and if
+  it was successfully processed and received. Inside an MSA segment are two types
+  of relevant information: acknowledgement code, indicating if the message was successfully
+  processed and received, and message control ID, denoting the unique ID of the acknowledged
+  message. \n\n### Requirements of an ACK message\n\n- Message is in HL7 format.\n-
+  The value ‘AA’ is in MSA-1 (MSA segment, field number 1). ‘AA’ means that the receiving
+  system successfully received the message.\n- The Message Control ID of the last
+  message is in MSA-2 (MSA segment, field number 2). The original Message Control
+  ID is found in MSH-10 (message segment, field number 10).\n\n### Values of MSA-1\n\n-
+  AA - Application Accept (used for ACK)\n- AE - Application Error (used for NACK)\n-
+  AR - Application Reject (used for NACK)\n\nMoreover, if the message was not successfully
+  received, an HL7 NACK (negative acknowledgement) message is sent back to the sending
+  system. A NACK informs the sending system that there was error in message processing.\n\n###
+  Requirements of a NACK message\n\n- Message is in HL7 format.\n- The value ‘AE’
+  or ‘AR’ is in MSA-1 (MSA segment, field number 1). AE is Application Error. AR is
+  Application Reject.\n- The Message Control ID of the last message is in MSA-2 (MSA
+  segment, field number 2). The original Message Control ID is found in MSH-10 (message
+  segment, field number 10).\n\nIn short, standard HL7 protocol calls for ACKnowledgment
+  protocol. Each time a system receives a message and processes the data, it is expected
+  to send an ACKnowledgment message back to the sending system. The sending system
+  is expected to keep on sending a message until it has received a ACK/NACK message.
+  Without this standard enacted, data could be lost in transmission.\n\nIf you want
+  to read more about HL7, check out some of our [HL7](/academy/hl7-101-a-primer) resources
+  freely available in our [Academy](/academy).\n\n"
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 5Njtz00l5CgCeeCao4YgqC
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-05-31T00:27:42+00:00'
+    :created_at: '2016-11-23T21:57:54+00:00'
+    :id: 5Njtz00l5CgCeeCao4YgqC
+  :title: How we process over 6,000,000 (and growing) HL7 messages a month
+  :slug: how-we-process-over-6-000-000-and-growing-hl7-messages-a-month
+  :pub_date: !ruby/object:DateTime 2015-05-04 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: In a short period of time, Datica has hit several major milestones. As
+    of May 2015, we are excited to share that we are processing over 6 million HL7
+    messages per month, with those numbers growing every day.
+  :blog_lead: |
+    Integration is a buzzword in healthcare, and for good reason.
+
+    As the healthcare industry transforms from the traditional model of volume-based care to new models of value-based care, there is heightened interest in patient outcomes, patient engagement in decision making, and patient satisfaction. Executives know aggressive inclusion of novel third party tools that solve real problems is paramount to meeting new metrics. Integrating several third party vendors is hard enough, while scaling a sea change is untenable. No one wants to do inefficient one-offs until the end of time.
+  :post: |
+    Increasingly health systems and vendors are partnering with Datica to [accelerate third party integration](https://catalyze.io/hl7). Hospitals get an ROI from the streamlined workflows while vendors, like [HealthLoop](https://catalyze.io/proof), appreciate offloading this unique expertise. The end result is faster, reliable integration on compliant infrastructure. Major cost savings are instantly realized by all parties involved.
+
+    In a short period of time, Datica has hit several major milestones. Today, we are excited to share that we are processing over 6 million HL7 messages per month, with those numbers growing every day. This is a testament to the trust health systems and vendors are both putting in our approach to compliance, and our dedication to the highest quality service.
+
+    We reached this milestone by expediting integrations with most of the common HL7 interfaces we all know and love, including...
+
+    * Inbound and Outbound Registration (ADT)
+    * Scheduling (SIU)
+    * Orders and Results (ORM/ORU)
+    * Notes (MDM)
+    * Discrete Data (ORU)
+    * Continuity of Care Documents (CCD) through IHE standard queries
+
+    ...plus FHIR, ASC X12 feeds for Claims, and a multitude of suboptimal data access methods like CSV files that still proliferate data integration in 2015.
+
+    Our customers' business opportunities have driven us to integrating with over 60% of the EHR market, including Epic, Cerner, McKesson, eClinicalWorks, Allscripts—just to name a few.
+
+    Over the next several months we will be sharing with you specific integration stories from real customers, outlining the clear benefits, in the words of our customers, of leveraging Datica for integration. Datica is committed to the future of healthcare, so we are excited to share genuine examples of bettering patient care.
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 5743id6JxYsMEwOykuiCQg
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-30T17:51:45+00:00'
+    :created_at: '2017-10-30T17:51:45+00:00'
+    :id: 5743id6JxYsMEwOykuiCQg
+  :title: Do you Have $360K to Build Compliance into your Digital Health Product Yourself?
+  :slug: do-you-have-360k-to-build-compliance-into-your-digital-health-product
+  :pub_date: !ruby/object:DateTime 2017-10-27 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 61YbI1qz4cwUkYse66ykMm
+  - :id: V4hQxnsPw44aq8c62mYIe
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: "$360,000! The cost for a maker of digital health products to design,
+    implement, deploy and prove HIPAA compliance all on their own. Get the breakdown."
+  :blog_lead: "$360,000! That’s how much it will cost a typical maker of digital health
+    products to design, implement, deploy, and prove HIPAA compliance all on their
+    own. That cost doesn’t even include their basic cloud subscription or the cost
+    of developing the technology for their own application. We often hear early-stage
+    developers say they’ve got compliance covered since they’re using AWS. That’s
+    when the steep education process begins to help them understand they’re just at
+    the beginning of the compliance journey with AWS and there’s so much more to consider
+    to build a compliant application in the cloud. "
+  :post: "## The TCO of Compliance in the Cloud: A Build vs. Buy Comparison \n\nOur
+    goal in building the [Datica Platform](https://datica.com/platform/) was to reduce
+    the barriers to compliance in the cloud for makers of digital health products.
+    As part of that ongoing commitment to simplify healthcare's onramp to the cloud,
+    we provide as much value as possible in the form of healthcare expertise we share
+    freely with the market. It is our goal to enable our customers to focus their
+    efforts away from compliance and cloud management and toward developing digital
+    health applications that improve patient outcomes. \n\nThere’s much to know about
+    both compliance and cloud management and that knowledge requires a significant
+    investment in time, education, personnel, and money. The intent of our newest
+    guide, [The TCO of Compliance in the Cloud: A Build vs. Buy Comparison](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/),
+    is to help makers of digital health products make informed decisions about whether
+    to “build” cloud compliance themselves, or “buy” it in the form of the Datica
+    Platform. \n\n***Spoiler Alert:** It’s 10x more cost-effective to contract with
+    Datica to deploy your application on a made-for-healthcare platform that includes
+    not only the AWS cloud infrastructure, but also all the DevOps, DevSecOps, expertise,
+    and proof necessary to build and market a healthcare application.* \n\nThis guide
+    explains the considerations of compliance and cloud management in healthcare and
+    offers a framework to understand the activities, resources, and cost estimates
+    for each of those considerations. We show how Datica addresses those requirements
+    in some detail and how you as a customer benefit from building your application
+    on the Datica Platform. These estimates are based on our extensive experience
+    working with multiple third-party auditors and multiple cloud infrastructure providers
+    (like [Amazon Web Services](https://datica.com/discover/aws-hipaa/), Microsoft
+    Azure, or IBM Softlayer).\n\n## Datica's Shared Responsibility Model\n\nIt’s important
+    to understand this key point: AWS’s shared responsibility model grants excellent
+    security for the security OF the cloud but customers (you) are still responsible
+    for security IN the cloud. Orchestrating DevSecOps is just as challenging as orchestrating
+    DevOps. The following diagram explains that a bit more, but get the full story
+    by downloading the [complete guide](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+    \n\n<script src=\"https://fast.wistia.com/embed/medias/08ebxufc4q.jsonp\" async></script><script
+    src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script><div class=\"wistia_responsive_padding\"
+    style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\"
+    style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed
+    wistia_async_08ebxufc4q seo=false videoFoam=true\" style=\"height:100%;width:100%\">&nbsp;</div></div></div>"
+  :featured_image:
+    :id: 9Hxj23eSJyaSQaYw04aCM
+  :share_image:
+    :id: s90SzAZ4SyCqkKcaSkCAM
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :related_entries:
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 7BC902tFlKQwC6YygGECKY
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 79e4rnBGHC2YgmKqu8QuwA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-12T19:29:59+00:00'
+    :created_at: '2017-09-05T20:48:13+00:00'
+    :id: 79e4rnBGHC2YgmKqu8QuwA
+  :title: If It's Possible, We Can Integrate It
+  :slug: if-its-possible-we-can-integrate-it
+  :pub_date: !ruby/object:DateTime 2017-09-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: There's much a digital health company needs to know about EHR integrations.
+    Here are 4 essential questions digital health teams should ask their customers.
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+    We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
+    We''ve done this work with big organizations and vendors to small FQHCs and niche
+    EHR vendors. As a result of all this integration experience, we now have a pretty
+    good grasp on the intricacies of how integration works. We can reasonably estimate
+    how long it takes us to do a project and how that varies with different types
+    of vendors. '
+  :post: "> What you must learn is that these rules are no different than rules of
+    a computer system. Some of them can be bent, others can be broken.\" -- Morpheus,
+    The Matrix\n\nHowever, despite our progress, there are still hundreds of systems
+    that we have not integrated with. In the ambulatory setting alone, there are more
+    than 650 technologies certified for Meaningful Use Stage 2. While working with
+    the top 30 already gives us a leg up and covers a majority of the industry, it's
+    not uncommon for us to hear about a new piece of HIT technology that our customers
+    and prospects are looking to integrate with. \n\nDespite your perceptions of us
+    as an integration services team, we don't have any secret super powers to solve
+    problems with interoperability. Our solution, as simple as it may sound, is just
+    being the best at our specialized skill set as we can be. This means:\n\n- Writing
+    interfaces and transforming data to programmer-friendly formats using Mirth, an
+    open-source interface engine. \n- Setting up VPNs when needed on open-source Strongswan
+    appliances.\n- Having a team of experts in health data and project management
+    on hand to analyze project needs. \n- Everything hosted on the HITRUST-certified
+    Datica Platform, staffed by a team of ops, security, and compliance experts. \n\nWhile
+    we may know about obscure technologies that power integrations at a given EHR
+    vendor, our process is likely similar to anyone else's when kicking off a project.
+    As such, it's worth noting that **some projects may be impossible to complete**
+    due to external constraints. Turns out that data blocking in healthcare is really
+    a thing. So, if Datica is not helping you in your pre-sales process with customers,
+    it's up to you to ask all the necessary questions to ensure that you will be able
+    to successfully integrate your application with the EHR and site in question.
+    \n\n## Four essential questions digital health teams should ask their customers\n\n###
+    1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
+    alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
+    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
+    are standards, this doesn't mean all EHRs support exchanging data through these
+    formats. In fact, some EHRs have no integration capabilities at all. Make sure
+    the EHR supports the data standards that you need. Particularly, make sure the
+    EHR supports the data standards in the method you need them. For example, if you
+    need CCDs *pushed* to you at the end of a visit vs. *pulling* them proactively,
+    you will want to ensure the EHR has the capability to manage that process. There
+    is a very real possibility here that the EHR may have no suitable integration
+    technology, which may limit your data integration possibilities to flat-file style
+    extracts or may require manual data entry to power your application.\n\nIt's worth
+    noting that there are some integrations [that seem simple but are really complex](https://xkcd.com/1425/).
+    For example, while it would seem obvious that any EHR could expose provider availability
+    to schedule appointments, this is actually rare functionality. It's *easy* to
+    know what appointments are scheduled/canceled but it's *hard* to know when you
+    can schedule an appointment. Just because there are no appointments from 12:00-2:00
+    doesn't mean the provider isn't doing hospital rounds or research. As such, what
+    may have been an easy API query on Allscripts, Epic, and Athena turns into a nightmare
+    of stored procedure R&D and database access requirements with smaller EHRs. This
+    is why it's good to have experts on hand to help you understand the rules of the
+    road and to match integration expectations to reality. \n\n\n### 2) Do you have
+    the internal or external resources to perform the integration work?\n\nSmaller
+    organizations may have an EHR with HL7, CDA, or API integration capabilities,
+    however, they might not have the personnel to configure their instance to do that
+    integration. It's not uncommon to find a nurse or clinic administrator who is
+    also the EHR administrator. While they may be able to manage their provider's
+    schedules or handle some claims, setting up an interface or API may be foreign
+    to them. This can be a blocker for a project. \n\nDatica cannot directly assist
+    with a backend EHR build. This is usually for one of these reasons:\n\n- The EHR
+    vendor would require us to sign an agreement that had some kind of non-compete
+    clause to it. \n- The EHR vendor will not grant us access to their systems. \n-
+    We simply lack the expertise in 650 EHRs. \n\nAs such, if the organization needs
+    assistance with an internal EHR build, it's out of the scope of our standard integration
+    services. While we may be able to refer the organization to other consultants
+    or vendors who can assist with this EHR build, additional scope and cost considerations
+    would be included.\n\n### 3) Can you commit to getting work done within reasonable
+    timelines?\n\nThe top KPI for a fast, successful installation is an agreed upon
+    project plan with assigned task owners and due dates. At larger orgs, the only
+    task owners are typically the EHR integrators (Datica) and organizational IT.
+    However, in some integrations, there may be dependencies on vendors to perform
+    some pieces of setup. This is particularly true if the org is not licensed for
+    a given interface yet or if the EHR vendor hosts the organization's EHR instance.
+    \n\nNot to sell you a horror story but, sometimes, these timelines can be brutal.
+    While many projects go live within a month of kickoff, we've also seen projects
+    span a year due to EHR vendors dragging their feet on either contracting or infrastructure
+    deployments. Other than badgering effectively, unless your customer's organization
+    can push their EHR vendor to move faster, it's hard to make the process any faster
+    than it is. If your integrated product must be live by a certain point to reach
+    contractual obligations to your customer, make sure your customer has the means
+    to get that system live by that point. \n\n### 4) Who will validate clinical content
+    and logic facilitated through integrations?\n\nYour application may want to segment
+    patients based on certain clinical attributes sent in the payload of the HL7 or
+    CDA message. For example, you may want your application to send an alert when
+    a patient with diabetes is admitted to the hospital. The question, of course,
+    is how do you define patients with diabetes? Will they be manually defined by
+    clinicians or will you be trying to define them by diagnoses from the admission,
+    in their problem list, or by other clinical attributes like High A1C or being
+    prescribed insulin?\n\nWhile we can apply some logic to segment patients in our
+    interface engine, we do not have clinical informaticists on hand to dictate or
+    validate logic that we would create at your behest. The integration engine may
+    not be the best place to have that application logic and you may consider those
+    mappings and analysis to be IP of your company. You may decide that an organization
+    purchasing your digital health product can validate your clinical content (Epic
+    did this) or we are happy to refer you to informatics consultants who are qualified
+    to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
+    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    your digital health product. If you need to hire a niche EHR consultant to build
+    an interface on the EHR itself and it costs $5k, can you pass that along to your
+    customer or extract that value within your product? If not, you may debate the
+    merits of deploying your product in a standalone fashion or adjusting the terms
+    of your deal for your customer. If you're new to this, we can help. All [Datica
+    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    support to define implementation strategies and to determine feasibility and ease
+    of integration at a given site. \n"
+  :featured_image:
+    :id: 3A5PaEiOYgA6cOO8gA8Ay4
+  :share_image:
+    :id: 4CZYOKYKlyyE6eOieO2o6w
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 2wDfIlF1QY2e6u88acqkMY
+  - :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo

@@ -1,0 +1,15 @@
+---
+:id: 6yUOypQRlSkEUeSQuQQUC0
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:24:32+00:00'
+  :created_at: '2018-02-08T22:24:32+00:00'
+  :id: 6yUOypQRlSkEUeSQuQQUC0
+:title: Self-service Storage Scaling
+:slug: self-service-storage-scaling
+:category: Account Management
+:summary: Scale storage volumes on-the-fly
+:desc: Database services on the Datica Platform come pre-shipped with attached storage
+  devices (EBS volumes for those familiar with AWS nomenclature, or Page Blobs for
+  those on Azure). While we don’t give users the ability to scale database RAM on
+  their own, we do give them complete control over storage.

@@ -1,0 +1,15 @@
+---
+:id: 4EFsfrp1uEK8GeMyGuOQOU
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:29+00:00'
+  :created_at: '2018-02-08T22:21:29+00:00'
+  :id: 4EFsfrp1uEK8GeMyGuOQOU
+:title: Platform Metrics
+:slug: platform-metrics
+:category: Services
+:summary: View details on CPU, memory, and network usage
+:desc: The Platform supports metrics reporting for CPU, Memory and Network usage.
+  These metrics are available across user selected environment services and can be
+  viewed in both the dashboard and CLI. Platform Metrics functionality is available
+  to all Platform customers, both Hosted and Licensed.

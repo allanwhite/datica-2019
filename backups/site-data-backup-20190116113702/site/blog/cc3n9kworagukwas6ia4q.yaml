@@ -1,0 +1,379 @@
+---
+:id: CC3N9KwoRaGUkWAS6IA4Q
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:35:35+00:00'
+  :created_at: '2016-11-23T21:57:55+00:00'
+  :id: CC3N9KwoRaGUkWAS6IA4Q
+:title: The Healthcare Innovator's Dilemma
+:slug: the-healthcare-innovator-s-dilemma
+:pub_date: !ruby/object:DateTime 2015-02-11 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'Innovators in healthcare face a common dilemma: New technologies and tech-enabled
+  services need to provide an ROI in two drastically different health systems.'
+:blog_lead: 'Clayton Christensen coined the phrase "innovators dilemma" in his aptly
+  named [book](http://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma) with the same
+  title. He went on to co-author a book specifically addressing opportunities for
+  innovation and disruption in healthcare. Both of those books are worth reading.
+  Though not specifically a subject of either book, we''ve uncovered, time and time
+  again, that innovators in healthcare face a common dilemma. The dilemma, highlighted
+  in our Innovation Series [interview with Dr. Mark Chasin](https://datica.com/innovation/marc-chasin-md/)
+  and our interview with iTriage co-founder [Dr. Wayne Guerra](https://datica.com/innovation/wayne-guerra-md-mba/),
+  is that new technologies and tech-enabled services in healthcare need to provide
+  an ROI in two drastically different health systems - 1) our current, still dominant,
+  volume-based system (fee for service) and 2) our fast growing, but still minority,
+  value-based system (accountable care).
+
+'
+:post: "I remember hearing members of the HCA executive team discussing this same
+  topic a few years ago at a conference. HCA is a massive, for-profit health system,
+  and has money to invest in new technology (it has a venture fund and also recently
+  [acquired PatientKeeper](http://www.patientkeeper.com/news_events/press_release.html?id=22834)),
+  but it also realizes what keeps the lights on today - volume of care, or more care,
+  not less. On the panel executives at HCA talked about how they fully realized the
+  direction healthcare incentives are going but also know where those incentives are
+  today. They talked about investing and planning for a different health system future
+  so the organization would be prepared to basically flip a switch when the scales
+  tip in favor of value over volume. Not all organizations have the resources to prepare
+  this way.\r\n\r\nHealthcare, despite being a massive industry, does not have high
+  margins. At least most provider organizations don't have high margins. Putting current
+  provider revenue at risk by making the system more efficient (less duplicate testing,
+  reduced readmissions and ED visits, etc), while probably the *right* thing to do,
+  could close the already small gaps hospitals have between revenue and costs. Thus,
+  healthcare innovators, both inside and outside the enterprise, need to find ways
+  to help keep the lights on today while preparing systems for tomorrow as they go
+  about building new technologies and tech-enabled services.\r\n\r\nWhile not always
+  easily done, there are a few examples we've seen of successfully adding value today
+  while fitting very well with the incentives of tomorrow. In some cases, it's simply
+  a matter of choosing the right target areas (conditions, episodes, etc) and messaging.\r\n\r\n*
+  *Bundled payments.* Bundled payments [align value and quality with reimbursement](http://innovation.cms.gov/initiatives/bundled-payments/).
+  For select procedures, health systems can elect to receive a certain amount, a bundle,
+  of payment for each patient. The health systems succeed when the care they provide
+  limits follow-up and complications, ultimately lowering their cost and improving
+  the quality of care. Services that enable this, such as [Healthloop](http://healthloop.com/),
+  are well placed to expand beyond bundled payments when health systems begin to feel
+  the broader pressure of more risk in payer contracts. \r\n\r\n* *Readmission prevention.*
+  This is similar to bundled payments. Technology and services that [reduce the number
+  of readmissions](http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/Readmissions-Reduction-Program.html),
+  for certain conditions, protect health systems from penalties. The goal is preventing
+  readmission within the first 30 days of discharge. Beyond 30 days, there's good
+  data that a large percentage of patients are readmitted within 60 days, 90 days,
+  180 days, and within 1 year of readmission. In an accountable care world, services
+  with a foothold preventing readmissions can expand to prevent extended readmissions,
+  or maybe just admissions, that would cost the system.\r\n\r\n* *Concierge medicine
+  / direct primary care (DPC).* There are a few aspects of subscription-based medicine
+  (concierge or DPC) that align with trends coming to healthcare. The first is that
+  subscription medicine has incentives to keep patients happy so they don't churn,
+  or leave the practices. Unlike most of healthcare today, customer service matters
+  here. The second reason is that subscription medicine is largely provided by primary
+  care providers. These providers work hard to prevent catastrophic, or really any
+  form, or expensive care because many patients that use subscription medicine have
+  high deductible insurance plans.\r\n\r\n* *Analytics.* This is a broad bucket with
+  many meanings. In the future, analytics will ideally help to reduce the cost of
+  care while improving the quality of care. Today, analytics can be used to suggest
+  and maximize covered (reimbursed) care, increasing revenue for health systems. In
+  doing so, theses services overcome hurdles of access to data and can easily flip
+  from promoting more care to reducing the amount of care, or appropriating care to
+  the right populations.\r\n\r\n* *Telemedicine.* Telemedicine represents a major
+  shift in the way care is delivered. Today it can be used to generate new revenue
+  from patients willing to pay out of pocket for convenience or to make systems more
+  competitive for certain desirable populations. In the future it can be used to reduce
+  the cost of care for accountable care patients and maybe even prevent more expensive
+  forms of care.\r\n\r\n* *Patient portals.* Patient portals address a core requirement
+  of Meaningful Use (MU) by providing patients with access to their medical records.
+  Today this helps health systems get incentives from the government. In the future,
+  these portals can be used to expand services to patients and *maybe* become the
+  hubs for patients accessing digital health services. That's a big *maybe*.\r\n\r\nThere
+  are undoubtedly more examples. We'd love to hear from you about the ones we missed,
+  or from those with experience selling ROI today and tomorrow.\r\n\r\n"
+:cta_ref:
+  :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2017-02-07T04:29:29+00:00'
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :cta_title: 7 Big Ideas
+  :cta_desc: Download a free copy of our annual report on Innovation. We interviewed
+    some of the industry's best thinkers and doers, and summarized the 7 biggest ideas
+    in this easy-to-read ebook.
+  :cta_label: Download your copy
+  :cta_url: https://datica.com/innovation/2015
+  :cta_svg_icon:
+    :id: 4G7J6PZbVCmoOuAEO4UsIY
+  :cta_icon: "/public/icons/brand/icon-large-lightbulb-circle.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 4AhZYuraPeIGi0g0MMaaA4
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-11T13:41:48+00:00'
+    :created_at: '2016-11-23T22:18:27+00:00'
+    :id: 4AhZYuraPeIGi0g0MMaaA4
+  :title: Three Key Focuses for Healthcare CIOs
+  :slug: three-key-focuses-for-healthcare-cios
+  :pub_date: !ruby/object:DateTime 2015-09-10 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :summary: Taking an inside look at the United States healthcare systems can reveal
+    key insights for chief information officers (CIOs) as the industry goes through
+    epic transformations.
+  :blog_lead: 'Taking an inside look at the United States healthcare systems can reveal
+    key insights for chief information officers (CIOs) as the industry goes through
+    epic transformations. Today’s healthcare CIO can come from a myriad of backgrounds
+    since IT is no longer a prerequisite for the position. Rather than a technical
+    nature, a business-oriented mindset is crucial in order for healthcare CIOs to
+    be strategic and manage the system’s financial metrics. With the healthcare industry
+    shifting gears and the CIOs no longer narrowly focusing on the technology, what
+    is included in the scope of work for the modern healthcare CIO?
+
+'
+  :post: "## Population Health Management\n\nForward-thinking healthcare leaders have
+    been actively pursuing population health management objectives. These objectives
+    pertain to some of the most challenging cohorts that the twenty-first-century
+    CIO has fully embraced. Proven solutions show that data analytics play a vital
+    role in providing insight into individuals and populations, assuring that standardized,
+    actionable, and substantial healthcare delivery information is received. The CIO
+    of healthcare systems has the power to leverage influence to shift the quality
+    of human health across entire segments of the population. The key challenges faced
+    involve data: patient ascertainment, stratification, and analytics for exertions
+    or interventions. \n\n## Strategic Interoperability\n\nA lot of buzz around interoperability
+    has been happening since 2013 and for justifiable cause. Interoperability addresses
+    some of healthcare’s most pressing plights so the demand for achieving interoperability
+    is only on the rise. Despite this severe imposition, most healthcare organizations
+    have only begun their journey to achieving interoperability. \n\nIntegration engines
+    are what most healthcare organizations currently use to enable simplistic messaging
+    between systems. This fits the homogenous nature of the [HL7v2](https://datica.com/academy/hl7-101-a-primer/)
+    standard. Having your integration capabilities entirely behind the hospital's
+    firewall is no longer enough as interoperability requires a more strategic stance.
+    These organizations need an interoperability solution that can facilitate strategic
+    growth plans through acquisitions and mergers. Interoperability not only has become
+    an industry-level issue but is also a prerequisite for success in other healthcare
+    initiatives such as coordinated care, patient engagement, and [enterprise innovation](https://datica.com/innovation/).
+    \n\n## Big Data Analytics\n\nIn the CIO’s domain, an ever-growing scope of data
+    is overseen, distributed among multiple divergent systems, both in structured
+    and unstructured configurations. Never seen before, content from social media
+    and text messages can be found in a patient’s health record, contributing to the
+    volume, momentum, and diversity of data. With all of the latest technologies in
+    mobile devices, physician dashboards, telehealth, etc., CIOs are faced with one
+    of the greatest HIT challenges of aggregating, normalizing, and integrating all
+    of that Big Data down to the actionable direction at the time of care. CIOs are
+    being looked upon to make this data interoperable, support engagement, and coerce
+    the proper exploits by understanding the data from a technical and cultural framework.
+    \n\nWant to read what some of the top CIOs and other industry leaders have to
+    say? Read our annual [Healthcare Innovation Series Report](https://datica.com/innovation/2016/)
+    to read **6 Big Ideas**. Have thoughts or questions? [Tweet them to us!](https://twitter.com/daticahealth)\n"
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :related_entries:
+  - :id: 3kpvIBEqSACQQmQq4o02o0
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4zhhFLYqSQ6QyYAYeqMYoY
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 2j1nfvxHko6Sk8Q0oiaoEa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-05T20:45:55+00:00'
+    :created_at: '2016-11-23T22:18:27+00:00'
+    :id: 2j1nfvxHko6Sk8Q0oiaoEa
+  :title: Frugal Innovation in Healthcare
+  :slug: frugal-innovation-in-healthcare
+  :pub_date: !ruby/object:DateTime 2015-09-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Achieving a higher quality of patient care for more of the population
+    at a significantly reduced cost is the basis for innovation of most healthcare
+    systems.
+  :blog_lead: "Achieving a higher quality of patient care for more of the population
+    at a significantly reduced cost is the ultimate dream of most healthcare systems.
+    [Innovation](https://datica.com/innovation/) is the key to being able to provide
+    that healthcare excellence but there are socioeconomic needs that need to be addressed
+    first. The healthcare innovation model has been largely driven by copious amounts
+    of research and development to construct new technologies and processes, which
+    can prove to be very costly. Healthcare spending is already skyrocketing as more
+    Americans are getting sicker, so just as there is a desire for disruptive technologies,
+    a disruptive approach to innovation is warranted. Frugal innovation will be the
+    approach that delivers more social and economic benefits while utilizing fewer
+    resources and promoting affordability, sustainability, accessibility, and quality.
+    \n"
+  :post: "\nFrugal innovation, falling in sync with the industry’s transition from
+    volume to value care, will mandate a preference towards simplicity over sophistication.
+    Healthcare solutions that are easier to use are more accessible, demand little
+    maintenance, and are less expensive. Sometimes the simplest ideas truly are the
+    best. It pays to also consider what is already applicable in a patient’s present
+    environment, so review what technologies and processes could potentially be repurposed
+    to solve another existing need. This will allow you to compensate for what is
+    scarce with what is abundant. Providers should be exercising their already existing
+    resources, like mobile and satellite connectivity, to deliver care better, faster,
+    and cheaper. \n\nPublic and private sectors of healthcare need to collaborate
+    together to increase their community impact. Amalgamating knowledge and networks
+    will allow for further reach into any endeavor. Healthcare pockets of excellence
+    will stay just that, assisting a small portion of populations instead of providing
+    support to those who could truly benefit from the advancements. Adopting a collaboration
+    [solution platform](https://datica.com/compliant-cloud/) that will allow for higher
+    engagement from professionals and patients alike to fix what needs fixing. Ultimately,
+    co-operating between sectors will allow for frugal innovation to take place resulting
+    in co-creation of sustainable and affordable health solutions that benefit a larger
+    populace. \n"
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :related_entries:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 5824I2xgo8qAkyg0IMoK8I
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 5824I2xgo8qAkyg0IMoK8I
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-05-04T19:39:18+00:00'
+    :created_at: '2017-04-28T21:53:50+00:00'
+    :id: 5824I2xgo8qAkyg0IMoK8I
+  :title: 6 Insights on Healthcare Innovation
+  :slug: 6-insights-on-healthcare-innovation
+  :pub_date: !ruby/object:DateTime 2017-04-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'These big ideas in healthcare innovation explore a lack of interoperability,
+    the role of EHRs, and how data standards like FHIR ignite transformation. '
+  :blog_lead: "Connectedness is the final frontier for healthcare. In many ways, the
+    true breakthrough for innovation will come once interoperability becomes the default
+    instead of the barrier it has been for several decades. With that focus, we recently
+    compiled the six biggest ideas from the 2016 Datica Healthcare Innovation Series
+    into a [third annual report](https://datica.com/innovation/2016/). The report
+    explores the history behind the lack of interoperability, the role EHRs play,
+    and what new data standards, like FHIR, can do ignite true transformation. \n\nSince
+    2014, this continuing [interview series](https://datica.com/innovation/) has sought
+    to understand how innovation happens in healthcare. Nine of the greatest minds
+    in healthcare share their insights about data standards and integration principles
+    in the complete 2016 annual report. These six ideas are a summation of the thoughts
+    in the report."
+  :post: "## Six Big Ideas\n\n### 1. Innovation is a global endeavor. \n\n> “If you
+    talk only to yourself, you stay the way you are... If you talk only to others
+    in healthcare, you move with the pack... It’s only if you talk outside of your
+    domain that you can leap boundaries.” — Mark Smith, MD\n\nOne truth about new
+    ideas is they are typically the combination of existing ideas. Therefore the greatest
+    innovations are spurred by bumping together diverse thinkers with diverse backgrounds.
+    The more this happens, the higher probability true innovation will occur. The
+    takeaway: global minds, often outside of healthcare, are some of the best sources
+    of healthcare innovation at the national level.\n\n### 2. Part of the challenge
+    of technology adoption is due to the difficulty in understanding and absorbing
+    the technology.\n\n> “When I talk to implementors in the FHIR community about
+    this, there’s this thing that goes around about RESTful APIs — the 5-5-5 rule
+    — 5 seconds to find the API, 5 minutes to understand what it was doing and 5 hours
+    to have something working. But to that I add, 5 years to begin to understand healthcare.”
+    — Grahame Grieve \n\nWhether it’s the native complexity of the standard or the
+    poor documentation that is behind the times, traditional data standards have not
+    been inviting to energetic entrepreneurial problem solvers. The barrier to adoption
+    is a subtle yet underrated consideration when wondering why interoperability isn’t
+    better than its current state. The good news: FHIR tries to tackle this problem
+    head on.\n\n### 3. The pace of FHIR adoption has been insanely fast (by healthcare
+    standards). \n> ”[FHIR has] reached a point of adoption where there is enough
+    critical mass to ensure that its APIs can be the standard and the usefulness of
+    the platform can be assured.” -Charles Jaffe, MD, PhD\n\nHealthcare is rightfully
+    skeptical of the hot newness. For decades it has been told what new technology
+    or process will save the day. While FHIR doesn’t solve all the problems, there
+    is an industry view that FHIR truly is a breakthrough moment on interoperability.
+    The data behind the swelling sentiment is the rate of adoption across sub-domains,
+    across vendors, and across use cases, as well as being embraced by the government.\n\n###
+    4. More data is not necessarily the answer to innovation because it’s often useless
+    data. \n> “Doctors are rightfully skeptical in getting all your Fitbit or whatnot
+    data because it doesn’t fit the way we generally use data.” -Ida Sim, MD, PhD\n\nThe
+    unacceptable state of interoperability is often viewed as the biggest blocker
+    to innovation. Exchanging data really is the key to the next healthcare transformation.
+    Yet the other side of the coin—the deluge of data that is exchanged but is actually
+    relatively useless—can be just as much of a depressant on innovation.\n\n### 5.
+    The EHR must be a partner to the rest of healthcare.\n\n> “The government has
+    spent somewhere between twenty to thirty billion dollars on EMR deployment and
+    there is a little bit of embarrassment and concern why these things aren’t interoperable.”
+    -Dr. Mark Braunstein\n\nShared incentives have not always been present for EHR
+    vendors. While they have been the core driver in the most important transformation
+    so far—the digitization of health data—they have not behaved in a way that contributes
+    to increased interoperability and true innovation. In their defense, it’s not
+    necessarily their fault: the economic incentives have not been present, and Meaningful
+    Use didn’t enforce it. But that does not excuse the growing sentiment that EHR
+    vendors must embrace being at the forefront of the next wave of transformation.\n\n###
+    6. Healthcare’s situations are unique.\n\n> “The challenges that we face are always
+    the ones that have confronted us in my three plus decades for caring for patients—policy.”
+    -Charles Jaffe, MD, PhD\n\nThis is not a ground-breaking thought: healthcare is
+    unique from every other industry in the economy because of its combination of
+    regulatory, economic, political, security, privacy, and complexity pressures—not
+    to mention we are dealing with people’s lives, not tweets. But, it is important
+    to be reminded that these situations exist, and healthcare innovation is predicated
+    on managing the uniqueness up front.\n\nWe invite you to read the complete report
+    for many more great insights on innovation."
+  :featured_image:
+    :id: 65BpSTOvBuCQQCIO6qYAau
+  :share_image:
+    :id: 4lDGSRptzaWgM4oGY24kMA
+  :cta_ref:
+    :id: 3vSsyg2dkIeA0cuQc6AEwe
+  :related_entries:
+  - :id: 2LOuzjSvuMoeg6cyAEu0sa
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 6wrnBiMzBYWQUmyw0GGKKm

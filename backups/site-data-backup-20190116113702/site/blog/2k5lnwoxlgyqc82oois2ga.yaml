@@ -1,0 +1,114 @@
+---
+:id: 2K5LnwoxLGyQc82oois2ga
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T06:51:37+00:00'
+  :created_at: '2016-11-23T06:51:37+00:00'
+  :id: 2K5LnwoxLGyQc82oois2ga
+:title: 2014 Predictions - Meaningful Use Continues to Challenge IT Departments
+:slug: 2014-predictions-meaningful-use-continues-to-challenge-it-departments
+:pub_date: !ruby/object:DateTime 2014-02-11 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 6vv9sUZuiAs8yQ4cQqm86e
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: What does "Meaningful Use" mean, and why is it needed?
+:blog_lead: 'Meaningful Use has been one of the biggest topics in the health IT industry
+  for the last several years. Meaningful Use (MU) was introduced in 2009 as a part
+  of the HITECH Act. Basically it''s an incentive program that was created to encourage
+  providers, physicians and health systems, to adopt electronic health records (EHRs).
+  EHRs need to be certified for providers to get the financial incentive that goes
+  along with MU. If a provider can show that he/she is using a certified EHR, that
+  provider is eligible for financial incentives from Medicare or Medicaid of $44K
+  or $66K, respectively. Those payments are spread over 5 or 6 years.
+
+'
+:post: |+
+  The reason behind the program is to create financial incentives for using an EHR. Why is that needed? Good question. I had always assumed you wouldn't have to push so hard if the EHR systems were beneficial or had a clear ROI. The reasons given for MU are typically that EHRs lay the foundation for the changes that are needed to deliver on the triple aim of health reform - lower costs, better outcomes, happier patients (that are ideally more engaged). Much of this perceived value relates to interoperability, analytics, decision support, and quality tracking. The evidence that EHRs, at least the current crop of dominant EHRs, can help with any of the 3 aspects of the triple aim is scant at best. The utility and value of EHRs in healthcare is a topic for another post, or any entire book for that matter, but there are arguments on the other side that simply adopting and not optimizing is the major problem with current EHR installs.
+
+  The reason MU will continue to be a major trend in 2014 is that MU Stage 2 kicks in this year. MU is broken into 3 stages. The first stage, which set a very low bar, ran through 2011 and 2012. Stage 1 focused on data capture. Stage 2 raises the bar considerably, and there are rumblings in industry circles that Stage 2 will not be a smashing success. Stage 2 has a focus on quality and reporting, as well as more interoperability. Recent data shows that 56% of providers intend to participate in MU stage 2 but are not ready; only 13% intend to participate and are ready.
+
+  (image: db143-fig3.png)
+
+  That's scary, especially considering 2014 is also the year that providers have to be compliant with [ICD-10](http://www.cms.gov/Medicare/Coding/ICD10/Index.html); October 1st, 2014 is the exact date for ICD-10.
+
+  Through the end of 2013, CMS had paid out [$19 billion](http://www.ihealthbeat.org/articles/2014/2/5/cms-has-paid-more-than-19b-in-meaningful-use-payments) in EHR incentives, showing the size of the MU program. With EHRs representing the largest software costs for almost every healthcare organization, and those organizations having invested heavily with plans to get incentive payments, there is a lot of pressure on hospital IT, and by extension EHR vendors, to meet MU. With the amount of resources - financial, human, and organizational - required to meet MU, our hope is that there is a real benefit at the end of the road for the healthcare systems, providers, and, most of all, patients.
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

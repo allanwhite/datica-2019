@@ -1,0 +1,15 @@
+---
+:id: 19QmxR8uPy60E2ik0I6GIY
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:29+00:00'
+  :created_at: '2018-02-08T22:21:29+00:00'
+  :id: 19QmxR8uPy60E2ik0I6GIY
+:title: Let's Encrypt (SSL)
+:slug: lets-encrypt-ssl
+:category: Secure Connectivity
+:summary: Free SSL certificates on that Platform via Let's Encrypt
+:desc: Datica is proud to offer free SSL certificates through Let’s Encrypt. With
+  Let’s Encrypt, users can create free SSL certificates that automatically renew before
+  expiring. When Let’s Encrypt certificates renew, the updated certificate will be
+  automatically placed inside of your Datica environment without needing a redeploy.

@@ -1,0 +1,69 @@
+---
+:id: ePAY2y21awmEgCeYIeaOG
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-09-20T21:46:16+00:00'
+  :created_at: '2018-09-14T21:00:16+00:00'
+  :id: ePAY2y21awmEgCeYIeaOG
+:title: Techstars Startup Week Seattle
+:slug: techstars-startup-week-seattle
+:date_start: !ruby/object:DateTime 2018-10-08 00:00:00.000000000 -07:00
+:date_end: !ruby/object:DateTime 2018-10-12 12:00:00.000000000 -07:00
+:event_tags:
+- Conferences
+- Presentations
+:is_featured: true
+:event_logo:
+  :title: Seattle startup week
+  :description: Techstars Seattle Startup Week
+  :url: "//images.ctfassets.net/189dvqdsjh46/2WZ09Hjny8M4kUcm8oKKqQ/d27b8d23f849078488b80bbd90c56fac/seattle_startup_week_3.jpeg"
+  :_meta:
+    :updated_at: '2018-09-14T22:03:16+00:00'
+    :created_at: '2018-09-14T20:58:49+00:00'
+    :id: 2WZ09Hjny8M4kUcm8oKKqQ
+:summary: Kris Gosser will be presenting a new open source framework called Complete
+  Cloud Compliance at Startup Week Seattle on October 10, 2018.
+:event_desc: |-
+  __Complete Cloud Compliance, 10/10 4:00pm__
+
+  The cloud has moved so fast that even within the past year, technology options are totally different. Micro-services, managed services... the cloud is not what it used to be. How do healthcare companies fully meet compliance assurances in a dynamic cloud world? A new open source framework from Datica called [Complete Cloud Compliance](https://techstarsstartupweekseattle2018.sched.com/?s=Kris+gosser&iframe=no&w=&sidebar=&bg=) gives a path. Author Kris Gosser will break it down for attendees in this free session.
+:event_related_people:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:tags:
+  :id: 4PggcBjCXC4mo4OcuKWK2W
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-04-04T17:52:15+00:00'
+    :created_at: '2017-04-04T17:52:15+00:00'
+    :id: 4PggcBjCXC4mo4OcuKWK2W
+  :tag_full: Startups
+  :slug: startups
+  :description: Startup and early-stage companies.

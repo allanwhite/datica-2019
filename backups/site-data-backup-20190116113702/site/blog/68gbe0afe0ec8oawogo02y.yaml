@@ -1,0 +1,98 @@
+---
+:id: 68gBE0afe0EC8OAWogo02Y
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T21:34:04+00:00'
+  :created_at: '2016-11-23T22:19:27+00:00'
+  :id: 68gBE0afe0EC8OAWogo02Y
+:title: Need for Governance and Trust Among Entities
+:slug: need-for-governance-and-trust-among-entities
+:pub_date: !ruby/object:DateTime 2015-12-07 00:00:00.000000000 Z
+:tags:
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: In a day and age where data breaches and cyber terrorism are at an all time
+  high, it is no surprise that our healthcare system lacks trust, especially when
+  pertaining to patient data.
+:blog_lead: "> Trust each other again and again. When the trust level gets high enough,
+  people transcend apparent limits, discovering new and awesome abilities of which
+  they were previously unaware. – David Armistead\n"
+:post: |
+  In a day and age where data breaches and cyber terrorism are at an all time high, it is no surprise that our healthcare system lacks trust, especially when pertaining to [patient data](https://catalyze.io/learn/what-is-protected-health-information-or-phi). But EHR system wide interoperability is a necessity in the transformation of healthcare into a network that can achieve objectives of improved quality, efficiency and patient safety. With these exciting possibilities in reach once interoperability is achieved, it is frustrating that the third barrier to this initiative, according to the [GAO report](http://www.gao.gov/assets/680/672585.pdf), is the need for governance and trust among entities.
+
+  There is so much excitement surrounding the new technologies in healthcare these days but with that excitement comes a few contingencies. There are questions raised from healthcare providers, both internally and externally, surrounding trust. In most cases, technological solutions or process improvements are implemented but in others, a certain comfort level with a new healthcare environment must be had among entities over time.
+
+  Risk is something that is inevitable with the development of new technologies. Probably the greatest risk, and most costly, is the security and privacy of patient data. For indomitable integrations to happen, the ability to protect patient privacy and the data is critical. The initiative representatives said that it can be challenging to establish the governance and trust among entities due to a multitude of reasons:
+
+  - Organizational policies
+  - [State privacy rules](https://catalyze.io/blog/variation-in-state-privacy-laws)
+  - Geographical barriers
+  - Information security documentation
+  - Data usage and access
+  - Technical and administrative standards
+
+  Representatives of the initiative agreed that it is critical to success for entities to establish agreements to ensure the open sharing of information across organizations but that assumes that all policies and standards are in proper alignment.
+
+  ### Trust among entities starts with trust
+
+  > The best way to find out if you can trust somebody is to trust them. – Ernest Hemingway
+
+  Hemingway could not have said it better. As much as standardization of organizational policies, practices and documentation is going to be a huge factor in pushing the interoperability needle forward, it all is going to start with a leap of pure faith. Entities will need to trust that goals are in alignment and no ill will is at hand.
+
+  ### Further Reading::
+
+  1. [Insufficiencies in Standards for EHR Interoperability](/blog/insufficiencies-in-standards-for-ehr-interoperability)
+  2. [Top EHR Vendors (Epic, McKesson, etc.) Meet to Determine Interoperability Metrics](/blog/top-ehr-vendors-epic-mckesson-etc-meet-to-determine-interoperability-metrics)
+  3. [Why Interoperability?](/blog/why-interoperability)
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

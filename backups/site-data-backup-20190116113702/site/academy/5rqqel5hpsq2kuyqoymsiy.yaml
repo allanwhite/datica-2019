@@ -1,0 +1,1008 @@
+---
+:id: 5RqQEl5hpSq2KuyQoYMsIy
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-10-02T19:32:40+00:00'
+  :created_at: '2017-10-31T17:51:22+00:00'
+  :id: 5RqQEl5hpSq2KuyQoYMsIy
+:title: Integrating HL7 with a RESTful API
+:slug: integrating-hl7-with-a-restful-api
+:pub_date: !ruby/object:DateTime 2018-08-10 00:00:00.000000000 Z
+:author:
+  :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999
+:tags:
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+- :id: 1mTL8gkwl6Sae862SmQUsW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-31T17:51:05+00:00'
+    :created_at: '2017-10-31T17:51:05+00:00'
+    :id: 1mTL8gkwl6Sae862SmQUsW
+  :tag_full: Mirth
+  :slug: mirth
+  :description: 'Mirth Connect is a cross-platform HL7 interface engine that enables
+    bi-directional sending of HL7 messages between systems and applications over multiple
+    transports available under the Mozilla Public License (MPL) 1.1 license. '
+  :url: https://en.wikipedia.org/wiki/Mirth_Connect
+:summary: RESTful APIs are the backbone of many webservices today. Having the tools
+  to integrate an not-natively-RESTful interface engine with this common standard
+  opens a lot of possibilities. In the healthcare space, queuing the HL7 properly
+  is critical. In this article, we explore ways to do this properly.
+:lead: "## Why does this matter?\n\nRESTful APIs are the backbone of many webservices
+  today. Having the tools to integrate an not-natively-RESTful interface engine with
+  this common standard opens a lot of possibilities. \n\nThere will be hurdles for
+  implementing tools like these, especially since some of core RESTful requirements
+  are lost, namely: statelessness, cacheability, and code on demand."
+:post: "## What is a RESTful API?\n\nRepresentational State Transfer (REST) web services
+  are a popular method of providing interoperability between systems.\n\nFrom the
+  [REST API Tutorial](http://www.restapitutorial.com/) guide, there are six constraints:\n\n1.
+  **Uniform interface:**  Resources are uniquely identified in requests by URIs, and
+  the communication is HTLM, XML, or JSON representation of content from the database.
+  When the server returns the representation of the resource to the client, the client
+  holds enough information to modify or delete the resource on the server (security
+  permitting). \n2. **Stateless:**  The state for handling a request is contained
+  within the request itself. This helps with modularity because each request will
+  have all of the information needed by the server to complete the request without
+  relying on information from the server-client session.\n3. **Cacheable:**  Server
+  responses must define themselves as cacheable when appropriate so that clients can
+  reuse information rather than make subsequent requests.\n4. **Client-Server:**  There
+  needs to be a separation between client and server, bridged by the RESTful API.
+  This allows the client and server to be developed independently as long as the API
+  interface remains the same. User interface and user state stays on the client, and
+  data storage stays on the server.\n5. **Layered System:**  Because of the stateless
+  requirements, a client will not be able to tell whether communication is directly
+  with the server or with an intermediate resource. Since a request itself contains
+  all of the necessary information to complete that request, an intermediate resource
+  (e.g. a load balancer) can pass along the request while obfuscating the server-side
+  process from the client.\n6. **Code on demand (optional):**  Servers can pass along
+  some extra tools to the client in the form of applets and client-side scripts. This
+  is not a requirement, but it is a good way to extend the utility of a client application.\n\n##
+  What makes this special?\n\nLong story short, a customer of ours uses the [PubNub](https://www.pubnub.com/)
+  API for their messaging infrastructure. We at Datica use the open-source [Mirth
+  Connect](https://www.mirth.com) interface engine.\n\nMost interface engines do not
+  natively treat messages the same way that RESTful APIs do. Typically, the message
+  content alone is sent to an interface endpoint, which means that the communication
+  is not stateless and depends on the context of the destination knowing where the
+  message is coming from. For the healthcare space, HL7 messages often need to be
+  queued in a particular order, so each message itself cannot be independent or out
+  of order.\n\n### HL7 \n\nHL7 is not inherently designed to mesh well with a RESTful
+  API. PubNub does not preserve message order, since it anticipates each message is
+  stateless. So, the consuming application is responsible for ordering messages based
+  on the control ID or an included datetime. Also, message receipt is not guaranteed,
+  so we rely on the consuming application to respond with a notification of any problems.
+  \n\n### Mirth Connect\n\nWith a typical RESTful integration, you would subscribe
+  and use that side of the response to confirm receipt of the message -- that asynchronous
+  communication doesn't work natively with most interface engines. Mirth Connect operates
+  with the premise that messages will be communicated point to point. Serializing
+  and persisting Java objects for multiple messages is difficult. This means that
+  we end up initializing and destroying a PubNub configuration for each message.\n\nDatica's
+  Mirth Connect interfaces work in a FIFO manner, and the communication is synchronous.
+  For example, posting a message to an HTTPS endpoint relies on a response code before
+  continuing. Because of this, you lose some of the benefit of having a layered system
+  for receiving and sending stateless messages, since everything gets queued up in
+  one line.\n\n## Nuts and bolts\n\n### PubNub Java SDK\n\nPubNub has a variety of
+  SDKs available on their website. We ended up using the [Java SDK v4](https://www.pubnub.com/docs/java-se-java/pubnub-java-sdk).
+  \n\nWe could have written our own code to invoke PubNub endpoints directly, but
+  Mirth Connect has the ability to invoke external Java SDKs! We were able to save
+  a lot of time by leveraging the PubNub-provided SDK.\n\n### Mirth Connect destination\n\nWe
+  built a Java method to import PubNub java libraries and synchronously post to a
+  PubNub URI. This was exported as an executable JAR and then transferred to the container
+  hosting the Mirth Connect instance to be imported as a Mirth code resource.\n\nThis
+  Java class was called from a Mirth Connect JavaScript writer destination, where
+  the API specifics were declared, including:\n\n* Subscriber key\n* Publisher key\n*
+  Cipher key\n* A unique message UUID\n* Message content\n* Channel names\n* And,
+  an error file name for capturing API responses\n\nThese parameters for the PubNub
+  post were combined into the RESTful resource identifier.\n\n<pre>\n\npackage datica.pubnub;\n\nimport
+  java.io.IOException;\nimport java.io.PrintWriter;\nimport java.io.StringWriter;\nimport
+  java.util.Calendar;\nimport org.json.simple.JSONObject;\nimport org.json.simple.parser.JSONParser;\nimport
+  org.json.simple.parser.ParseException;\n\nimport com.pubnub.api.PNConfiguration;\nimport
+  com.pubnub.api.PubNub;\nimport com.pubnub.api.PubNubException;\nimport com.pubnub.api.callbacks.PNCallback;\nimport
+  com.pubnub.api.enums.PNLogVerbosity;\nimport com.pubnub.api.models.consumer.PNPublishResult;\nimport
+  com.pubnub.api.models.consumer.PNStatus;\n\npublic class PubnubPublisherSync {\n\tpublic
+  static String main(String subscribeKey, String publishKey, String cipherKey, String
+  uuId,\n\t\tString json, String channelName, String messageFile) throws PubNubException,
+  ParseException {\n\t\tString output = null;\n\t\tSystem.gc();\n\t\t\n\t\t//read
+  in the file name\n\t\tJSONParser parser = new JSONParser();\n\t\tJSONObject jsonBody
+  = (JSONObject) parser.parse(json);\n\t\tfinal String filename = messageFile;\n\t\t\n\t\t//create
+  pubnub configuration\n\t\tPNConfiguration pnConfiguration = new PNConfiguration();
+  \n\t\tpnConfiguration.setSubscribeKey(subscribeKey);\n\t\tpnConfiguration.setPublishKey(publishKey);\n\t\tpnConfiguration.setCipherKey(cipherKey);\n\t\tpnConfiguration.setUuid(uuId);\n\t\tpnConfiguration.setSecure(true);\n\t\t\n\t\tPubNub
+  pubnub = new PubNub(pnConfiguration); // initialize pubnub\n\t\t\n\t\ttry{\n\t\tPNPublishResult
+  result = pubnub.publish().message(jsonBody).channel(channelName).usePOST(true).sync();\n\t\toutput
+  = result.getTimetoken().toString();\n\t\treturn \"SUCCESS:\"+output;\n\t\t//System.out.println(result.toString());\n\t\t}catch(PubNubException
+  e){\n\t\t\toutput = e.getErrormsg();\n\t\t\treturn \"ERROR:\"+output;\n\t\t}finally{pubnub.destroy();}\n\t}\n}\n\n</pre>\n\n###
+  Getting to the JAR\n\nWithin Mirth Connect, you can import code resources here:
+  \ **Mirth Connect >> Settings >> Directory Settings**. You will first need to make
+  sure that you migrate your executable JAR to the container that the Mirth Connect
+  service lives on.\n\nOnce that code resource is imported, you can call it from your
+  message channel destinations.\n\n<pre>\n\nimportPackage(Packages.datica.pubnub);\n\n//
+  PubNub vars\nvar subscribeKey= new java.lang.String(\"sub-c-123-ABC-456-DEF\");\nvar
+  publishKey=new java.lang.String(\"pub-c-789-GHI-123-JKL\");\nvar cipherKey=new java.lang.String(\"456-MNO-789-PQR\");\nvar
+  uuId = new java.lang.String(\"123-STU-456-VWX\");\nvar pubnubChannel = new java.lang.String(\"789-YZA-123-BCD\");\n\n//
+  Mirth vars\n//var jsonBody= new java.lang.String($('jObj'));\n//var filename = new
+  java.lang.String(\"/foo/\"+$('filename'));\n\n// convert to string and estimate
+  size\nvar jsonString = $('jObj');\nvar jsonLength = jsonString.length();\nchannelMap.put(\"json
+  string length\",jsonLength);\n\n// prep vars for array build\nvar pnUuid = UUIDGenerator.getUUID();\nvar
+  filename = new java.lang.String(\"/foo/\"+pnUuid);\nvar indexCt = 0;\n// split JSON
+  obj into 25K char sections\nvar jsonStringSplit = [];\njsonStringSplit = jsonString.match(/.{1,12500}/g);
+  //12.5k splits\n\n//for error handling\nvar error=true;\n\nfor each (split in jsonStringSplit)
+  {\n\tvar pubNubJson = {};\n\tpubNubJson.id = pnUuid;\n\tpubNubJson.index = indexCt;\n\tpubNubJson.length
+  = jsonStringSplit.length;\n\tpubNubJson.data = split;\n\tchannelMap.put(\"split\"+indexCt,split);\n\tvar
+  jsonBody= new java.lang.String(JSON.stringify(pubNubJson));\n\tindexCt ++;\n\t//
+  publish to PubNub\n\tvar resp = PubnubPublisherSync.main(subscribeKey, publishKey,
+  cipherKey, uuId, jsonBody, pubnubChannel, filename);\n\tvar respString = new java.lang.String(resp);\n\tif
+  (respString.indexOf(\"ERROR\") > -1){throw resp;}\n}\n\n</pre>\n\n## Issues\n\n###
+  Chunkin'\n\nPubNub as a webservice API was designed with some message size limits.
+  HL7 messages, and Datica's JSON message translation of the HL7, can regularly exceed
+  the allowable per-message size limit.\n\nSo, we ended up segmenting our messages
+  into smaller pieces and then wrapping each piece in a JSON wrapper. The wrapper
+  included:\n\n* UUID to identify the source message\n* Number of segments the source
+  message was split into\n* Index of which segment of total number was contained \n*
+  Segmented message content\n\nThis message segmentation can be seen in the above
+  JavaScript Mirth Connect destination code.\n\n### Sync vs Async\n\nWith the Java
+  SDK v4 from PubNub, the `pubnub.publish()` method had both `async()` and `sync()`
+  submethods. We ended up using the sync method, as you can see from the above line
+  in our JAR: `PNPublishResult result = pubnub.publish().message(jsonBody).channel(channelName).usePOST(true).sync()`\n\nThis
+  all comes back to interface engines not functioning like a typical RESTful API.
+  For each concurrent process pushing messages to the API endpoint, we need to wait
+  for a response.\n\n### Destroy\n\nWe ran into a memory leak with our PubNub destination
+  in MirthConnect. The Rhino version of JavaScript calling the Java SDK JAR for PubNub
+  initialized a new PubNub configuration with each message. That, in turn, was not
+  explicitly cleaned up by the JavaScript layer's garbage collector.\n\nSo, our solution
+  was to use the `pubnub.destroy()` method from within the JAR. This explicitly clears
+  the cache of PubNub configuration (another way this deviates from normal RESTful
+  practice)."
+:related_guide:
+  :id: wSUz5LDXA4Uu42OqwQ8AM
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-07-25T17:32:53+00:00'
+    :created_at: '2017-02-03T18:57:20+00:00'
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :title: Total cost of Ownership of Healthcare Integrations
+  :slug: total-cost-of-ownership-of-integrations
+  :summary: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :subhead: The comprehensive guide to healthcare integration TCO
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :featured_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :desc: In this guide we explain our methodology for computing healthcare integration
+    total cost of ownership. We make the case that modern, cloud-based technology
+    has fundamentally changed the TCO formula. Follow along as we walk you through
+    our personal computations.
+  :authors:
+  - :id: 5dsPZqJr4Qu2uww6KgYO0G
+  - :id: 3VJKuWDfPak8w26k0g0Kw0
+  :guide_text: |-
+    Computing Total Cost of Ownership is an important project for any technology leader, but healthcare integrations pose a particularly challenging problem due to hidden process costs.
+
+    When calculating the decision between building your own integrations versus working with a managed service provider, the 'right' answer is the best fitting solution dependent on organizational needs.
+
+    The Datica guide to healthcare integration total cost of ownership will help give you the knowledge to determine your own TCO calculation. Included in the guide:
+
+    - The integration process
+    - People - roles and responsibilities
+    - Components of work efforts and effort estimates
+    - Summary
+  :related_form:
+    :id: 4zDjcOAkkwgmEumwI6oaO6
+  :form_id: 2bc719f6-8063-4aff-a424-764799651b10
+  :bg_image:
+    :id: 1iP2tqSCPKuIY6gIakoWcM
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:related_entries:
+- :id: 5hxMqchtYWC2qU0uMWy4gW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:40+00:00'
+    :created_at: '2017-01-16T17:41:30+00:00'
+    :id: 5hxMqchtYWC2qU0uMWy4gW
+  :title: How to integrate with Epic (or any EHR)
+  :slug: how-to-integrate-with-epic-or-any-ehr
+  :pub_date: !ruby/object:DateTime 2018-04-04 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :summary: Lets walk through the names, players and timelines for delivering your
+    first HL7 Epic integration or any other EHR integration like Cerner or Allscripts.
+  :lead: |-
+    You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You'll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.
+
+    What needs to be done? Lets walk through the names, the players and the timelines of delivering your first integration with Epic Systems EHR (EpicCare) or any other EHR like Cerner or Allscripts.
+  :post: |
+    ### The Players
+
+    **Project Manager** - The person responsible for running the project plan and gathering resources. Depending on the integration size or scope, this person might wear multiple hats within IT *or* might be involved with operations within the healthcare organization itself.
+
+    **Operational Owner** - The person responsible for buying your software (or their proxy) and your internal champion. This person will likely be involved in bringing the rest of the team in and helping you navigate through the system. This can be anyone from a department head to the CIO of the organization.
+
+    **System Administrator/Network Engineer** - The person responsible for getting the VPN setup, which is likely the second thing you will do in the integration setup process. Knows that interfaces connect to IP addresses and ports, but likely isn't that curious about what data gets sent across.
+
+    **Interface Engine Analyst/Engineer** - The person responsible for ensuring that the data is passing through the VPN and hitting the appropriate port on the interface engine. The interface engine is probably a product like Rhapsody, Intersystems Ensemble or eGate; all interfaces from all clinical software (not just the EHR) go through here. This person sets up the ports on the IP addresses you need to connect with. He or she usually isn't responsible for the details about the specific interface, but if your HL7 messages do not pass certain formatting/filtering criteria there will likely be errors that you will need to troubleshoot with this person. At a smaller organization, this may be the same person as the EHR Interface Analyst.
+
+    **EHR/Application Interface Analyst/Engineer** - The person responsible for making sure that data from the Interface Engine drops an HL7 message from the Interface Engine successfully into the EHR. In Epic, this person is the *Bridges Analyst* and in Cerner they are the *Open Engine* analyst. If your data has an improperly formatted field or mapping, is using the wrong identifier for a person/order/document, or otherwise has a problem getting into the EHR, this person will let you know about the problem. It's worth noting that you'll probably only need to work closely with this person on *writing data into the EHR* via notes, flowsheets or results.
+
+    **EHR (or application) Web Services Analyst/Engineer** - In many cases, notably when working with Epic, the person responsible for HL7 integration might not be the same person responsible for working with Web Services. In Epic, Web Services are used for NCPDP messages (ePrescribing), FHIR, IHE protocols (PIX/PDQ, XDS.b queries), and functions that relate to MyChart. [Epic explains this better than I can](http://open.epic.com/). Likewise, Cerner has MillenniumObjects and Allscripts has its own API for integration purposes. There may be some overlap between the Interface and Web Services roles; the big reason that there may be separation is that since these are different products from the EHR Vendor, support and staff may be bifurcated accordingly.
+
+    **EHR/Application Analyst** - For writing data into the EHR, you'll need to validate the data that you are writing back into the EHR shows up in the right places (or that the "right places" are in fact built) For getting data out of the EHR, you'll need someone to trigger events (like scheduling an appointment or discharging a patient) to test the workflow that integration is facilitating. This is written up as one job role, but realistically it'll be different team members for various workflows. These may be some of the applications and their Epic application name that you would need to ensure that you had the right person online for testing.
+
+    * Outpatient EHR (EpicCare Ambulatory) - Orders, Results, Notes, Flowsheets(discrete data).
+    * Inpatient EHR (EpicCare Inpatient) - Orders, Results, Notes, Device Integration, Flowsheets(discrete data)
+    * Scheduling (Cadence) - Scheduling, Patient Demographic Updates
+    * Registration (ADT) - Hospital Patient Registration, Admissions, Discharges, Transfers [1](#footnote-1)
+    * Surgery (OpTime) - Scheduling Surgical Cases
+    * Lab/Radiology/Cardiology LIS/RIS/CVIS (Beaker/Radiant/Cupid) - Scheduling/Registration/Results for Lab/Radiology/Cardiology + Procedure Logs + Results
+    * EMPI (Identity) - EMPI queries
+    * Other - MyChart, Care Everywhere, other Web Services [2](#footnote-2)
+
+    It's also worth noting that the process of getting data in or out the EHR doesn't necessary actualize its usefulness. Your Operational Owner should work with the appropriate EHR analysts to ensure that data written into the EHR is displayed in the correct reports and dashboards while ensuring that data that needs to be generated from the EHR receives the proper treatment in terms of decision support and workflow training.
+
+    **Support Staff** - A larger organization likely has team members handle some amount of support. This person is probably who will contact you if there is downtime from the Hospital side or if they notice that errors are pooling up on your interface connection. Likewise, you will want to inform this person (or some other centralized resource) in the event that you notice a degradation of service
+
+    ### The Stack
+
+    We use Mirth Connect with Postgres as a backend here at Datica and I highly recommend it. It's open source with a permissive license and can satisfy most integrations needs for startups. It's ranked highly in KLAS. [You can give it a try here.](http://www.mirthcorp.com/products/mirth-connect)
+
+    ### Why Datica?
+
+    With all this information in tow, why do you need an integration partner?
+
+    Because there is so much more to do. It takes plenty of specialized experience to make your first HL7 project go well, and Datica provides this for you in house. We provide you with:
+
+    * A load-balanced, secure, highly-available Interface Engine on scalable cloud infrastructure (5 VMs). We run Mirth Connect, an open-source, KLAS ranked Interface Engine. Our infrastructure has been through two HIPAA audits and one HITRUST audit and is ready to plug into any healthcare organization in the country.
+    * A dedicated hardware firewall that will meet the needs and bandwidth for any VPN with any healthcare organization in the United States.
+    * Burst onto the scene with instant credibility in HL7: Certified EHR and Networking (CCNA) Professionals with years of experience on hand to guide you through the process of setting up an integration. We've worked with most EHR vendors and we're willing to do whatever it takes it get an integration done.
+    * Lean on the tooling we've already built for customers and use our standard HL7-to-JSON libraries to get data in a format that's easier to deal with than pipe-delimited mumbo-jumbo.
+    * Best-in-class monitoring and support from an engineering-first company.
+    * Straight-forward pricing: Do you know that in 1990 the pitch for HL7 involved pricing for an interface costing less than $10,000? Why are you still paying through the teeth for it now?
+
+    ### Conclusion
+
+    We want to make interoperability easier for everyone. Look forward to more open-sourced advice and documentation in the future.
+
+    [1]<a id="footnote-1"></a> There isn't always a clean line between Outpatient/Inpatient applications. There may be "outpatient" clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.
+
+    [2]<a id="footnote-2"></a> There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you're not sure who is responsible for a specific integration, it's best to lean on your operational owner/project manager who needs to be involved to get something done.
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 6G1djiYjD26CQ00iaIWGg8
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 52med8hyLYW8ewGyymYqUS
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-12-14T21:44:04+00:00'
+    :created_at: '2017-01-16T17:41:31+00:00'
+    :id: 52med8hyLYW8ewGyymYqUS
+  :title: HL7 101 - A primer
+  :slug: hl7-101-a-primer
+  :pub_date: !ruby/object:DateTime 2018-03-27 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: HL7 is a healthcare industry standard for messaging between applications,
+    for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.
+  :lead: 'Health Level Seven (HL7) is a standard utilized by the healthcare industry
+    to enable messaging between applications, EHR to PMS (practice management system)
+    for example. It is managed and maintained by [Health Level Seven International
+    (HL7)](http://hl7.org) which is a not-for-profit, ANSI-accredited standards developing
+    organization. '
+  :post: |
+    The HL7 standard is often jokingly referred to as the “non-standard standard.” This is not very fair but it does reflect the fact that almost every hospital, clinic, imaging center, lab, and care facility is “special” in terms of how it implements HL7 (really?, why?). The reason is primarily because there is no such thing as a standard business or clinical process for interacting with patients, clinical data, or related personnel.
+
+    The HL7 messaging protocol was designed to facilitate high volumes of pre-defined data to be shared across many applications reliably. The protocol selected to make this happen was a traditional file transfer or a TCP/IP **socket** in both a real-time and batched fashion. HL7 v2 message structure is complex, flat, and delimited. HL7 has obviously evolved over time. The current version of HL7 is v3, however, older versions exist and make up the bulk of the standard used today primarily because of the large number customizations that have been done to each HL7 message.
+
+    #### The key differences between an HL7 v2 and HL7 v3 message are as follows:
+
+    1. v2.x was primarily meant for clinical communications - medical orders, patient registration etc. whereas v3.x has additional features for use by informaticists and for government reporting requirements.
+    2. v2.x was a custom format (barebones text - all coded and separated by a pipe with headers and multiple segments etc.) v2.x looks like this:
+
+    ![academy-hl7protocol](//images.contentful.com/189dvqdsjh46/612KI64BeokOUW82m0w0oc/f4b03fd55891221f038ed0e8ad1c1521/academy-hl7protocol.png)
+
+    whereas an HL7 v3.0 message is an XML format (I'm not sure if that's an improvement) - very verbose and detailed - like this:
+
+    ![academy-hl7syntax](//images.contentful.com/189dvqdsjh46/Ea7Dy1f3CCGWM4uWEwsWK/7ac35d657e029cf8c71aa8dfaa33bef1/academy-hl7syntax.png)
+
+    3. All v2.x formats are backward compatible. v3.x is a wholly separate format and not backwards compatible.
+
+    Any technology solution in healthcare has to support both v2.x and v3.x formats. Open source parsing solutions exist to help with processing HL7 (see section below on Parsing HL7 messages). However, in this author's humble opinion, the 3.x standards are unlikely to be implemented given the investments already made in the 2.x versions. The [FHIR](http://hl7.org/implement/standards/FHIR-Develop/) standards, which are still under active development, are more likely to be implemented rather than the v3.0 standards. See this Figure for some data supporting this hypothesis. (source: Corepoint)
+
+    ![academy-figure1](//images.contentful.com/189dvqdsjh46/2CnbugFEHqQ0SWymeeEWGK/33f4cac50b16d3845ddaf11f32d0a36c/academy-figure1.png)
+
+    ### Customization
+
+    Every conversation that you've ever overheard about HL7 usually includes customizations to be accounted for and associated implementation costs. When I was starting in this space, I heard the same things but wasn't really sure what it meant.
+
+    So here's a summary of what I've learned. I will caveat this by saying that I am not an HL7 expert - there are folks out there who have much more extensive experience than I do; [Keith Boone](http://motorcycleguy.blogspot.com/) for one, whose blog is worth subscribing to if you have any interest in healthcare standards for one. Given that I'm not an expert, if you see any errors in this document, please let me know (and also let us know if you're looking for an interesting change in [careers](mailto:jobs@catalyze.io)).
+
+    More about custom formats... HL7 messages are indeed customized but this does not imply, as an example, that every ADT (admission, discharge, transfer) message is different between different hospitals; ADT is ubiquitous so it's an HL7 message type you should know. Customization came about when certain message types, like ADT, could not support sending all the data elements that needed to be sent. For example, a message might be able to handle only 50 data elements but an EKG reading might need to send over 200. The extra data elements were then sent over using the notorious Z segment - a miscellaneous segment into which pretty much any key value pair could be jammed in. This custom blob of data in the Z segment would then need to be parsed and mapped etc. for automated processing and use, creating impressive levels of customization in data exchange.
+
+    Before you get too excited, the true customization comes in the form of the content of the HL7 message. The HL7 organization has defined code sets to be used to translate the terse codes sent over within the HL7 message. See [here](https://www.impactportal.info/emrCodeSet.asp?SID=4) for a listing of some v2.3 code sets or [here](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) for a more comprehensive listing from the "horse's mouth." The purpose of the code sets, as you can imagine, is to codify the content to reduce the size of the message. ANT, as an example, stands for Anterior in the context of body sites and so on. And, by the way, these code sets for HL7 have also evolved / been added to / modified with each version of HL7. However, these code sets, which are released and maintained as part of the standard, aren't often adhered to. EHRs (usually) and hospitals have defined their own code sets. So the content sent over within the HL7 message needs to be "looked up" against that specific code set before it can be made useful. An Epic code set is unique (although common across Epic deployments) and different from an AllScripts code set. This is the uniqueness that must be addressed by any solution in this space and the reason why HL7 implementations can sometimes be expensive - they need to take into account not only the Z segments and map them to the appropriate data models but the code sets have to be taken into account as well.
+
+    So, in practice, HL7 can be perhaps best described as a messaging protocol and format standard in most implementations rather than as a comprehensive messaging standard.
+
+    ### HL7 Message Types (most common)
+
+    There are more than 80 message types, a whole host of segments and codes for pretty much anything you can think of. See [this](http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf) document for a pretty comprehensive listing. But the following are the most common HL7 message types:
+
+    |Message Name|Description|
+    |------------|-----------|
+    |ACK|General acknowledgement message. This is the ack sent when a message is received by the destination system. ACKs are automated responses. However, you could use ACKs as a way to modulate the speed at which messages come through as the sending system will not send the next message until the ACK is received|
+    |ADT|Admission, Discharge and Transfer message. Created whenever a patient goes through any of those states. There are a whole list of these possible states. See below for a sampling of a few more|
+    |ORM|Pharmacy/treatment order message|
+    |ORU|Observation message (unsolicited). Unsolicited because the destination systems are not asking for it, it is fired off and the source systems will take it in and process it if needed or discard it if not.|
+    |BAR|Add or change the billing account.|
+    |SIU|Schedule information (unsolicited) usually patient specific. This is used to create, modify and delete patient appointments and other schedules.|
+    |MDM|Medical document management. This often acts as a workhorse. It is meant to handle documents like notes, reports etc. But often is used to capture a whole host of other data for which there is no easy mapping. In which case, the incoming data gets converted into a PDF and pushed into the EHR via this MDM message|
+    |DFT|Detailed financial transactions. This data is used to capture the details of procedures etc. so that claims can be generated.|
+    |MFN|Master files notification - changes to core data elements are sent through this.|
+    |QRY|Query - as the name implies is used to query source systems for data on things like patient demographics etc.|
+    |RAS|Pharmacy/treatment administration message|
+    |RDE|Pharmacy/treatment encoded order message|
+    |RGV|Pharmacy/treatment give message|
+
+    ​It should also be noted that each of these message types have different types (sub-types) as well. For example, there are 51 (yep, that's right) different types of ADT messages that are used for various trigger events. Some of the most commonly used ADT messages include:
+
+    - ADT-A01 – patient admit
+
+    - ADT-A02 – patient transfer
+
+    - ADT-A03 – patient discharge
+
+    - ADT-A04 – patient registration
+
+    - ADT-A05 – patient pre-admission
+
+    - ADT-A08 – patient information update
+
+    - ADT-A11 – cancel patient admit
+
+    - ADT-A12 – cancel patient transfer
+
+    - ADT-A13 – cancel patient discharge
+
+    The important thing to remember is that the content of the message doesn't change all that much between all these sub-types. The message is still about the specific patient (PID segment - see segment section below).
+
+    ### HL7 Segments
+
+    A segment is a group of fields that then contain different types of data. Each segment exists independently and can be utilized in multiple messages, in different sequences. Segments may be required for a particular message or in other cases, they may be optional.
+
+    A unique three-character code called the "Segment ID" identifies each segment. Segment ID codes beginning with the letter Z are reserved for the "custom" Z-segments (key value pairs) that are not part of the HL7 standard.
+
+    You can remove one or more segments from a message if desired. But because HL7 rules state that unexpected or unused segments should be ignored, most systems will ignore the unexpected segments without issue (therefore, manually removing these segments is unnecessary). Segments should be removed only if one of the receiving systems will not have problems when unexpected segments are received.
+
+    These are the most common segment types that will be used across multiple message types.
+
+    |Segment Name|Description|
+    |------------|-----------|
+    |DG1|Diagnosis|
+    |EVN|Event type|
+    |GT1|Guarantor|
+    |IN1|>Insurance|
+    |MSH|Message header|
+    |NTE|Notes and comments|
+    |OBRI|Observation Request|
+    |OBXI|Observation Result|
+    |ORCI|Common Order|
+    |PID|Patient Identification|
+    |FT1|For DFT messages - Financial transactions|
+
+    At a high level, that's HL7. Look for further articles delving into more details on HL7 message structures and the common message types.
+
+    If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+  :featured_image:
+    :id: 4ggNbm9G64M8es2wW2qWGO
+  :related_entries:
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+- :id: AvBgV9bjDEiuCC4o4EsuW
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-10-02T19:32:43+00:00'
+    :created_at: '2017-01-16T17:41:32+00:00'
+    :id: AvBgV9bjDEiuCC4o4EsuW
+  :title: HL7 102 - Anatomy of an HL7 message
+  :slug: hl7-102-anatomy-of-an-hl7-message
+  :pub_date: !ruby/object:DateTime 2018-03-14 00:00:00.000000000 Z
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :tags:
+  - :id: 659zjsWqC4CqqmMgASc46a
+  :summary: This deep dive explains HL7 message types, message structure, message
+    segments, codes, fields and the complete anatomy of an HL7 message.
+  :post: |
+    In the [previous entry](/academy/hl7-101-a-primer/), we gave you a quick introduction to HL7 and its design - message types, segments and code sets. What I've come to also appreciate as I delved deeper into HL7 is that for all its perceived faults, it has more than served its purpose of standardization of communication of clinical and administrative data amongst disparate applications.
+
+    One can argue about problems arising because of the lack of standardization of code sets and cross-enterprise communication, but one also has to appreciate that this standard is a couple of decades old when inter-enterprise communication was not something at the top of anyone's mind. Heck, EHR implementations were rare too. Expecting HL7, which was designed and developed by consensus to address something far more tactical, to also  address the challenges of comprehensive interoperability, is asking a lot of HL7.
+
+    With that said, in this post, we'll delve deeper into HL7 so that you can better understand how an HL7 message is constructed.
+
+    ### The overall structure of an HL7 message
+
+    Think of an HL7 message as an envelope. It contains various segments (pieces of data) which are (usually) patient oriented and triggered based on specific events (admits, lab results, procedures, discharge etc.) and communicate relevant information about that triggered event.
+
+    There are a lot of message types - 76 in v2.3 and 85 in v2.3.1 and even more now. The key ones to remember were also listed in my [previous entry](/academy/hl7-101-a-primer/). An HL7 message is constructed with:
+
+    - **One or more segments**: Segments are re-usable sub-parts of a message which contain the pertinent information related to that message type. So for example, an Admit message would contain information on the patient and her demographics, the reason for admission, the attending physician who signed off on the admit etc. And as you can imagine, patient demographics is reused in a lot of places and is a segment. There are a lot of segments (101 in v2.3 and 111 in v2.3.1) to cover almost any use case you can think of - from financial transactions (DFT) to Bed Status Updates (NPU).
+
+    - **Fields & Code sets**: Each segment consists of one or more fields of data. Since the message needs to be as short as possible, the fields are encoded using standardized codes (provided by HL7 or other bodies) or user defined (ideally only if HL7 doesn't recommend any or you need to communicate more than permitted). Message Header becomes MSH, patient demographics becomes PD1 and Male becomes M. There are lot of additional codes to cover all the various kinds of information that need to be communicated - 1691 codes in v2.3 not including any user defined codes.
+
+    - and **Control characters**: These are the ASCII characters used to separate data elements (|), indicate spaces or new lines (^) and the beginning of the next segment (the CR or carriage return). These are a subset of the control characters but some of the more important ones.
+
+    In order to ensure that the receiving system knows how to parse the incoming message, some rules are laid down in that define
+
+    - **For each message**, the required or optional segments and the number of times a segment could be repeated within. An example from the HL7 v2.3 standard is shown below. (image: samplehl7.png) (*source - HL7 v2.3 implementation guide*)
+
+    - **For each segment**, the sequence (SEQ) in which fields are expected, their length (LEN), the data types (DT), if the fields are required or optional (R/O), if they are repeatable or not and how many times can they be repeated (RP/#) and the table in which the code sets are defined. This is a "mapping table." An example of which is shown below. (image: hl7chart.png) (*source - HL7 v2.3 implementation guide*).
+
+    Both of these rules are used for validation of any inbound message but the code sets are not. You can now see how the HL7 standard could be bastardized:
+
+    - Code set doesn't cover all my needs: So you add one more to the list that HL7 provides. Now your HL7 standard is not quite a standard and cannot be shared with another entity unless they implement your code set as well
+
+    - Field repetitions allowed is insufficient: I want to send an EKG reading but the standard only allows for 50 repetitions of key value pairs. So I dump the rest into the Z segment and shoot it over that way. Now your HL7 message can be processed by any engine **but** the content inside the Z segment now has to be parsed and managed separately.
+
+    A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+    - No brackets around it - **Required**
+    - [] - **Optional**
+    - { } - **Repeating**
+    - [{ }] - **Optional Repeating**
+
+    The ORM message structure is as follows.
+    ```
+    ORM     General Order Message
+    MSH     Message Header
+     [{NTE}]    Notes and Comments (for Header)
+    [
+       PID     Patient Identification
+       [PD1]    Additional Patient Identification
+          [{NTE}]  Notes and Comments (for Patient ID)
+       [PV1    Patient Visit
+        [PV2|]   Patient Visit Additional Information
+        [{IN1   Insurance
+          [IN2]   Insurance Additional Info
+       [IN3]   Insurance Additional Info
+        }]
+        [GT1]   Guarantor
+        [{AL1}]   Allergy
+      ]
+    ]
+     {
+       ORC    Common Order
+      [
+       Order Detail Segment OBR, etc.
+           [{NTE}]  Notes and Comments (for Detail)
+           [{DG1}]  Diagnosis
+           [
+            {
+             OBX   Observation/Result
+                  [{NTE}] Notes and Comments (for Results)
+             }
+           ]
+      ]
+      {[CTI]}   Clinical Trial Identification
+     [BLG]    Billing segment
+     }
+    ```
+
+
+    Hope that gave you a deeper insight into HL7. In the next post, we'll take an actual HL7 message - the ADT - and break it down to help you understand how it's constructed exactly.
+
+    If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 [here](https://datica.com/services/#integration).
+  :related_guide:
+    :id: wSUz5LDXA4Uu42OqwQ8AM
+  :related_entries:
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+- :id: 79e4rnBGHC2YgmKqu8QuwA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-12T19:29:59+00:00'
+    :created_at: '2017-09-05T20:48:13+00:00'
+    :id: 79e4rnBGHC2YgmKqu8QuwA
+  :title: If It's Possible, We Can Integrate It
+  :slug: if-its-possible-we-can-integrate-it
+  :pub_date: !ruby/object:DateTime 2017-09-05 00:00:00.000000000 Z
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: There's much a digital health company needs to know about EHR integrations.
+    Here are 4 essential questions digital health teams should ask their customers.
+  :blog_lead: 'During the past three years, we''ve done [a lot of integration work](https://datica.com/platform/success/).
+    We''ve worked on more than 150 integration projects with almost 30 EHR vendors.
+    We''ve done this work with big organizations and vendors to small FQHCs and niche
+    EHR vendors. As a result of all this integration experience, we now have a pretty
+    good grasp on the intricacies of how integration works. We can reasonably estimate
+    how long it takes us to do a project and how that varies with different types
+    of vendors. '
+  :post: "> What you must learn is that these rules are no different than rules of
+    a computer system. Some of them can be bent, others can be broken.\" -- Morpheus,
+    The Matrix\n\nHowever, despite our progress, there are still hundreds of systems
+    that we have not integrated with. In the ambulatory setting alone, there are more
+    than 650 technologies certified for Meaningful Use Stage 2. While working with
+    the top 30 already gives us a leg up and covers a majority of the industry, it's
+    not uncommon for us to hear about a new piece of HIT technology that our customers
+    and prospects are looking to integrate with. \n\nDespite your perceptions of us
+    as an integration services team, we don't have any secret super powers to solve
+    problems with interoperability. Our solution, as simple as it may sound, is just
+    being the best at our specialized skill set as we can be. This means:\n\n- Writing
+    interfaces and transforming data to programmer-friendly formats using Mirth, an
+    open-source interface engine. \n- Setting up VPNs when needed on open-source Strongswan
+    appliances.\n- Having a team of experts in health data and project management
+    on hand to analyze project needs. \n- Everything hosted on the HITRUST-certified
+    Datica Platform, staffed by a team of ops, security, and compliance experts. \n\nWhile
+    we may know about obscure technologies that power integrations at a given EHR
+    vendor, our process is likely similar to anyone else's when kicking off a project.
+    As such, it's worth noting that **some projects may be impossible to complete**
+    due to external constraints. Turns out that data blocking in healthcare is really
+    a thing. So, if Datica is not helping you in your pre-sales process with customers,
+    it's up to you to ask all the necessary questions to ensure that you will be able
+    to successfully integrate your application with the EHR and site in question.
+    \n\n## Four essential questions digital health teams should ask their customers\n\n###
+    1) Can your EHR support my digital health product's scope?\n\n<img src=\"https://imgs.xkcd.com/comics/tasks.png\"
+    alt=\"XKCD comic on complexity\" class=\"float-right-on-medium\">\n\nThe most
+    common data integration formats we use to exchange health data are [HL7v2](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)
+    and CDA-formatted documents like CCDs and CCDAs. Even though these data formats
+    are standards, this doesn't mean all EHRs support exchanging data through these
+    formats. In fact, some EHRs have no integration capabilities at all. Make sure
+    the EHR supports the data standards that you need. Particularly, make sure the
+    EHR supports the data standards in the method you need them. For example, if you
+    need CCDs *pushed* to you at the end of a visit vs. *pulling* them proactively,
+    you will want to ensure the EHR has the capability to manage that process. There
+    is a very real possibility here that the EHR may have no suitable integration
+    technology, which may limit your data integration possibilities to flat-file style
+    extracts or may require manual data entry to power your application.\n\nIt's worth
+    noting that there are some integrations [that seem simple but are really complex](https://xkcd.com/1425/).
+    For example, while it would seem obvious that any EHR could expose provider availability
+    to schedule appointments, this is actually rare functionality. It's *easy* to
+    know what appointments are scheduled/canceled but it's *hard* to know when you
+    can schedule an appointment. Just because there are no appointments from 12:00-2:00
+    doesn't mean the provider isn't doing hospital rounds or research. As such, what
+    may have been an easy API query on Allscripts, Epic, and Athena turns into a nightmare
+    of stored procedure R&D and database access requirements with smaller EHRs. This
+    is why it's good to have experts on hand to help you understand the rules of the
+    road and to match integration expectations to reality. \n\n\n### 2) Do you have
+    the internal or external resources to perform the integration work?\n\nSmaller
+    organizations may have an EHR with HL7, CDA, or API integration capabilities,
+    however, they might not have the personnel to configure their instance to do that
+    integration. It's not uncommon to find a nurse or clinic administrator who is
+    also the EHR administrator. While they may be able to manage their provider's
+    schedules or handle some claims, setting up an interface or API may be foreign
+    to them. This can be a blocker for a project. \n\nDatica cannot directly assist
+    with a backend EHR build. This is usually for one of these reasons:\n\n- The EHR
+    vendor would require us to sign an agreement that had some kind of non-compete
+    clause to it. \n- The EHR vendor will not grant us access to their systems. \n-
+    We simply lack the expertise in 650 EHRs. \n\nAs such, if the organization needs
+    assistance with an internal EHR build, it's out of the scope of our standard integration
+    services. While we may be able to refer the organization to other consultants
+    or vendors who can assist with this EHR build, additional scope and cost considerations
+    would be included.\n\n### 3) Can you commit to getting work done within reasonable
+    timelines?\n\nThe top KPI for a fast, successful installation is an agreed upon
+    project plan with assigned task owners and due dates. At larger orgs, the only
+    task owners are typically the EHR integrators (Datica) and organizational IT.
+    However, in some integrations, there may be dependencies on vendors to perform
+    some pieces of setup. This is particularly true if the org is not licensed for
+    a given interface yet or if the EHR vendor hosts the organization's EHR instance.
+    \n\nNot to sell you a horror story but, sometimes, these timelines can be brutal.
+    While many projects go live within a month of kickoff, we've also seen projects
+    span a year due to EHR vendors dragging their feet on either contracting or infrastructure
+    deployments. Other than badgering effectively, unless your customer's organization
+    can push their EHR vendor to move faster, it's hard to make the process any faster
+    than it is. If your integrated product must be live by a certain point to reach
+    contractual obligations to your customer, make sure your customer has the means
+    to get that system live by that point. \n\n### 4) Who will validate clinical content
+    and logic facilitated through integrations?\n\nYour application may want to segment
+    patients based on certain clinical attributes sent in the payload of the HL7 or
+    CDA message. For example, you may want your application to send an alert when
+    a patient with diabetes is admitted to the hospital. The question, of course,
+    is how do you define patients with diabetes? Will they be manually defined by
+    clinicians or will you be trying to define them by diagnoses from the admission,
+    in their problem list, or by other clinical attributes like High A1C or being
+    prescribed insulin?\n\nWhile we can apply some logic to segment patients in our
+    interface engine, we do not have clinical informaticists on hand to dictate or
+    validate logic that we would create at your behest. The integration engine may
+    not be the best place to have that application logic and you may consider those
+    mappings and analysis to be IP of your company. You may decide that an organization
+    purchasing your digital health product can validate your clinical content (Epic
+    did this) or we are happy to refer you to informatics consultants who are qualified
+    to assist you.\n\n## Evaluate the Integration's TCO\n\nWith these additional parameters,
+    you may want to re-evaluate the [cost to integrate](https://datica.com/guide/total-cost-of-ownership-of-integrations/)
+    your digital health product. If you need to hire a niche EHR consultant to build
+    an interface on the EHR itself and it costs $5k, can you pass that along to your
+    customer or extract that value within your product? If not, you may debate the
+    merits of deploying your product in a standalone fashion or adjusting the terms
+    of your deal for your customer. If you're new to this, we can help. All [Datica
+    Platform](https://datica.com/platform/) customers can engage with Datica for pre-sales
+    support to define implementation strategies and to determine feasibility and ease
+    of integration at a given site. \n"
+  :featured_image:
+    :id: 3A5PaEiOYgA6cOO8gA8Ay4
+  :share_image:
+    :id: 4CZYOKYKlyyE6eOieO2o6w
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :related_entries:
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 2wDfIlF1QY2e6u88acqkMY
+  - :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 4AznnGBn9SEs6kAyyuCmIW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-12-06T21:05:25+00:00'
+    :created_at: '2017-11-16T17:05:36+00:00'
+    :id: 4AznnGBn9SEs6kAyyuCmIW
+  :title: Announcing one-click installations of Mirth Connect and Open-Source Connectors
+  :slug: announcing-one-click-installations-of-mirth-connect-and-open-source
+  :pub_date: !ruby/object:DateTime 2017-11-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 1mTL8gkwl6Sae862SmQUsW
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 1bZjdJN72GiIWI4CeEQgmo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: platform
+  :author:
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :summary: Today we are launching one-click installations of Mirth Connect combined
+    with Open-Source Connectors for the Datica Platform.
+  :blog_lead: Today we are launching one-click installations of [Mirth Connect](https://www.mirth.com/)
+    combined with Open-Source Connectors. It is the next evolution of how we help
+    solve the problem of healthcare data integration. The switch to a more open solution
+    is a testament to our enduring commitment to helping customers with integration
+    in the best way possible.
+  :post: "> Healthcare developers can get started on new projects faster, and benefit
+    from three years of learning. We aim to empower the developer community to solve
+    the problem of integration themselves with tools that are open, reliable, compliant,
+    and secure.\n\nThe launch is based on consistent feedback that customers need
+    more flexibility, more control over their integration environments, better pricing
+    at scale, and future-proofing for things like [FHIR](/academy/introduction-to-fhir/)
+    and the Epic App Orchard and Cerner Code.\n\nDatica has been doing healthcare
+    integration since October 2014, going through a [few iterations in pricing and
+    packaging](/blog/announcing-self-service-and-free-trials/). Regardless of the
+    iteration, our pragmatic, partnership approach remained consistent and accomplished
+    a lot. In three years we built a team of experts to deliver on integrations and
+    delivered over 150 live integrations into healthcare organizations, with many
+    more in process. Historically it was a SaaS-based pricing model where customers
+    paid a fixed fee per month per interface, per site or even an annual license to
+    purchase site-based delivery. We did integration work in every major vertical:
+    vendors, life sciences, healthcare organizations, and payers.\n\nTimes have changed
+    since 2014 in the integration world. The cloud has gone from a taboo term in digital
+    health to the default place to build 99% of new healthcare applications. FHIR
+    has gone from a glimmer in [Grahame Grieve's](/innovation/grahame-grieve-pt1/)
+    eye into an API platform that will soon be made available from most of the big
+    EHRs. A new wave of digital health developers believe in openness first, even
+    at hospitals as they look to commercialize IP in a digital format. There was no
+    way to predict this would happen so fast (at least in healthcare, three years
+    seems fast) but we are here now.\n\nOver the last three years, we learned the
+    best way to help our customers was to teach them this point: there is no silver
+    bullet to integration **but it is a problem you can solve with the right tools**.
+    \n\nThat's why we are releasing the ability to deploy Mirth Connect with \"one-click\"
+    into your [Datica environment](/platform/). You gain the expertise we've built
+    on running reliable and available integration capabilities in one-click, deployed
+    directly into your compliant environment on the Datica platform. Mirth, which
+    is an open-source platform itself, is a great tool for software developers to
+    use for integration. This is why we've written up documentation based on the hundreds
+    of integrations that we've done which can teach you quickly how to [get started
+    on using Mirth](https://datica.zendesk.com/hc/en-us/sections/115001535023-Mirth-Getting-Started).\n\n##
+    Open-Source Mirth Connectors\n\nWe also [open-sourced our code](https://github.com/daticahealth/Mirth-Transforms)
+    for transforming data from HL7 to JSON. This is a major evolution for digital
+    health teams. We do not believe in locking customers into proprietary APIs, so
+    we have published everything we've learned at the transformation layer, with many
+    more scripts to come. It's all in an effort to help you gain more transparency
+    and confidence with [EHR integration](/discover/ehr-integrations/).\n\nThese connectors
+    are a series of libraries that can be plugged into your Mirth Connect environment
+    which immediately enable HL7 feeds for consumption by a restful API. We will be
+    continuing to open-source content as we create it, including transformers to other
+    data types like those for [Open mHealth](http://www.openmhealth.org/) and [Office
+    365 Cards](https://docs.microsoft.com/en-us/outlook/actionable-messages/actionable-messages-via-connectors).
+    The only major limitations behind what we aim to open-source will be transforms
+    which are based on vendor-specific connections or data models which we can't expose
+    due to legal reasons (e.g. Epic Interconnect XML data models).\n\n## Integration
+    Environment Details\n\nTake note: the integration environment is much more than
+    just Mirth. Each environment has a bundle of tools important to successful integration:\n\n*
+    Highly Available (HA) configuration of Mirth instances. HA operations of Mirth
+    are not trivial. We make it easy, instantly.\n* HA configuration of Postgres.
+    A supplemental database is important for initial message ingestion, and must support
+    a similar HA nature for continuous connection.\n* Load balancers.\n* Network monitoring
+    and usage alerts. Understanding the traffic usage is important for audit purposes.
+    Additional alerting is important for ongoing management of a connection.\n* VPN
+    Management. Remember, you do not integrate with Epic, you integrate with a specific
+    site's version of Epic. Therefore you'll need a VPN for every integration you
+    plan to make. Our VPN tooling makes it easy, combined with our expertise in how
+    to ensure they stay connected 24/7.\n\nThe integration environment is available
+    in both the [Standard and Professional plans](/pricing). The environment is not
+    available for free trials (yet), but will be soon. Along with this update, we
+    have now made VPN management available in the Standard plan as well, so people
+    can get started with EHR integration for as low as $1,150/mo.\n\nWe're often asked
+    how much throughput a typical environment can handle. The answer is _a lot_. A
+    single environment with no modifications can handle as many as fifty site integrations.
+    If customers need to scale throughput, they simply scale RAM. If you have any
+    additional questions, [please reach out](/services/#cta). We're happy to chat.\n\n##
+    Pricing Updates\n\nOne thing you may notice is that we do not bundle the integration
+    environment with professional services under the name of \"Managed Integration\"
+    anymore.\n\nOur customers that have greater challenges or unique needs can now
+    purchase both separately since services are now optional.\n\nThis means digital
+    health teams can get all the integration tooling they need — along with HITRUST
+    CSF Certified, HIPAA compliant, secure infrastructure housed under one [Business
+    Associate Agreement](/blog/3-common-misconceptions-about-business-associate-agreements/)
+    — for as little as $1,150/mo.\n\nThe other exciting news about Datica's pricing
+    is that this scales much better for you. It's pricing that is truly aligned with
+    your success.\n\n## The Future of Integration Is Open\n\nThis is a shift in how
+    we offer integration because it better aligns with the needs of digital health
+    companies. You want open standards, you want ease of use, you want compliance
+    and security, but most importantly, you want successful EHR integrations. This
+    new option gives that to you with a single click.\n\nHealthcare developers can
+    get started on new projects faster, and benefit from three years of learning.
+    We aim to empower the developer community to solve the problem of integration
+    themselves with tools that are open, reliable, compliant, and secure.\n\nFor moments
+    where projects seem too difficult, [our integration services team](/services)
+    will be ready to jump in and help you with that lift. We see a world in which
+    all of our customers can eventually own their own integrations and we want to
+    provide the easiest path for customers to be able to manage that themselves. [Reach
+    out](/services/#cta) if you have any questions, we'd love to help you out.\n"
+  :featured_image:
+    :id: 6JRShb9r5S2kgakoeM0EME
+  :share_image:
+    :id: 5XLvUOemeAIQyEMss2uW6I
+  :cta_ref:
+    :id: 4Mf4oAJ8sw6m0mokOOa0Ki
+  :related_entries:
+  - :id: 5bNAt4KTPq0KAmsiG0cAuq
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 20lgM36LfqK0SM8MyY2WGs
+  - :id: 6CB2jwUkdaQ2aUG884qQSS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi

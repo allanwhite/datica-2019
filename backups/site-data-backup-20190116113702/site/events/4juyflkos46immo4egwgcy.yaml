@@ -1,0 +1,64 @@
+---
+:id: 4jUyflKOS46IMmo4EGwGcy
+:_meta:
+  :content_type_id: events
+  :updated_at: '2018-09-26T21:44:10+00:00'
+  :created_at: '2018-09-04T20:43:57+00:00'
+  :id: 4jUyflKOS46IMmo4EGwGcy
+:title: Microsoft Ignite 2018
+:slug: microsoft-ignite-2018
+:date_start: !ruby/object:DateTime 2018-09-24 00:00:00.000000000 -07:00
+:date_end: !ruby/object:DateTime 2018-09-28 00:00:00.000000000 -07:00
+:event_tags:
+- Conferences
+- Presentations
+:is_featured: true
+:event_logo:
+  :title: microsoft-logo
+  :description: 
+  :url: "//assets.ctfassets.net/189dvqdsjh46/6HYE5WvNZKccm6Mg44UeW0/4b8784cb233b5de50b70a333b46b4280/microsoft-logo.svg"
+  :_meta:
+    :updated_at: '2017-01-14T21:15:40+00:00'
+    :created_at: '2017-01-14T21:15:40+00:00'
+    :id: 6HYE5WvNZKccm6Mg44UeW0
+:summary: Datica's integration tooling that bridges Microsoft Teams with EHRs and
+  works within the bot framework of Teams will be highlighted at Microsoft Ignite
+  2018.
+:event_desc: This annual sold-out Microsoft conference is the place to learn insights
+  and skills from technology leaders and practitioners shaping the future of cloud,
+  data, business intelligence, teamwork, and productivity. On Thursday, September
+  27th, Mark Olschesky, Chief Data Officer, highlights Datica's integration tooling
+  that bridges Microsoft Teams with EHRs and works within the bot framework of Teams.
+  Join Mark's demonstration during the session titled, ["Creating compliant industry
+  solutions on the Microsoft 365 platform."](https://myignite.techcommunity.microsoft.com/sessions/66040)
+:event_related_people:
+- :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T21:24:59+00:00'
+    :created_at: '2016-08-13T01:51:20+00:00'
+    :id: 5dsPZqJr4Qu2uww6KgYO0G
+  :fullname: Mark Olschesky
+  :slug: mark
+  :person_type: Datica Executives
+  :sort_weight: 3
+  :role: Chief Data Officer
+  :profile_pic:
+    :id: 1DcjPMt1TKSgkIgMaYw2oy
+  :featured_image:
+    :id: 6f1cqaGPGoU4Y6MgGCawgU
+  :email: mark@datica.com
+  :bio_short: Mark joined Datica to help bring healthcare forward into the new era
+    of value-based care. He believes in the value of openness and transparency, but
+    the importance of privacy and security.
+  :bio: |-
+    Since March 2015, Mark Olschesky has served as Chief Data Officer. Before joining Datica, Mark led clinical implementation teams at Epic Systems. During his time at Epic, Mark specialized in cross-application workflows, clinical workflow optimization and healthcare application security. He has since applied his skills to improving patient portal implementations at MEDSEEK (now Influence Health) and building tools for Safety Net communities at Moxe Health, where he was a Rock Health v4 Alumnus.
+
+    He has previously won awards for healthcare application design from Microsoft, Allscripts, UCSF and Twilio. He is a an active Open Source Health Data enthusiast and contributor. Mark graduated Magna Cum Laude from Dickinson College in 2006.
+
+    You can find Mark contributing to the healthcare IT community by his involvement with data standard organizations or digital health ecosystems. Mark has presented leading keynotes as several conferences and events related to data exchange, including regularly participating as a presenter in HL7 FHIR Roundtables. [His thoughts on FHIR](https://datica.com/blog/fhir-is-no-longer-just-a-concept/), data standards, or other digital health considerations can be found on the Datica blog.
+  :profile_twitter: markolschesky
+  :profile_linkedin: markolschesky
+  :location:
+    :lat: 43.0730517
+    :lon: -89.40123019999999

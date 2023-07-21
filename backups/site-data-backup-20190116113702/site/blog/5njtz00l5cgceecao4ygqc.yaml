@@ -1,0 +1,105 @@
+---
+:id: 5Njtz00l5CgCeeCao4YgqC
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-05-31T00:27:42+00:00'
+  :created_at: '2016-11-23T21:57:54+00:00'
+  :id: 5Njtz00l5CgCeeCao4YgqC
+:title: How we process over 6,000,000 (and growing) HL7 messages a month
+:slug: how-we-process-over-6-000-000-and-growing-hl7-messages-a-month
+:pub_date: !ruby/object:DateTime 2015-05-04 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 4WpqU1En6MsqmCEWweeCmO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:23:44+00:00'
+    :created_at: '2016-09-29T19:23:44+00:00'
+    :id: 4WpqU1En6MsqmCEWweeCmO
+  :tag_full: FHIR
+  :slug: fhir
+  :description: FHIR is the latest standard to be developed under the HL7 organization.
+    Pronounced 'Fire' , FHIR stands for Fast Healthcare Interoperability Resources.
+    I think it's the most interesting standard to have come out of HL7 since the original
+    HL7 protocol.
+  :url: https://www.hl7.org/fhir/
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: In a short period of time, Datica has hit several major milestones. As of
+  May 2015, we are excited to share that we are processing over 6 million HL7 messages
+  per month, with those numbers growing every day.
+:blog_lead: |
+  Integration is a buzzword in healthcare, and for good reason.
+
+  As the healthcare industry transforms from the traditional model of volume-based care to new models of value-based care, there is heightened interest in patient outcomes, patient engagement in decision making, and patient satisfaction. Executives know aggressive inclusion of novel third party tools that solve real problems is paramount to meeting new metrics. Integrating several third party vendors is hard enough, while scaling a sea change is untenable. No one wants to do inefficient one-offs until the end of time.
+:post: |
+  Increasingly health systems and vendors are partnering with Datica to [accelerate third party integration](https://catalyze.io/hl7). Hospitals get an ROI from the streamlined workflows while vendors, like [HealthLoop](https://catalyze.io/proof), appreciate offloading this unique expertise. The end result is faster, reliable integration on compliant infrastructure. Major cost savings are instantly realized by all parties involved.
+
+  In a short period of time, Datica has hit several major milestones. Today, we are excited to share that we are processing over 6 million HL7 messages per month, with those numbers growing every day. This is a testament to the trust health systems and vendors are both putting in our approach to compliance, and our dedication to the highest quality service.
+
+  We reached this milestone by expediting integrations with most of the common HL7 interfaces we all know and love, including...
+
+  * Inbound and Outbound Registration (ADT)
+  * Scheduling (SIU)
+  * Orders and Results (ORM/ORU)
+  * Notes (MDM)
+  * Discrete Data (ORU)
+  * Continuity of Care Documents (CCD) through IHE standard queries
+
+  ...plus FHIR, ASC X12 feeds for Claims, and a multitude of suboptimal data access methods like CSV files that still proliferate data integration in 2015.
+
+  Our customers' business opportunities have driven us to integrating with over 60% of the EHR market, including Epic, Cerner, McKesson, eClinicalWorks, Allscripts—just to name a few.
+
+  Over the next several months we will be sharing with you specific integration stories from real customers, outlining the clear benefits, in the words of our customers, of leveraging Datica for integration. Datica is committed to the future of healthcare, so we are excited to share genuine examples of bettering patient care.
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

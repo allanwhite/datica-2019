@@ -1,0 +1,113 @@
+---
+:id: 7vwCDitsvmeosOuQ4WsIW6
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T22:19:27+00:00'
+  :created_at: '2016-11-23T22:19:27+00:00'
+  :id: 7vwCDitsvmeosOuQ4WsIW6
+:title: Avoid Inaccurately Matching Patients’ Health Records
+:slug: avoid-inaccurately-matching-patients-health-records
+:pub_date: !ruby/object:DateTime 2015-12-09 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+:categories_blog: company
+:author:
+  :id: 6NxyE8vlfOqMOkkGsCSusA
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-06-01T22:09:06+00:00'
+    :created_at: '2016-08-15T23:59:46+00:00'
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :fullname: Marcia Noyes
+  :slug: marcia-noyes
+  :person_type: Datica Alumni
+  :sort_weight: 8
+  :role: Director of Communications
+  :profile_pic:
+    :id: FV6bMibcoS6KucswgSCec
+  :email: marcia@datica.com
+  :bio_short: In her role at Datica, Marcia drives external communication strategy
+    in projects as diverse as conferences, public relations, customer-driven content,
+    and the Healthcare Innovation Series.
+  :bio: Marcia has more than seven years experience directing national and international
+    public relations efforts and was the initial PR Director for the healthcare startup
+    iTriage (an Aetna aquisition). She has worked in the Mass Communication field
+    for decades as a television reporter, magazine writer and newspaper journalist.
+    She holds a B.S. in Mass Communications from Lamar University.
+  :profile_twitter: marcianoyes
+  :profile_linkedin: marciahornnoyes
+  :location:
+    :lat: 39.7541032
+    :lon: -105.00022419999999
+:summary: Most people probably do not realize that traditional data management and
+  patient index tools only automatically match approximately 70 percent of records.
+:blog_lead: 'If you haven’t been following along on our blog, we have been taking
+  a dive into the Government Accountability Office’s (GAO) recently released report,
+  [Nonfederal Effort to Help Achieve Health Information Interoperability](http://www.gao.gov/assets/680/672585.pdf).
+  Specifically, we have been exploring the five barriers this report found to achieving
+  true nation-wide interoperability:
+
+'
+:post: "1. Insufficiencies in health data standards\r\n2. Variation in state privacy
+  rules\r\n3. Accurately matching patients’ health records\r\n4. Costs associated
+  with interoperability\r\n5. The need for governance and trust among entities\r\n\r\nFor
+  the fourth entry, we would like to explore the difficulties in accurately matching
+  patients’ health records. What most people probably do not realize is that traditional
+  data management and patient index tools only automatically match approximately 70
+  percent of records. The other 30 percent will fall into a queue of “potential matches”
+  – records that are similar but not exact so they cannot be considered non-matches.\r\n\r\nAs
+  is well known, the exchange of health data across care settings is a central and
+  necessary constituent of a patient-centric model of care that can improve quality
+  and reduce costs. So in order to do this, enablement of a clinician to view an encompassing
+  picture of the patient is required for efficiency and accurate matching of patient
+  health records across these care settings. On the flip side, incorrectly matching
+  a patient to a health record may have privacy and security implications, such as
+  wrongful disclosure, in addition to treatment based on another patient’s health
+  information.\r\n\r\n### Data standardization must be the solution!\r\n\r\nYes, possibly.
+  And no, probably.\r\n\r\nThe lack of standardization in the data attributes or fields
+  used for matching, increases error rates, as well as significant burdens and costs
+  within the health care systems. Standardization is one potential solution, as many
+  of the interoperability initiative representatives reported that when trying to
+  become interoperable with other entities, the process gets held up due to incongruence
+  in data sets and matching variables.\r\n\r\n### So what’s the alternative?\r\n\r\nA
+  few alternative solutions exist on the market. One of the more well-known comes
+  from a company called [Verato](http://www.verato.com/). This solution surpasses
+  traditional matching solutions. The company has created an innovative matching engine
+  that can match up to 98% of patient records by associating each patient record to
+  an identity in its proprietary reference database, trademarked as CARBON.\r\n\r\nKnow
+  of any other solutions on the market that can accurately match patient records?
+  We’d love to hear about them! [Tweet](https://twitter.com/catalyzeio) or [email](https://catalyze.io/blog/hello@catalyze.io)
+  us.\r\n\r\n### For further reading:\r\n\r\n1. [Why Interoperability?](https://catalyze.io/blog/why-interoperability)\r\n2.
+  [Need for Governance and Trust Among Entities](https://catalyze.io/blog/need-for-governance-and-trust-among-entities)\r\n3.
+  [Variation in State Privacy Laws](https://catalyze.io/blog/variation-in-state-privacy-laws)\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

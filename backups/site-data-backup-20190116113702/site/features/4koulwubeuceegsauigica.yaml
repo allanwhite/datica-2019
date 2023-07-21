@@ -1,0 +1,14 @@
+---
+:id: 4KOUlWUBeUCEEgSaUiGICA
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-29T22:13:55+00:00'
+  :created_at: '2018-07-29T22:13:55+00:00'
+  :id: 4KOUlWUBeUCEEgSaUiGICA
+:title: Networking
+:slug: networking
+:category: Core Compliance
+:feature_status: Current
+:summary: CKS is configured with flannel and `nginx-ingress` for encrypting network
+  traffic. These tools provide a mature, secure solution to networking with a healthy
+  community of supporters.

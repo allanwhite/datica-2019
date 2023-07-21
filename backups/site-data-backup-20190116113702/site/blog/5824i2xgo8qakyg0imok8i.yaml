@@ -1,0 +1,456 @@
+---
+:id: 5824I2xgo8qAkyg0IMoK8I
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-05-04T19:39:18+00:00'
+  :created_at: '2017-04-28T21:53:50+00:00'
+  :id: 5824I2xgo8qAkyg0IMoK8I
+:title: 6 Insights on Healthcare Innovation
+:slug: 6-insights-on-healthcare-innovation
+:pub_date: !ruby/object:DateTime 2017-04-28 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+:categories_blog: healthcare
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'These big ideas in healthcare innovation explore a lack of interoperability,
+  the role of EHRs, and how data standards like FHIR ignite transformation. '
+:blog_lead: "Connectedness is the final frontier for healthcare. In many ways, the
+  true breakthrough for innovation will come once interoperability becomes the default
+  instead of the barrier it has been for several decades. With that focus, we recently
+  compiled the six biggest ideas from the 2016 Datica Healthcare Innovation Series
+  into a [third annual report](https://datica.com/innovation/2016/). The report explores
+  the history behind the lack of interoperability, the role EHRs play, and what new
+  data standards, like FHIR, can do ignite true transformation. \n\nSince 2014, this
+  continuing [interview series](https://datica.com/innovation/) has sought to understand
+  how innovation happens in healthcare. Nine of the greatest minds in healthcare share
+  their insights about data standards and integration principles in the complete 2016
+  annual report. These six ideas are a summation of the thoughts in the report."
+:post: "## Six Big Ideas\n\n### 1. Innovation is a global endeavor. \n\n> “If you
+  talk only to yourself, you stay the way you are... If you talk only to others in
+  healthcare, you move with the pack... It’s only if you talk outside of your domain
+  that you can leap boundaries.” — Mark Smith, MD\n\nOne truth about new ideas is
+  they are typically the combination of existing ideas. Therefore the greatest innovations
+  are spurred by bumping together diverse thinkers with diverse backgrounds. The more
+  this happens, the higher probability true innovation will occur. The takeaway: global
+  minds, often outside of healthcare, are some of the best sources of healthcare innovation
+  at the national level.\n\n### 2. Part of the challenge of technology adoption is
+  due to the difficulty in understanding and absorbing the technology.\n\n> “When
+  I talk to implementors in the FHIR community about this, there’s this thing that
+  goes around about RESTful APIs — the 5-5-5 rule — 5 seconds to find the API, 5 minutes
+  to understand what it was doing and 5 hours to have something working. But to that
+  I add, 5 years to begin to understand healthcare.” — Grahame Grieve \n\nWhether
+  it’s the native complexity of the standard or the poor documentation that is behind
+  the times, traditional data standards have not been inviting to energetic entrepreneurial
+  problem solvers. The barrier to adoption is a subtle yet underrated consideration
+  when wondering why interoperability isn’t better than its current state. The good
+  news: FHIR tries to tackle this problem head on.\n\n### 3. The pace of FHIR adoption
+  has been insanely fast (by healthcare standards). \n> ”[FHIR has] reached a point
+  of adoption where there is enough critical mass to ensure that its APIs can be the
+  standard and the usefulness of the platform can be assured.” -Charles Jaffe, MD,
+  PhD\n\nHealthcare is rightfully skeptical of the hot newness. For decades it has
+  been told what new technology or process will save the day. While FHIR doesn’t solve
+  all the problems, there is an industry view that FHIR truly is a breakthrough moment
+  on interoperability. The data behind the swelling sentiment is the rate of adoption
+  across sub-domains, across vendors, and across use cases, as well as being embraced
+  by the government.\n\n### 4. More data is not necessarily the answer to innovation
+  because it’s often useless data. \n> “Doctors are rightfully skeptical in getting
+  all your Fitbit or whatnot data because it doesn’t fit the way we generally use
+  data.” -Ida Sim, MD, PhD\n\nThe unacceptable state of interoperability is often
+  viewed as the biggest blocker to innovation. Exchanging data really is the key to
+  the next healthcare transformation. Yet the other side of the coin—the deluge of
+  data that is exchanged but is actually relatively useless—can be just as much of
+  a depressant on innovation.\n\n### 5. The EHR must be a partner to the rest of healthcare.\n\n>
+  “The government has spent somewhere between twenty to thirty billion dollars on
+  EMR deployment and there is a little bit of embarrassment and concern why these
+  things aren’t interoperable.” -Dr. Mark Braunstein\n\nShared incentives have not
+  always been present for EHR vendors. While they have been the core driver in the
+  most important transformation so far—the digitization of health data—they have not
+  behaved in a way that contributes to increased interoperability and true innovation.
+  In their defense, it’s not necessarily their fault: the economic incentives have
+  not been present, and Meaningful Use didn’t enforce it. But that does not excuse
+  the growing sentiment that EHR vendors must embrace being at the forefront of the
+  next wave of transformation.\n\n### 6. Healthcare’s situations are unique.\n\n>
+  “The challenges that we face are always the ones that have confronted us in my three
+  plus decades for caring for patients—policy.” -Charles Jaffe, MD, PhD\n\nThis is
+  not a ground-breaking thought: healthcare is unique from every other industry in
+  the economy because of its combination of regulatory, economic, political, security,
+  privacy, and complexity pressures—not to mention we are dealing with people’s lives,
+  not tweets. But, it is important to be reminded that these situations exist, and
+  healthcare innovation is predicated on managing the uniqueness up front.\n\nWe invite
+  you to read the complete report for many more great insights on innovation."
+:featured_image:
+  :title: '04-28-2017 Six Big Ideas Blog '
+  :description: 6 big ideas in healthcare innovation
+  :url: "//images.ctfassets.net/189dvqdsjh46/65BpSTOvBuCQQCIO6qYAau/d643cc46fc8acef52653d65362041349/6_Big_Ideas_Header.png"
+  :_meta:
+    :updated_at: '2017-04-28T21:41:33+00:00'
+    :created_at: '2017-04-28T21:41:33+00:00'
+    :id: 65BpSTOvBuCQQCIO6qYAau
+:share_image:
+  :title: 6 Big Ideas - social share poster
+  :description: blog, social
+  :url: "//images.ctfassets.net/189dvqdsjh46/4lDGSRptzaWgM4oGY24kMA/c3e9355731fac4fc40cbf036dbd161c8/6_Big_Ideas_-_social_share_poster.png"
+  :_meta:
+    :updated_at: '2017-04-28T23:28:55+00:00'
+    :created_at: '2017-04-28T23:28:55+00:00'
+    :id: 4lDGSRptzaWgM4oGY24kMA
+:cta_ref:
+  :id: 3vSsyg2dkIeA0cuQc6AEwe
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2017-04-28T20:37:19+00:00'
+    :id: 3vSsyg2dkIeA0cuQc6AEwe
+  :cta_title: 6 Big Ideas from 2016
+  :cta_desc: Download our most recent annual healthcare innovation eBook. Learn what
+    nine of the industry's greatest minds think about connectedness and healthcare
+    innovation.
+  :cta_label: Get your copy
+  :cta_url: https://datica.com/innovation/2016/
+  :cta_svg_icon:
+    :id: 4G7J6PZbVCmoOuAEO4UsIY
+  :cta_icon: "/public/icons/brand/icon-large-lightbulb-circle.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 2LOuzjSvuMoeg6cyAEu0sa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-03-14T18:23:38+00:00'
+    :created_at: '2016-11-23T22:18:26+00:00'
+    :id: 2LOuzjSvuMoeg6cyAEu0sa
+  :title: Why Interoperability?
+  :slug: why-interoperability
+  :pub_date: !ruby/object:DateTime 2015-11-03 00:00:00.000000000 Z
+  :tags:
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  - :id: 4WpqU1En6MsqmCEWweeCmO
+  :categories_blog: company
+  :author:
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :summary: Innovation is critically fundamental to healthcare, helping to improve
+    the quality of patient care and enhance workflows. Despite that, a rudimentary
+    cultural change is needed across the industry to fully embrace innovation. This
+    incorporation will create collaborations to polish present processes with a patient-centric
+    mindset. However, the difficulty of achieving interoperability still remains the
+    bottleneck that is hindering real breakthroughs.
+  :blog_lead: 'Innovation is critically fundamental to healthcare, helping to improve
+    the quality of patient care and enhance workflows. Despite that, a rudimentary
+    cultural change is needed across the industry to fully embrace innovation. This
+    incorporation will create collaborations to polish present processes with a patient-centric
+    mindset. And there is an extraordinary amount of these [innovative collaborations](https://catalyze.io/solutions/enterprise-innovation)
+    happening across the country already. Influencing creative solutions to complex
+    problems, startups and healthcare innovators are working to manage the challenges
+    the industry is facing. However, the difficulty of achieving interoperability
+    still remains the bottleneck that is hindering real breakthroughs.
+
+'
+  :post: "Why is interoperability the bottleneck though? To answer that having an
+    understanding of what interoperability is must be had.  On a macro level, interoperability
+    is the United States’ attempt at creating a point-of-care health information system
+    that contends with the worldwide network of electronic banking. Understood from
+    a business perspective, interoperability is just tech jargon for healthcare information
+    that is is necessary for a required constituent of diagnosis and treatment. An
+    interoperable world is one where [health data](https://catalyze.io/solutions/data-integration-control)
+    can be exchanged, is portable and available wherever a healthcare consumer receives
+    care. So true transfiguration mandates complete access to data from the entirety
+    of patient records, trouncing the traditional isolation silos of healthcare.\n\nPromising
+    progress has been made as a widespread increase in interoperability initiatives
+    are underway. Showing market maturity, most providers have implemented electronic
+    health record (EHR) systems with more than ninety percent of hospitals and seventy
+    percent of ambulatory physicians. Because the healthcare industry is so fragmented,
+    standardization is complex and convoluted but industry stakeholders are still
+    pushing the interoperability needle forward.\n\nInteroperability is going to also
+    be a fundamental requirement for guaranteeing the widespread adoption of EHR systems
+    to achieve the economic and social advantages desired. In the absence of interoperability,
+    this adoption of EHR systems will only enhance the information silos that exist
+    today with even more proprietary control over patient data. Adopting EHRs that
+    are not interoperable is highly questionable as it would not increase patients’
+    security, well-being, or health. On the contrary, once true interoperability is
+    achieved, patients will have greater choice, control, and portability with their
+    healthcare data. \n\nThoughts on interoperability and how the industry is going
+    to make it happen? [Tweet](https://twitter.com/daticahealth) or [email](mailto:hello@datica.com)
+    us.\n\nWant to learn more? Check out these other posts:\n\n1. [Increased Interoperability
+    Will Lead to Increased Patient Engagement](https://catalyze.io/blog/increased-interoperability-will-lead-to-increased-patient-engagement)\n2.
+    [Open APIs Solve Lack of EHR Interoperability](https://catalyze.io/blog/open-apis-solve-lack-of-ehr-interoperability)\n3.
+    [3 Key Focuses for Healthcare CIOs](https://catalyze.io/blog/three-key-focuses-for-healthcare-cios)\n"
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:27:26+00:00'
+    :created_at: '2017-02-21T18:53:42+00:00'
+    :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :title: Connected Health Today and in the Future
+  :slug: connected-health-today-and-in-the-future
+  :pub_date: !ruby/object:DateTime 2017-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 3rO97bU0piC0CI0eOg6ksI
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  - :id: 2HUEayZgHmGoSYuAw4qcKO
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Healthcare's version of the Internet of Things is often referred to as
+    connected health. Explore Dr. Joe Kvedar's view on the state of connected health.
+  :blog_lead: The healthcare industry’s version of the Internet of Things (IOT) is
+    very often referred to as the [Internet of Health Things](https://datica.com/blog/the-health-internet-of-things-iot/)
+    or, more commonly, connected health. When most people talk about connected health,
+    they’re referring to the devices, wearables, apps, and other tools that track
+    an individual’s activity or aspects of their health. However, connected health
+    is much more than just a set of devices. As connected health becomes a reality
+    in today’s world, a new model of healthcare delivery is evolving with innovative
+    strategies to move care from the hospital or doctor’s office into the day-to-day
+    lives of people.
+  :post: "\nIn a recent Datica Healthcare Innovators Podcast, [Datica interviewed
+    Joe Kvedar, MD](https://datica.com/innovation/joseph-kvedar), Vice President,
+    Connected Health with Partners HealthCare. Last year, he wrote [“The Internet
+    of Healthy Things,”](http://theinternetofhealthythings.com/) which is packed with
+    real-world information that will help entrepreneurs, innovators, and investors
+    drive the disruption of healthcare delivery. Dr. Kvedar has long been a proponent
+    of personalization in healthcare and is known as one of the greatest HIT influencers
+    in our generation.\n\n>\"There are still some technology problems to be solved.
+    Chief among them is the ability to normalize the data from all of these wearable
+    sensors so that it makes sense.\" -Joe Kvedar, MD\n\n##The connected health journey\nSome
+    aspects of connected health are in play already today and we’re only likely a
+    few years away from reaping the full benefits of this connected health journey.
+    Dr. Kvedar described that journey unfolding in three major phases:\n\n1. **The
+    future is here today in terms of technology.** The majority of the technology
+    is ready for this connected, internet of healthy things world, but some roadblocks
+    prevent clinical providers from leveraging some of this new information. Dr. Kvedar
+    offers, “There are still some technology problems to be solved. Chief among them
+    is the ability to normalize the data from all of these wearable sensors so that
+    it makes sense.” With wearable technology such as a Fitbit, for example, we can
+    already measure steps and calories, but does that tell us a useful story? Dr.
+    Kvedar explains, “They don’t tell a story because no one has been able to translate
+    that data into something that is normalized. So that's a gap.”\n2. **Data analysis
+    will become more personal.** The second step in the connected health journey involves
+    the ability to take all those data feeds and analyze them effectively. “One thing
+    that is most exciting about those data feeds is that they do represent a unique
+    digital fingerprint for each of us, because we do those things all uniquely, whether
+    it is the way we travel with our phones, or our step counts.” Dr. Kvedar says.
+    “The next technical challenge is to be able to harness all of that data and create
+    a unique profile.”\n3. **Business engagement.** The final part of the connected
+    health journey is the engagement with the consumer to propel action, for example,
+    motivating them to make a healthier choice. This third level is just starting
+    to happen today despite both technical and business model hurdles, although Dr.
+    Kvedar says the business model hurdles are starting to break down. “For instance,
+    United Health Group now offers 100,000 insured people a smart wearable device.
+    If they achieve three kinds of fitness goals during a day, as measured by that
+    wearable device, they get $4.00 added into their health savings account.” \n\nSome
+    parts of the healthcare industry seem to embrace the connected health journey
+    faster than others. “Companies like Walgreens are embracing this idea of taking
+    in wearables’ data and giving consumers something back in return. They are all
+    seeing improved outcomes as a result,” comments Dr. Kvedar. On the other end of
+    the adoption scale are doctors and hospitals. “Docs and hospitals are used to
+    making a living by taking care of sick people and we haven't quite figured out
+    how to reward clinicians for keeping people well or how to reward hospitals for
+    keeping people out of hospitals.” Those business model challenges are happily
+    being worked on,” Kvedar explains.\n \n##Roadblocks to interoperability \nEven
+    though the technology is just about there to enable connected health for consumers,
+    there are still major industry changes that need to occur in the area of interoperability.
+    \ Dr. Kvedar described these biggest impediments to interoperability:\n \n- **Proprietary
+    technology.** Interoperability doesn’t seem to be in anybody’s financial best
+    interests. Take a look at technology vendors, for example. “If you are an IT vendor,
+    almost all of them, up and down the stack, whether it's  telecom all the way down
+    to database, or even hardware, all of them want to bring you in and upsell you
+    new things. They can only upsell you if they build barriers to others entering
+    their space, and that means that they are doing something proprietary to keep
+    you as a customer,” explains Dr. Kvedar.\n- **Fear of losing patients.** On the
+    hospital side of things, resistance to interoperability is primarily driven by
+    the fear of losing patients to competitive hospitals. Dr. Kvedar comments, “From
+    a pure business perspective, why would my hospital want to make it easy for patients
+    to take their data to another hospital and get their care done there? To implement
+    interoperability costs a lot of money. If there's no revenue reward or efficiency
+    award on the business side, why would you do it?” Dr. Kvedar sees one possible
+    way hospitals might get on board with interoperability. “The only way I could
+    conceive of having interoperability become the norm is to have a demand from government
+    purchasers that if you are going to be a government contract, you have to have
+    a certain set of open standards. I don’t know if that will happen under a Trump
+    administration, but they certainly are signaling that they wouldn't view the world
+    that way. So, I don't see it happening soon, unfortunately.”\n \n##Wearables and
+    chronic illness management prevention\nWith the data available to consumers wearing
+    health technology devices, the potential exists for not only managing chronic
+    illnesses but also helping to prevent them. Dr. Kvedar cites two important considerations:\n\n-
+    **Wearables provide a feedback loop.** “I like to talk about conditions that don't
+    result in symptoms, like high blood pressure, high blood sugar, high cholesterol,
+    visceral fat — all of those which portend bad outcomes down the line and don't
+    really, on a day-to-day basis, make you feel particularly poorly. In that context,
+    you can think about connected health as feedback loops and motivation.” Wearables
+    provide feedback loops since they are giving you data about your life. With a
+    Fitbit, for example, if you haven’t hit your step goal for the day, you may be
+    motivated to walk on a treadmill in the evening.\n- **Raw numbers don’t always
+    motivate a lifestyle change.** The other part of making feedback useable is motivation.
+    “It turns out there's a bit of paradox at play. A big part of our population doesn’t
+    care about numbers. They care about other things. So if you are not a quantitative
+    person, or you are not particularly motivated to change whatever the feedback
+    loop is sending your way, it quickly becomes background noise,” Dr. Kvedar explains.
+    That could be why the market for wearables is seeing a decline in activity.\n\nHe
+    continues, “The good news is that there's a crop of devices coming out now in
+    the wearables space that give insights rather than just numbers. One of them is
+    the Spire device that tracks respiration but doesn't tell you your respiratory
+    rate; it tells you whether you’ve been focused or stressed because we breathe
+    differently under different conditions.” We may see a rebound in the wearables
+    market as data becomes more meaningful to people with insights rather than just
+    numbers.\n \n##How does all this data into a clinician’s workflow?\nClinicians
+    today are inundated with data, most of it today within the EHR. Clinicians spend
+    too much time clicking, finding, charting, and checking boxes to document the
+    in-person encounters or manage a workflow. It’s hard to imagine connected health
+    data fitting within the clinician's already data-heavy process. Dr. Kvedar suggests
+    this particular journey will unfold in two steps: \n \n1. **The current state:**
+    Innovation practices exist but are not mainstream. Dr. Kvedar sees connected health
+    in play today, but primarily in medical homes. “We have quite a few examples of
+    that in our system, where we are heavily at risk and a lot of our primary care
+    practices are patient centers or medical homes as part of our population health
+    management structure. In those practices, there is someone whose responsibility
+    is the burden of hypertension, just for instance. We will provide that person
+    with a home monitoring for hypertension toolset for the patients that are either
+    difficult to control or newly diagnosed. In any given practice it is not enough
+    of a burden if this one person, typically a nurse and sometimes a pharmacist,
+    is assigned the burden of data. It isn’t high enough that they can't afford to
+    get their work done. They check in a couple of times a week and the software flags
+    the patients that are out of parameter and makes it a little bit easier to sort
+    through. Then they involve a doctor if it is a medication change or something
+    that really needs a doctor's input.”\n2. **The future state commands an AI layer.**
+    \ Most industries today are already using intelligent analysis software and data
+    science that creates meaning and actionable information from a vast state of data.
+    Dr. Kvedar describes how this might take shape in healthcare. “We are really at
+    the beginning of a new era. Let's say someone has high blood pressure and you've
+    been tracking their blood pressure for the last two months. We should be able
+    to give you a dashboard view that shows what blood pressures are normal when they
+    go up, why they go up. Do they go up at night? Do they go up during the day? Do
+    they go up after a meal? That would give you some real insight into how to care
+    for that patient.”\n\nDr. Kvedar cautions that seeing this all become a reality
+    with physicians is dependent on solving more than just the problems of data overload
+    and dashboards. Here are two other important dependencies to be aware of.\n\n>\"If
+    you call it decision support, maybe you can sell it. Artificial Intelligence sounds
+    scary.\" - Dr. Kvedar\n\n- **The timing of value-based reimbursement.** “We sort
+    of had a rhythm going under the Obama Administration. Will that change? Not sure.
+    Medicare has produced a plan that 50% of payments by two years from now will be
+    value-based. So they seem to be on that curve. Many plans are now doing this but
+    the rate is to be determined. As that happens, the reason we did medical home
+    across our system is because of value-based payments and it makes much more sense
+    in that context.”\n- **Physician resistance to the idea of AI.** “On the one hand,
+    we do this in the EMR with decision support. So if you call it decision support,
+    maybe you can sell it. Artificial Intelligence sounds scary. It sounds like you
+    are trying to take my job away from me, so I think it is how you frame it. And,
+    of course, there's the liability issue that goes along with that and how you convince
+    docs into a state where they are not afraid they are going to get sued because
+    there was a data point that they didn't see that didn't go right in the algorithm.”
+    \n\n##How far off is the future? \nDr. Kvedar concludes, “The pieces of connected
+    health are here today, but we still have to put them together. Some of that will
+    be technical. A lot of it will be business model. Some of it is even societal.”\n\nMake
+    sure to listen to the [complete podcast interview with Dr. Kvedar](https://datica.com/innovation/joseph-kvedar/)
+    for many more insights about connected health, including a look at telemedicine
+    and artificial intelligence."
+  :featured_image:
+    :id: 2k2LHgR8XaqKusSaUeeE0y
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: Vrmu0Devw2EqI4CmK8eWc
+  - :id: 5NH1yU9I1UaG6CEE62UM2o
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:57:08+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 6wrnBiMzBYWQUmyw0GGKKm
+  :title: Does Healthcare IT Put the Cart Before the Horse?
+  :slug: does-healthcare-it-put-the-cart-before-the-horse
+  :pub_date: !ruby/object:DateTime 2016-10-03 00:00:00.000000000 Z
+  :tags:
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: Industry focus on patient outcomes has never been higher yet some healthcare
+    innovators are focused on technology first and outcomes second. Wonder why?
+  :blog_lead: 'Industry focus on patient outcomes has never been higher. Key healthcare
+    stakeholders, from payers, providers, vendors and others, all indicate that this
+    focus will surely escalate. The emphasis may appear new, but as early as 1998,
+    the [_Journal of of General Internal Medicine_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1496942/)
+    began covering the patient outcomes movement. Considering this surge in interest,
+    you may be wondering why some healthcare innovators are focusing on technology
+    first and outcomes second.
+
+'
+  :post: "In a rush to get a healthcare technology to market and a paying client on
+    the books, vendors often sidestep this important piece to the solution. As a result,
+    many health systems across the country are being sold new technologies that don't
+    address patient outcomes first. Clinicians wonder why. In a recent [_Healthcare
+    Innovators Podcast_][2], Ida Sim, MD, who is a primary care physician, informatics
+    researcher, entrepreneur and Professor of Medicine at the University of California,
+    San Francisco, shared her thoughts on technology implementation as it relates
+    to patient outcomes. \"The place to start is not to have a great app or sensor,
+    [nor] how to get as many people to use it for as long as possible,\" says Sim.
+    Instead, she explains, \"Outcomes are generated jointly by the healthcare system
+    and the patients themselves, so that's the place to start.\" This approach transcends
+    wearables and applications; it can also be applied to larger technologies, such
+    as electronic medical records (EMRs). \n\nIn some ways, starting with the technology
+    is counterintuitive. Few organizations effectively manage patients outside of
+    traditional episodes. Datica CEO and Chief Privacy Officer, [Travis Good, MD](https://datica.com/about/travis/)
+    gave his perspective on the subject recently. \"The healthcare providers, focused
+    most on patient outcomes, like Denver Health, have had the management of patients
+    in their DNA long before applying any technology to achieve efficiencies.\" \n\n##
+    Effective Technology is Outcome-Based\n\nFor healthcare innovators, starting with
+    patient outcomes first promises to provide technical solutions that dramatically
+    impact patients and the industry as a whole. Some development organizations are
+    already taking this approach and that's exciting to watch.\n\nWorking at Datica
+    gives us an in-the-trenches view of impactful industry technologies that address
+    patient outcomes first. Madison-based [healthfinch][3], for example, needed EMR
+    integrations for implementing its automated prescription refill solutions within
+    a hospital system. Healthfinch started with the specific population need, then
+    crafted a technology solution with patient outcomes at the heart of that solution.
+    This story, and others from health vendors working on patient outcome-first technologies,
+    can be found in the [Datica customer][4] stories. \n\nAre you developing technologies
+    focused first on patient outcomes? Datica can help you scrutinize that process,
+    which will ultimately provide the most value for clinicians and the hospitals
+    for whom they work. That technology approach leads to long-term success and product
+    viability for customers.\n\n\n[2]: /innovation/ida-sim-md/\n[3]: http://healthfinch.com\n[4]:
+    https://datica.com/proof/\n[5]: mailto:hello@datica.com"
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 2P8wKtHIIwy8UseMUiqIMm
+  - :id: 3WnOXmTmVaSEkIoQMGqYqS

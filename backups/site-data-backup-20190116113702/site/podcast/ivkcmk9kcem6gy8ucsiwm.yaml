@@ -1,0 +1,345 @@
+---
+:id: IvkCmk9KcEm6GY8ucSiwM
+:_meta:
+  :content_type_id: podcastEntry
+  :updated_at: '2017-08-31T02:40:15+00:00'
+  :created_at: '2017-07-25T15:03:38+00:00'
+  :id: IvkCmk9KcEm6GY8ucSiwM
+:title: Naomi Fried, PhD — How Digital Health Companies Can Help Pharma Innovate Faster
+:slug: naomi-fried-how-digital-health-companies-can-help-pharma-innovate
+:pub_date: !ruby/object:DateTime 2017-07-25 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-29T20:16:04+00:00'
+    :created_at: '2016-11-29T20:16:04+00:00'
+    :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :tag_full: Leadership
+  :slug: leadership
+  :description: Pioneers, innovators, and leaders of great teams.
+- :id: 4ABMNMPZaU68iucWYcEcIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:29:25+00:00'
+    :created_at: '2016-09-30T16:29:25+00:00'
+    :id: 4ABMNMPZaU68iucWYcEcIe
+  :tag_full: Podcast
+  :slug: podcast
+  :description: |-
+    How does healthcare innovate?
+    Catalyze explores this topic in a new series of interviews with several of the industry's top thinkers and doers. Follow along with us as we uncover insights to catalyzing change in healthcare.
+  :url: https://catalyze.io/innovation
+- :id: 538OyakPcc0eKKiyeccEwC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-07-25T14:53:57+00:00'
+    :created_at: '2017-07-25T14:53:57+00:00'
+    :id: 538OyakPcc0eKKiyeccEwC
+  :tag_full: Pharma (pharmaceutical industry)
+  :slug: pharma
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:guest:
+  :id: 6MfKb8WdS8U4UeW2A2SoEW
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-07-25T15:00:20+00:00'
+    :created_at: '2017-07-25T15:00:20+00:00'
+    :id: 6MfKb8WdS8U4UeW2A2SoEW
+  :fullname: Naomi Fried, PhD
+  :slug: naomi-fried-phd
+  :person_type: Guest
+  :role: Founder and CEO, Health Innovation Strategies
+  :profile_pic:
+    :id: 3AdZsf2FjqSwAKO0awWyWA
+  :bio_short: 'Naomi Fried is a thought leader in healthcare innovation and digital
+    health. She was Biogen’s first VP of Innovation, Medical Information, and External
+    Partnerships. She led five functions catalyzing innovation to support patients
+    and healthcare professionals. She developed the strategy for and led the “innovation
+    beyond the molecule” program to deliver non-pharmacological value to patients
+    and providers. '
+  :bio: |-
+    Previously, Naomi was Boston Children’s Hospital’s (BCH) first Chief Innovation Officer. She built and led the Innovation Acceleration Program, which focused on enhancing the innovation culture, improving care quality, and assisting the hospital in shaping the future of health care. The Innovation Acceleration program supported strategic innovation initiatives, resourced grass roots innovation, and identified unmet innovation opportunities. Naomi oversaw the creation and administration of the Innovestment seed grant program which supported 37 projects and the FastTrack Innovation (FIT) in Technology Program which developed 9 novel clinical software solutions and mobile apps. She also initiated and led the development of BCH’s telehealth strategy.
+
+    Prior to BCH, she was the VP of Innovation and Advanced Technology at Kaiser Permanente (KP) where she led an effort to identify and assess new and emerging health care technology; chaired the board of its internal Innovation Fund for Technology; formed KP’s Telehealth Working Group; was involved in the start-up and governance of KP’s Innovation lab, the Sidney R. Garfield Center for Health Care Innovation; and was Managing Director of the Archimedes Project.
+
+    Naomi received her Ph.D. in Materials Science from MIT and her B.S. in Chemistry from the University of California, Berkeley.
+  :profile_linkedin: nfried
+  :location:
+    :lat: 42.3028239
+    :lon: -71.1864397
+:soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334763150&amp;color=1055ff&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+:summary: Few in healthcare have as much innovation experience as does Dr. Naomi Fried.
+  As you listen to this month’s podcast that features a chat between Dr. Fried and
+  host Travis Good, MD, you’ll discover the differences between the way pharma and
+  a hospital system innovates, as well as what digital health may add to pharma in
+  the future.
+:key_takeaways: "1. Learn why pharma companies are slower to innovate and what could
+  help them move faster \n2. Discover how pharma may use digital health solutions
+  in the future\n3. Understand what digiceuticals are and how they may alter or supplement
+  drug therapies\n4. Explore ways in which hospital strategy and pharma strategy to
+  digital health differ"
+:post: "### Dr. Fried responds:\n\n*On how pharma and a hospital might think differently
+  about innovation:* “From a pharma perspective, innovation is actually a core competency
+  for them. Hospitals, on the other hand, see their core business as care delivery,
+  taking care of patients.”\n“I would summarize pharma's approach to internal non-product
+  innovation as slow and cautious. Culturally, I think there are many in pharma that
+  want to continue to do things the way they've been doing them, historically. So,
+  there are some barriers to overcome there.”\n\n“Compared to pharma providers, [providers]
+  tend to have fewer resources to put toward internal innovation. But I think when
+  it comes to testing and implementing patient-facing innovations, particularly new
+  digital health tools, I think providers generally move more quickly. They are closer
+  to the patient. They have fewer regulatory barriers to navigate around. So they
+  tend to be more likely to jump in and try things. I'd say when it comes to digital
+  health innovation for patients, hospitals are probably actually a bit ahead of pharma.”\n\n*On
+  how pharma views internal versus external innovation:* “[Digital health] companies
+  usually have specialized domain knowledge. They've built a specific digital health
+  tool and when you look at tech-savvy, entrepreneurial start-ups, they tend to have
+  a consumer bent and typically better at developing the type of user experience and
+  consumer-oriented solution than large pharma companies.”\n\n“The second real benefit
+  to partnering with external companies around digital health innovation is that these
+  start-up companies tend to be more nimble because they are small in size, much simpler
+  organizationally speaking than large pharma. Digital health startups in small companies
+  generally move more quickly and often develop products in months rather than years,
+  and they can also make changes quickly and respond to feedback they get.”\n\n*On
+  benefits for pharma in using digital health companies to innovate faster:* “There's
+  a whole body of rules for how pharma is permitted to interact with patients, especially
+  stringent rules outside of the U.S., and these rules simply don't apply to digital
+  health companies. An external digital health vendor can talk freely to a doctor
+  and patient and I think this is beneficial when trying to develop new innovative
+  solutions that'll touch the patient.\n\n*On benefits for digital health companies
+  who work with pharma companies:* “I think hospitals are good potential customers
+  for some of the digital health startups, but I think pharma actually can do a lot
+  in terms of partnership, beyond the obvious resources like money. I think pharma
+  can help digital health startups by sharing some of the expertise and understanding
+  they have in particular diseases and therapeutic areas.”\n\n“Digital health startups
+  can leverage and learn from pharma's well-established processes around health care
+  industry-specific details, and that includes things like CPT coding, thinking about
+  payer reimbursement. I think for start-ups, they don't have to reinvent the wheel
+  or invest heavily in developing regulatory expertise, but really can look to a pharma
+  partner who can help them leapfrog to where they are going.”\n\n“Where start-ups
+  lack infrastructure needed to reach customers and have trouble scaling up, this
+  is something that pharmaceutical companies have done well, so I think that teaming
+  with pharmaceutical companies, tapping into their extensive marketing infrastructures
+  and distribution channels can really help digital start-ups get traction, much faster
+  than they could if they were on their own.” \n\n*On whether pharma will soon provide
+  medication plus digital health solutions:* “I think in the end, pharma will continue
+  to provide solutions to patients, at the core, there will be a medication or a therapy.
+  But almost all of these medications in the future will be combined with digital
+  health solutions that address a patient’s needs more comprehensively. I think these
+  digital solutions will address side effects; they will help with medication adherence.”\n\n*On
+  examples of medication + digital health solutions:* “In the future, I think we'll
+  see drugs being offered along with virtual care, platforms and tools. Drugs for
+  congestive heart failure, for example might come with home monitoring, so that it
+  is possible to track the impact of the drug and keep a patient from retaining fluid
+  that might necessitate a trip to the emergency department. You won't just be getting
+  a drug, but getting a drug plus a service that helps track how you are doing.”\n\n“I
+  think we'll also see drugs plus digital therapies for side effects. As an example,
+  multiple sclerosis drugs might come with digital antidepressant, an app or a web-based
+  solution that helps them manage or ideally even treat the depression that is so
+  common in that patient population.”\n\n“Another example that I think we'll be seeing
+  are wearables that will help a patient know actually when they need to take their
+  drug. Epileptic drugs might come with a wearable when an attack might be eminent
+  and the patient can get someplace safe and take a drug to hopefully ward off that
+  attack.”\n\n“I like to call it D and D — drugs and digital. At the core, pharma
+  will still be our source for medications but I think what we think of in terms of
+  patient solutions and value to patients will be much more than just the chemical
+  compound.”"
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

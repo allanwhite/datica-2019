@@ -1,0 +1,77 @@
+---
+:id: 28G8X9yeqYY0MieyMWYw2C
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T21:32:53+00:00'
+  :created_at: '2016-11-23T21:32:53+00:00'
+  :id: 28G8X9yeqYY0MieyMWYw2C
+:title: POODLE Impact
+:slug: poodle-impact
+:pub_date: !ruby/object:DateTime 2014-10-15 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: company
+:author:
+  :id: 3riALtpuXYeIaIGuaq8M4w
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-05-31T17:27:15+00:00'
+    :created_at: '2016-11-23T18:22:26+00:00'
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :fullname: Datica Editorial Team
+  :slug: datica-editorial
+  :person_type: Datica Team
+  :profile_pic:
+    :id: 54LQpVAcVqe4s6WQkwGyEe
+  :email: hello@datica.com
+  :bio_short: We're the Datica Editorial Team.
+  :profile_twitter: daticahealth
+  :profile_linkedin: daticahealth
+  :profile_url: https://datica.com/leadership
+  :location:
+    :lat: 43.07284
+    :lon: -89.38811299999998
+:summary: Another OpenSSL vulnerablility is affecting servers running SSL v3.0 - but
+  it's impact is low.
+:blog_lead: 'Another OpenSSL vulnerablility is affecting servers running SSL v3.0.
+  This vulnerability, nicknamed **POODLE**, does not impact any Catalyze servers hosting
+  or transmitting customer data. In fact, we disable SSLv3 (and SSLv2 too!) in all
+  of our server configurations where PHI and customer data is stored. The only configurations
+  we ended up changing were on nginx and apache2 servers that served up static site
+  content (sorry IE6 users!). Our goal is to always err on the side of caution for
+  these types of vulnerabilities.
+
+'
+:post: "To read up on the details of the vulnerability please see the original [Google
+  disclosure](http://googleonlinesecurity.blogspot.com/2014/10/this-poodle-bites-exploiting-ssl-30.html).\n\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

@@ -1,0 +1,16 @@
+---
+:id: 1HCvWlLQGcYMmKi0ao48EQ
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:31+00:00'
+  :created_at: '2018-02-08T22:21:31+00:00'
+  :id: 1HCvWlLQGcYMmKi0ao48EQ
+:title: Vulnerability Scanning
+:slug: vulnerability-scanning
+:category: Core Compliance
+:summary: Nessus pre-configured to meet all compliance requirements
+:desc: Datica utilizes Nessus Professional for vulnerability scanning. As a core requirement
+  for HIPAA compliance, GDPR compliance, GxP compliance, and HITRUST certification,
+  vulnerability scanning comes installed and pre-configured to work automatically
+  with your application environment. Customers currently cannot swap out Nessus for
+  another tool.

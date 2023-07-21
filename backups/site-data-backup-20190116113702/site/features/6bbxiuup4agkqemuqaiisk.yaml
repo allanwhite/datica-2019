@@ -1,0 +1,18 @@
+---
+:id: 6bBxIuup4AGkqemUqaIisK
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-02-08T22:21:30+00:00'
+  :created_at: '2018-02-08T22:21:30+00:00'
+  :id: 6bBxIuup4AGkqemUqaIisK
+:title: Custom Docker Containers
+:slug: custom-docker-containers
+:category: Services
+:summary: Bring your own Docker containers for maximum flexibility
+:desc: The core compliance features on the Datica Platform have always ran on Docker
+  containers. In addition to containerized compliance services, customers can push
+  their own a Docker images directly to their Platform environments, skipping the
+  buildpack and "git push" process entirely. There are many benefits to this alternative
+  deployment model, but the one customer enjoy most is the predictability that exactly
+  that Docker image will exactly on the Platform as it does anywhere else Docker is
+  ran, including your localhost.

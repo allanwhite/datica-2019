@@ -1,0 +1,757 @@
+---
+:id: 6YYLQ0VjdSMw8gaymYwIyE
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:51:23+00:00'
+  :created_at: '2018-03-16T17:19:28+00:00'
+  :id: 6YYLQ0VjdSMw8gaymYwIyE
+:title: Overview of the Current Administration's Approach to HIT
+:slug: overview-of-current-administrations-approach-to-hit
+:pub_date: !ruby/object:DateTime 2018-03-16 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+- :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-30T16:27:45+00:00'
+    :created_at: '2016-09-30T16:27:45+00:00'
+    :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :tag_full: Interoperability
+  :slug: interoperability
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'Two recent talks have shed light on what people in the healthcare information
+  technology sector might expect from the current administration. Together, it''s
+  clear that the administration wants to give consumers access to their health data.
+  But, how?
+
+'
+:blog_lead: 'Two recent talks have shed light on what people in the healthcare information
+  technology sector might expect from the current administration. The first was a
+  speech by Alex Azar at the Federation of American Hospitals recent meeting about
+  value-based care, and the second, given by Seema Verna at HIMSS18, emphasized the
+  need for interoperability among EHRs. Together, these talks make it clear that the
+  current administration wants to give consumers access to their health data. But,
+  how will this happen?
+
+'
+:post: "\n## Alex Azar promotes value-based care to FAH\n\nThe first, given by Health
+  and Human Services Secretary Alex Azar to the Federation of American Hospitals on
+  March 5, offered a four-point plan to move to a value-based care system faster.
+  He noted that even taking recent advances in areas such as personalized medicine
+  and cell therapies, the US healthcare system doesn’t deliver results to match costs.
+  \n\nHis four points included: \n\n1. Patients, rather than providers, should have
+  ownership of health records. \n2. Costs should be transparent. \n3. Medicare and
+  Medicaid will be used to drive change in the industry.\n4. Regulations that slow
+  progress toward value-based care will be reduced. \n\n## Seema Verma announces initiative
+  at HIMSS18\n\nThe second, given the following day, March 6, by the current Administrator
+  at the Centers for Medicare and Medicaid (CMS), Seema Verma at Healthcare Information
+  and Management Systems Society’s 2018 meeting (HIMSS18), emphasized the need for
+  interoperability among electronic health record (EHR) systems. \n\nVerma announced
+  a new initiative related to Azar’s first point. It is called the MyHealthEData initiative,
+  and it is designed to give individuals access to their own health records. The announcement
+  about MyHealthEData was published on the CMS website during Verma’s speech. \n\n“MyHealthEData
+  will help twork to make clear that patients deserve to not only electronically receive
+  a copy of their entire health record, but also be able to share their data with
+  whomever they want, making the patient the center of the healthcare system,” read
+  [the announcement.](https://www.cms.gov/Newsroom/MediaReleaseDatabase/Press-releases/2018-Press-releases-items/2018-03-06.html)\n\n##
+  The free flow of information\n\nAt least two factors are likely to inhibit the MyHealthEData
+  initiative: the lack of interoperability among EHRs and the practice of data blocking.
+  Verma addressed both in her HIMSS18 remarks. \n\nOne way CMS plans to address the
+  barriers to the free flow of information is by overhauling the Meaningful Use program.
+  “Our new direction will not only reduce time and costs, but will also be laser focused
+  on increased interoperability and giving patients access to their data across all
+  of our programs,” Verma said in her speech.\n\nAdditionally, data-blocking will
+  be met with “a more aggressive stance” from CMS. “It is not acceptable to limit
+  patient records or to prevent them and their doctor from seeing their complete history
+  outside of a particular healthcare system,” Verma said. \n\n## What does it all
+  mean? \n\nTaken together, these two speeches make it clear that the current administration
+  wants to make sure consumers have access to their own healthcare records. However,
+  that sentiment begs the question: What will consumers do with that information?
+  \n\n“There is an entire level here involving not just data and information, but
+  how the purchasers, payers, providers, and consumers of healthcare interact, and
+  might interact going into the future -- including with regard to sharing data and
+  information among themselves to make business decisions affecting healthcare consumers,”
+  says Mark Hagland of Healthcare Informatics in an [article analyzing the potential
+  impact of the two speeches.](https://www.healthcare-informatics.com/blogs/mark-hagland/payment/cms-makes-big-splash-verma-s-speech-what-does-it-really-mean?page=3)
+  \n\nDevelopers and programmers may play an important role in how consumers use their
+  information. Apps that help patients understand and use their health data are likely
+  to play a critical role, as are apps that help to transmit and streamline data.
+  \n\nVerma said that patients will receive copies of their EHRs electronically, and
+  that the process will happen through application programming interfaces, or APIs.
+  “CMS believes the future of healthcare depends on the development of open APIs,”
+  said Verma, adding that CMS will function as a convener of APIs across the digital
+  system. \n\n"
+:featured_image:
+  :title: blog-overview-current-admin-featured
+  :description: Overview of the current administration's approach to HIT featured
+    image
+  :url: "//images.ctfassets.net/189dvqdsjh46/51BMYWUYZiaYmimsiqAoik/80b6d79018c50c63d05fd5dd6b8f1868/blog-overview-current-admin-featured.jpg"
+  :_meta:
+    :updated_at: '2018-03-16T17:17:37+00:00'
+    :created_at: '2018-03-16T17:17:37+00:00'
+    :id: 51BMYWUYZiaYmimsiqAoik
+:share_image:
+  :title: blog-overview-current-admin-share
+  :description: Overview of the current administration's approach to HIT share image
+  :url: "//images.ctfassets.net/189dvqdsjh46/3p02DlKsJWwQ8eqIQC6E86/4344e31358fb8563c1cfe1204752b6db/blog-overview-current-admin-share.jpg"
+  :_meta:
+    :updated_at: '2018-03-16T17:18:05+00:00'
+    :created_at: '2018-03-16T17:18:05+00:00'
+    :id: 3p02DlKsJWwQ8eqIQC6E86
+:cta_ref:
+  :id: 5romF7X52EGUUEw0sM00Ki
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-04-06T22:26:54+00:00'
+    :created_at: '2018-04-06T21:46:31+00:00'
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :cta_title: Get your GDPR Compliance Guide
+  :cta_desc: This guide to GDPR for the healthcare industry will prepare you to do
+    business in the EU and understand how to handle PHI of EU citizens. With Datica,
+    you’ll be ready when GDPR takes effect on May 25, 2018.
+  :cta_label: Get the GDPR Guide
+  :cta_url: https://datica.com/guide/gdpr-compliance
+  :cta_image:
+    :id: 3PtpwcCyLYOGM0oiOKGo0O
+  :cta_color: blue-alt
+:related_entries:
+- :id: 5dGSCeOP8cICkwSiWYqgWk
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:52:49+00:00'
+    :created_at: '2018-02-28T19:20:13+00:00'
+    :id: 5dGSCeOP8cICkwSiWYqgWk
+  :title: The Good Guide to Surviving HIMSS 2018
+  :slug: good-guide-surviving-himss
+  :pub_date: !ruby/object:DateTime 2018-02-28 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'Travis Good, MD, Co-founder, CEO & Chief Privacy Officer of Datica and
+    9-time HIMSS attendee shares his advice to surviving and staying sane at HIMSS18. '
+  :blog_lead: |
+    HIMSS is my most exhausting week of the year. I think this is my 9th HIMSS. Today, with 40,000+ attendees, it’s a logistical nightmare from start to finish. Everything from transportation to coffee is a challenge. Events go late into the night, and I always seem to have an early coffee or breakfast meeting, so sleep isn’t plentiful. I’m not sure if I prefer Las Vegas to Orlando as the location for HIMSS. Both have pros and cons.
+
+    Below is my personal HIMSS survival guide. Hopefully, I can remember these things and keep my sanity next week.
+  :post: "\n## Be patient\n\nWhen you cram 40,000+ people into any location, even
+    a behemoth Las Vegas hotel and conference center like the Venetian, the trains
+    rarely run on time. Getting a car. Getting to a booth. Getting coffee. They all
+    take way longer than you would expect. It can rattle you if you’re used to things
+    running on a schedule. I’ll give HIMSS credit in that sessions usually do stick
+    to their assigned time slots. It’s everything else that gets off the rails. The
+    best advice is to relax and be patient. You’ll get that car or coffee eventually,
+    and there’s precious little you can do to make it any better. Embrace the chaos
+    and enjoy the spectacle of HIT’s annual Lollapalooza.\n\n## Get out of the Venetian\n\nIf
+    you don’t have to be at the Venetian for an event at a set place (including booth
+    time), go somewhere else. I’ve probably been to conferences at the Venetian 5-6
+    times, and it still confuses me how to get around. It’s vast so getting out is
+    a commitment and likely something you’ll want to do at the start (breakfast) or
+    end of the day. Getting out of the Venetian helps me to maintain my sanity and
+    remember there is a real world out there where every conversation you hear isn't
+    about Epic or [FHIR](https://datica.com/guide/fhir/) or population health. The
+    one caveat to this is if you’re dead set on mingling and trying to network in
+    the hopes that you hit it off with the anonymous person you meet at the Venetian
+    \n\n## Avoid the main entrances\n\nAs I wrote above, the Venetian is large, and
+    the bowels are confusing to navigate. If you can find a way to avoid the main
+    ways in or out, you’ll find shorter coffee and drink lines. The worst times for
+    the main arteries into the Venetian are, not surprisingly, around the conference
+    schedules. Attendees tend to follow schedules, especially for exhibit hall opening
+    times and keynotes. If you can, you’re better off going early or late to avoid
+    the rush.\n\n## Buffer your time\n\nI’d estimate less than 25% of my scheduled
+    HIMSS meetings, not sessions, start on time. The exhibit hall is massive, so people
+    always underestimate how long they need between meetings. The good part is, everybody
+    at HIMSS knows that HIMSS is challenging so most people expect a certain portion
+    of meetings to start late, get rescheduled, or to not start at all.\n\n## Bring
+    a battery backup\n\nThe bowels of the Venetian, deep in the exhibit hall and session
+    rooms, have spotty mobile coverage. Couple that with the hordes of people sharing
+    the mobile networks and your phone will eat a lot of battery establishing and
+    re-establishing connections. Wall outlets are popular to combat this. Having a
+    battery backup is super convenient if you want your phone to be on all day.\n\n##
+    Bring good shoes\n\nI usually average 15-20k steps a day at HIMSS. I don’t attend
+    many sessions, so I’m on my feet pretty much all day. Comfortable shoes help make
+    this a lot more pleasant.\n\n## Take notes\n\nI used to take notes religiously
+    when I wrote for [HIStalk](https://histalk2.com) because I’d write up daily summaries
+    of the conference each night. As an aside, the people at HIStalk deserve a ton
+    of credit for reporting on HIMSS; it’s a herculean task and makes me feel bad
+    about my HIMSS whining in this post. I still write notes today, and if you see
+    me next week, I’ll have my notebook with me. I take notes on people I meet and
+    market intelligence related to Datica. There’s a lot to see and take in at HIMSS,
+    too much for me to remember without notes.\n\n## Get some swag\n\nI usually try
+    to get things for my kids and my wife to reduce my guilt from being away. One
+    of my favorites was touchscreen gloves from [Imprivata](https://www.imprivata.com).
+    I also try to get as many stuffed fish as I can from [PilotFish](https://www.pilotfishtechnology.com),
+    though they’ve made it harder each year to get multiple fish. Every year there
+    is new and exciting stuff to be had in the HIMSS exhibit hall. Not objective,
+    but if you want the best swag in 2018, stop by the Datica booth (booth 5077) and
+    check out our [Yeti](https://www.yeti.com) cups.\n\n## Balance your caffeine intake\n\nHIMSS
+    is like [coffee-obsessed Seattle](https://visual.ly/community/infographic/food/coffee-culture-seattle)
+    to me in that I always feel over-caffeinated by late morning or early afternoon.
+    When this happens, especially if I’m not hydrating, I feel pretty crappy. My goal
+    this year is to limit my caffeine intake for 2-3 cups a day, which isn't too far
+    off from my normal caffeine schedule. The Datica booth is going to be stocked
+    with cold brew coffee for our team and those that stop by (booth 5077) so I’m
+    hopeful my willpower overcomes the ease of caffeine access next week.\n\n## Keep
+    smiling\n\nI have a lot of friends in HIT and enjoy running into people at HIMSS.
+    It’s the one event each year where I get a chance to bump into specific people.
+    As exhausting as the week is, it’s only really four days (M-Th) so smile and get
+    through it.\n\n\nI hope to see you at HIMSS! Look for me at the Datica booth,
+    #5077, or on Tuesday, March 6th at 11:00am in the Amazon Booth, #1625, for a talk
+    I'm giving about HITRUST on AWS. \n\n\n\n\n"
+  :featured_image:
+    :id: 54XNgOOdmUwGaAyuU4w8yG
+  :share_image:
+    :id: 2SyI7TRqEgwM2qoSecEQSa
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 3VMljZKhTquyQC46sao4mA
+  - :id: 3kabC1VofumgW6owKmIkqG
+  - :id: laQiWFJ2X6W0wUIiYYS0q
+  - :id: 1mu9r0gy0U2YKWOSKGOEkm
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 3VMljZKhTquyQC46sao4mA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T22:45:37+00:00'
+    :created_at: '2018-02-26T20:29:04+00:00'
+    :id: 3VMljZKhTquyQC46sao4mA
+  :title: HITRUST on AWS is possible! Find out how at HIMSS18
+  :slug: hitrust-on-aws-is-possible-find-out-how-at-himss18
+  :pub_date: !ruby/object:DateTime 2018-02-26 00:00:00.000000000 Z
+  :tags:
+  - :id: V4hQxnsPw44aq8c62mYIe
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting
+    on the topic of HITRUST in the AWS booth #1625 at 11:00am.
+
+'
+  :blog_lead: |-
+    HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625.
+
+    AWS asked us to share our knowledge of HITRUST with their customers, or those organizations interested in being AWS customers, in a special 20-minute session held at 11:00 am. We are excited for the opportunity to break down the fundamentals of HITRUST on AWS, and then give advice to attendees on their own journey towards HITRUST certification.
+  :post: "\nHITRUST is becoming one of the most important pivot points for any enterprise
+    healthcare cloud strategy. We've seen this first hand ourselves, time and time
+    again.\n\nInnovative health IT programs typically face three blockers when trying
+    to adopt AWS:\n\n1. **Internal IT closely guards available resources.** They push
+    projects to internally owned and managed hard drives and CPU cores. When moving
+    to the cloud, those initiatives can be viewed as \"Shadow IT\" because of the
+    DevOps and cloud engineering resources needed outside of their control.\n\n2.
+    **Internal Compliance does not approve of the low levels of liability taken on
+    by AWS.** Under AWS's [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/),
+    roughly 1/10th of compliance controls are taken on by them (mostly the physical
+    level and firewall). The other 9/10ths are major gaps that are now the organization's
+    responsibility. Not cool in their book.\n\n3. **Internal Security is often aligned
+    with Internal Compliance.** They view a presence on AWS as a new threat vector.
+    While AWS themselves have some of the best infrastructure security measures in
+    the world, the operating system level is still the responsibility now of the organization
+    to secure. That's a lot of work and a lot of liability! Typically it's a problem
+    requiring hard-to-find resources like cloud engineers—a luxury in health IT.\n\nAll
+    combined, most healthcare enterprises are blocked from adopting AWS. David Deas,
+    Corporate Director of Innovation and Knowledge Analytics at Method Le Bonheur,
+    articulated this exact pain while giving a talk at last year's re:Invent conference:\n\n<iframe
+    width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oju3cVT5YBo?rel=0\"
+    frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n##
+    Enter HITRUST, the on-ramp for AWS\n\nFor the David Deas's of the world, HITRUST
+    has been a godsend.\n\nFor three years in a row, Datica has been Stage 3 CSF Certified
+    on top of AWS. Our Platform absorbs all liabilities for compliance **on** the
+    cloud, which extends AWS's excellent coverage for compliance **of** the cloud.
+    \n\n![Datica Shared Responsibility Model](//images.contentful.com/189dvqdsjh46/3lcfH25St2OysgsKCgc4Kk/f368d2e9d454a691098bdcd725b05271/Shared_Responsibilities.png)\n\nHealthcare
+    enterprises have taken note. They look to Datica to give assurances to those three
+    internal stakeholders, which in turn green light adoption of AWS for innovative
+    projects.\n\n* Internal IT trusts Datica's cloud management, effectively eliminating
+    the \"Shadow IT\" concern while simultaneously alleviating their burden to always
+    \"rob Peter to pay Paul\" with hard drives and CPUs.\n\n* Internal Security and
+    Internal Compliance both view HITRUST as the highest standard of security and
+    compliance in the industry. By partnering with Datica, all their concerns go away.\n\nThe
+    result is that people like David Deas who can get meaningful work done fast, are
+    making a genuine impact on the lives of patients while reducing clinical costs.\n\n##
+    Live presentation for those who can't make it at HIMSS\n\nIf you are not attending
+    HIMSS this year, or if you are unable to make the 11:00 am time slot on Tuesday,
+    March 6th, we are holding a 30-minute webinar later in March to expand on Travis'
+    presentation. Please join us if you can't visit us in person at HIMSS.\n\n[Visit
+    our webinar overview to register for the March 21st presentation at 12:00 pm CST.](https://content.datica.com/hitrust-on-aws-2018-03-21)\n\nWhile
+    you’re at HIMSS make sure to also visit the Datica booth, #5077. See you at HIMSS!\n\n\n"
+  :featured_image:
+    :id: 2Lo2RhplFSUYgYaaI62icw
+  :share_image:
+    :id: 1jCkELzupwW6ugkiqIqqie
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1A5n62oXE0SW8sewOkGoso
+  - :id: iyXvZMhyKsYSyWgU4cA2M
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:44:33+00:00'
+    :created_at: '2018-02-21T19:05:15+00:00'
+    :id: 6aQ1DZrhHGikyWQMyWEYSa
+  :title: '2018 Healthcare Trends Part 3: 6 Predictions for the Post-EHR World'
+  :slug: 2018-trends-6-predictions-post-ehr-world
+  :pub_date: !ruby/object:DateTime 2018-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD,
+    CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world. '
+  :blog_lead: "Sadly, the biggest winners in our post-health reform world (post-HITECH
+    and ACA) are neither patients nor providers; the big winners are electronic health
+    record (EHR) companies and the cottage industry of consultants and services who
+    support them. This isn’t an indictment of EHRs, though I don’t think EHRs have
+    delivered on the promise of the triple aim. It’s merely a sad observation of the
+    outcome of billions of dollars spent to improve healthcare. Regardless, we are
+    here in 2018, and EHRs play a central role in the daily lives of providers and,
+    by extension, patients.\n\nIn this third part of our [2018 Healthcare Trends](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/)
+    series, I offer predictions of what we can expect to see in a post-EHR world. "
+  :post: "\nToday, EHRs are in use by [95+% of eligible providers](https://dashboard.healthit.gov/quickstats/pages/FIG-Hospital-Progress-to-Meaningful-Use-by-size-practice-setting-area-type.php).
+    With that massive adoption, EHRs, at least the meaningful use certified EHRs deemed
+    by the government worthy of carrot and stick adoption incentives, play two foundational
+    roles in healthcare today.\n\n1. **EHRs are the hub of patient data.** They collect
+    and store both subjective information and objective data from devices. They store
+    reports and other kinds of file attachments. They store discrete data.\n2. **EHRs
+    are the hub of clinical workflow.** Though EHRs are designed for general workflows,
+    they don’t provide the tailored fit clinicians actually need forcing them to have
+    to adapt their workflows to EHRs and not the other way around as it should be.
+    Orders, messages, referrals, you name it. If providers are not entering or looking
+    for data in the EHR, they are using the EHR to accomplish a task.\n\nThese two
+    roles are foundational to building solutions, technology, or technology-enabled
+    processes on top of the EHR; there are exceptions to this rule but, increasingly,
+    even these exceptions are being forced to integrate. This changes everything,
+    especially for those innovators in healthcare that are trying to develop solutions
+    for providers and patients. But, almost as importantly, it forces EHRs to now
+    either a) build new solutions themselves, b) support new 3rd party solutions,
+    or c) risk replacement by newer EHRs that do either a or b. This process isn’t
+    happening overnight, but it is happening.\n\nHealthcare technology tends to cycle
+    every 15 years or so between best-of-breed solutions and all-in-one platforms.
+    Today’s EHRs are at the tail end of a 15-year cycle that has seen their adoption
+    grow massively as healthcare providers have implemented one of a few EHR options
+    as platforms. Now, we are starting to cycle back to best-of-breed solutions as
+    it has become abundantly clear that monolithic EHRs cannot develop solutions fast
+    enough to meet the demands of the market. One platform cannot do everything. And
+    EHRs, at least the major ones, are trying a mix of the a and b strategy above
+    to hold their place as the central healthcare IT software.\n\n## EHRs still control
+    access to patient data\n\nEHRs still control access to data and clinician workflows
+    and have used that control to slow down adoption of new digital health solutions.
+    EHRs have developed proprietary programs, or app stores/orchards/ programs, in
+    attempts to support, whether that support is real or perceived, 3rd party solutions
+    — Epic has App Orchard, Cerner has Cerner Cares, Allscripts has the Allscripts
+    Developer Program, and Athena has More Disruption Please (there are more examples,
+    but these are the big four). While programs from Athena and Allscripts are mature
+    at this point, the emerging programs from Epic and Cerner have been slow to take
+    off at best or failing at achieving any meaningful adoption at worst. The reasons
+    for their slow take off or failure are partially technology-related (the app stores
+    are proprietary) and partially business-model related (Apple can take 30% of app
+    store partner revenue because Apple is the primary driver of revenue whereas EHRs
+    are trying to collect 30% of revenue as a tax merely to integrate with them.)
+    The $15-20K EHR integration price tag we grew to loathe is now a 30% tax on partner
+    revenue.\n\nAt the same time EHRs try to support 3rd party applications, they
+    are trying to build their own solutions to shut out digital health products. Every
+    EHR now has a data warehousing solution, most have a population health tool, and
+    many have telemedicine offerings. Similarly to Microsoft’s strategy of using its
+    Windows and Office customer base to sell Azure cloud services, EHRs are trying
+    to sell their own new products. The problem is none of the major EHRs are as savvy,
+    either technically or business-wise, as Microsoft.\n\n## The Slow Burn of FHIR\n\nConcurrently,
+    many major EHRs are supporting FHIR as a standard way to access EHR data. Some
+    of that support may be vaporware, but most EHRs are at least announcing [FHIR
+    capabilities](https://datica.com/guide/fhir/). FHIR has been in discussions for
+    several years and, despite a lot of broad-based support, is moving painfully slowly
+    towards adoption and actual implementation. Yes, the big four may support reading
+    data from their EHRs via FHIR, but there is very little a real application can
+    do by only reading data from the EHR. At times, the slow pace of FHIR adoption
+    seems intentional by the many incumbents supporting it. Despite that, a recent
+    survey found that health system CIOs consider FHIR to be the technology with the
+    [most promise in 2018](https://www.healthcare-informatics.com/news-item/interoperability/cios-see-fhir-potential-game-changer-and-blockchain-overhyped-survey),
+    meaning FHIR is here to stay.\n\n## Is Replacing EHRs the Path Forward?\n\nIf
+    EHRs are failing to support 3rd-party solutions and failing to develop and sell
+    their own digital health products fast enough, does that leave option C — replacing
+    EHRs — as the only path forward? \n\nNot exactly. \n\nAs both the hub of data
+    and hub of clinical workflow, EHRs are extremely entrenched today. The vast majority
+    of health system IT department resources are dedicated to supporting EHRs, so
+    there are strange incentive conflicts. And, FHIR has been highly effective at
+    buying EHRs more time.\n\nAs I said before, this process is not happening overnight,
+    but it is happening. More industry leaders are [speaking out against EHRs](http://www.modernhealthcare.com/article/20180122/NEWS/180129979)
+    and the rampant blocking of innovation so needed in healthcare. EHRs can only
+    buy so much time. What I think we are going to see over the next 3-5 years, a
+    time that also coincides with when a lot of health systems will have written down
+    the heavy upfront capital expense of EHRs, is EHRs becoming less and less a clinical
+    workflow tool and more and more a clinical encounter documentation tool and one
+    source, not the primary hub, of clinical data.\n\nThere are two parts to that
+    prediction. The first just means that we’re going to see purpose-built tools for
+    specific workflows. We already see that today with clinical communication tools
+    like [Voalte](http://www.voalte.com/) that are making the lives of nurses easier
+    by enabling them to use a fast, mobile, purpose-built platform for their workflows
+    and communications. The second is piggybacking on the inevitable march toward
+    continuous and complete patient data. EHR data today is episodic. Clinical data
+    tomorrow will include episodic EHR data but also remote monitoring data, social
+    data, genetic data, and always-on sensor data. The EHR data will be one part of
+    a much larger puzzle. I think the EHRs of today, the large ones I mention in this
+    post, have too much technical debt to move fast enough to serve as the hub of
+    clinical data tomorrow. They are saddled with their history.\n\n## 6 Predictions
+    about EHRs in 2018\n\nPredictions are easy when you don’t have specific timelines.
+    So what do I think we’ll see with EHRs and clinical data in 2018?\n\n1. **More
+    direct patient access to EHR data.** There was already a major announcement of
+    [Apple enabling its customers to access Epic and Cerner data](https://www.healthdatamanagement.com/news/apple-health-app-effort-to-engage-consumers-by-sharing-ehr-info).\n2.
+    **More available production FHIR services.** Most of these will be couched as
+    pilots or beta, but progress is progress. FHIR will also be used for direct patient
+    access to data.\n3. **Social determinants of health matter…a lot.** Everybody
+    always cites studies that show WHO data of high US healthcare spending with resultant
+    lousy health outcomes. This is true. And sad. But it’s not the whole story. In
+    the US, we spend far less on social programs and services than most countries
+    that beat our health outcomes. The result is a health system that doubles as a
+    social safety net, with all costs incurred by the health system. Social data and
+    care based on that data will be a major shift in 2018, and I think most of that
+    will happen outside the EHR, at least regarding data sources and storage.\n4.
+    **Demand for data access by EHR customers.** One of the challenges when integrating
+    with an EHR is that the default answer is usually “no”. There is invariably friction
+    to overcome and it is up to the health system to overcome this friction. I think
+    2018 we will see a lot less acceptance of “no” and more pushing for EHRs to open
+    up access to data, whether that data is exposed via FHIR or HL7 v2.x or a proprietary
+    API middle layer like that provided by Sansoro Health.\n5. **Mega-mergers require
+    new strategies around data sharing from unwilling players.** Large-scale mergers
+    like Dignity/CHI and Providence-St. Joseph’s/Ascension will show vendors willing
+    to demonstrate a more willing ability to play nice so that they don’t lose market
+    share as hundreds of hospital sites are brought under one IT umbrella for the
+    sake of efficiency. Epic has already shown some cards around this with their [Come
+    Together/Happy Together/Working Together](https://www.epic.com/epic/post/3222)
+    trio, but it’s hard to say if it’ll stave off mega losses in the usual hospital
+    merger shakeup where two EHR vendors enter and only [one leaves](https://www.fiercehealthcare.com/ehr/advocate-health-care-aurora-healthcare-epic-ehr-merger-care-coordination).\n6.
+    **More ambulatory EHR providers bite the dust.** Now that the dust of Meaningful
+    Use has settled, more companies are beginning to evaluate if they want to stay
+    at the EHR table. With Allscripts acquiring both McKesson’s EHR suite and Practice
+    Fusion (at a loss), anticipating more contraction in the EHR space as disinterested
+    players try to divest assets while they are still holding water (GE Centricity,
+    Greenway) seems like a safe bet. \n\nIf you enjoyed this post, you might want
+    to take a look at my first [2018 trend deep dive into how cash-pay practices will
+    grow](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/). \n"
+  :featured_image:
+    :id: 4Tm8DN5A08U02UiMCiWgoU
+  :share_image:
+    :id: 4u6llwzbvikEookEgoCOCG
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 6LboeTU7m0YiugQ2owU0cW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:45:59+00:00'
+    :created_at: '2018-01-19T01:34:44+00:00'
+    :id: 6LboeTU7m0YiugQ2owU0cW
+  :title: The Trusted Exchange Framework and the Pursuit of Interoperability
+  :slug: the-trusted-exchange-framework
+  :pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'The January, 2018 draft of the Trusted Exchange Framework is the first
+    real step toward interoperability since the Cures Act was passed. '
+  :blog_lead: 'One of the biggest obstacles to using electronic health data to the
+    fullest potential is the lack of interoperability. At every level of healthcare,
+    the lack of interoperability causes problems: patients cannot easily access their
+    own health data, providers have problems accessing the health information of new
+    patients, researchers cannot access the data necessary to identify trends that
+    would improve population health, and technology companies struggle to compete
+    in a closed marketplace. '
+  :post: "The [21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34/text),
+    sometimes referred to as the Cures Act, which was passed in December 2016, identifies
+    the need for interoperability. Interoperability would make the exchange of personal
+    health information (PHI) possible while still maintaining security. Currently,
+    information is siloed within EHR systems, and [data integration with those EHRs](https://datica.com/platform/integration/)
+    is frequently cited issue for healthcare providers. \n\nAlongside the need for
+    various stakeholders to be able to access information, there is the requirement
+    to follow the dictates of the [Health Insurance Portability and Accountability
+    Act (HIPAA)](https://datica.com/academy/hipaa-101-a-primer/). Information needs
+    to be accessible, but must also remain secure. Through the Cures Act, Congress
+    instructed the Office of the National Coordinator (ONC) to create or support the
+    creation of a framework for health information networks (HINs) to exchange health
+    information through a common agreement. \n\n## What is The Trusted Exchange Framework?\n\nThe
+    draft Trusted Exchange Framework is the first step toward interoperability. The
+    ONC has published a [User’s Guide to Understanding the Draft Trusted Exchange
+    Framework](https://www.healthit.gov/sites/default/files/draft-guide.pdf). The
+    document was released on January 5, 2018, and consists of two parts:\n\nPart A
+    - Principles for Trusted Exchange\nPart B - Minimum Required Terms and Conditions
+    for Trusted Exchange\n\nStakeholders are [encouraged to submit comments](https://beta.healthit.gov/topic/interoperability/trusted-exchange-framework-and-common-agreement)
+    through February 20, 2018. Once comments have been submitted and a final version
+    agreed upon, the Trusted Exchange Framework and Common Agreement (TEFCA) will
+    be published in the Federal Register. The ONC expects the final version to be
+    published by late 2018. \n\nThe stakeholders include: \n\n* Health information
+    networks\n* Federal agencies\n* Public health organizations\n* Individuals\n*
+    Payers\n* Providers\n* Technology developers\n\nOne of the most important goals
+    of the Trusted Exchange Framework is to create what the ONC describes as “a single
+    on-ramp” to interoperability. Currently, healthcare organizations use different
+    point-to-point interfaces to exchange PHI with each other. This system requires
+    the creation and maintenance of all those individual interfaces, which is expensive
+    and inefficient. \n\nCreating one framework for various stakeholders to exchange
+    information will simplify the process, make accessing their own PHI easier for
+    patients, and create a more competitive market for technology companies. \n\n##
+    Two Parts of the Trusted Exchange Framework\n\n### Trusted Exchange Framework
+    Part A\n\nThe first part of the Framework is Principles for Trusted Exchange.
+    The ONC has defined six principles: \n1. Standardization\n2. Transparency\n3.
+    Cooperation and Non-Discrimination\n4. Security and Patient Safety\n5. Access\n6.
+    Data-Driven Accountability \n\nThese general principles are described as “guardrails,”
+    and the goal of Part A is to build trust among the various HINs. \n\n### Trusted
+    Exchange Framework Part B\n\nThe second part of the framework is Minimum Required
+    Terms and Conditions for Trusted Exchange. This section creates common practices
+    for the exchange of health information, including a common authentication process,
+    rules for exchange, and organizational and operational practices. \n\nSpeaking
+    to [Fierce Healthcare](https://www.fiercehealthcare.com/regulatory/onc-genevieve-morris-trusted-exchange-framework-common-agreement-interoperability),
+    Genevieve Morris, the principal deputy national coordinator for health information
+    technology at the ONC said, \n\n> This is just the floor of what those required
+    terms and conditions are. We all just have to agree to the same terms in order
+    for that exchange to happen.” \n\n## Building on the 3 Goals of Interoperability\n\nThe
+    Trusted Exchange Framework builds on the work that the industry has already done
+    to advance interoperability. [A press release](https://www.hhs.gov/about/news/2018/01/05/draft-trusted-exchange-framework-and-common-agreement-released-hhs.html)
+    from the Department of Health and Human Services regarding the draft stresses
+    that there are three important goals of interoperability: \n\n1. Patient access
+    - patients should be able to easily access their own health information.\n2. Population-level
+    data exchange - both providers and payers need access to population-level health
+    data in order to analyze trends, outcomes, and costs.\n3. Open and accessible
+    APIs - giving the health IT community access to health information will improve
+    the entrepreneurial climate, leading to innovation and improved usability. \n\nThe
+    ONC will outsource the actual implementation of the framework. The ONC will hold
+    an “open and competitive selection of a single Recognized Exchange Framework Entity
+    (RCE) from the industry,” wrote Morris in a [blog post on HealthIT Buzz](https://www.healthit.gov/buzz-blog/interoperability/trusted-exchange-framework-common-agreement-common-sense-approach-achieving-health-information-interoperability/).
+    \ \n\nThe RCE will work with the ONC to develop the final version of the TEFCA
+    that is published in the Federal Register. \n"
+  :featured_image:
+    :id: 9olotaRMhGeCcA8uWQk0O
+  :share_image:
+    :id: 48KfMUhT8IqIIYoOCcqG2q
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5nkgweRTpKkSuMKMCa4mog
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

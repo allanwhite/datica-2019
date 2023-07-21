@@ -1,0 +1,423 @@
+---
+:id: 6u8cxfSJyg2eEAG0YCW2a6
+:_meta:
+  :content_type_id: genericCollection
+  :updated_at: '2018-10-18T22:19:31+00:00'
+  :created_at: '2018-10-18T22:19:31+00:00'
+  :id: 6u8cxfSJyg2eEAG0YCW2a6
+:title: 'Blog: most popular posts'
+:slug: blog-most-popular-posts
+:subhead: Popular Posts
+:related_entries:
+- :id: 3bwNayxEnYkukwYQ6Qqee0
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:09:54+00:00'
+    :created_at: '2017-06-02T18:15:38+00:00'
+    :id: 3bwNayxEnYkukwYQ6Qqee0
+  :title: 3 Common Misconceptions About Business Associate Agreements
+  :slug: 3-common-misconceptions-about-business-associate-agreements
+  :pub_date: !ruby/object:DateTime 2017-06-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: HIPAA outlines the types of entities that are covered but the further
+    down the line a subcontractor gets from a covered entity, the more confusion there
+    is.
+  :blog_lead: "The HIPAA Privacy Rule outlines the types of entities that are covered
+    by [HIPAA](https://datica.com/discover/hipaa-compliance/) and entities that have
+    to follow the HIPAA security and privacy rules. The main categories are clearinghouses,
+    covered entities (CEs), and business associates. The further down the line the
+    subcontractor gets from the covered entity, the more confusion there is about
+    who really is a business associate and who needs to sign a business associate
+    agreement. \n"
+  :post: "\n## Who is a Business Associate?\n\nTo put it very simply, a business associate
+    is a person or organization who interacts with PHI from a covered entity or another
+    business associate. \n\nMore specifically, in the process of providing services
+    or technology to either a covered entity (for example, a hospital) or another
+    business associate as a subcontractor (such as a PaaS provider like Datica), business
+    associates handle, process, transmit, or in some way interact with electronic
+    protected health information (ePHI) from those covered entities. With this PHI
+    access, all business associates are required to sign what’s called a [business
+    associate agreement (BAA)](https://datica.com/academy/business-associate-agreements/).
+    The BAA is a legal contract that describes how the business associate adheres
+    to HIPAA along with the responsibilities and risks they take on. \n\nThe BAA also
+    typically defines the services that the business associate is providing, the type
+    of data they are interacting with, and addresses areas around breach notifications
+    (such as timelines), and penalties.\n\n## If I’m a Subcontracted Developer, Whose
+    BAA do I sign? \n\nThings got a lot more confusing when the HITECH HIPAA Omnibus
+    Rule in 2013 expanded the simple earlier definition of business associate to include
+    something called subcontractors. Subcontractors, like a software developer or
+    hosting provider, are typically service or technology organizations that provide
+    additional services to the business associates, which are providing services for
+    the covered entities. \n\n### Think of it a chain of trust\n\nIt’s like a chain
+    that follows the PHI from the very first link of the chain which is the covered
+    entity. The next link would be the business associate and all of their subcontractors
+    (also business associates) would be links that follow. Think of subcontractors
+    as business associates of business associates. The BAA follows the direct path
+    of the chain. So, a covered entity is not required to sign a BAA with their business
+    associates’ subcontractors, but the business associate is.\n\nEach party in the
+    chain is required by [regulation and by contract](https://www.americanbar.org/content/newsletter/publications/aba_health_esource_home/aba_health_law_esource_1301_hipaa_christiansen.html)
+    to protect the PHI and administer it consistently with the obligations of the
+    covered entity at the top of the chain. So, for example, if a covered entity is
+    a hospital and that hospital has a breach notification of 24 hours, every link
+    (or business associate) of that chain needs to also specify 24 hour breach notification
+    in their BAAs.\n\n## 3 Common Misconceptions\n\nWe talk to development shops and
+    vendors who get this wrong all the time. Here are three of the most common mistaken
+    beliefs we hear:\n\n1. The vendor in question doesn’t necessarily need to be HIPAA-compliant
+    because they aren’t storing data. Even though the vendor claimed they were not
+    storing PHI, having data pass through their systems would still require protection
+    under HIPAA. A BAA serves as a promise of this.\n2. They are HIPAA-compliant because
+    they encrypted the data in transit and in storage. This is certainly crucial,
+    but there is so much more to HIPAA than encrypting data. You can read about everything
+    we do to be HIPAA-compliant in our [policies](https://datica.com/open-source/policies/).
+    At a minimum, a vendor must encrypt data and ensure [physical media meets HIPAA’s
+    physical security requirements](https://hipaa.datica.com/#datica-hipaa-compliance).
+    As a result, that vendor would need to have a BAA signed with their hosting vendor
+    to ensure legitimacy.\n3. The subcontractor doesn’t need to sign a BAA because
+    the vendor they’re subcontracting for already has one in place with the covered
+    entity. As of 2013, this is false. As soon as PHI passes through your system,
+    you are also automatically considered a business associate and the vendor you
+    subcontracted with will require a BAA from you. In fact, the latest rules state
+    that covered entities MUST ensure they obtain satisfactory assurances from their
+    business associates, and they must do the same with their subcontractors, and
+    so on, no matter how far “down the chain” the information flows. \n\nThis may
+    seem complicated, but don’t forget that the purpose of all of this is to ensure
+    that individuals’ health information remains protected by all parties involved."
+  :featured_image:
+    :id: 2mhnyoSoMQ8S4sII8C0WUK
+  :share_image:
+    :id: 3VRqcm8oEgWucGq06QKSkq
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3p7mN2zaLuoAo6aGwKS0CG
+  - :id: 3nbjv23ydqyiOEwkKkyYCa
+  - :id: 2vLZLMLDskY4UiW8guikiA
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 1aJQXUtCFgsgaSEoYMeEi8
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T23:35:01+00:00'
+    :created_at: '2016-11-23T06:51:36+00:00'
+    :id: 1aJQXUtCFgsgaSEoYMeEi8
+  :title: How long to keep medical records under HIPAA?
+  :slug: how-long-to-keep-medical-records-under-hipaa
+  :pub_date: !ruby/object:DateTime 2014-04-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Guess what? HIPAA doesn't say how long you have to keep medical records.
+    This is a common misconception of HIPAA data retention policy.
+  :blog_lead: 'It may come as a surprise, but you don''t have to retain medical records
+    according to [HIPAA rules](https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security/).
+    This is a very common misconception with HIPAA. Medical records means electronic
+    protected health information (ePHI) in this case. HIPAA does not have any rules
+    that require covered entities or business associates to retain ePHI. I assume
+    this is a common question for HHS as they have it listed in a [HIPAA FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/580/does-hipaa-require-covered-entities-to-keep-medical-records-for-any-period/index.html).
+
+'
+  :post: "![Point 6 of HIPAA retention rules](//images.contentful.com/189dvqdsjh46/646QbbgQqk0oWkeqSuuYMg/d33d3aa0a6d900257741cf80cb628538/blog-main-retention.png)\n\nThe
+    confusion likely stems from two things. First, most states have requirements that
+    covered entities retain ePHI for a certain period of time, even if the covered
+    entity closes its doors; I imagine the most common case of a covered entity closing
+    is a physician retiring. As a covered entitiy, the onus is on you to understand
+    the requirements in the states that you work in and to comply with them.\n\nThis
+    is a case I'm personally exposed to right now as a doc friend is retiring and
+    is trying to figure out what to do with his medical records for the next 10 years.
+    His records are all paper and he's retiring to avoid having to use an EHR. Yes,
+    this does happen and some doctors feel so strongly, in a bad way, about EHRs that
+    they are are retiring early to avoid having to change the way they've practiced
+    for 30, 40, or even 50 years.\n\nThere are issues that arise when a [business
+    associate](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/),
+    such as an EHR company, goes out of business and the covered entity needs to get
+    the records and find a way to store them. We've seen this experience too, especially
+    in the case of smaller, specialty specific EHRs and practice management systems.
+    More on this in another post.\n\nThe second reason for the misconception about
+    HIPAA and retention of ePHI is that HIPAA does have data retention rules but,
+    oddly enough, they don't apply to ePHI. **Section 164.316(b)(1)** of HIPAA require
+    orgs:\n\n> (i) Maintain the policies and procedures implemented to comply with
+    this subpart in written (which may be electronic) form; and (ii) if an action,
+    activity or assessment is required by this subpart to be documented, maintain
+    a written (which may be electronic) record of the action, activity, or assessment.”
+    \n\n**Section 164.316(b)(2)(i)** goes on to state:\n\n> Retain the documentation
+    required by paragraph (b)(1) of this section for 6 years from the date of its
+    creation or the date when it last was in effect, whichever is later.”\n\nThere
+    are lots of policy and documentation requirements in HIPAA, and the rules around
+    data retention apply to those. You should be maintaining all of your policies
+    and documentation that address aspects of HIPAA, and you should plan to retain
+    it all for 6 years at a minimum. You should also maintain all risk assessments,
+    audits, and other documentation related to your organization.\n\n## Datica policy
+    and documentation retention\n\nAt Datica we use [Git](https://git-scm.com/) for
+    version control on our policies, and the current versions are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    and maintained in a Master branch. [More on why we do this in a separate post](https://datica.com/blog/our-company-policies-now-available-free-on-github/).\n\nWe
+    backup our current policies using Box. For risk assessments, change and configuration
+    management, vulnerability scanning, and audits we also use Box as a repository.
+    You can see our current policies here - [policy.datica.com](https://policy.datica.com).\n\n"
+  :featured_image:
+    :id: 1Oxi8PARxWUm4eG4Q4uaum
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 4VBvunljxmaIuyqmiuemA2
+  - :id: 7HB7ygGh7aG8Ys2OMkqqK2
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 1ITEzHLxx2QIaK4YagEecK
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:32:59+00:00'
+    :created_at: '2018-06-21T23:38:52+00:00'
+    :id: 1ITEzHLxx2QIaK4YagEecK
+  :title: Kubernetes vs. PaaS
+  :slug: kubernetes-vs-paas
+  :pub_date: !ruby/object:DateTime 2018-06-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: If you're new to container orchestration and more familiar with a fully
+    managed platform-as-a-service (PaaS), Kubernetes can seem complex. Learn the differences
+    and tradeoffs.
+  :blog_lead: Kubernetes® is dominating in 2018. If you're not already thinking about
+    Kubernetes or at least containerization, then you're behind. Fortunately, containers
+    and cloud native architectures have never been more accessible or easier to get
+    started with. From infrastructure providers like AWS and Azure offering their
+    own [versions of managed Kubernetes](https://sysdig.com/blog/ecs-fargate-eks-kubernetes-aws-compared/),
+    to organizations like Cloud Foundry offering [Kubernetes services](https://www.cloudfoundry.org/container-runtime/),
+    the world is shifting toward containers.
+  :post: "\nIf you're working inside of a regulated industry, like healthcare or finance,
+    these tools may seem out of reach. The compliance requirements and security restrictions
+    of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
+    to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
+    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    Our customers are asking for it, it’s the future of managing workloads born in
+    the cloud, and Datica is already the most robust solution for compliance management
+    on the planet. \n\nIf you're new to container orchestration and more familiar
+    with a fully managed platform, like Heroku or Datica's legacy product, Kubernetes
+    can seem complex. The goal of this article is to compare Kubernetes with a traditional
+    PaaS, discuss the differences, and examine the tradeoffs.\n\n> Now that the world
+    has sufficiently been eaten by software, applications and tools have become ever
+    larger and more complex.\n\n## What is a PaaS?\n\nA Platform as a Service, or
+    a PaaS is intended to create a layer of abstraction on top of cloud service providers
+    (or in some cases data centers and bare metal) so the end user can focus on deploying,
+    managing, and scaling their applications and data. Without going into the [history
+    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    it's easy to think about it as a way of automating many of the repetitive, lower-level
+    tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
+    known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
+    and [Pivotal Cloud Foundry](https://pivotal.io/platform). These systems work when
+    developers make minimal configuration changes to their application's code and
+    then simply \"push\" their code to the cloud. The PaaS will then make an attempt
+    to understand the code, install the required dependencies, containerize the application,
+    and then serve it up. These providers then have a UI layer for managing resources,
+    networking, access, and more.\n\n## The benefits of a PaaS\n\nBeing able to directly
+    push your code to the cloud and have it running is a tremendous benefit over the
+    old days of standing up a server, installing an operating system (and then patching
+    it each time there's a vulnerability), getting nginx configured properly, and
+    much more. With a PaaS, developers can focus on delivering value via their product,
+    not building IT infrastructure.\n\nIn addition to being able to simply push your
+    code and have it running, many of these PaaS providers also couple database managed
+    services as part of their Platform.\n\n## The pitfalls of a PaaS\n\nThe ease of
+    use for a PaaS comes at the cost of flexibility. Want to install custom software
+    on an instance? Nope. Want to ssh into an instance to investigate an issue that
+    isn't appearing in the logs? Nope. Want to do anything beyond a simple Ruby, Python,
+    or Node app? Good luck.\n\nA PaaS serves a very specific purpose — to help small
+    teams with simple applications run those in the cloud without the DevOps overhead
+    of managing a fleet of instances on AWS or Azure.\n\nThe primary reason why so
+    many PaaS providers have failed to make substantial headway in the enterprise
+    space is because the model is so restrictive. For an organization managing hundreds
+    of applications with petabytes of data, it makes more sense to build out a team
+    that can manage all of it instead of making substantial changes to your business
+    in order to fit a square peg into a round hole.\n\n## Enter Kubernetes and containers\n\nNow
+    that the world has sufficiently been eaten by software, applications and tools
+    have become ever larger and more complex. A small organization that just three
+    years ago could have survived on Heroku is now growing at a pace that prohibits
+    them from continuing to use a restrictive PaaS. Maybe they're exploring machine
+    learning or want a data warehouse. Whatever the case, they've outgrown the PaaS
+    model. Now they need to move to something more flexible: Kubernetes.\n\nSince
+    the invention of containers, and specifically with the popularity of Docker, organizations
+    have been figuring out easier ways to orchestrate containers — that is, how to
+    get them running, connected and served up in the cloud. In a way, orchestration
+    is the primary function of a PaaS. Because containers are relatively trivial to
+    build (and in most cases the build process can be automated, ex: [Gitkube](https://gitkube.sh/))
+    the focus in the container space has been on orchestration.\n\n## The benefits
+    of containers\n\nThe benefits of containers over virtual machines has been discussed
+    to no end on the internet. I won't go into detail here, but simply put — with
+    containers, developers can port their applications from machine to machine whether
+    that's running it locally on a Mac, on a server in AWS or on a droplet on Digital
+    Ocean. A container is a container and it can run anywhere. Compare this to the
+    complexity of managing an entire fleet  VM, each with its own OS. With containers
+    there’s only one operating system to manage, even with hundreds of containers.\n\n##
+    Why Kubernetes\n\nKubernetes and containers have many of the same benefits. They
+    can both run anywhere and they both function the same whether they're running
+    on AWS, Azure, GCP, or in the locked closet down the hall. Kubernetes is open
+    source, financially backed by hundreds of organizations, and is managed by the
+    [Cloud Native Computing Foundation](https://www.cncf.io/). In addition to being
+    cross-cloud compatible and open source, Kubernetes has also shown tremendous growth
+    in the last year.\n\nIf you’re coming from a PaaS you’ll no doubt have concerns
+    around the ease of use and lack of automated DevOps support in Kubernetes. When
+    I first explored Kubernetes in late 2014 I walked away feeling like it was too
+    complicated and didn’t fit Datica’s customer use case. In 2018 it’s a different
+    story.\n\nSince Kubernetes officially hit 1.0 in 2015, the community and project
+    have grown at a tremendous pace. What really makes Kubernetes a viable option
+    is not the core project itself, but the community of tools and add-ons that surround
+    it. Kubernetes isn’t a PaaS, it’s a foundation on which to build a PaaS.\n\nThink
+    of Kubernetes and the cloud native community as a set of building blocks. With
+    these building blocks you can construct any number of different solutions. No
+    longer are you held back or restricted by PaaS providers. \n\n## Which to choose\n\nThe
+    decision to choose Kubernetes over a PaaS (or vice versa) is going to depend on
+    your business, technology, market, team, and several other factors. Having said
+    that, even if you currently have a simple application with a relatively smaller
+    user base, you’re likely going to scale and change rapidly. Preparing for the
+    future by moving to containers now is going to save you time and money when it
+    becomes critical later on.\n"
+  :featured_image:
+    :id: 3r6k88ycnCQQScWqwmicEQ
+  :share_image:
+    :id: 3XcPzlSFHWkUQWUqyOisq0
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1C7ZVJqTO4UoyEOoCgs2we
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-02-03T00:26:21+00:00'
+    :created_at: '2017-02-03T00:26:21+00:00'
+    :id: 1C7ZVJqTO4UoyEOoCgs2we
+  :title: 7 Quality Measure Healthcare Organizations Explained
+  :slug: 7-quality-measure-healthcare-organizations-explained
+  :pub_date: !ruby/object:DateTime 2016-05-25 00:00:00.000000000 Z
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: Even as a healthcare professional, understanding the what, when, why,
+    who, and how of healthcare quality measurement becomes a grueling task. There
+    are multiple non-profit and private sector organizations involved in the discovery,
+    design, and verification of quality measures for the healthcare industry. We explain
+    a bit of the who, what, why, when, and how behind quality care.
+  :blog_lead: Even as a healthcare professional, understanding the what, when, why,
+    who, and how of healthcare quality measurement becomes a grueling task. There
+    are multiple non-profit and private sector organizations involved in the discovery,
+    design, and verification of quality measures for the healthcare industry. We explain
+    a bit of the who, what, why, when, and how behind quality care.
+  :post: |-
+    ## The Joint Commission (TJC)
+
+    Being the most well-known, hospitals and health systems all maintain TJC accreditation regarding their clinical care processes, ability and performance on specific quality measures and standards of care. TJC has been involved in performance measurement since the mid-1980s and launched its ORYX initiative in the late 1990s as the first national program for measurement of hospital quality. TJC has established standardized core performance measure sets for hospital operations and contributes to the national strategy for improving healthcare quality transparency. The Joint Commission can also be found at the forefront of new programs such as MACRA/MIPS.
+
+    ## Centers for Medicare and Medicaid Services (CMS)
+
+    CMS mandates the reporting of quality measures by hospitals, physicians, and providers of other healthcare products and services. CMS's Measures Management System provides a standardized process for ensuring that CMS will have a rational, conspicuous system to measure the quality of care delivered to recipients. This system was developed in coordination with the other organizations mentioned in this post. CMS collaborates with private, nonprofit organizations such as The Joint Commission and the American Medical Association to create quality measures necessary for regulatory compliance, including the Hospital Outpatient Quality Data Reporting Program, the Physician Quality Reporting System, and Hospital Compare.
+
+    ## National Committee for Quality Assurance (NCQA)
+
+    The NCQA is one of the main certification and accreditation organizations for patient-centric medical home initiatives, health plan accreditations, disease and case management, and other healthcare provider certification and recognition programs. The NCQA provides and governs the development of the Healthcare Effectiveness Data and Information Set (HEDIS) ambulatory care measures.
+
+    ## National Quality Forum (NQF)
+
+    The NQF has a focus on building consensus on national healthcare goals and priorities for quality measurement and performance improvement, being the industry's leading endorsement organization for the development and approval of quality measures. As new quality measures are developed and tested, the NQF plays a vital role in validating measures prior to official use and implementation.
+
+    ## American Medical Association (AMA)
+
+    The AMA, a national association for physicians, convened the Physician Consortium for Performance Improvement (PCPI) in 2000. Since then, the PCPI has grown to include participants from various organizations and has identified copious measures spanning multiple measure sets. The PCPI is continually working to develop measures on patient-centric care.
+
+    ## Agency for Healthcare Research and Quality (AHRQ)
+
+    AHRQ is an entity within the U.S. Department of Health and Human Services that provides a clearinghouse for quality measures, coordination of evidence-based best practics, and annual reportings of national clinical quality measures. AHRQ also manages the Consumer Assessment of Healthcare Providers and Systems (CAHPS) patient satisfaction surveys.
+
+    ## Utilization Review Accreditation Commission (URAC)
+
+    The URAC is a healthcare quality accreditation organization for health plans, provider organizations, and physician practices with various accreditation and certification programs. These programs include healthcare utilization reviews, patient-centered healthcare homes (PCHCH), pharmacy benefits management, healthcare website maintenance, claims management, and disease management to list a few. These accreditations serve an important purpose for insurance commissioners, state and federal legislators, employers, and consumers because they are a sign of a high quality and represent the organization's ability to meet agreeable performance metrics levels.
+
+    Since these quality measure reportings are mandated by government regulations, the ability to harmonize these measures has become an important discussion topic. These mandated reportings may ultimately contradict internal quality improvement efforts focused on different measures. These different metrics may have overlapping population segments, track performance for supporting or competing quality measurement organizations, or require seemingly identical measures of conditions or diseases but utilize different data, exclusions, numerators, or denominators.  Having an understanding of these organizations is critical in healthcare, so if you have questions, reach out to us [directly][1], [tweet us][2], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+    [1]: mailto:hello@datica.com
+    [2]: https://twitter.com/daticahealth
+- :id: 1iZdd2og8CI2coOACy6QUK
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-12-05T01:26:33+00:00'
+    :created_at: '2017-02-03T00:26:21+00:00'
+    :id: 1iZdd2og8CI2coOACy6QUK
+  :title: The Advantages and Measures of Outsourcing in Healthcare
+  :slug: the-advantages-and-measures-of-outsourcing-in-healthcare
+  :pub_date: !ruby/object:DateTime 2016-06-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  :categories_blog: company
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Hospitals are a distinctly lush domain for outsourcing many functions,
+    such as, EHR integrations and cloud hosting.
+  :blog_lead: Healthcare providers are facing increasingly severe economic and social
+    pressures that ultimately affect their service budgets and the ability to deliver
+    on quality services. As with all businesses, providers must also overcome the
+    tremendous pressures of industry competition. In an age where thriving is equivalent
+    to surviving, an attractive approach for the healthcare industry is outsourcing.
+    While manifesting a vast array of diverse and complex services, hospitals are
+    a distinctly lush domain for outsourcing many functions, for example, [EHR Integrations](https://datica.com/discover/ehr-integrations/)
+    and [cloud hosting](https://datica.com/discover/healthcare-cloud/).
+  :post: |-
+    ## Building Internally
+
+    There really are many advantages to providing services by utilizing an internal staff. The weighty benefit is price, assuming that service qualities are comparable. An additional two motives for keeping services in-house are reliable continuity and vested interests. An internal staff has a heightened understanding of the patient requirements and procedures necessary in a multitude of situations. Additionally is the anticipation of continuity. Staff will need to face actionable consequences, leading to increased strategic alignment through fortified internal and client relationships.
+
+    ## Outsourcing as a Strategy
+
+    Expectations of the healthcare consumer are growing, and so are the costs and the competition. Although there are advantages of keeping services in-house, outsourcing offers several unique values. Healthcare is an ever-changing environment where profits plummet, capacity crashes, and service levels slump. In this framework, the advantages of outsourcing non-medical services is a viable strategy to be considered.
+
+    With increasing service volumes, costs per service unit will lessen, meaning outsourcing services can preserve resources through scaling economies. Independent hospitals may be unable to meet the expense levels achieved by external providers when combining their service volumes to various service units. However, outsourcing can only reduce cost when three requisites are me:
+
+    1. There are economies of scale
+    2. The economies transcend corporate boundaries
+    3. The savings are sufficient to generate profit even after paying off all stakeholders
+
+    The modern need to outsource is rooted in the generational desire to be proactive. Hospitals are incessantly on the brink of slighting margins, [increasing patient expectations](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and minimal federal support. However, hospitals now understand the costs of reactive, short-term, tactical solutions to immediate issues. The key to survival lies in leveraging organizational attributes while enacting continuous incremental improvements in effectiveness and efficiency – more often than not by using third-party vendors.
+
+    ## Outsourcing Benchmark Measures
+
+    With that said, healthcare entities need some benchmark metrics to assess the true value of an increased commitment to outsourcing its services at both holistic and strategic levels.
+
+    * **Employee Gratification**: Does internal staff experience increased satisfaction due to outsourced functions and being capable to invest more of time in strategic and innovative initiatives?
+    * **Consumer Satisfaction**: Is the outside provider delivering equal or increased service to consumers in contrast to in-house services? Is staff more attentive to core functions due to outsourcing?
+    * **Economic Value Contribution**: Does the external vendor deliver more efficiently to achieve cost savings? Is the entity able to evade additional costs by outsourcing?
+    * **Competitive Advantages**: Is there a competitive edge with outsourcing? Are prospective and existing clients increasing service engagements because of outsourced services?
+    * **Allocation of Resources**: Is the service provider reliably delivering the required quality and scope through dedicated resources: labor, technology, knowledge, and assets? Is the current allocation of resources appropriate for the agreed upon objective? Is the resource division mutually satisfactory?
+
+    In sum, the advantages of outsourcing are that hospitals can assume access to asset improvement funds, widespread risk sharing of [HIPAA Compliance](https://datica.com/discover/hipaa-compliance/), increased cost avoidance and savings, considerable resource access, enhanced employee retention, and raised patient satisfaction. Long-term strategic, transformative partnerships with vendors may introduce market opportunities beyond either party's core competence. A few long-term, strategic service vendors may be a more fruitful arrangement in comparison to a multitude of narrow-focused, short-term, one-off relationships.
+
+    Questions? Reach out to us [directly][1], [tweet us][2], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+    [1]: mailto:hello@datica.com
+    [2]: https://twitter.com/daticahealth
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  - :id: 1F6Zn0qJZKOqSwIMy2KsY2
+  - :id: 1C7ZVJqTO4UoyEOoCgs2we
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+:icon_slug: blog-most-popular-posts

@@ -1,0 +1,150 @@
+---
+:id: 18ooZJggzeKK4gCSKUuYKS
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T06:43:18+00:00'
+  :created_at: '2016-11-23T06:43:18+00:00'
+  :id: 18ooZJggzeKK4gCSKUuYKS
+:title: Customizable HIPAA
+:slug: customizable-hipaa
+:pub_date: !ruby/object:DateTime 2013-10-21 00:00:00.000000000 Z
+:tags:
+- :id: 3rO97bU0piC0CI0eOg6ksI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:14:21+00:00'
+    :created_at: '2016-11-22T20:14:21+00:00'
+    :id: 3rO97bU0piC0CI0eOg6ksI
+  :tag_full: Engagement
+  :slug: engagement
+  :description: Typically "patient engagement", or ways to assist and interact with
+    the people being helped in healthcare systems.
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Minimizing risk and maximizing protections for patient data.
+:blog_lead: 'It might seem strange but communicating directly with individuals about
+  their health is a pretty new concept. It''s part of larger trends in healthcare
+  that put the patient in more control of their data, and make the patient a more
+  informed and active member of the care team. Patient activation and engagement are
+  not the subjects of this post, though they are near and dear to our hearts at Catalyze.
+
+'
+:post: "Whatever the reason driving new forms of communication and touch points with
+  patients, the privacy and security aspects of HIPAA make healthcare communication
+  different from personal communication in other verticals. It's not quite as easy
+  to implement 2-way SMS with your physician as it is for your wireless carrier to
+  do SMS surveys for feedback. One of the things that makes HIPAA really interesting,
+  and really challenging in some respects, is its flexibility. Much of HIPAA, especially
+  the Security Rule, isn't prescriptive about the specific types of technologies that
+  need to be used, or the specific settings for systems used to transmit, process,
+  or store protected health information (PHI). On top of that, HIPAA allows patients
+  to opt-in or agree to certain types of communication as long as those patients are
+  given a basic understanding of the risk associated with those communication mediums.
+  Many patients are OK with emails, or even SMS messages, for health. It's certainly
+  much more efficient and effective than the paper mail that dominates healthcare
+  today.\r\n\r\nIn fact, a very interesting [project](http://www.medstartr.com/projects/188-hacking-hipaa),
+  which didn't get funded, set out to create a standards Notice of Privacy Practices
+  (NPP) that would standardize the way in which patients choose communication preferences.
+  Unfortunately the project didn't reach it's funding goals but the idea to create
+  standard processes and language for patient privacy preference is well timed.\r\n\r\nSo
+  theoretically you, as an individual, could opt-in to receiving PHI through SMS (\"Hello
+  Mr. Smith! It's time to take your lisinopril. Reply 1 if taken, 2 if not.\"), despite
+  the fact that SMS violates some prescriptive HIPAA security rules around encryption.
+  That' great! And it's very helpful for healthcare developers and enterprises that
+  want to engage patients because snail mail or portal mail (where uses have to log
+  in to a secure portal to access a message) do not equal stickiness for an engagement
+  campaign.\r\n\r\nBut having a patient opt-in to SMS or email or Push or any number
+  of other delivery methods does not mean that the technology behind the message can
+  violate the HIPAA security rule. It also doesn't mean the patient opted-out of the
+  same security controls associated with handling ePHI. It just means that SMS can
+  be used to deliver health-related messages to the patient.\r\n\r\nSMS is a good
+  example because there are very successful, and popular, SMS delivery services, Twilio
+  and Plivo being the biggest, that can be used to deliver SMS (or voice). But, according
+  to the new HIPAA Omnibus rules, those delivery services are still considered subcontractors
+  and subject to the same rules and risks of any other business associate in the eyes
+  of HIPAA and HHS. ePHI passes through, and is typically queued, on systems while
+  awaiting delivery. Email delivery is very similar to SMS in these ways, just replace
+  Twilio and Plivo with Mailgun and Postmark. Push too.\r\n\r\nSo what can you do
+  as a developer? It's a matter of being thoughtful about who you work with and understanding
+  where PHI flows. Many infrastructure companies understand the unique needs in healthcare
+  and the broadened scope of HIPAA. But, at the same time, you have to be proactive
+  when you work with vendors to assure you minimize risk and maximize protections
+  for patient data.\r\n\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

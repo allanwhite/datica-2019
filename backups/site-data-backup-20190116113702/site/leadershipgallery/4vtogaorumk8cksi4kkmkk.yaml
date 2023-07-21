@@ -1,0 +1,110 @@
+---
+:id: 4VtOgAORuMK8cksI4KKMkK
+:_meta:
+  :content_type_id: leadershipGallery
+  :updated_at: '2017-08-16T17:44:45+00:00'
+  :created_at: '2017-07-24T22:42:57+00:00'
+  :id: 4VtOgAORuMK8cksI4KKMkK
+:title: Making Sure Technology Helps, Not Impedes, the Doctor-Patient Experience
+:slug: making-sure-technology-helps-not-impedes-the-doctor-patient-experience
+:volume: 1
+:pub_date: !ruby/object:DateTime 2017-07-24 00:00:00.000000000 Z
+:person_leader:
+  :id: jB2cHmk50IUyaOqOK26Uo
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-08-21T03:23:18+00:00'
+    :created_at: '2017-07-24T18:11:40+00:00'
+    :id: jB2cHmk50IUyaOqOK26Uo
+  :fullname: Gregory A. Ator, M.D., F.A.C.S.
+  :slug: gregory-ator
+  :person_type: Guest
+  :role: Chief Medical Informatics Officer, University of Kansas Health System, Associate
+    Professor Otolaryngology, Head and Neck Surgery
+  :profile_pic:
+    :id: 7rIGE2x6zSQqqK0CsKaoQ
+  :bio_short: Gregory A. Ator, MD, is Chief Medical Informatics Officer for the University
+    of Kansas Health System and an associate professor of Otolaryngology - Head and
+    Neck Surgery at the University of Kansas Medical Center.
+  :profile_linkedin: gregoryatormd
+  :location:
+    :lat: 39.0549176
+    :lon: -94.60904370000003
+:tags:
+- :id: 3rO97bU0piC0CI0eOg6ksI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:14:21+00:00'
+    :created_at: '2016-11-22T20:14:21+00:00'
+    :id: 3rO97bU0piC0CI0eOg6ksI
+  :tag_full: Engagement
+  :slug: engagement
+  :description: Typically "patient engagement", or ways to assist and interact with
+    the people being helped in healthcare systems.
+:summary: 'Gregory A. Ator, MD discusses how and why even though its a positive development
+  overall, most doctors say technology has made them less productive, not more.  '
+:lead: Digital health technology has been around for some time, and it’s not been
+  a completely positive development for medicine. With all the focus on standardization
+  and cost-savings, I think we've lost the appreciation in technology for the doctor-patient
+  relationship. Most doctors might say technology, as currently implemented, has made
+  them less productive not more.
+:post: "But now the field of digital health systems is in a state of flux, and there
+  is great potential to improve the physician experience. We need to work to ensure
+  that technology can help, and not impede, that experience. \n\nThe work of the physician
+  has always been about making good decisions that are informed by the specific circumstances
+  of the patient in front of you. Ideally as a doctor you have a conversation that
+  takes the patient through what’s wrong and the various treatment options. You have
+  a data source, and it would be nice to have a little genetic information as well.\n\nWe
+  need this relationship to be at the core of any technology we introduce. I think
+  it would be great to go into a room with a patient and have the conversation recorded.
+  You would verbalize the physical exam, do some medical decision-making, develop
+  a plan, and educate the patient. Then an extract would go to the patient, with various
+  links helping them to digest that information. When you get back to your desk with
+  the list of patients for the day, that conversation is right there. You validate,
+  tweak it a little bit, receive and act on any clinical decision support, and then
+  you’re done. What we do now is we have that conversation with the patient, and then
+  we come back out and do it again to fill out the records. \n\nThat gets the documentation
+  out of the way of the doctor doing what they do, which is making decisions. Carefully
+  bolting on smarter technology is how I see IT playing a role toward bringing the
+  joy back to the workflow, and giving physicians more control over the tools that
+  they're using. \n\n> The opportunity to improve the physician experience is more
+  likely to come from digital and mobile solutions than the large vendors running
+  our systems for electronic health records. I think we’re going to use the big vendors
+  to run the general business, of course, but go externally to specialty firms for
+  add-ons and extensions to do this work.\n\nI don't think big vendors are agile enough,
+  particularly when you have multiple moving pieces. I’m seeing this in my own work
+  at the University of Kansas Medical Center, where we are in the midst of a big project
+  with a number of initiatives around redesigning our ambulatory support structure.\n\nInteroperability
+  is a huge challenge, even starting with some core questions like what patient are
+  we talking about? I’ve seen a statistic that if you're talking to a Mary Smith,
+  there's about a ten percent chance she is not the Mary Smith you think she is. With
+  human frailties and technological limitations involved in collecting information
+  about patients, it’s hard to ensure you are tying all the different versions together.
+  \n\nMedicare and insurance companies can take big strides toward fixing inoperability
+  by just stating, for example, that they are not going to pay for an advanced imaging
+  study on the same body part within a month of one another. Suddenly providers are
+  going to figure out how to look at each other's exams. We should think about how
+  to start aligning incentives to promote innovation and a new way of doing things.\n\n>
+  Until now, we’ve treated our patients as one size fits all when it comes to digital
+  health technology. We as physicians know how to modulate our vocabulary to our patients,
+  because we’re trying to communicate rather than talk at people. So how do our systems
+  and our entire enterprise start to figure that out?\n\nAn intriguing approach is
+  to stratify patients and then tailor the technology. We're going to have about 10
+  more years before old geezers like me are out of the decision-making seat, and we're
+  starting to compete for digital native patients. The twenty to thirty year olds
+  that are starting to become our patients don't even know what a travel agency is.
+  That's going to be interesting as they become health care consumers and decision
+  makers. \n\nWe need to think more like a retail business. In clothing sales, you
+  can now see a virtual reality display of what a shirt would look like if you were
+  wearing it. That's a much more digitalized retail experience than just pictures
+  of somebody that looks like you. We need to be figuring out the health care equivalent
+  of the salty snack crowd vs the fitness crowd. I don't think we can treat patients
+  who don't have a single book in their house the same way you might treat a university
+  professor. I don’t in the office and we must not in the enterprise. Same care standards
+  but delivery, interactions, etc. must vary.  \n\nWhen you modulate your approach
+  to technology based on patient stratification, you know what tool is best to the
+  gear heads, and what works for those folks who spend their time reading.\n\nUpstart
+  technology firms are well placed to do this. I think the big vendors are ripe for
+  disruption, and there is evidence they are starting to pay attention as well. I’m
+  optimistic we will soon see technology that will redirect our focus to the doctor-patient
+  experience."

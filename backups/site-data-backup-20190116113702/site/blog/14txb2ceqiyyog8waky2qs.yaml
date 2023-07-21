@@ -1,0 +1,520 @@
+---
+:id: 14txB2cEqiYYog8waky2Qs
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-10-09T17:51:50+00:00'
+  :created_at: '2018-10-09T17:51:50+00:00'
+  :id: 14txB2cEqiYYog8waky2Qs
+:title: The Internal ROI of HITRUST
+:slug: the-internal-roi-of-hitrust
+:pub_date: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 5fjEF8FoXmQQUAwgswSao8
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-05-16T16:32:51+00:00'
+    :created_at: '2017-05-16T16:32:51+00:00'
+    :id: 5fjEF8FoXmQQUAwgswSao8
+  :tag_full: Healthcare Cloud
+  :slug: healthcare-cloud
+  :description: How cloud computing helps with innovation in health systems
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: 'As demonstrated in many ways here at Datica, there is a clear ROI with
+  leveraging HITRUST as your anchoring compliance framework. '
+:blog_lead: 'At Datica, we’ve written extensively about the [cost of HITRUST](https://content.datica.com/what-is-the-cost-of-hitrust-csf-certification).
+  The truth is, it’s an expensive process — not just the first time you do it but
+  on an ongoing basis. To maintain a HITRUST Certification takes a lot of people hours
+  and [real dollars for 3rd party assessors](https://hitrustalliance.net/csf-assessors/)
+  and to HITRUST itself. That said, there is a [clear ROI](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)
+  with leveraging HITRUST as your anchoring compliance framework.
+
+'
+:post: "\nIn the past, we have only considered the external ROI of HITRUST which,
+  for Datica at least, meant differentiation in the market, speed to close and implement
+  new deals, and a general trust factor that would typically be reserved for larger
+  organizations. A recurring topic of discussion at the HITRUST conference last month
+  was the different forms of ROI for HITRUST, with internal ROI being discussed at
+  length by many organizations, large and small. I quickly came to realize that the
+  ROI for HITRUST is just as much internal as it is external. \n\nLet me explain in
+  the context of Datica.\n\nAt Datica, we built our initial compliance program, from
+  policies through implementation (link to academy post on maturity model), for healthcare
+  and specifically to meet HITRUST CSF controls. This was five years ago. We’ve since
+  leveraged the HITRUST CSF for [SOC2](https://datica.com/academy/soc-2-type-ii-compliance-for-cloud-computing/)
+  and most recently [GDPR assessments](https://datica.com/guide/gdpr-compliance/).
+  As the HITRUST CSF has matured, our compliance posture has matured along with it.
+  And the entire process of working with HITRUST has shaped all of our internal activities,
+  from product to marketing and sales.\n\nTo fully appreciate the internal ROI we
+  get from HITRUST, the example of our new product design and development serves to
+  highlight how HITRUST permeates all areas of Datica. We decided in 2017 to develop
+  a [new product based on Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+  We did this because the market was increasingly interested in Kubernetes and the
+  offerings from cloud providers like AWS were not covered under a BAA (currently
+  none of the major Kubernetes services available are HITRUST Certified except for
+  Datica’s). In developing our Kubernetes roadmap, we started with a list of HITRUST
+  controls we had to meet to comply with our policies and certifications. We then
+  used this set of controls to ensure we implemented the proper technology around
+  Kubernetes — networking, backup, IDS, container security, certificates, etc. The
+  product requirements, based on HITRUST, were unambiguous to our product and engineering
+  teams, and it was a light lift for our security and compliance people to sign off.\n\nEven
+  our sales and marketing people leverage the HITRUST maturity model to differentiate
+  our products from our competitors in the market.\n\nOther examples are the recent
+  free guides we published on how to secure common managed cloud databases to comply
+  with HITRUST. The specific HITRUST controls are listed with each step. Here is the
+  [AWS RDS guide](https://datica.com/academy/aws-rds-guide-how-to-configure-rds-to-comply-with-hipaa-and-hitrust/).\n\nHITRUST
+  trickles down to all people at Datica. It takes away the subjective “the security
+  officer says this,” and instead provides a published set of controls. This is hard
+  to quantify with a dollar value but [it is a significant ROI](https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/).
+  What is interesting is that these examples, and this theme, were repeated time and
+  time again at the [HITRUST conference](https://datica.com/blog/hitrust-2018-a-fantastic-event/).
+  \n\nLooking forward, we are aligning our internal compliance structure and compliance
+  operations even more around HITRUST. We are currently in the process of re-writing
+  our policies and procedures (look for an announcement with new open source tools
+  soon) and we are doing it with each compliance action and activity mapped to specific
+  HITRUST controls. We are doing this to give us a constant set of guardrails and
+  to ease the burden, both to us and our assessors, of our annual HITRUST assessments.
+  \n\n"
+:featured_image:
+  :title: blog-roi-hitrust-featured
+  :description: Internal ROI HITRUST featured image
+  :url: "//images.ctfassets.net/189dvqdsjh46/1QMlRFoxry2K6ga0wIQ2mM/d0f453a82a3708d216f3fec07275418d/blog-roi-hitrust-featured.jpg"
+  :_meta:
+    :updated_at: '2018-10-09T17:48:53+00:00'
+    :created_at: '2018-10-09T17:48:53+00:00'
+    :id: 1QMlRFoxry2K6ga0wIQ2mM
+:share_image:
+  :title: blog-roi-hitrust-share
+  :description: Internal ROI HITRUST social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4FS6yMSX4IUeaiUiwqQWcw/67ddce39d7dd59937910602e55e58b49/blog-roi-hitrust-share.jpg"
+  :_meta:
+    :updated_at: '2018-10-09T17:49:24+00:00'
+    :created_at: '2018-10-09T17:49:24+00:00'
+    :id: 4FS6yMSX4IUeaiUiwqQWcw
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 5ib7dvnVleYaQsekmGSGUS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-12-07T18:46:24+00:00'
+    :created_at: '2018-09-18T18:29:06+00:00'
+    :id: 5ib7dvnVleYaQsekmGSGUS
+  :title: HITRUST 2018 — A Fantastic Event
+  :slug: hitrust-2018-a-fantastic-event
+  :pub_date: !ruby/object:DateTime 2018-09-17 00:00:00.000000000 Z
+  :tags:
+  - :id: 1Gu6LdZ7vu4ooKM4eEaems
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HITRUST 2018 was different. Not evolutionarily different from previous
+    years, but drastically different. HITRUST did a great job updating this conference
+    into a fantastic event.
+  :blog_lead: The HITRUST Conference in 2018 was different. Not evolutionarily different
+    from previous years, but drastically different. And in good ways. Everything,
+    from the venue to the sessions to the attendees, was impressive. HITRUST did a
+    great job updating this conference into a fantastic event.
+  :post: |2
+
+    ## HITRUST 2018 was all about the cloud
+
+    In terms of the content, the major change was the focus on cloud. We’ve been attending the conference for four years and I feel like Datica (Catalyze at the time) was the only organization talking about the cloud at the HITRUST conference four years ago. Almost every session I attended this year was focused on the cloud or had the cloud as the underlying context for the session. This reflects the broader shift in the market but is well timed for HITRUST as most attendees were beginning their journeys to the cloud and doing it with HITRUST as the anchoring framework for that journey.
+
+    ## New HITRUST Shared Responsibility Program
+
+    Along those same lines, HITRUST is working hard to embrace the cloud and announced its [Shared Responsibility Program]( https://hitrustalliance.net/hitrust-program-addresses-security-risks-inefficiencies-leveraging-cloud-service-providers/) this week to coincide with the conference. Shared Responsibility is tied directly to compliance on the cloud as vendors work with CSPs, SaaS vendors, and other cloud platform companies offering solutions for various aspects of infrastructure. It is good to see HITRUST pushing this forward by offering a Shared Responsibility Program that I hope will extend and add value to the [shared responsibility models](https://datica.com/compliance/) currently in existence from cloud vendors.
+
+    The sessions themselves, both the breakout and the main room sessions, were well thought out and the speakers I saw were good. Most of the speakers had real-world experience with the topics they were discussing, something I don’t always see at conferences. Engagement from attendees was good as well; most sessions had a healthy amount of interaction between speakers and the audience.
+
+    ## Smaller organizations were featured
+
+    One thing I particularly appreciated about the event was the sessions that involved smaller organizations. Four years ago, the speakers I remember were either from HITRUST or from large payors. This year’s event featured many speakers from smaller entities, [Datica included](https://datica.com/events/hitrust-2018/). This reflects the goal of HITRUST to engage the smaller end of the market, from startups to growth stage vendors, looking to anchor on a compliance framework, which is smart because the agility of smaller organizations means that is where a lot of innovation is currently found. I think educating vendors is the best way to get them to adopt HITRUST and to ultimately help HITRUST become a de-facto standard across both sides of the market—large enterprises and their vendors or partners.
+
+    ## The Complete Cloud Compliance book was introduced
+
+    <img class="lozad float-right" data-src="//images.ctfassets.net/189dvqdsjh46/1FgejTHp2I4owc84SQa8mW/78ff54d79f2c40b6f70bb5e96c7a6efb/compliance-book-pages-thumb.png?fm=jpg&w=400" src="//images.ctfassets.net/189dvqdsjh46/1FgejTHp2I4owc84SQa8mW/78ff54d79f2c40b6f70bb5e96c7a6efb/compliance-book-pages-thumb.png?fm=jpg&w=200&q=20" alt="Complete Cloud Compliance" width="200" />
+
+    On a personal note, we launched our book [Complete Cloud Compliance](https://completecloudcompliance.com/) this week and were offering free, and sometimes signed, copies for conference attendees. Underscoring the theme of cloud this week, the response to the book was huge. We underestimated demand for the book and had to overnight additional copies to ensure we had some for the final day of the conference. We are now out of books, but will have more in the coming weeks. [Sign up to get a download of chapter 2](https://datica.com/innovation/complete-cloud-compliance-chapter-2/) of the book now, and to be notified when general purchase is available on Amazon.com.
+  :featured_image:
+    :id: 4UDUs1hfaM6m4EogOEaoc0
+  :share_image:
+    :id: 6EhEUfdxp6U8IMy6aUuUQS
+  :cta_ref:
+    :id: 36zZKUG51CaoweqoOGWYae
+  :related_entries:
+  - :id: 3uQywHEIByGkOkqMak4ywc
+  - :id: 3lzG8iBWBquS8cQeWG0G8i
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 4JnlCCI6bmImGWMeygEUQw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2019-01-10T23:15:32+00:00'
+    :created_at: '2018-07-02T22:23:10+00:00'
+    :id: 4JnlCCI6bmImGWMeygEUQw
+  :title: 'Best Practices are Best Practices: How Datica Handles Global Compliance'
+  :slug: best-practices-are-best-practices-how-datica-handles-global-compliance
+  :pub_date: !ruby/object:DateTime 2018-07-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 46srurONA4UMuqge4Eek4S
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'Datica''s ability to serve international compliance regimes stems from
+    a philosophy exemplified by HITRUST: one framework, many regimes. Read about our
+    global compliance posture.'
+  :blog_lead: 'Datica''s compliance roots start in healthcare with HIPAA, a regulatory
+    framework found in one of the most conservative industries in the world. For much
+    of our early years, we were healthcare-only, consistently providing the best [HIPAA
+    compliance](https://datica.com/discover/hipaa-compliance/) management option on
+    top of the public cloud.
+
+'
+  :post: |2
+
+    ## Best practices are best practices
+
+    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica.com/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
+
+    The nearly year-long exercise was a catalyst for our compliance team to innovate on how we could be bigger than just GDPR. We took a look at compliance holistically, and globally, to come up with a strategy that will allow us to better serve customers across industries and geographies.
+
+    The result is simplified with a phrase we use internally: _Best Practices are Best Practices_.
+
+    ## The Datica global compliance roadmap
+
+    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica.com/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
+
+    HITRUST has done a great job of aiming for big goals. With version 9.1 of the CSF, we believe there are few better options for the most stringent and comprehensive compliance auditing framework on the cloud. The HITRUST CSF is our DNA framework.
+
+    By using HITRUST, we will crosswalk the CSF to other geographies and compliance regimes, thus accelerating our ability to support compliance attestations in those areas. Certainly unique considerations will exist in respective geographies before we can officially support compliant deployments of the Datica Platform in a country, but the CSF will get us almost all the way there in all cases.
+
+    As has been the drumbeat since [Datica's founding in 2013](https://datica.com/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
+
+    <img class="lozad group" data-src="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=600" data-srcset="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=800 1000w, //images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png 1200w" alt="global compliance stance table" />
+
+    The table is simple:
+
+    * We list geographies and certain regimes that matter in those geographies.
+    * One column states if that regime is currently supported by the platform.
+    * Another column states if we have plans to support it someday.
+    * And lastly, for those we plan to support, we give a broad estimation to when the HITRUST crosswalk will be done along with any additional specific requirements for the respective regime.
+
+    This table will be updated a lot throughout 2018 as we test our compliance posture against new regimes.
+
+    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica.com/cloud-compliance/global/) page of our website.
+
+    In short, we plan to take HITRUST global to both geographies and regimes that we haven't previously supported. We want to be the best compliance management option for cloud native applications across the world.
+  :featured_image:
+    :id: 6M3Zvt8WlOUsY4mSAAIESk
+  :share_image:
+    :id: QNFeeoIWceYQI0Ko8gI8O
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 20YHiTYApqcUS4sEqGSIyS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-17T20:41:28+00:00'
+    :created_at: '2017-06-30T00:59:09+00:00'
+    :id: 20YHiTYApqcUS4sEqGSIyS
+  :title: 5 Steps to HITRUST CSF Certification
+  :slug: 5-steps-to-hitrust-csf-certification
+  :pub_date: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Complying with HIPAA and proving it are two very different things. Datica
+    is HIPAA compliant AND can prove it with our HITRUST CSF certification.
+  :blog_lead: |-
+    > “If I’m being honest, I’d tell that the process we went through to achieve HITRUST CSF Certification was incredibly painful. It was time consuming and resource intensive beyond our wildest expectations. Personally, as the Datica Privacy Officer and point person for HITRUST, I was taxed beyond anything I expected.”   — [Dr. Travis Good](https://datica.com/about/travis/), Co-founder, CEO, and Chief Privacy Officer, Datica
+
+    Complying with [HIPAA](https://datica.com/discover/hipaa-compliance/) and proving it are two different things. Datica is HIPAA compliant. We can point you to the [documentation](https://hipaa.datica.com/) we’ve created to show how we comply with all the various HIPAA rules. But, ultimately, because there is no true HIPAA certification, the only way to *[prove HIPAA compliance](https://datica.com/academy/proving-hipaa-compliance/)* is to go through [3rd party audits](https://datica.com/academy/hipaa-auditing-and-logging/) as we have at Datica. Our customers leverage those audits to prove the infrastructure they use is HIPAA compliant. Basically, we do all this work to make proving compliance easier for our customers.
+  :post: "\nUnlike many other technology companies who claim to be [HIPAA compliant](https://datica.com/discover/hipaa-compliance/),
+    we have definitive validation and proof in the form of our [HITRUST CSF Certification](https://datica.com/discover/hitrust/).
+    HITRUST, for those that don’t know, is an industry-driven attempt to create a
+    prescriptive, standardized, repeatable compliance framework that all organizations
+    in healthcare can trust.\n\n\n## The 5 <strike>Simple</strike> Painful Steps to
+    HITRUST CSF Certification\n\nWe went through our first [HITRUST CSF audit alongside
+    Coalfire](https://datica.com/compliance/) — a 3rd party auditor — in 2015 and
+    are now in the midst of our 2017 renewal audit. After going through this a few
+    times now, we can summarize the HITRUST CSF Certification process with these five
+    giant steps. It’s an involved process and there are no shortcuts. A company considering
+    HITRUST Certification must traverse the same steps.\n\n### Step 1: Investigate
+    the process\n\nThere are different ways to conduct an audit and the first undertaking
+    is for the company to work with their auditor (for example, [Coalfire](https://www.coalfire.com/))
+    to make a decision about which kind of audit to do. HITRUST CSF is fast becoming
+    the standard, but many auditors have proprietary auditing processes that are also
+    an option. When Datica went through this step, and in an effort to move from HIPAA
+    to HITRUST CSF Certification, Datica executives and employees spent considerable
+    time researching the domains of HITRUST.\n\n### Step 2: Scope the project with
+    the chosen HITRUST CSF Assessor\n\nThis step is fairly straightforward involving
+    the estimation of time and cost. In this part of the process, it’s determined
+    how many and which of the 19 total HITRUST domains, dozens of controls, and 700+
+    potential requirements apply to the company. Controls vary depending on the type
+    of company and products being certified. For exmaple, a cloud platform like Datica
+    has several hundred requirements that apply to us whereas a company that is not
+    cloud based may have a completely different set of controls and requirements that
+    apply to them. We have all the details about the domains, controls, and requirements
+    that applied to Datica which we'll describe in a future [Acadmy article](https://datica.com/academy/).
+    Subscribe to the right so you don’t miss that.\n\n### Step 3: Complete the CSF\n\nA
+    sizeable amount of documentation is involved during the completion, including
+    policies, risk assessments, as well as technical documentation and configurations.
+    This can take 3-6 months the first year and around 2 months for subsequent audits.
+    The amount of time this takes is highly dependent on the full scope of each company's
+    audit determined in step 2. \n\n### Step 4: Validate the CSF with assessor \n\nThe
+    company will need to provide evidence for entries in the CSF. This part of the
+    process can take 4-5 weeks.\n\n### Step 5: Certify the CSF with HITRUST Alliance\n\nAlmost
+    there! This is the lengthiest part of the process, with it taking up to 18 months
+    for lawyers at the HITRUST Alliance to audit the audit involving back and forth
+    on specific line items. Now that HITRUST CSF is becoming the standard way to conduct
+    HIPAA compliance audits, the volume of requests going through HITRUST has increased
+    from just hundreds in 2016 to thousands now in 2017. Once this step is complete,
+    the company receives a HITRUST CSF certificate. \n\n## Rinse and Repeat\n\nThis
+    whole process needs to be completed on an annual basis but the good news is it’s
+    much faster, slightly easier,  and potentially [less expensive](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)
+    the second time around. HITRUST isn’t easy, and it shouldn’t be. The experience
+    we’ve gained as a company and the extensive testing of our technology brings great
+    value to our customers. The best news of all of this for Datica customers is that
+    HITRUST allows for inheritance, which means if you are planning to obtain your
+    own CSF certification, you can inherit Datica’s certificate to shortcut an average
+    of 40% of the time and costs of the process.\n"
+  :featured_image:
+    :id: 1zvvE9oj9GGycGS8UWqqgm
+  :share_image:
+    :id: 6C9vg8Q1KECuaQsuC4MWgg
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4tO4SNTLtYQQwgYIiO4064
+  - :id: 4nqoX9BAmQ2uUoqGy2yEI6
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 6eCTfgRx9CgUm4ciIosc82
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2017-12-01T22:17:30+00:00'
+    :created_at: '2017-05-31T05:26:36+00:00'
+    :id: 6eCTfgRx9CgUm4ciIosc82
+  :title: HITRUST
+  :slug: hitrust
+  :topic_tag:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :summary: Learn what HITRUST is, what the HITRUST CSF framework defines, and what
+    it takes to become HITRUST CSF Certified in this comprehensive overview of HITRUST.
+  :featured_image:
+    :id: UOp6isCiicwSy4uKwo666
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :lead: Leaders of healthcare providers, payers and third party vendors have formed
+    an alliance to regulate the interpretation of healthcare’s inconsistent view of
+    standards. That alliance is called HITRUST and provides a common security framework
+    (CSF). The HITRUST CSF is rapidly becoming the future of healthcare compliance
+    validation.
+  :body: "## What is HITRUST?\nThe Health Information Trust Alliance (HITRUST) is
+    an organization who, in partnership with technology and information security leaders,
+    created and maintains the HITRUST Common Security Framework (CSF). \n\n<div class=\"callout
+    drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n### HITRUST
+    Essentials\n* [The HITRUST Guide](https://datica.com/guide/hitrust/)\n* [What
+    is HITRUST?](https://datica.com/academy/what-is-hitrust/)\n* [What is the HITRUST
+    Framework?](http://content.datica.com/what-is-the-hitrust-framework)\n* [The Purpose
+    of HITRUST's Business Associate Council](https://datica.com/blog/the-purpose-of-hitrusts-business-associate-council/)\n*
+    [The Truth about HITRUST and Why it Should Become the Industry Standard](https://datica.com/blog/the-truth-about-hitrust-and-why-it-should-become-the-industry-standard/)\n*
+    [HITRUST Inheritence](https://datica.com/blog/hitrust-inheritance-the-most-important-compliance-announcement-of-the-year/)\n\n</div>\n\nThe
+    HITRUST CSF is a certifiable framework that encompasses and harmonizes several
+    other compliance frameworks and standards including HIPAA, HITECH, PCI, ISO/IEC,
+    COBIT, NIST RMF, and varying state requirements. This framework serves as a system
+    infrastructure roadmap for healthcare organizations to certify that they securely
+    create, access, store, or transmit protected health information (PHI).\n\n## Why
+    does HITRUST matter?\nAs healthcare is becoming further dependent on evolving
+    technologies to store and transmit data, cybersecurity and compliance have become
+    a progressively emphasized, yet convoluted, matter. Navigating the tortuous labyrinth
+    of federal, state and third party security mandates has become a feat that can
+    quickly consume an organization’s resources.\n\nIf that isn’t enough, getting
+    through all of the twists, turns, and pitfalls to achieve compliance are only
+    half the battle. Healthcare organizations and IT vendors must also prove their
+    compliance to guarantee they are a trusted business partner. In fact, many large
+    hospitals and health systems are now highly recommending that business associates
+    and partners pursue HITRUST certification. Already the most widely adopted assessment,
+    the CSF Assurance Program is forcing business associates to assess and report
+    on their data privacy and security position or risk losing their contracts and
+    renewals with healthcare systems.\n\nMany people ask how to prove HIPAA compliance
+    and the answer to that question is with HITRUST CSF certification.\n\n## What
+    is the HITRUST Common Security Framework (CSF)?\nThe HITRUST CSF is divided into
+    nineteen different control domains and defines one hundred thirty five specific
+    controls within those domains that can be implemented at three different levels.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HITRUST Certification Resources\n* [Datica's Journey to HITRUST CSF Certification](https://datica.com/compliance/)\n*
+    [The Cost of HITRUST CSF Certification](http://content.datica.com/what-is-the-cost-of-hitrust-csf-certification)\n*
+    [What is a HITRUST CSF Self Assessment](http://content.datica.com/what-is-a-hitrust-csf-self-assessment)\n*
+    [What is HITRUST CSF Certification](http://content.datica.com/what-is-hitrust-csf-certification)\n*
+    [What are HITRUST Requirements](http://content.datica.com/what-are-hitrust-requirements)\n*
+    [HIPAA vs HITRUST](http://content.datica.com/hipaa-vs.-hitrust)\n* [Who is HITRUST
+    CSF Certified?](http://content.datica.com/who-is-hitrust-csf-certified)\n\n</div>\n\n###
+    19 Control Domains\n1. Information Protection Program\n2. Endpoint Protection\n3.
+    Portable Media Security\n4. Mobile Device Security\n5. Wireless Protection\n6.
+    Configuration Management\n7. Vulnerability Management\n8. Network Protection\n9.
+    Password Management\n10. Access Control\n11. Audit Logging & Monitoring\n12. Education,
+    Training & Awareness\n13. Third Party Security\n14. Incident Management\n15. Business
+    Continuity & Disaster Recovery\n16. Risk Management\n17. Physical & Environmental
+    Security\n18. Data Protection & Privacy\n19. Transmission Protection\n\n### 135
+    Specific Controls with 3 Implementation Levels\nIn addition to the above domains,
+    HITRUST has defined one hundred thirty five specific controls. For each of those
+    controls, three distinct implementation levels exist. Each implementation level
+    builds on the one before it, with level three having the most stringent set of
+    requirements. \n\nImplementation levels in the CSF are determined for each organization
+    based on their risk profile, accounting for aspects like the size of an organization
+    and the number of stored health records. \n\n## The HITRUST CSF Assessment\nThe
+    first thing that happens with a HITRUST assessment is information gathering on
+    the entity being assessed. This information is used to gauge the organization,
+    system, and regulatory requirements for the assessment to determine the risk and
+    scope. In contrast to HIPAA, which subjectively states that controls should be
+    implemented that are “reasonable and appropriate,” HITRUST is prescriptive in
+    dynamically assigning implementation levels for each requirement.\n\n### 3 Degrees
+    of Assurance\nThe three Degrees of Assurance are essentially levels of assessment
+    that align with cost, level of effort, amount of time, and rigor. Each level builds
+    on the one before it: \nA Self Assessment results in a HITRUST issued CSF Self
+    Assessment Report.\nCSF Validated means a third-party, HITRUST-approved CSF Assessor
+    has verified the information gathered by the organization completing the assessment
+    with an onsite visit. A Validated Report is the outcome.\nCSF Certified means
+    the organization meets all of the certification requirements of the CSF. This
+    builds on the CSF Validated assessment in that HITRUST reviews and certifies the
+    entries of the organization and the validation of the third party assessor. \n\n###
+    How Long Does CSF Certification Take?  \nIt varies on the size and complexity
+    of the organization but, in the case of Datica, it took three to four months.\n\n###
+    How Much Does HITRUST Cost?\nThe total cost of the HITRUST Assessment is $60,000-$80,000,
+    including estimated direct and indirect costs as appraised by Datica's compliance
+    experts. If you are considering HITRUST, cost is not the only consideration. Audits
+    are time consuming and distracting, factors that are hard to quantify. Not only
+    that, but the process needs to be repeated on an annual basis. \n\nHITRUST isn’t
+    easy, and it shouldn’t be. The experience Datica has gained as a company and the
+    extensive testing of our technology brings great value to our customers. Our HITRUST
+    Certification is helping our customers prove their applications and data are secure
+    by being an even more compelling proof than our HIPAA audits. If you’re already
+    a Datica customer, there’s nothing you need to do; the Datica Compliant Cloud
+    infrastructure you’re hosting on is HITRUST CSF Certified."
+  :related_blog:
+  - :id: 6ohESCsO2coISmaMGS6YES
+  - :id: 1AzWUkeF6QUSk6C6E6ww6o
+  - :id: 3Krmfk5k08oq004qQIiYkg
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 2EuEhl4RAQsuUyuWsCQeEq
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  :related_academy:
+  - :id: 3xrZxi1Z8caYQOG0EagsGo
+  :related_guides:
+  - :id: 1t0tIH6KWIyWAAk6iS2Se2

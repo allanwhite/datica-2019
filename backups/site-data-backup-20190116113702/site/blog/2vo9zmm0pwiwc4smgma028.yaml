@@ -1,0 +1,670 @@
+---
+:id: 2VO9zmm0pWIWC4smgMA028
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-15T17:01:26+00:00'
+  :created_at: '2018-08-14T18:22:52+00:00'
+  :id: 2VO9zmm0pWIWC4smgMA028
+:title: Welcome to a New and Improved Datica.com!
+:slug: new-and-improved-datica-website
+:pub_date: !ruby/object:DateTime 2018-08-14 00:00:00.000000000 Z
+:tags:
+- :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-05-09T22:21:17+00:00'
+    :created_at: '2018-05-09T22:21:17+00:00'
+    :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :tag_full: Kubernetes
+  :slug: kubernetes
+  :description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications.
+  :body: "It groups containers that make up an application into logical units for
+    easy management and discovery. Kubernetes builds upon 15 years of experience of
+    running production workloads at Google, combined with best-of-breed ideas and
+    practices from the community.\n\n"
+  :url: https://kubernetes.io/
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+- :id: 2N5tHYYAG40GgW2wKoAGka
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-09-29T19:35:38+00:00'
+    :id: 2N5tHYYAG40GgW2wKoAGka
+  :product_name: Compliant Managed Integration
+  :slug: compliant-managed-integrations
+  :type: integrations
+  :description: Secure, compliant, flexible EHR integration.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'If you’ve visited datica.com over the past few years, you’ve seen it evolve
+  through branding and product name changes. Today, we''re pleased to share the latest
+  and greatest version. '
+:blog_lead: 'At Datica, we strive to have our website visitors leave feeling more
+  enlightened than confused — enlightened about best practices in healthcare compliance
+  and integrations, as well as enlightened about who we are and what our products
+  and services do. We’ve gone through several revisions of our website and, particularly,
+  our product pages as we work to achieve the delicate balance of providing clarity
+  on how Datica products and services work without going overboard on the technical
+  details. The technology necessary to meet the compliance and interoperability requirements
+  of healthcare in the cloud is not an easy thing to understand but we hope we’ve
+  succeeded in making it at least a little bit easier with the recent re-envisioning
+  of [datica.com](https://datica.com/). '
+:post: "If you’ve visited the Datica website over the past few years, you’ve seen
+  it evolve through this process, from company branding and product name changes to
+  updates to the Academy, Blog, and other resources. Today, I’m pleased to share the
+  latest and greatest version. \n\nHere are a few of the highlights of what’s new
+  at Datica.com:\n\n## Compliant Kubernetes Service\n\n<img class=\"float-right thumbnail
+  lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/5WYWIEoNNKEMi08AwCIYM8/72eb1ec13bfe2c79f2c329781505565a/cks-thumb.jpg?w=300\"
+  width=\"150\" alt=\"CKS\" />\n\n[Compliant Kubernetes Service](https://datica.com/compliant-kubernetes-service/)
+  (CKS) product page. We recently relaunched our compliant cloud product, moving it
+  from the legacy PaaS platform to the much more scalable, open, and flexible Kubernetes
+  service. We’ve written about the differences between a [PaaS and Kubernetes](https://datica.com/blog/kubernetes-vs-paas/)
+  in case you’re wondering why we made the move to Kubernetes. The new CKS page will
+  hopefully answer all your questions about the key features and benefits of the Datica
+  CKS. When you’re ready for more details, you can easily schedule a demo right from
+  that page.\n\n## Compliant Managed Integration\n\n<img class=\"float-right thumbnail
+  lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/13fTTGMl9YWcCCoOgicaII/8c6de55e6cfde58ad27824938ee57b74/integration-thumb.jpg?w=300\"
+  width=\"150\" alt=\"Integration\" />\n\n[Compliant Managed Integration](https://datica.com/compliant-managed-integration/)
+  (CMI) product page. With millions of monthly messages passed through Datica’s platform
+  from more than 200 sites, we have the track record to understand the intricacies
+  of integrating with an EMR system. This new CMI product page details the full suite
+  of integration tooling you need to successfully complete an integration product
+  with a clinical site. You can schedule a call with a Datica expert right from that
+  page to get your integration project started.\n\n## Datica Webinars\n\n<img class=\"float-right
+  thumbnail lozad\" data-src=\"//images.ctfassets.net/189dvqdsjh46/4fOHWZhIggmsICuggKm8m0/cad2048e8f83456f67881149b2cf3d82/webinars-thumb.jpg?w=300\"
+  width=\"150\" alt=\"Webinars\" />\n\n[Webinars](https://datica.com/webinars/) are
+  now recorded and available for you to watch anytime. If you’re trying to understand
+  how Kubernetes fits into the big picture of compliance, you might be interested
+  in watching two recent webinars by our CTO & CSO, Christopher Gerg. Start with [Kubernetes
+  and Healthcare Compliance](https://datica.com/webinars/kubernetes-and-healthcare-compliance/)
+  for a general overview of how Datica makes Kubernetes clusters compliant to HIPAA,
+  HITRUST, GxP, GDPR, and SOC 2 requirements, then watch [Kubernetes and HITRUST compliance](https://datica.com/webinars/kubernetes-and-hitrust-compliance/)
+  to get more specifics about deploying a Datica CKS cluster how we make HITRUST CSF
+  certification possible on Kubernetes. You’ll also find other webinars of interest
+  from multiple Datica compliance and integration experts on the new webinar page.\n\n##
+  Discover Compliance Topics\n\nThe [Discover Pages](https://datica.com/discover/)
+  aren’t as new as some of the other pages but are worth pointing out in case you’ve
+  missed them. Here, you’ll find resource hubs devoted to specific topics, such as
+  [HIPAA Compliance](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+  [HIPAA Compliance on AWS](https://datica.com/discover/aws-hipaa/), and more. These
+  hubs serve as central informational repositories, compiled by topic,  for the educational
+  content from the [Datica Academy](https://datica.com/academy/), [Innovation Hub](https://datica.com/innovation/),
+  or [Blog](https://datica.com/blog/). \n\nWe hope the new and improved website answers
+  your questions about industry best practices in general, and specifically about
+  Datica products and services. As always, we’re here to help you succeed and are
+  happy to answer any questions you still have so [reach out to us](https://datica.com/contact/)
+  anytime."
+:featured_image:
+  :title: bridge - everaldo-coelho-486011 pano, small
+  :description: wide, background, bridges
+  :url: "//images.ctfassets.net/189dvqdsjh46/1JhXeTdM8wIegSWW8wy06O/2eb3e79b55692b32994c8309019f6fdb/bridge_-_everaldo-coelho-486011_pano__small.jpg"
+  :_meta:
+    :updated_at: '2018-08-14T17:31:17+00:00'
+    :created_at: '2018-08-14T17:31:17+00:00'
+    :id: 1JhXeTdM8wIegSWW8wy06O
+:share_image:
+  :title: blog-summer-18-updates-share
+  :description: CKS
+  :url: "//images.ctfassets.net/189dvqdsjh46/GHq94VbP8aSCGseqayowg/137758aab9d97beb28596b2bd4030459/blog-summer-18-updates-share.jpg"
+  :_meta:
+    :updated_at: '2018-08-14T17:31:46+00:00'
+    :created_at: '2018-08-14T17:31:46+00:00'
+    :id: GHq94VbP8aSCGseqayowg
+:cta_ref:
+  :id: 6KOQ7XhaJqCI00oYacessy
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-08-14T18:18:47+00:00'
+    :created_at: '2017-08-16T22:18:25+00:00'
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :cta_title: Schedule your Datica CKS demo today
+  :cta_desc: See how the Datica Platform makes your cloud applications HIPAA, HITRUST,
+    GDPR, and GxP compliant on AWS and Azure.
+  :cta_label: Schedule a demo
+  :cta_url: https://datica.com/demo/
+  :cta_image:
+    :id: 4l2nKsTXwkc2kauya8W6SW
+  :cta_color: dark-alt
+:related_entries:
+- :id: 1ITEzHLxx2QIaK4YagEecK
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:32:59+00:00'
+    :created_at: '2018-06-21T23:38:52+00:00'
+    :id: 1ITEzHLxx2QIaK4YagEecK
+  :title: Kubernetes vs. PaaS
+  :slug: kubernetes-vs-paas
+  :pub_date: !ruby/object:DateTime 2018-06-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: healthcare
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: If you're new to container orchestration and more familiar with a fully
+    managed platform-as-a-service (PaaS), Kubernetes can seem complex. Learn the differences
+    and tradeoffs.
+  :blog_lead: Kubernetes® is dominating in 2018. If you're not already thinking about
+    Kubernetes or at least containerization, then you're behind. Fortunately, containers
+    and cloud native architectures have never been more accessible or easier to get
+    started with. From infrastructure providers like AWS and Azure offering their
+    own [versions of managed Kubernetes](https://sysdig.com/blog/ecs-fargate-eks-kubernetes-aws-compared/),
+    to organizations like Cloud Foundry offering [Kubernetes services](https://www.cloudfoundry.org/container-runtime/),
+    the world is shifting toward containers.
+  :post: "\nIf you're working inside of a regulated industry, like healthcare or finance,
+    these tools may seem out of reach. The compliance requirements and security restrictions
+    of HIPAA, HITRUST, GDPR, GxP, NIST, PCI, and more can seem like impossible hurdles
+    to jump when it comes to adopting a platform like Kubernetes.\nThis is exactly
+    why [Datica is shifting toward Kubernetes](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/).
+    Our customers are asking for it, it’s the future of managing workloads born in
+    the cloud, and Datica is already the most robust solution for compliance management
+    on the planet. \n\nIf you're new to container orchestration and more familiar
+    with a fully managed platform, like Heroku or Datica's legacy product, Kubernetes
+    can seem complex. The goal of this article is to compare Kubernetes with a traditional
+    PaaS, discuss the differences, and examine the tradeoffs.\n\n> Now that the world
+    has sufficiently been eaten by software, applications and tools have become ever
+    larger and more complex.\n\n## What is a PaaS?\n\nA Platform as a Service, or
+    a PaaS is intended to create a layer of abstraction on top of cloud service providers
+    (or in some cases data centers and bare metal) so the end user can focus on deploying,
+    managing, and scaling their applications and data. Without going into the [history
+    of the PaaS](https://datica.com/blog/saas-paas-iaas-whats-the-difference/) concept,
+    it's easy to think about it as a way of automating many of the repetitive, lower-level
+    tasks of managing workloads on a server.\n\n## How a PaaS works\n\nThe most well
+    known PaaS providers are [Heroku](https://heroku.com/), [Google App Engine](https://cloud.google.com/appengine/),
+    and [Pivotal Cloud Foundry](https://pivotal.io/platform). These systems work when
+    developers make minimal configuration changes to their application's code and
+    then simply \"push\" their code to the cloud. The PaaS will then make an attempt
+    to understand the code, install the required dependencies, containerize the application,
+    and then serve it up. These providers then have a UI layer for managing resources,
+    networking, access, and more.\n\n## The benefits of a PaaS\n\nBeing able to directly
+    push your code to the cloud and have it running is a tremendous benefit over the
+    old days of standing up a server, installing an operating system (and then patching
+    it each time there's a vulnerability), getting nginx configured properly, and
+    much more. With a PaaS, developers can focus on delivering value via their product,
+    not building IT infrastructure.\n\nIn addition to being able to simply push your
+    code and have it running, many of these PaaS providers also couple database managed
+    services as part of their Platform.\n\n## The pitfalls of a PaaS\n\nThe ease of
+    use for a PaaS comes at the cost of flexibility. Want to install custom software
+    on an instance? Nope. Want to ssh into an instance to investigate an issue that
+    isn't appearing in the logs? Nope. Want to do anything beyond a simple Ruby, Python,
+    or Node app? Good luck.\n\nA PaaS serves a very specific purpose — to help small
+    teams with simple applications run those in the cloud without the DevOps overhead
+    of managing a fleet of instances on AWS or Azure.\n\nThe primary reason why so
+    many PaaS providers have failed to make substantial headway in the enterprise
+    space is because the model is so restrictive. For an organization managing hundreds
+    of applications with petabytes of data, it makes more sense to build out a team
+    that can manage all of it instead of making substantial changes to your business
+    in order to fit a square peg into a round hole.\n\n## Enter Kubernetes and containers\n\nNow
+    that the world has sufficiently been eaten by software, applications and tools
+    have become ever larger and more complex. A small organization that just three
+    years ago could have survived on Heroku is now growing at a pace that prohibits
+    them from continuing to use a restrictive PaaS. Maybe they're exploring machine
+    learning or want a data warehouse. Whatever the case, they've outgrown the PaaS
+    model. Now they need to move to something more flexible: Kubernetes.\n\nSince
+    the invention of containers, and specifically with the popularity of Docker, organizations
+    have been figuring out easier ways to orchestrate containers — that is, how to
+    get them running, connected and served up in the cloud. In a way, orchestration
+    is the primary function of a PaaS. Because containers are relatively trivial to
+    build (and in most cases the build process can be automated, ex: [Gitkube](https://gitkube.sh/))
+    the focus in the container space has been on orchestration.\n\n## The benefits
+    of containers\n\nThe benefits of containers over virtual machines has been discussed
+    to no end on the internet. I won't go into detail here, but simply put — with
+    containers, developers can port their applications from machine to machine whether
+    that's running it locally on a Mac, on a server in AWS or on a droplet on Digital
+    Ocean. A container is a container and it can run anywhere. Compare this to the
+    complexity of managing an entire fleet  VM, each with its own OS. With containers
+    there’s only one operating system to manage, even with hundreds of containers.\n\n##
+    Why Kubernetes\n\nKubernetes and containers have many of the same benefits. They
+    can both run anywhere and they both function the same whether they're running
+    on AWS, Azure, GCP, or in the locked closet down the hall. Kubernetes is open
+    source, financially backed by hundreds of organizations, and is managed by the
+    [Cloud Native Computing Foundation](https://www.cncf.io/). In addition to being
+    cross-cloud compatible and open source, Kubernetes has also shown tremendous growth
+    in the last year.\n\nIf you’re coming from a PaaS you’ll no doubt have concerns
+    around the ease of use and lack of automated DevOps support in Kubernetes. When
+    I first explored Kubernetes in late 2014 I walked away feeling like it was too
+    complicated and didn’t fit Datica’s customer use case. In 2018 it’s a different
+    story.\n\nSince Kubernetes officially hit 1.0 in 2015, the community and project
+    have grown at a tremendous pace. What really makes Kubernetes a viable option
+    is not the core project itself, but the community of tools and add-ons that surround
+    it. Kubernetes isn’t a PaaS, it’s a foundation on which to build a PaaS.\n\nThink
+    of Kubernetes and the cloud native community as a set of building blocks. With
+    these building blocks you can construct any number of different solutions. No
+    longer are you held back or restricted by PaaS providers. \n\n## Which to choose\n\nThe
+    decision to choose Kubernetes over a PaaS (or vice versa) is going to depend on
+    your business, technology, market, team, and several other factors. Having said
+    that, even if you currently have a simple application with a relatively smaller
+    user base, you’re likely going to scale and change rapidly. Preparing for the
+    future by moving to containers now is going to save you time and money when it
+    becomes critical later on.\n"
+  :featured_image:
+    :id: 3r6k88ycnCQQScWqwmicEQ
+  :share_image:
+    :id: 3XcPzlSFHWkUQWUqyOisq0
+  :cta_ref:
+    :id: 6KOQ7XhaJqCI00oYacessy
+  :related_entries:
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 1tg5P46GikgUYoSqsYUcSY
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-28T03:09:51+00:00'
+    :created_at: '2018-07-02T17:24:15+00:00'
+    :id: 1tg5P46GikgUYoSqsYUcSY
+  :title: Datica’s gone native — cloud native!
+  :slug: datica's-gone-native-cloud-native
+  :pub_date: !ruby/object:DateTime 2018-06-29 00:00:00.000000000 Z
+  :tags:
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  - :id: 4k6aH2K4RaWOaCyq4qEaCq
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: We've taken our commitment to open source and Kubernetes a step further
+    by becoming a silver member of the Cloud Native Computing Foundation (CNCF).
+  :blog_lead: As any of the 200+ people who have already forked Datica’s open source
+    compliance policies can attest, we’ve always been a big believer in the value
+    and spirit of open source. Last year our open source commitment evolved to include
+    [Open Source Connectors](https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/)
+    to help solve the problem of healthcare data integration. Most recently, the open
+    source project [Kubernetes&reg;](https://datica.com/press-release/datica-launches-kubernetes-enabled-platform/)
+    became the fundamental technical management layer for Datica. To take this commitment
+    even further, we’re thrilled to announce we’ve become one of the newest silver
+    members of the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF),
+    home of Kubernetes.
+  :post: "  \nSince 2015, Kubernetes has become the industry standard for container
+    management, lending the best tools for workload deployment on public clouds. In
+    addition to being cross-cloud compatible and open source, the CNCF Kubernetes
+    project and community have grown at a tremendous pace. In fact, the [CNCF announced
+    Datica as one of it’s 19 newest members](https://www.prnewswire.com/news-releases/the-cloud-native-computing-foundation-reaches-236-members-including-54-end-users-300671019.html)
+    last week, bringing the membership level to 236 companies. What really makes [Kubernetes
+    a viable option](https://datica.com/blog/kubernetes-vs-paas/) is not the core
+    project itself, but the community of tools and add-ons that surround it.\n\nWe’re
+    excited for what the future holds in this open-source-fueled era of rapid development
+    and are particular excited to step into this future in partnership with the CNCF
+    to collaborate with other Kubernetes developers who are trying to build secure
+    and compliant products. \n\nTake a look at the [press release announcing our CNCF
+    membership](https://datica.com/press-release/datica-joins-the-cloud-native-computing-foundation/)
+    for more details.\n\n\n"
+  :featured_image:
+    :id: 4rUKbhbssoiy84e4MaSMYs
+  :share_image:
+    :id: 4BA2icKqCskuuGQOQw8yEA
+  :cta_ref:
+    :id: 3VsDfgWFYcksgkUq2iyMAQ
+  :related_entries:
+  - :id: 1ITEzHLxx2QIaK4YagEecK
+  - :id: 6hcZMUL5qoc0SyssOiUMCi
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+  :discovery_topic:
+    :id: 35taSEV8ZqKSQKSiwUyQU4
+- :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-10-31T19:33:59+00:00'
+    :created_at: '2018-05-11T19:28:48+00:00'
+    :id: 3AN7lFFj5u8k2OSEiqkoAq
+  :title: 'What We''re Building: Datica''s Public Product Strategy and Roadmap'
+  :slug: what-were-building-daticas-public-product-roadmap
+  :pub_date: !ruby/object:DateTime 2018-05-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 7FkInYPmxiG4QsiM60COos
+  - :id: 1rsUh5OdtWEgi24qakiGO0
+  :categories_blog: company
+  :author:
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :summary: 'Transparency is the heart of Datica. With that said, we announced Datica’s
+    public product strategy & roadmap. This document will serve as the window into
+    Platform product development. '
+  :blog_lead: "Working with any organization requires a certain level of trust. Even
+    something as mundane as purchasing groceries requires trust — trust in that what
+    you are promising to give me is in fact aligned with my expectations.\n\n"
+  :post: "\nWe believe trust is earned with transparency. Since the founding of the
+    company in 2013, transparency has been a central cultural tenant. It’s why we
+    [open sourced our internal company policies](https://datica.com/open-source/policies/),
+    which have been adopted by hundreds of organizations to accelerate their path
+    to compliance on the cloud — it's been 3 years and includes hundreds of HL7 integrations
+    as [Mirth transforms](https://github.com/daticahealth/Mirth-Transforms) — and
+    why we draft as much content as we do around complicated topics like [HITRUST](https://datica.com/discover/hitrust/),
+    [HIPAA](https://datica.com/discover/hipaa-compliance/), [GDPR](https://datica.com/discover/gdpr/),
+    and so on. Transparency is how we, as a technology community, can better understand
+    the complexity of security and compliance.\n\nThe trust that Datica's customers
+    instill in us goes far beyond a simple exchange of goods. We are not only securing
+    the world's most sensitive data, but providing a service to users that proves,
+    beyond a reasonable doubt, that we maintain the highest level of compliance in
+    doing so. In order to continue building on that trust, and delivering products
+    and services that support that mission, there is a necessity for more transparency.
+    In this first effort to provide increased transparency around what we are doing
+    and why, we are publishing our first public product strategy and roadmap.\n\n##
+    Why?\n\nIf you’re a Datica customer, or you’re considering becoming one, you will
+    rely on us to provide a product that is critical in running your business. Here
+    is what you can expect.\n\n### Developer operations\n\nThe Platform is a fully
+    automated continuous compliance management tool for the cloud. The cloud, and
+    the shared responsibility inherit within, fundamentally change the compliance
+    and data liability landscape. Regardless of the support, management, or compliance
+    structure your organization chooses to use, at various levels, you will rely on
+    Datica to provide cloud security and compliance services. Our goal is to get compliance
+    out of the way so you can focus on using the cloud tools you want to use.\n\n###
+    Visibility into liability and privacy agreements\n\nThe cloud is opaque when it
+    comes to liability and data privacy. At Datica, we strive to bring transparency
+    to your cloud operations and your data liability radius. This is especially important
+    in the case of a data breach, security incident, or audit.\n\n### Compliance and
+    security\n\nAbove all the rest is compliance and security. Our customers rely
+    on us to provide the highest level of compliance with our HITRUST CSF certification,
+    SOC2 Type 1 and 2, and full GDPR audit (more coming soon). Additionally, they’re
+    trusting us to secure their cloud environments and ensure data protection at all
+    costs.\n\nGiven how much our customers rely on us to do, they need to be a part
+    of the conversation. They need to have full transparency of what we are building.
+    That is not to say we’ve been developing the Platform in a vacuum. We work one-on-one
+    with users on a daily basis. We’re constantly taking feedback and building that
+    back into the product. However, we’ve not always been as transparent as we could
+    have been when it comes to the current set of product initiatives. We’re hoping
+    to change that with the public product strategy and roadmap (ex: “Hey, I see you're
+    working on an update to your vulnerability scanning component, feature X would
+    be really nice...”, etc.). Our goal is to give the market a full view of what
+    we’re doing and why we’re doing it. \n\nCloud technology and the companies running
+    the underlying infrastructure are moving at an incredible speed. By making our
+    roadmap and strategy transparent, our hope is to gauge ourselves against this
+    speed and adapt accordingly. Datica is a compliance and security company. The
+    mechanisms by which we deliver those two value propositions will and should change
+    with time.\n\n> Datica’s mission is to empower organizations around the world
+    to take their preferred tools, use them in a cloud setting, and then provide and
+    maintain the highest standards of security and compliance around those tools.
+    \n\n## The Risk\n\nOften when companies are first starting out they view their
+    value as a secret. What they’re doing and how they’re doing it is seen as magic
+    sauce. They want to harbor that magic. As companies grow and mature, they tend
+    to learn that the magic is in execution, not the intellectual property or ideas.
+    At Datica, we’ve assembled the best team of security, cloud, and compliance experts
+    to execute on designing and delivering the most secure and compliant Platform
+    for the cloud. We have no secrets to keep.\n\nWith that said, I’m proud to announce
+    [Datica’s public product strategy & roadmap](https://datica.com/compliant-kubernetes-service/roadmap/).
+    This document will serve as the window into Platform product development. To get
+    the most out of this effort, we need to hear from you. Please send us your feedback,
+    feature requests, and ideas to [product@datica.com](mailto:product@datica.com)."
+  :featured_image:
+    :id: 1iqz7Kvr88m8uq8Qsiu2w
+  :share_image:
+    :id: 7jqEEY0z5Kq6aU0Q0iWQKc
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 5A8wMf6ck8seomyq2g6i0k
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 515m1QVsxW0EKCYo0MEiaS
+- :id: 4JnlCCI6bmImGWMeygEUQw
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2019-01-10T23:15:32+00:00'
+    :created_at: '2018-07-02T22:23:10+00:00'
+    :id: 4JnlCCI6bmImGWMeygEUQw
+  :title: 'Best Practices are Best Practices: How Datica Handles Global Compliance'
+  :slug: best-practices-are-best-practices-how-datica-handles-global-compliance
+  :pub_date: !ruby/object:DateTime 2018-07-02 00:00:00.000000000 Z
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 46srurONA4UMuqge4Eek4S
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: healthcare
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :summary: 'Datica''s ability to serve international compliance regimes stems from
+    a philosophy exemplified by HITRUST: one framework, many regimes. Read about our
+    global compliance posture.'
+  :blog_lead: 'Datica''s compliance roots start in healthcare with HIPAA, a regulatory
+    framework found in one of the most conservative industries in the world. For much
+    of our early years, we were healthcare-only, consistently providing the best [HIPAA
+    compliance](https://datica.com/discover/hipaa-compliance/) management option on
+    top of the public cloud.
+
+'
+  :post: |2
+
+    ## Best practices are best practices
+
+    Compliance is global, however, with highly regulated industries spanning many geographies. The requirements to meet [GDPR regulations](https://datica.com/discover/gdpr/) by May 25th pushed us to examine a compliance posture that was international instead of HIPAA specific.
+
+    The nearly year-long exercise was a catalyst for our compliance team to innovate on how we could be bigger than just GDPR. We took a look at compliance holistically, and globally, to come up with a strategy that will allow us to better serve customers across industries and geographies.
+
+    The result is simplified with a phrase we use internally: _Best Practices are Best Practices_.
+
+    ## The Datica global compliance roadmap
+
+    Datica's ability to serve international compliance regimes stems from a philosophy exemplified by [HITRUST](https://datica.com/discover/hitrust/): one framework, many regimes. We decided to take a single compliance framework, make it our root attestation, and then plan to use it as a repeatable mapping process towards other regimes. HITRUST and its Common Security Framework was clearly the answer.
+
+    HITRUST has done a great job of aiming for big goals. With version 9.1 of the CSF, we believe there are few better options for the most stringent and comprehensive compliance auditing framework on the cloud. The HITRUST CSF is our DNA framework.
+
+    By using HITRUST, we will crosswalk the CSF to other geographies and compliance regimes, thus accelerating our ability to support compliance attestations in those areas. Certainly unique considerations will exist in respective geographies before we can officially support compliant deployments of the Datica Platform in a country, but the CSF will get us almost all the way there in all cases.
+
+    As has been the drumbeat since [Datica's founding in 2013](https://datica.com/about/), transparency is the key to distilling the complexity of compliance. Transparency is how we best help healthcare — and other regulated industries — move forward. To communicate our global compliance posture to both present and future customers, we built a handy table that documents our compliance roadmap.
+
+    <img class="lozad group" data-src="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=600" data-srcset="//images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png?w=800 1000w, //images.ctfassets.net/189dvqdsjh46/4KtjQwGLOo6UGoAY82qe6k/dd058456a0fef3d725cd5fc8a1713840/global_compliance_stance_table.png 1200w" alt="global compliance stance table" />
+
+    The table is simple:
+
+    * We list geographies and certain regimes that matter in those geographies.
+    * One column states if that regime is currently supported by the platform.
+    * Another column states if we have plans to support it someday.
+    * And lastly, for those we plan to support, we give a broad estimation to when the HITRUST crosswalk will be done along with any additional specific requirements for the respective regime.
+
+    This table will be updated a lot throughout 2018 as we test our compliance posture against new regimes.
+
+    We invite you to take a look at public global compliance roadmap by visiting the [Global Compliance Posture](https://datica.com/cloud-compliance/global/) page of our website.
+
+    In short, we plan to take HITRUST global to both geographies and regimes that we haven't previously supported. We want to be the best compliance management option for cloud native applications across the world.
+  :featured_image:
+    :id: 6M3Zvt8WlOUsY4mSAAIESk
+  :share_image:
+    :id: QNFeeoIWceYQI0Ko8gI8O
+  :cta_ref:
+    :id: 5romF7X52EGUUEw0sM00Ki
+  :related_entries:
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  - :id: 20YHiTYApqcUS4sEqGSIyS
+  - :id: 3AN7lFFj5u8k2OSEiqkoAq
+  - :id: RYKszr5xW6S4UyWyKUAgk
+  - :id: 1hfBEAA0QOiK2YoM244YQI
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

@@ -1,0 +1,92 @@
+---
+:id: 33bUhbcEUgu4YCuyY0CAYM
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T21:32:54+00:00'
+  :created_at: '2016-11-23T21:32:54+00:00'
+  :id: 33bUhbcEUgu4YCuyY0CAYM
+:title: Catalyze BaaS Shellshock Update
+:slug: catalyze-baas-shellshock-update
+:pub_date: !ruby/object:DateTime 2014-09-26 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:43+00:00'
+    :created_at: '2016-11-22T20:15:43+00:00'
+    :id: 5Y8Z8rlBw4Ucuu8su4oCgC
+  :tag_full: Security
+  :slug: security
+:categories_blog: company
+:author:
+  :id: 3riALtpuXYeIaIGuaq8M4w
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-05-31T17:27:15+00:00'
+    :created_at: '2016-11-23T18:22:26+00:00'
+    :id: 3riALtpuXYeIaIGuaq8M4w
+  :fullname: Datica Editorial Team
+  :slug: datica-editorial
+  :person_type: Datica Team
+  :profile_pic:
+    :id: 54LQpVAcVqe4s6WQkwGyEe
+  :email: hello@datica.com
+  :bio_short: We're the Datica Editorial Team.
+  :profile_twitter: daticahealth
+  :profile_linkedin: daticahealth
+  :profile_url: https://datica.com/leadership
+  :location:
+    :lat: 43.07284
+    :lon: -89.38811299999998
+:summary: Here's what we know about Shellshock vulnerability, and how it affects your
+  usage of BaaS.
+:blog_lead: 'As you''re likely aware, [CVE-2014-6271](http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html)
+  or "Shellshock" was made public in the last 24 hours. Considered by many to be a
+  vulnerability of Heartbleed proportions or greater, security analysts and programmers
+  sprung into action to begin to fix the problem. Here''s what we know and how it
+  affects your usage of BaaS:
+
+'
+:post: "1. **No piece of code which operates BaaS has access to bash or can possibly
+  run bash.** No CGI Scripts. Nothing.\r\n2. This doesn't mean that we aren't still
+  cautious. We applied current system updates to BaaS servers for both Ubuntu and
+  bash, but while this prevented certain Shellshock exploit user cases, it did not
+  prevent all of them. *Again, this doesn't affect BaaS.* However, for other software
+  which you might be running this might not necessarily be true. Upstream developers
+  from bash have not yet published a patch, so be wary as a developer: there is no
+  definitive fix to Shellshock just yet.\r\n3. We run and monitor IDS on all of our
+  servers for BaaS, but this caught IDS vendors and solutions by surprise too. We
+  don't believe there have been any attempts to exploit Shellshock against BaaS, but
+  we'll continue to monitor our logs for any suspicious activity. However, any attempts
+  would fail since none of the code which runs BaaS has access to bash.\r\n\r\nWhen
+  an authorized patch from bash and Ubuntu are available, we will apply those patches
+  to our BaaS servers. At that time we will provide you with an all clear. Any updates
+  regarding Shellshock and BaaS will be posted here on the blog.\r\n\r\nThanks for
+  sticking with us. Since PHI is stored on BaaS, it is our responsibility to protect
+  your data. We're always proactively working to protect your data, and you can read
+  more about how we do that here: [Catalyze Policy](https://catalyze.io/policy/)\r\n\r\nThank
+  you, \r\n\r\nThe Catalyze Team\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

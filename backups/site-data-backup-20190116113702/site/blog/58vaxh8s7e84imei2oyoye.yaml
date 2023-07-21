@@ -1,0 +1,108 @@
+---
+:id: 58VAXh8S7e84iMeI2OYoYE
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T06:43:18+00:00'
+  :created_at: '2016-11-23T06:43:18+00:00'
+  :id: 58VAXh8S7e84iMeI2OYoYE
+:title: Lay of the Land
+:slug: lay-of-the-land
+:pub_date: !ruby/object:DateTime 2013-05-15 00:00:00.000000000 Z
+:tags:
+- :id: 3NDyJqRTJYMwiU0SSwqagm
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:12:23+00:00'
+    :created_at: '2016-11-22T20:12:23+00:00'
+    :id: 3NDyJqRTJYMwiU0SSwqagm
+  :tag_full: BaaS
+  :slug: baas
+  :description: 'Backend as a Service. '
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Our mission is to make it easier to build, test and scale secure, interoperable,
+  and effective apps for healthcare.
+:blog_lead: "Modular technology, or services that developers can plug into for various
+  features or function, is here. There seems to be almost a limitless number of possible
+  **BLANK-as-a-Service** offerings these days. Amazon and Rackspace offer Infrastructure-as-a-Service
+  (IaaS). Heroku offers a Platform-as-a-Service (PaaS). Kinvey, Parse, and Stackmob
+  offer Backend-as-a-Service (BaaS). Context.io offers Email-as-a-Service. \n"
+:post: |+
+  MongoLab and MongoHQ offer Database-as-a-Service. Desk.com, ZenDesk, UserVoice and a host of others offer the equivalent of Helpdesk-as-a-Service. Google, Swiftype, and Searchify offer Search-as-a-Service. Stripe offers Payment-as-a-Service. And then some others, like Singly, offer niche solutions like Social-as-a-Service.
+
+  All of these offerings are valuable to developers of different kids of applications. We at catalyze.io have personally tested all the services listed above and gone to production with many of them supporting our applications. The real value, and the reason people pay for these services, is that $29 or $49 or even $499 per month is a lot cheaper than having dedicated developer time spent to maintain and scale these various services. By using these services, and the majority of them offer a free tier to developers to get started, the time to market is considerably faster and it's much cheaper to fail or succeed, and to iterate on the core value of the product based on user feedback and usage analytics.
+
+  If you're an app developer in healthcare or wellness (the distinction between the two is quickly dissolving), or you want to be, you'll find many of these services are more tailored to consumer Internet, lacking healthcare-specific security and interoperability. While not all apps for health and wellness have to be HIPAA compliant or support CCD / CCDA / HL7 / EDI / SNOMED / LOINC / ICD# data in and out, it's certainly a differentiator when messaging with consumers and marketing to enterprises (health systems, payers, pharma, etc).
+
+  At catalyze.io, we are healthcare app developers. We have lots of ideas. We desperately need and want tools to help us in the process of making apps. We have lots of people, especially physicians, come to use with ideas. We also talk to tons of developers and entrenched interests in the industry about how they build and test apps and services. We found other people needed the same things we needed because they, like us, wanted a lower barrier to getting to market and testing their app / idea.
+
+  So that's our mission at catalyze.io - make it easier to build, test and scale secure, interoperable, and effective apps for healthcare. We don't think security and interoperability have to be a hindrance to building and distributing apps for health and wellness. We also don't think developers and apps should compete on security and interoperability, instead they should compete on their core value to users and/or customers. Our healthcare backend-as-a-service is being built and tested with several production reference launch apps. We're excited to share them with you in the coming months, and open up our platform this spring. If you're interested in testing our platform, please send us an email.
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

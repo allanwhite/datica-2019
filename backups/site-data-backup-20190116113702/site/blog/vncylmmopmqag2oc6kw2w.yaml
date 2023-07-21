@@ -1,0 +1,494 @@
+---
+:id: vnCyLMmoPmqaG2oC6kw2w
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-12-12T19:09:27+00:00'
+  :created_at: '2016-11-23T21:57:56+00:00'
+  :id: vnCyLMmoPmqaG2oC6kw2w
+:title: We Ask 20 Questions for Healthcare in 2015
+:slug: we-ask-20-questions-for-healthcare-in-2015
+:pub_date: !ruby/object:DateTime 2015-01-15 00:00:00.000000000 Z
+:tags:
+- :id: 6AZpnMPG2k8mk8gk2acYUI
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:15:00+00:00'
+    :created_at: '2016-11-23T18:15:00+00:00'
+    :id: 6AZpnMPG2k8mk8gk2acYUI
+  :tag_full: Healthcare News
+  :slug: healthcare-news
+  :description: 'Relevant healthcare news that you care about. '
+:categories_blog: healthcare
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Being fans of yearly predictions, we took Benedict Evans' approach and applied
+  it to healthcare. Here's our guesses for 2015.
+:blog_lead: "> Judge a man by his questions rather than his answers. - Voltaire\n"
+:post: |
+  We're fans of Benedict Evans. He's got an exceptional sense of current events and future trends for mobile and general technology. While not specific to healthcare, his analysis and commentary are fantastic and important signals for us. We loved his recent post [20 questions for 2015](http://ben-evans.com/benedictevans/2015/1/1/20-questions-for-2015). Being fans of yearly predictions, we took Evans' approach and applied it to healthcare. We added our own opinions throughout. We would love to hear your questions for 2015 or reactions to our questions below!
+
+  1. **Will Epic [open up access](https://datica.com/blog/how-the-epic-healthkit-integration-actually-works/) to MyChart and its EHR for vendors other than Apple?** You have to imagine Epic customers would like to get data from the majority of the population that doesn't have iOS devices.
+  2. **Will Google Glass cross the tipping point and will we, as patients, start to expect paramedics and doctors to be wearing Glass while delivering care?** Pristine and [Augmedix](http://www.augmedix.com/) have good traction so I'd keep an eye on them and the specific applications of Glass in healthcare.
+  3. **Will health systems figure out a sustained way to engage patients around their medical data?** Novel ways to engage patients are emerging, but tying engagement to real savings or financial payouts is what really works. It's a loaded question that will take years to answer, and is not just in the control of health systems and vendors.
+  4. **Will providers start caring about continuous tracking data from patients?** This ties to #1 above but means providers must use data with patient care decisions. One of the big questions we often get asked by vendors is the best method to write data back into EHRs to fit it into clinician workflows. There isn't one answer to this question, but [integrating with EHRs](https://datica.com/platform/integration/) in some way is becoming essential to assure adoption.
+  5. **Will the hype of EHR APIs (Allscripts, Athena, Greenway, etc) be replaced by usable, two-way data exchange with EHRs?** This is going to happen someday, but we're skeptical that 2015 will be the year. This is not just on the vendors, it's on the health system customers of those vendors.
+  6. **Will FHIR spark growth and replace traditional HL7 interfaces?** We hear about FHIR more everyday. In fact, at Catalyze we're betting on FHIR this year and working to add FHIR support and customers to our [EHR integration service](https://datica.com/platform/integration/). Stay tuned for more on that.
+  7. **Will investments in digital health continue to outpace or [crush](https://rockhealth.com/research/#data) previous years?** There's a lot of debate around venture investing in general, with people wondering if the broader market is getting frothy. We think healthcare investment will continue to grow, and from what we saw and heard at the JP Morgan conference this week we're confident in that prediction.
+  8. **Who will be the next digital health IPO?** Our bet is on [AirStrip](http://www.airstrip.com/).
+  9. **Will Epic and IBM get the massive DoD EHR contract or will it go open source (built on VistA)?** With $11B at stake, this deal could solidify an EHR company the way Kaiser made Epic *the* EHR; the difference here is that there aren't any small EHRs competing. Still, it could be a big blow to Epic as many have expected them to get it, and there is a chance they might not.
+  10. **Speaking of open source, will we see breakout open source initiatives in healthcare in 2015?** There was VistA. Now there's Blue Button and [SMART](https://smarthealthit.org/) and a host of other smaller open source initiatives. We'll be [open sourcing more](https://datica.com/open-source/policies/) of our work in 2015 and hope others plan to do the same.
+  11. **Can [HITRUST](http://hitrustalliance.net/), with the backing of some big names in healthcare, become the de facto compliance framework that healthcare enterprises expect from vendors?** We're wondering if HITRUST is going to be expected instead of traditional HIPAA assessments and audits. Athena, who appear to be heavily invested in HITRUST, recently announced a partnership. While awareness of HITRUST has been increased, 2015  won't be the year it replaces HIPAA audits.
+  12. **Will somebody launch a set of HIPAA compliant SaaS services for modern health tech companies?** We're thinking about things like support desk software as examples, which if compliant would allow vendors to warn customers about non-compliant Blank-as-a-Service offerings. We think this will happen in force in 2015, both from existing vendors and new entrants.
+  13. **Is Epic going public in 2015?** It won't happen this year but we're betting it'll happen down the road, the trend of public companies coming back to private ownership, like DELL, not withstanding.
+  14. **Seeing as healthcare is local, will a host of new, geographically focused patient engagement and consumer health services proliferate?** Our vote is yes. It's been in the works for a while and we've seen examples as ZocDoc competitors.
+  15. **Is 2015 the breakout year for subscription-based medicine?** Whether you call it concierge or direct primary care, this  segment appeals to providers and patients. It's also a segment in dire need of better tech-enabled services.
+  16. **What disease-specific offerings will launch this year?** We have successful services that have focused on specific conditions like diabetes, cardiac care, mental health, respiratory care, STIs, women's health, and some cancers. 2015 should see more such focused services have success, and we'd bet those services will target conditions that have existing engaged patients and are suitably large populations (maybe things like epilepsy and rheumatologic conditions?).
+  17. **Which HIEs will be successful at flipping to offering valuable services to data sharing members?** We don't know but we're betting on more HIEs rebooting the traditional models they've used.
+  18. Athena is growing it's accelerator program, now with locations in both Boston and California. Other EHRs obviously see themselves as the platforms for future apps in healthcare. **Will more EHRs launch accelerator-like programs in 2015 to try to capture mind share for developers and startups?** I'm surprised we haven't seen more already, especially from the larger vendors like Allscripts, Greenway, and eClinicalWorks.
+  19. **Will medical boards from different states come together to agree on rules surrounding the use and virtual care (telemedicine) services?** There was progress on this front in 2014, but not much. Unfortunately this seems like a ways off. We briefly touched on multi-state telemedicine care with our [Dr. Chasin Innovation Series interview](https://datica.com/innovation/marc-chasin-md/).
+  20. **Can the pace of moving traditional technology to the cloud accelerate?** We've had several discussions with healthcare CIOs about cloud computing and they often cite EHRs and financial systems, like Lawson, as the main drivers of cost in IT infrastructure. Those systems won't be moving in 2015, though Epic may finally launch it's first hosted customer at its Verona data center. Much more likely is we'll continue to see health systems and payers integrate, develop, and adopt new technology that leverages cloud computing in a secure and HIPAA compliant way. In other words, we're betting on ourselves in 2015.
+:cta_ref:
+  :id: 3vSsyg2dkIeA0cuQc6AEwe
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:48+00:00'
+    :created_at: '2017-04-28T20:37:19+00:00'
+    :id: 3vSsyg2dkIeA0cuQc6AEwe
+  :cta_title: 6 Big Ideas from 2016
+  :cta_desc: Download our most recent annual healthcare innovation eBook. Learn what
+    nine of the industry's greatest minds think about connectedness and healthcare
+    innovation.
+  :cta_label: Get your copy
+  :cta_url: https://datica.com/innovation/2016/
+  :cta_svg_icon:
+    :id: 4G7J6PZbVCmoOuAEO4UsIY
+  :cta_icon: "/public/icons/brand/icon-large-lightbulb-circle.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T17:46:14+00:00'
+    :created_at: '2017-02-10T00:08:29+00:00'
+    :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :title: '2017 Healthcare Trends Part 4: Healthcare costs and challenges are about
+    a lot more than healthcare'
+  :slug: 2017-healthcare-trends-part-4-healthcare-costs-and-challenges
+  :pub_date: !ruby/object:DateTime 2017-02-09 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: muuTw36MCccawe428I8Oa
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: This 4th part of our 2017 Healthcare trends series looks at some of the
+    not so obvious costs and challenges that add into the healthcare equation.
+  :blog_lead: |+
+    This fourth part of our 2017 Healthcare trends series takes a look at some of the not so obvious costs and challenges that add into the healthcare equation.
+
+    > Maybe Christmas does not come from a store. Maybe Christmas means a little bit more. Grinch in *The Grinch* by Dr. Seuss.
+
+  :post: |-
+    ## 2017 Trend #4: Healthcare Cost Challenges
+
+    Critics of the US healthcare system often cite studies and WHO reports that rate US healthcare outcomes and spending per person against those same statistics from other countries. According to the data and reports, we overspend for bad outcomes. This is a fair conclusion from the data. The problem with the data and reports is we overspend on healthcare in the US, to the tune of [$10,345 per person](http://www.pbs.org/newshour/rundown/new-peak-us-health-care-spending-10345-per-person/) per year, while we grossly underspend on social services. Our healthcare system serves as a safety net for the lack of social programs we provide. Since the healthcare system is our safety net, we constantly just put bandaids on problems and don’t ever try, because we don’t every have the incentives, to solve them.
+
+    Whether it’s our education system that cuts physical activities in place of test prep, our lack of services for homeless and mentally ill, our lack of services to help poor families to access healthy food, or our lack of assistance to families caring for elderly parents ([close to 40% of our population](http://public.dhe.ibm.com/common/ssi/ecm/rs/en/rsm12348usen/RSM12348USEN.PDF)), the result is that the US health system has to deal with a myriad of problems, and the associated costs of those problems, whose causes have nothing to do with the healthcare system.
+
+    ## Reducing Costs and Improving Outcomes
+
+    The tide in the industry is changing with an increasing acknowledgment that healthcare bears the brunt of the costs for our lack of social services. In the quest to reduce costs and improve outcomes in healthcare, at some point we need to examine some of the factors that are not under the control of the healthcare system and consider how best to solve those problems, not just the symptoms of those problems. This is not a political issue (or at least it shouldn’t be), it’s an economic one that has to be addressed if we’re going to achieve the triple aim in healthcare.
+
+    We will start to see more and more partnering between healthcare organizations (payers, life sciences, pharmacies, and providers) and community groups and programs. Like all things healthcare, it will be slow and grant funded initially to prove out pilots. Over time, integration of different entities will increase and we will start to see healthcare as a lot more than just doctors, nurses, payers, and life sciences.
+
+    Don't miss the first three articles in this 2017 trends series.
+
+    * **Part one** - [The Rise of Patient as Comsumer](/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/)
+    * **Part two** - [Trump and Putting the Genie Back in the Bottle](/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
+    * **Part three** - [The Rise and Fall of the EHR](/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)
+  :featured_image:
+    :id: 1stVKhLD3CESqKqeUw20CK
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 4WnlBigexyMs8SSkG2IQGc
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 4uxNRZK3gIEeGy8EkEwWYa
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-01-11T00:37:21+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 4uxNRZK3gIEeGy8EkEwWYa
+  :title: '2017 Healthcare Trends Part 3: The Rise and Fall of the EHR'
+  :slug: 2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr
+  :pub_date: !ruby/object:DateTime 2017-01-31 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: 'In part three of our 2017 healthcare trends series, the focus is on the
+    evolution of the EHR. We already explored the rise of the patient as consumer
+    looked at how Trump''s unpacking of Obamacare in parts one and two. '
+  :blog_lead: |-
+    This 3rd part of the [2017 healthcare trends](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) series looks at problems with EHRs, raising the question of whether their peak value has already passed.
+
+    Meaningful Use (MU) is dead but it succeeded wildly in [increasingly the adoption of EHRs](http://www.nuance.com/for-healthcare/ehr-meaningful-use-physician-study/index.htm). In fact, MU was so successful that physicians have become the most overtrained and overpriced data entry workers in our economy. [All of this data entry](http://www.beckershospitalreview.com/healthcare-information-technology/4-000-clicks-per-shift-ed-physicians-emr-burden.html) has been at the expense of patient care as evidenced by the time and attention given to record keeping and not spending time with patients. To be clear, there are benefits to EHRs in terms of standardizing documenting, analytics, and billing.
+  :post: |2-
+
+    ## EHRs weren't built for the future of healthcare
+
+    > "Your margins are my opportunity." Jeff Bezos
+
+    The problem with EHRs is that the government and health systems spent billions of dollars on software and organizational change that doesn't address any of the challenges discussed in the [first][1], [second][2], and [fourth articles](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this series. EHRs weren't built for the future of healthcare. Thankfully, change in healthcare is slow so the past and current state of healthcare will be around for a while.
+
+    Additionally, as other sectors like life sciences move to own the patient as the end user, they erode the value of the EHR as the main hub of clinical data. I guess [Walgreens is the example of the opposite][6] case as it is rolling out Epic but my guess is Walgreens rolled out Epic for the reasons I cited above, namely ease of integration with existing providers and provider data.
+
+    ## Gaining access to EHR data
+
+    Just because EHRs weren't built for a future based on quality and value doesn't mean EHR vendors aren't rapidly trying to adapt EHRs to remain relevant for the future. One major example is easing access to EHR data through [EHR integrations](https://datica.com/discover/ehr-integrations/). There are major EHR vendors that made, and still make, significant revenue by charging hefty fees for interfaces and data access. The industry is demanding, and the EHR vendors are finally conceding to grant, access to EHR data. That access is seen as essential to enable future-facing tools for things like patient engagement, population health, and clinical collaboration. For at least four to five years now, major EHR vendors like Epic and Cerner have been talking about providing modern web interfaces for EHR data. There's now a standard called [FHIR][7] that has been getting tons of attention as an API for EHRs. In 2017, we will see more and more EHRs providing access to snippets of data on an individual patient basis. It's hard not to see that as a very small and intentionally slow step towards opening up access to clinical data so the industry can really start to understand the power of that data.
+
+    The other alternative for EHR data access is for providers to query a network of EHRs for data about a patient they are seeing. These networks of different EHRs have [in this way.][8] Epic already enables this type of sharing, in an Epic to Epic only way, for participating customers. Having a provider click, request, and view data from a different provider isn't really harnessing the power of data and is not going to significantly improve outcomes or lower costs. It will help with some inefficiencies in acquiring records from other providers but this is barely even the low hanging front of clinical data access.
+
+    ## Are the glory days of EHRs over?
+
+    This lack of alignment between EHRs, their business models, and the direction of healthcare as it [onramps to the cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/) shows EHRs as the hubs of care and clinical data, at best, are at their peak value and, at worst, have already peaked. This has massive implications as EHRs are the major software vendors for care delivery and behemoth companies that represent a significant part, in terms of dollars, of the total health IT market. Similarly to non-healthcare enterprises, EHRs over time will be eroded like Oracle, Siebel, and SAP were by Salesforce, Workday, and Slack. This is a ten to fifteen year process that is only now just beginning but will eventually usher in the new guard of enterprise health IT as it moves into the [healthcare cloud](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/).
+
+    This will have a major impact on enterprise IT departments since many of those organizations have large proportions of people and budgets dedicated to managing EHRs. Additionally, most of the new guard of health IT will be [cloud based](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud/) and not on-premise, as most EHRs are today. The cloud, specifically the [public cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/), is here now in healthcare. It'll be years before major healthcare enterprises fully adopt and move the majority of compute workloads to the cloud but the migration is starting, it's a big migration, and it starts with SaaS solutions that will chip away at the EHRs dominance. The broader shift to the cloud will drive additional significant changes to how enterprise IT operates in healthcare.
+
+    Next week, for the [fourth and final article](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) in this 2017 trends series,  I'll share "_Healthcare costs and challenges are about a lot more than healthcare,"_ a look at the quest to reduce costs and improve outcomes in healthcare. Don't miss [part 1](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and [part 2](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/) also. Be sure to follow this series by subscribing to our blog updates below.
+
+    [1]: https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/
+    [2]: https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/
+    [3]: http://www.nuance.com/for-healthcare/ehr-meaningful-use-physician-study/index.htm
+    [4]: http://www.beckershospitalreview.com/healthcare-information-technology/4-000-clicks-per-shift-ed-physicians-emr-burden.html
+    [6]: http://www.healthcareitnews.com/news/walgreens-goes-epic-ehr
+    [7]: https://datica.com/guide/fhir/
+    [8]: http://www.healthitoutcomes.com/doc/collaboration-aims-to-boost-data-exchange-improve-interoperability-0001
+  :featured_image:
+    :id: 1DUZyHtcFComeIa4UCq02Q
+  :cta_ref:
+    :id: 1CKHNq6V7eG4W20ygCWmei
+  :related_entries:
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 4WnlBigexyMs8SSkG2IQGc
+  - :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 4WnlBigexyMs8SSkG2IQGc
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T17:26:53+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 4WnlBigexyMs8SSkG2IQGc
+  :title: '2017 Healthcare Trends Part 2: Trump and Putting the Genie Back in the
+    Bottle'
+  :slug: 2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle
+  :pub_date: !ruby/object:DateTime 2017-01-24 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Here, in part 2 of our 4-part series on 2017 healthcare trends, we look
+    at how Trump's unpacking of Obamacare might affect the healthcare industry.
+  :blog_lead: |-
+    _In part one of our series on 2017 Healthcare trends, we explored [the rise of the patient as consumer][1]. Here, in part two of our four-part series, we look at how Trump's unpacking of Obamacare might affect the healthcare industry this year._
+
+    The financial viability and plans for the insurance exchanges may [not have panned out][2] the way Obama's team anticipated but there are a lot more people in the US who have insurance under Obamacare than before Obamacare. And, there are a lot of people who are now concerned about what changes the new Trump administration will bring to their healthcare.
+
+    [1]: https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/
+    [2]: http://www.washingtontimes.com/news/2016/aug/29/aetna-unitedhealth-pulling-out-of-obamacare-leavin/
+  :post: |2-
+
+    ## 2017 Healthcare Trend #2: Unpacking the ACA
+
+    > "There isn't any way of putting the genie back in the bottle." -Edward MacMahon
+
+    Unpacking the Affordable Care Act (ACA) and [repealing coverage for millions of Americans](http://fortune.com/2017/06/20/obamacare-repeal-trump-ahca-mean/) is going to be very hard for the new administration. There will invariably be changes to Obamacare, something that is clear from [Trump's appointments][4]. The most likely things to change will be things like the individual mandate and the requirement for ACA-approved plans for businesses. These changes will have a large impact on payers who participate in exchanges and for businesses that offer insurance for employees.
+
+    The area where there is less clarity around the direction for U.S. Department of Health & Human Services (HHS) relates to [MACRA and MIPS][5], which I use as proxies for the new payment models (readmission, bundles, etc.) and the broad shifts of payment for care from quantity to quality. There has already been pushback from health systems about two new payment models to test in fifteen months, an indication of the pace of change for providers. It seems most likely that Trump's HHS will continue down the path of shifting care from quantity to quality.
+
+    At the highest level, shifting from volume to value is about delivering continuous, quality care. It's about extending the view of a hip replacement, just one example, as a point-in-time episode to a ninety-day episode. This is a major shift requiring new technology and, more challengingly, changes in workflows and internal processes. This shift will also require new partnerships. Some systems, especially integrated delivery networks [like Kaiser][6], are aligned and organized to deliver care in this quality-care model while many others will need to partner, not just for the technology but also for the care navigators and other care team members. It's closely related to the point I made in the [first article in this series][1] about offering complete, ready-to-deploy solutions. Pure technology offerings are going to fail unless they are an enabling layer, such as an API that combines some unique, proprietary sets of data to deliver a valuable new data set or resource; simply API-enabling existing standalone systems, such as EHRs, is not a long-term differentiated product.
+
+    The next level down in volume to value is purely about data, not for care but for reporting and comparison purposes. Reporting is the initial stage for new payment models like bundles. It provides HHS with new and powerful data from which healthcare providers can be compared. The reported data is compiled from multiple sources, not just the EHR, so it is not a simple matter of reporting data that providers already have available but instead is a challenging, multi-step process. The first challenge is compiling the data. The second is reporting it. The third, one which is not required by HHS but is essential for care providers to succeed in new payment models, is the analysis of reported data. All three of these challenges will see new, enabling solutions that will excel. These new data layers will power the care management platforms of the future.
+
+    ## Increased uncertainty and turmoil
+
+    If nothing else, the Trump election, exacerbated by the surprise nature of the outcome, increased the amount of uncertainty and turmoil in the healthcare industry. In an industry with variable margins and resources by sector, this uncertainty disproportionately will benefit life sciences companies and, to a lesser extent, payers, over health systems. Health systems will be cautious in spending on major strategic initiatives like patient engagement, while life sciences companies will accelerate efforts to own the [patient as consumer][7].
+
+    Next week, for the [third part of this series](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/),  I'll share _"The Rise and Fall of the EHR"_ a look at the part EHRs will play in the new guard of health IT. Be sure to follow this series by subscribing to our blog updates. Make sure to also read [Part 1](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/) and [Part 4](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) of the series.
+
+    [4]: https://www.washingtonpost.com/news/powerpost/wp/2016/11/28/trump-to-name-rep-tom-price-as-next-hhs-secretary/
+    [5]: https://datica.com/academy/macra-and-mips-explanation/
+    [6]: https://healthy.kaiserpermanente.org/
+    [7]: http://healthcare.mckinsey.com/debunking-common-myths-about-healthcare-consumerism
+  :featured_image:
+    :id: 2JC2qwAEXS4oQcwKuiS84E
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6nHPQ99C1y068q2kuE6gWC
+  - :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+- :id: 6nHPQ99C1y068q2kuE6gWC
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-08-07T22:44:15+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 6nHPQ99C1y068q2kuE6gWC
+  :title: '2017 Healthcare Trends Part 1: The Rise of Patient as Consumer'
+  :slug: 2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer
+  :pub_date: !ruby/object:DateTime 2017-01-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: This is the 1st of a 4-part series about high-level healthcare trends
+    creating turmoil and uncertainty along with new opportunities in 2017 and beyond.
+  :blog_lead: "There's often a buzz of recap news stories at the end of each year
+    followed by a flurry of predictions posts for the coming new year. We've done
+    this [before](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+    in a few different ways at Datica. The prediction posts are usually specific and
+    often wrong in that specificity. For 2017 I'm going to do things differently.\n\n"
+  :post: |
+    Over the course of the next few weeks, I'll present four high-level trends that follow the broad directional shifts driving healthcare in 2017 and beyond. These overarching trends are creating turmoil and uncertainty, new problems across all sectors of the industry, and opportunities for new solutions to help address uncertainty and new problems. Here's the 2017 healthcare trend #1.
+
+    ## Walgreens, payors, life sciences, subscription medicine and the rise of the patient as consumer
+
+    > "Businesses are no longer the sole creator of a brand; it is co-created by consumers through shared experiences and defined by the results of online searches and conversations." - Brian Solis
+
+    One of the major shifts that has come to healthcare is the patient is at the center of the ecosystem. This has come about for a few reasons, namely due to societal and cultural shifts driving changing expectations but also because patients are feeling the burden of the costs of care more and more. [Shifts in technology](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud/) are underlying some of these shifts as well and certainly are enabling models of care where patients have more ownership.
+
+    The reasons for the change are less important than the impact of the change on the industry and patients/consumers. Healthcare, a multi-trillion dollar industry, is experiencing a paradigm shift and the main user, the end user, is now the patient/consumer. This means the consumer is the new target and the [choke point][3] to massive aspects of the most massive industry in the world. Look no further than the myriad of initiatives from all the major sectors trying to "win" the consumer.
+
+    * **Life sciences companies** are transforming themselves from makers of therapeutics to care management platforms that are complemented by therapeutics. This is an incredible change but one that is being taken because, like direct-to-consumer products, life sciences companies need to have a direct relationship with the end-user to effectively market and retain them as lifetime customers with very targeted marketing and promotion. Life sciences companies are well resourced and motivated to make this change, and will be spending more than any other segment to win the end user and deliver care management platforms.
+    * **Retail pharmacies**, most specifically Walgreens and CVS, have been [expanding][4] their care delivery services, becoming more than simple drug dispensaries. Retail pharmacies now offer both chronic and acute care, preventative medicine (vaccines most specifically), and even telemedicine. Pharmacies are well placed, having 10s of 1000s of physical locations across the country, to be a larger and larger part of the way consumer access the healthcare system. Walgreens is even rolling out Epic as its EHR; despite being a strange choice for a retail clinic, Epic helps Walgreens integrate data to and from other Epic customers.
+    * **Payors**, the largest ones in particular – United, Cambia, Blues, etc. – are expanding the tools they offer members to be more than simple data access and payment tools. Large insurance companies are building and testing apps for specific conditions and cohorts of members, wanting to flip the perception of payors in consumers' minds to more than payment tools managed by their employers. [Oscar][5] is a good example of a payor that doesn't act like a traditional payor.
+    * **Subscription medicine** is here to stay, whether you call it [direct primary care (DPC)][6] or concierge. Concierge and DPC, interestingly, are the providers' response to this trend. Subscription medicine is about a direct relationship between providers and patients, without messy payors and administrative overhead between them. And subscription medicine is going to grow by leaps and bounds over the next 10 years. Consumers will seek to get back the personal side of medicine, something that is increasingly getting lost, and providers will seek the same direct, personal connections without the mess of working with payors. In terms of models of care, subscription medicine is the [best example of aligned incentives][7].
+
+    There are a few things to note about the examples above. First, noticeably absent from the list are hospitals and health systems. It's not that health systems don't see these changes and growing threats, it's that [they are just too slow][8], and too poorly setup, to change. And, with the growth of consumer-based initiatives by all of the above, the erosion of the relationship between provider and patient is only accelerating the displacement of providers and the validity of the argument against MDs as PCPs and providers; it's a vicious cycle and providers are the major losers.
+
+    The second thing to note is that this is a winner take all situation. Consumers, the group notorious for downloading then never using health apps, will not use multiple care management platforms from their drug company, insurance company, and local pharmacy. They prefer to use one platform for everything,  just as they now use the one app from their bank or an aggregator like Mint instead of using multiple apps from each specific financial institution they interact with. There's a lot of money for the winner. This is high stakes.
+
+    So where does that leave health systems? From the list above, almost everything is focused on chronic care. Health systems, and MDs as providers, will continue to own high acuity care and the exceptional specialization that is now required for that care. The real risk is that whichever segment wins the consumer will control, either through human providers or AI-assisted clinical decision support, when patients are sent to providers and which providers they are sent to for high acuity care.
+
+    This shift offers huge opportunities for care management technologies with the right partners. Some sectors and companies will build everything in-house while others will look to buy products and platforms. The companies that succeed will offer ready-to-implement systems with a mix of technology and services. In order for any of the above groups to succeed, the focus on consumers and end users has to be a super strategic initiative, not just about buying an app or platform but a complete suite of solutions and aligning the business at the highest level to accomplish the goals.
+
+    Next week, for the [second part of this series](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/),  I'll share "_Trump and Putting the Genie Back in the Bottle;"_ a look at another huge influence on healthcare in 2017 and beyond. Be sure to follow this series by subscribing to our blog updates below. Also, make sure to catch [part three](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/, and [part four](https://datica.com/blog/2017-healthcare-trends-part-4-healthcare-costs-and-challenges/) of the series.
+
+
+    [3]: https://datica.com/blog/dimensions-of-big-data-for-healthcare/
+    [4]: http://www.forbes.com/sites/greatspeculations/2015/08/28/walgreens-steps-up-retail-clinic-expansion-as-demand-for-convenient-care-grows/#54753a247020
+    [5]: https://www.hioscar.com/
+    [6]: http://www.dpcare.org/about1-ccz5
+    [7]: http://medicaleconomics.modernmedicine.com/medical-economics/news/direct-primary-care-may-become-norm
+    [8]: http://www.healthcare-informatics.com/news-item/payment/aha-cms-simplify-cardiac-bundled-payment-model-slow-pace-change
+  :featured_image:
+    :id: 2CQw8gCeJKUQmMAoQIGwac
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 4WnlBigexyMs8SSkG2IQGc
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 2Wzu54tvoAiSyqa2WYoYOk
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+:discovery_topic:
+  :id: 2eynYIpapeSuGMmW02qqwi
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:51:35+00:00'
+    :created_at: '2017-05-16T16:50:57+00:00'
+    :id: 2eynYIpapeSuGMmW02qqwi
+  :title: Healthcare Cloud
+  :slug: healthcare-cloud
+  :topic_tag:
+  - :id: 5fjEF8FoXmQQUAwgswSao8
+  :cta_ref:
+    :id: 5gMrV2FtksY8Y02c0qiAOW
+  :summary: 'A healthcare cloud is a HIPAA cloud hosting service or provider used
+    by healthcare IT departments to store, maintain, back up, and share PHI. Here''s
+    everything you need to know. '
+  :featured_image:
+    :id: lfxfNPcRUcAciuYIY6qei
+  :media_object: <script src="https://fast.wistia.com/embed/medias/gpplq5hm1x.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_gpplq5hm1x seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: pDdZOEw7ZugE6cK0gO6y2
+  :lead: |-
+    There are many types of environments, including physical, virtualized, and cloud, that a healthcare IT department or service provider might maintain in a compliant fashion. A large portion of service providers in today’s age provide their services to customers utilizing the cloud model. In a public cloud, the infrastructure is made available to the general public or a large industry group that is owned by the HIPAA cloud company. The public cloud infrastructure exists solely on the premise of the cloud provider.
+
+    Being on the cloud is critical today, and critical for the future.
+  :body: "\n## What is the Healthcare Cloud?\nA healthcare cloud is a HIPAA cloud
+    hosting service used by healthcare IT departments and digital health technology
+    vendors to store, maintain, back up, and share Protected Health Information (PHI).
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Learn More about Healthcare Cloud\n* [The Accelerating Migration to the Healthcare
+    Cloud](https://datica.com/blog/accelerating-migration-to-the-healthcare-cloud/)\n*
+    [Infographic: Healthcare's Shifting Definition of the Cloud](https://datica.com/blog/healthcares-shifting-definition-of-the-cloud)\n*
+    [The Heart of Medicine: Transformation Through Technology, Spring 2017](https://datica.com/innovation/heart-of-medicine-report-spring-2017/)\n*
+    [Public vs. Private Cloud Computing Within Healthcare, Autumn 2017](https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/)\n*
+    [SaaS, PaaS, and IaaS: What's the Difference?](https://datica.com/blog/saas-paas-iaas-whats-the-difference/)\n*
+    [Onramp to the Healthcare Cloud](https://datica.com/blog/onramp-to-the-healthcare-cloud/)\n\n</div>\n\n###
+    Healthcare Cloud is a Means to Manage More Data\nHealthcare today is increasingly
+    data-driven and demands to share that data are also increasing. Those trends translate
+    to considerable amounts of data that must be processed and stored in a secure
+    and scalable manner. Healthcare cloud provides the means to handle the massive
+    amounts of data that are growing exponentially in a cost-efficient manner. \n\n###
+    Healthcare Cloud Enables Value-Based Care\nHealthcare cloud computing is the most
+    feasible way for healthcare systems, hospitals, and digital health vendors to
+    face the challenge of delivering more patient value. It provides them with a connected
+    environment to exchange data with their patients. On-premise infrastructure costs
+    are high and data scalability is more feasible in the cloud.\n\n## Why is HIPAA
+    Compliance in the Cloud Important?\nHIPAA, formally known as the Health Insurance
+    Portability and Accountability act, was signed into legislation back in the 90s.
+    These regulations were enacted as a multi-tiered approach that set out to improve
+    the health insurance system. If you have a healthcare application, website or
+    data storage, you must be in complete compliance, including HIPAA cloud hosting.
+    \n\n<div class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Compliant Cloud Resources\n* [What is Cloud Computing and Why it Matters
+    for Compliance](https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/)\n*
+    [HHS Guidance on HIPAA Compliance in the Cloud](https://datica.com/blog/hhs-guidance-on-hipaa-compliance-in-the-cloud-what-you-need-to-know/)\n*
+    [HIPAA and Multi-tenancy](https://datica.com/academy/hipaa-and-multi-tenancy/)
+    \n* [Hybrid Cloud is now the Preferred Option in Healthcare](https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/)\n*
+    [What does it take to be a 100% HIPAA Compliant Cloud Company?](https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company/)\n\n</div>\n\n###
+    What is HIPAA compliant hosting and what does that mean?\nHIPAA hosting (cloud)
+    is data hosting that complies with all aspects of HIPAA’s physical safeguard requirements.
+    Application developers especially must recognize that HIPAA compliant hosting
+    is necessary for their solutions.\n\nCompliance in the cloud is possible in any
+    scenario as long as it addresses controls in the main five HIPAA Omnibus categories:\n\n*
+    Administrative Safeguards (§ 164.308)\n* Physical Safeguards (§ 164.310)\n* Technical
+    Safeguards (§ 164.312)\n* Organizational Safeguards (§ 164.314)\n* Policies and
+    Procedures and Documentation Safeguards (§ 164.316)\n\nAs well as additional security
+    provisions within References 13402 of the HITECH Act.\n\n## Healthcare Cloud Security\nThe
+    healthcare industry has been shifting toward a value-based care delivery model,
+    partially enabled by open standards that support cooperative, collaborative workflows.
+    Services delivered by cloud computing will evolve to support a wide variety of
+    healthcare processes while providing an infrastructure that allows healthcare
+    entities to utilize resources at fractional costs. \n\nHealthcare professionals
+    understand that cloud computing has its advantages but many have data security
+    concerns about moving to a cloud-based system. Patient privacy and data security
+    are considered the most serious considerations in cloud computing. \n\n<div class=\"callout
+    drop discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Cloud
+    Security Resources\n* [Facing Down the Largest Healthcare Breaches of 2017 with
+    Datica's Open Source Policies](https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies/)\n*
+    [Spear Phishing: Hackers Aiming for Healthcare](https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/)\n*
+    [How Does the Cloud Reduce Data Loss Risk?](https://datica.com/blog/how-does-the-cloud-reduce-data-loss-risk/)\n*
+    [HIPAA Compliance in the Cloud](https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/)\n*
+    [Watch the Datica Compliance Story](https://datica.com/compliance/)\n* [HIPAA
+    and Encryption](https://datica.com/academy/hipaa-and-encryption/)\n* [7 Step Checklist
+    for PHI Protection](https://datica.com/blog/7-step-technology-checklist-for-phi-protection/)\n\n</div>\n\n##
+    Is Data Encryption Required by HIPAA?\nThe Health Insurance Portability and Accountability
+    Act (HIPAA) is a set of regulations that were enacted as a multi-tiered approach
+    to improving the health insurance system. HIPAA has specifications that ensure
+    the confidentiality and privacy of protected health information. Many wonder if
+    encryption is required by HIPAA but, because these regulations are so convoluted,
+    it’s hard to determine. \n\nThe HIPAA Security Rule does not explicitly say that
+    encryption of data at rest or in transit is required. Since this specification
+    is classified as “addressable” the HHS believes that an entity must address encryption
+    when seen as “reasonable and appropriate.” Let’s break down what that means:\n\n*
+    The HHS is saying that you do not have to encrypt your data but you need to be
+    prepared to state why you believe that in writing because if you are audited,
+    your documentation will be reviewed by the OCR (Office for Civil Rights).\n* If
+    an entity does a proper risk analysis, there are minimal scenarios in which encryption
+    is not “reasonable and appropriate.”\n* Upon a breach of data happening, it is
+    not very likely the victim(s) or the OCR will agree with any entity claiming that
+    it not necessary. So although encryption may not be called out as a mandatory,
+    the majority of healthcare professionals will tell that it is required.\n\n\n##
+    How do I Choose a Secure Healthcare Cloud?\nWhen selecting a healthcare cloud
+    provider, it is vital for an organization to perform due diligence to ensure the
+    ePHI they are entrusting this provider with will be secured in accordance with
+    the HIPAA regulations.\n\nAs you look for a [compliant healthcare cloud](https://datica.com/platform/)
+    ask these key questions:\n* Have they had an external assessment done by a third
+    party?\n* Have they been assessed against the HIPAA Security Rule?\n* What assurance
+    can they make in safeguarding your data?\n* What do they cover as part of the
+    business associate agreement?\n\nIn most instances, cloud providers should be
+    able to provide evidence of a third party HIPAA compliance assessment, such as
+    HITRUST CSF certification.\n\nDatica makes digital health in the cloud a reality
+    by removing the risks that prevent its adoption. We turn HIPAA compliance on public
+    infrastructure providers into a solved problem, and enable secure clinical data
+    exchange between mission-critical digital health applications and EHR systems.
+    Datica serves healthcare’s complete spectrum, from digital health startups and
+    industry leaders to health systems across the nation. More than 300 customers
+    and partners trust Datica to ensure their clouds are HITRUST certified and data
+    securely interoperable.\n\n"
+  :related_blog:
+  - :id: 6J5aIYiaVqc0Us8wKaeQI2
+  - :id: 3hYvku6VcIecmMKYIQeok8
+  - :id: 7BC902tFlKQwC6YygGECKY
+  - :id: 3Ec3hwc0MEggUU8aqqsecE
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 3dV5xVOogMwaoAoQseeY4s
+  - :id: 7m6GhHtIFqeWoKuUQWSAOs
+  - :id: 3OnaohMlZucmAkaQ8A0qAu
+  - :id: 4hdDeDpvO0Wy6uU6qkQceU
+  - :id: 1xWyIu23sMAEAYA4sC2qk2
+  - :id: 4kL9zNbTvyECOaqaykCCEg
+  - :id: 4Rg9WxKcCIyeySMoUu0o8A
+  :related_academy:
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  - :id: 5kwY6YTmKIuwCU482esGAQ
+  - :id: RT8nZZqxeSOmKQu4Ukys2
+  :related_podcast:
+  - :id: 6igcttvFyoiuyQWK6y6g8a
+  :related_guides:
+  - :id: 42vdpyUIlGuIWWGmEumQIy
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

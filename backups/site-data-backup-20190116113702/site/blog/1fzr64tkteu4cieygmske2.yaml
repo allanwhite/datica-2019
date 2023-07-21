@@ -1,0 +1,434 @@
+---
+:id: 1Fzr64tKTeu4CiEYgMSKE2
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-08-07T22:33:43+00:00'
+  :created_at: '2016-11-23T22:18:36+00:00'
+  :id: 1Fzr64tKTeu4CiEYgMSKE2
+:title: The HIPAA Compliant Solution for Telehealth
+:slug: the-hipaa-compliant-solution-for-telehealth
+:pub_date: !ruby/object:DateTime 2015-06-11 00:00:00.000000000 Z
+:tags:
+- :id: 2ExI7snXjysKOqWqmwQwwU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:18:13+00:00'
+    :created_at: '2016-11-22T20:18:13+00:00'
+    :id: 2ExI7snXjysKOqWqmwQwwU
+  :tag_full: Telemedicine
+  :slug: telemedicine
+  :description: Telemedicine is the remote diagnosis and treatment of patients by
+    means of telecommunications technology, such as video chats and mobile devices
+    and sensors.
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: Datica's telehealth business partners leverage our HIPAA expertise to ensure
+  they never have to pay a fine due to a HIPAA violation.
+:blog_lead: "Here at Datica, we have many customers and [business associates](https://datica.com/academy/business-associate-agreements/)
+  that utilize our products, services, and expertise with applications that employ
+  telecommunication technology with means of improving healthcare, collective well-being,
+  and health education remittance and assistance — put simply in layman’s terms, Datica
+  serves as a great technology partner to telehealth apps. \n"
+:post: "## What is **telehealth**?\n\nTelehealth encompasses a vast range of logistics,
+  policies, and technologies in order to yield the desired communication results of
+  the users. The federal HRSA (Health Resources and Services Administration defines
+  telehealth as:\n\n> The use of electronic information and telecommunications technologies
+  to support long-distance clinical health care, patient and professional health-related
+  education, public health and administration.\n\nThere are other definitions and
+  interpretations of telehealth from different state and federal entities, which does
+  influence the regulations and policies that control what is permitted in relations.
+  But one constant that is echoed, regardless of the source, is the importance of
+  HIPAA compliance. \n\n**That’s where Datica comes in.**\n\nWith the Joint Commission
+  placing a ban on all plain text messaging for any conveyance of protected health
+  information (PHI), the need for discreet information transmission is of utmost importance
+  and urgency merited by [HIPAA and HITECH regulations](https://datica.com/discover/hipaa-compliance/).
+  A single willful neglect breach of unprotected communications could consequent in
+  a fine up to $50,000. And repeat violators could see annual fines as high as $1.5
+  million. And if that isn’t enough, this doesn’t take into account the unrepairable
+  damage to an association’s reputation and credibility that would ensue soon after.
+  \n\n## Are these risks worth not being HIPAA compliant?\n\nDatica is here to take
+  worry out of all of the above. Our telehealth business partners leverage our HIPAA
+  expertise to ensure they never have to pay a fine due to a HIPAA violation. \n\nNeed
+  [proof](https://datica.com/proof/)? Check out everything that makes us HIPAA compliant
+  — from our HIPAA documentation, company policies, and educational materials — [here
+  on our compliance page](https://datica.com/compliance/).\n\n"
+:cta_ref:
+  :id: 6kYqOBsQfeymIg08euYOqw
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-29T19:53:51+00:00'
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :cta_title: Get the Complete HITRUST Guide
+  :cta_desc: Learn more with Datica's definitive HITRUST guide. This comprehensive
+    guide details the journey to HITRUST CSF Certification, explains why HITRUST matters,
+    describes the structure of the HITRUST framework, details the associated costs
+    of certification, and more.
+  :cta_label: Get the HITRUST guide
+  :cta_url: https://datica.com/guide/hitrust/
+  :cta_svg_icon:
+    :id: 61Uint7Cg0qwyqMAOCQQSg
+  :cta_icon: "/public/icons/datica-icons/icons-hitrust/icon-hitrust.svg"
+  :cta_color: gray-light
+:related_entries:
+- :id: 6qIStgB28Me860WMGgCY8Q
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-02-04T23:47:09+00:00'
+    :created_at: '2016-11-23T22:18:27+00:00'
+    :id: 6qIStgB28Me860WMGgCY8Q
+  :title: Digital Health Innovating Behavioral Healthcare
+  :slug: digital-health-innovating-behavioral-healthcare
+  :pub_date: !ruby/object:DateTime 2015-09-16 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  :categories_blog: company
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: In a digitally interconnected world, people with behavioral health conditions
+    consult their technologies long before approaching healthcare providers for further
+    diagnosis and treatment. What would be the benefit in approaching a healthcare
+    provider immediately anyways? Behavioral healthcare is insufficient in assisting
+    diagnosis, overseeing treatment response, and evaluating disease acuity. In contrast
+    to other healthcare fields, psychiatric care is founded on a conversational Q&A
+    model, rather than physical exams, clinical trials, or laboratory testing.
+  :blog_lead: 'In a digitally interconnected world, people with behavioral health
+    conditions consult their technologies long before approaching healthcare providers
+    for further diagnosis and treatment. What would be the benefit in approaching
+    a healthcare provider immediately anyways? Behavioral healthcare is insufficient
+    in assisting diagnosis, overseeing treatment response, and evaluating disease
+    acuity. In contrast to other healthcare fields, psychiatric care is founded on
+    a conversational Q&A model, rather than physical exams, clinical trials, or laboratory
+    testing.
+
+'
+  :post: "As a result, behavioral healthcare is a rapidly growing, but often a neglected
+    sector in the healthcare industry. This specialty presents both many opportunities
+    and challenges; inadequate funding being one of those challenges. Sadly, behavioral
+    healthcare remains the proverbial stepchild, never seeing the therapeutic breakthroughs
+    or [innovation](/innovation) necessary to be in the spotlight. However, the opportunities
+    remain. The health economic burden is massive and the life expectancy of patients
+    is considerably less, due to their conditions being difficult to treat, an overwhelming
+    challenge in patient monitoring and overall subpar patient care. Innovative behavioral
+    health technologies have a great opportunity to contribute to change in this area.\n\nWith
+    the Web being accessible from nearly all handheld devices, patients are turning
+    to tablets and smartphones in search of further healthcare information, to connect
+    with online support communities and to discover possible treatment options. Digital
+    health technologies are offering the ability for fiscally effective, long-term
+    remote monitoring of patients with mental health issues. New mobile applications
+    and Web portals are enabling patients and caretakers to gauge and communicate
+    status updates to the care team on a regular basis from wherever the patient may
+    reside, enabling telehealth assessments and therapeutic interventions. \n\nOne
+    application that is successfully connecting and innovating behavioral healthcare
+    is [Ginger.io](https://ginger.io/). This application takes a look at statistics
+    and mobile usage patterns to map regular behavior to convert into insights about
+    managing personal health. Always running in the background, the app monitors call
+    and text activity, as well as location and movement in the most general sense.
+    To be more specific, the app will not track if you are at the beach or calling
+    your sister, but will rather determine if you have remained in one location all
+    day or have disregarded contact with others. By analyzing these general behavioral
+    patterns, [Ginger.io](https://ginger.io/) can notify the user if unusual activity
+    or a disruption occurs in regular behavior and relates what next actions to consider.
+    \n\nOther behavioral heatlhcare apps to check out that are furthering innovation:\n\n-
+    [Lantern](https://golantern.com/) is a web and mobile based platform that combines
+    cognitive behavioral therapy (CBT) techniques with advice from real experts. Users
+    start by taking an assessment test to determine their strengths and weaknesses
+    in five areas: body, stress/anxiety, mood, sleep, and social life. Lantern provides
+    daily exercises tailored to suit users’ needs based on the results of their assessment.
+    Each user is also matched with a professional coach trained in CBT who can provide
+    feedback and answer any questions.\n- [Optimism](http://www.findingoptimism.com/)
+    is a family of applications that focuses on self-tracking as a tool for coping
+    with mental illnesses including depression, bipolar disorder, anxiety, and PTSD.
+    The app helps users detect patterns in their mood, creating a way to identify
+    triggers and other things that affect their mental health. Users can create a
+    customizable wellness plan to chart their coping mechanisms, and this can be updated
+    as they come to have a deeper understanding of what they need to tackle for their
+    mental illness.\n- [TalkSpace](http://www.talkspace.com/) seeks to make therapy
+    more available by connecting users with one of more 200 licensed therapists via
+    messaging. With a subscription to Talkspace, users get matched to a therapist
+    to chat with at any time. \n- [Big White Wall](https://www.bigwhitewall.com/landing-pages/landingv3.aspx?ReturnUrl=%2f)
+    is a community application where people suffering from various mental illnesses
+    can come together and talk about their problems with support from trained therapists.
+    The app features discussion boards, reference articles, and self-assessment tests.
+    Users can also register for online therapy programs. Big White Wall also lets
+    users create a “brick, ” which is a collage of pictures and images meant to encourage
+    users to express themselves. The program focuses on anonymity as a way for members
+    to feel fewer stigmas about sharing their problems.\n- [IntelliCare](https://www.intellicare.com.ph/)
+    is a suite of apps created by researchers at Northwestern University to target
+    symptoms of depression and anxiety. The apps were developed as part of a national
+    research study funded by the National Institutes of Health. The suite includes
+    the IntelliCare Hub app and 12 mini apps. \n\nKnow of any other innovative apps
+    in the behavioral healthcare sector making a difference? [Tweet us](https://twitter.com/daticahealth)
+    about them! Then check out what some of the most innovative healthcare industry
+    leaders have to say in our annual [Healthcare Innovation Series Report](/innovation/2015)
+    that covers 7 Big Ideas in healthcare.\n\n"
+  :cta_ref:
+    :id: wWsIbfCLjasGCy6cKeO86
+- :id: 2vLZLMLDskY4UiW8guikiA
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-19T00:03:32+00:00'
+    :created_at: '2016-11-23T21:37:50+00:00'
+    :id: 2vLZLMLDskY4UiW8guikiA
+  :title: The Importance of Business Associate Agreements (BAAs)
+  :slug: the-importance-of-business-associate-agreements-baas
+  :pub_date: !ruby/object:DateTime 2014-12-11 00:00:00.000000000 Z
+  :tags:
+  - :id: 7befKoeN9uMUqUGYiKOaeO
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :categories_blog: company
+  :author:
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :summary: Simply put, a Business Associate Agreement (BAA) defines responsibility,
+    and thus liability, with respect to the handling of PHI data.
+  :blog_lead: 'HIPAA guidelines define the safeguards for protected health information
+    (PHI). Business Associate Agreements (BAAs) are contracts that outline how different
+    organizations will handle electronic protected health information (ePHI) and the
+    types of responsibilities that each organization assumes.  Simply put, a BAA defines
+    responsibility, and thus liability, with respect to the handling of PHI data.
+
+'
+  :post: "We've written about [BAAs before](https://datica.com/academy/business-associate-agreements/).
+    Start there for a general understanding. The rest of this article, as well as
+    a [Part 2 that talks about the top 5 things to look for in a business associate
+    agreement](https://datica.com/blog/top-5-things-you-find-in-an-ideal-business-associate-agreement/),
+    will dive into why selecting a BAA is important, and give guidance when doing
+    so.\n\n## It's not just a checkbox\n\n>   A chain is only as strong as its weakest
+    link.\n>   —  A wise engineer\n\nDatica has talked to many companies about their
+    HIPAA compliant hosting requirements and how our Platform-as-a-Service (PaaS)
+    can address their requirements. Our mission is to help them get most of the way
+    down the road of [HIPAA compliance](https://datica.com/discover/hipaa-compliance/).
+    Often we discuss the topic of other vendors in the space, both similar HIPAA-compliant
+    platforms or traditional companies like AWS, Firehost, Bluebox, etc. While the
+    conversion usually focuses on technology and features, we emphasize the differences
+    in our business associate agreements as well, because, in some ways, it is our
+    best feature. With Datica, you sign one BAA to cover the entire compliance spectrum.\n\nUnlike
+    several others, we do not require a non-disclosure agreement (NDAs) to view our
+    BAA. In fact, it's [publicly available](https://policy.datica.com/#catalyze-hipaa-business-associate-agreement-baa)
+    as a part of our [open-sourced policies](https://catalyzeio.github.io/policies);
+    we often encourage newer companies to use the business associate agreement template
+    as a starting point for their own BAA. We specifically set aside time with new
+    customers to explain what it covers and what is doesn't and why.\n\nIt is very
+    important you read the language in the BAA from your vendor and understand it
+    well. While it might seem the thought \"I have a BAA with my vendor\" is sufficient,
+    the reality is when a breach or any other kind of security incident happens, you're
+    at risk for whatever was declared in your BAA. In many ways a BAA is a mechanism
+    for transferring risk (and thus liability) from one entity to another by having
+    each entity acknowledging their responsibility in managing specific aspects of
+    the legal mandates. \n\n## Briefly, how a business associate agreement works\n\nBusiness
+    associate agreements became a lot more interesting with the passing of the new
+    HITECH HIPAA Omnibus Rule in 2013, which expanded upon the definition of _business
+    associate_ to include something called subcontractors. _Subcontractors_ are typically
+    service or technology organizations that provide additional services to the business
+    associates, which are providing services for the covered entities.\n\nThe effect
+    has been increased chaining of responsibilities—a good thing in today's technology
+    landscape. As the internet, cloud computing, and APIs have broken down silos,
+    more applications rely on different layers of technology and services, [considered
+    subcontractors](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/).
+    These _subcontractors_ (e.g. Datica, AWS) sign BAAs with _business associates_
+    (you), who in turn sign a BAA with _covered entities_ (health system, health plan).\n\nIt
+    is critical for you to remember that ultimately you, as the business associate
+    signing a contract with a covered entity, are the one left holding the ball. It
+    is your responsibility to ensure the following:\n\n- **Know your BAAs.** Since
+    a chain of entities (like IaaS / hosting providers, APIs and SaaS) touch the ePHI,
+    each must have BAAs in place with you that are consistent and not contradictory.
+    For example, a business associate selling to Hospital ABC can't agree to a 24-hour
+    breach notification policy if the hosting provider has a physical breach notification
+    policy of 2 months.\n- **Meet your responsibilities.** If all the hosting provider
+    gives you is VMs and VPN access, you are now responsible for everything else HIPAA
+    demands. We're talking about encryption at-rest or in-transit (even within your
+    dedicated environment), dedicated logging, and so on. Know what HIPAA requires
+    and what you're left having to take care of yourself!\n\n## The takeaway\n\nThat
+    leaves you with an intriguing proposition. By choosing Datica, you only ever have
+    to sign one BAA. Never will you have to worry about lining up consistency with
+    multiple vendors, or dreading the anxiety of gaps not covered.\n\nIn our next
+    article, we will take a look at the top things you should look for in a BAA. If
+    you have any BAA questions, feel free to [email us](mailto:hello@datica.com),
+    we're always happy to help.\n\n"
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 1tTTpzANBugAQQuQCIaUmy
+  - :id: 4Z0S58Q4JqsMuqmKUoUMEQ
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+:discovery_topic:
+  :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:03+00:00'
+    :created_at: '2017-05-11T00:38:17+00:00'
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+  :title: HIPAA Compliance
+  :slug: hipaa-compliance
+  :topic_tag:
+  - :id: 3ebX0zrnVuYEQOuo2QSSuU
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :summary: HIPAA legislation is ever-evolving and although it may seem complicated
+    and tedious, yet, it is imperative that everyone is in compliance. Here’s everything
+    we know about HIPAA.
+  :featured_image:
+    :id: WT9Em4urgA8g0s06Ei2kW
+  :media_object: <script src="https://fast.wistia.com/embed/medias/hbz1qdevet.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_hbz1qdevet seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4phTVRUAMMwk4o46qQuSQi
+  :lead: 'The spirit of HIPAA is pretty simple. It''s first main purpose is to secure
+    and protect personal health information and, second, to enforce standards for
+    electronic transactions in healthcare. Sounds simple, right? It is simple, but
+    there''s still a lot of information you need to know to get started with HIPAA.
+    This page is your resource to everything you need to know about HIPAA. '
+  :body: "## What is HIPAA?\n\nHIPAA, formally known as the Health Insurance Portability
+    and Accountability act, was signed into legislation in the United States in the
+    90's. These regulations were enacted as a multi-tiered approach to improve the
+    health insurance system. Specifically, the HIPAA Privacy Rule created the first
+    national standard to protect personal health information and medical records.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    HIPAA Basics\n\n* [Learn the basics of HIPAA](https://datica.com/academy/hipaa-101-a-primer/)\n*
+    [Whis is HIPAA Important?](http://content.datica.com/why-is-hipaa-important )\n*
+    [Is HIPAA Federal or State?](http://content.datica.com/is-hipaa-federal-or-state)\n*
+    [When did HIPAA go into effect?](http://content.datica.com/when-did-hipaa-go-into-effect)\n*
+    [Who does HIPAA impact?](http://content.datica.com/who-does-hipaa-impact)\n\n</div>\n\n*
+    HIPAA permits individuals to have power over their own health information.\n*
+    HIPAA holds any perpetrators fully accountable for their actions if in violation.\n*
+    HIPAA creates the necessary safeguards that all healthcare entities must attain
+    to handle personal health information.\n* HIPAA sets parameters around the use
+    and distribution of health data.\n\n## Why does HIPAA matter? \nWell, all healthcare
+    entities and organizations that use, store, maintain or transmit patient health
+    information are expected to be in complete compliance with the regulations of
+    the HIPAA law. When completely adhered to, HIPAA regulations not only ensure privacy,
+    reduce fraudulent activity and improve data systems but are estimated to save
+    providers billions of dollars annually. By knowing of and preventing security
+    risks that could result in major compliance costs, organizations are able to focus
+    on growing their profits instead of fearing these potential audit fines.\n\n##
+    What is PHI or ePHI?\n\n<div class=\"callout drop discover--body-callout float-right-on-medium\"
+    markdown=\"1\">\n\n### PHI Resources\n\n* [Learn more about PHI](https://datica.com/academy/what-is-protected-health-information-or-phi/)\n*
+    [4 PHI Marketing Special Cases](https://datica.com/blog/4-phi-marketing-special-cases/)\n*
+    [HIPAA and Data Breaches](https://datica.com/academy/hipaa-and-data-breaches/)\n\n</div>\n\nProtected
+    health information (PHI) is any information about health status, provision of
+    health care, or payment for health care that can be linked to a specific individual
+    and is transmitted or maintained in any form or medium by a covered entity or
+    its business associate.\nThe definition of a business associate has been extended
+    with the HIPAA Omnibus rule that went into effect in 2013. The term “information”
+    is interpreted rather broadly and includes any part of a patient’s medical record
+    or payment history. The key here is this phrase “that can be linked to a specific
+    individual,” which is where the other acronym, PII (Personally Identifiable Information)
+    becomes relevant. The major difference between PHI and PII is that PII is a legal
+    definition, i.e. PII is anything that could be used to uniquely identify an individual.
+    PHI is a subset of PII in that a medical record could be used to identify a person
+    — especially if the disease or condition is rare enough.\n\n## Understand Business
+    Service Agreements\n\n<div class=\"callout drop discover--body-callout float-right\"
+    markdown=\"1\">\n\n### BAA Resources\n\n* [Learn More about Business Associate
+    Agreements](https://datica.com/academy/business-associate-agreements/)\n* [HIPAA
+    Subcontractors and BAAs](https://datica.com/academy/hipaa-subcontractors-and-baas/)\n*
+    [The Importance of BAAs](https://datica.com/blog/the-importance-of-business-associate-agreements-baas/)\n*
+    [BAA Isn’t a Checkbox for HIPAA Compliance](https://datica.com/blog/baa-isn-t-a-checkbox-for-hipaa-compliance/)\n\n</div>\n\nThe
+    HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and
+    entities that have to follow the HIPAA security and privacy rules. The main categories
+    are clearinghouses, covered entities (CEs) - typically hospitals, payers, and
+    providers, and business associates. Business associates are far away the biggest
+    cohort of cloud computing companies.\nBusiness associates are people or organizations
+    who contract and provide services and/or technology for covered entities. In the
+    process of providing those services or those technologies, business associates
+    handle, process, transmit, or in some way interact with electronic protected health
+    information (ePHI) from those covered entities. With this ePHI access, business
+    associates are required to sign what’s called a business associate agreement (BAA).\n\n##
+    Proving HIPAA Compliance\n\n<div class=\"callout drop discover--body-callout float-left\"
+    markdown=\"1\">\n\n### HIPAA Compliance Resources\n\n* [HIPAA Compliance with
+    Datica](https://datica.com/compliance/)\n* [Proving HIPAA Compliance](https://datica.com/academy/proving-hipaa-compliance/)\n*
+    [HIPAA Auditing and Logging](https://datica.com/academy/hipaa-auditing-and-logging/)\n*
+    [How Long to Keep Medical Records Under HIPAA](https://datica.com/blog/how-long-to-keep-medical-records-under-hipaa/)\n\n</div>\n\nAnybody
+    can, and many companies do, put “HIPAA Compliant” on their websites and marketing
+    material. Complying with HIPAA is essential to selling software that processes,
+    stores, transmits, or somehow touches ePHI. It’s an essential, though non-differentiating,
+    feature of any B2B healthcare technology product. The reason companies can self-attest
+    to being HIPAA compliant is that there isn’t a certifying body, or accompanying
+    certification, for HIPAA. That’s problematic for both vendors making and selling
+    healthcare software to enterprises and enterprises buying software from third
+    party vendors.\n\n### 3 Ways to Prove HIPAA Compliance\nTo prove HIPAA Compliance,
+    one of three methods is used: self assessments, full third party audits, or inheriting
+    proof. \n\n#### Path 1: Self Assessments\nSelf assessments are the easiest and
+    least expensive, at least in terms of direct costs, to show\ncompliance with HIPAA.
+    Without official audit reports, you must illustrate your compliance story\nthrough
+    hand-crafted documentation.\n\nWe created this [compliance self-assessment worksheet](https://content.datica.com/hipaa-hitrust-self-assessment)
+    to get you started on your roadmap to compliance. \n\n#### Path 2: Full Third-Party
+    Audits\nWhile you may still have to answer questions from each customer about
+    security and compliance, providing your third party audit reports will go a long
+    way to circumventing long, drawn-out security and compliance reviews. Broadly
+    speaking, there are two main healthcare compliance frameworks that you can be
+    audited against – HIPAA (from HHS) and HITRUST.\n\n#### Path 3: Middle Road —
+    Inheriting Proof\nDatica was built to create Path 3. There had to be an easier
+    way to build modern healthcare technology,\npractice modern development practices,
+    comply with HIPAA without having to hire a compliance expert and prove compliance
+    with HIPAA without doing a full audit.\n\nLearn more about HIPAA compliance from
+    the resources listed on this page, or contact the compliance experts at Datica."
+  :related_webinar:
+  - :id: TKFjMwScIoQ6AKKIUAecy
+  :related_blog:
+  - :id: 3bwNayxEnYkukwYQ6Qqee0
+  - :id: 5dA6C7tJtu2kI0IUIcgYE4
+  - :id: 5SQZCCvmSsC4sqMq2AwuwS
+  - :id: 5FDGW2RyLeyCeuaogA4iEs
+  - :id: 4nVjkZfmucWoa6eosqM8uq
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 3UmybvA5440k0Ueay8MW6E
+  - :id: 3eKJGeQUEM0iAwSIeSE80E
+  - :id: 1aJQXUtCFgsgaSEoYMeEi8
+  - :id: 5EcsI6fAKQAsw4C0UoqI6Q
+  :related_academy:
+  - :id: f7teOq2J7acGGGyS8CQWA
+  - :id: 61Jeq2MiSQKeW8Qyuek0Ua
+  - :id: 6zxM9p2URqGckoGmGo4MOi
+  - :id: 4Tq4oXCp9miK2SeuIAi8yg
+  - :id: 4wVqYkwjzaogEAuecsSsky
+  - :id: 55JD3Ys2SkuMqCm6aS6cAO
+  - :id: BVDSUKb8bI44Cgeq44MMU
+  - :id: 2uVitrbH7qy2OyeGwcGEO2
+  :related_guides:
+  - :id: 6evss0t4I0IC2cQasg0K2O
+  - :id: 1L20oQXl3G2cKSm4gg2wuc
+  - :id: 2niXNAQR924CwM0YcOeo0C

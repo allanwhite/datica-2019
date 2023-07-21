@@ -1,0 +1,137 @@
+---
+:id: 7yhKJUbL8skWuYQ46GoQgW
+:_meta:
+  :content_type_id: podcastEntry
+  :updated_at: '2017-03-24T01:59:59+00:00'
+  :created_at: '2016-12-20T19:19:44+00:00'
+  :id: 7yhKJUbL8skWuYQ46GoQgW
+:title: 'Dr. Mark Braunstein: Healthcare in the Age of Interoperability'
+:slug: dr-mark-braunstein
+:pub_date: !ruby/object:DateTime 2016-11-15 00:00:00.000000000 Z
+:tags:
+- :id: 4WpqU1En6MsqmCEWweeCmO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:23:44+00:00'
+    :created_at: '2016-09-29T19:23:44+00:00'
+    :id: 4WpqU1En6MsqmCEWweeCmO
+  :tag_full: FHIR
+  :slug: fhir
+  :description: FHIR is the latest standard to be developed under the HL7 organization.
+    Pronounced 'Fire' , FHIR stands for Fast Healthcare Interoperability Resources.
+    I think it's the most interesting standard to have come out of HL7 since the original
+    HL7 protocol.
+  :url: https://www.hl7.org/fhir/
+- :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-29T20:16:04+00:00'
+    :created_at: '2016-11-29T20:16:04+00:00'
+    :id: 2fj1jK1yC0CQuAUIQYIaeo
+  :tag_full: Leadership
+  :slug: leadership
+  :description: Pioneers, innovators, and leaders of great teams.
+- :id: 659zjsWqC4CqqmMgASc46a
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:15:44+00:00'
+    :created_at: '2016-12-20T19:15:34+00:00'
+    :id: 659zjsWqC4CqqmMgASc46a
+  :tag_full: HL7
+  :slug: hl7
+  :description: Founded in 1987, Health Level Seven International (HL7) is a not-for-profit,
+    ANSI-accredited standards developing organization dedicated to providing a comprehensive
+    framework and related standards for the exchange, integration, sharing, and retrieval
+    of electronic health information that supports clinical practice and the management,
+    delivery and evaluation of health services.
+  :url: http://hl7.org
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:guest:
+  :id: 1uhMnCHdKUOYiUWmS0iYQi
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2016-11-23T03:42:33+00:00'
+    :created_at: '2016-11-23T03:42:33+00:00'
+    :id: 1uhMnCHdKUOYiUWmS0iYQi
+  :fullname: Dr. Mark Braunstein
+  :slug: mark-braunstein
+  :person_type: Guest
+  :role: Professor of Health Informatics, Georgia Tech University
+  :profile_pic:
+    :id: 5j9XvDHto4WoyK2GcikGuQ
+  :bio_short: Dr. Braunstein teaches health informatics at Georgia Tech.
+  :bio: |
+    He has written three books: _[Practitioners Guide to Health Informatics](http://www.springer.com/us/book/9783319176611)_, a guide to health informatics for physicians and other non-technical readers (published 2015); _[Contemporary Health Informatics](https://www.ahimastore.org/ProductDetailBooks.aspx?ProductID=17347) (published spring 2014)_; and _[Health Informatics in the Cloud](http://www.amazon.com/Health-Informatics-SpringerBriefs-Computer-Science/dp/1461456282)_, a brief guide to health informatics for non-technical readers (published 2012). Prior to joining Georgia Tech in 2007, he founded several successful health IT companies. Before that, he was on the faculty of the Medical University of South Carolina (MUSC) where he developed one of the first functional ambulatory electronic medical record system.
+
+    He earned a BS degree from MIT in 1969, an MD degree from MUSC in 1974 and completed an internship in internal medicine at Washington University in 1975.
+:soundcloud_embed: <iframe width="100%" height="166" scrolling="no" frameborder="no"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293197570&amp;color=1055ff&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+:summary: |-
+  Today Healthcare Innovators Podcast has a great conversation about "Healthcare in the Age of Interoperability" with Dr. Mark Braunstein, who teaches healthcare informatics at Georgia Tech. In this episode, Travis Good, MD finds out more about Braunstein and his work at the first US university to have a FHIR server for class work. Listeners will learn more about the FHIR-enabled projects that Georgia Tech master-level students are doing in conjunction with research physician clinicians in the Atlanta area.
+
+  We also prod Braunstein for his personal insight about what is missing in today’s medical education. Listeners can gain deeper insight into this area, by ordering Braunstein’s latest book "[Practitioner’s Guide to Health Informatics](https://www.amazon.com/Practitioners-Guide-Health-Informatics-Braunstein/dp/3319176617)."
+:key_takeaways: |-
+  1. Learn what’s driving the adoption of FHIR
+  2. Discover what is prompting explosive interest in Braunstein’s healthcare informatics courses
+  3. Get the inside scoop on what Georgia Tech students are creating with the FHIR standard and access to local clinician researchers
+  4. Explore the three areas that FHIR does not currently address or solve
+:post: |-
+  **On the latest interest in health information exchange:** "I’ve been in this field since 1970 and there have been "boomlets" around health information exchange. And they've all turned out to be just that -- "boomlets." I may live to eat these words, . . . but it really seems real this time."
+
+  "I think [Grahame Grieve](/innovation/grahame-grieve-pt1)'s genius, the author behind FHIR, was to recognize that, to use an expression: *Perfect is the enemy of good*. He is developing the standard according to a practical set of guidelines that quite intentionally isn't going to lead to a standard that solves all problems, but will relatively lead to a standard that solves the most common use cases."
+
+  **On why FHIR is garnering academic interest:** "By providing what might be a universal platform, the door is open to innovation. I developed a relatively unique approach to teaching health informatics at Georgia Tech. We've created our own FHIR server that stores quite a bit of synthetic or public data sets."
+
+  "To me, that's the most exciting thing about interoperability, at least as it creates an open, universal app platform. We’ve needed innovation in this field for a long, long time. I should also mention the fact that it is all based on widely used web technologies. That makes it very attractive to young people."
+
+  **On patient-generated data and FHIR:** "I think in time, those data streams are all going to be based in FHIR, but that remains to be seen."
+
+  "Why can’t a blood pressure cuff emit the appropriate FHIR observation resource? Why can't a glucometer do the same for glucose levels? I think we are going to get to that in time, although it is going to take time."
+
+  ----
+
+  After listening to today’s podcast, you may want to [learn more about FHIR](/guide/fhir) from the Catalyze site, then check out Dr. Braunstein’s lectures on Udacity, or [Coursera](https://www.coursera.org/learn/fhir).

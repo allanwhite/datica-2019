@@ -1,0 +1,107 @@
+---
+:id: mLzpCKZOvYkYAY6eaik00
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T23:01:27+00:00'
+  :created_at: '2017-02-03T00:26:22+00:00'
+  :id: mLzpCKZOvYkYAY6eaik00
+:title: Joint Commission Allows Secure Texting
+:slug: joint-commission-allows-secure-texting
+:pub_date: !ruby/object:DateTime 2016-05-11 00:00:00.000000000 Z
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: In last month's edition of the Joint Commission Perspectives, the Joint
+  Commission ended its ban on text messaging for healthcare providers, reversing its
+  2011 prohibition for these recognized healthcare entities. The Joint Commission
+  is finally embracing modern technology, and these updated regulations permit customers
+  like ours to freely produce, promote, and integrate their secure text messaging
+  solutions.
+:blog_lead: In last month's edition of the [_Joint Commission Perspectives_](http://www.jcrinc.com/the-joint-commission-perspectives/),
+  the Joint Commission ended its ban on text messaging for healthcare providers, reversing
+  its 2011 prohibition for these recognized healthcare entities. Effective immediately,
+  healthcare professionals may text patient care directives through a secure, compliant
+  text messaging platform. The passageway to innovate and invest for healthcare stakeholders,
+  primarily EHR software developers and product managers, has been opened once again.
+  This ruling not only will significantly increase accuracy and remove the necessity
+  of phone calls, faxing or direct communication, but leads to the heavily desired
+  streamlined clinician order process. The Joint Commission is finally embracing modern
+  technology, and these updated regulations permit customers like ours to freely produce,
+  promote, and [integrate](https://datica.com/guide/how-to-integrate-with-hospitals)
+  their secure text messaging solutions.
+:post: |-
+  First issued back in 2011, the Joint Commission text messaging ban was caused by a response posting to the FAQ section regarding the previously prevalent communication tool. "[I]t is not acceptable for physicians or licensed independent practitioners to text orders for patients to the hospital or other healthcare setting. This method provides no ability to verify the identity of the person sending the text and there is no way to keep the original message as validation of what is entered into the medical record." Without a specific policy in opposition to electronic communications, the comment sparked the Commission to highlight concerns regarding the shortcomings of text message privacy, security, reliability, and record retention. That spark led to combustion, placing a texting ban on clinical orders for all Joint Commission accredited entities. Despite the outlaw, various studies report that by permitting the texting of clinician orders within health systems, hospital efficiencies could significantly increase, leading to reduced lengths of care.
+
+  Communicating orders through a text messaging medium is a far more suitable solution than the most common alternatives. Secure texting should not only be allowed, but it should be ensured for the sake of patients and [their data][3]. While clinicians have continued to adopt new technologies and applications personally, the majority of EHRs have propped up the legacy of DIRECT message solutions, a government-led project commenced in 2010. DIRECT is an asynchronous apparatus that frequently resembles a traditional email inbox. DIRECT contrasts completely with an ever-evolving generation of mobile-first messenger products. Even further inconvenient and obsolete is verbal communication, which must have the associated risks highly considered. The Joint Commission has attempted to safeguard verbal orders by permissing only if the receiving party "reads them back" to confirm. Nevertheless, this is nowhere near safe nor secure. In reality, it is nothing more than a game of "telephone" shrouded in misconceptions that will affect patient lives. When it comes to communication alternatives, the pros heavily outweigh any cons. There are just too many pieces that can go awry, so why would anyone now take those risks with fast, convenient, accessible secure text messaging solutions?
+
+  Noting an emphasis on "secure" and other data [security][4] functionalities, the Commission stated its previous concerns could be satisfied by meeting certain requirements,  even when texting from personal devices. Therefore, practicing clinicians practicing within accredited institutions may now text orders when the following criteria have been fulfilled:
+
+  * Secure sign-on process must be incorporated
+  * All messaging must be encrypted
+  * Delivery and read receipts included in the platform
+  * Messages require a date and time stamp
+  * Sanction to customized message [retention][5] time frames
+  * Include a specified contact list of authorized individuals
+
+  The Joint Commission is in the process of evaluating whether to further outline secure text messaging expectations, policies, and procedures for accreditation guidelines. However, healthcare entities are currently advised to tackle additional initiatives:
+
+  * Develop evidencing documentation of the platform's secure text messaging capabilities
+  * Further define when text orders are appropriate
+  * Constantly monitor texting order frequency
+  * Gauge texting policy and procedure compliance
+  * Create a risk management strategy and complete a risk assessment
+  * Conduct training for staff, licensed independent practitioners, and other practitioners on applicable policies and procedures.
+
+  **In an age of growing [cybersecurity attacks][6], this maneuver made by the Joint Commission is pivotal. To showcase that while security threats thrive, standards and rule-setting organizations must be willing to integrate innovative technologies into previously instituted workflows to enact a proactive and considered security strategy. To be appropriately cliché, keep calm and text on.**
+
+  Questions? Reach out to us [directly][7], [tweet us][8], or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+  [3]: https://datica.com/academy/what-is-protected-health-information-or-phi
+  [4]: https://datica.com/academy/the-hipaa-security-rule
+  [5]: https://datica.com/academy/hipaa-data-retention-requirements
+  [6]: https://datica.com/academy/hipaa-and-data-breaches
+  [7]: mailto:hello@datica.com
+  [8]: https://twitter.com/daticahealth

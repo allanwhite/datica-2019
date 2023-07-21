@@ -1,0 +1,13 @@
+---
+:id: 3CLZdgTEIEIoWwMCcKikK6
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-07-29T22:13:56+00:00'
+  :created_at: '2018-05-10T22:10:26+00:00'
+  :id: 3CLZdgTEIEIoWwMCcKikK6
+:title: Intrusion Detection
+:slug: kubernetes-phi-ready-intrusion-detection
+:category: Kubernetes
+:feature_status: Current
+:summary: Like vulnerability scanning, Falco also plays a critical role in intrusion
+  detection — Falco provides an easy way to build rules and output alerts immediately.

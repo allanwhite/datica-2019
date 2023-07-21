@@ -1,0 +1,132 @@
+---
+:id: 4IGQbjkdri0qWEwskmII2m
+:_meta:
+  :content_type_id: webinars
+  :updated_at: '2019-01-08T21:27:40+00:00'
+  :created_at: '2019-01-08T19:05:28+00:00'
+  :id: 4IGQbjkdri0qWEwskmII2m
+:title: How to Prepare for a 2019 HITRUST Assessment
+:slug: prepare-for-2019-hitrust-assessment
+:event_date: !ruby/object:DateTime 2019-01-16 12:00:00.000000000 -06:00
+:summary: 'Get the key information about a HITRUST CSF v9.1 assessment as it relates
+  to your cloud footprint. '
+:subhead: Understand how your cloud services are audited
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: V4hQxnsPw44aq8c62mYIe
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2017-10-20T00:22:12+00:00'
+    :created_at: '2017-10-20T00:22:12+00:00'
+    :id: V4hQxnsPw44aq8c62mYIe
+  :tag_full: AWS
+  :slug: aws
+  :description: All things related to Amazon Web Services (AWS)
+  :body: All things related to Amazon Web Services (AWS)
+- :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:13:21+00:00'
+    :created_at: '2016-11-22T20:13:21+00:00'
+    :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :tag_full: Compliance
+  :slug: compliance
+  :description: 'Compliance in this context usually refers to the costs and complexities
+    associated with systems complying with regulations on security, privacy, data
+    integrity, etc. '
+- :id: is3dnFjlYcWUgE8SKQuAu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-09-04T21:23:49+00:00'
+    :created_at: '2018-09-04T21:23:49+00:00'
+    :id: is3dnFjlYcWUgE8SKQuAu
+  :tag_full: Microsoft
+  :slug: microsoft
+  :description: Microsoft Azure
+:lead: 'As you gear up for audit season, this thirty-minute presentation walks you
+  through the key pieces of information you must know about a HITRUST CSF v9.1 assessment
+  as it relates to your cloud footprint. '
+:desc: "\nIn this thirty-minute webinar, presented by Kris Gösser, Datica CMO, you'll
+  learn:\n\n* How cloud configurations relate to HIPAA compliance\n* Why HITRUST assessments
+  are especially important in 2019\n* How to map your complex environment to HITRUST
+  controls\n\nPlease join us Wednesday, January 16, at 12:00pm CST for this informative
+  webinar. "
+:authors:
+- :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:related_form:
+  :id: 4osILvA9Jmw88sCIi6AkcI
+  :_meta:
+    :content_type_id: forms
+    :updated_at: '2019-01-08T19:01:06+00:00'
+    :created_at: '2018-04-02T19:57:51+00:00'
+    :id: 4osILvA9Jmw88sCIi6AkcI
+  :title: Webinar registration form
+  :slug: webinar-registration-form
+  :desc: This is the registration form for upcoming (future) webinars. Since it is
+    a HubSpot form embedded into datica.com, it needs to have the GoToWebinar unique
+    webinar key entered into the form for each new webinar.
+  :custom_form: "<!--[if lte IE 8]>\n<script charset=\"utf-8\" type=\"text/javascript\"
+    src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\n<![endif]-->\n<script charset=\"utf-8\"
+    type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\n<script>\n
+    \ hbspt.forms.create({\n  portalId: \"1695915\",\n  formId: \"41989b3b-c87c-4aa6-8ddb-dae0c1dd6b74\",\n
+    \ goToWebinarWebinarKey: '1294990897550123779',\n  target: '#hsFormContainer',\n
+    \ onFormSubmit: function($form) {\n  window.dataLayer = window.dataLayer || [];\n
+    \ window.dataLayer.push({\n                    'event' : 'GAEvent',     \n                    'eventCategory'
+    : 'Webinar',\n                    'eventAction' : 'Form Submission',\n                    'eventLabel'
+    : 'Registration',\n                    'eventValue' : '2'\n                    });\n
+    \                 },\n  css: \"\",\n});\n</script>"
+:image_thumb:
+  :title: Webinar Jan 16
+  :description: How to prepare for a HITRUST assessment webinar
+  :url: "//images.ctfassets.net/189dvqdsjh46/21pPXwZvMYsOs6esG2Ea6y/94980b51c2627155ad5fd11e898a0f87/Webinar_Jan_16.jpg"
+  :_meta:
+    :updated_at: '2019-01-08T02:16:28+00:00'
+    :created_at: '2019-01-08T02:16:28+00:00'
+    :id: 21pPXwZvMYsOs6esG2Ea6y
+:share_image:
+  :title: webinar-2019-hitrust
+  :description: Webinar How to prepare for 2019 HITRUST audit social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/1gQIY1pxAY0QyaAEcc0QSa/09f3c53b03f12e1c67529a3360a70100/webinar-2019-hitrust.jpg"
+  :_meta:
+    :updated_at: '2019-01-08T18:43:31+00:00'
+    :created_at: '2019-01-08T18:43:31+00:00'
+    :id: 1gQIY1pxAY0QyaAEcc0QSa

@@ -1,0 +1,110 @@
+---
+:id: 4j8xsKeHSUiaSmQAeQY80C
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T23:16:20+00:00'
+  :created_at: '2017-02-03T00:26:38+00:00'
+  :id: 4j8xsKeHSUiaSmQAeQY80C
+:title: Announcing Stratum — Your Compliance Foundation
+:slug: announcing-stratum-your-compliance-foundation
+:pub_date: !ruby/object:DateTime 2016-02-02 00:00:00.000000000 Z
+:categories_blog: company
+:author:
+  :id: 1gpUmvd6yuOKUIUIY620i0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:45:35+00:00'
+    :created_at: '2016-08-13T01:52:08+00:00'
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :fullname: Travis Good, MD
+  :slug: travis
+  :person_type: Datica Executives
+  :sort_weight: 1
+  :role: Co-founder, CEO & Chief Privacy Officer
+  :profile_pic:
+    :id: yDosmOKtaKaeqgYWQoASy
+  :featured_image:
+    :id: 3SKsN8B74k66kCqi6Ea22s
+  :email: travis@datica.com
+  :bio_short: As CEO, Travis leads Datica's vision. His background in compliance,
+    security, and cloud infrastructure gives him technical expertise that, when paired
+    with his experiences as an MD, allows for a unique view on the challenges of healthcare.
+  :bio: "Before founding Datica, Travis explored a diverse background, starting with
+    business and technology. After securing his MBA and MS, he analyzed security systems
+    with PriceWaterhouseCoopers and Booz Allen Hamilton. Eventually Travis crossed
+    into the clinical world, becoming an MD in 2011.\n\nIn 2016, Travis joined the
+    HITRUST Alliance Business Associates Council as a founding member alongside such
+    companies as Microsoft, Humana, United Health Group, Salesforce, and Epic.\n\nYou
+    can find Travis presenting on the future of healthcare transformation at events
+    throughout the year, or hosting podcast interviews with industry luminaries. He
+    is an active writer with over 450 publications on HIStalk Mobile.\n\nIn 2015,
+    Travis participated in a panel at SXSW discussing HIPAA, compliance, and innovation.
+    In 2013, Travis participated in a panel discussion at the annual mHealth Summit
+    with former U.S. Senate Majority Leader Tom Daschle (D-SD). The panel focused
+    on government compliance. Earlier in the year, he presented a keynote titled \"Connected
+    Health—The Coming Wave in Search of a Beach\" at the annual AHIMA conference,
+    and led innovation sessions at the conference. Travis has also keynoted at past
+    HIMSS and Health 2.0 conferences, as well as recent HITRUST Summits.\n\nAlong
+    with HIStalk Mobile, Travis has contributed to VentureBeat and HITconsultant,
+    among others. His expertise on compliance, HIPAA, and health IT is highly regarded
+    and sought after. He recently released his first book, [Complete Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_twitter: travisjgood
+  :profile_linkedin: travisjgood
+  :profile_url: https://datica.com/travis
+  :location:
+    :lat: 36.4072485
+    :lon: -105.57306649999998
+:summary: Today we are proud to announce the immediate availability of our Platform
+  as a Service solution product – Stratum.
+:blog_lead: Today we are proud to announce the immediate availability of our Platform
+  as a Service solution product – [**Stratum**](https://datica.com/compliant-cloud).
+:post: |-
+  > "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them." – Henry David Thoreau, Walden
+
+  _Stratum? What's that? What does that mean?_
+
+  For those completely unfamiliar with the world of geology, stratum is a layer of of sedimentary rock of near constant composition. Rock strata forms over many years due to a multitude of natural factors: erosion, mineral deposits, etc. And much like these layers of earth, Datica has braved the storms that have shaped us into what we are today. As external changes continue to form the world around us, a company must adapt with offerings that follow suit. Stratum is that natural evolution of our Platform as a Service offering that provides that rock-solid, compliant layer for healthcare infrastructure.
+
+  ## Introducing Stratum
+
+  Why should companies be forced to rebuild a compliant foundation with every new, innovative idea? Why should engineers be expected to absorb new competencies unrelated to the job at hand? The simple answer: they shouldn't.
+
+  Stratum is the procured set of tools that relieves the burden of compliance for technical teams. Datica customers use Stratum in the same way they rely on other industry technologies.  Stratum becomes the base layer by which healthcare teams build their products. It eliminates the necessity to become an expert in the competencies required by compliance, and absorbs the risk that comes with self-administration.
+
+  ## Stratum's Core Functionality
+
+  Stratum is publicly available as a mature Platform as a Service product. Being an agnostic hosting service, it sits on top of industry-leading Infrastructure as a Service vendors such as AWS, Azure and Rackspace. A single [Business Associate Agreement][2] with Datica addresses the entirety of compliance obligations at the infrastructure level. Stratum has the following core functionality available as services on the platform:
+
+  * [Encryption][3] of data in transit and at rest, including SSL
+  * [Disaster recovery][4] and data backup
+  * Dedicated [logging][5]
+  * Intrusion detection
+  * Vulnerability scanning and monitoring
+  * Agent-based deployment processes
+  * Data and file storage
+
+  ## Benefits of Stratum
+
+  Digital health companies and technical teams can achieve multiple outcomes by using Stratum:
+
+  * Reduction of risk associated to building and maintaining industry-standards in security and privacy.
+  * Overnight industry credibility with [Datica's HITRUST CSF Certification][6].
+  * Digital health vendors accelerate their sales process during the vetting process with health systems.
+  * Elimination of the requirement for technical teams to obtain new technical competencies, such as encryption or networking, which saves money and drives organizational focus.
+  * The outsourcing of DevOps duties which similarly reduces organizational costs and heightens focus on core competencies.
+
+  ## Why Stratum?
+
+  The future of healthcare will be driven by scalable, interoperable compliant infrastructure. Stratum is the compliance layer that creates the base foundation for all of healthcare's technical projects. Stratum will continue to evolve to be THE solution for digital health infrastructure compliance.
+
+  Why now? Because there's no better time than now.
+
+  **Have questions? Tell us what you need to know and our team of experts will be your sherpa. We believe in an improved healthcare and will do whatever it takes to make that a reality. Reach out to us [directly][7], [tweet us][8] or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.**
+
+
+  [2]: https://datica.com/academy/business-associate-agreements
+  [3]: https://datica.com/academy/hipaa-and-encryption
+  [4]: https://datica.com/academy/hipaa-contingency-planning-disaster-recovery
+  [5]: https://datica.com/academy/hipaa-auditing-and-logging
+  [6]: https://datica.com/compliance/hitrust
+  [7]: mailto:hello@datica.com

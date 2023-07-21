@@ -1,0 +1,120 @@
+---
+:id: 3p7mN2zaLuoAo6aGwKS0CG
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-06T22:39:21+00:00'
+  :created_at: '2016-11-23T21:37:51+00:00'
+  :id: 3p7mN2zaLuoAo6aGwKS0CG
+:title: Top 5 Things You Find In An Ideal Business Associate Agreement
+:slug: top-5-things-you-find-in-an-ideal-business-associate-agreement
+:pub_date: !ruby/object:DateTime 2014-12-18 00:00:00.000000000 Z
+:tags:
+- :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T18:27:49+00:00'
+    :created_at: '2016-11-23T18:27:49+00:00'
+    :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :tag_full: Customers
+  :slug: customers
+  :description: See what our customers are doing.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Previously we talked about the importance of business associate agreements.
+  But is there an ideal version everyone should pursue?
+:blog_lead: |
+  >   I wish I could, I wish I might, have the wish I wish tonight
+  >   — _I wish I knew_
+:post: "Previously we talked about the importance of business associate agreements.
+  But is there an ideal version everyone should pursue?\n\nGenerically, there isn't
+  necessarily an ideal business associate agreement (BAA) because the contract depends
+  heavily on the services procured. It's difficult to peg the perfect blanket BAA
+  that is ideal for every company and every scenario.\n\nWe can, however, point to
+  the ideal hosting business associate agreement. After three audits and numerous
+  interactions with enterprise healthcare institutions, middle-sized companies, and
+  startups, [we've published](https://policy.datica.com/#datica-hipaa-business-associate-agreement-baa)
+  what we believe is the best approach to a hosting BAA.\n\nVerbosity is always present
+  in legalese, so we condensed the the keys to a good BAA down into 5 points. If possible,
+  look for them in your future BAAs. Not having these in place will expose you to
+  significant risk, incur additional costs, increase your time to market, or hamper
+  your enterprise sales process.\n\n### 1. Responsibility for encryption (at rest
+  or in transit)\n\nA core HIPAA mandate. Data at rest and in-transit *must* be encrypted.
+  Ideally, your hosting provider should take care of this for you so that you are
+  free to just focus on your application. This is [not often the case](http://bit.ly/1sHXvCb).
+  Pay special attention to any in-transit caveats in the BAA. At Datica, we take care
+  of all this for you.\n\n### 2. Breach notification timelines\n\nEnterprise healthcare
+  is a general way to describe covered entities such as health systems, hospitals,
+  health plans and insurance. You will discover their breach notification timelines
+  are strict ranging from 24 hours to 7 days, which is constantly decreasing as breach
+  penalties become more significant. Ensure that timelines across your vendors align.
+  At Datica, our breach notification is 4 hours after discovery of said breach. It's
+  not uncommon for other hosting providers to range from 30-60 days.\n\n### 3. Logging
+  (audit and more)\n\nLogging is [expensive](http://devopsreactions.tumblr.com/post/98877420250/receiving-your-first-splunk-bill),
+  but a key requirement to ensure appropriate tracking of access and ongoing activity.
+  With Datica, you get your own dedicated logging instance built from an ELK (Elastic
+  Search, Logstash and Kibana) stack. You are free to utilize that instance for other
+  purposes as well (such as app and db specific logging etc.). Every one of our current
+  customers who have migrated over to us from other IaaS / hosting providers have
+  been pleasantly surprised that we include this in our service. \n\n### 4. Backup
+  and Disaster Recovery\n\nBackups are critical to avoiding PHI data loss. Most BAAs
+  will outline it as your responsibility. We backup data on a regular schedule, so
+  we take on the backup burden for you. Disaster Recovery (DR) is also important,
+  but the exact requirement is slightly ambiguous. HIPAA just requires you to be able
+  to re-instantiate your environment within whatever timeline your BAA sets. The advantage
+  of the 12-factor approach we follow (similar to Heroku) is that it allows quick
+  recovery of your environment and since the data is backed up on a regular basis,
+  with Datica, you will be able to prove DR capabilities out of the box.\n\n### 5.
+  Covered Services\n\nThis is primarily targeted at IaaS (infrastructure as a service)
+  providers. AWS especially, provides a huge variety of services. Please pay attention
+  to the services that fall under the BAA and the caveats that come with their use.
+  Can the load balancer be used directly or are there caveats around SSL termination?
+  Can you use the DBaaS solution? Are the VMs provided ephemeral in nature or is data
+  persisted?\n\n### Summary: TL;DR\n\nPlease pay attention to the BAA. It is used
+  as a mechanism to transfer responsibility and associated risk and liability. Look
+  for specific caveats around covered services and encryption responsibilities. Logging
+  especially can significantly increase costs. There is a difference between \"HIPAA
+  ready\" and \"HIPAA compliant\". Look for more detail on this topic shortly from
+  us. Catalyze provides an out-of-the-box solution to make your infrastructure HIPAA
+  compliant.\n\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

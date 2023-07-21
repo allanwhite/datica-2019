@@ -1,0 +1,102 @@
+---
+:id: 5SzQ95Vy36iqOSiYIqeAui
+:_meta:
+  :content_type_id: customers
+  :updated_at: '2017-11-28T21:51:32+00:00'
+  :created_at: '2016-08-19T18:16:01+00:00'
+  :id: 5SzQ95Vy36iqOSiYIqeAui
+:company_name: Cordata
+:slug: cordata
+:customer_logos:
+- :title: cordata-logo
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/2pGgP96c8sWI0ui0c8QI4O/7271cffe6f7858c6c0be93f62335c12e/cordata-logo.png"
+  :_meta:
+    :updated_at: '2017-01-13T07:02:10+00:00'
+    :created_at: '2017-01-13T07:02:10+00:00'
+    :id: 2pGgP96c8sWI0ui0c8QI4O
+- :title: cordata-logo-w
+  :description: 
+  :url: "//images.ctfassets.net/189dvqdsjh46/3GrlnYmGnukyGWGe8IIsCg/cccdfe2e877fa5773c79282e02877edd/cordata-logo-w.png"
+  :_meta:
+    :updated_at: '2017-01-13T07:02:38+00:00'
+    :created_at: '2017-01-13T07:02:38+00:00'
+    :id: 3GrlnYmGnukyGWGe8IIsCg
+:fullname: Gary Winzenread
+:role: CEO and President
+:profile_pic:
+  :title: Portrait, Gary Winzenread, Cordata
+  :description: avatar, portrait, customers
+  :url: "//images.ctfassets.net/189dvqdsjh46/2cl8tFI5vOIqQoYOwwAW0C/544a56cf44cf6a9c2b4381f2d7e0752f/headshot-cordata.jpg"
+  :_meta:
+    :updated_at: '2016-11-23T03:25:01+00:00'
+    :created_at: '2016-08-19T18:15:30+00:00'
+    :id: 2cl8tFI5vOIqQoYOwwAW0C
+:customer_quote:
+  :id: 2IXpuuoj5eyEgAaaEiEeG6
+  :_meta:
+    :content_type_id: quotes
+    :updated_at: '2017-02-03T02:49:23+00:00'
+    :created_at: '2016-08-19T18:18:40+00:00'
+    :id: 2IXpuuoj5eyEgAaaEiEeG6
+  :quote_title: Cordata - on confidence
+  :quote_type: customer
+  :quote_body: We are seeking to build confidence with many stakeholders. When I mention
+    Datica, I get nods of recognition and no more questions asked about infrastructure.
+  :customer:
+    :id: 5SzQ95Vy36iqOSiYIqeAui
+:profile_twitter: cordata
+:profile_linkedin: cordata
+:related_products:
+- :id: 2fzMqf6H3W28sIImkqygQw
+  :_meta:
+    :content_type_id: products
+    :updated_at: '2018-12-05T01:25:00+00:00'
+    :created_at: '2016-08-19T18:28:33+00:00'
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :product_name: Compliant Platform as a Service (CPaaS)
+  :slug: compliant-platform-as-a-service
+  :type: products
+:customer_story_short: Cordata's care coordination platform builds a bridge between
+  todays fee-for-service driven healthcare model to tomorrow's value-based healthcare
+  model. Datica helped Cordata get over the compliance hurdle, and has saved the Ohio
+  company time, hassle and the cost of a full-time engineer.
+:case_study:
+  :id: 7wDoP0SHTiSMcAmmOgkKqO
+  :_meta:
+    :content_type_id: caseStudy
+    :updated_at: '2018-04-10T21:46:21+00:00'
+    :created_at: '2017-01-13T07:03:32+00:00'
+    :id: 7wDoP0SHTiSMcAmmOgkKqO
+  :case_study_title: Cordata Gains Compliance Confidence from Clients and Investors
+    with Datica
+  :slug: cordata
+  :featured: true
+  :tags:
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4GBG5tfx8k4yqy2C2y2MaS
+  :customer:
+    :id: 5SzQ95Vy36iqOSiYIqeAui
+  :related_form:
+    :id: 2Qp2qN2TmEMaYOeASoUIEQ
+  :form_id: e6c2e2f9-fad5-4cb5-b853-fcefc3439dba
+  :media_object: <script src="//fast.wistia.com/embed/medias/vcjue00pyu.jsonp" async></script><script
+    src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding"
+    style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"
+    style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed
+    wistia_async_vcjue00pyu popover=true popoverAnimateThumbnail=true videoFoam=true"
+    style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+  :customer_quote:
+    :id: 2BeNQoqXUk0YCuYoiuWkOs
+  :related_product:
+    :id: 2fzMqf6H3W28sIImkqygQw
+  :value_prop: Datica helps customers build trust with stakeholders
+  :body: |-
+    When a healthcare IT company struggles with compliance, Datica is ready to step in. Helping Cordata over the compliance hurdle has saved the Ohio company time, hassle and the cost of a full-time engineer. Yet the bonus value of the Datica Platform became most evident during fundraising. Cordata’s CEO received nods of approval from investors when they realized the company’s technology is built upon the HIPAA compliant, HITRUST CSF Certified Datica Platform.
+
+    #### Discover how Datica helped Cordata strengthen its compliance in this case study.
+
+    * The __Challenge:__ Build a HIPAA compliant infrastructure without interrupting engineer workflows
+    * The __Solution:__ Datica’s Compliant Cloud and expertise to provide compliance direction for product development
+    * The __Advantage:__ Cordata gains greater confidence in its own security practices
+    * The __Opportunities:__ Investors immediately trust Cordata’s infrastructure based upon its partnership with HIPAA security experts at Datica

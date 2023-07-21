@@ -1,0 +1,25 @@
+---
+:id: 2wwytJjtF2SUKYKkQoY2eo
+:_meta:
+  :content_type_id: navSections
+  :updated_at: '2019-01-11T18:46:28+00:00'
+  :created_at: '2019-01-11T18:46:28+00:00'
+  :id: 2wwytJjtF2SUKYKkQoY2eo
+:title: Legal
+:title_short: Legal
+:show_in_top_nav: false
+:section: Legal
+:summary: Datica legal & policy information.
+:child_data:
+- :url: https://policy.datica.com/
+  :desc: Our company policies
+  :title: Company Policies
+- :url: https://training.datica.com/
+  :desc: Our training policies
+  :title: Compliance Training
+- :url: https://hipaa.datica.com/
+  :desc: How we map to HIPAA's rules
+  :title: HIPAA Mappings
+- :url: https://privacy.datica.com/
+  :desc: This Privacy Statement describes Datica’s Web site privacy practices.
+  :title: Datica Privacy Policy

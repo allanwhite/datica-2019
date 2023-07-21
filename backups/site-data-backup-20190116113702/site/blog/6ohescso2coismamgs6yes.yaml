@@ -1,0 +1,233 @@
+---
+:id: 6ohESCsO2coISmaMGS6YES
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-02-03T00:45:10+00:00'
+  :created_at: '2017-02-03T00:26:38+00:00'
+  :id: 6ohESCsO2coISmaMGS6YES
+:title: Cost of HITRUST assessment and certification
+:slug: cost-of-hitrust-assessment-and-certification
+:pub_date: !ruby/object:DateTime 2016-01-06 00:00:00.000000000 Z
+:tags:
+- :id: 9hLuri8gRGWUksIiIQg8y
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:25:36+00:00'
+    :created_at: '2016-09-29T19:25:36+00:00'
+    :id: 9hLuri8gRGWUksIiIQg8y
+  :tag_full: HITRUST
+  :slug: hitrust
+  :description: The foundation of all HITRUST programs and services is the HITRUST
+    CSF, a certifiable framework that provides organizations with a comprehensive,
+    flexible and efficient approach to regulatory compliance and risk management.
+  :url: https://hitrustalliance.net/
+- :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-09-29T19:26:53+00:00'
+    :created_at: '2016-09-29T19:26:53+00:00'
+    :id: 3ebX0zrnVuYEQOuo2QSSuU
+  :tag_full: HIPAA
+  :slug: hipaa
+  :description: HIPAA is the acronym for the Health Insurance Portability and Accountability
+    Act that was passed by Congress in 1996.
+:categories_blog: healthcare
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Cost is one of a few gating factors for companies considering a HITRUST
+  Assessment. This cost can broken up into two broad categories – direct and indirect
+  costs.
+:blog_lead: Cost is one of a few gating factors for companies considering a HITRUST
+  Assessment. This cost can broken up into two broad categories – direct and indirect
+  costs.
+:post: |-
+  ### **Direct costs of becoming HITRUST CSF certified**
+
+  A validated HITRUST Assessment that results in a HITRUST CSF Certification is a more complete, certified version of a HIPAA audit. It was created by large healthcare enterprises to mirror PCI compliance. It is similar to a full HIPAA audit but goes into much more granular detail about the maturity of controls and compliance programs. A standard web app is used to enter information and those entries are validated by a HITRUST approved assessor. Then HITRUST, the organization, reviews all the entries, typically asks for more evidence, and you _hopefully_ get HITRUST certified at the end. The direct costs for this include both fees to HITRUST and to your auditor, or approved assessor. The direct cost, at the low end, is about $40,000-$60,000 but costs can be much higher for larger organizations.
+
+  ### **Indirect costs **of becoming HITRUST CSF certified****
+
+  As Steve Jobs said, "the most precious resource we have is time" and indirect costs are harder to quantify. In regard to the Datica HITRUST assessment, we estimate the total time spent for all employees and have come to an estimate of 200 hours. Also necessary to consider is the time spent between each audit to address issues and solidify compliance and infosec programs. Though not captured for our HITRUST assessment, this contributes to the overall cost of compliance.
+
+  ### **Total costs **of becoming HITRUST CSF certified****
+
+  Conservatively estimating the cost of an hour of work to be $100/hour, a rough calculation can be tallied. With the cost of salaries, benefits and lost opportunities from work not performed simultaneously (writing code, customer support, sales, marketing, etc) a partial loss must be considered. Based on those numbers, the total cost of the HITRUST Assessment is appraised $60,000 - $80,000. If you are considering HITRUST, cost is only one consideration. Audits are time consuming and distracting, factors that are hard to quantify. Weigh the audit's value for your organization. For us, HITRUST Certification was a no brainer because audits are part of our value proposition to customers. We have many customers that effectively scale sales without having done audits themselves, so it's not essential to closing deals, even very large deals. It's also important to understand that the cost of an audit is not simply a cost at one point in time. Audits are typically followed by annual reviews, sort of like miniature audits. These also cost money, eat time, and can be a distraction.
+
+  If you're not a Datica customer and still want to learn why this is so valuable, or you just have questions about what it takes to complete a HITRUST assessment, please don't hesitate to reach out directly or [tweet us][1] as our team of experts wants to be your trusted resource.
+
+  [1]: https://twitter.com/daticahealth
+:related_entries:
+- :id: 4gWmrZYZMAc22g6mSWeCmy
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T18:21:41+00:00'
+    :created_at: '2017-02-03T00:26:22+00:00'
+    :id: 4gWmrZYZMAc22g6mSWeCmy
+  :title: Catalyzing the HITRUST BA Council, HealthXL Global Gathering & HOSTING Partnership
+  :slug: catalyzing-the-hitrust-ba-council-healthxl-global-gathering-hosting-partnership
+  :pub_date: !ruby/object:DateTime 2016-04-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  :categories_blog: company
+  :author:
+    :id: 6NxyE8vlfOqMOkkGsCSusA
+  :summary: Co-Founder Travis Good, M.D. has been selected as a founding member of
+    the HITRUST Business Associate Council, while the team has been attending the
+    industry's premiere events such as HealthXL Global Gathering in San Francisco
+    and HOSTING Customer Summit in Denver to announce exciting new partnerships.
+  :blog_lead: What's the buzz going on at Datica? Partnerships, engagements and announcements
+    are bountiful with the multiple undertakings by this very driven team. Co-Founder
+    [Travis Good, M.D.](https://datica.com/about/travis/) has been selected as a founding
+    member of the HITRUST Business Associate Council, while the Datica team has been
+    flying coast to coast to engage in some of the industry's premiere events such
+    as HealthXL Global Gathering in San Francisco and HOSTING Customer Summit in Denver
+    to announce exciting new partnerships.
+  :post: |-
+    ## Datica Cofounder on HITRUST BA Council
+
+    Very excitingly, Travis Good, MD, CEO and chief privacy officer has been selected as a founding member to the [Health Information Trust Alliance (HITRUST)](https://datica.com/discover/hitrust/) Business Associate Council (BA Council). The BA Council is composed of members who will serve as an advocacy group for the healthcare industry's business associates, specifically focused on the [value of HITRUST][1] in third-party information security assurance. There were only 17 selected to be members of the BA Council from a wide pool of industry leaders and experts in technology, security, risk compliance and audits. The HITRUST Alliance will lean on this council to help shape HITRUST's approach for business associates at a pivotal time in the industry where a growing number of HIPAA-covered entities have announced a requirement that their business associates become HITRUST CSF certified within 24 months.
+
+    Datica has taken a lead in understanding not just HITRUST, but the value of HITRUST for [business associates](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/) in the marketplace. "This appointment validates our leadership and expertise in compliance, and particularly HITRUST, which is such a big trend in the industry," said Dr. Good. "I think that experience and knowledge, as well as the things Datica has done in the industry can contribute significantly to translating the value of HITRUST and its rigorous approach to information security for business associates."
+
+    ## HealthXL Global Gathering Recap
+
+    As was announced in last week's blog post, Casey Bryson, Datica Chief Strategy Officer, attended the exclusive HealthXL Global Gathering in San Francisco where 60 handpicked senior executives from leading, innovative digital health companies gathered to discuss three main topics: sleep, Big Data analytics, and patient/consumer engagement.
+
+    ### Sleep
+
+    The discussion had a primary focus on monitoring sleep patterns through devices and using data to be a driving force for patient behavioral changes, but it is very difficult to convince payers to buy into the value since there is no short term ROI on the immediate investment. [David White][2] from [Philips Healthcare][3] simply, yet insightfully, stated that we just need more data to prove that sleep therapy and monitoring is worth the investment before we can change the behaviors of patients and the way we deliver medicine.
+
+    ### Big Data Analytics
+
+    One of our favorite innovators, [Molly Coye][4], discussed India's emergency response systems and how they use predictive analytics to determine where crashes are going to occur and station responders nearby, not at a home base like in the United States. That ideology has to transition into our healthcare system. Also discussed was, Big Data's role in providing behavioral medicine care. Statistically speaking, for 80% of patients data can drive a care plan and automated care management tools can reach them and insert a provider for validation since patients prefer to be validated by a physician. For the remaining 20%, Big Data can be used to determine how to best treat their conditions to drives better decisions.
+
+    ### Consumer & Patient Engagement
+
+    How do we best engage patients in their care? The question on everyone's minds. It was stated that "the personal touch of healthcare has been lost in fee for service" but Bryson personally believes it's due to the combination of the reimbursement model and the lack of time for a physician to focus on personalized medicine. Stop saying "should" and just do it.
+
+    [Sean Duffy][5], Co-Founder & CEO of [Omada Health][6], gave a great story of making a personalized platform that has been able to scale with extreme success, while [Bruce Ettinger][7], CEO at [Frame Health][8], introduced us to the concept of prescriptive medicine to tailor messaging to the way a patient's needs can be addressed. We look forward to taking all of these learnings and applying them to our own engagement efforts.****
+
+    ## HOSTING Customer Summit in Denver, CO
+
+    Casey Bryson also announced this week a partnership with[ HOSTING][9], the leading provider of managed cloud services at the HOSTING Customer Summit in Denver, Colorado. This partnership will offer 24x7 managed hosting services to the growing and maturing clients of Datica. Datica and HOSTING share a similar customer demographic in the healthcare IT landscape. Consequently, this trusted partnership allows each company to focus on its core competency, leveraging the other for its specific expertise. Check back next week for Bryson's recap at HOSTING.
+
+    > "We are proud to partner with HOSTING and leverage its Unified Cloud approach. Both firms specialize in delivering an amazing user experience, regardless of which clouds a customer chooses to run its application on," said Bryson. "The relationship gives us the ability to work with a single support partner across multiple cloud service providers."
+
+    Questions? Tell us what you need to know and our team of experts will be your sherpa. We believe in an improved healthcare and will do whatever it takes to make that a reality. Reach out to us [directly][10], [tweet us][11] or provide us your contact information to the right. We'll solve your problem so you can focus on your solution.
+
+    [1]: https://datica.com/compliance/hitrust/
+    [2]: https://www.linkedin.com/in/david-white-7a28895
+    [3]: http://www.usa.philips.com/
+    [4]: https://www.linkedin.com/in/molly-coye-921a358
+    [5]: https://www.linkedin.com/in/seanpduffy
+    [6]: https://omadahealth.com/
+    [7]: https://www.linkedin.com/in/brettinger
+    [8]: http://www.framehealth.com/
+    [9]: http://www.hosting.com
+    [10]: mailto:hello@datica.com
+    [11]: https://twitter.com/daticahealth
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82
+- :id: 3Krmfk5k08oq004qQIiYkg
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-09T23:01:08+00:00'
+    :created_at: '2017-02-03T00:26:19+00:00'
+    :id: 3Krmfk5k08oq004qQIiYkg
+  :title: The Purpose of HITRUST's Business Associate Council
+  :slug: the-purpose-of-hitrusts-business-associate-council
+  :pub_date: !ruby/object:DateTime 2016-10-06 00:00:00.000000000 Z
+  :tags:
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: HITRUST is an industry-driven organization with a mission to create a
+    standardized and certifiable security and compliance framework for healthcare.
+  :blog_lead: |-
+    ## HITRUST: A Primer
+
+    HITRUST is an industry-driven organization with a mission to create a standardized and certifiable security and compliance framework for the healthcare industry. It was founded by and is still governed by representatives from covered entities included Unitedhealthcare, Anthem, and Highmark. The framework created by HITRUST, called the Common Security Framework (CSF), is an evolving framework now on version 8.0.
+
+    The mission of HITRUST is to standardize the compliance framework and certification process for healthcare but also to streamline the the process of third party assurance, which basically means making it less resource intensive for both covered entities (payor, providers, clearinghouses) and business associates (BAs) as covered entities assess the risk of data security and compliance in working with third parties (BAs).
+  :post: "## Victim of its own success\n\nFast forward to today—HITRUST is well accepted
+    in the healthcare industry and is increasingly required by covered entities (CEs)
+    for all partners and business associates. These trends are driving demand for
+    HITRUST amongst business associates and, in turn, HITRUST is now seeking more
+    input and feedback from the business associate community. CEs are looking to engage
+    with more BAs and to leverage the HITRUST CSF as the tool to for reducing liability.
+    Ultimately the need to engage with business associates is a natural result of
+    the success of HITRUST in the industry and amongst CEs.\n\nBecause of this need
+    to engage with business associates, HITRUST decided to form a Business Associate
+    council in early 2016 to, in HITRUST's words: \n\n> ….to ensure healthcare industry
+    business associates and other key vendors are able to influence and directly engage
+    with HITRUST, healthcare organizations relating to the HITRUST 3rd Party Assurance
+    program, and other programs impacting business associates.\n\nHITRUST called for
+    volunteers to participate in providing a voice for BAs is shaping HITRUST:\n\n>
+    Through interaction with the BA Council, HITRUST will work to ensure that the
+    Third Party Assurance and other programs are considering and accommodating business
+    associate and vendor perspectives and objectives.\n\nHITRUST [selected][1] a group
+    of 17 founding members representing a diverse swath of the BA landscape from [Epic][2]
+    to [Dropbox][3] to [Salesforce][4] to Datica; we're honored to be chosen and to
+    lend a voice for BAs in helping to influence HITRUST initiatives and programs.\n\n##
+    Why does it matter?\n\nHITRUST was founded by a group of very large CEs, all of
+    which are payors. Covered entities are [fundamentally different][5] from business
+    associates. Covered entities leverage business associates for services; put another
+    way, covered entities are customers for business associates. There are significant
+    differences around liability as CEs are liable for breaches, both for themselves
+    as well as from their BAs. As such, CEs need a compliance framework they can use
+    internally and this was the initial impetus for HITRUST. CEs also need a way to
+    manage the risk of working with 3rd party BAs while BAs need a way to provide
+    evidence to CEs that the risk in working with BAs is mitigated. The HITRUST CSF
+    is emerging as the tool of choice for these use cases.\n\nIt is a 2-sides transaction
+    when it comes to CEs, BAs, and third party assurance. This is a change from the
+    original HITRUST use case. BAs need a compliance framework to assure not only
+    their own, internal auditors and compliance groups but also the compliance groups
+    at their CE customers. And there are a lot more BAs than CEs. HITRUST estimates
+    that the 5 major payors mandating HITRUST for BAs impacts close to 7,500 BAs!
+    That's an astounding number.\n\nIn order to meet this overwhelming demand and
+    the unique needs of this new cohort, HITRUST created the Business Associate Council.
+    The council is already working on several initiatives. One initiative, which started
+    before the Business Associate Council but is in line with BA needs, is the concept
+    of compliance inheritance within the CSF. We're confident more enhancements will
+    be created based on the work of the Business Associate Council and that these
+    enhancements will add value to BAs that decide to leverage the CSF as their compliance
+    framework.\n\n[1]: https://hitrustalliance.net/first-business-associate-council-healthcare-industry-help-drive-efficiencies-effectiveness-third-party-assurance/\n[2]:
+    http://www.epic.com/\n[3]: https://www.dropbox.com/\n[4]: https://www.salesforce.com/\n[5]:
+    https://datica.com/academy/hipaa-101-a-primer/"
+  :cta_ref:
+    :id: 6kYqOBsQfeymIg08euYOqw
+  :related_entries:
+  - :id: 6PchE1CLkssU62Mecwwisy
+  - :id: 1K6JaB74wcCgIe4KSaWYiY
+  :discovery_topic:
+    :id: 6eCTfgRx9CgUm4ciIosc82

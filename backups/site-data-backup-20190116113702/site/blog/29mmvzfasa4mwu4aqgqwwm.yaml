@@ -1,0 +1,755 @@
+---
+:id: 29MmVzFAsA4MWu4aQgqwWM
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2018-06-07T22:53:56+00:00'
+  :created_at: '2018-04-15T19:26:58+00:00'
+  :id: 29MmVzFAsA4MWu4aQgqwWM
+:title: 'Can mHealth Transform Provider Workflows and Patient Care? '
+:slug: can-mhealth-transform-provider-workflows-patient-care
+:pub_date: !ruby/object:DateTime 2018-04-14 00:00:00.000000000 Z
+:tags:
+- :id: 4TyZlvypiw6yMeuGG8W4mu
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:11:18+00:00'
+    :created_at: '2016-11-23T01:11:18+00:00'
+    :id: 4TyZlvypiw6yMeuGG8W4mu
+  :tag_full: mHealth
+  :slug: mhealth
+  :description: '"Mobile health" is a general term for the use of mobile phones and
+    other wireless technology in medical care. The most common application of mHealth
+    is the use of mobile phones and communication devices to educate consumers about
+    preventive health care services.'
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: 'A new HIMSS report about the state of clinical communication and workflow
+  explores how stakeholders in the healthcare system are using and plan to use mHealth,
+  or mobile clinical communications tools. '
+:blog_lead: "The new reality of today’s technology-enabled world — one where more
+  people have smartphones than don’t — is that we all expect access to everything,
+  from anywhere, anytime. This expectation exists in all aspects of our lives, and
+  holds true for providers and their patients who [both want an fast way to communicate
+  and easy access to health data](https://datica.com/blog/mapping-digital-health-validic-drew-schiller/).
+  \ \n\nFor the most part, the technology industry has risen to the challenge, providing
+  us with the ability to do nearly everything on our phones. This digital transformation
+  is happening at warp speed almost everywhere, except in healthcare, where mobile
+  health, or mHealth, lags behind and the industry struggles to move beyond the [digital
+  health hype](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/).
+  \ "
+:post: "\nA paper titled [“The State of Clinical Communication & Workflow”](https://www.patientsafesolutions.com/resources/whitepapers/state-of-clinical-communication-workflow/)
+  produced by HIMSS Media in partnership with HIMSS Analytics and PatientSafe Solutions
+  explores how stakeholders in the healthcare system are using and plan to use mobile
+  clinical communications tools. \n\n## Current condition of mHealth\n\nTo say that
+  the state of mHealth is fragmented is almost an understatement. With IT professionals,
+  clinicians, and even different departments within the same organization wanting
+  and expecting varying solutions from mobile devices and applications, finding effective
+  mHealth programs is rare. \n\nThe survey shows that the main use of mobile technology
+  in healthcare is for communication, rather than accessing patient data, sending
+  alerts, or as a diagnostics tool. In one sense, the use of mobile technology primarily
+  as a communication tool makes sense, but it also means there’s an enormous amount
+  of untapped potential. \n\nDepending on who you ask, mhealth should be doing different
+  things. IT professionals expect mhealth to provide:\n\n- HIPAA compliant messaging\n-
+  Consolidation of voice and messaging\n- Integration with the delivery of results
+  and alerts\n\nHowever, clinicians have a different set of expectations:\n\n- Improved
+  patient safety\n- Faster response among teams\n- Faster response to patients\n\nIn
+  some ways, those expectations are related. For example, integrating the delivery
+  of results and alerts could improve patient safety, and a good messaging system
+  that is HIPAA compliant could result in faster response times from team members.
+  The interesting thing is that these basic functions are not yet widely available.
+  \n\nThe report notes:\n\n> The survey shows that the vast majority of both clinicians
+  and IT want to see strong integration of workflow and communications capabilities
+  within a unified application, which potentially makes it the strongest driver for
+  ongoing adoption. However, for the most part, that hasn’t happened, primarily because
+  of product limitations.”\n\n## Secure messaging may be available but inconvenient\n\nAs
+  it is now, most organizations do have secure messaging platforms available to clinicians.
+  But, in many cases they are so unwieldy they are difficult to use. Nurses, particularly,
+  often have to juggle multiple devices, which could include handsets, voice badges,
+  pagers, and phones. Physicians are more likely to have smartphones, but even so,
+  may have to use multiple apps to send messages making it more likely they will use
+  the phone’s native SMS app and send unsecured messages creating potential HIPAA
+  violations. \n\n> A full 39% of clinical staff indicate unsecure messaging is happening
+  even when secure messaging is in place. Everyone has their own cell phone. If the
+  care team can’t easily reach each other with the hospital-provided devices and apps,
+  they’ll use whatever is fastest to take care of their patients.” \n\nThe majority
+  of healthcare professionals would like to see better integration of secure communications
+  and clinical workflow. The survey results showed that 75% of respondents felt “the
+  communication solution(s) and clinical applications at my organization aren’t adequately
+  integrated to support clinical workflows” and 77% “indicated they would like their
+  communications solution(s) to integrate with clinical workflow management and documentation.”
+  \n\nEven within a single organization, different departments may be using different
+  communications tools. The problem is wide-reaching across the industry as well as
+  deep — extending through organizations. However, there are factors that could make
+  now the best time for a change. \n\n## The potential of mHealth\n\nAlthough the
+  majority of professionals who responded to the survey were concerned with the use
+  of mhealth for secure communications, mobile applications hold the potential for
+  much more, particularly if [integration with electronic health records (EHRs)](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/)
+  and clinical workflows can be achieved. \n\nThe top three areas that professionals
+  indicated are currently unfilled include: \n\n1. Communicating results across care-setting
+  boundaries \n2. Proper post discharge follow-up coordination\n3. Patient data access
+  anywhere, anytime\n\nEach of those areas could impact things like hospital readmissions,
+  chronic condition care, and patient participation in their own care, all of which
+  are part of value-based care. There’s a strong case for making mHealth a priority
+  right now. \n\n## Why now is the right time for mHealth\n\nWith so much uncertainty
+  and impending change in the industry, now might not seem like the best time to tackle
+  the problems of mobile communications in healthcare, but it is, for multiple reasons.
+  In some cases, older devices are ready to be replaced, and the move toward value-based
+  care may be better-accomplished with a good mobile strategy in place. \n\nThe report
+  advises making a particular mobile device, along with [an infrastructure](https://datica.com/platform/)
+  and some “marquee applications” the backbone of the mobile strategy, then building
+  from there. Such a strategy will allow healthcare organizations to move from patient-level
+  care all the way to population health. \n\nThere are challenges. Among them:\n\n-
+  Lack of existing infrastructure\n- Systems integration issues\n- Too many devices\n-
+  Too many applications\n- Lack of interoperability\n- Fragmentation within organizations\n\nThere
+  are smart mHealth and digital health solutions, though, and choosing applications
+  built on a [secure, HIPAA-compliant platform](https://datica.com/platform/), like
+  the many application developers who have chosen Datica, is a smart first step. \n"
+:featured_image:
+  :title: blog-mhealth-featured
+  :description: Can mHealth Transform Provider Workflows and Patient Care featured
+    image
+  :url: "//images.ctfassets.net/189dvqdsjh46/4JUDGPjW9yASUciQ8GIesk/44f9c2530e152977fb89ac709063dd37/blog-mhealth-featured.jpg"
+  :_meta:
+    :updated_at: '2018-04-14T00:18:23+00:00'
+    :created_at: '2018-04-14T00:18:23+00:00'
+    :id: 4JUDGPjW9yASUciQ8GIesk
+:share_image:
+  :title: blog-mhealth-share
+  :description: Can mHealth Transform Provider Workflows and Patient Care social image
+  :url: "//images.ctfassets.net/189dvqdsjh46/3LkR42ThRCm2ewacy46cIy/b22f2f8e6e18be91c050ed9a12eefc22/blog-mhealth-share.jpg"
+  :_meta:
+    :updated_at: '2018-04-14T00:19:14+00:00'
+    :created_at: '2018-04-14T00:19:14+00:00'
+    :id: 3LkR42ThRCm2ewacy46cIy
+:cta_ref:
+  :id: 4OCkYKXr2EEQSIcse0GQOq
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-10-04T19:35:20+00:00'
+    :created_at: '2018-06-07T21:04:59+00:00'
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :cta_title: 'Webinar: HITRUST on Kubernetes'
+  :cta_desc: |-
+    HITRUST on Kubernetes is possible ... with Datica.
+    Watch the webinar recording.
+  :cta_label: Join us
+  :cta_url: https://datica.com/webinars/kubernetes-and-hitrust-compliance/
+  :cta_image:
+    :id: 6vqOsDKfNCOCOkeqOIYASc
+  :related_event:
+    :id: QOGZVNFPCoeq20wKUyCGi
+:related_entries:
+- :id: 6Kw0r5WpoI8yQMKQswQKiO
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-02-15T17:11:47+00:00'
+    :created_at: '2018-02-15T17:11:01+00:00'
+    :id: 6Kw0r5WpoI8yQMKQswQKiO
+  :title: What Exactly is a Digital Health Application?
+  :slug: what-exactly-is-a-digital-health-application
+  :pub_date: !ruby/object:DateTime 2018-02-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 4TyZlvypiw6yMeuGG8W4mu
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'Are digital health apps consumer-facing, or used in a clinical setting?
+    How are they improving patient outcomes? How are digital health apps integrated
+    into clinicians’ workflows? '
+  :blog_lead: "Digital health is something of a buzzword in the industry right now,
+    but evidence is emerging that digital health apps have the potential to both improve
+    patient outcomes and [save money across the healthcare system](https://datica.com/blog/digital-health-apps-could-save-7-billion/).
+    \n\n"
+  :post: "## What is a Digital Health Application? \n\nMobile health, or mHealth,
+    is a type of digital health and is used within the larger context of what the
+    World Health Organization (WHO) describes as electronic health. Apps, of course,
+    are designed to be used with mobile devices.\n\nOne of the largest barriers for
+    health organizations to adopting mHealth in past has been the issue of [changing
+    reimbursement models](https://datica.com/blog/changing-reimbursement-means-new-opportunities/).
+    Healthcare has been a fee-for-service business — essentially providers earned
+    money when people needed care — but now policymakers are shifting to a value-based
+    system. In a value-based system, keeping patients healthy will result in more
+    earnings. \n\nPopulation health, care for chronic conditions, reducing hospital
+    readmissions, and other methods of keeping people well are more important in a
+    value-based care system than in a fee-for-service system. Digital health apps
+    can enhance value-based care through things like appointment reminders, patient
+    monitoring for those with chronic conditions, and various other functions that
+    can improve the overall health of a given community or patient population. \n\nAre
+    digital health apps consumer-facing, or used in a clinical setting? How are they
+    improving patient outcomes? How are digital health apps integrated into clinicians’
+    workflows? \n\n## 11 Types of Digital Health Tools\n\nData firm IQVIA lists 11
+    specific categories of digital health tools in their report [The Growing Value
+    of Digital Healthcare](: \n\n1. Consumer Mobile Apps\n2. Consumer Wearables\n3.
+    Connected Biometric Sensors\n4. Smartphone Cameras\n5. Clinical Trial Patient
+    Information Collection Tools\n6. In-Home Connected Virtual Assistants\n7. Telemedicine
+    and Virtual Physician Visits\n8. Personal Health Records\n9. Web-based Interactive
+    Programs\n10. Text Messaging or Email\n11. Health System Disease Management Apps\n\nIn
+    the IQVIA definition, digital health is mHealth. \n\n> The term is used throughout
+    this report as meaning the use of connected mobile devices — including, but not
+    limited to, mobile phones, tablets, consumer wearables, connected biosensors,
+    and in-home virtual assistants — to improve health.”  \n\nNo set definition has
+    been settled on for mHealth, but many are quite similar. \n\n## What Defines mHealth?
+    \n\nThere are a few [different definitions for mhealth](http://www.himss.org/definitions-mhealth)
+    in use, but nearly all of them agree that mobile health includes a variety of
+    apps and devices. Here’s a small selection of definitions for mHealth by various
+    organizations:  \n\n* Foundation of the National Institutes of Health (FNIH):
+    “mHealth is ‘the delivery of healthcare services via mobile communication devices’”
+    \n* The mHealth Alliance: “mHealth stands for mobile-based or mobile-enhance solutions
+    that deliver health. The ubiquity of mobile devices in the developed or developing
+    world presents the opportunity to improve health outcomes through the delivery
+    of innovative medical and health services with information and communication technologies
+    to the farthest reaches of the globe.” \n* WHO: “Mobile Health (mHealth) is an
+    area of electronic health (eHealth) and it is the provision of health services
+    and information via mobile technologies such as mobile phones and Personal Digital
+    Assistants (PDAs).” \n\n## Examples of companies innovating in the mHealth space\n\nThe
+    Datica Platform serves as the compliance and data foundation for hundreds of customers
+    developing breakthrough apps in the mHealth space. Here are just a few examples
+    of our customers who are mHealth innovators.\n\n### CareMessage\n\n[CareMessage](https://datica.com/customer/caremessage/#spotlight)
+    technology allows for automated appointment reminders for some of the most at-risk
+    patient populations. The technology takes three critical factors into account:
+    the patient’s precondition symptoms, their language preferences, and how they
+    want to receive messages. \n\nAutomated appointment reminders for those who use
+    the so-called safety net of the American healthcare system reduces the cost of
+    missed appointments, improves patient/provider relationships, and improves health
+    literacy. \n\n### Purple Binder\n\nDesigned to help hospital social workers find
+    the resources their clients need, [Purple Binder](https://datica.com/customer/purple-binder/#spotlight)
+    seeks to bridge the gap between social and economic services and healthcare services.
+    They are currently working to build a messaging portal that will allow the hospitals
+    and social services organizations connect when patients are referred. \n\n###
+    healthfinch\n\nWhile many problems in the healthcare system involve patient services,
+    some of them center around healthcare providers. For example, physician burnout
+    is a huge problem, and one reason for it is ever-increasing burden of clerical
+    work. [Healthfinch](https://datica.com/customer/healthfinch/) automates some of
+    the mundane and repeatable tasks that physicians often sacrifice time that would
+    otherwise be spent with patients to complete. "
+  :featured_image:
+    :id: 1DqsNWzu2gm2QEUioKc28U
+  :share_image:
+    :id: 5TRsuVswsosAAIasua04iY
+  :cta_ref:
+    :id: 1RjrCwRgq4eOaS8cG60my4
+  :related_entries:
+  - :id: 5vQ4vxtCla0cemy8CCqQmG
+  - :id: 3Fc24uTlqweogKgSaiymOM
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+- :id: 6LboeTU7m0YiugQ2owU0cW
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-07-18T23:45:59+00:00'
+    :created_at: '2018-01-19T01:34:44+00:00'
+    :id: 6LboeTU7m0YiugQ2owU0cW
+  :title: The Trusted Exchange Framework and the Pursuit of Interoperability
+  :slug: the-trusted-exchange-framework
+  :pub_date: !ruby/object:DateTime 2018-01-19 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: 'The January, 2018 draft of the Trusted Exchange Framework is the first
+    real step toward interoperability since the Cures Act was passed. '
+  :blog_lead: 'One of the biggest obstacles to using electronic health data to the
+    fullest potential is the lack of interoperability. At every level of healthcare,
+    the lack of interoperability causes problems: patients cannot easily access their
+    own health data, providers have problems accessing the health information of new
+    patients, researchers cannot access the data necessary to identify trends that
+    would improve population health, and technology companies struggle to compete
+    in a closed marketplace. '
+  :post: "The [21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34/text),
+    sometimes referred to as the Cures Act, which was passed in December 2016, identifies
+    the need for interoperability. Interoperability would make the exchange of personal
+    health information (PHI) possible while still maintaining security. Currently,
+    information is siloed within EHR systems, and [data integration with those EHRs](https://datica.com/platform/integration/)
+    is frequently cited issue for healthcare providers. \n\nAlongside the need for
+    various stakeholders to be able to access information, there is the requirement
+    to follow the dictates of the [Health Insurance Portability and Accountability
+    Act (HIPAA)](https://datica.com/academy/hipaa-101-a-primer/). Information needs
+    to be accessible, but must also remain secure. Through the Cures Act, Congress
+    instructed the Office of the National Coordinator (ONC) to create or support the
+    creation of a framework for health information networks (HINs) to exchange health
+    information through a common agreement. \n\n## What is The Trusted Exchange Framework?\n\nThe
+    draft Trusted Exchange Framework is the first step toward interoperability. The
+    ONC has published a [User’s Guide to Understanding the Draft Trusted Exchange
+    Framework](https://www.healthit.gov/sites/default/files/draft-guide.pdf). The
+    document was released on January 5, 2018, and consists of two parts:\n\nPart A
+    - Principles for Trusted Exchange\nPart B - Minimum Required Terms and Conditions
+    for Trusted Exchange\n\nStakeholders are [encouraged to submit comments](https://beta.healthit.gov/topic/interoperability/trusted-exchange-framework-and-common-agreement)
+    through February 20, 2018. Once comments have been submitted and a final version
+    agreed upon, the Trusted Exchange Framework and Common Agreement (TEFCA) will
+    be published in the Federal Register. The ONC expects the final version to be
+    published by late 2018. \n\nThe stakeholders include: \n\n* Health information
+    networks\n* Federal agencies\n* Public health organizations\n* Individuals\n*
+    Payers\n* Providers\n* Technology developers\n\nOne of the most important goals
+    of the Trusted Exchange Framework is to create what the ONC describes as “a single
+    on-ramp” to interoperability. Currently, healthcare organizations use different
+    point-to-point interfaces to exchange PHI with each other. This system requires
+    the creation and maintenance of all those individual interfaces, which is expensive
+    and inefficient. \n\nCreating one framework for various stakeholders to exchange
+    information will simplify the process, make accessing their own PHI easier for
+    patients, and create a more competitive market for technology companies. \n\n##
+    Two Parts of the Trusted Exchange Framework\n\n### Trusted Exchange Framework
+    Part A\n\nThe first part of the Framework is Principles for Trusted Exchange.
+    The ONC has defined six principles: \n1. Standardization\n2. Transparency\n3.
+    Cooperation and Non-Discrimination\n4. Security and Patient Safety\n5. Access\n6.
+    Data-Driven Accountability \n\nThese general principles are described as “guardrails,”
+    and the goal of Part A is to build trust among the various HINs. \n\n### Trusted
+    Exchange Framework Part B\n\nThe second part of the framework is Minimum Required
+    Terms and Conditions for Trusted Exchange. This section creates common practices
+    for the exchange of health information, including a common authentication process,
+    rules for exchange, and organizational and operational practices. \n\nSpeaking
+    to [Fierce Healthcare](https://www.fiercehealthcare.com/regulatory/onc-genevieve-morris-trusted-exchange-framework-common-agreement-interoperability),
+    Genevieve Morris, the principal deputy national coordinator for health information
+    technology at the ONC said, \n\n> This is just the floor of what those required
+    terms and conditions are. We all just have to agree to the same terms in order
+    for that exchange to happen.” \n\n## Building on the 3 Goals of Interoperability\n\nThe
+    Trusted Exchange Framework builds on the work that the industry has already done
+    to advance interoperability. [A press release](https://www.hhs.gov/about/news/2018/01/05/draft-trusted-exchange-framework-and-common-agreement-released-hhs.html)
+    from the Department of Health and Human Services regarding the draft stresses
+    that there are three important goals of interoperability: \n\n1. Patient access
+    - patients should be able to easily access their own health information.\n2. Population-level
+    data exchange - both providers and payers need access to population-level health
+    data in order to analyze trends, outcomes, and costs.\n3. Open and accessible
+    APIs - giving the health IT community access to health information will improve
+    the entrepreneurial climate, leading to innovation and improved usability. \n\nThe
+    ONC will outsource the actual implementation of the framework. The ONC will hold
+    an “open and competitive selection of a single Recognized Exchange Framework Entity
+    (RCE) from the industry,” wrote Morris in a [blog post on HealthIT Buzz](https://www.healthit.gov/buzz-blog/interoperability/trusted-exchange-framework-common-agreement-common-sense-approach-achieving-health-information-interoperability/).
+    \ \n\nThe RCE will work with the ONC to develop the final version of the TEFCA
+    that is published in the Federal Register. \n"
+  :featured_image:
+    :id: 9olotaRMhGeCcA8uWQk0O
+  :share_image:
+    :id: 48KfMUhT8IqIIYoOCcqG2q
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :related_entries:
+  - :id: 5nkgweRTpKkSuMKMCa4mog
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  :discovery_topic:
+    :id: 3wVMp3VrJeiEaWs4wOi4K4
+- :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-04-17T16:49:54+00:00'
+    :created_at: '2018-04-13T20:15:21+00:00'
+    :id: 6RyCGZ5eKIC2McwUm6cGAS
+  :title: '2018 Healthcare Trends Part 6: Beyond Digital Health Hype'
+  :slug: 2018-healthcare-trends-6-beyond-digital-health-hype
+  :pub_date: !ruby/object:DateTime 2018-04-13 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Where is healthcare going in 2018? In this sixth piece of the Datica Healthcare
+    Trends series, we explore the fifth trend — moving beyond the digital health hype.
+  :blog_lead: "Where is healthcare going in 2018? In the first article of Datica’s
+    2018 Healthcare Trends series, I outlined [six trends for 2018](https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/).
+    I predict volatility as the government, individuals, and private sector demand
+    change this year. In this sixth piece of the series, I explore the fifth trend
+    — moving beyond the digital health hype.\n\nOver the last ten years, digital health
+    has been met with much ballyhoo and corresponding investment. Even the “digital
+    health” term has become broad and beyond its original intent. It’s helpful to
+    define the term before diving into its evolution and current state. According
+    to Wikipedia, [the digital health discipline is described](https://en.wikipedia.org/wiki/Digital_health)
+    in the following way — “The discipline involves the use of information and communication
+    technologies to help address the health problems and challenges faced by patients.” "
+  :post: "\nThat’s broad. Very broad. \n\nDigital health is somewhat  synonymous with
+    “healthcare technology,” with one caveat — healthcare technology is inclusive
+    of electronic health records (EHRs) and I personally don’t group EHRs in with
+    the broader digital health term.\n\nLike other verticals and in many consumer
+    products, digital health has followed a similar trend. We saw initial hype around
+    mobility, connectivity and consumerization of healthcare. While those trends are
+    still relevant, healthcare, as yet has not been disrupted or upgraded to the same
+    extent as industries like banking, retail, and even education. Those who have
+    been in healthcare for a while have read a multitude of stories touting new companies
+    and technologies that were destined to disrupt healthcare. All of those, except
+    a select few, have failed. \n\nHere are a few of the obstacles digital health
+    companies must overcome.\n\n## Scrutiny of technology spend is way up and proof
+    is the antidote\n\nIn 2018, healthcare technology has finally [moved past the
+    EHR era](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/). EHRs
+    are now ubiquitous in healthcare organizations. As we all learned at HIMSS18,
+    the good old days of Meaningful Use are over. However, one lingering consequence
+    of Meaningful Use was an increase of the percentage of technology spend in most
+    health systems budgets. That increased spend is now being scrutinized, and digital
+    health must demonstrate solid proof of efficacy to overcome that scrutiny and
+    succeed.\n\nIn the [Digital Health Success Framework (DHSF)](https://datica.com/dhsf/)
+    Datica outlined the major challenges that digital health developers must traverse.
+    Now, more than ever, digital health products need associated proof to overcome
+    buyer and customer skepticism. The proof can broadly fall into the following buckets
+    — lowering costs, improving care (especially in at-risk settings), and improving
+    the care experience.\n\n## VCs invest in scalable technologies, but healthcare
+    is siloed and localized \n\nVenture capital compounds the challenges of digital
+    health. Building and scaling new technology products to meet venture capital demands
+    falls out of alignment with selling and implementing demands of digital health
+    within the enterprise. The localized nature of healthcare exacerbates the problem.
+    Even for some larger systems that still buy technology at local or regional levels,
+    one must wonder if most digital health technologies aren’t meant to be venture
+    scale. That’s not necessarily a bad thing.\n\nSome digital health companies have
+    found success with a focus on localization. Those companies have discovered that
+    while you may not be able to change the way care is delivered for millions of
+    people you can, however, do that in one city. Scale in healthcare doesn’t have
+    to be geographically global. Scaling to thousands of health systems is daunting,
+    since many are finding ways to solve their problems without waiting for a well-funded
+    digital health startup to save the day. \n\nOver the past year, I’ve talked to
+    multiple investors who say they see many digital health companies solving the
+    same problems with similar solutions, and all at similar stages ($1 - $2 million
+    in annual revenue and 2-5 customers in the same geography). Who gets funded and
+    how do they scale with anything resembling efficiency?\n\nEHRs don’t help the
+    problem of scaling. Without a centralized clinical data repository; thousands
+    of EHR silos exist all over the U.S. Selling to one Epic hospital is selling to
+    one Epic hospital. You must go through the same extended implementation for each
+    new hospital, with all the associated built-in pushback.\n\n## Proof and scale
+    are necessary, but are they even possible?\n\nWhere does that leave us? Is there
+    a way to 1) prove the ROI of a digital health product, and 2) scale that success
+    quickly? I’m not sure. The system seems to be set up to prevent that from happening.
+    The biggest companies I know that are strategically focused on getting into digital
+    health, and these are some of the biggest companies in the world, are playing
+    a very long game. Those companies know that success, at least regarding scale,
+    is going to take many, many years. And they have the money and patience to play
+    it out.\n\nThese companies are targeting providers because they are seen as the
+    key to healthcare as the actual place of the transaction — care delivered and
+    care received. Life sciences are sometimes seen as a faster path to success, but
+    there are only so many life sciences companies and the investments those companies
+    are making in digital health, and their strategies for digital health, are similarly
+    long game strategies that involve being closer to care delivery.\n\nDespite the
+    doom and gloom of the last few paragraphs, digital health will have a significant
+    impact on healthcare. The question is timing. Regardless of the when, the how
+    is clear — digital health needs to be able to prove it’s worth to get into the
+    hands of patients and providers.\n\n"
+  :featured_image:
+    :id: 6H0Gdxtr2M2M4o64aUk6oO
+  :share_image:
+    :id: 5S8QJAbsQwmA06aAu6qM4Y
+  :cta_ref:
+    :id: 2JiJivalm8AwUCAW8aMo8U
+  :related_entries:
+  - :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+- :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2018-06-07T23:36:35+00:00'
+    :created_at: '2018-01-16T01:34:50+00:00'
+    :id: 5rlU5ZCOXYo0gAw8u8YOYO
+  :title: 6 Healthcare Trends to Watch in 2018
+  :slug: 6-healthcare-trends-to-watch-in-2018
+  :pub_date: !ruby/object:DateTime 2018-01-15 00:00:00.000000000 Z
+  :tags:
+  - :id: 6AZpnMPG2k8mk8gk2acYUI
+  :categories_blog: healthcare
+  :author:
+    :id: 1gpUmvd6yuOKUIUIY620i0
+  :summary: Government, individuals, and private sector will continue a push for change
+    in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.
+  :blog_lead: It’s 2018, and the world looks much different [than it did a year ago](https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/).
+    Go [back even further](https://datica.com/blog/5-predictions-for-digital-health-in-2016/)
+    and the differences are even more stark. No place is that more evident than in
+    healthcare. As the largest industry in the world, healthcare has  weathered the
+    most significant political waves of the last fifteen years. As the costs of healthcare
+    increased unchecked, politicians took notice.
+  :post: "\nIn our pseudo free-market health system, where a considerable portion
+    of costs are covered with public funds, and where the largest public payor initiates
+    changes that are then emulated by commercial payors and, likewise, where government
+    entities heavily regulate healthcare’s techniques and technologies, politicians
+    have intervened to force changes. With healthcare being a major topic of the last
+    several elections and a top priority for President Obama during one of his two
+    terms (as it was for President Clinton, though his primary initiatives in healthcare
+    didn’t pass), it’s no surprise that the current administration also would like
+    to impart change. [President Trump is now working to alter](https://datica.com/blog/2017-healthcare-trends-part-two-trump-and-putting-the-genie-back-in-the-bottle/)
+    some of what the Obama administration put into place. This move creates more uncertainty
+    and requires change. I think everyone agrees on a defined set of goals for the
+    industry, known as the triple aim (better outcomes, lower costs, improved experience),
+    but the path to achieving those goals is wildly variable depending on your political
+    position.\n\nUnfortunately these required changes have placed the industry in
+    turmoil. In an effort to modernize its technology, EHRs have been forced between
+    providers and patients to ensure better, more consistent data collection. Ideally,
+    this move should reduce medical errors and redundant tests, however, the government
+    missed a massive opportunity here when it spent north of $40B on incentives to
+    increase digitization of medical records — EHR software that wasn’t built to reduce
+    medical errors, unnecessary tests or even improve clinician communication or data
+    sharing across providers that would ensure continuity of care. At the same time,
+    government financial incentives prompted a change to healthcare services to ensure
+    quality. Yet, most of these quality initiatives didn’t go far enough and consequently
+    increased data reporting burdens for clinicians. Meanwhile, payments for the majority
+    of healthcare services have been reduced, squeezing provider margins and changing
+    the rules for how providers are paid.\n \nHealthcare hasn’t improved for consumers.
+    During appointments, providers struggle to connect because they have screens,
+    not patients, in front of them. Insurance coverage has gotten worse; choices have
+    been reduced and the complexity of bills and payor communications to consumers
+    more complex. How much worse have things become? I have an MD, MBA, and MS. I
+    run a healthcare company with ~50 employees and have been writing and speaking
+    on healthcare and healthcare technology for ten years. My wife and many of my
+    friends are practicing physicians; some are my physicians. Yet, I woefully struggle
+    to understand my medical bills, choices in providers, and generally how to navigate
+    our broken system. \n\nWhere does that leave healthcare going into 2018? I’d argue
+    that healthcare, if anything, is worse today than it was a year ago. The government,
+    individuals, and private sector will certainly continue pushing for more changes
+    in 2018. Given that, I predict we’ll see a few major healthcare trends as we move
+    through the new year.\n\n## Subscription / direct pay / cash-based practices \n\nConsumers,
+    with minimal choice in healthcare, find it difficult to speak with their wallets
+    or their feet. Similarly, providers have even fewer options. It's no wonder that
+    subscription medicine and cash-based medical practices are growing in popularity
+    for both providers and patients (more on that below). These care models align
+    incentives and are transparent. Geared towards those who have the ability to pay
+    extra for better services, today, the majority of these care models bank on the
+    pocketbooks of the middle to upper class. However, [emerging data sets](https://www.heritage.org/health-care-reform/report/direct-primary-care-innovative-alternative-conventional-health-insurance)
+    show the success of this model is also possible for underserved populations, as
+    well. Learn more about what I think will happen with [cash-pay practices in 2018](https://datica.com/blog/2018-trends-cash-pay-practices-will-grow/).\n
+    \ \n## Post-EHR healthcare \n\nThe gravy train of meaningful use (MU) is over.
+    The effect of MU was a significant, artificial, driver of adoption for a few EHRs.
+    Today, digital health records are the standard. As we move through 2018, keep
+    an eye on EHRs and how they justify their ROI once massive capital expenditures
+    are written down. Likewise, you’ll want to consider how clinicians adjust to this
+    brave new world. Read more about my [2018 predictions for the post-EHR world](https://datica.com/blog/2018-trends-6-predictions-post-ehr-world/).\n\n##
+    Clinicians as developers\n\nThe EHR wave of health IT left out clinicians. EHR
+    and IT vendors drove those early technology decisions. Now, with software eating
+    the world, clinicians are acting like software developers and corporate innovators
+    in helping to design and, in some cases, build new technology and technology-enabled
+    services for their colleagues and their patients. [Read more of my thoughts on
+    clinicians as developers.](https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers/)\n\n##
+    The real cloud\n\n[HIMSS 2018](http://www.himssconference.org/), the largest health
+    technology conference on the planet, will for the first time see the behemoth
+    booths of EHR vendors challenged by the equally massive booths of public cloud
+    service providers like Amazon, Microsoft, and Google. This is the canary in the
+    coalmine moment for healthcare, not just for the adoption of the real cloud over
+    simple virtualization, but also in the fragmentation of infrastructure and services
+    managed by third parties for healthcare delivery organizations. [Learn more about
+    the real cloud in healthcare.](https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare/)\n\n##
+    Beyond digital health hype\n\nDigital health has been hyped for a long time as
+    a savior for healthcare. Unfortunately, healthcare is not that simple and no savior
+    exists to untangle us from our current mess of a system. Technology, for technology’s
+    sake, is not going to fix healthcare. While we’ve witnessed incredible enthusiasm
+    around new technologies disrupting healthcare, we’re also now seeing some public
+    failures, like the recent [acquisition/fire sale of Practice Fusion](http://www.healthcareitnews.com/news/allscripts-buys-practice-fusion-100-million),
+    or the [Castlight Health initial public offering hype](https://www.usatoday.com/story/money/markets/2014/03/14/castlight-health-ipo/6411725/)
+    and valuation assumptions compared to the market reality of today. Similar to
+    EHRs, digital health now must prove it’s worth if it’s going to have sticking
+    power. [Find out more about getting beyond the digital hype.](https://datica.com/blog/2018-healthcare-trends-6-beyond-digital-health-hype/)\n\n##
+    Blockchain to the rescue \n\nSpeaking of hype, [blockchain has made its way into
+    healthcare](https://www.forbes.com/sites/bernardmarr/2017/11/29/this-is-why-blockchains-will-transform-healthcare/#2560e48f1ebe).
+    Smart contracts, immutability, and a clear audit trail — hallmarks of blockchain
+    technology — hold much promise for healthcare data and exchange. The problem is
+    that technology, especially when it comes to data sharing and interoperability
+    in healthcare, is not the dominant roadblock. Layering in new technology, like
+    blockchain, leaves the fundamental organizational and political problems unsolved.\n\nI’ll
+    focus on each of these trends in subsequent posts, distilling all of these healthcare
+    trends down into one larger narrative: post-EHR healthcare is finally ready and
+    incented to start making the necessary changes that will align with the triple
+    aim. Massive organizations will vie for their place in this new healthcare world;
+    some will win and others won’t. The winners will be the providers AND the patients.\n"
+  :featured_image:
+    :id: 4Jy6Q7twdqk8AMssewYKIa
+  :share_image:
+    :id: 2RBIZfT40wkGOqiqqy46gk
+  :cta_ref:
+    :id: 4OCkYKXr2EEQSIcse0GQOq
+  :related_entries:
+  - :id: 1su0Pi5kqssmUoSUIMmuKU
+  - :id: 6aQ1DZrhHGikyWQMyWEYSa
+  - :id: 6tWeZJKa0Eo4qQOwESca0q
+  - :id: 4RxNckwHOwm4KcSo6eS0km
+  - :id: 6RyCGZ5eKIC2McwUm6cGAS
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

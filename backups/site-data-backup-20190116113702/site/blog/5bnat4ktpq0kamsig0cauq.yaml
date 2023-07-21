@@ -1,0 +1,731 @@
+---
+:id: 5bNAt4KTPq0KAmsiG0cAuq
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2017-10-20T22:22:13+00:00'
+  :created_at: '2017-09-01T17:32:29+00:00'
+  :id: 5bNAt4KTPq0KAmsiG0cAuq
+:title: Taming the Torrent of Patient Generated Healthcare Data
+:slug: taming-the-torrent-of-patient-generated-healthcare-data
+:pub_date: !ruby/object:DateTime 2017-08-31 00:00:00.000000000 Z
+:tags:
+- :id: 7lK2BzqJKoygAwAkQG2omW
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-12-20T19:37:49+00:00'
+    :created_at: '2016-12-20T19:37:49+00:00'
+    :id: 7lK2BzqJKoygAwAkQG2omW
+  :tag_full: Innovation
+  :slug: innovation
+- :id: 6wXXHIJfUsMg62Cuwquoa2
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-22T20:15:21+00:00'
+    :created_at: '2016-11-22T20:15:21+00:00'
+    :id: 6wXXHIJfUsMg62Cuwquoa2
+  :tag_full: integration
+  :slug: integration
+  :description: '"Integration" in this context typically refers to connecting and
+    using disparate IT systems in healthcare.'
+:categories_blog: healthcare
+:author:
+  :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-04-16T00:54:50+00:00'
+    :created_at: '2017-01-30T22:49:18+00:00'
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :fullname: Laleh Hassibi
+  :slug: laleh-hassibi
+  :person_type: Datica VP
+  :sort_weight: 9
+  :role: Vice President of Marketing
+  :profile_pic:
+    :id: 4gVcDm2n5SGuS46wUI4eM
+  :email: laleh@datica.com
+  :bio_short: 'At Datica, Laleh is responsible for leading the marketing team to execute
+    on marketing strategies that fuel growth, build Datica''s brand, create demand,
+    and provide value through all stages of the customer lifecycle. Laleh brings Datica
+    deep expertise in content, digital marketing, events, marketing communications,
+    and technology leadership. Laleh graduated from Carnegie Mellon University and
+    has worked with multiple global technology companies across the United States
+    through a span of thirty years.  '
+  :bio: 'Prior to Datica, Laleh led content, communications, and digital marketing
+    teams at emerging cloud and SaaS companies, including Apptio, TalentWise, DataSphere,
+    and PayScale. Her entrepreneurial spirit was born at a software startup in Boston
+    where she started her career after graduating with a B.S. in Business Administration
+    from the Tepper School of Business at Carnegie Mellon University. '
+  :profile_twitter: lalehfarrah
+  :profile_linkedin: lalehfarrah
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:summary: Our Healthcare Innovators podcast continues with an illuminative interview
+  with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.
+:blog_lead: We continue our conversations on the subject of healthcare innovation
+  with an illuminative podcast interview with Aaron Neinstein, MD. [UCSF’s Dr. Neinstein](https://aaronneinstein.com/)
+  gives us a view into some of the promising technologies emerging to organize, digest,
+  and analyze the massive amounts of patient-generated data we are quickly becoming
+  inundated with. Neinstein also shares his ideas about what we can expect to see
+  in the near future, as clinicians gain access to this data.
+:post: "\nHere are a just few of the many ideas you’ll hear in Datica’s Healthcare
+  Innovators Series Podcast, [“Emerging Healthcare Data Challenges from Patient Centric
+  Technologies.”](https://datica.com/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)\n\n-
+  **On openness to patient generated data:** “A big thing is more incentives from
+  the payors, so over the last two years, we've seen the introduction of the Medicare
+  chronic care management codes which create the payment opportunity for use of patient-generated
+  health data. What those codes do is allow you to bill on on a monthly ongoing basis
+  for taking care of a patient who has two or more chronic diseases. You could theoretically
+  have a nurse or someone else on your staff managing the patient remotely and be
+  billing for that time.”\n\n- **On other disease communities using diabetes as a
+  model for technology and tech services:** “One place in particular where we are
+  seeing similarities to diabetes is with asthma. If you think about capturing the
+  action and activity that a patient takes in the normal course of the day. That's
+  what we are talking about here; these are chronic diseases, where coming in for
+  an office visit three or four times a year allows a narrow snapshot of what's happening
+  in somebody's life. The reason we care about patient-generated health data is in
+  theory because it gives us the opportunity to see what somebody is doing day-to-day,
+  24/7, 365 in the context of their life, and tweak their treatment regimen or change
+  their behavior to improve the management of their chronic disease.”\n\n- **On how
+  EHRs fit into the future of patient-generated data:** “I think one of the things
+  that people don't think about is how many different categories of patient-generated
+  health data there actually are. If you break it down, you are talking about 7 or
+  8 categories of things that comprise what we now called PGHD.”\n\nSubscribe to the
+  podcast series or [listen or our website](https://datica.com/innovation/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies/)
+  to hear the whole informative interview with Dr. Neinstein. "
+:featured_image:
+  :title: Patient data header
+  :description: Torrent of patient generated data header
+  :url: "//images.ctfassets.net/189dvqdsjh46/4mbUIstdtuyiw0GWuI82c0/ab3f94c364f8a6182c5db5b030a2858b/martins-zemlickis-57243.jpg"
+  :_meta:
+    :updated_at: '2017-09-01T17:32:21+00:00'
+    :created_at: '2017-09-01T17:23:37+00:00'
+    :id: 4mbUIstdtuyiw0GWuI82c0
+:share_image:
+  :title: Taming the torrent social
+  :description: Taming the torrent of patient data share
+  :url: "//images.ctfassets.net/189dvqdsjh46/2Za6l81CooI0YAeYe8EKaI/9631af0eee3838eab1ee474946b34b88/taming_the_torrent.002.jpeg"
+  :_meta:
+    :updated_at: '2017-09-01T17:29:50+00:00'
+    :created_at: '2017-09-01T17:29:50+00:00'
+    :id: 2Za6l81CooI0YAeYe8EKaI
+:featured_person:
+  :id: iiAcyP3wwEOEms2sgKYCa
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-08-30T16:40:37+00:00'
+    :created_at: '2017-08-30T16:40:37+00:00'
+    :id: iiAcyP3wwEOEms2sgKYCa
+  :fullname: Aaron Neinstein, MD
+  :slug: aaron-neinstein-md
+  :person_type: Guest
+  :role: Professor of Medicine, UCSF; Director of Clinical Informatics, UCSF Center
+    for Digital Health Innovation
+  :profile_pic:
+    :id: 2njKchmmm4wkQOCq882QEE
+  :bio_short: 'Dr. Aaron Neinstein is an Assistant Professor of Medicine at the University
+    of California, San Francisco, as well as the Director of Clinical Informatics
+    in the [UCSF Center for Digital Health Innovation](http://centerfordigitalhealthinnovation.org/).
+    He is board-certified in Endocrinology, Clinical Informatics, and Internal Medicine.
+    In addition to his UCSF clinical Endocrinology practice, he has helped lead the
+    implementation of the Epic EHR at UCSF and many projects to improve clinical care
+    and efficiency. '
+  :bio: He believes strongly that the industry needs to make health information easier
+    for patients and doctors to access, share, understand, and use in day to day care.
+    By creating tighter feedback loops between doctors and patients when communicating
+    and sharing health information, Dr. Neinstein believes we can improve care. He
+    also helped found [Tidepool](http://centerfordigitalhealthinnovation.org/), a
+    non-profit, open-source cloud platform and modern apps for managing type 1 diabetes.
+    He is now Clinical Director for a collaboration between Cisco and UCSF to build
+    a [Connected Health Interoperability Platform](http://www.connectinghealthdata.com/).
+  :profile_twitter: aaronneinstein
+  :profile_linkedin: aaronneinstein
+  :profile_url: http://profiles.ucsf.edu/aaron.neinstein
+  :location:
+    :lat: 37.7631333
+    :lon: -122.4575489
+:cta_ref:
+  :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-01-19T21:45:28+00:00'
+    :created_at: '2017-03-28T23:55:41+00:00'
+    :id: 1F0ezUdOIgOM8aSa6YGeIu
+  :cta_title: Healthcare Innovators Podcast
+  :cta_desc: How are innovators transforming healthcare? Datica explores this in a
+    new series of interviews with the industry's top thinkers and doers. Follow along
+    with us as we uncover insights to catalyzing change in healthcare.
+  :cta_label: Listen to the podcast
+  :cta_url: https://datica.com/podcast
+  :cta_image:
+    :id: ib5cl395L2yikSwyIEigK
+  :cta_color: dark-alt
+:related_entries:
+- :id: 3Fc24uTlqweogKgSaiymOM
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-11T13:42:20+00:00'
+    :created_at: '2017-07-28T22:04:28+00:00'
+    :id: 3Fc24uTlqweogKgSaiymOM
+  :title: Opportunities for Digital Health Vendors in the Pharmaceutical Industry
+  :slug: opportunities-for-digital-health-vendors-in-pharma
+  :pub_date: !ruby/object:DateTime 2017-07-31 00:00:00.000000000 Z
+  :tags:
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  - :id: 538OyakPcc0eKKiyeccEwC
+  - :id: 4PggcBjCXC4mo4OcuKWK2W
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Dr. Naomi Fried shared her ideas on the differences in innovation between
+    pharma and hospitals, and opportunities for digital health vendors in pharma.
+  :blog_lead: "Naomi Fried, PhD is a highly experienced thought leader in healthcare
+    innovation and digital health, with many years of innovation experience. Most
+    recently, as Biogen’s first VP of Innovation, Medical Information, and External
+    Partnerships, she led five functions that catalyzed innovation to support patients
+    and healthcare professionals. She developed the strategy for and led the “innovation
+    beyond the molecule” program to deliver non-pharmacological value to patients
+    and providers. \n\nIn our [July, 2017 podcast](https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/)
+    Travis Good, MD interviewed Dr. Fried, resulting in a lively chat about the differences
+    between the way pharma and hospital systems innovate, as well as the advantages
+    digital health vendors can tap when working with pharma. Here were a few key takeaways
+    from the podcast. "
+  :post: "\n> A whole world of opportunity exists for startups to bring new digital
+    ideas into the market. Digital health vendors should be seeking out pharma for
+    expertise and advice and working with providers to get to patient populations
+    and to bring these new ideas forward to us. - Dr. Naomi Fried, Founder and CEO,
+    [Health Innovation Strategies](http://www.healthinnovationstrategies.com/)\n\n##
+    Pharma companies are slower to innovate than hospitals \n\nInnovation centers
+    are prevalent throughout today’s healthcare ecosystem. But when innovation at
+    Pharma companies is compared to innovation at hospitals and large health systems,
+    hospitals cross the finish line first. “When it comes to testing and implementing
+    patient-facing innovations, particularly new digital health tools, I think providers
+    generally move more quickly,” says Fried. “They are closer to the patient, with
+    fewer regulatory barriers to navigate around. So they tend to be more likely to
+    jump in and try things. I’d say when it comes to [digital health innovation](https://datica.com/innovation/)
+    for patients, hospitals are probably actually a bit ahead of pharma.”\n\n## Digital
+    health vendors and pharma should partner\n\nInnovation in the pharmaceutical industry
+    is fueled by both internal development and the external development taking place
+    in digital health startups across the globe. The fastest path to innovation is
+    in the partnerships being developed between the two. “Digital health companies
+    usually have specialized domain knowledge,” Fried comments. “Tech-savvy, entrepreneurial
+    startups tend to have a consumer bent and are better at developing user experiences
+    and consumer-oriented solutions than large pharma companies.”\n\n> Digital health
+    startups generally move more quickly and often develop products in months rather
+    than years, and they can also make changes quickly and respond to feedback they
+    get.\n\nOn the flip side of the coin, pharma companies can help [digital health
+    vendors](https://datica.com/dhsf/) get past some of the healthcare-specific hurdles
+    to get their products to market faster. Fried explains, “Digital health startups
+    can leverage and learn from pharma's well-established processes around healthcare
+    industry-specific details. Those include things like CPT coding and thinking about
+    payer reimbursement. They don't have to reinvent the wheel or invest heavily in
+    developing regulatory expertise but really can look to a pharma partner who can
+    help them leapfrog to where they are going.”\n\n“Where startups lack the infrastructure
+    needed to reach customers and have trouble scaling up, this is something that
+    pharmaceutical companies have done well. So I think that teaming up with pharmaceutical
+    companies and tapping their extensive marketing infrastructures and distribution
+    channels can really help digital startups get traction, much faster than they
+    could if they were on their own.”\n\n## The three biggest opportunities for digital
+    health products\n\nDr. Fried describes three areas within digital health patient
+    care that improve value and have the potential to reduce costs.\n\n### 1. Medication
+    adherence\n\nMedication adherence has a big effect on outcomes and is supported
+    and driven by digital tools. “When patients are more compliant in taking their
+    medications, the stakeholders — doctors, pharmaceutical companies, and payers
+    — all benefit. I think medication adherence is one of the Holy Grails in healthcare.
+    Getting patients to take their medications at the right time, with the right dosage
+    for a condition can really save costs and improve patient outcomes,” explains
+    Fried.\n\n### 2. Digital diagnosis and prediction\n\nA cost savings to the system
+    and better outcomes for the patients make diagnosis and prediction technology
+    a winning opportunity for digital health vendors to explore.  Fried explains by
+    example, “Prophylactically taking medication that will avoid an asthma attack
+    may mean a patient takes more drugs at a certain time. But the net result is a
+    lower cost for the overall episode or even no episode at all, avoiding expenses
+    like a trip to the emergency department.”\n\n### 3. Digiceuticals\n\nThese are
+    digital therapies that treat a patient for a condition in addition to, or instead
+    of, a traditional pharmaceutical solution. Fried says, “They can either be complementary
+    to medication or they may even have the potential to substitute for medication.
+    An example of a complementary digiceutical would be a pain management app that
+    goes along with pain medication that a patient might take after surgery. This
+    could result in the patient needing less medication or healing more quickly. An
+    example of a substitute digiceutical is a treatment for attention deficit hyperactivity
+    disorder (ADHD). Kids could use these apps rather than taking a medication.”\n\n>
+    I think digiceuticals will clearly drive improved outcomes and lower the cost
+    of healthcare with digital health solutions that bring value in addition to medication.
+    I think that the complementary and synergistic effects of digital health with
+    medications are a net-win for patients, for pharma, and also for the payers.\n\nTune
+    in for the entire podcast, [Naomi Fried, PhD — How Digital Health Companies Can
+    Help Pharma Innovate Faster](https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate)
+    and don’t forget to subscribe to our podcast series to catch them all. \n\n\n"
+  :featured_image:
+    :id: 1mrrYIz0QMuo28oos4ECiU
+  :share_image:
+    :id: 22qK8QU8Y4qUyI2yUCSMw6
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: 68QZK7pKWAgqYKwsGSGuI2
+  - :id: 5sRhmXkdK8C86UuUUYUCsQ
+  - :id: 1ZZE1irrCgIgGgiaqsOykI
+  :discovery_topic:
+    :id: 2eynYIpapeSuGMmW02qqwi
+- :id: 68QZK7pKWAgqYKwsGSGuI2
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-10-20T22:24:42+00:00'
+    :created_at: '2017-02-03T00:26:17+00:00'
+    :id: 68QZK7pKWAgqYKwsGSGuI2
+  :title: The CMIO Role in the Era of Value-Based Care
+  :slug: the-cmio-role-in-the-era-of-value-based-care
+  :pub_date: !ruby/object:DateTime 2017-01-23 00:00:00.000000000 Z
+  :tags:
+  - :id: Ume5Bm00iAqQQ0s4E2Gs2
+  - :id: 7lK2BzqJKoygAwAkQG2omW
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Chief Medical Information Officer is an evolving role in the executive
+    suite. Learn about the CMIO job from Luis Saldana, M.D., CMIO of Texas Health
+    Resources.
+  :blog_lead: Most people are familiar with the role a CIO plays in a health system
+    but the mention of a CMIO would likely elicit questioning looks or shoulder shrugs
+    from many. As one of the newest members of the healthcare executive suite, the
+    Chief Medical Information/Informatics Officer (CMIO) has a complex job description
+    that's evolving in parallel to the shift from volume-based to value-based care.
+  :post: "\n> \"With digitalization of healthcare the job goes far beyond EHR. All
+    the systems that touch that platform, or even touch our clinicians, are things
+    that the CMIO can have influence over.\" *Luis Saldana, MD*\n\nAs we begin 2017,
+    healthcare organizations nationwide will be tapping their CMIOs to provide strategies
+    around MACRA, MIPS, physician satisfaction, and more. We recently chatted about
+    [the evolving role of the hospital CMIO][2] with Luis Saldana, MD, Chief Medical
+    Information Officer, and Medical Director of Clinical Decision Support at Texas
+    Health Resources, one of the largest faith-based, nonprofit healthcare delivery
+    systems in the United States.\n\n## The ever-changing role of the CMIO \n\nAt
+    Texas Health Resources (THR), the reason the CMIO job was added was the same reason
+    many hospitals added a CMIO in the age of [Meaningful Use][4] – to drive the system-wide
+    push toward electronic health record (EHR) implementation. That multi-year implementation
+    project was a huge success at THR as measured by its 95% physician satisfaction
+    rating and its [HIMSS Davies Award][5] win.\n\nThough the core EHR platform was
+    the initial reason the CMIO role was created, Dr. Saldana continues to evolve
+    the job definition of a CMIO. \"With digitalization of healthcare, the job goes
+    far beyond EHR. All the systems that touch that platform, or even touch our clinicians,
+    are things that the CMIO can have influence over,\" said Dr. Saldana.\n\n_**Related:**
+    Listen to the [complete podcast][2] to hear in Dr. Saldana's own words what the
+    CMIO job is like._\n\n## Life in the post-EHR era\n\nNow that Texas Health Resources
+    has implemented the EHR as its core clinical platform, the organization has moved
+    past stabilization, through a few cycles of workflow optimization, and right into
+    the thick of the volume-based to value-based care transformation broadly taking
+    place today. The CMIO's role is shifting right alongside that transformation.\n\nThe
+    roadmap going forward is driven by three major things: healthcare regulation,
+    defining success as a healthcare organization, and effectively engaging physicians
+    in workflow optimization cycles. \"True optimization is about improving the workflows,\"
+    Dr. Saldana explained. \"That means rolling up your sleeves and digging into specific
+    and individual workflows and really optimizing those.\"\n\nTo do that effectively,
+    THR has found the need to continually engage physicians in the optimization process.
+    \"That entails workflow mapping and going back and redesigning care or redesigning
+    the workflow, then doing some usability testing, getting buy-in, and then implementing
+    that again. In fact, optimization is always a reimplementation of certain workflows,
+    so you are just digging in a little bit deeper,\" said Dr. Saldana.\n\n## It takes
+    a village\n\nOne of the key characteristics of an effective CMIO is the ability
+    to collaborate with many different people, both inside and outside the organization.
+    Dr. Saldana relies on a network of colleagues, vendors, and peers to explore how
+    others solve similar problems. \"I take every opportunity when I go to HIMSS,
+    CHIME, or other forums to really connect with the people that I know are leaders
+    in different areas.\" He also relies on industry organizations, like the American
+    Medical Informatics Association® ([AMIA][6]), to get ideas and answers. I think
+    it is important for a CMIO to get out there and not just stay cloistered within
+    healthcare, but really be out there,\" Dr. Saldana added.\n\n## Bringing 2017
+    into focus\n\nThere's a paradigm shift taking place in healthcare today and CMIOs
+    are emerging as direct decision-makers or champions for some of the newer technologies
+    around the EHR, for example, platforms for bundled payments and new digital health
+    solutions. \"If we are successful at creating the platform that engages our patients
+    and our providers and delivers the best care for them, that's the ultimate goal,\"
+    said Dr. Saldana.\n\nHere are some of the key things Dr. Saldana is thinking about
+    as CMIO in 2017:\n\n* **MACRA.** Just as they did with Meaningful Use, THR is
+    planning to create a steering committee with multi-area representatives from both
+    the technology and clinical sides of the fence. Dr. Saldana has this to say about
+    MACRA, \"If you've done Meaningful Use well, you will be well prepared for [MACRA][7].
+    It's going to be how you organize as to whether you are successful or not.\"\n*
+    **Cybersecurity.** As is true in most healthcare organizations today, minimizing
+    risk continues to be a top concern at THR.\n* **New EMR workflows for patient
+    engagement.** In 2017, THR is thinking about what is necessary to provide patients
+    with access to their data.\n* **Improving value.** A big part of improving value
+    is reducing costs and looking at how the EMR can do that. Dr. Saldana said, \"The
+    point of ordering is always seen as the first place you can have an impact. Ordering
+    for imaging, lab ordering, medications — all of those will be critical for us
+    as we decide what the MACRA program will look like at THR.\"\n* **Investigating
+    cognitive technologies and AI.** Technology advancements THR is looking into are
+    in the areas of cognitive technologies, artificial intelligence, and machine learning.\n\n##
+    Staying focused through it all – putting physicians first\n\nAfter spending thirty
+    years as an emergency physician, Dr. Saldana serves as a representative voice
+    of physicians in his organization. \"You see emergency physicians get into informatics
+    since there are a lot of parallels with emergency medicine and informatics in
+    terms of the process.\"\n\nPhysician burnout can be avoided by having someone
+    like the CMIO be the sounding board for those physicians. Dr. Saldana says a big
+    part of his job is vetting new technology ideas through the eyes of a physician,
+    looking specifically at whether or not that new technology will make them more
+    efficient and effective, and if they have the change readiness to take on the
+    burden of change.\n\nDr. Saldana concludes, \"The CMIO role is the bridge between
+    the clinical and the technical. I think one of the things that we see now is that
+    we are in a constant state of change in healthcare, which is obviously disconcerting.
+    Having both the organizational and clinical barometers is important for a CMIO.
+    Then you can be the voice on both sides to say whether something is good for an
+    organization or not in terms of technologies.\"\n\n_Datica explores innovation
+    in healthcare through a series of interviews with the industry's top thinkers
+    and doers. Follow along with us as we uncover insights to catalyzing change in
+    healthcare by [subscribing to the innovation podcasts.][8]_\n\n[2]: https://datica.com/innovation/luis-saldana/\n[4]:
+    https://datica.com/blog/2014-predictions-meaningful-use-continues-to-challenge-it-departments/\n[5]:
+    http://www.himss.org/texas-health-resources-davies-enterpriseorganizational-award\n[6]:
+    https://www.amia.org/\n[7]: https://datica.com/academy/macra-and-mips-explanation/\n[8]:
+    https://datica.com/innovation/"
+  :featured_person:
+    :id: 1ABOdrZEHaWS0qiAquqKmE
+  :cta_ref:
+    :id: 6pl4sdIi3uE8g4sEqkUI2e
+  :related_entries:
+  - :id: 3lTZSm4ETCQOAuCg22g8Wk
+  - :id: K697OmGcEgiMmYQKQA2am
+  :discovery_topic:
+    :id: 6t94v6is9O4QmK6mEOCuoo
+- :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :_meta:
+    :content_type_id: blog
+    :updated_at: '2017-06-21T19:27:26+00:00'
+    :created_at: '2017-02-21T18:53:42+00:00'
+    :id: 5sRhmXkdK8C86UuUUYUCsQ
+  :title: Connected Health Today and in the Future
+  :slug: connected-health-today-and-in-the-future
+  :pub_date: !ruby/object:DateTime 2017-02-21 00:00:00.000000000 Z
+  :tags:
+  - :id: 3rO97bU0piC0CI0eOg6ksI
+  - :id: 4ABMNMPZaU68iucWYcEcIe
+  - :id: 2HUEayZgHmGoSYuAw4qcKO
+  - :id: 4HqJmCMdiwwiQuC8uUcCqo
+  :categories_blog: healthcare
+  :author:
+    :id: 5kC0Y798vm6ag8sCq0O2CQ
+  :summary: Healthcare's version of the Internet of Things is often referred to as
+    connected health. Explore Dr. Joe Kvedar's view on the state of connected health.
+  :blog_lead: The healthcare industry’s version of the Internet of Things (IOT) is
+    very often referred to as the [Internet of Health Things](https://datica.com/blog/the-health-internet-of-things-iot/)
+    or, more commonly, connected health. When most people talk about connected health,
+    they’re referring to the devices, wearables, apps, and other tools that track
+    an individual’s activity or aspects of their health. However, connected health
+    is much more than just a set of devices. As connected health becomes a reality
+    in today’s world, a new model of healthcare delivery is evolving with innovative
+    strategies to move care from the hospital or doctor’s office into the day-to-day
+    lives of people.
+  :post: "\nIn a recent Datica Healthcare Innovators Podcast, [Datica interviewed
+    Joe Kvedar, MD](https://datica.com/innovation/joseph-kvedar), Vice President,
+    Connected Health with Partners HealthCare. Last year, he wrote [“The Internet
+    of Healthy Things,”](http://theinternetofhealthythings.com/) which is packed with
+    real-world information that will help entrepreneurs, innovators, and investors
+    drive the disruption of healthcare delivery. Dr. Kvedar has long been a proponent
+    of personalization in healthcare and is known as one of the greatest HIT influencers
+    in our generation.\n\n>\"There are still some technology problems to be solved.
+    Chief among them is the ability to normalize the data from all of these wearable
+    sensors so that it makes sense.\" -Joe Kvedar, MD\n\n##The connected health journey\nSome
+    aspects of connected health are in play already today and we’re only likely a
+    few years away from reaping the full benefits of this connected health journey.
+    Dr. Kvedar described that journey unfolding in three major phases:\n\n1. **The
+    future is here today in terms of technology.** The majority of the technology
+    is ready for this connected, internet of healthy things world, but some roadblocks
+    prevent clinical providers from leveraging some of this new information. Dr. Kvedar
+    offers, “There are still some technology problems to be solved. Chief among them
+    is the ability to normalize the data from all of these wearable sensors so that
+    it makes sense.” With wearable technology such as a Fitbit, for example, we can
+    already measure steps and calories, but does that tell us a useful story? Dr.
+    Kvedar explains, “They don’t tell a story because no one has been able to translate
+    that data into something that is normalized. So that's a gap.”\n2. **Data analysis
+    will become more personal.** The second step in the connected health journey involves
+    the ability to take all those data feeds and analyze them effectively. “One thing
+    that is most exciting about those data feeds is that they do represent a unique
+    digital fingerprint for each of us, because we do those things all uniquely, whether
+    it is the way we travel with our phones, or our step counts.” Dr. Kvedar says.
+    “The next technical challenge is to be able to harness all of that data and create
+    a unique profile.”\n3. **Business engagement.** The final part of the connected
+    health journey is the engagement with the consumer to propel action, for example,
+    motivating them to make a healthier choice. This third level is just starting
+    to happen today despite both technical and business model hurdles, although Dr.
+    Kvedar says the business model hurdles are starting to break down. “For instance,
+    United Health Group now offers 100,000 insured people a smart wearable device.
+    If they achieve three kinds of fitness goals during a day, as measured by that
+    wearable device, they get $4.00 added into their health savings account.” \n\nSome
+    parts of the healthcare industry seem to embrace the connected health journey
+    faster than others. “Companies like Walgreens are embracing this idea of taking
+    in wearables’ data and giving consumers something back in return. They are all
+    seeing improved outcomes as a result,” comments Dr. Kvedar. On the other end of
+    the adoption scale are doctors and hospitals. “Docs and hospitals are used to
+    making a living by taking care of sick people and we haven't quite figured out
+    how to reward clinicians for keeping people well or how to reward hospitals for
+    keeping people out of hospitals.” Those business model challenges are happily
+    being worked on,” Kvedar explains.\n \n##Roadblocks to interoperability \nEven
+    though the technology is just about there to enable connected health for consumers,
+    there are still major industry changes that need to occur in the area of interoperability.
+    \ Dr. Kvedar described these biggest impediments to interoperability:\n \n- **Proprietary
+    technology.** Interoperability doesn’t seem to be in anybody’s financial best
+    interests. Take a look at technology vendors, for example. “If you are an IT vendor,
+    almost all of them, up and down the stack, whether it's  telecom all the way down
+    to database, or even hardware, all of them want to bring you in and upsell you
+    new things. They can only upsell you if they build barriers to others entering
+    their space, and that means that they are doing something proprietary to keep
+    you as a customer,” explains Dr. Kvedar.\n- **Fear of losing patients.** On the
+    hospital side of things, resistance to interoperability is primarily driven by
+    the fear of losing patients to competitive hospitals. Dr. Kvedar comments, “From
+    a pure business perspective, why would my hospital want to make it easy for patients
+    to take their data to another hospital and get their care done there? To implement
+    interoperability costs a lot of money. If there's no revenue reward or efficiency
+    award on the business side, why would you do it?” Dr. Kvedar sees one possible
+    way hospitals might get on board with interoperability. “The only way I could
+    conceive of having interoperability become the norm is to have a demand from government
+    purchasers that if you are going to be a government contract, you have to have
+    a certain set of open standards. I don’t know if that will happen under a Trump
+    administration, but they certainly are signaling that they wouldn't view the world
+    that way. So, I don't see it happening soon, unfortunately.”\n \n##Wearables and
+    chronic illness management prevention\nWith the data available to consumers wearing
+    health technology devices, the potential exists for not only managing chronic
+    illnesses but also helping to prevent them. Dr. Kvedar cites two important considerations:\n\n-
+    **Wearables provide a feedback loop.** “I like to talk about conditions that don't
+    result in symptoms, like high blood pressure, high blood sugar, high cholesterol,
+    visceral fat — all of those which portend bad outcomes down the line and don't
+    really, on a day-to-day basis, make you feel particularly poorly. In that context,
+    you can think about connected health as feedback loops and motivation.” Wearables
+    provide feedback loops since they are giving you data about your life. With a
+    Fitbit, for example, if you haven’t hit your step goal for the day, you may be
+    motivated to walk on a treadmill in the evening.\n- **Raw numbers don’t always
+    motivate a lifestyle change.** The other part of making feedback useable is motivation.
+    “It turns out there's a bit of paradox at play. A big part of our population doesn’t
+    care about numbers. They care about other things. So if you are not a quantitative
+    person, or you are not particularly motivated to change whatever the feedback
+    loop is sending your way, it quickly becomes background noise,” Dr. Kvedar explains.
+    That could be why the market for wearables is seeing a decline in activity.\n\nHe
+    continues, “The good news is that there's a crop of devices coming out now in
+    the wearables space that give insights rather than just numbers. One of them is
+    the Spire device that tracks respiration but doesn't tell you your respiratory
+    rate; it tells you whether you’ve been focused or stressed because we breathe
+    differently under different conditions.” We may see a rebound in the wearables
+    market as data becomes more meaningful to people with insights rather than just
+    numbers.\n \n##How does all this data into a clinician’s workflow?\nClinicians
+    today are inundated with data, most of it today within the EHR. Clinicians spend
+    too much time clicking, finding, charting, and checking boxes to document the
+    in-person encounters or manage a workflow. It’s hard to imagine connected health
+    data fitting within the clinician's already data-heavy process. Dr. Kvedar suggests
+    this particular journey will unfold in two steps: \n \n1. **The current state:**
+    Innovation practices exist but are not mainstream. Dr. Kvedar sees connected health
+    in play today, but primarily in medical homes. “We have quite a few examples of
+    that in our system, where we are heavily at risk and a lot of our primary care
+    practices are patient centers or medical homes as part of our population health
+    management structure. In those practices, there is someone whose responsibility
+    is the burden of hypertension, just for instance. We will provide that person
+    with a home monitoring for hypertension toolset for the patients that are either
+    difficult to control or newly diagnosed. In any given practice it is not enough
+    of a burden if this one person, typically a nurse and sometimes a pharmacist,
+    is assigned the burden of data. It isn’t high enough that they can't afford to
+    get their work done. They check in a couple of times a week and the software flags
+    the patients that are out of parameter and makes it a little bit easier to sort
+    through. Then they involve a doctor if it is a medication change or something
+    that really needs a doctor's input.”\n2. **The future state commands an AI layer.**
+    \ Most industries today are already using intelligent analysis software and data
+    science that creates meaning and actionable information from a vast state of data.
+    Dr. Kvedar describes how this might take shape in healthcare. “We are really at
+    the beginning of a new era. Let's say someone has high blood pressure and you've
+    been tracking their blood pressure for the last two months. We should be able
+    to give you a dashboard view that shows what blood pressures are normal when they
+    go up, why they go up. Do they go up at night? Do they go up during the day? Do
+    they go up after a meal? That would give you some real insight into how to care
+    for that patient.”\n\nDr. Kvedar cautions that seeing this all become a reality
+    with physicians is dependent on solving more than just the problems of data overload
+    and dashboards. Here are two other important dependencies to be aware of.\n\n>\"If
+    you call it decision support, maybe you can sell it. Artificial Intelligence sounds
+    scary.\" - Dr. Kvedar\n\n- **The timing of value-based reimbursement.** “We sort
+    of had a rhythm going under the Obama Administration. Will that change? Not sure.
+    Medicare has produced a plan that 50% of payments by two years from now will be
+    value-based. So they seem to be on that curve. Many plans are now doing this but
+    the rate is to be determined. As that happens, the reason we did medical home
+    across our system is because of value-based payments and it makes much more sense
+    in that context.”\n- **Physician resistance to the idea of AI.** “On the one hand,
+    we do this in the EMR with decision support. So if you call it decision support,
+    maybe you can sell it. Artificial Intelligence sounds scary. It sounds like you
+    are trying to take my job away from me, so I think it is how you frame it. And,
+    of course, there's the liability issue that goes along with that and how you convince
+    docs into a state where they are not afraid they are going to get sued because
+    there was a data point that they didn't see that didn't go right in the algorithm.”
+    \n\n##How far off is the future? \nDr. Kvedar concludes, “The pieces of connected
+    health are here today, but we still have to put them together. Some of that will
+    be technical. A lot of it will be business model. Some of it is even societal.”\n\nMake
+    sure to listen to the [complete podcast interview with Dr. Kvedar](https://datica.com/innovation/joseph-kvedar/)
+    for many more insights about connected health, including a look at telemedicine
+    and artificial intelligence."
+  :featured_image:
+    :id: 2k2LHgR8XaqKusSaUeeE0y
+  :cta_ref:
+    :id: 64Hk6hz0aW2iik2IS8UqCK
+  :related_entries:
+  - :id: Vrmu0Devw2EqI4CmK8eWc
+  - :id: 5NH1yU9I1UaG6CEE62UM2o
+  :discovery_topic:
+    :id: 2GT6S0aIrCA46qmAySAYM0
+:discovery_topic:
+  :id: 6t94v6is9O4QmK6mEOCuoo
+  :_meta:
+    :content_type_id: discover
+    :updated_at: '2018-11-05T22:48:31+00:00'
+    :created_at: '2017-05-12T17:49:33+00:00'
+    :id: 6t94v6is9O4QmK6mEOCuoo
+  :title: EHR Integrations
+  :slug: ehr-integrations
+  :topic_tag:
+  - :id: qgckjVVwLQiyQcKsiyS6c
+  - :id: 6wXXHIJfUsMg62Cuwquoa2
+  :cta_ref:
+    :id: 5eA1ToAIEw4Qy20mkUmmcm
+  :summary: EHR systems are the hub of clinical data and clinical workflows in healthcare
+    today making EHR integrations, like HL7 and FHIR, an essential driver of healthcare
+    transformation. We break it down for you here.
+  :featured_image:
+    :id: 4BHvViIL7i6omyyOYy8MK2
+  :media_object: <script src="https://fast.wistia.com/embed/medias/0rr2p8xca5.jsonp"
+    async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+    class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div
+    class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+    class="wistia_embed wistia_async_0rr2p8xca5 seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  :topic_video:
+    :id: 4j00TFuRUkOUm6w22cUUog
+  :lead: "Like it or not, healthcare’s transition from a volume-based incentive model
+    to one of value is here. The current industry design is unsustainable given trends
+    towards increasing risk exposure and care provider liability. In response, new
+    value-based models have been enacted, including readmission prevention, accountable
+    care organizations, and bundled payment initiatives. To remain viable through
+    this shift, healthcare organizations need to alter their priority of care from
+    the provider to what truly matters — the patient. A reshaping foundation of incentives
+    coincides with billions of investment dollars from organizations to implement
+    electronic health record (EHR) systems, mainly due to the ramifications of the
+    HITECH Act and other legislative mandates. These EHR systems are the hub of clinical
+    data and clinical workflows today. \n\nUnfortunately, they are hubs siloed across
+    thousands of organizations, meaning that the critical health data is siloed away
+    as well, leaving it inactionable. The solution? Integration."
+  :body: "## What is EHR Integration?\n\n<div class=\"callout drop discover--body-callout
+    float-right-on-medium\" markdown=\"1\">\n\n### EHR Integration Resources\n* [Learn
+    how to sell to healthcare enterprises](https://datica.com/whitepapers/making-enterprise-healthcare-sales-easier/)\n*
+    [Watch Wayne Guerra, MD talk EHR Integration](https://datica.com/innovation/wayne-guerra-md-mba/)\n*
+    [Joel Vengco shares thoughts on integration](https://datica.com/innovation/joel-vengco/)\n*
+    [How to Integrate with Epic or any EHR](https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/)\n*
+    [Get the guide to integrating with hospitals](https://datica.com/guide/how-to-integrate-with-hospitals/)\n*
+    [Watch Robert Wachter, MD discuss EHRs in the digital age](https://datica.com/innovation/robert-wachter-md/)\n*
+    [Read Travis Good’s Thoughts on The Rise and Fall of the EHR](https://datica.com/blog/2017-healthcare-trends-part-three-the-rise-and-fall-of-the-ehr/)\n\n</div>\n\nEHR
+    integration is the partnership between providers, payers, vendors, and other players
+    that brings the data or function from one application or program to that of another.
+    Because of the sheer quantity and diversity of data, healthcare providers face
+    major obstacles in integrating and effectively analyzing healthcare information.
+    Traditional health IT systems, such as electronic health records and personal
+    health record (PHR) systems, utilize completely different technical and semantic
+    standards to depict and house data, and are based on exclusive technical architectures.
+    With all considered, it can be extremely difficult to properly and easily integrate
+    data from multiple, conflicting systems. \n\nData integration methods vary primarily
+    in the level on which they focus. \n\n### EHR Integration at the Application Level\nAt
+    the application level, integration involves integrating data from individual applications
+    by reimplementing them in one domain-wide application. \n\n### EHR Integration
+    at the API Level\nIn integration at the API level, applications expose their APIs
+    so that other applications can access their data. \n\n### EHR Integration at the
+    Data Level\nFinally, at the data level, integration establishes a common domain
+    archetype or global schema so that independently developed applications can exchange
+    information. Data-level integration has more development flexibility than the
+    others because it largely focuses on common exchange. \n\n## Why does EHR Integration
+    Matter?\nEHR integration matters because it is how healthcare moves forward. It
+    is the key to creating and improving advanced digital health applications. Integrating
+    healthcare data from a variety of providers and payers will explicitly improve
+    the current healthcare delivery model and extensive research efforts. Data integration
+    allows the unification of healthcare data that exists in various forms (structured
+    or unstructured) on different data storage systems such as relational database
+    management systems, file servers, and EHR standards, such as [HL7 messages](https://datica.com/academy/hl7-101-a-primer/).
+    \n\nTrue interoperability and successful Integrations will have a cornucopia of
+    benefits, such as a decrease in clinical errors, enhanced care coordination efforts,
+    and increased patient care endeavors. Long term, true integration allows for the
+    furthering of public health research opportunities and population surveillance
+    to identify real-time issues.\n\n\n## What is HL7?\n\n<div class=\"callout drop
+    discover--body-callout float-left-on-medium\" markdown=\"1\">\n\n### Basic HL7
+    Resources\n* [See How DocbookMD uses Datica for HL7 Integration]( https://datica.com/press-release/docbookmd-selects-catalyze-to-go-to-market-with-hl7-integration/)\n*
+    [Healthloop Gains Customer Trust with Datica’s HL7 Integration](https://datica.com/press-release/catalyze-hl7-integration-helps-healthloop-enhance-customer-trust/)\n*
+    [HL7 101: A Primer](https://datica.com/academy/hl7-101-a-primer/)\n* [The Anatomy
+    of an HL7 Message](https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/)\n*
+    [Admission Discharge Transfer ADT Message](https://datica.com/academy/hl7-201-the-admission-discharge-transfer-adt-message/)\n*
+    [The HL7 ACK Acknowledgment Message](https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/)\n*
+    [HL7 ORM Order Entry Message](https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/)\n*
+    [HL7 Scheduling Messages SIU and SRM](https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/)\n*
+    [HL7 MDM Medical Document Management Message](https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/)\n*
+    [HL7 ACK/NACK](https://datica.com/blog/hl7-ack-nack/)\n\n</div>\n\nHealth Level
+    Seven (HL7) is a not-for-profit organization that created a set of standards to
+    ensure information unity and validity when sharing data across health information
+    exchanges or between healthcare systems, such as, in messaging applications.\n
+    \nThese standards, simply referred to as HL7, define how messages are sent from
+    one party to another, setting the language, structure, and data types required
+    for seamless integration between systems. \n\nTo foster adoption of common data
+    exchange to meet the mandates of federally enacted programs, the HL7 Organization
+    offers completely free access to their standards. HL7’s C-CDA is a library of
+    templates that help enable data exchange needed for EHR Integrations. Various
+    types fall under the C-CDA but they all provide a common format to assist in health
+    data exchange. This library contains nine templates, each of which has defined
+    sections to harmonize the data across systems. \n\n## What is FHIR?\nFast Healthcare
+    Interoperability Resources (FHIR) is the emerging interoperability standard evolved
+    from HL7 by Grahame Grieve and the HL7 organization. It describes data formats
+    and elements (known as resources) and a RESTful API for data exchange.\n\n<div
+    class=\"callout drop discover--body-callout float-right-on-medium\" markdown=\"1\">\n\n###
+    Essential FHIR Resources\n* [A Guide to FHIR](https://datica.com/guide/fhir/)\n*
+    [Listen to Grahame Grieve in this 3-Part Podcast](https://datica.com/innovation/grahame-grieve-pt1/)\n*
+    [Introduction to FHIR](https://datica.com/academy/introduction-to-fhir/)\n* [A
+    Guide to FHIR for Health Systems](https://datica.com/guide/fhir-for-health-systems/)\n*
+    [FHIR API Implementation Principles](https://datica.com/academy/recommended-fhir-api-implementation-principles/)\n*
+    [FHIR is no Longer Just a Concept](https://datica.com/blog/fhir-is-no-longer-just-a-concept/)\n*
+    [The FHIR Resource Object](https://datica.com/academy/the-fhir-resource-object-the-core-building-block/)\n\n</div>\n\n##
+    Why use FHIR for EHR Integrations?\n\n### FHIR is Open Sourced\nFHIR is open sourced,
+    making it open to everyone in the industry to participate. It also takes many
+    of the learnings from earlier versions of HL7 and incorporates some of those models
+    into it. \n\n### RESTful APIs are Easier\nRESTful APIs and accompanying documentation
+    will make it much easier for developers and applications to quickly connect and
+    get the data needed. \n\n### FHIR Helps Make EHR Integrations Less Expensive\nFHIR
+    solutions are built from a set of modular components called “Resources.” These
+    resources can easily be assembled into working systems that solve real world clinical
+    and administrative problems at a fraction of the price of existing alternatives.
+    \n\n### FHIR is Flexible\nFHIR is suitable for use in a wide variety of contexts
+    – mobile phone apps, cloud communications, EHR-based data sharing, server communication
+    in large institutional healthcare providers, and much more.\n\nThe key to enabling
+    healthcare organizational transformation is unlocking EHR data to make it easier
+    to integrate with. The industry has been focused on interoperability for the reason
+    that being able to access the aggregated data is the only way to move from documentation
+    tools to innovative care delivery models. An open data standard, such as FHIR,
+    and a single implementation of the standard in a centralized data hub is the most
+    efficient way to move the needle on data accessibility and represents the future
+    of EHR Integrations."
+  :related_webinar:
+  - :id: O5XY3cExskYckGGkIYyY0
+  :related_blog:
+  - :id: 1DoTDGEl56s6kmug8SI8K2
+  - :id: 3FD2e0iJbi2MqAgMESoAgy
+  - :id: 4uxNRZK3gIEeGy8EkEwWYa
+  - :id: 6AvOPfecko4wYAqcKM8Imo
+  - :id: 5Njtz00l5CgCeeCao4YgqC
+  - :id: 2MRwxIRpbGqMuCM8geQ6wo
+  - :id: 5iYx4I220MaWgac0gAsQAo
+  - :id: 4AznnGBn9SEs6kAyyuCmIW
+  - :id: 79e4rnBGHC2YgmKqu8QuwA
+  :related_academy:
+  - :id: 1t2mQms18kgiecSMeSeCCW
+  - :id: 1wWbjWNWOQygO2EaESEOeq
+  - :id: 3lJNN0q4FWgqoYWGGWKGUg
+  - :id: 52med8hyLYW8ewGyymYqUS
+  - :id: AvBgV9bjDEiuCC4o4EsuW
+  - :id: 743EW7O6qW84osGkC4Qsum
+  - :id: 6NFTXJHWo0w860EGKA2EQC
+  - :id: iUK3rg26hqUEIsiuAIQou
+  - :id: 4T8HPfQfS8gO8qGwS6GSmu
+  - :id: 5rGPP6NnIkkkSmsEsyIiUe
+  - :id: 5hxMqchtYWC2qU0uMWy4gW
+  :related_podcast:
+  - :id: 4IatwB48QwkceQGoUQqEIa
+  - :id: 7rDFIxHDQQ6eWG6cAYcAWy
+  - :id: 5So8rOpgA0KeCkaWQM2wqI
+  - :id: 3LD5X2LY3KYK4yamK2WWCC
+  - :id: 321isZHL3aSk0eOg0ykogU
+  - :id: 3nTCDhpkl2sKAS8A82gc0m
+  - :id: 5hmkcBqTqo4g6usUGK6IGu
+  :related_guides:
+  - :id: wSUz5LDXA4Uu42OqwQ8AM

@@ -1,0 +1,84 @@
+---
+:id: 77OvVbRSnKOGOGqac2KyYy
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T22:18:33+00:00'
+  :created_at: '2016-11-23T22:18:33+00:00'
+  :id: 77OvVbRSnKOGOGqac2KyYy
+:title: Catalyze Policies - Ready For Deployment
+:slug: catalyze-policies-ready-for-deployment
+:pub_date: !ruby/object:DateTime 2015-07-15 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+- :id: 1rsUh5OdtWEgi24qakiGO0
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T19:24:08+00:00'
+    :created_at: '2016-11-23T19:24:08+00:00'
+    :id: 1rsUh5OdtWEgi24qakiGO0
+  :tag_full: Open Source
+  :slug: open-source
+  :description: Open Source Software (OSS) is critical to how we do business.
+:categories_blog: company
+:author:
+  :id: 2B98PdoITGQAYwcWk2muY4
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-03-23T17:46:35+00:00'
+    :created_at: '2016-11-23T22:06:24+00:00'
+    :id: 2B98PdoITGQAYwcWk2muY4
+  :fullname: Ryan Rich
+  :slug: ryan-rich
+  :person_type: Datica Executives
+  :sort_weight: 6
+  :role: Chief Product Officer
+  :profile_pic:
+    :id: 3GcDOA2BOMoSYCGwuEMcqI
+  :email: ryan@datica.com
+  :bio_short: 'Ryan hails from the agency world, where in Washington D.C. he worked
+    with some of the greatest global brands including Audi, Volkswagen and Ducati.  '
+  :bio: |-
+    Before that, he co-founded an edTech startup in Rochester, NY, which helped public schools save time and money by replacing archaic grading machines with standard printers. His application leveraged optical character recognition technology to standardize and grade multiple choice tests.
+
+    Ryan studied design and engineering at R.I.T. where he focused his education on building usable, accessible software. Originally from the corn fields of Upstate New York, he now resides in Portland, OR.
+  :profile_twitter: _ryanSrich
+  :location:
+    :lat: 45.5230622
+    :lon: -122.67648159999999
+:summary: When we first open-sourced our policies we were not expecting to be enamored
+  with such praise.
+:blog_lead: 'As a continuous effort in helping our loyal customers handle compliance
+  with ease, we have created a deployable version of our widely popular open-source
+  compliance policies. [Grab a copy for yourself here.](https://github.com/catalyzeio/policies-deployable)
+
+'
+:post: |+
+  When we first open-sourced our policies we were not expecting to be enamored with such praise. It's not everyday that you woo the [hacker crowd](https://news.ycombinator.com/item?id=8461078) with a long list of markdown files. However we were excited when we started seeing the number of stars and forks on GitHub rise and rise. Today we're excited to announce a new step in bringing our policies to your compliance efforts. We've officially launched a deployable version of our compliance policies!
+
+  To help you get setup we've created a short tutorial that should have you up and running in no time. That can found [here](https://github.com/catalyzeio/policies-deployable/wiki/Getting-Started-Tutorial).
+
+  As always we're here to help. If you have any questions in regards to our policies feel free to reach out directly to us at [hello@catalyze.io](mailto:hello@catalyze.io).
+
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

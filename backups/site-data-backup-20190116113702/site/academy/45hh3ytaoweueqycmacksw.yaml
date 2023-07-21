@@ -1,0 +1,166 @@
+---
+:id: 45hh3YTAoweueQYcmaCKsW
+:_meta:
+  :content_type_id: academy
+  :updated_at: '2018-07-19T00:19:18+00:00'
+  :created_at: '2018-02-09T01:08:40+00:00'
+  :id: 45hh3YTAoweueQYcmaCKsW
+:title: 'GxP and Business Associates: Does it exist like HIPAA?'
+:slug: gxp-and-business-associates-does-it-exist-like-hipaa
+:pub_date: !ruby/object:DateTime 2018-02-08 00:00:00.000000000 Z
+:author:
+  :id: 3azwOe9v3O4YSuyU0gsuo6
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2018-09-17T19:46:46+00:00'
+    :created_at: '2016-11-23T18:41:26+00:00'
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :fullname: Kris Gösser
+  :slug: kris-gosser
+  :person_type: Datica Executives
+  :sort_weight: 7
+  :role: Chief Marketing Officer
+  :profile_pic:
+    :id: 2wn0ehWl28Iy4IKmg4YKsu
+  :email: kris@datica.com
+  :bio_short: Kris leads a team focused on communicating Datica's story and brand
+    to the industry. He contributes to revenue growth by managing Datica's inbound
+    marketing processes, and guides Datica's broad content creation efforts throughout
+    the customer lifecycle.
+  :bio: "Prior to Datica Kris was VP of Product for an enterprise voice telephony
+    company. The combination of internally- and externally-focused leadership roles
+    has helped shaped his holistic view on product/market fit. He believes in the
+    importance of sitting at the intersection of business, technology, and human-centered
+    design to craft empathetic products for markets in need.\n\nWith his co-author
+    [Travis Good, MD](/about/travis), Kris recently released his first book, [Complete
+    Cloud Compliance](https://completecloudcompliance.com). "
+  :profile_linkedin: kgosser
+  :location:
+    :lat: 47.6062095
+    :lon: -122.3320708
+:tags:
+- :id: 46srurONA4UMuqge4Eek4S
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2018-02-09T00:57:05+00:00'
+    :created_at: '2018-02-09T00:57:05+00:00'
+    :id: 46srurONA4UMuqge4Eek4S
+  :tag_full: GxP
+  :slug: gxp
+  :description: Good practice guidelines for pharma by the FDA.
+  :body: GxP stands for "Good Practice" and is a set of operational controls for Life
+    Sciences organizations working within the confines of the FDA.
+:summary: 'GxP does not have the concept or BAAs or contracts that outline risk like
+  HIPAA does. There is no concept of inheritance or chaining liability. Learn more
+  here. '
+:lead: |+
+  A Business Associate is a vendor who works with a Covered Entity within the terms set forth by HIPAA. A [Business Associate Agreement](https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/), or BAA, is the contract between parties who handle Protected Health Information, or PHI.
+
+  The intent of a BAA is to outline ownership of risk and liability as defined by HIPAA. A chain of risk is then created as BAs sign BAAs with other Subcontractor BAs.
+
+:post: |2
+
+  GxP does not have the concept or BAAs or contracts that outline risk. There is no concept of inheritance or chaining liability.
+
+  The reason stems from a topic we discussed in [our GxP primer](https://datica.com/academy/what-is-gxp/): GxP isn't a government regulation with defined vocabulary or mandated procedures, like [HIPAA](https://datica.com/discover/hipaa-compliance/) or [GDPR](https://datica.com/discover/gdpr/). Instead, GxP is an industry-accepted understanding of NIST standards adopted by the FDA in [CFR Title 21 Chapter 11](https://www.microsoft.com/en-us/trustcenter/compliance/fda).
+
+  Nowhere are BAAs or other contracts outlined. There is no risk passed down via GxP.
+
+  Instead, when a cloud service provider, like Datica, claims GxP compliance, they are claiming that they have been audited against the interpretations of FDA guidelines. Whatever relationships that business has with its partners — like Datica with AWS or Microsoft Azure — is immaterial. For example, a customer of Datica is only concerned if Datica itself is GxP compliant; contrast this to HIPAA, where a customer of Datica is also concerned what BAA inheritance Datica has with its partners.
+:related_guide:
+  :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :_meta:
+    :content_type_id: guides
+    :updated_at: '2018-06-05T18:09:40+00:00'
+    :created_at: '2018-04-03T19:32:22+00:00'
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :title: GDPR Compliance Guide
+  :slug: gdpr-compliance
+  :summary: This guide to GDPR for the healthcare industry will prepare you to do
+    business in the EU and understand how to handle PHI of EU citizens. With Datica,
+    you’ll be ready when GDPR takes effect on May 25, 2018.
+  :subhead: GDPR Compliance in Healthcare
+  :tags:
+  - :id: 15gxB6GioeIuKGKMSmwiS2
+  - :id: 9hLuri8gRGWUksIiIQg8y
+  - :id: 1wY9bJEWnCwCyqcE2kCiuy
+  :desc: This guide to GDPR for the healthcare industry will prepare you to do business
+    in the EU and understand how to handle PHI of EU citizens. With Datica, you’ll
+    be ready when GDPR takes effect on May 25, 2018.
+  :authors:
+  - :id: 1gpUmvd6yuOKUIUIY620i0
+  - :id: rVZcG8ORWKg8o4EIuqQ8a
+  :guide_text: |-
+    This guide will help you understand the General Data Protection Regulation, the much anticipated new European Union (EU) security and privacy framework that goes into effect on May 25th, 2018. If you do anything with EU citizen healthcare data, then you are at risk of significant penalties for violations. We'll help you understand GDPR and more of the following:
+
+    * What is the GDPR?
+    * How does GDPR compare to HIPAA?
+    * Does the GDPR apply to cloud service providers?
+    * What is a GDPR data breach?
+    * GDPR Data Breach Notification Checklist
+    * How much are the GDPR Fines and Penalties?
+    * What if you transfer data outside of the EU?
+    * Is Datica GDPR Compliant?
+  :related_form:
+    :id: 3ZVjq51LUka6K66WSeaag4
+  :form_id: get-your-gdpr-guide
+  :bg_image:
+    :id: 5W3IHiE20o2u0awEYO6Yu6
+  :image_thumb:
+    :id: 1YdgcwP4nW4CoW6yOQ4Ami
+  :share_image:
+    :id: 5eJe16wpUc4uGsSOiOQGKQ
+  :discovery_topic:
+    :id: 6yNMzCKn84Q4qIsm0sWmUy
+:related_entries:
+- :id: 2aVxbQ5VAoqmKkQksiQSCA
+  :_meta:
+    :content_type_id: academy
+    :updated_at: '2018-07-19T00:28:02+00:00'
+    :created_at: '2018-02-09T01:00:06+00:00'
+    :id: 2aVxbQ5VAoqmKkQksiQSCA
+  :title: What is GxP?
+  :slug: what-is-gxp
+  :pub_date: !ruby/object:DateTime 2018-02-08 00:00:00.000000000 Z
+  :author:
+    :id: 3azwOe9v3O4YSuyU0gsuo6
+  :tags:
+  - :id: 46srurONA4UMuqge4Eek4S
+  :summary: GxP stands for "Good Practice" and is a set of operational controls for
+    Life Sciences organizations working within the confines of the FDA. Learn more
+    about GxP compliance.
+  :lead: |-
+    GxP stands for "Good Practice" and is a set of operational controls for Life Sciences organizations working within the confines of the FDA.
+
+    The FDA publishes its regulations on the back of NIST, which is why GxP largely follows NIST standards. There is no one authoritative documentation source for GxP, like we have the [2013 Omnibus for HIPAA](https://datica.com/discover/hipaa-compliance/) or Articles from the European Union on [GDPR](https://datica.com/discover/gdpr/). Instead, GxP is an industry-accepted definition of best practices mapped to FDA regulations.
+  :post: |
+    ## GxP Compliance
+
+    In many ways, GxP is where HIPAA was mid-2000s before [HITRUST](https://datica.com/discover/hitrust/) came along. Back then, HIPAA compliance was mostly whatever someone wanted to claim it was. "HIPAA Compliance" meant one lawyer's word against another. It's why business deals took six months just to get past the "But are you HIPAA compliant?" stage. Hundreds of consultants, auditors, and lawyers defined what they believed HIPAA compliance to be, and proceeded to use that as their definition for their jobs. You can imagine why HIPAA has been a mess for a long time. This is why HITRUST is such a boon: The industry is finally agreeing to a certified definition, which accelerates the 20-year-old mating dance.
+
+    GxP is still in that situation. There is no certifying body to GxP compliance, so it's whatever someone wants to claim it to be.
+
+    ## eCFR — (Electronic) Code of Federal Regulations
+
+    The basis of cloud-based GxP audits stems from [CFR Title 21 Chapter 11](https://www.ecfr.gov/cgi-bin/text-idx?SID=d4649e96a61f20151121c218b3fec507&mc=true&node=pt21.1.11&rgn=div5). CFR Title 21 is intended for the FDA, and Chapter 11 scopes to electronic records. When a cloud services provider—like Datica—claims to be GxP compliant, the company is claiming that they were audited against an interpretation of CFR Title 21 Chapter 11.
+
+    The bulk of the controls in a GxP audit are administrative and not technical. Whereas HIPAA, and HITRUST in particular, get very deep in the weeds of encryption, intrusion detection, and so on, GxP focuses mostly at processes and procedures to ensure quality.
+  :related_guide:
+    :id: 6ZjDEiocKI20ssIM4Eu4UO
+  :related_entries:
+  - :id: 45hh3YTAoweueQYcmaCKsW
+  - :id: 5Eape5yb0k0SGOu2Asw0ss
+  :cta_ref:
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+:cta_ref:
+  :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2018-07-13T02:09:08+00:00'
+    :created_at: '2018-07-13T02:09:08+00:00'
+    :id: 6fm8uDgwG4eaQ2mQUUuSMQ
+  :cta_title: Compliance Self Assessment Worksheet
+  :cta_desc: Get the cloud compliance self-assessment worksheet.
+  :cta_url: https://content.datica.com/hipaa-hitrust-self-assessment
+  :cta_image:
+    :id: 3GFngpya9a2UqWKiwWosu

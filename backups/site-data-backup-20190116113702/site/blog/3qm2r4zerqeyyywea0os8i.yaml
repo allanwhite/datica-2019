@@ -1,0 +1,93 @@
+---
+:id: 3qm2R4zERqEYYYweA0os8i
+:_meta:
+  :content_type_id: blog
+  :updated_at: '2016-11-23T06:54:08+00:00'
+  :created_at: '2016-11-23T06:54:08+00:00'
+  :id: 3qm2R4zERqEYYYweA0os8i
+:title: Accountable Care Organizations & Population Health Management
+:slug: accountable-care-organizations-and-population
+:pub_date: !ruby/object:DateTime 2014-02-03 00:00:00.000000000 Z
+:tags:
+- :id: 7befKoeN9uMUqUGYiKOaeO
+  :_meta:
+    :content_type_id: tags
+    :updated_at: '2016-11-23T01:12:30+00:00'
+    :created_at: '2016-11-23T01:12:30+00:00'
+    :id: 7befKoeN9uMUqUGYiKOaeO
+  :tag_full: Company
+  :slug: company
+  :description: General company-related content.
+:categories_blog: company
+:author:
+  :id: 3VJKuWDfPak8w26k0g0Kw0
+  :_meta:
+    :content_type_id: person
+    :updated_at: '2017-12-18T19:17:45+00:00'
+    :created_at: '2016-08-13T21:29:11+00:00'
+    :id: 3VJKuWDfPak8w26k0g0Kw0
+  :fullname: Mohan Balachandran
+  :slug: mohan
+  :person_type: Datica Alumni
+  :sort_weight: 15
+  :role: Co-Founder
+  :profile_pic:
+    :id: 2xzeMZo9aYQQQk6KiqiOsG
+  :featured_image:
+    :id: CS8bxIeXmg4kSSi6iOSwo
+  :bio_short: |-
+    Mohan is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica with Travis to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities.
+
+    Before founding Datica, Mohan worked within supply chain management and master data management. After securing degrees from IIT Bombay and University of Pennsylvania, he worked with Fortune 100 companies developing solutions for their supply chain and data management needs. From there, he applied lessons learned to healthcare at US Oncology (now part of McKesson) and Net.Orange (now part of NantHealth).
+
+    Mohan moved into multi-platform development after seeing first-hand the challenges of an emerging mobile economy. He is a YCombinator Summer 2012 alum. He has presented at various HIMSS and AHIP sessions, and is a noted speaker about compliance at healthcare events.
+  :profile_twitter: mohan2020
+  :profile_linkedin: mohanbalachandran
+  :profile_url: https://datica.com/mohan
+  :location:
+    :lat: 37.7749295
+    :lon: -122.41941550000001
+:summary: Look for partnerships and potentially mergers and acquisition activities
+  as vendors look to get an edge in this burgeoning market.
+:blog_lead: 'I read [this](http://www.triple-tree.com/blog/2014/01/08/provider-based-population-health-management-who-is-going-to-manage-the-population/)
+  post by [Jason Grais](http://www.triple-tree.com/our_team/professionals/jason-grais)
+  over at [Triple Tree](http://www.triple-tree.com/) a few days ago and was really
+  struck by it. So much so, that I wanted to expound on it some more. The key points
+  in there that really struck me were that (and I''m paraphrasing here):
+
+'
+:post: "\r\n- Provider organizations have the knowledge and experience to manage downside
+  risk i.e. to manage \"not-to-exceed\" risk contracts or cost control. This would
+  be done as much as possible via legal means (contract exceptions etc.), guidelines
+  definitions and adherence, case management etc.\r\n- The flip side - maximizing
+  profit while ensuring population health is **not** something that most providers
+  in healthcare have any significant experience with. This combination of risk management,
+  patient engagement, wellness management and adherence (guidelines, medications)
+  is a difficult effort and needs (that overused maxim of) \"a combination of people,
+  process and technology\".\r\n\r\nAnd therein lies the $500 million problem / opportunity
+  (given the rate at which these risk based plans are being proposed / adopted). Which
+  is also why population health management is **hot** right now with multiple companies
+  - small, medium and large entering into the space, each with their set of buzzwords
+  (big data, predictive analytics and so on).\r\n\r\nAsk healthcare executives about
+  their plans and what seems to come out is a combination of:\r\n\r\n- Pilots with
+  vendors;\r\n- Struggling with two way EMR integration;\r\n- Expansion of case management
+  teams: again in pilot deployments as the payments aspect is yet to be finalized
+  broadly;\r\n- Creation of provider advisory groups to understand the impact on physician
+  and nursing staff;\r\n\r\n**Our prediction?** Look for partnerships and potentially
+  mergers and acquisition activities as vendors look to get an edge in this burgeoning
+  market.\r\n\r\nWhat do you guys think?\r\n"
+:cta_ref:
+  :id: wWsIbfCLjasGCy6cKeO86
+  :_meta:
+    :content_type_id: cta
+    :updated_at: '2017-09-12T17:30:49+00:00'
+    :created_at: '2016-11-18T17:44:06+00:00'
+    :id: wWsIbfCLjasGCy6cKeO86
+  :cta_title: Subscribe to our newsletter
+  :cta_desc: Subscribe to the Datica newsletter today.
+  :cta_label: Subscribe to the Datica newsletter
+  :cta_url: https://datica.com/go/subscribe
+  :cta_svg_icon:
+    :id: pkHiujpOgKQe0kE4i6cIY
+  :cta_icon: "/public/icons/material/ic_email_48px.svg"
+  :cta_color: dark

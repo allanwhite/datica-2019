@@ -1,0 +1,13 @@
+---
+:id: 5CHh36BMnCgAEOwAYGIIOo
+:_meta:
+  :content_type_id: features
+  :updated_at: '2018-08-07T02:45:07+00:00'
+  :created_at: '2018-05-09T21:45:22+00:00'
+  :id: 5CHh36BMnCgAEOwAYGIIOo
+:title: Logging
+:slug: phi-ready-logging
+:category: Core Compliance
+:feature_status: Current
+:summary: Logging is a central component of managing compliance in the cloud. Datica
+  deploys an Elasticsearch, FluentD and Kibana (EFK) stack with all clusters.
